@@ -8738,6 +8738,263 @@ msgstr "Téléchargement Actifs"
 msgid "Add Component:"
 msgstr "Ajouter un composant :"
 
+#: common/templates/js/discussion/thread-show.underscore
+msgid "This post is visible only to %(group_name)s."
+msgstr "Ce message est visible seulement par %(group_name)s."
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "This post is visible to everyone."
+msgstr "Ce message est visible par tous."
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "%(post_type)s posted %(time_ago)s by %(author)s"
+msgstr "%(post_type)s posté %(time_ago)s par %(author)s"
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "Pinned"
+msgstr "Épinglé"
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "Reported"
+msgstr "Reporté"
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "Closed"
+msgstr "Fermé"
+
+#: common/templates/js/discussion/thread-show.underscore
+msgid "(this post is about %(courseware_title_linked)s)"
+msgstr "(Ce message est à propos de %(courseware_title_linked)s)"
+
+#: lms/templates/dashboard/donation.underscore
+msgid "Donate"
+msgstr "Faire un don"
+
+#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
+msgid "Add a New Cohort Group"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
+msgid "New Cohort Name"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "(Required Field)"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
+msgid "Enter Your New Cohort Group's Name"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Students are added to this group only when you provide their email addresses"
+" or usernames on this page."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "What does this mean?"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Students are added to this group automatically."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Edit settings in Studio"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Add students to this cohort group"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Note: Students can only be in one cohort group. Adding students to this "
+"group overrides any previous group assignment."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Enter email addresses and/or usernames separated by new lines or commas for "
+"students to add. *"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"You will not get notification for emails that bounce, so please double-check"
+" spelling."
+msgstr ""
+"Vous ne recevrez pas de notification pour les e-mails rejetés, donc soyez "
+"doublement attentif à l'orthographe."
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Add Students"
+msgstr "Ajouter des étudiants"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
+msgid "Select a cohort group"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
+msgid "%(cohort_name)s (%(user_count)s)"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Cohort Management"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Select a cohort group to manage"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "View Cohort Group"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid ""
+"To review all student cohort group assignments, download course profile "
+"information on %(link_start)s the Data Download page. %(link_end)s"
+msgstr ""
+
+#: lms/templates/student_account/access.underscore
+msgid "Welcome!"
+msgstr ""
+
+#: lms/templates/student_account/access.underscore
+msgid "Log in or register to take courses from the world's best universities."
+msgstr ""
+
+#: lms/templates/student_account/access.underscore
+msgid ""
+"Sorry, we're having some technical problems. Wait a few minutes and try "
+"again."
+msgstr ""
+
+#: lms/templates/student_account/access.underscore
+#: lms/templates/student_account/access.underscore
+msgid "I am a new user"
+msgstr ""
+
+#: lms/templates/student_account/access.underscore
+msgid "I am a returning user"
+msgstr ""
+
+#: lms/templates/student_account/account.underscore
+msgid "New Address"
+msgstr ""
+
+#: lms/templates/student_account/account.underscore
+msgid "Password"
+msgstr "Mot de passe"
+
+#: lms/templates/student_account/account.underscore
+msgid "Change My Email Address"
+msgstr ""
+
+#: lms/templates/student_account/account.underscore
+#: lms/templates/student_account/password_reset.underscore
+msgid "Reset Password"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Forgot password?"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid ""
+"You've successfully logged into %(currentProvider)s, but your "
+"%(currentProvider)s account isn't linked with an %(platformName)s account. "
+"To link your accounts, go to your %(platformName)s dashboard."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "We couldn't log you in."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "Log in"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "Log in using %(name)s"
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid ""
+"Enter the email address you used to create your account. We'll send you a "
+"link you can use to reset your password."
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "An error occurred."
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Reset password"
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Password Reset Email Sent"
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid ""
+"We've sent instructions for resetting your password to the email address you"
+" provided."
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "You've successfully logged into %(currentProvider)s."
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "Register using %(name)s"
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "We couldn't complete your registration."
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "Register"
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "Required field"
+msgstr ""
+
+#: lms/templates/student_profile/profile.underscore
+msgid "Full Name"
+msgstr "Nom complet"
+
+#: lms/templates/student_profile/profile.underscore
+msgid "Preferred Language"
+msgstr "Langue préférée"
+
+#: lms/templates/student_profile/profile.underscore
+msgid "Update Profile"
+msgstr ""
+
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 #: cms/templates/js/add-xblock-component-menu.underscore
 #, python-format
@@ -9994,6 +10251,10 @@ msgstr ""
 #: cms/templates/js/programs/program_details.underscore
 msgid "Add a course"
 msgstr ""
+
+#: cms/templates/js/video/metadata-translations-item.underscore
+msgid "Remove"
+msgstr "Enlever"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Add URLs for additional versions"
