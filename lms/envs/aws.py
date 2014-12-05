@@ -72,10 +72,10 @@ CELERY_RESULT_BACKEND = 'djcelery.backends.cache:CacheBackend'
 
 # When the broker is behind an ELB, use a heartbeat to refresh the
 # connection and to detect if it has been dropped.
-##### EDULIB
+#####EDULIB
 #####BROKER_HEARTBEAT = 60.0
 BROKER_HEARTBEAT = 0
-##### EDULIB
+#####EDULIB
 BROKER_HEARTBEAT_CHECKRATE = 2
 
 # Each worker should only fetch one message at a time
