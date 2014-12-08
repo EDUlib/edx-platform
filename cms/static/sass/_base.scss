@@ -19,7 +19,9 @@
 // * +JS Dependent
 
 // +Basic Setup
-// ====================
+// ==================== 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&subset=latin,latin-ext);
+
 html {
   font-size: 62.5%;
   height: 102%; // force scrollbar to prevent jump when scroll appears, cannot use overflow because it breaks drag
@@ -36,7 +38,7 @@ body {
 body,
 input,
 button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'PT Sans', 'Open Sans', sans-serif;
 }
 
 // removing the outline on any element that we make programmatically focusable
