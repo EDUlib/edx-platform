@@ -31,8 +31,12 @@ $fg-max-width: 1280px;
 $fg-min-width: 900px;
 
 // +Fonts
-// ====================
-$f-sans-serif: 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+// ==================== 
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&subset=latin,latin-ext);
+
+$f-serif: 'Bree Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
+$f-sans-serif: 'PT Sans', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$f-decorative: '';
 $f-monospace: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
 
 // +Colors - Utility
