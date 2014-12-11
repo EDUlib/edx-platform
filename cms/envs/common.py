@@ -126,6 +126,10 @@ SECRET_KEY = 'dev key'
 STUDIO_NAME = "Studio"
 STUDIO_SHORT_NAME = "Studio"
 FEATURES = {
+    'DISABLE_COURSE_CREATION': True,
+
+    'USE_DJANGO_PIPELINE': True,
+
     'GITHUB_PUSH': False,
 
     # for consistency in user-experience, keep the value of the following 3 settings
