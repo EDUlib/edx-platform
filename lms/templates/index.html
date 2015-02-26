@@ -72,6 +72,7 @@ from openedx.core.djangolib.markup import HTML, Text
         <section class="courses">
             <ul class="courses-listing">
             %for course in courses:
+            %for course in sorted(courses, key=lambda course: (course.start is None, course.start)):
                 % if not course.has_ended():
                    <li class="courses-listing-item">
                       <%include file="course.html" args="course=course" />
