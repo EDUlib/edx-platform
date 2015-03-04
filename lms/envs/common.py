@@ -284,7 +284,7 @@ FEATURES = {
     'ENABLE_EDXNOTES': False,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Organizations application flag
     'ORGANIZATIONS_APP': False,
@@ -368,6 +368,9 @@ FEATURES = {
 
     # Set this to False to facilitate cleaning up invalid xml from your modulestore.
     'ENABLE_XBLOCK_XML_VALIDATION': True,
+
+    # Entrance exams feature flag
+    'ENABLE_ENTRANCE_EXAMS': True,
 }
 
 # Ignore static asset files on import which match this pattern
