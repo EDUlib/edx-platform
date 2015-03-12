@@ -144,6 +144,33 @@ from pipeline_mako import render_require_js_path_overrides
         <%include file="${static.get_template_path('footer.html')}" />
     % endif
 
+    #### nouveau code cypress 
+    ####% if not disable_footer:
+    ####    <%block name="footer">
+    ####      ## Can be overridden by child templates wanting to hide the footer.
+    ####      % if theme_enabled() and not is_microsite():
+    ####        <%include file="theme-footer.html" />
+    ####      % elif settings.FEATURES.get('IS_EDX_DOMAIN', False) and not is_microsite():
+    ####          <%include file="footer-edx-v3.html" />
+    ####      % else:
+    ####        <%include file="${microsite.get_template_path('footer.html')}" />
+    ####      % endif
+    ####    </%block>
+    ####% endif
+    #### nouveau code cypress 
+    <%block name="footer">
+      ## Can be overridden by child templates wanting to hide the footer. 
+      <%
+        ##if theme_enabled() and not is_microsite():
+        ##  footer_file = 'theme-footer.html'
+        ##elif settings.FEATURES.get('IS_EDX_DOMAIN', False) and not is_microsite():
+        ##  footer_file = microsite.get_template_path('footer-edx-new.html')
+        ##else:
+          footer_file = microsite.get_template_path('footer.html')
+      %>
+      <%include file="${footer_file}" />
+    </%block>
+
 % if not disable_window_wrap:
   </div>
 % endif
