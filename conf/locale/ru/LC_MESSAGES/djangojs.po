@@ -10471,6 +10471,7 @@ msgstr ""
 "Это короткое обозначение типа задания (например, ДЗ или Экз) используется на"
 " диаграмме достижений слушателя на странице «Прогресс»."
 
+#. PM-03
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
 msgstr "Вес итоговой оценки"
@@ -10556,6 +10557,7 @@ msgstr ""
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr "укажите название/заголовок главы для перемещения между главами"
 
+#. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
 msgstr "Актив главы"
