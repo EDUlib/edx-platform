@@ -8115,9 +8115,10 @@ msgid ""
 " next to assignments on a learner's Progress page."
 msgstr ""
 
+#. PM-03
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
-msgstr ""
+msgstr "Poids de la Note Totale" 
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid ""
@@ -8191,9 +8192,10 @@ msgstr ""
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr ""
 
+#. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
-msgstr ""
+msgstr "Ressource du chapitre"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "upload a PDF file or provide the path to a Studio asset file"
