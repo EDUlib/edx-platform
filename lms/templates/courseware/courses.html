@@ -1,7 +1,15 @@
 <%!
   import json
   from django.utils.translation import ugettext as _
+##### EUCALYPTUS CODE
   from openedx.core.djangolib.js_utils import dump_js_escaped_json
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+  from microsite_configuration import microsite
+  from openedx.core.lib.js_utils import escape_json_dumps
+  from xmodule.modulestore.django import modulestore
+  from xmodule.contentstore.django import contentstore
+##### DOGWOOD CODE
 %>
 <%inherit file="../main.html" />
 <%
@@ -38,7 +46,6 @@
     logo_alt_text = "Stanford Seal Logo"
 
   else:
-    logo_alt_text = "Stanford Seal Logo"
     course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
 
     if settings.FEATURES.get('IS_EDX_DOMAIN', False):
@@ -47,8 +54,11 @@
     else:
       default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
-  logo_file = microsite.get_value(
-    'course_index_overlay_logo_file', settings.STATIC_URL + 'images/edulib_nb.png')
+    logo_file = microsite.get_value(
+      'course_index_overlay_logo_file', default_image_url
+    )
+
+    logo_alt_text = _("{platform_name} Logo").format(platform_name=platform_name)
 %>
 
 ##### EUCALYPTUS CODE
@@ -82,11 +92,7 @@
         <div class="logo">
           <img src="${logo_file}" alt="${logo_alt_text}" />
         </div>
-        % if self.stanford_theme_enabled():
-          <h2>${_("Explore free courses from {university_name}.")}</h2>
-        % else:
-          <h2>${course_index_overlay_text}</h2>
-        % endif
+        <h2>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h2>
       </hgroup>
     </div>
   </header>
@@ -115,15 +121,28 @@
         </div>
         % endif
 
-        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
-          <ul class="courses-listing">
-            %for course in courses:
-            <li class="courses-listing-item">
-              <%include file="../course.html" args="course=course" />
-            </li>
-            %endfor
-          </ul>
-        </div>
+##### EUCALYPTUS CODE
+#####        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+#####          <ul class="courses-listing">
+#####            %for course in courses:
+#####            <li class="courses-listing-item">
+#####              <%include file="../course.html" args="course=course" />
+#####            </li>
+#####            %endfor
+#####          </ul>
+#####        </div>
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+    <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+      <ul class="courses-listing">
+	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+        <li class="courses-listing-item">
+          <%include file="../course.html" args="course=course" />
+        </li>
+        %endfor
+      </ul>
+    </div>
+##### DOGWOOD CODE
 
 
         % if course_discovery_enabled:
