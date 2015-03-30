@@ -1,0 +1,117 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from django.core.urlresolvers import reverse %>
+
+<%!
+import courseware.courses as courses
+from django.core.management.base import BaseCommand, CommandError
+from xmodule.modulestore.django import modulestore
+from xmodule.contentstore.django import contentstore
+from opaque_keys.edx.locator import CourseLocator
+from datetime import datetime
+import dateutil.parser
+from django.utils.timezone import UTC
+%>
+
+<%inherit file="../main.html"/>
+
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">HEC Montr&eacute;al</%block>
+
+<section class="container">
+
+
+    <section class="about">
+        <h1>HEC Montr&eacute;al</h1>
+        <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">12 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 25 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">69 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
+        <p><a href="http://www.hec.ca" onclick="window.open(this.href);return false;">http://www.hec.ca</a></p>
+    </section>
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count1 = 0 %>
+       <%! my_list1 = [] %>
+       <%! current_date = datetime.now(UTC()) %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility=="both" :
+                 count1 += 1
+                 my_list1.append(course)
+       %>
+
+       %if count1 != 0:
+           <section>
+              <h1>Cours &agrave; venir</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list1:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count2 = 0 %>
+       <%! my_list2 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility=="both":
+                 count2 += 1
+                 my_list2.append(course)
+       %>
+
+       %if count2 != 0:
+           <section>
+              <h1>Cours en cours</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list2:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count3 = 0 %>
+       <%! my_list3 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.end is None, course.end), reverse=True):
+              if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility=="both":
+                 count3 += 1
+                 my_list3.append(course)
+       %>
+
+       %if count3 != 0:
+           <section>
+              <h1>Cours termin&eacute;s</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list3:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+</section>
