@@ -1,0 +1,116 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from django.core.urlresolvers import reverse %>
+
+<%!
+import courseware.courses as courses
+from django.core.management.base import BaseCommand, CommandError
+from xmodule.modulestore.django import modulestore
+from xmodule.contentstore.django import contentstore
+from opaque_keys.edx.locator import CourseLocator
+from datetime import datetime
+import dateutil.parser
+from django.utils.timezone import UTC
+%>
+
+<%inherit file="../main.html"/>
+
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">Universit&eacute; de Montr&eacute;al</%block>
+
+<section class="container">
+
+    <section class="about">
+        <h1>Universit&eacute; de Montr&eacute;al</h1>
+        <p>L&rsquo;Universit&eacute; de Montr&eacute;al forme avec ses &eacute;coles affili&eacute;es, HEC Montr&eacute;al et  Polytechnique Montr&eacute;al, le premier p&ocirc;le d&rsquo;enseignement et de recherche du Qu&eacute;bec, tant par le nombre d&rsquo;&eacute;tudiants que par l&rsquo;effectif professoral et le volume des activit&eacute;s de recherche. L&rsquo;UdeM se situe au deuxi&egrave;me rang des universit&eacute;s canadiennes pour le nombre d&rsquo;&eacute;tudiants inscrits. Les campus de l&rsquo;UdeM accueillent pr&egrave;s d&rsquo;un &eacute;tudiant universitaire qu&eacute;b&eacute;cois sur quatre, soit une population &eacute;tudiante de pr&egrave;s de <span style="white-space: nowrap;">60 000</span> personnes. Parmi les universit&eacute;s qu&eacute;b&eacute;coises, l&rsquo;UdeM est aussi le premier choix des &eacute;tudiants de l&rsquo;ext&eacute;rieur du pays, dont le nombre atteint presque <span style="white-space: nowrap;">7 000</span>. Elle emploie pr&egrave;s de <span style="white-space: nowrap;">9 000</span> personnes &agrave; temps plein, &agrave; temps partiel et &agrave; vacation, dont plus de <span style="white-space: nowrap;">4 500</span> professeurs, chercheurs, charg&eacute;s de cours, professeurs de clinique et charg&eacute;s de clinique, ce qui la situe parmi les plus grands employeurs de Montr&eacute;al.</p>
+    <p>Le Times Higher Education inclut l&rsquo;Universit&eacute; de Montr&eacute;al dans son classement des meilleures universit&eacute;s de la plan&egrave;te. Le r&eacute;put&eacute; classement de l&rsquo;universit&eacute; chinoise Jiao Tong, quant &agrave; lui, situe l&rsquo;UdeM parmi les 150 meilleurs &eacute;tablissements universitaires du monde. Sur le plan de la recherche, l&rsquo;UdeM figure au quatri&egrave;me rang du classement canadien de l&rsquo;organisme Research Info$ource.</p>
+        <p><a href="http://www.umontreal.ca" onclick="window.open(this.href);return false;">http://www.umontreal.ca</a></p>
+    </section>
+    
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count1 = 0 %>
+       <%! my_list1 = [] %>
+       <%! current_date = datetime.now(UTC()) %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if not course.has_started() and course.org.lower() == "umontreal" and course.catalog_visibility=="both" :
+                 count1 += 1
+                 my_list1.append(course)
+       %>
+
+       %if count1 != 0:
+           <section>
+              <h1>Cours &agrave; venir</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list1:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count2 = 0 %>
+       <%! my_list2 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if course.has_started() and not course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility=="both":
+                 count2 += 1
+                 my_list2.append(course)
+       %>
+
+       %if count2 != 0:
+           <section>
+              <h1>Cours en cours</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list2:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count3 = 0 %>
+       <%! my_list3 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.end is None, course.end), reverse=True):
+              if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility=="both":
+                 count3 += 1
+                 my_list3.append(course)
+       %>
+
+       %if count3 != 0:
+           <section>
+              <h1>Cours termin&eacute;s</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list3:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+
+</section>
