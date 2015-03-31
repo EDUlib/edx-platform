@@ -136,9 +136,11 @@
     <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
       <ul class="courses-listing">
 	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
-        <li class="courses-listing-item">
-          <%include file="../course.html" args="course=course" />
-        </li>
+            % if course.catalog_visibility=="both":
+            <li class="courses-listing-item">
+                <%include file="../course.html" args="course=course" />
+            </li>
+            % endif
         %endfor
       </ul>
     </div>
