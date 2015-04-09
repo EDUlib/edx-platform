@@ -129,6 +129,113 @@
     </footer>
   </div>
 % endif
+##########<div class="wrapper-all-footer">
+##########
+##########<footer class="partners-footer">
+##########    <nav>
+##########        <ul>
+##########          <li>
+##########            <a href="${marketing_link('UMONTREAL')}"><img src="${static.url('images/default-theme/institutions/udem.png')}" alt="Universit&eacute; de Montr&eacute;al" width="185" height="48" /></a>
+##########          </li>
+##########          <li>
+##########            <a href="${marketing_link('HEC')}"><img src="${static.url('images/default-theme/institutions/hec.png')}" alt="HEC Montr&eacute;al" width="185" height="48" /></a>
+##########          </li>
+##########          <li>
+##########            <a href="${marketing_link('POLYMTL')}"><img src="${static.url('images/default-theme/institutions/poly.png')}" alt="&Eacute;cole Polytechnique de Montr&eacute;al" width="185" height="48" /></a>
+##########          </li>
+##########        </ul>
+#########	</nav>
+#########</footer>
+#########    
+#########<div class="wrapper wrapper-footer">
+#########  <footer id="footer-openedx" class="grid-container"
+#########    ## When rendering the footer through the branding API,
+#########    ## the direction may not be set on the parent element,
+#########    ## so we set it here.
+#########    % if bidi:
+#########      dir=${bidi}
+#########    % endif
+#########  >
+#########    <div class="colophon">
+#########
+#########
+#########      <nav class="nav-colophon">
+#########      <ol>
+#########          <li class="nav-colophon-01">
+#########          <a href="${marketing_link('TOS')}">
+#########              ${_("Terms of Service")}
+#########          </a>
+#########          </li>
+#########          <li class="nav-colophon-02">
+#########          <a href="${marketing_link('TOS')}#privacy">
+#########              ${_("Privacy Policy")}
+#########          </a>
+#########          </li>
+#########          <li class="nav-colophon-03">
+#########          <a href="${marketing_link('TOS')}#copyright">
+#########              ${_("Copyright")}
+#########          </a>
+#########          </li>
+#########          <li class="nav-colophon-04">
+#########          <a href="${marketing_link('HONOR')}">
+#########              ${_("Honor Code")}
+#########          </a>
+#########          </li>
+#########          <li class="nav-colophon-05">
+#########          <a href="${marketing_link('ABOUT')}">
+#########              ${_("About")}
+#########          </a>
+#########          </li>          
+#########      </ol>
+#########      </nav>
+#########
+#########      <p class="copyright">&copy; ${settings.COPYRIGHT_YEAR} <a href="/">
+#########            ## this is just a placeholder logo
+#########            ## feel free to change this logo to your own by replacing "logo.png" with your own logo
+#########            <img alt="${settings.PLATFORM_NAME}" src="${static.url('images/default-theme/logo.png')}"></a><br />
+#########
+#########      ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
+#########      
+#########	## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
+#########	${_("EdX, Open edX, and the edX and Open edX logos are registered trademarks or trademarks of {link_start}edX Inc.{link_end}").format(
+#########	    link_start=u"<a href='https://www.edx.org/'>",
+#########	    link_end=u"</a>"
+#########	)}
+#########      </p>
+#########    </div>
+#########    
+#########    
+#########    <div class="references">
+#########        
+#########        <nav class="social-sharing">
+#########        <ul>
+#########           <li>
+#########               <a href="https://twitter.com/EDUlib_ORG" class="share">
+#########                   <img src="${static.url('images/social/twitter-sharing.png')}"></a>
+#########          </li>
+#########           <li>
+#########               <a href="https://www.facebook.com/EDUlib.org" class="share">                  <img src="${static.url('images/social/facebook-sharing.png')}">
+#########               </a>
+#########          </li>
+#########           <li>
+#########               <a href="https://plus.google.com/u/0/103788734382092523995/posts" class="share">
+#########                   <img src="${static.url('images/social/google-plus-sharing.png')}">
+#########               </a>
+#########          </li>
+#########        </ul>
+#########        </nav>
+#########        
+#########        ## please leave this link and use one of the logos provided
+#########        <div class="powered-by"><a href="http://openedx.org/">
+#########          ## standard powered-by logo
+#########          ## Translators: 'Open edX' is a brand, please keep this untranslated. See http://openedx.org for more information.
+#########              <img src="${static.url('images/openedx-logo-tag.png')}" alt="${_('Powered by Open edX')}" width="150" height="50" /></a>
+#########        </div>
+#########    </div>
+#########    % endif
+#########  </footer>
+#########</div>
+
 % if include_dependencies:
   <%static:js group='base_vendor'/>
   <%static:css group='style-vendor'/>
