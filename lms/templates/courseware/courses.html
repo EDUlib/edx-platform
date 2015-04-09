@@ -146,6 +146,87 @@
     </div>
 ##### DOGWOOD CODE
 
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count1 = 0 %>
+       <%! my_list1 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if not course.has_started() and course.catalog_visibility=="both" :
+                 count1 += 1
+                 my_list1.append(course)
+       %>
+
+       %if count1 != 0:
+           <section>
+              <h1> </h1>
+              <h1>Cours &agrave; venir</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list1:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count2 = 0 %>
+       <%! my_list2 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+              if course.has_started() and not course.has_ended() and course.catalog_visibility=="both":
+                 count2 += 1
+                 my_list2.append(course)
+       %>
+
+       %if count2 != 0:
+           <section>
+              <h1>Cours en cours</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list2:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+       <%! count3 = 0 %>
+       <%! my_list3 = [] %>
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.end is None, course.end), reverse=True):
+              if course.has_ended() and course.catalog_visibility=="both":
+                 count3 += 1
+                 my_list3.append(course)
+       %>
+
+       %if count3 != 0:
+           <section>
+              <h1>Cours termin&eacute;s</h1>
+           </section>
+           <section class="highlighted-courses">
+              <section class="courses">
+                 <ul class="courses-listing">
+                     %for course in my_list3:
+                         <li class="courses-listing-item">
+                             <%include file="../course.html" args="course=course" />
+                         </li>
+                     %endfor
+                 </ul>
+              </section>
+           </section>
+       %endif
+    %endif
 
         % if course_discovery_enabled:
         <aside aria-label="${_('Refine Your Search')}" class="search-facets phone-menu">
