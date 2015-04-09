@@ -33,7 +33,7 @@ from status.status import get_site_status_msg
 try:
     course_id = course.id
 except:
-    # can't figure out a better way to get at a possibly-defined course var
+    # cant figure out a better way to get at a possibly-defined course var
     course_id = None
 site_status_msg = get_site_status_msg(course_id)
 %>
@@ -69,38 +69,80 @@ site_status_msg = get_site_status_msg(course_id)
         <span class="course-name">${display_name}</span></h2>
       % endif
 
-      % if user.is_authenticated():
-        <ol class="left nav-global list-inline authenticated">
-        <%block name="navigation_global_links_authenticated">
-          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE') and not show_program_listing:
-            <li class="item nav-global-01">
-              <a href="${marketing_link('COURSES')}">${_('Explore courses')}</a>
-            </li>
-          % endif
-          % if show_program_listing:
-            <li class="tab-nav-item">
-              <a class="${'active ' if reverse('dashboard') == request.path else ''}tab-nav-link" href="${reverse('dashboard')}">
-                ${_("Courses")}
-              </a>
-            </li>
-            <li class="tab-nav-item">
-              <a class="${'active ' if reverse('program_listing_view') in request.path else ''}tab-nav-link" href="${reverse('program_listing_view')}">
-                ${_("Programs")}
-              </a>
-            </li>
-          % endif
-          %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
-            <li class="item">
-              ## Translators: This is short for "System administration".
-              <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
-            </li>
-          %endif
-        </%block>
-      </ol>
-
-      <%include file="user_dropdown.html"/>
-
-      % if should_display_shopping_cart_func() and not (course and static.is_request_in_themed_site()): # see shoppingcart.context_processor.user_has_cart_context_processor
+##### CODE EUCALYPTUS
+#####      % if user.is_authenticated():
+#####        <ol class="left nav-global list-inline authenticated">
+#####        <%block name="navigation_global_links_authenticated">
+#####          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE') and not show_program_listing:
+#####            <li class="item nav-global-01">
+#####              <a href="${marketing_link('COURSES')}">${_('Explore courses')}</a>
+#####            </li>
+#####          % endif
+#####          % if show_program_listing:
+#####            <li class="tab-nav-item">
+#####              <a class="${'active ' if reverse('dashboard') == request.path else ''}tab-nav-link" href="${reverse('dashboard')}">
+#####                ${_("Courses")}
+#####              </a>
+#####            </li>
+#####            <li class="tab-nav-item">
+#####              <a class="${'active ' if reverse('program_listing_view') in request.path else ''}tab-nav-link" href="${reverse('program_listing_view')}">
+#####                ${_("Programs")}
+#####              </a>
+#####            </li>
+#####          % endif
+#####          %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
+#####            <li class="item">
+#####              ## Translators: This is short for "System administration".
+#####              <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
+#####            </li>
+#####          %endif
+#####        </%block>
+#####      </ol>
+#####
+#####      <%include file="user_dropdown.html"/>
+#####
+#####      % if should_display_shopping_cart_func() and not (course and static.is_request_in_themed_site()): # see shoppingcart.context_processor.user_has_cart_context_processor
+##### CODE EUCALYPTUS
+##### CODE DOGWOOD
+    % if user.is_authenticated():
+    <ol class="left nav-global authenticated">
+      <%block name="navigation_global_links_authenticated">
+        % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+          <li class="nav-global-01">
+            <a href="${marketing_link('COURSES')}">${_('Find Courses')}</a>
+          </li>
+        % endif
+        %if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
+          <li>
+            ## Translators: This is short for "System administration".
+            <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
+          </li>
+        %endif
+      </%block>
+    </ol>
+    <ol class="user">
+      <li class="primary">
+        <a href="${reverse('dashboard')}" class="user-link">
+          <span class="sr">${_("Dashboard for:")}</span>
+          <span>
+          ${user.username}
+          </span>
+        </a>
+      </li>
+      <li class="primary">
+        <button class="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr">${_("More options dropdown")}</span><span class="fa fa-sort-desc" aria-hidden="true"></span></button>
+        <ul class="dropdown-menu" aria-label="More Options" role="menu">
+          <%block name="navigation_dropdown_menu_links" >
+            <li><a href="${reverse('dashboard')}">${_("Dashboard")}</a></li>
+            <li><a href="${reverse('learner_profile', kwargs={'username': user.username})}">${_("Profile")}</a></li>
+            <li><a href="${reverse('account_settings')}">${_("Account")}</a></li>
+          </%block>
+          <li><a href="${reverse('logout')}" role="menuitem">${_("Sign Out")}</a></li>
+        </ul>
+      </li>
+    </ol>
+      % if should_display_shopping_cart_func() and not (course and microsite.is_request_in_microsite()): # see shoppingcart.context_processor.user_has_cart_context_processor
+##### CODE DOGWOOD
         <ol class="user">
           <li class="primary">
             <a class="shopping-cart" href="${reverse('shoppingcart.views.show_cart')}">
@@ -125,24 +167,45 @@ site_status_msg = get_site_status_msg(course_id)
               <a href="${marketing_link('SCHOOLS')}">${_("Schools")}</a>
             </li>
           % endif
-        </%block>
+##### CODE EUCALYPTUS
+#####        </%block>
+#####
+#####        <%block name="navigation_other_global_links">
+#####          % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
+#####            % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+#####              <li class="item nav-global-05">
+#####                <a class="btn" href="/courses">${_("Explore Courses")}</a>
+#####              </li>
+#####            %endif
+#####            % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+#####              <li class="item nav-global-04">
+#####                <a class="btn-neutral" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register")}</a>
+#####              </li>
+#####            % else:
+#####              <li class="item nav-global-04">
+#####                <a class="btn-neutral" href="/register${login_query()}">${_("Register")}</a>
+#####              </li>
+#####            % endif
+##### CODE EUCALYPTUS
+##### CODE DOGWOOD
+          <li class="nav-global-03">
+            <a href="${marketing_link('SCHOOLS')}">${_("Schools")}</a>
+          </li>
+        % endif
+      </%block>
+    </ol>
 
-        <%block name="navigation_other_global_links">
-          % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
-            % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
-              <li class="item nav-global-05">
-                <a class="btn" href="/courses">${_("Explore Courses")}</a>
-              </li>
-            %endif
-            % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-              <li class="item nav-global-04">
-                <a class="btn-neutral" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register")}</a>
-              </li>
-            % else:
-              <li class="item nav-global-04">
-                <a class="btn-neutral" href="/register${login_query()}">${_("Register")}</a>
-              </li>
-            % endif
+    <ol class="right nav-courseware">
+        % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
+          % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+          <li class="nav-courseware-01">
+            <a class="cta cta-register" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register Now")}</a>
+          </li>
+          % else:
+          <li class="nav-courseware-01">
+            <a class="cta cta-register" href="/register">${_("Register Now")}</a>
+          </li>
+##### CODE DOGWOOD
           % endif
         </%block>
       </ol>
@@ -188,6 +251,15 @@ site_status_msg = get_site_status_msg(course_id)
         </li>
       </ol>
       % endif
+##### CODE DOGWOOD
+    <li class="nav-courseware-02">
+      % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
+          % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+          <a class="cta cta-login" href="${reverse('course-specific-login', args=[course.id.to_deprecated_string()])}${login_query()}">${_("Sign in")}</a>
+          % else:
+          <a class="cta cta-login" href="/login${login_query()}">${_("Sign in")}</a>
+          % endif
+##### CODE DOGWOOD
       % endif
     </nav>
 </header>
