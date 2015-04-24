@@ -371,40 +371,48 @@ def _get_source_address(course_id, course_title, truncate=True):
     # For the email address, get the course.  Then make sure that it can be used
     # in an email address, by substituting a '_' anywhere a non-(ascii, period, or dash)
     # character appears.
-    course_name = re.sub(r"[^\w.-]", '_', course_id.course)
-
-    from_addr_format = u'"{course_title}" Course Staff <{course_name}-{from_email}>'
-
-    def format_address(course_title_no_quotes):
-        """
-        Partial function for formatting the from_addr. Since
-        `course_title_no_quotes` may be truncated to make sure the returned
-        string has fewer than 320 characters, we define this function to make
-        it easy to determine quickly what the max length is for
-        `course_title_no_quotes`.
-        """
-        return from_addr_format.format(
-            course_title=course_title_no_quotes,
-            course_name=course_name,
-            from_email=configuration_helpers.get_value(
-                'email_from_address',
-                settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
-            )
-        )
-
-    from_addr = format_address(course_title_no_quotes)
-
-    # If the encoded from_addr is longer than 320 characters, reformat,
-    # but with the course name rather than course title.
-    # Amazon SES's from address field appears to have a maximum length of 320.
-    __, encoded_from_addr = forbid_multi_line_headers('from', from_addr, 'utf-8')
-
-    # It seems that this value is also escaped when set out to amazon, judging
-    # from our logs
-    escaped_encoded_from_addr = escape(encoded_from_addr)
-    if len(escaped_encoded_from_addr) >= 320 and truncate:
-        from_addr = format_address(course_name)
-
+##### EUCALYPTUS CODE
+#####    course_name = re.sub(r"[^\w.-]", '_', course_id.course)
+#####
+#####    from_addr_format = u'"{course_title}" Course Staff <{course_name}-{from_email}>'
+#####
+#####    def format_address(course_title_no_quotes):
+#####        """
+#####        Partial function for formatting the from_addr. Since
+#####        `course_title_no_quotes` may be truncated to make sure the returned
+#####        string has fewer than 320 characters, we define this function to make
+#####        it easy to determine quickly what the max length is for
+#####        `course_title_no_quotes`.
+#####        """
+#####        return from_addr_format.format(
+#####            course_title=course_title_no_quotes,
+#####            course_name=course_name,
+#####            from_email=theming_helpers.get_value(
+#####                'email_from_address',
+#####                settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
+#####            )
+#####        )
+#####
+#####    from_addr = format_address(course_title_no_quotes)
+#####
+#####    # If the encoded from_addr is longer than 320 characters, reformat,
+#####    # but with the course name rather than course title.
+#####    # Amazon SES's from address field appears to have a maximum length of 320.
+#####    __, encoded_from_addr = forbid_multi_line_headers('from', from_addr, 'utf-8')
+#####
+#####    # It seems that this value is also escaped when set out to amazon, judging
+#####    # from our logs
+#####    escaped_encoded_from_addr = escape(encoded_from_addr)
+#####    if len(escaped_encoded_from_addr) >= 320 and truncate:
+#####        from_addr = format_address(course_name)
+#####
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+    from_addr = u'"{0}" Course Staff <{1}>'.format(
+        course_title_no_quotes,
+        settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
+    )
+##### DOGWOOD CODE
     return from_addr
 
 
