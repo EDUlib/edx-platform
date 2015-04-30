@@ -33,7 +33,7 @@ from django.utils.timezone import UTC
        <%! count1 = 0 %>
        <%! my_list1 = [] %>
        <%! current_date = datetime.now(UTC()) %>
-       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start)):
               if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility=="both" :
                  count1 += 1
                  my_list1.append(course)
@@ -61,7 +61,7 @@ from django.utils.timezone import UTC
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
        <%! count2 = 0 %>
        <%! my_list2 = [] %>
-       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start)):
               if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility=="both":
                  count2 += 1
                  my_list2.append(course)
