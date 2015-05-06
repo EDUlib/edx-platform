@@ -1,117 +1,148 @@
+<%! from xmodule.modulestore.django import modulestore %>
+
 <%! from django.utils.translation import ugettext as _ %>
 
 <%! from django.core.urlresolvers import reverse %>
 
-<%!
-import courseware.courses as courses
-from django.core.management.base import BaseCommand, CommandError
-from xmodule.modulestore.django import modulestore
-from xmodule.contentstore.django import contentstore
-from opaque_keys.edx.locator import CourseLocator
-from datetime import datetime
-import dateutil.parser
-from django.utils.timezone import UTC
-%>
-
 <%inherit file="../main.html"/>
+<%namespace name='static' file='../static_content.html'/>
 
 <%! from microsite_configuration import microsite %>
 
 <%block name="pagetitle">HEC Montr&eacute;al</%block>
 
-<section class="container">
+<%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
 
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
+default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
+
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
+logo_alt_text = "EDUlib Logo"
+%>
+
+<section class="home">
+
+  <header>
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
+          % if homepage_overlay_html:
+            ${homepage_overlay_html}
+          % else:
+            % if self.stanford_theme_enabled():
+              <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
+              <h2>${_("For anyone, anywhere, anytime")}</h2>
+            % else:
+              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
+            % endif
+          % endif
+        </hgroup>
+
+      </div>
+
+      % if show_homepage_promo_video:
+        <a href="#video-modal" class="media" rel="leanModal">
+          <div class="hero">
+            <div class="play-intro"></div>
+          </div>
+        </a>
+      % endif
+    </div>
+  </header>
+
+  <section class="container">
 
     <section class="about">
         <h1>HEC Montr&eacute;al</h1>
-        <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">12 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 25 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">69 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
+        <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">13 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 26 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">78 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
         <p><a href="http://www.hec.ca" onclick="window.open(this.href);return false;">http://www.hec.ca</a></p>
     </section>
 
 
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-       <%! count1 = 0 %>
-       <%! my_list1 = [] %>
-       <%! current_date = datetime.now(UTC()) %>
-       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start)):
-              if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility=="both" :
-                 count1 += 1
-                 my_list1.append(course)
-       %>
-
-       %if count1 != 0:
-           <section>
-              <h1>&Agrave; venir</h1>
-           </section>
-           <section class="highlighted-courses">
-              <section class="courses">
-                 <ul class="courses-listing">
-                     %for course in my_list1:
-                         <li class="courses-listing-item">
-                             <%include file="../course.html" args="course=course" />
-                         </li>
-                     %endfor
-                 </ul>
-              </section>
-           </section>
-       %endif
+        <% counter = 0 %>
     %endif
+
+    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+           if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+
+    %if counter !=0 :
+        <h1>&Agrave; venir</h1>
+    %endif
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
 
 
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-       <%! count2 = 0 %>
-       <%! my_list2 = [] %>
-       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start)):
-              if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility=="both":
-                 count2 += 1
-                 my_list2.append(course)
-       %>
-
-       %if count2 != 0:
-           <section>
-              <h1>En cours</h1>
-           </section>
-           <section class="highlighted-courses">
-              <section class="courses">
-                 <ul class="courses-listing">
-                     %for course in my_list2:
-                         <li class="courses-listing-item">
-                             <%include file="../course.html" args="course=course" />
-                         </li>
-                     %endfor
-                 </ul>
-              </section>
-           </section>
-       %endif
+        <% counter = 0 %>
     %endif
+
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+           if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+
+    %if counter !=0 :
+        <h1>En cours</h1>
+    %endif
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
 
 
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-       <%! count3 = 0 %>
-       <%! my_list3 = [] %>
-       <%! for course in sorted(modulestore().get_courses(),key=lambda course: (course.end is None, course.end), reverse=True):
-              if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility=="both":
-                 count3 += 1
-                 my_list3.append(course)
-       %>
-
-       %if count3 != 0:
-           <section>
-              <h1>Termin&eacute;s</h1>
-           </section>
-           <section class="highlighted-courses">
-              <section class="courses">
-                 <ul class="courses-listing">
-                     %for course in my_list3:
-                         <li class="courses-listing-item">
-                             <%include file="../course.html" args="course=course" />
-                         </li>
-                     %endfor
-                 </ul>
-              </section>
-           </section>
-       %endif
+        <% counter  = 0  %>
     %endif
 
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+           if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
 
+    %if counter !=0 :
+        <h1>Termin&eacute;s</h1>
+    %endif
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                    %if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+
+
+  </section>
 </section>
