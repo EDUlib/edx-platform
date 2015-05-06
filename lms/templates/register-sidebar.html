@@ -20,16 +20,18 @@ from django.core.urlresolvers import reverse
 #####    <a class="btn-login-action" href="${reverse('signin_user')}${login_query()}">
 #####      ${_("Log in")}
 #####    </a>
+#####
+#####<div class="cta cta-login">
+#####</div>
+#####<div class="cta cta-login">
+#####  <h3 class="title">${_("Already registered?")}</h3>
+#####  <p class="instructions">
+#####    <a class="cta-login-action" href="${reverse('signin_user')}${login_query()}">${_("Log in")}</a>
 ##### EUCALYPTUS CODE
 ##### DOGWOOD CODE
-
-<div class="cta cta-login">
-</div>
-
-<div class="cta cta-login">
-  <h3>${_("Already registered?")}</h3>
-  <p class="instructions">
-    <a class="cta-login-action" href="${reverse('signin_user')}${login_query()}">${_("Log in")}</a>
+    <a class="cta-login-action" href="${reverse('signin_user')}${login_query()}">
+      ${_("Log in")}
+    </a>
 ##### DOGWOOD CODE
   </p>
 </div>
