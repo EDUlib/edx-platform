@@ -167,6 +167,7 @@ define(['js/views/validation', 'codemirror', 'underscore', 'jquery', 'jquery.ui'
                    'short_description': 'course-short-description',
                    'intro_video': 'course-introduction-video',
                    'effort': 'course-effort',
+                   'institution' : "course-institution",
                    'course_image_asset_path': 'course-image-url',
                    'banner_image_asset_path': 'banner-image-url',
                    'video_thumbnail_image_asset_path': 'video-thumbnail-image-url',
