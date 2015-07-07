@@ -189,7 +189,7 @@ def add_repo(repo, rdir_in, branch=None):
 
     # Set defaults even if it isn't defined in settings
     mongo_db = {
-        'host': 'localhost',
+        'host': '10.0.1.165',
         'port': 27017,
         'user': '',
         'password': '',
