@@ -181,6 +181,8 @@ from six import string_types
           %>
           <a href="${reg_href}" class="${href_class}">
             ${_("Enroll in {course_name}").format(course_name=course.display_number_with_default) | h}
+            ##### old code Cypress
+            #####${_("Register for {course.display_number_with_default}").format(course=course) | h}
           </a>
           <div id="register_error"></div>
         %endif
@@ -301,7 +303,6 @@ from six import string_types
           % if get_course_about_section(course, "effort"):
             <li class="important-dates-item"><i class="icon fa fa-pencil"></i><p class="important-dates-item-title">${_("Estimated Effort")}</p><span class="important-dates-item-text effort">${get_course_about_section(course, "effort")}</span></li>
           % endif
-
 
           ##<li class="important-dates-item"><i class="icon fa fa-clock-o"></i><p class="important-dates-item-title">${_('Course Length')}</p><span class="important-dates-item-text course-length">${_('{number} weeks').format(number=15)}</span></li>
 ##### DOGWOOD CODE
