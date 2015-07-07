@@ -417,7 +417,7 @@ class Courses(SysadminDashboardView):
             color = 'blue'
 
         msg = u"<h4 style='color:{0}'>{1}</h4>".format(color, msg_header)
-        msg += u"<pre>{0}</pre>".format(escape(ret))
+        msg += u'<pre>{0}</pre>'.format(escape(ret))
         return msg
 
     def make_datatable(self):
