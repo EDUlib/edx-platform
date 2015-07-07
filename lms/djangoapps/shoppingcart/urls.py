@@ -22,6 +22,9 @@ urlpatterns = [
     url(r'^add/course/{}/$'.format(settings.COURSE_ID_PATTERN), views.add_course_to_cart, name='add_course_to_cart'),
     url(r'^register/redeem/(?P<registration_code>[0-9A-Za-z]+)/$',
         views.register_code_redemption, name='register_code_redemption'),
+    #####EDUlib
+    #####url(r'^register/redeem/(?P<registration_code>[0-9A-Za-z]+)/$', 'register_code_redemption', name='register_code_redemption'),
+    #####EDUlib
     url(r'^use_code/$', views.use_code, name='shoppingcart.views.use_code'),
     url(r'^update_user_cart/$', views.update_user_cart, name='shoppingcart.views.update_user_cart'),
     url(r'^reset_code_redemption/$', views.reset_code_redemption, name='shoppingcart.views.reset_code_redemption'),

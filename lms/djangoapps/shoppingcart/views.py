@@ -429,6 +429,104 @@ def register_code_redemption(request, registration_code):
         else:
             context['redemption_success'] = False
         return render_to_response(template_to_render, context)
+#####@require_http_methods(["GET", "POST"])
+#####@login_required
+#####def register_code_redemption(request, registration_code):
+#####    """
+#####    This view allows the student to redeem the registration code
+#####    and enroll in the course.
+#####    """
+#####
+#####    # Add some rate limiting here by re-using the RateLimitMixin as a helper class
+#####    site_name = microsite.get_value('SITE_NAME', settings.SITE_NAME)
+#####    limiter = BadRequestRateLimiter()
+#####    if limiter.is_rate_limit_exceeded(request):
+#####        AUDIT_LOG.warning("Rate limit exceeded in registration code redemption.")
+#####        return HttpResponseForbidden()
+#####
+#####    template_to_render = 'shoppingcart/registration_code_redemption.html'
+#####    if request.method == "GET":
+#####        reg_code_is_valid, reg_code_already_redeemed, course_registration = get_reg_code_validity(registration_code,
+#####                                                                                                  request, limiter)
+#####        course = get_course_by_id(getattr(course_registration, 'course_id'), depth=0)
+#####
+#####        # Restrict the user from enrolling based on country access rules
+#####        embargo_redirect = embargo_api.redirect_if_blocked(
+#####            course.id, user=request.user, ip_address=get_ip(request),
+#####            url=request.path
+#####        )
+#####        if embargo_redirect is not None:
+#####            return redirect(embargo_redirect)
+#####
+#####        context = {
+#####            'reg_code_already_redeemed': reg_code_already_redeemed,
+#####            'reg_code_is_valid': reg_code_is_valid,
+#####            'reg_code': registration_code,
+#####            'site_name': site_name,
+#####            'course': course,
+#####            'registered_for_course': not _is_enrollment_code_an_update(course, request.user, course_registration)
+#####        }
+#####        return render_to_response(template_to_render, context)
+#####    elif request.method == "POST":
+#####        reg_code_is_valid, reg_code_already_redeemed, course_registration = get_reg_code_validity(registration_code,
+#####                                                                                                  request, limiter)
+#####        course = get_course_by_id(getattr(course_registration, 'course_id'), depth=0)
+#####
+#####        # Restrict the user from enrolling based on country access rules
+#####        embargo_redirect = embargo_api.redirect_if_blocked(
+#####            course.id, user=request.user, ip_address=get_ip(request),
+#####            url=request.path
+#####        )
+#####        if embargo_redirect is not None:
+#####            return redirect(embargo_redirect)
+#####
+#####        context = {
+#####            'reg_code': registration_code,
+#####            'site_name': site_name,
+#####            'course': course,
+#####            'reg_code_is_valid': reg_code_is_valid,
+#####            'reg_code_already_redeemed': reg_code_already_redeemed,
+#####        }
+#####        if reg_code_is_valid and not reg_code_already_redeemed:
+#####            # remove the course from the cart if it was added there.
+#####            cart = Order.get_cart_for_user(request.user)
+#####            try:
+#####                cart_items = cart.find_item_by_course_id(course_registration.course_id)
+#####
+#####            except ItemNotFoundInCartException:
+#####                pass
+#####            else:
+#####                for cart_item in cart_items:
+#####                    if isinstance(cart_item, PaidCourseRegistration) or isinstance(cart_item, CourseRegCodeItem):
+#####                        cart_item.delete()
+#####
+#####            #now redeem the reg code.
+#####            redemption = RegistrationCodeRedemption.create_invoice_generated_registration_redemption(course_registration, request.user)
+#####            try:
+#####                kwargs = {}
+#####                if course_registration.mode_slug is not None:
+#####                    if CourseMode.mode_for_course(course.id, course_registration.mode_slug):
+#####                        kwargs['mode'] = course_registration.mode_slug
+#####                    else:
+#####                        raise RedemptionCodeError()
+#####                redemption.course_enrollment = CourseEnrollment.enroll(request.user, course.id, **kwargs)
+#####                redemption.save()
+#####                context['redemption_success'] = True
+#####            except RedemptionCodeError:
+#####                context['redeem_code_error'] = True
+#####                context['redemption_success'] = False
+#####            except EnrollmentClosedError:
+#####                context['enrollment_closed'] = True
+#####                context['redemption_success'] = False
+#####            except CourseFullError:
+#####                context['course_full'] = True
+#####                context['redemption_success'] = False
+#####            except AlreadyEnrolledError:
+#####                context['registered_for_course'] = True
+#####                context['redemption_success'] = False
+#####        else:
+#####            context['redemption_success'] = False
+#####        return render_to_response(template_to_render, context)
 
 
 def _is_enrollment_code_an_update(course, user, redemption_code):
@@ -498,7 +596,7 @@ def use_registration_code(course_reg, user):
             return HttpResponseNotFound(
                 _("Cart item quantity should not be greater than 1 when applying activation code"))
 
-    redemption_url = reverse('register_code_redemption', kwargs={'registration_code': course_reg.code})
+    #redemption_url = reverse('register_code_redemption', kwargs={'registration_code': course_reg.code})
     return HttpResponse(
         json.dumps({'response': 'success', 'coupon_code_applied': False, 'redemption_url': redemption_url}),
         content_type="application/json"
@@ -927,7 +1025,7 @@ def _show_receipt_html(request, order):
             for course_registration_code in course_registration_codes:
                 reg_code_info_list.append({
                     'course_name': course.display_name,
-                    'redemption_url': reverse('register_code_redemption', args=[course_registration_code.code]),
+                    #'redemption_url': reverse('register_code_redemption', args=[course_registration_code.code]),
                     'code': course_registration_code.code,
                     'is_valid': course_registration_code.is_valid,
                     'is_redeemed': RegistrationCodeRedemption.objects.filter(
