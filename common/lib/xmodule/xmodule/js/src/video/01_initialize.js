@@ -746,6 +746,7 @@ function(VideoPlayer, i18n, moment, _) {
         }
     }
 
+
     /**
      * Sets player mode.
      *
