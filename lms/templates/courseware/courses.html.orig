@@ -1,0 +1,211 @@
+<%!
+  import json
+  from django.utils.translation import ugettext as _
+  from microsite_configuration import microsite
+  from xmodule.modulestore.django import modulestore
+  from xmodule.contentstore.django import contentstore
+%>
+<%inherit file="../main.html" />
+
+<%block name="header_extras">
+  % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+  % for template_name in ["result_item", "filter_bar", "filter", "search_facets_list", "search_facets_section", "search_facet", "more_less_links"]:
+  <script type="text/template" id="${template_name}-tpl">
+      <%static:include path="discovery/${template_name}.underscore" />
+  </script>
+  % endfor
+  <script type="text/javascript">;(function (define) {{
+      define('course_discovery_meanings', function() {{
+          'use strict';
+          return ${json.dumps(course_discovery_meanings)};
+        }});
+      }})(define || RequireJS.define);
+  </script>
+  % endif
+</%block>
+
+<%block name="js_extra">
+  % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+  <%static:js group='discovery'/>
+  % endif
+</%block>
+
+<%block name="pagetitle">${_("Courses")}</%block>
+<%
+  platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
+  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
+  if self.stanford_theme_enabled():
+    course_index_overlay_text = _("Explore free courses from {university_name}.").format(university_name="Stanford University")
+    logo_file = static.url('themes/stanford/images/seal.png')
+    logo_alt_text = "Stanford Seal Logo"
+
+<%! from django.core.urlresolvers import reverse %>
+
+<%inherit file="../main.html"/>
+<%namespace name='static' file='../static_content.html'/>
+
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">Cours</%block>
+
+<%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
+
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
+default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
+
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
+logo_alt_text = "EDUlib Logo"
+%>
+
+
+<section class="home">
+
+  <header>
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
+          % if homepage_overlay_html:
+            ${homepage_overlay_html}
+          % else:
+            % if self.stanford_theme_enabled():
+              <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
+              <h2>${_("For anyone, anywhere, anytime")}</h2>
+            % else:
+              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
+            % endif
+          % endif
+        </hgroup>
+    
+      </div>
+
+      % if show_homepage_promo_video:
+        <a href="#video-modal" class="media" rel="leanModal">
+          <div class="hero">
+            <div class="play-intro"></div>
+          </div>
+        </a>
+      % endif
+    </div>
+  </header>
+
+  <section class="courses-container">
+
+    % if course_discovery_enabled:
+    <div id="discovery-form" role="search" aria-label="course">
+      <form>
+        <input class="discovery-input" placeholder="${_('Search for a course')}" type="text"/><!-- removes spacing
+        --><button type="submit" class="button postfix discovery-submit" aria-label="${_('Search')}">
+          <i class="icon fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+      <div id="discovery-message"></div>
+      <div aria-live="polite" aria-relevant="all">
+        <div id="loading-indicator" class="hidden">
+          <i class="icon fa fa-spinner fa-spin"></i> ${_('Loading')}
+        </div>
+      </div>
+    </div>
+
+    <div id="filter-bar" class="filters hide-phone">
+    </div>
+    % endif
+
+    <section class="courses${'' if course_discovery_enabled else ' no-course-discovery'}">
+      <ul class="courses-listing">
+	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+            % if course.catalog_visibility=="both":
+            <li class="courses-listing-item">
+                <%include file="../course.html" args="course=course" />
+            </li>
+            % endif
+        %endfor
+      </ul>
+    </section>
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+           if not course.has_started() and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+    %if counter !=0 :
+        <h1>&Agrave; venir</h1>
+    %endif
+
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if not course.has_started() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+           if course.has_started() and not course.has_ended() and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+    %if counter !=0 :
+        <h1>En cours</h1>
+    %endif
+
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if course.has_started() and not course.has_ended() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+           if course.has_ended() and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+    %if counter !=0 :
+        <h1>Termin&eacute;s</h1>
+    %endif
+
+    % if course_discovery_enabled:
+    <aside aria-label="${_('Refine your search')}" class="search-facets phone-menu">
+    </aside>
+    % endif
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                    %if course.has_ended() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+
+  </section>
+</section>
