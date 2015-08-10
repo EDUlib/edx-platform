@@ -1,43 +1,47 @@
 <%!
   import json
   from django.utils.translation import ugettext as _
-##### EUCALYPTUS CODE
-  from openedx.core.djangolib.js_utils import dump_js_escaped_json
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
   from microsite_configuration import microsite
-  from openedx.core.lib.js_utils import escape_json_dumps
   from xmodule.modulestore.django import modulestore
   from xmodule.contentstore.django import contentstore
-##### DOGWOOD CODE
 %>
 <%inherit file="../main.html" />
-<%
-  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
-%>
 
-<%namespace name='static' file='../static_content.html'/>
-
-% if course_discovery_enabled:
 <%block name="header_extras">
-  % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
+  % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+  % for template_name in ["result_item", "filter_bar", "filter", "search_facets_list", "search_facets_section", "search_facet", "more_less_links"]:
   <script type="text/template" id="${template_name}-tpl">
       <%static:include path="discovery/${template_name}.underscore" />
   </script>
   % endfor
-  <%static:require_module module_name="js/discovery/discovery_factory" class_name="DiscoveryFactory">
-    DiscoveryFactory(
-      ${course_discovery_meanings | n, dump_js_escaped_json},
-      getParameterByName('search_query'),
-      "${user_language}",
-      "${user_timezone}"
-    );
-  </%static:require_module>
+  <script type="text/javascript">;(function (define) {{
+      define('course_discovery_meanings', function() {{
+          'use strict';
+          return ${json.dumps(course_discovery_meanings)};
+        }});
+      }})(define || RequireJS.define);
+  </script>
+  % endif
 </%block>
-% endif
+
+<%block name="js_extra">
+  % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+  <%static:js group='discovery'/>
+  % endif
+</%block>
+
+<%block name="pagetitle">${_("Courses")}</%block>
+<%
+  platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
+  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
+  if self.stanford_theme_enabled():
+    course_index_overlay_text = _("Explore free courses from {university_name}.").format(university_name="Stanford University")
+    logo_file = static.url('themes/stanford/images/seal.png')
+    logo_alt_text = "Stanford Seal Logo"
 
 <%! from django.core.urlresolvers import reverse %>
 
+<%inherit file="../main.html"/>
 <%namespace name='static' file='../static_content.html'/>
 
 <%! from microsite_configuration import microsite %>
@@ -54,31 +58,6 @@ logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_
 logo_alt_text = "EDUlib Logo"
 %>
 
-##### EUCALYPTUS CODE
-#####<main id="main" aria-label="Content" tabindex="-1">
-#####    <section class="find-courses">
-#####      <section class="courses-container">
-#####        % if course_discovery_enabled:
-#####        <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
-#####          <div id="discovery-message" class="search-status-label"></div>
-#####          <form class="wrapper-search-input">
-#####            <label for="discovery-input" class="sr">${_('Search for a course')}</label>
-#####            <input id="discovery-input" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
-#####            <button type="submit" class="button postfix discovery-submit" title="${_('Search')}">
-#####              <span class="icon fa fa-search" aria-hidden="true"></span>
-#####              <div aria-live="polite" aria-relevant="all">
-#####                <div id="loading-indicator" class="loading-spinner hidden">
-#####                  <span class="icon fa fa-spinner fa-spin" aria-hidden="true"></span>
-#####                  <span class="sr">${_('Loading')}</span>
-#####                </div>
-#####              </div>
-#####            </button>
-#####          </form>
-#####        </div>
-#####<section class="find-courses">
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
-#####
 
 <section class="home">
 
@@ -111,42 +90,28 @@ logo_alt_text = "EDUlib Logo"
   </header>
 
   <section class="courses-container">
+
     % if course_discovery_enabled:
-    <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
-      <div id="discovery-message" class="search-status-label"></div>
-      <form class="wrapper-search-input">
-        <label for="discovery-input" class="sr">${_('Search for a course')}</label>
-        <input id="discovery-input" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
-        <button type="submit" class="button postfix discovery-submit" aria-label="${_('Search')}">
+    <div id="discovery-form" role="search" aria-label="course">
+      <form>
+        <input class="discovery-input" placeholder="${_('Search for a course')}" type="text"/><!-- removes spacing
+        --><button type="submit" class="button postfix discovery-submit" aria-label="${_('Search')}">
           <i class="icon fa fa-search" aria-hidden="true"></i>
-          <div aria-live="polite" aria-relevant="all">
-            <div id="loading-indicator" class="loading-spinner hidden">
-              <i class="icon fa fa-spinner fa-spin"></i>
-              <span class="sr">${_('Loading')}</span>
-            </div>
-          </div>
         </button>
       </form>
-    </div>
-##### DOGWOOD CODE
-
-        <div id="filter-bar" class="filters hide-phone is-collapsed">
+      <div id="discovery-message"></div>
+      <div aria-live="polite" aria-relevant="all">
+        <div id="loading-indicator" class="hidden">
+          <i class="icon fa fa-spinner fa-spin"></i> ${_('Loading')}
         </div>
-        % endif
+      </div>
+    </div>
 
-##### EUCALYPTUS CODE
-#####        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
-#####          <ul class="courses-listing">
-#####            %for course in courses:
-#####            <li class="courses-listing-item">
-#####              <%include file="../course.html" args="course=course" />
-#####            </li>
-#####            %endfor
-#####          </ul>
-#####        </div>
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
-    <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+    <div id="filter-bar" class="filters hide-phone">
+    </div>
+    % endif
+
+    <section class="courses${'' if course_discovery_enabled else ' no-course-discovery'}">
       <ul class="courses-listing">
 	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
             % if course.catalog_visibility=="both":
@@ -156,8 +121,7 @@ logo_alt_text = "EDUlib Logo"
             % endif
         %endfor
       </ul>
-    </div>
-##### DOGWOOD CODE
+    </section>
 
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <% counter = 0 %>
@@ -224,20 +188,11 @@ logo_alt_text = "EDUlib Logo"
         <h1>Termin&eacute;s</h1>
     %endif
 
-        % if course_discovery_enabled:
-        <aside aria-label="${_('Refine Your Search')}" class="search-facets phone-menu">
-          <h2 class="header-search-facets">${_('Refine Your Search')}</h2>
-          <section class="search-facets-lists">
-          </section>
-        </aside>
-        % endif
+    % if course_discovery_enabled:
+    <aside aria-label="${_('Refine your search')}" class="search-facets phone-menu">
+    </aside>
+    % endif
 
-##### EUCALYPTUS CODE
-#####      </section>
-#####    </section>
-#####</main>
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
     <section class="highlighted-courses">
         <section class="courses">
            <ul class="courses-listing">
@@ -254,4 +209,3 @@ logo_alt_text = "EDUlib Logo"
 
   </section>
 </section>
-##### DOGWOOD CODE
