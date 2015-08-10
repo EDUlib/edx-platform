@@ -130,9 +130,11 @@ logo_alt_text = "EDUlib Logo"
     </div>
 ##### DOGWOOD CODE
 
-        <div id="filter-bar" class="filters hide-phone is-collapsed">
-        </div>
-        % endif
+##### EUCALYPTUS CODE
+#####        <div id="filter-bar" class="filters hide-phone is-collapsed">
+#####        </div>
+#####        % endif
+##### EUCALYPTUS CODE
 
 ##### EUCALYPTUS CODE
 #####        <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
@@ -157,6 +159,12 @@ logo_alt_text = "EDUlib Logo"
         %endfor
       </ul>
     </div>
+
+
+    <div id="filter-bar" class="filters hide-phone is-collapsed">
+    </div>
+    % endif
+
 ##### DOGWOOD CODE
 
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
