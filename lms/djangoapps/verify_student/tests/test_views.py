@@ -56,6 +56,7 @@ from lms.djangoapps.verify_student.models import (
 )
 from xmodule.modulestore.tests.django_utils import ModuleStoreTestCase
 from xmodule.modulestore.tests.factories import CourseFactory, ItemFactory
+from xmodule.modulestore.tests.utils import XssTestMixin
 from xmodule.modulestore.django import modulestore
 from xmodule.modulestore import ModuleStoreEnum
 from xmodule.modulestore.tests.factories import check_mongo_calls

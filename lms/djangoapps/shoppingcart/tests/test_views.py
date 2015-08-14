@@ -28,6 +28,7 @@ import ddt
 from common.test.utils import XssTestMixin
 from xmodule.modulestore.tests.django_utils import SharedModuleStoreTestCase, ModuleStoreTestCase
 from xmodule.modulestore.tests.factories import CourseFactory
+from xmodule.modulestore.tests.utils import XssTestMixin
 from student.roles import CourseSalesAdminRole
 from util.date_utils import get_default_time_display
 from util.testing import UrlResetMixin
