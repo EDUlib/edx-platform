@@ -179,27 +179,6 @@ class FacebookOauth2(BaseProvider):
     def get_name(cls, provider_details):
         return provider_details.get('fullname')
 
-class TwitterOauth(BaseProvider):
-    """Provider for LinkedIn's Oauth2 auth system."""
-
-    BACKEND_CLASS = twitter.TwitterOAuth
-    ICON_CLASS = 'icon-twitter'
-    NAME = 'Twitter'
-    SETTINGS = {
-        'SOCIAL_AUTH_TWITTER_KEY': None,
-        'SOCIAL_AUTH_TWITTER_SECRET': None,
-    }
-
-    @classmethod
-    def get_email(cls, provider_details):
-        return provider_details.get('email')
-
-    @classmethod
-    def get_name(cls, provider_details):
-        return provider_details.get('fullname')
-
-
-
 class Registry(object):
     """
     API for querying third-party auth ProviderConfig objects.
