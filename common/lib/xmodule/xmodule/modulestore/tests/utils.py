@@ -5,6 +5,7 @@ import random
 
 from contextlib import contextmanager, nested
 from importlib import import_module
+from markupsafe import escape
 from opaque_keys.edx.keys import UsageKey
 from path import Path as path
 from shutil import rmtree
