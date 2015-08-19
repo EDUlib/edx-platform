@@ -1,9 +1,7 @@
 <%!
   import json
   from django.utils.translation import ugettext as _
-##### EUCALYPTUS CODE
   from openedx.core.djangolib.js_utils import dump_js_escaped_json
-##### EUCALYPTUS CODE
 ##### DOGWOOD CODE
   from microsite_configuration import microsite
   from openedx.core.lib.js_utils import escape_json_dumps
@@ -36,13 +34,12 @@
 </%block>
 % endif
 
+##### DOGWOOD CODE
 <%! from django.core.urlresolvers import reverse %>
-
-<%namespace name='static' file='../static_content.html'/>
-
 <%! from microsite_configuration import microsite %>
+##### DOGWOOD CODE
 
-<%block name="pagetitle">Cours</%block>
+<%block name="pagetitle">${_("Courses")}</%block>
 
 <%
 platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
@@ -78,14 +75,10 @@ logo_alt_text = "EDUlib Logo"
 #####<section class="find-courses">
 ##### EUCALYPTUS CODE
 ##### DOGWOOD CODE
-#####
 
 <section class="home">
-
-  <header>
-    <div class="outer-wrapper">
-      <div class="title">
-        <hgroup>
+  <section class="header-edulib">
+      <section class="title-edulib">
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -96,9 +89,7 @@ logo_alt_text = "EDUlib Logo"
               <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
           % endif
-        </hgroup>
-    
-      </div>
+      </section>
 
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
@@ -107,27 +98,41 @@ logo_alt_text = "EDUlib Logo"
           </div>
         </a>
       % endif
-    </div>
-  </header>
+  </section>
+
+  %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+      <% counter = 0 %>
+  %endif
+
+  <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+         if not course.has_started() and course.catalog_visibility == "both" :
+                counter += 1
+  %>
+
+  %if counter !=0 :
+      <h1>&Agrave; venir</h1>
+  %endif
 
   <section class="courses-container">
-    % if course_discovery_enabled:
-    <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
-      <div id="discovery-message" class="search-status-label"></div>
-      <form class="wrapper-search-input">
-        <label for="discovery-input" class="sr">${_('Search for a course')}</label>
-        <input id="discovery-input" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
-        <button type="submit" class="button postfix discovery-submit" aria-label="${_('Search')}">
-          <i class="icon fa fa-search" aria-hidden="true"></i>
-          <div aria-live="polite" aria-relevant="all">
-            <div id="loading-indicator" class="loading-spinner hidden">
-              <i class="icon fa fa-spinner fa-spin"></i>
-              <span class="sr">${_('Loading')}</span>
-            </div>
-          </div>
-        </button>
-      </form>
-    </div>
+########## EUCALYPTUS CODE
+##########    % if course_discovery_enabled:
+##########    <div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
+##########      <div id="discovery-message" class="search-status-label"></div>
+##########      <form class="wrapper-search-input">
+##########        <label for="discovery-input" class="sr">${_('Search for a course')}</label>
+##########        <input id="discovery-input" class="discovery-input" placeholder="${_('Search for a course')}" type="text"/>
+##########        <button type="submit" class="button postfix discovery-submit" aria-label="${_('Search')}">
+##########          <i class="icon fa fa-search" aria-hidden="true"></i>
+##########          <div aria-live="polite" aria-relevant="all">
+##########            <div id="loading-indicator" class="loading-spinner hidden">
+##########              <i class="icon fa fa-spinner fa-spin"></i>
+##########              <span class="sr">${_('Loading')}</span>
+##########            </div>
+##########          </div>
+##########        </button>
+##########      </form>
+##########    </div>
+########## EUCALYPTUS CODE
 ##### DOGWOOD CODE
 
 ##### EUCALYPTUS CODE
@@ -160,10 +165,9 @@ logo_alt_text = "EDUlib Logo"
       </ul>
     </div>
 
-
-    <div id="filter-bar" class="filters hide-phone is-collapsed">
-    </div>
-    % endif
+    #####<div id="filter-bar" class="filters hide-phone is-collapsed">
+    #####</div>
+    #####% endif
 
 ##### DOGWOOD CODE
 
@@ -259,7 +263,5 @@ logo_alt_text = "EDUlib Logo"
            </ul>
         </section>
     </section>
-
-  </section>
 </section>
 ##### DOGWOOD CODE
