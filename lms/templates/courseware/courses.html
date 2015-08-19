@@ -2,6 +2,8 @@
   import json
   from django.utils.translation import ugettext as _
   from openedx.core.djangolib.js_utils import dump_js_escaped_json
+  from microsite_configuration import microsite
+  from openedx.core.lib.js_utils import escape_json_dumps
   from xmodule.modulestore.django import modulestore
   from xmodule.contentstore.django import contentstore
   from microsite_configuration import microsite
