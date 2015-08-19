@@ -37,10 +37,8 @@ from openedx.core.djangolib.markup import HTML, Text
 #####              </div>
 ##### EUCALYPTUS CODE
 <section class="home">
-  <header>
-    <div class="outer-wrapper">
-      <div class="title">
-        <hgroup>
+  <section class="header-edulib">
+      <section class="title-edulib">
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -52,23 +50,35 @@ from openedx.core.djangolib.markup import HTML, Text
 ##### DOGWOOD CODE
             % endif
           % endif
-        </hgroup>
-      </div>
+##### EUCALYPTUS CODE
+#####        </hgroup>
+#####      </div>
+##### EUCALYPTUS CODE
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
           <div class="hero">
             <div class="play-intro"></div>
 ##### DOGWOOD CODE
           </div>
+##### EUCALYPTUS CODE
+#####
+#####          % if show_homepage_promo_video:
+#####            <a href="#video-modal" class="media" rel="leanModal">
+#####              <div class="hero">
+#####                <div class="play-intro"></div>
+#####              </div>
+#####            </a>
+#####          % endif
+#####        </div>
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+        </a>
+      % endif
+  </section>
 
-          % if show_homepage_promo_video:
-            <a href="#video-modal" class="media" rel="leanModal">
-              <div class="hero">
-                <div class="play-intro"></div>
-              </div>
-            </a>
-          % endif
-        </div>
+  <section class="courses-container">
+    <section class="highlighted-courses">
+##### DOGWOOD CODE
 
 ##### EUCALYPTUS CODE
 #####      </header>
