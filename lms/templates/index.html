@@ -48,23 +48,35 @@ from xmodule.modulestore.django import modulestore
               </div>
             % endif
           % endif
-        </hgroup>
-      </div>
+##### EUCALYPTUS CODE
+#####        </hgroup>
+#####      </div>
+##### EUCALYPTUS CODE
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
           <div class="hero">
             <div class="play-intro"></div>
 ##### DOGWOOD CODE
           </div>
+##### EUCALYPTUS CODE
+#####
+#####          % if show_homepage_promo_video:
+#####            <a href="#video-modal" class="media" rel="leanModal">
+#####              <div class="hero">
+#####                <div class="play-intro"></div>
+#####              </div>
+#####            </a>
+#####          % endif
+#####        </div>
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+        </a>
+      % endif
+  </section>
 
-          % if show_homepage_promo_video:
-            <a href="#video-modal" class="media" rel="leanModal">
-              <div class="hero">
-                <div class="play-intro"></div>
-              </div>
-            </a>
-          % endif
-        </div>
+  <section class="courses-container">
+    <section class="highlighted-courses">
+##### DOGWOOD CODE
 
       </header>
 <!--      <%include file="${courses_list}" /> -->
