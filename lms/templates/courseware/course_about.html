@@ -1,4 +1,4 @@
-<%namespace name='static' file='../static_content.html'/>
+e%namespace name='static' file='../static_content.html'/>
 <%!
 from django.utils.translation import ugettext as _
 from django.core.urlresolvers import reverse
@@ -158,7 +158,14 @@ from openedx.core.lib.courses import course_image_url
               reg_element_id = ""
           %>
           <a href="${reg_href}" class="add-to-cart" id="${reg_element_id}">
-            ${_("Add {course_name} to Cart <span>({price} USD)</span>")\
+            ##### nouveau code Dogwood
+            #####${_("Add {course_name} to Cart <span>({price} USD)</span>")\
+            #####  .format(course_name=course.display_number_with_default, price=course_price)}
+
+            ####${_("Add {course.display_number_with_default} to Cart ({currency_symbol}{cost})")\
+            ####  .format(course=course, currency_symbol=settings.PAID_COURSE_REGISTRATION_CURRENCY[1],
+            ####          cost=registration_price)}
+            ${_("Add {course_name} to Cart ({price})")\
               .format(course_name=course.display_number_with_default, price=course_price)}
           </a>
           <div id="register_error"></div>
@@ -209,11 +216,9 @@ from openedx.core.lib.courses import course_image_url
         </div>
       % endif
 
-##### EUCALYPTUS CODE
-##### EUCALYPTUS CODE
 ##### DOGWOOD CODE
       
-      <nav>
+      <nav aria-label="${_('Course About')}">
       ##  <a href="#" class="active">${_("Overview")}</a>
       ##  <a href="#">${_("FAQ")}</a>
       ##  <a href="#">${_("Requirements")}</a>
