@@ -114,65 +114,6 @@ class BaseProvider(object):
         for key, value in cls.SETTINGS.iteritems():
             setattr(settings, key, value)
 
-class GoogleOauth2(BaseProvider):
-    """Provider for Google's Oauth2 auth system."""
-
-    BACKEND_CLASS = google.GoogleOAuth2
-    ICON_CLASS = 'icon-google-plus'
-    NAME = 'Google'
-    SETTINGS = {
-        'SOCIAL_AUTH_GOOGLE_OAUTH2_KEY': None,
-        'SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET': None,
-    }
-
-    @classmethod
-    def get_email(cls, provider_details):
-        return provider_details.get('email')
-
-    @classmethod
-    def get_name(cls, provider_details):
-        return provider_details.get('fullname')
-
-
-class LinkedInOauth2(BaseProvider):
-    """Provider for LinkedIn's Oauth2 auth system."""
-
-    BACKEND_CLASS = linkedin.LinkedinOAuth2
-    ICON_CLASS = 'icon-linkedin'
-    NAME = 'LinkedIn'
-    SETTINGS = {
-        'SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY': None,
-        'SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET': None,
-    }
-
-    @classmethod
-    def get_email(cls, provider_details):
-        return provider_details.get('email')
-
-    @classmethod
-    def get_name(cls, provider_details):
-        return provider_details.get('fullname')
-
-
-class FacebookOauth2(BaseProvider):
-    """Provider for LinkedIn's Oauth2 auth system."""
-
-    BACKEND_CLASS = facebook.FacebookOAuth2
-    ICON_CLASS = 'icon-facebook'
-    NAME = 'Facebook'
-    SETTINGS = {
-        'SOCIAL_AUTH_FACEBOOK_KEY': None,
-        'SOCIAL_AUTH_FACEBOOK_SECRET': None,
-    }
-
-    @classmethod
-    def get_email(cls, provider_details):
-        return provider_details.get('email')
-
-    @classmethod
-    def get_name(cls, provider_details):
-        return provider_details.get('fullname')
-
 class Registry(object):
     """
     API for querying third-party auth ProviderConfig objects.
