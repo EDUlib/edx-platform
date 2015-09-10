@@ -2511,6 +2511,7 @@ REGISTRATION_EXTRA_FIELDS = {
     'terms_of_service': 'hidden',
     'city': 'hidden',
     'country': 'hidden',
+    'consent': 'required',
 }
 
 REGISTRATION_FIELD_ORDER = [
