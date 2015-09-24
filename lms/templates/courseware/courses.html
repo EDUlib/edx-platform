@@ -77,8 +77,10 @@ logo_alt_text = "EDUlib Logo"
 ##### DOGWOOD CODE
 
 <section class="home">
-  <section class="header-edulib">
-      <section class="title-edulib">
+  <header class="edulib">
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -89,7 +91,9 @@ logo_alt_text = "EDUlib Logo"
               <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
           % endif
-      </section>
+        </hgroup>
+
+      </div>
 
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
@@ -98,7 +102,9 @@ logo_alt_text = "EDUlib Logo"
           </div>
         </a>
       % endif
-  </section>
+    </div>
+
+  </header>
 
   %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
       <% counter = 0 %>
@@ -110,7 +116,7 @@ logo_alt_text = "EDUlib Logo"
   %>
 
   %if counter !=0 :
-      <h1>&Agrave; venir</h1>
+      <h1 class="edulib">&Agrave; venir</h1>
   %endif
 
   <section class="courses-container">
