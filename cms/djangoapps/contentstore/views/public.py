@@ -16,7 +16,6 @@ __all__ = ['signup', 'login_page', 'howitworks']
 
 
 @ensure_csrf_cookie
-@xframe_options_deny
 def signup(request):
     """
     Display the signup form.
@@ -34,7 +33,6 @@ def signup(request):
 
 @ssl_login_shortcut
 @ensure_csrf_cookie
-@xframe_options_deny
 def login_page(request):
     """
     Display the login form.
