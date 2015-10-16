@@ -42,7 +42,6 @@ from student.views import (
 from student.helpers import get_next_url_for_login_page
 import third_party_auth
 from third_party_auth import pipeline
-from third_party_auth.decorators import xframe_allow_whitelisted
 from util.bad_request_rate_limiter import BadRequestRateLimiter
 from util.date_utils import strftime_localized
 
@@ -52,7 +51,6 @@ log = logging.getLogger(__name__)
 
 @require_http_methods(['GET'])
 @ensure_csrf_cookie
-@xframe_allow_whitelisted
 def login_and_registration_form(request, initial_mode="login"):
     """Render the combined login/registration form, defaulting to login
 
