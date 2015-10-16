@@ -51,7 +51,6 @@ from student.helpers import destroy_oauth_tokens, get_next_url_for_login_page
 from student.models import UserProfile
 from student.views import register_user as old_register_view, signin_user as old_login_view
 from third_party_auth import pipeline
-from third_party_auth.decorators import xframe_allow_whitelisted
 from util.bad_request_rate_limiter import BadRequestRateLimiter
 from util.date_utils import strftime_localized
 
@@ -62,7 +61,6 @@ User = get_user_model()  # pylint:disable=invalid-name
 
 @require_http_methods(['GET'])
 @ensure_csrf_cookie
-@xframe_allow_whitelisted
 def login_and_registration_form(request, initial_mode="login"):
     """Render the combined login/registration form, defaulting to login
 
