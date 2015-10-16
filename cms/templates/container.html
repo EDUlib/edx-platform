@@ -61,7 +61,12 @@ from openedx.core.djangolib.markup import HTML, Text
                     ancestor_url = xblock_studio_url(ancestor)
                     %>
                     % if ancestor_url:
-                        <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default}</a>
+########## CODE EUCALYPTUS
+##########                        <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default}</a>
+########## CODE EUCALYPTUS
+########## CODE DOGWOOD
+                        <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default | h}</a>
+########## CODE DOGWOOD
                     % else:
                         <span class="navigation-item navigation-parent">${ancestor.display_name_with_default}</span>
                     % endif

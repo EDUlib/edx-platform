@@ -4,6 +4,7 @@ Views handling read (GET) requests for the Discussion tab and inline discussions
 
 from functools import wraps
 import logging
+import xml.sax.saxutils as saxutils
 
 from django.contrib.auth.decorators import login_required
 from django.core.context_processors import csrf
