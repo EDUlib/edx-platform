@@ -403,8 +403,7 @@ div.problem {
     // TO-DO: Styling used by advanced capa problem types. Should be synced up to use .status class
     p {
       &.answer {
-        // Put the answer slightly higher
-          margin-top: -20px;
+          margin-top: -2px;
       }
 
       span.clarification i {
@@ -455,7 +454,7 @@ div.problem {
     p.answer {
       @include margin-left($baseline/2);
         //Adds margin between the answer and the next problem
-      display: block;
+      display: inline-block;
       margin-bottom: 40px;
 
       &::before {
