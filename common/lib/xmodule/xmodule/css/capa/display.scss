@@ -378,7 +378,8 @@ div.problem {
     // TO-DO: Styling used by advanced capa problem types. Should be synced up to use .status class
     p {
       &.answer {
-        margin-top: -2px;
+        // Put the answer slightly higher
+          margin-top: -20px;
       }
 
       span.clarification i {
