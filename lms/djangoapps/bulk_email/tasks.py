@@ -418,7 +418,16 @@ def _get_source_address(course_id, course_title, course_language, truncate=True)
         from_addr = format_address(course_name)
 
 ##### DOGWOOD CODE
-    from_addr = u'"{0}" Course Staff <{1}>'.format(
+############ EUCALYPTUS CODE
+##########    from_addr = u'"{0}" Course Staff <{1}>'.format(
+############ EUCALYPTUS CODE
+    #from_addr = u'"{0}" Course Staff <{1}-{2}>'.format(
+    #    course_title_no_quotes,
+    #    re.sub(r"[^\w.-]", '_', course_id.course),
+    #    settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
+    #)
+    ####from_addr = u'"{0}" Course Staff <{1}>'.format(
+    from_addr = u'"{0}" <{1}>'.format(
         course_title_no_quotes,
         settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
     )
