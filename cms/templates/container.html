@@ -62,12 +62,16 @@ from openedx.core.djangolib.markup import HTML, Text
                     ancestor_url = xblock_studio_url(ancestor)
                     %>
                     % if ancestor_url:
+<<<<<<< eb152335972c72afc1bd2b9b1f5d62041fb3675e
 ########## CODE EUCALYPTUS
 ##########                        <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default}</a>
 ########## CODE EUCALYPTUS
 ########## CODE DOGWOOD
                         <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default | h}</a>
 ########## CODE DOGWOOD
+=======
+                        <a href="${ancestor_url | h}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default | h}</a>
+>>>>>>> Subject: [PATCH 1/2] Add template escaping in forums, progress page and course
                     % else:
                         <span class="navigation-item navigation-parent">${ancestor.display_name_with_default}</span>
                     % endif
