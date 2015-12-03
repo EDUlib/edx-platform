@@ -25,11 +25,11 @@ from six import text_type
 <%block name="pagetitle">${_("{course_number} Progress").format(course_number=course.display_number_with_default)}</%block>
 
 <%block name="js_extra">
-<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.js')}"></script>
-<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.stack.js')}"></script>
-<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.symbol.js')}"></script>
-<script type="text/javascript" src="${static.url('js/courseware/certificates_api.js')}"></script>
-<script type="text/javascript" src="${static.url('js/courseware/credit_progress.js')}"></script>
+<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.js') | h}"></script>
+<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.stack.js') | h}"></script>
+<script type="text/javascript" src="${static.url('js/vendor/flot/jquery.flot.symbol.js') | h}"></script>
+<script type="text/javascript" src="${static.url('js/courseware/certificates_api.js') | h}"></script>
+<script type="text/javascript" src="${static.url('js/courseware/credit_progress.js') | h}"></script>
 <script>
     ## This JavaScript is being HTML-escaped because it historically has, and it is not clear what
     ## the correct syntax is. For safety, maintain the previous behavior.
