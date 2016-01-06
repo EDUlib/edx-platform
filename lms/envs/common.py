@@ -1199,7 +1199,7 @@ MIDDLEWARE_CLASSES = (
 # Clickjacking protection can be enabled by setting this to 'DENY'
 #####X_FRAME_OPTIONS = 'ALLOW'
 #####To replace content of patch 20151203
-X_FRAME_OPTIONS = 'DENY'
+#X_FRAME_OPTIONS = 'DENY'
 
 # Platform for Privacy Preferences header
 P3P_HEADER = 'CP="Open EdX does not have a P3P policy."'
