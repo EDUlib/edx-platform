@@ -8963,7 +8963,7 @@ msgstr ""
 #. a field on the password reset form meant to hold the user's email address.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "username@domain.com"
-msgstr ""
+msgstr "utilisateur@domaine.com"
 
 #. Translators: These instructions appear on the login form, immediately
 #. below a field meant to hold the user's email address.
@@ -12767,7 +12767,7 @@ msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger {cert_name_short} (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
