@@ -9889,7 +9889,7 @@ msgstr "Tableau de bord"
 
 #: lms/templates/dashboard.html
 msgid "My Courses"
-msgstr ""
+msgstr "Mes cours"
 
 #: lms/templates/dashboard.html
 msgid "Looks like you haven't enrolled in any courses yet."
@@ -12545,7 +12545,7 @@ msgstr ""
 
 #: lms/templates/courseware/progress.html
 msgid "Download Your Certificate"
-msgstr "Télécharger votre certificat"
+msgstr "Télécharger votre attestation"
 
 #. Translators: This message appears to users when the system is processessing
 #. course certificates, which can take a few hours.
@@ -12771,7 +12771,7 @@ msgstr "Télécharger {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -12783,7 +12783,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} vérifié (PDF)"
+msgstr "Télécharger votre attestation vérifiée (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -12804,9 +12804,9 @@ msgid ""
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
 msgstr ""
 "Comme nous ne disposions pas de jeu valide de photos de vérification de "
-"votre part lorsque votre {cert_name_long} a été généré, nous n'avons pas pu "
-"vous octroyer un certificat vérifié {cert_name_short}. Un certificat sur "
-"l'honneur {cert_name_short} vous a été délivré en remplacement. "
+"votre part lorsque votre attestation ide réussite a été générée, nous n'avons pas pu "
+"vous octroyer une attestation vérifiée {cert_name_short}. Une attestation sur "
+"l'honneur vous a été octroyée en remplacement."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "{category} Program Course"
@@ -12935,7 +12935,7 @@ msgstr "Vérifier maintenant"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You have already verified your ID!"
-msgstr "Vous avez déjà vérifié votre ID!"
+msgstr "Vous avez déjà vérifié votre identité!"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Thanks for your patience as we process your request."
@@ -12943,7 +12943,7 @@ msgstr "Merci pour votre patience pendant que nous traitons votre demande."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Your verification status is good until {date}."
-msgstr "Votre vérification est valable jusqu'au {date}."
+msgstr "Votre vérification est valide jusqu'au {date}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Your verification will expire soon!"
@@ -13057,7 +13057,7 @@ msgstr "éditer"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "ID Verification Status"
-msgstr ""
+msgstr "Statut de vérification d'identité"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "Reviewed and Verified"
@@ -13066,7 +13066,7 @@ msgstr "Revu et vérifié"
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "Your verification status is good for one year after submission."
 msgstr ""
-"Votre état de vérification est valable pendant 1 an après sa soumission."
+"Votre état de vérification est valide pour une durée de 1 an après sa soumission."
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid ""
