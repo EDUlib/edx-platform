@@ -5667,7 +5667,7 @@ msgstr ""
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 msgid "Email"
-msgstr "E-mail"
+msgstr "Courriel"
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper.py lms/envs/devstack.py
@@ -8971,7 +8971,7 @@ msgstr ""
 #. immediately below a field meant to hold the user's email address.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "The email address you used to register with {platform_name}"
-msgstr ""
+msgstr "L'adresse courriel que vous avez utilisée pour vous inscrire sur {platform_name}"
 
 #: cms/templates/login.html cms/templates/register.html
 #: lms/templates/login.html lms/templates/provider_login.html
@@ -9607,7 +9607,7 @@ msgstr "Cours"
 #: lms/templates/provider_login.html lms/templates/register-shib.html
 #: lms/templates/register.html lms/templates/signup_modal.html
 msgid "E-mail"
-msgstr "E-mail"
+msgstr "Courriel"
 
 #. Translators: This is the placeholder text for a field that requests an
 #. email
@@ -9967,7 +9967,7 @@ msgstr "Retour à {link_start}l'accueil{link_end}"
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
 msgid "E-mail change successful!"
-msgstr "Adresse e-mail modifiée avec succès !"
+msgstr "Adresse courriel modifiée avec succès !"
 
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
@@ -11058,7 +11058,7 @@ msgstr "Gestion des utilisateurs"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Email or username"
-msgstr "E-mail ou nom d'utilisateur"
+msgstr "Courriel ou nom d'utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Delete user"
@@ -13549,7 +13549,7 @@ msgstr "Nom du Contact de l'Entreprise:"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Company Contact Email:"
-msgstr "E-mail du Contact de l'Entreprise:"
+msgstr "Courriel du Contact de l'Entreprise:"
 
 #. Translators: this will be the name of a person receiving an email
 #: lms/templates/emails/business_order_confirmation_email.txt
@@ -13559,7 +13559,7 @@ msgstr "Nom du Bénéficiaire:"
 #. Translators: this will be the email address of a person receiving an email
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Recipient Email:"
-msgstr "E-mail du Bénéficiaire:"
+msgstr "Courriel du Bénéficiaire:"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 #: lms/templates/emails/order_confirmation_email.txt
@@ -13739,7 +13739,7 @@ msgid ""
 msgstr ""
 "Pour terminer votre inscription, rendez-vous sur {registration_url} et "
 "complétez le formulaire d'inscription. Soyez vigilant d'utiliser "
-"{email_address} dans le champ E-mail. "
+"{email_address} dans le champ Courriel. "
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
@@ -16789,7 +16789,7 @@ msgstr ""
 
 #: themes/red-theme/lms/templates/header.html
 msgid "Register Now"
-msgstr ""
+msgstr "Inscription"
 
 #: cms/templates/404.html
 msgid "The page that you were looking for was not found."
