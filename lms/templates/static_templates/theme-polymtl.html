@@ -51,7 +51,7 @@ logo_alt_text = "EDUlib Logo"
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                     %if not course.has_started() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
-                            <%include file="../course.html" args="course=course" />
+                            <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
@@ -81,7 +81,7 @@ logo_alt_text = "EDUlib Logo"
                %for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
                     %if course.has_started() and not course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
-                            <%include file="../course.html" args="course=course" />
+                            <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
@@ -111,7 +111,7 @@ logo_alt_text = "EDUlib Logo"
                %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
                     %if course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
-                            <%include file="../course.html" args="course=course" />
+                            <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
