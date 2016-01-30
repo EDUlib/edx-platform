@@ -6617,7 +6617,7 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Default Tab"
-msgstr ""
+msgstr "Onglet de défaut"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -6629,15 +6629,15 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "LaTeX Source File Name"
-msgstr ""
+msgstr "Nom du fichier source LaTeX"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Enter the source file name for LaTeX."
-msgstr ""
+msgstr "Entrez le nom du fichier source pour LaTeX."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Course Is Public"
-msgstr ""
+msgstr "Le cours est public"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -6821,24 +6821,25 @@ msgstr ""
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "The number of items sold."
-msgstr ""
+msgstr "Le nombre d'articles vendus."
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "The price per item sold, including discounts."
-msgstr ""
+msgstr "Le prix par article vendu, y compris les rabais."
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Registration for Course: {course_name}"
-msgstr ""
+msgstr "Inscription pour le cours: {course_name}"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
 "Please visit your {link_start}dashboard{link_end} to see your new course."
 msgstr ""
+"Veuillez visiter votre {link_start}tableau de bord{link_end} pour voir votre nouveau cours."
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Enrollment codes for Course: {course_name}"
-msgstr ""
+msgstr "Codes d'inscription pour le cours: {course_name}"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Mode {mode} does not exist for {course_id}"
@@ -6849,13 +6850,15 @@ msgstr ""
 #. by which a user could enroll in the given course.
 #: lms/djangoapps/shoppingcart/models.py
 msgid "{mode_name} for course {course}"
-msgstr ""
+msgstr "{mode_name} pour cours {course}"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
 "You can unenroll in the course and receive a full refund for 14 days after "
 "the course start date. "
 msgstr ""
+"Vous pouvez vous désinscrire du cours et recevoir un remboursement complet 14 jours après "
+"la date de début du cours. "
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
@@ -6952,23 +6955,23 @@ msgstr "Total"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Payment Received"
-msgstr ""
+msgstr "Paiement reçu"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Balance"
-msgstr ""
+msgstr "Solde"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Billing Address"
-msgstr ""
+msgstr "Adresse de facturation"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "Disclaimer"
-msgstr ""
+msgstr "Démenti"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "TERMS AND CONDITIONS"
-msgstr ""
+msgstr "TERMES ET CONDITIONS"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid "The payment processor did not return a required parameter: {0}"
@@ -6983,6 +6986,7 @@ msgstr ""
 msgid ""
 "The payment processor accepted an order whose number is not in our system."
 msgstr ""
+"Notre serveur de paiement a accepté une commande dont le numéro n'est pas dans notre système."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7028,17 +7032,17 @@ msgstr ""
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "Successful transaction."
-msgstr ""
+msgstr "Transaction réussie."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The request is missing one or more required fields."
-msgstr ""
+msgstr "Un ou plusieurs champs obligatoires est manquant dans la demande."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "One or more fields in the request contains invalid data."
-msgstr ""
+msgstr "Un ou plusieurs champs dans la demande contient des données invalides."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7172,6 +7176,7 @@ msgstr ""
 msgid ""
 "The requested transaction amount must match the previous transaction amount."
 msgstr ""
+"Le montant de la transaction demandée doit correspondre au montant de la transaction précédente."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7184,7 +7189,7 @@ msgstr ""
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The request ID is invalid."
-msgstr ""
+msgstr "Le numéro d'identification de la demande est invalide."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7196,7 +7201,7 @@ msgstr ""
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The transaction has already been settled or reversed."
-msgstr ""
+msgstr "La transaction a déjà été réglée ou inversée."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
 msgid ""
@@ -7554,6 +7559,8 @@ msgid ""
 "            been used by another capture request.\n"
 "            "
 msgstr ""
+"\n"
+"Vous avez demandé une capture, mais il n'y a pas d'enregistrement correspondant pour une autorisation inutilisée. Se produit s'il n'y avait pas une demande d'autorisation précédente réussi ou si l'autorisation réussie précédente a déjà été utilisé par une autre requête de capture."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -7601,43 +7608,43 @@ msgstr ""
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Order Number"
-msgstr ""
+msgstr "Numéro de commande"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Customer Name"
-msgstr ""
+msgstr "Nom du client"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Date of Original Transaction"
-msgstr ""
+msgstr "Date de la transaction originale"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Date of Refund"
-msgstr ""
+msgstr "Date du remboursement"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Amount of Refund"
-msgstr ""
+msgstr "Montant du remboursement"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Service Fees (if any)"
-msgstr ""
+msgstr "Frais de service (s'il y a lieu)"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Purchase Time"
-msgstr ""
+msgstr "Moment de l'achat"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Order ID"
-msgstr ""
+msgstr "Numéro d'indentification de la commande"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Unit Cost"
-msgstr ""
+msgstr "Coût par unité"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Total Cost"
-msgstr ""
+msgstr "Coût total"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Currency"
@@ -7645,15 +7652,15 @@ msgstr "Monnaie"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Comments"
-msgstr ""
+msgstr "Commentaires"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "University"
-msgstr ""
+msgstr "Université"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Announce Date"
-msgstr ""
+msgstr "Date de l'annonce du cours"
 
 #: cms/templates/settings.html
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
@@ -7662,23 +7669,23 @@ msgstr "Date de début du cours"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Registration Close Date"
-msgstr ""
+msgstr "Date de fermeture des inscriptions pour le cours"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Course Registration Period"
-msgstr ""
+msgstr "Période d'inscriptions pour le cours"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Total Enrolled"
-msgstr ""
+msgstr "Total d'inscrits"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Audit Enrollment"
-msgstr ""
+msgstr "Inscriptions en tant qu'auditeur libre"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Honor Code Enrollment"
-msgstr ""
+msgstr "Inscriptions selon le code d'honneur"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Verified Enrollment"
@@ -7687,106 +7694,109 @@ msgstr "Inscriptions au certificat vérifié"
 #: lms/djangoapps/shoppingcart/reports.py
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Gross Revenue"
-msgstr ""
+msgstr "Revenu brut"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Gross Revenue over the Minimum"
-msgstr ""
+msgstr "Revenu brut au-dessus le minimum"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Number of Verified Students Contributing More than the Minimum"
-msgstr ""
+msgstr "Nombre d'étudiants vérifiés contribuant plus que le minimum"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Number of Refunds"
-msgstr ""
+msgstr "Nombre de remboursements"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Dollars Refunded"
-msgstr ""
+msgstr "Dollars remboursés"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Number of Transactions"
-msgstr ""
+msgstr "Nombre de transactions"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Total Payments Collected"
-msgstr ""
+msgstr "Total des paiements recouvrés"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Number of Successful Refunds"
-msgstr ""
+msgstr "Nombre de remboursements réussis"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Total Amount of Refunds"
-msgstr ""
+msgstr "Nombre total de remboursements"
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "You must be logged-in to add to a shopping cart"
-msgstr ""
+msgstr "Vous devez être connecté pour ajouter à un panier d'achat"
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "The course you requested does not exist."
-msgstr ""
+msgstr "Le cours que vous avez demandé n'existe pas."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "The course {course_id} is already in your cart."
-msgstr ""
+msgstr "Le cours {course_id} est déjà dans votre panier."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "You are already registered in course {course_id}."
-msgstr ""
+msgstr "Vous êtes déjà inscrit au cours {course_id}."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "Course added to cart."
-msgstr ""
+msgstr "Cours ajouté au panier."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "Discount does not exist against code '{code}'."
-msgstr ""
+msgstr "Le rabais n'existe pas contre le code '{code}'."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "This enrollment code ({enrollment_code}) is no longer valid."
-msgstr ""
+msgstr "Ce code d'inscription ({enrollment_code}) n'est plus valide."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "This enrollment code ({enrollment_code}) is not valid."
-msgstr ""
+msgstr "Ce code d'inscription ({enrollment_code}) n'est plus valide."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid ""
 "Code '{registration_code}' is not valid for any course in the shopping cart."
 msgstr ""
+"Le code '{registration_code}' est invalide pour n'importe quel cours dans le panier d'achat."
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid ""
 "Cart item quantity should not be greater than 1 when applying activation "
 "code"
 msgstr ""
+"La quantité d'item dans le panier ne devrait pas être plus grand que 1 quand un code "
+"d'activation est appliqué"
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "Only one coupon redemption is allowed against an order"
-msgstr ""
+msgstr "Seulement un coupon de rachat est permis pour une commande"
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "success"
-msgstr ""
+msgstr "succès"
 
 #: lms/djangoapps/shoppingcart/views.py
 msgid "You do not have permission to view this page."
-msgstr ""
+msgstr "Vous n'avez pas la permission de voir cette page."
 
 #: lms/djangoapps/student_account/views.py
 msgid "No user with the provided email address exists."
-msgstr ""
+msgstr "Aucun utilisateur avec l'adresse courriel fournie n'existe"
 
 #: lms/djangoapps/student_account/views.py
 msgid "No email address provided."
-msgstr ""
+msgstr "Aucune adresse courriel fournie"
 
 #: lms/djangoapps/support/views/index.py
 msgid "View and regenerate certificates."
-msgstr ""
+msgstr "Voir et regénerer les attestations."
 
 #: lms/djangoapps/support/views/index.py lms/templates/support/refund.html
 msgid "Manual Refund"
@@ -7794,54 +7804,54 @@ msgstr "Remboursement manuel"
 
 #: lms/djangoapps/support/views/index.py
 msgid "Track refunds issued directly through CyberSource."
-msgstr ""
+msgstr "Remboursement émis directement par CyberSource."
 
 #: lms/templates/shoppingcart/billing_details.html
 msgid "Email Address"
-msgstr "Adresse e-mail"
+msgstr "Adresse courriel"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 msgid "Course ID"
-msgstr "ID de Cours"
+msgstr "ID de cours"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "User not found"
-msgstr ""
+msgstr "Utilisateur non trouvé"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Course {course_id} not past the refund window."
-msgstr ""
+msgstr "Cours {course_id} toujours dans la fenêtre de remboursement."
 
 #: lms/djangoapps/support/views/refund.py
 msgid "No order found for {user} in course {course_id}"
-msgstr ""
+msgstr "Aucune commande trouvée pour {user} dans le cours {course_id} "
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Unenrolled {user} from {course_id}"
-msgstr ""
+msgstr "Désinscrire {user} de {course_id}"
 
 #: lms/djangoapps/support/views/refund.py
 msgid "Refunded {cost} for order id {order_id}"
-msgstr ""
+msgstr "Remboursement {cost} pour la commande {order_id}"
 
 #: lms/djangoapps/teams/models.py
 msgid "Optional language the team uses as ISO 639-1 code."
-msgstr ""
+msgstr "Langage optionel utilisé par l'équipe selon le code ISO 639-1."
 
 #: lms/djangoapps/teams/plugins.py
 #: lms/djangoapps/teams/templates/teams/teams.html
 msgid "Teams"
-msgstr ""
+msgstr "Equipes"
 
 #: lms/djangoapps/teams/views.py
 msgid "The supplied course id {course_id} is not valid."
-msgstr ""
+msgstr "Le numéro d'indentification du cours fourni {course_id} n'est pas valide."
 
 #: lms/djangoapps/teams/views.py
 msgid "course_id must be provided"
-msgstr ""
+msgstr "le numéro d'identification du cours doit être fourni"
 
 #: lms/djangoapps/teams/views.py
 msgid "text_search and order_by cannot be provided together"
@@ -7853,7 +7863,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/views.py
 msgid "Error connecting to elasticsearch"
-msgstr ""
+msgstr "Erreur de connection à elasticsearch"
 
 #. Translators: 'ordering' is a string describing a way
 #. of ordering a list. For example, {ordering} may be
@@ -7861,91 +7871,95 @@ msgstr ""
 #. list by lower case name.
 #: lms/djangoapps/teams/views.py
 msgid "The ordering {ordering} is not supported"
-msgstr ""
+msgstr "La commande {ordering} n'est pas prise en charge"
 
 #: lms/djangoapps/teams/views.py
 msgid "The supplied course_id {course_id} is not valid."
-msgstr ""
+msgstr "Le numéro d'identification du cours fourni {course_id} n'est pas valide"
 
 #: lms/djangoapps/teams/views.py
 msgid "You are already in a team in this course."
-msgstr ""
+msgstr "Vous faites déjà partie d'une équipe dans ce cours."
 
 #: lms/djangoapps/teams/views.py
 msgid "username or team_id must be specified."
-msgstr ""
+msgstr "le nom d'utilisateur ou l'identifiant de l'équipe doit être spécifié."
 
 #: lms/djangoapps/teams/views.py
 msgid "Username is required."
-msgstr ""
+msgstr "Le nom d'utilisateur est nécessaire."
 
 #: lms/djangoapps/teams/views.py
 msgid "Team id is required."
-msgstr ""
+msgstr "L'identifiant de l'équipe est nécessaire."
 
 #: lms/djangoapps/teams/views.py
 msgid "This team is already full."
-msgstr ""
+msgstr "Cette équipe est déjà complète."
 
 #: lms/djangoapps/teams/views.py
 msgid "The user {username} is already a member of a team in this course."
-msgstr ""
+msgstr "L'utilisateur {username} est déjà membre d'une équipe au sein de ce cours."
 
 #: lms/djangoapps/teams/views.py
 msgid ""
 "The user {username} is not enrolled in the course associated with this team."
 msgstr ""
+"L'utilisateur {username} n'est pas inscrit au sein du cours associé avec cette équipe."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "Your {platform_name} verification has expired."
-msgstr ""
+msgstr "Votre vérification {platform_name} a expiré."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "No photo ID was provided."
-msgstr ""
+msgstr "Aucune photo ID a été fournie."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "We couldn't read your name from your photo ID image."
-msgstr ""
+msgstr "Nous n'avons pas pu lire votre nom à partir de l'image de votre pièce d'identification."
 
 #: lms/djangoapps/verify_student/models.py
 msgid ""
 "The name associated with your account and the name on your ID do not match."
 msgstr ""
+"Le nom associé avec votre compte et le nom sur votre pièce d'identification ne correspondent pas."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "The image of your face was not clear."
-msgstr ""
+msgstr "L'image de votre visage n'était pas claire."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "Your face was not visible in your self-photo."
-msgstr ""
+msgstr "Votre visage n'était pas visible dans votre photo."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "There was an error verifying your ID photos."
-msgstr ""
+msgstr "Il y a eu une erreur dans la vérification de vos photos."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
-msgstr ""
+msgstr "Le cours pour lequel ce délai s'applique"
 
 #: lms/djangoapps/verify_student/models.py
 msgid ""
 "The datetime after which users are no longer allowed to submit photos for "
 "verification."
 msgstr ""
+"La date et l'heure après lesquels les utilisateurs ne sont plus autorisés à soumettre des photos pour "
+"vérification."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Intro"
-msgstr ""
+msgstr "Introduction"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Make payment"
-msgstr ""
+msgstr "Faire un paiement"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Payment confirmation"
-msgstr ""
+msgstr "Confirmation de paiement"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Take photo"
@@ -7961,49 +7975,50 @@ msgstr "Vérifier vos informations"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Enrollment confirmation"
-msgstr ""
+msgstr "Confirmation d'inscription"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Selected price is not valid number."
-msgstr ""
+msgstr "Le prix sélectionné n'est pas un chiffre valide."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "This course doesn't support paid certificates"
-msgstr ""
+msgstr "Ce cours ne supporte pas les attestations payantes"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "No selected price or selected price is below minimum."
-msgstr ""
+msgstr "Aucune prix sélectionné ou le prix sélectionné est sous le minimum."
 
 #: lms/djangoapps/verify_student/views.py
 msgid ""
 "Photo ID image is required if the user does not have an initial verification"
 " attempt."
 msgstr ""
+"Une image d'une pièce d'identification est nécessaire si l'utilisateur n'a effectué aucune demande de vérification."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
-msgstr ""
+msgstr "Paramètre face_image requis manquant"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Invalid course key"
-msgstr ""
+msgstr "Clé de cours invalide"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Invalid checkpoint location"
-msgstr ""
+msgstr "Emplacement de point de contrôle non valide"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "No profile found for user"
-msgstr ""
+msgstr "Aucun profil trouvé pour cet utilisateur"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Name must be at least {min_length} characters long."
-msgstr ""
+msgstr "Le nom doit être au mimimum de {min_length} caractères."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Image data is not valid."
-msgstr ""
+msgstr "Les données de l'image ne sont pas valides."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Verification photos received"
@@ -8015,7 +8030,7 @@ msgstr "Facebook"
 
 #: lms/envs/common.py
 msgid "Like {platform_name} on Facebook"
-msgstr ""
+msgstr "Like {platform_name} sur Facebook"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Twitter"
@@ -8023,71 +8038,71 @@ msgstr "Twitter"
 
 #: lms/envs/common.py
 msgid "Follow {platform_name} on Twitter"
-msgstr ""
+msgstr "Suivre {platform_name} sur Twitter"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
 #: lms/envs/common.py
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: lms/envs/common.py
 msgid "Follow {platform_name} on LinkedIn"
-msgstr ""
+msgstr "Suivre {platform_name} sur LinkedIn"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
 #: lms/envs/common.py
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lms/envs/common.py
 msgid "Follow {platform_name} on Google+"
-msgstr ""
+msgstr "Suivre {platform_name} sur Google+"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
 #: lms/envs/common.py
 msgid "Tumblr"
-msgstr ""
+msgstr "Tumblr"
 
 #. Translators: This is the website name of www.meetup.com.  Please
 #. translate this the way that MeetUp advertises in your language.
 #: lms/envs/common.py
 msgid "Meetup"
-msgstr ""
+msgstr "Meetup"
 
 #. Translators: This is the website name of www.reddit.com.  Please
 #. translate this the way that Reddit advertises in your language.
 #: lms/envs/common.py
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: lms/envs/common.py
 msgid "Subscribe to the {platform_name} subreddit"
-msgstr ""
+msgstr "S'inscrire au subreddit {platform_name}"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
 #: lms/envs/common.py
 msgid "VK"
-msgstr ""
+msgstr "VK"
 
 #. Translators: This is the website name of http://www.weibo.com.  Please
 #. translate this the way that Weibo advertises in your language.
 #: lms/envs/common.py
 msgid "Weibo"
-msgstr ""
+msgstr "Weibo"
 
 #. Translators: This is the website name of www.youtube.com.  Please
 #. translate this the way that YouTube advertises in your language.
 #: lms/envs/common.py
 msgid "Youtube"
-msgstr ""
+msgstr "Youtube"
 
 #: lms/envs/common.py
 msgid "Subscribe to the {platform_name} YouTube channel"
-msgstr ""
+msgstr "S'inscrire au canal YouTube de {platform_name}"
 
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/settings.html
@@ -8096,7 +8111,7 @@ msgstr "Organisation"
 
 #: lms/envs/devstack.py
 msgid "Course Type"
-msgstr ""
+msgstr "Type de cours"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Honor"
