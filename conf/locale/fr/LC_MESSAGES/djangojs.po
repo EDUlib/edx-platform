@@ -1841,6 +1841,8 @@ msgid ""
 "Volume: Click on this button to mute or unmute this video or press UP or DOWN "
 "buttons to increase or decrease volume level."
 msgstr ""
+"Volume: Cliquer sur ce button pour activer ou désactiver le son de ce vidéo ou appuyer sur les boutons UP ou DOWN "
+"pour augmenter ou diminuer le niveau de volume."
 
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
 msgid ""
@@ -1848,6 +1850,9 @@ msgid ""
 "to navigate the different speeds, then press ENTER to change to the selected"
 " speed."
 msgstr ""
+"Vitesse: Appuyer sur UP pour accéder au menu de la vitesse, puis utilisez les flèches haut et bas "
+"pour naviguer dans les différentes vitesses, puis appuyez sur ENTER pour passer à la vitesse "
+"sélectionnée." 
 
 #: common/lib/xmodule/xmodule/js/src/video/09_play_skip_control.js
 msgid "Skip"
@@ -1871,6 +1876,9 @@ msgid ""
 " DOWN arrow keys to navigate language options. Press ENTER to change to the "
 "selected language."
 msgstr ""
+"Langue: Appuyer sur UP pour accéder au menu de la langue, puis utilisez les flèches haut et bas "
+"pour naviguer dans les différentes options de langues, puis appuyez sur ENTER pour passer à la langue "
+"sélectionnée."
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Open language menu"
@@ -1894,7 +1902,7 @@ msgstr "Afficher la transcription"
 
 #: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js
 msgid "Turn off transcripts"
-msgstr ""
+msgstr "Désactiver la transcription"
 
 #: common/lib/xmodule/xmodule/public/js/library_content_edit.js
 msgid "Updating with latest library content"
@@ -2203,23 +2211,23 @@ msgstr "%(first_index)s sur %(num_items)s au total"
 
 #: common/static/common/js/components/views/paging_header.js
 msgid "Showing %(first_index)s-%(last_index)s out of %(num_items)s total"
-msgstr ""
+msgstr "%(first_index)s-%(last_index)s sur %(num_items)s au total"
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "The email address you've provided isn't formatted correctly."
-msgstr ""
+msgstr "L'adresse courriel que vous avez fourni n'est pas formatté correctement."
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s must have at least %(count)d characters."
-msgstr ""
+msgstr "%(field)s doit avoir au moins %(count)d caractères."
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "%(field)s can only contain up to %(count)d characters."
-msgstr ""
+msgstr "%(field)s ne peut contenir au maximum que %(count)d caractères."
 
 #: common/static/common/js/utils/edx.utils.validate.js
 msgid "Please enter your %(field)s."
-msgstr ""
+msgstr "S'il vous plaît entrer votre %(field)s."
 
 #: common/static/js/capa/drag_and_drop/base_image.js
 msgid "Drop target image"
@@ -2448,15 +2456,15 @@ msgstr[1] "Cette annotation a  %(count)s drapeaux."
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js
 msgid "An unexpected error occurred.  Please try again."
-msgstr ""
+msgstr "Une erreur inattendue est apparue. S'il vous plaît essayer à nouveau."
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "last activity"
-msgstr ""
+msgstr "dernière activité"
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "open slots"
-msgstr ""
+msgstr "places ouvertes"
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js
 #: lms/templates/edxnotes/tab-item.underscore
@@ -2474,29 +2482,31 @@ msgstr "total équipe"
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Create"
-msgstr ""
+msgstr "Créer"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Update"
-msgstr ""
+msgstr "Mettre à jour"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Name (Required) *"
-msgstr ""
+msgstr "Nom d'équipe (obligatoire) *"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "A name that identifies your team (maximum 255 characters)."
-msgstr ""
+msgstr "Un nom qui identifie votre équipe (255 caractères maximun)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Description (Required) *"
-msgstr ""
+msgstr "Description d'équipe (obligatoire) *"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
 "A short description of the team to help other learners understand the goals "
 "or direction of the team (maximum 300 characters)."
 msgstr ""
+"Une courte description de l'équipe afin d'aider les autres étudiants à comprendre les objectifs "
+"ou la direction de l'équipe (300 caractères maximum)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -2508,6 +2518,7 @@ msgstr "Langue"
 msgid ""
 "The language that team members primarily use to communicate with each other."
 msgstr ""
+"La langue dans laquelle les membres de l'équipe communiquent principalement entre eux."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js
@@ -2517,7 +2528,7 @@ msgstr "Pays"
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
 msgid "The country that team members primarily identify with."
-msgstr ""
+msgstr "Le pays auquel les membres de l'équipe s'identifient principalement."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/views/fields.js
@@ -2526,53 +2537,55 @@ msgstr "Une erreur est survenue. Veuillez réessayer."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Check the highlighted fields below and try again."
-msgstr ""
+msgstr "Vérifiez les champs en surbrillance ci-dessous et essayez à nouveau."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team name."
-msgstr ""
+msgstr "Entrer le nom de l'équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team name cannot have more than 255 characters."
-msgstr ""
+msgstr "Un nom d'équipe ne peut avoir plus de 255 caractères."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team description."
-msgstr ""
+msgstr "Entrer une description pour l'équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team description cannot have more than 300 characters."
-msgstr ""
+msgstr "La description de l'équipe ne peut avoir plus de 300 caractères."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "An error occurred while removing the member from the team. Try again."
-msgstr ""
+msgstr "Une erreur est survenue lors de la suppression du membre de l'équipe. Réessayer."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "This team does not have any members."
-msgstr ""
+msgstr "Cette équipe n'a aucun membre."
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. https://github.com/rmm5t/jquery-timeago)
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Joined %(date)s"
-msgstr ""
+msgstr "Inscrit %(date)s"
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. https://github.com/rmm5t/jquery-timeago)
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Last Activity %(date)s"
-msgstr ""
+msgstr "Dernière activité %(date)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Remove this team member?"
-msgstr ""
+msgstr "Supprimer ce membre de l'équipe?"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid ""
 "This learner will be removed from the team, allowing another learner to take"
 " the available spot."
 msgstr ""
+"Cet étudiant sera supprimer de l'équipe, permettant à un autre étudiant de prendre"
+" la place disponible."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 #: lms/static/js/views/image_field.js
@@ -2581,33 +2594,35 @@ msgstr "Supprimer"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Delete this team?"
-msgstr ""
+msgstr "Supprimer cette équipe?"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid ""
 "Deleting a team is permanent and cannot be undone. All members are removed "
 "from the team, and team discussions can no longer be accessed."
 msgstr ""
+"Supprimer une équipe est permanent et ne peut être annulé. Tous les membres sont supprimés "
+"de l'équipe et les discussions de l'équipe ne peuvent plus être accédées."
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Team \"%(team)s\" successfully deleted."
-msgstr ""
+msgstr "Equipe \"%(team)s\" supprimée avec succès."
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js
 msgid "You are not currently a member of any team."
-msgstr ""
+msgstr "Vous n'êtes membre d'aucune équipe."
 
 #. Translators: "and others" refers to fact that additional members of a team
 #. exist that are not displayed.
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "and others"
-msgstr ""
+msgstr "et autres"
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. http://momentjs.com/)
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "Last activity %(date)s"
-msgstr ""
+msgstr "Dernière activité %(date)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "View %(span_start)s %(team_name)s %(span_end)s"
@@ -2616,11 +2631,11 @@ msgstr ""
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
-msgstr ""
+msgstr "Une erreur est survenue. Réessayer."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
-msgstr ""
+msgstr "Quitter cette équipe?"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid ""
@@ -2636,11 +2651,11 @@ msgstr "Confirmer"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "You already belong to another team."
-msgstr ""
+msgstr "Vous appartenez déjà à une autre équipe."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "This team is full."
-msgstr ""
+msgstr "Cette équipe est pleine"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid "%(memberCount)s / %(maxMemberCount)s Member"
@@ -2650,11 +2665,11 @@ msgstr[1] ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "All teams"
-msgstr ""
+msgstr "Toutes les équipes"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Topics"
-msgstr ""
+msgstr "Sujets"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Teams"
@@ -2668,7 +2683,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Team"
-msgstr ""
+msgstr "Mon équipe"
 
 #. Translators: sr_start and sr_end surround text meant only for screen
 #. readers.
@@ -2700,7 +2715,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Create a New Team"
-msgstr ""
+msgstr "Créer une nouvelle équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2735,7 +2750,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "All Topics"
-msgstr ""
+msgstr "Tous les sujets"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "The page \"%(route)s\" could not be found."
@@ -2757,7 +2772,7 @@ msgstr[1] "%(team_count)s Équipes"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "Topic"
-msgstr ""
+msgstr "Sujet"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the %(topic_name)s Topic"
@@ -2797,7 +2812,7 @@ msgstr "Corps du message"
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Loading data..."
-msgstr ""
+msgstr "Chargement des données..."
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error getting issued certificates list."
@@ -3642,7 +3657,7 @@ msgstr ""
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid "Errors!"
-msgstr ""
+msgstr "Erreurs!"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
@@ -4203,7 +4218,7 @@ msgstr "Profil complet"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Add Country"
-msgstr "Ajouter un Pays"
+msgstr "Ajouter un pays"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Add language"
@@ -4553,7 +4568,7 @@ msgstr "attestation"
 
 #: cms/static/js/certificates/views/certificates_list.js
 msgid "Set up your certificate"
-msgstr ""
+msgstr "Définir votre attestation"
 
 #. Translators: This line refers to the initial state of the form when no data
 #. has been inserted
@@ -4936,7 +4951,7 @@ msgstr "Envoyer un autre fichier"
 #: cms/static/js/views/components/add_xblock.js
 #: cms/static/js/views/utils/xblock_utils.js
 msgid "Adding"
-msgstr ""
+msgstr "Ajout"
 
 #: cms/static/js/views/content_group_details.js
 #: cms/static/js/views/group_configuration_details.js
@@ -5028,7 +5043,7 @@ msgstr "configuration des groupes"
 
 #: cms/static/js/views/group_configurations_list.js
 msgid "Add your first group configuration"
-msgstr ""
+msgstr "Ajouter votre première configuration de groupe"
 
 #: cms/static/js/views/group_configurations_list.js
 msgid "You have not created any group configurations yet."
@@ -5133,7 +5148,7 @@ msgstr "Erreur lors de la suppression de l'utilisateur"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "A valid email address is required"
-msgstr ""
+msgstr "Une adresse courriel valide est nécessaire"
 
 #: cms/static/js/views/manage_users_and_roles.js
 msgid "You must enter a valid email address in order to add a new team member"
@@ -5212,11 +5227,11 @@ msgstr "Changer manuellement"
 
 #: cms/static/js/views/overview.js
 msgid "Collapse All Sections"
-msgstr "Replier toutes les Sections"
+msgstr "Replier toutes les sections"
 
 #: cms/static/js/views/overview.js
 msgid "Expand All Sections"
-msgstr "Déplier toutes les Sections"
+msgstr "Déplier toutes les sections"
 
 #: cms/static/js/views/overview.js
 msgid "Release date:"
@@ -5295,7 +5310,7 @@ msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Making Visible to Students"
-msgstr ""
+msgstr "Rendre visible aux étudiants"
 
 #: cms/static/js/views/pages/course_outline.js
 msgid "Course Index"
@@ -5386,11 +5401,11 @@ msgstr "Critères d'obtention de crédit du cours"
 
 #: cms/static/js/views/settings/main.js
 msgid "The minimum grade for course credit is not set."
-msgstr ""
+msgstr "La note de passage minimum pour ce cours n'est pas définie."
 
 #: cms/static/js/views/settings/main.js
 msgid "Course pacing cannot be changed once a course has started."
-msgstr ""
+msgstr "Le rythme du cours ne peut être changé quand un cours a débuté."
 
 #: cms/static/js/views/settings/main.js
 msgid "%(hours)s:%(minutes)s (current UTC time)"
@@ -5585,11 +5600,11 @@ msgstr ""
 
 #: common/static/common/templates/image-modal.underscore
 msgid "Zoom In"
-msgstr ""
+msgstr "Agrandir"
 
 #: common/static/common/templates/image-modal.underscore
 msgid "Zoom Out"
-msgstr ""
+msgstr "Réduire"
 
 #: common/static/common/templates/components/paging-footer.underscore
 msgid "Page number"
@@ -5968,12 +5983,12 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates.underscore
 msgid "username or email"
-msgstr ""
+msgstr "utilisateur ou courriel"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "No results"
-msgstr ""
+msgstr "Aucun résultat"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Course Key"
@@ -5997,19 +6012,19 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
-msgstr ""
+msgstr "Non disponible"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate"
-msgstr ""
+msgstr "Regénérer"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Regenerate the user's certificate"
-msgstr ""
+msgstr "Regénérer l'attestation pour cet utilisateur"
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be created."
-msgstr ""
+msgstr "Votre équipe n'a pu être créée."
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
 msgid "Your team could not be updated."
@@ -6352,11 +6367,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate a Certificate for all "
-msgstr ""
+msgstr "Générer une attestation pour tous "
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "additions to the Exception list"
@@ -7450,12 +7465,12 @@ msgstr "Identifiant"
 
 #: cms/templates/js/certificate-details.underscore
 msgid "Certificate Details"
-msgstr ""
+msgstr "Détails de l'attestation"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Course Title"
-msgstr ""
+msgstr "Titre du cours"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
@@ -7464,7 +7479,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-details.underscore
 msgid "Course Number"
-msgstr ""
+msgstr "Numéro du cours"
 
 #: cms/templates/js/certificate-details.underscore
 msgid "Course Number Override"
@@ -7473,7 +7488,7 @@ msgstr ""
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Signatories"
-msgstr ""
+msgstr "Signataires de l'attestation"
 
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
@@ -7530,7 +7545,7 @@ msgstr ""
 
 #: cms/templates/js/certificate-web-preview.underscore
 msgid "Deactivate"
-msgstr ""
+msgstr "Désactiver"
 
 #: cms/templates/js/checklist.underscore
 msgid "{number}{pct_sign} of checklists completed"
