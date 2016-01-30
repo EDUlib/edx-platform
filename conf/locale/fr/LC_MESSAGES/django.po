@@ -5352,7 +5352,7 @@ msgstr ""
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Site statistics"
-msgstr ""
+msgstr "Statistiques du site"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Total number of users"
@@ -5360,7 +5360,7 @@ msgstr ""
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Courses loaded in the modulestore"
-msgstr ""
+msgstr "Cours disponibles sur la plateforme"
 
 #: lms/templates/tracking_log.html
 msgid "username"
@@ -5434,25 +5434,25 @@ msgstr "Nom du cours"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Directory/ID"
-msgstr ""
+msgstr "Répertoire/Identification"
 
 #. Translators: "Git Commit" is a computer command; see
 #. http://gitref.org/basic/#commit
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Git Commit"
-msgstr ""
+msgstr "Git commit"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Last Change"
-msgstr ""
+msgstr "Dernier changement"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Last Editor"
-msgstr ""
+msgstr "Dernier éditeur"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Information about all courses"
-msgstr ""
+msgstr "Information au sujet de tous les cours"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Error - cannot get course with ID {0}<br/><pre>{1}</pre>"
@@ -5460,27 +5460,27 @@ msgstr ""
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Deleted"
-msgstr ""
+msgstr "Détruit"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "course_id"
-msgstr ""
+msgstr "id_cours"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "# enrolled"
-msgstr ""
+msgstr "# inscrits"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "# staff"
-msgstr ""
+msgstr "# pédagogues"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "instructors"
-msgstr ""
+msgstr "instructeurs"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Enrollment information for all courses"
-msgstr ""
+msgstr "Information d'inscription pour tous les cours"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "role"
@@ -6215,7 +6215,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/legacy.py
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Full name"
-msgstr ""
+msgstr "Nom complet"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "{title} in course {course_key}"
@@ -9012,13 +9012,13 @@ msgstr "Jean Dupont"
 #. below a field meant to hold the user's full name.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/register.html
 msgid "Your legal name, used for any certificates you earn."
-msgstr ""
+msgstr "Votre nom légal, utilisé pour toutes les attestations que vous obtiendrez."
 
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Public username"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
@@ -9041,7 +9041,7 @@ msgstr "JeanDupont"
 #. form used to select the user's highest completed level of education.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Highest level of education completed"
-msgstr ""
+msgstr "Plus haut niveau de scolarité complété"
 
 #: lms/templates/signup_modal.html
 msgid "Year of birth"
@@ -11113,7 +11113,7 @@ msgstr "Branche du dépôt (optionnelle) "
 #. Translators: GitHub is a popular website for hosting code
 #: lms/templates/sysadmin_dashboard.html
 msgid "Load new course from GitHub"
-msgstr ""
+msgstr "Télécharger un nouveau cours à partir de GitHub"
 
 #. Translators: 'dir' is short for 'directory'
 #: lms/templates/sysadmin_dashboard.html
@@ -11163,7 +11163,7 @@ msgstr "Action Git"
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "No git import logs have been recorded."
-msgstr ""
+msgstr "Aucun journal git d'import n'a été enregistré."
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html
@@ -12963,6 +12963,8 @@ msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
 msgstr ""
+"Obtenez une attestation vérifiée afin de mettre en valeur les connaissances et "
+"les compétences acquises dans ce cours."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
@@ -12970,10 +12972,13 @@ msgid ""
 "the course. <br>{link_start}Learn more about the verified "
 "{cert_name_long}{link_end}."
 msgstr ""
+"C'est officiel. C'est facilement partageable. C'est un facteur de motivation "
+"afin de compléter le cours. <br>{link_start}Apprenez en plus au sujet "
+"des attestations vérifiés{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
-msgstr ""
+msgstr "Mettre à jour au statut vérifié"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
