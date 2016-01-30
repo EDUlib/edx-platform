@@ -202,17 +202,17 @@ msgstr ""
 #: lms/djangoapps/courseware/tabs.py
 #: lms/djangoapps/django_comment_client/forum/views.py
 msgid "Discussion"
-msgstr ""
+msgstr "Discussion"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "Problem"
-msgstr ""
+msgstr "Problème"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: cms/templates/settings.html
 msgid "Entrance Exam"
@@ -244,7 +244,7 @@ msgstr "Nom"
 #: cms/djangoapps/contentstore/views/videos.py
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video ID"
-msgstr ""
+msgstr "ID du vidéo"
 
 #: lms/templates/open_ended_problems/open_ended_problems.html
 #: lms/templates/shoppingcart/receipt.html
@@ -253,19 +253,19 @@ msgstr "Statut"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Revert to the selected configuration"
-msgstr ""
+msgstr "Revenir à la configuration choisie"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Please select a single configuration to revert to."
-msgstr ""
+msgstr "Sélectionner une configuration à laquelle revenir."
 
 #: common/djangoapps/config_models/admin.py
 msgid "Reverted configuration."
-msgstr ""
+msgstr "Configuration rétablie"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Current Configuration"
-msgstr ""
+msgstr "Configuration courante"
 
 #: common/djangoapps/config_models/admin.py
 msgid "All (Show History)"
@@ -273,21 +273,21 @@ msgstr ""
 
 #: common/djangoapps/config_models/admin.py
 msgid "Update"
-msgstr ""
+msgstr "Mise-à-jour"
 
 #: common/djangoapps/config_models/models.py
 msgid "Change date"
-msgstr ""
+msgstr "Modifier la date"
 
 #. Translators: this label indicates the name of the user who made this
 #. change:
 #: common/djangoapps/config_models/models.py
 msgid "Changed by"
-msgstr ""
+msgstr "Modifié par"
 
 #: common/djangoapps/config_models/models.py
 msgid "Enabled"
-msgstr ""
+msgstr "Activé"
 
 #: common/djangoapps/cors_csrf/models.py
 msgid ""
@@ -299,12 +299,12 @@ msgstr ""
 #: common/djangoapps/course_modes/models.py
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Mode"
-msgstr ""
+msgstr "Mode"
 
 #: common/djangoapps/course_modes/admin.py
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Verification Deadline"
-msgstr ""
+msgstr "Date limite de vérification"
 
 #: common/djangoapps/course_modes/admin.py
 msgid ""
@@ -315,19 +315,19 @@ msgstr ""
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "Your verification is pending"
-msgstr ""
+msgstr "Votre vérification est en cours"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "Verified: Pending Verification"
-msgstr ""
+msgstr "Vérifiée: en attente de vérification"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "ID verification pending"
-msgstr ""
+msgstr "Vérification d'identité en attente"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as a verified student"
-msgstr ""
+msgstr "Vous êtes inscrit comme un étudiant vérifié"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Verified"
@@ -339,7 +339,7 @@ msgstr ""
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as an honor code student"
-msgstr ""
+msgstr "Vous êtes inscrit sous le code d'honneur"
 
 #: lms/templates/static_templates/honor.html
 msgid "Honor Code"
@@ -351,13 +351,13 @@ msgstr ""
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "Professional Ed"
-msgstr ""
+msgstr "Formation professionnelle"
 
 #: common/djangoapps/course_modes/models.py
 #: lms/djangoapps/shoppingcart/reports.py cms/templates/widgets/header.html
 #: lms/templates/courseware/courseware.html
 msgid "Course"
-msgstr ""
+msgstr "Cours"
 
 #: cms/templates/container.html cms/templates/library.html
 msgid "Display Name"
@@ -369,7 +369,7 @@ msgstr "Prix"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Upgrade Deadline"
-msgstr ""
+msgstr "Date limite de mise-à-jour"
 
 #: common/djangoapps/course_modes/models.py
 msgid ""
@@ -397,7 +397,7 @@ msgstr ""
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment is closed"
-msgstr ""
+msgstr "Les inscriptions sont terminées"
 
 #: common/djangoapps/course_modes/views.py
 msgid "Enrollment mode not supported"
@@ -413,11 +413,11 @@ msgstr ""
 
 #: common/djangoapps/django_comment_common/models.py
 msgid "Administrator"
-msgstr ""
+msgstr "Administrateur"
 
 #: common/djangoapps/django_comment_common/models.py
 msgid "Moderator"
-msgstr ""
+msgstr "Modérateur"
 
 #: common/djangoapps/django_comment_common/models.py
 msgid "Community TA"
@@ -497,7 +497,7 @@ msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "Username must be minimum of two characters long"
-msgstr ""
+msgstr "Un nom d'utilsateur doit avoir au minimum deux caractères"
 
 #: common/djangoapps/student/forms.py
 msgid "A properly formatted e-mail is required"
@@ -505,11 +505,11 @@ msgstr "Une adresse courriel valide est requise"
 
 #: common/djangoapps/student/forms.py
 msgid "A valid password is required"
-msgstr ""
+msgstr "Un mot de passe valide est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "Your legal name must be a minimum of two characters long"
-msgstr ""
+msgstr "Votre nom légal doit avoir au minimum deux caractères"
 
 #: common/djangoapps/student/forms.py
 msgid ""
@@ -529,51 +529,51 @@ msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "You must accept the terms of service."
-msgstr ""
+msgstr "Vous devez accepter les conditions générales du service"
 
 #: common/djangoapps/student/forms.py
 msgid "A level of education is required"
-msgstr ""
+msgstr "Un niveau de scolarité est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "Your gender is required"
-msgstr ""
+msgstr "Votre sexe est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "Your year of birth is required"
-msgstr ""
+msgstr "Votre date de naissance est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "Your mailing address is required"
-msgstr ""
+msgstr "Votre adresse est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "A description of your goals is required"
-msgstr ""
+msgstr "Une description de vos objectifs est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "A city is required"
-msgstr ""
+msgstr "Une ville est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "A country is required"
-msgstr ""
+msgstr "Un pays est nécessaire"
 
 #: common/djangoapps/student/forms.py
 msgid "To enroll, you must follow the honor code."
-msgstr ""
+msgstr "Pour vous inscrire, vous devez suivre le code d'honneur"
 
 #: common/djangoapps/student/forms.py
 msgid "You are missing one or more required fields"
-msgstr ""
+msgstr "Il vous manque un ou plusieurs champs obligatoires"
 
 #: common/djangoapps/student/forms.py
 msgid "Username and password fields cannot match"
-msgstr ""
+msgstr "Votre nom d'utilisateur et votre mot de passe ne peuvent être le même"
 
 #: common/djangoapps/student/forms.py common/djangoapps/student/views.py
 msgid "Password: "
-msgstr ""
+msgstr "Mot de passe: "
 
 #: common/djangoapps/student/middleware.py
 msgid ""
@@ -583,7 +583,7 @@ msgstr ""
 
 #: common/djangoapps/student/middleware.py
 msgid "Disabled Account"
-msgstr ""
+msgstr "Compte désactivé"
 
 #: common/djangoapps/student/models.py
 msgid "Male"
@@ -638,15 +638,15 @@ msgstr "Autre"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Honor Code Certificate for {course_name}"
-msgstr ""
+msgstr "Attestation sur le code d'honneur {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr ""
+msgstr "Attestation vérifiée {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Professional Certificate for {course_name}"
-msgstr ""
+msgstr "Attestation professionnelle {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -663,7 +663,7 @@ msgstr ""
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Certificate for {course_name}"
-msgstr ""
+msgstr "Attestation {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "The ISO 639-1 language code for this language."
@@ -2165,7 +2165,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/course_metadata_utils.py
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "TBD"
-msgstr ""
+msgstr "À venir"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "LTI Passports"
@@ -5356,7 +5356,7 @@ msgstr "Statistiques du site"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Total number of users"
-msgstr ""
+msgstr "Nombre total d'utilisateurs"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Courses loaded in the modulestore"
@@ -5472,7 +5472,7 @@ msgstr "# inscrits"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "# staff"
-msgstr "# pédagogues"
+msgstr "# staff"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "instructors"
@@ -12974,7 +12974,7 @@ msgid ""
 msgstr ""
 "C'est officiel. C'est facilement partageable. C'est un facteur de motivation "
 "afin de compléter le cours. <br>{link_start}Apprenez en plus au sujet "
-"des attestations vérifiés{link_end}."
+"des attestations vérifiées{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
