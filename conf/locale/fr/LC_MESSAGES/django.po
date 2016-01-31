@@ -475,6 +475,10 @@ msgid ""
 " the course.  If blacklist countries are specified, then users from "
 "blacklisted countries will NOT be able to access the course."
 msgstr ""
+"Inclure ou exclure le cours. Si la liste de dérogation des pays est "
+"spécifiée, alors SEULEMENT les utilisateurs des listes de dérogation de ces pays pourront accéder "
+"au cours.  Si la liste noire des pays est spécifiée, alors les utilisateurs des pays "
+"sur la liste noire ne pourront PAS accéder au cours."
 
 #: common/djangoapps/embargo/models.py
 msgid "The course to which this rule applies."
@@ -635,7 +639,7 @@ msgstr "Diplôme de premier cycle supérieur"
 
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
-msgstr ""
+msgstr "Diplôme d'associé"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
@@ -676,6 +680,8 @@ msgid ""
 "The company identifier for the LinkedIn Add-to-Profile button e.g "
 "0_0dPSPyS070e0HsE9HNz_13_d11_"
 msgstr ""
+"L'identificateur de l'entreprise pour le bouton LinkedIn Ajouter-au-Profil i.e. "
+"0_0dPSPyS070e0HsE9HNz_13_d11_"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -683,6 +689,9 @@ msgid ""
 "(Example: 'edx')  If no value is provided, tracking codes will not be sent "
 "to LinkedIn."
 msgstr ""
+"Identifiant court pour le partenaire LinkedIn utilisé dans le code de suivi.  "
+"(Exemple: 'edx')  Si aucune valeur est fournie, les codes de suivi ne seront pas envoyés "
+"à LinkedIn."
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Certificate for {course_name}"
@@ -694,7 +703,7 @@ msgstr "Le code ISO 639-1 pour cette langue."
 
 #: common/djangoapps/student/models.py
 msgid "Namespace of enrollment attribute"
-msgstr ""
+msgstr "Namespace de l'attribut d'inscription"
 
 #: common/djangoapps/student/models.py
 msgid "Name of the enrollment attribute"
@@ -749,6 +758,8 @@ msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
 msgstr ""
+"Vous vous êtes connecté avec succès avec votre compte {provider_name}, mais ce "
+"compte n'est pas encore lié avec une compte {platform_name}."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -756,16 +767,21 @@ msgid ""
 "below, and then link your {platform_name} account with {provider_name} from "
 "your dashboard."
 msgstr ""
+"Utilisez votre nom d'utilisateur et mot de passe {platform_name} pour vous connecter sur {platform_name} "
+"ci-dessous, et ensuite liez votre compte {platform_name} avec {provider_name} à partir "
+"de votre tableau de bord."
 
 #: common/djangoapps/student/views.py
 msgid ""
 "If you don't have an {platform_name} account yet, click "
 "<strong>Register</strong> at the top of the page."
 msgstr ""
+"Si vous n'avez pas encore un compte {platform_name}, cliquez "
+"<strong>Inscription</strong> au haut de la page."
 
 #: common/djangoapps/student/views.py
 msgid "There was an error receiving your login information. Please email us."
-msgstr ""
+msgstr "Il y avait une erreur avec vos informations de connexion. S'il vous plaît écrivez-nous."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -781,6 +797,9 @@ msgid ""
 "reset your password before you can log in again. Please click the \"Forgot "
 "Password\" link on this page to reset your password before logging in again."
 msgstr ""
+"Votre mot de passe a expiré en raison de la politique de mot de passe sur ce compte. Vous devez "
+"réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau. S'il vous plaît cliquez le lien \"Oublié "
+"votre mot de passe\" sur cette page afin réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau."
 
 #: common/djangoapps/student/views.py
 msgid "Too many failed login attempts. Try again later."
@@ -788,7 +807,7 @@ msgstr "Trop de tentatives d'accès refusées. Essayer plus tard."
 
 #: lms/templates/provider_login.html
 msgid "Email or password is incorrect."
-msgstr "Adresse mail ou mot de passe incorrect."
+msgstr "Adresse courriel ou mot de passe incorrect."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -832,19 +851,19 @@ msgstr "Un compte avec l'adresse '{email}' existe déjà."
 
 #: common/djangoapps/student/views.py
 msgid "An access_token is required when passing value ({}) for provider."
-msgstr ""
+msgstr "Un jeton d'accès est nécessaire quand passant la valeur ({}) pour le fournisseur"
 
 #: common/djangoapps/student/views.py
 msgid "The provided access_token is already associated with another user."
-msgstr ""
+msgstr "Le jeton d'accès fourni est déjà associé à un autre utilisateur."
 
 #: common/djangoapps/student/views.py
 msgid "The provided access_token is not valid."
-msgstr ""
+msgstr "Le jeton d'accès fourni n'est pas valide."
 
 #: common/djangoapps/student/views.py
 msgid "Unknown error. Please e-mail us to let us know how it happened."
-msgstr ""
+msgstr "Erreur inconnue. S'il vous plaît nous écrire afin de nous laisser savoir comment cela est arrivé." 
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -853,8 +872,10 @@ msgid ""
 msgid_plural ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct passwords before reusing a previous password."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num}"
+" mot de passe distinct avant de réutiliser un mot de passe précédemment utilisé."
+msgstr[1] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num}"
+" mot de passe distincts avant de réutiliser un mot de passe précédemment utilisé."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -863,8 +884,10 @@ msgid ""
 msgid_plural ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "days must elapse between password resets."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} "
+"jour doivent s'écouler entre les réinitialisations de mot de passe."
+msgstr[1] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} "
+"jours doivent s'écouler entre les réinitialisations de mot de passe."
 
 #: common/djangoapps/student/views.py
 msgid "Password reset unsuccessful"
@@ -903,6 +926,8 @@ msgid ""
 "Secondary providers are displayed less prominently, in a separate list of "
 "\"Institution\" login providers."
 msgstr ""
+"Les fournisseurs secondaires sont affichés avec moindre évidence, dans une liste séparée de "
+"fournisseurs de connexion \"Institutionnel\"."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -910,6 +935,9 @@ msgid ""
 "(name, email, etc.) during the registration process. Only select this option"
 " for trusted providers that are known to provide accurate user information."
 msgstr ""
+"Si cette option est activée, les utilisateurs ne se feront pas demander de confirmer leurs détails "
+"(nom, courriel, etc.) pendant le processus d'inscription. Ne sélectionnez cette option uniquement "
+"pour des fournisseurs de confiance connus pour fournir des informations d'utilisateur exactes."
 
 #: common/djangoapps/third_party_auth/models.py
 msgid ""
@@ -1278,8 +1306,8 @@ msgstr "décembre"
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Le fichier doit se terminer avec l'extension '{file_types}'."
+msgstr[1] "Le fichier doit se terminer avec une des extensions suivantes: '{file_types}'."
 
 #: common/djangoapps/util/file.py
 msgid "Maximum upload file size is {file_size} bytes."
@@ -1404,7 +1432,7 @@ msgstr "Réponse reçue."
 #. be translated.
 #: common/lib/capa/capa/inputtypes.py
 msgid "Expected a <choice> or <compoundhint> tag; got {given_tag} instead"
-msgstr ""
+msgstr "Attendait un tag <choice> ou <compoundhint>; a reçu un tag {given_tag} au lieu"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid ""
@@ -1465,7 +1493,7 @@ msgstr "{input_type}: tag innatendu {tag_name}"
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: common/lib/capa/capa/inputtypes.py
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr ""
+msgstr "Attendions un tag {expected_tag}; avons reçu {given_tag} au lieu"
 
 #: lms/templates/combinedopenended/open_ended_result_table.html
 #: lms/templates/combinedopenended/openended/open_ended_evaluation.html
@@ -1479,7 +1507,7 @@ msgstr "Incorrect"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error {err} in evaluating hint function {hintfn}."
-msgstr ""
+msgstr "Erreur {err} lors de l'évaluation de la fonction d'indice {hintfn}."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "(Source code line unavailable)"
@@ -1508,7 +1536,7 @@ msgstr "Question à choix unique"
 #. Translators: 'unmask_name' is a method name and should not be translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "unmask_name called on response that is not masked"
-msgstr ""
+msgstr "unmask_name appelé pour une réponse qui n'est pas masquée"
 
 #. Translators: 'shuffle' and 'answer-pool' are attribute names and should not
 #. be translated.
@@ -1641,6 +1669,8 @@ msgid ""
 "Unable to deliver your submission to grader (Reason: {error_msg}). Please "
 "try again later."
 msgstr ""
+"Impossible de transmettre votre soumission à l'évaluateur (Rason: {error_msg}). S'il vous plaît "
+"essayer de nouveau plus tard."
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #. Translators: the `grader` refers to the grading service open response
@@ -1650,7 +1680,7 @@ msgstr ""
 #: common/lib/capa/capa/responsetypes.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr ""
+msgstr "Réponse d'évaluation invalide. S'il vous plaît contacter le personnel du cours."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "External Grader"
@@ -1658,35 +1688,33 @@ msgstr "Évaluateur externe"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Math Expression Input"
-msgstr ""
+msgstr "Entré d'expression mathématique"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Invalid input: {bad_input} not permitted in answer."
-msgstr ""
+msgstr "Entrée invalide: {bad_input} n'est pas permis dans la réponse."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
 "factorial function not permitted in answer for this problem. Provided answer"
 " was: {bad_input}"
 msgstr ""
+"fonction factorielle non permise dans la réponse pour ce problème. La réponse fournie "
+"était: {bad_input}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Invalid input: Could not parse '{bad_input}' as a formula."
-msgstr ""
-
-#: common/lib/capa/capa/responsetypes.py
-msgid "Invalid input: Could not parse '{bad_input}' as a formula"
-msgstr ""
+msgstr "Entrée invalide: Impossible d'analyser '{bad_input}' comme une formule."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Circuit Schematic Builder"
-msgstr ""
+msgstr "Constructeur de circuit schématique"
 
 #. Translators: 'SchematicResponse' is a problem type and should not be
 #. translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error in evaluating SchematicResponse. The error was: {error_msg}"
-msgstr ""
+msgstr "Erreur lors de l'évaluation de SchematicResponse. L'erreur était: {error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Image Mapped Input"
@@ -1694,39 +1722,39 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "error grading {image_input_id} (input={user_input})"
-msgstr ""
+msgstr "erreur d'évaluation {image_input_id} (input={user_input})"
 
 #. Translators: {sr_coords} are the coordinates of a rectangle
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error in problem specification! Cannot parse rectangle in {sr_coords}"
-msgstr ""
+msgstr "Erreur dans la description du problème! Ne peut analyser le rectangle dans {sr_coords}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Annotation Input"
-msgstr ""
+msgstr "Entrées d'annotation"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Checkboxes With Text Input"
-msgstr ""
+msgstr "Cases à cocher avec entrée de texte"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Answer not provided for {input_type}"
-msgstr ""
+msgstr "Réponse non fournie pour {input_type}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr ""
+msgstr "La réponse du personnel ne peut être interprétée comme un nombre."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{given_answer}' as a number."
-msgstr ""
+msgstr "Ne peut interpréter '{given_answer}' comme un nombre."
 
 #: common/lib/xmodule/xmodule/annotatable_module.py
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "XML data for the annotation"
-msgstr ""
+msgstr "Données XML pour l'annotation"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py
 #: common/lib/xmodule/xmodule/discussion_module.py
@@ -1748,7 +1776,7 @@ msgstr "Annotation"
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr ""
+msgstr "Ce nom apparaît dans la navigation horizontale au haut de la page."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
@@ -1757,7 +1785,7 @@ msgstr "Problème avancé vide"
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Number of attempts taken by the student on this problem"
-msgstr ""
+msgstr "Nombre de tentatives de l'étudiant sur ce problème"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1770,16 +1798,18 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
+"Définit le nombre de fois où un étudiant peut tenter de répondre à ce problème. Si cette "
+"valeur n'est pas définie, un nombre infini de tentatives est permis."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Date that this problem is due by"
-msgstr ""
+msgstr "Date à laquelle ce problème doit être remis"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Amount of time after the due date that submissions will be accepted"
-msgstr ""
+msgstr "Laps de temps après la date d'échéance où les soumissions seront acceptées"
 
 #: lms/templates/problem.html
 msgid "Show Answer"
@@ -1790,6 +1820,8 @@ msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
 msgstr ""
+"Définit quand afficher la réponse au problème. Une valeur de défaut peut être définie "
+"dans les paramètres avancés."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Always"
@@ -1813,11 +1845,11 @@ msgstr "Terminé"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Correct or Past Due"
-msgstr ""
+msgstr "Correct ou en retard"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Past Due"
-msgstr ""
+msgstr "En retard"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Never"
@@ -1825,7 +1857,7 @@ msgstr "Jamais"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether to force the save button to appear on the page"
-msgstr ""
+msgstr "Forcer ou non le bouton sauvegarder à apparaître sur la page"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Show Reset Button"
@@ -1836,6 +1868,8 @@ msgid ""
 "Determines whether a 'Reset' button is shown so the user may reset their "
 "answer. A default value can be set in Advanced Settings."
 msgstr ""
+"Détermine si le bouton 'Réinitialisation' est affiché à l'utilisateur pour qu'il puisse "
+"réinitialiser sa réponse. Une valeur de défaut peut être définie dans les paramètres avancés."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -1847,10 +1881,12 @@ msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
 msgstr ""
+"Définit le moment de rendre aléatoire les variables spécifiées dans le script Python "
+"associé. Pour les problèmes qui n'utilisent pas de valeurs aléatoires, indiquer \"Jamais\". "
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "On Reset"
-msgstr ""
+msgstr "Sur réinitialisation"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Per Student"
@@ -1864,63 +1900,68 @@ msgstr "données XML pour le problème"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary with the correctness of current student answers"
-msgstr ""
+msgstr "Dictionaire avec l'exactitude des réponses de l'étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary for maintaining the state of inputtypes"
-msgstr ""
+msgstr "Dictionnaire pour maintenir l'état de inputtypes"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary with the current student responses"
-msgstr ""
+msgstr "Dictionnaire avec les réponses de l'étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether the student has answered the problem"
-msgstr ""
+msgstr "Si l'étudiant a répondu au problème"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Random seed for this student"
-msgstr ""
+msgstr "Suite aléatoire pour cet étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Last submission time"
-msgstr ""
+msgstr "Dernière soumission"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Timer Between Attempts"
-msgstr ""
+msgstr "Laps de temps entre les tentatives"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
+"Nombre de secondes que l'étudiant doit attendre entre chaque soumission pour un problème avec "
+"des tentatives multiples."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Problem Weight"
-msgstr ""
+msgstr "Poids du problème"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each response field in the problem is worth one point."
 msgstr ""
+"Définit le nombre de points que chaque problème vaut. Si la valeur n'est pas définie, "
+"chaque champ de réponse dans le problème vaut un point."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Markdown source of this module"
-msgstr ""
+msgstr "Source markdown de ce module"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "Source code for LaTeX and Word problems. This feature is not well-supported."
 msgstr ""
+"Code source pour les problèmes LaTeX et Word. Cette fonctionnalité n'est pas bien pris en charge."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "String customization substitutions for particular locations"
-msgstr ""
+msgstr "Substitutions personnalisées de chaîne pour des emplacements spécifiques"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/html_module.py
@@ -1965,6 +2006,8 @@ msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr ""
+"L'état du problème a été corrumpu par une soumission invalide. La soumission "
+"était composée de:"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "If this error persists, please contact the course staff."
@@ -1988,7 +2031,7 @@ msgstr "Problème fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be reset before it can be checked again."
-msgstr ""
+msgstr "Le problème doit être réinitialisé avant qu'il puisse être utilisé de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "You must wait at least {wait} seconds between submissions."
@@ -2010,26 +2053,26 @@ msgstr "Erreur: {msg}"
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_hour} heure"
+msgstr[1] "{num_hour} heures"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_minute} minute"
+msgstr[1] "{num_minute} minutes"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_second} seconde"
+msgstr[1] "{num_second} secondes"
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem's definition does not support rescoring."
-msgstr ""
+msgstr "La définition du problème ne supporte pas une nouvelle notation."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be answered before it can be graded again."
@@ -2037,7 +2080,7 @@ msgstr "Le problème doit être répondu avant d'être noté de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem needs to be reset prior to save."
-msgstr ""
+msgstr "Le problème doit être réinitialiser avant de sauvegarder."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Your answers have been saved."
@@ -2062,12 +2105,16 @@ msgid ""
 "We're sorry, there was an error with processing your request. Please try "
 "reloading your page and trying again."
 msgstr ""
+"Nous sommes désolés, il y a eu une erreur lors du traitement de votre demande. S'il vous plaît essayer "
+"de rafraichir votre page et essayer encore."
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid ""
 "The state of this problem has changed since you loaded this page. Please "
 "refresh your page."
 msgstr ""
+"Le statut de ce problème a changé depuis que vous avez téléchargé cette page. S'il vous plaît "
+"rafraichissez votre page."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Open Response Assessment"
@@ -2087,11 +2134,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "List of state dictionaries of each task within this module."
-msgstr ""
+msgstr "Liste des dictionnaires de statut pour chaque tâche dans ce module."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Which step within the current task that the student is on."
-msgstr ""
+msgstr "Étape à laquelle se trouve l'étudiant au sein de la tâche en cours."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
@@ -2104,10 +2151,12 @@ msgid ""
 "Defines whether the student gets credit for this problem. Credit is based on"
 " peer grades of this problem."
 msgstr ""
+"Définit si l'étudiant obtient des crédits pour ce problème. Les crédits sont basés sur "
+"les évaluations par les pairs de ce problème."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "If the problem is ready to be reset or not."
-msgstr ""
+msgstr "Si le problème est prêt à être remis à zéro ou non."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "The number of times the student can try to answer this problem."
@@ -2119,17 +2168,19 @@ msgstr "Permettre les téléchargements de fichiers"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Whether or not the student can submit files as a response."
-msgstr ""
+msgstr "L'étudiant peut-il ou non soumettre des fichiers comme réponse."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Disable Quality Filter"
-msgstr ""
+msgstr "Désactiver le filtre de qualité"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid ""
 "If False, the Quality Filter is enabled and submissions with poor spelling, "
 "short length, or poor grammar will not be peer reviewed."
 msgstr ""
+"Si faux, le filtre de qualité est activé et les soumissions avec une mauvaise orthographe, "
+"trop court, ou une mauvaise grammaire ne seront pas évaluées par les pairs."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Current version number"
@@ -2141,6 +2192,8 @@ msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each problem is worth one point."
 msgstr ""
+"Définit le nombre de points que chaque problème vaut. Si la valeur n'est pas définie, "
+"chaque problème vaut un point."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Minimum Peer Grading Calibrations"
@@ -2164,21 +2217,23 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Peer Graders per Response"
-msgstr ""
+msgstr "Nombre d'évaluateurs par réponse"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "The number of peers who will grade each submission."
-msgstr ""
+msgstr "Le nombre de pairs qui évalueront chaque soumission."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Required Peer Grading"
-msgstr ""
+msgstr "Évaluation par les pairs nécessaire"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid ""
 "The number of other students each student making a submission will have to "
 "grade."
 msgstr ""
+"Le nombre d'étudiants que chaque étudiant faisant une soumission devra "
+"évaluer."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Allow \"overgrading\" of peer submissions"
@@ -2198,6 +2253,8 @@ msgid ""
 "ORA1 is no longer supported. To use this assessment, replace this ORA1 "
 "component with an ORA2 component."
 msgstr ""
+"ORA1 n'est plus pris en charge. Pour utiliser cette évaluation, remplacer ce composant ORA1 "
+"par un composant ORA2."
 
 #. Translators: TBD stands for 'To Be Determined' and is used when a course
 #. does not yet have an announced start date.
@@ -2208,37 +2265,39 @@ msgstr "À venir"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "LTI Passports"
-msgstr ""
+msgstr "Passeports LTI"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the passports for course LTI tools in the following format: "
 "\"id:client_key:client_secret\"."
 msgstr ""
+"Entrer les passeports pour les outils de cours LTI dans le format suivant: "
+"\"id:clé_client:secret_client\"."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "List of pairs of (title, url) for textbooks used in this course"
-msgstr ""
+msgstr "Liste de couples (titre, url) pour les manuels utilisés dans ce cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Slug that points to the wiki for this course"
-msgstr ""
+msgstr "Slug qui pointe au wiki pour ce cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Date that enrollment for this class is opened"
-msgstr ""
+msgstr "Date à laquelle les inscriptions pour cette classe sont ouvertes"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Date that enrollment for this class is closed"
-msgstr ""
+msgstr "Date à laquelle les inscriptions pour cette classe sont fermées"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Start time when this module is visible"
-msgstr ""
+msgstr "Moment où ce module est visible"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Date that this class ends"
-msgstr ""
+msgstr "Date à laquelle cette classe prend fin"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cosmetic Course Display Price"
@@ -2250,10 +2309,13 @@ msgid ""
 " registration price is set by an administrator in the database, that price "
 "will be displayed instead of this one."
 msgstr ""
+"Le prix affiché aux étudiants pour l'inscription à ce cours. Si le prix d'inscription "
+"d'un cours payant est défini par un administrateur dans la base de donnéesm ce prix "
+"sera affiché à la place de celui-ci."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Advertised Start Date"
-msgstr ""
+msgstr "Date annoncée de début de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2261,28 +2323,33 @@ msgid ""
 "is different from the set start date. To advertise the set start date, enter"
 " null."
 msgstr ""
+"Entrez la date que vous voulez annoncer comme date de début du cours, si cette date "
+"est différente de la date de début définie. Pour annoncer la date de début définie, entrez"
+" null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Requisite Courses"
-msgstr ""
+msgstr "Cours préalables"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Requisite Course key if this course has a pre-requisite course"
-msgstr ""
+msgstr "Clé de cours préalable si ce cours a un cours préalable"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Grading policy definition for this class"
-msgstr ""
+msgstr "Définition de la politique d'évaluation pour cette classe"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Show Calculator"
-msgstr ""
+msgstr "Affichez la calculatrice"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les étudiants peuvent voir la calculatrice dans le "
+"cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2291,31 +2358,33 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
-msgstr ""
+msgstr "Nom d'affichage du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Course Editor"
-msgstr ""
+msgstr "Éditeur de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
-msgstr ""
+msgstr "Entrez la méthode par laquelle ce cours est édité (\"XML\" ou \"Studio\")."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Survey URL"
-msgstr ""
+msgstr "URL du sondage du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
 msgstr ""
+"Entrez le URL pour le sondage de fin de cours. Si le cours n'a pas de sondage, "
+"entrez null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Blackout Dates"
-msgstr ""
+msgstr "Dates de blackout des discussions"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2346,25 +2415,27 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Sorting Alphabetical"
-msgstr ""
+msgstr "Tri alphabétique des discussions"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les catégories et sous-catégories de discussions sont "
+"triés alphabétiquement. Si faux, elles sont triées chronologiquement."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Announcement Date"
-msgstr ""
+msgstr "Date d'annonce du cours "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the date to announce your course."
-msgstr ""
+msgstr "Entrez la date pour annoncer votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cohort Configuration"
-msgstr ""
+msgstr "Configuration de cohorte"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2375,62 +2446,69 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Is New"
-msgstr ""
+msgstr "Nouveau cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, le cours apparaît dans la liste des nouveaux cours "
+"sur edx.org, et un badge Nouveau! apparaît temporairement près de l'image du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Mobile Course Available"
-msgstr ""
+msgstr "Cours mobile disponible"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, the course will be available to mobile "
 "devices."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, le cours sera disponible sur les appareils "
+"mobiles."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
-msgstr ""
+msgstr "Crédentiels de téléchargement de vidéo"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the unique identifier for your course's video files provided by edX."
 msgstr ""
+"Entrez l'identifiant unique fourni par edX pour les fichiers vidéo de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the URL for the official course Facebook group. If you provide a URL, "
 "the mobile app includes a button that students can tap to access the group."
 msgstr ""
+"Entrez le URL pour le groupe officiel Facebook du cours. Si vous fournissez un URL, "
+"l'application mobile inclut un bouton que les étudiants peuvent presser pour accéder au groupe."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Facebook URL"
-msgstr ""
+msgstr "URL Facebook"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Not Graded"
-msgstr ""
+msgstr "Cours non évalué"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr ""
+msgstr "Entrez vrai ou faux. Si vrai, le cours ne sera pas évalué."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Disable Progress Graph"
-msgstr ""
+msgstr "Désactiver les graphiques de progrès"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
-msgstr ""
+msgstr "Entrez vrai ou faux. Si vrai, les étudiants pourront voir le graphique de progrès."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "PDF Textbooks"
-msgstr ""
+msgstr "Manuels PDF"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "List of dictionaries containing pdf_textbook configuration"
@@ -2438,7 +2516,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "HTML Textbooks"
-msgstr ""
+msgstr "Manuels HTML"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2449,7 +2527,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Remote Gradebook"
-msgstr ""
+msgstr "Bulletin de notes distant"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2464,7 +2542,7 @@ msgstr ""
 #. his students.
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable CCX"
-msgstr ""
+msgstr "Activer CXX"
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -2480,17 +2558,19 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts"
-msgstr ""
+msgstr "Permettre les messages anonymes"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les étudiants pourront créer des messages de discussion qui sont anonymes "
+"pour tous les utilisateurs."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts to Peers"
-msgstr ""
+msgstr "Permettre les messages anonymes aux pairs"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2498,141 +2578,158 @@ msgid ""
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les étudiants pourront créer des messages anonymes "
+"pour les autres étudiants. Ce paramètre ne rend pas les messages anonymes pour "
+"le personnel du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Advanced Module List"
-msgstr ""
+msgstr "Liste des modules avancés"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the names of the advanced components to use in your course."
-msgstr ""
+msgstr "Entrez les noms de composants avancés à utiliser dans votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Checklist to Follow When Developing a Course"
-msgstr ""
+msgstr "Liste de contrôle à suivre lors du développement d'un cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Getting Started With Studio"
-msgstr ""
+msgstr "Commencer avec Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Team Members"
-msgstr ""
+msgstr "Ajouter des membres à l'équipe de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Grant your collaborators permission to edit your course so you can work "
 "together."
 msgstr ""
+"Donner la permission à vos collaborateurs d'éditer le cours de façon à travailler "
+"ensemble."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Team"
-msgstr ""
+msgstr "Éditer l'équipe de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Set Important Dates for Your Course"
-msgstr ""
+msgstr "Définir les dates importantes pour votre cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Establish your course's student enrollment and launch dates on the Schedule "
 "and Details page."
 msgstr ""
+"Définir les dates d'inscription et de début de votre cours sur la page Date et "
+"Détails de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Details &amp; Schedule"
-msgstr ""
+msgstr "Éditer Date &amp; et Détails de votre cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft Your Course's Grading Policy"
-msgstr ""
+msgstr "Rédiger la politique d'évaluation de votre cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Set up your assignment types and grading policy even if you haven't created "
 "all your assignments."
 msgstr ""
+"Configurez vos types de devoirs et votre politique d'évaluation mais si vous n'avez pas "
+"créés tous vos devoirs."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Grading Settings"
-msgstr ""
+msgstr "Éditer les paramètres d'évaluation"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Other Studio Checklists"
-msgstr ""
+msgstr "Explorer les autres listes de contrôle de Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Discover other available course authoring tools, and find help when you need"
 " it."
 msgstr ""
+"Découvrir d'autres outils de création de cours, et trouver de l'aide" 
+"quand vous en avez besoin."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Rough Course Outline"
-msgstr ""
+msgstr "Rédiger un plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Create Your First Section and Subsection"
-msgstr ""
+msgstr "Créer votre première section et sous-section"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use your course outline to build your first Section and Subsection."
-msgstr ""
+msgstr "Utilisez votre plan de cours pour créer votre première section et sous-section."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Outline"
-msgstr ""
+msgstr "Éditer le plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Set Section Release Dates"
-msgstr ""
+msgstr "Définir les dates de de sorties de section"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Specify the release dates for each Section in your course. Sections become "
 "visible to students on their release dates."
 msgstr ""
+"Spécifiez la date de sortie pour chaque section de votre cours. Les sections deviennent "
+"visibles aux étudiants lors de leurs dates de sortie."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Designate a Subsection as Graded"
-msgstr ""
+msgstr "Désigner une sous-section comme noté"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Set a Subsection to be graded as a specific assignment type. Assignments "
 "within graded Subsections count toward a student's final grade."
 msgstr ""
+"Marquer une sous-section à être notée pour un type de devoir spécifique. Les devoirs "
+"dans les sous-sections notées comptent pour la note de finale d'un étudiant."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Reordering Course Content"
-msgstr ""
+msgstr "Réorganisation du contenu de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use drag and drop to reorder the content in your course."
-msgstr ""
+msgstr "Utilisez le glisser-déposer pour réorganiser le contenu de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Renaming Sections"
-msgstr ""
+msgstr "Renommer les sections"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Rename Sections by clicking the Section name from the Course Outline."
-msgstr ""
+msgstr "Renomme les sections en cliquant le nom de la section à partir du plan de cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Deleting Course Content"
-msgstr ""
+msgstr "Supprimer le contenu de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Delete Sections, Subsections, or Units you don't need anymore. Be careful, "
 "as there is no Undo function."
 msgstr ""
+"Supprimer les sections, sous-sections, ou unités que vous n'utilisez plus. Soyez prudent, "
+"il n'y a pas de fonction annuler."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add an Instructor-Only Section to Your Outline"
-msgstr ""
+msgstr "Ajouter une section enseignant-seulement à votre plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2640,28 +2737,33 @@ msgid ""
 "useful. To do this, create a section and set the release date to the distant"
 " future."
 msgstr ""
+"Certains créateurs de cours croit qu'utiliser une section pour du contenu non trié en cours "
+"utile. Pour l'utiliser, créer une section et définissez la date de sortie loin dans le "
+"futur."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore edX's Support Tools"
-msgstr ""
+msgstr "Explorez les outils de support edX"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Studio Help Forum"
-msgstr ""
+msgstr "Explorez les forums d'aide de Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Access the Studio Help forum from the menu that appears when you click your "
 "user name in the top right corner of Studio."
 msgstr ""
+"Accédez au forum d'aide de Studio à partir du menu qui apparait quand vous cliquez sur "
+"votre nom d'utilisateur dans le coin supérieur droit de Studio."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Visit Studio Help"
-msgstr ""
+msgstr "Visitez l'aide de Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enroll in edX 101"
-msgstr ""
+msgstr "Inscrivez-vous à edX 101"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Register for edX 101, edX's primer for course creation."
@@ -2673,7 +2775,7 @@ msgstr "S’inscrire à edX 101"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the Studio Documentation"
-msgstr ""
+msgstr "Téléchargez la documentation de Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the searchable Studio reference documentation in PDF form."
@@ -2683,15 +2785,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download Documentation"
-msgstr ""
+msgstr "Téléchargez la documentation"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft Your Course About Page"
-msgstr ""
+msgstr "Rédigez votre page à propos du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Draft a Course Description"
-msgstr ""
+msgstr "Rédigez une description du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2699,30 +2801,33 @@ msgid ""
 " and more. Draft the text students will read before deciding to enroll in "
 "your course."
 msgstr ""
+"Les cours sur edX ont une page à propos du cours qui inclut une vidéo de cours, une description, "
+"et plus. Rédigez le texte que les étudiant liront avant de décider s'ils vont s'inscrire "
+"à votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Course Schedule &amp; Details"
-msgstr ""
+msgstr "Éditez les Dates &amp; Détails du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Staff Bios"
-msgstr ""
+msgstr "Ajouter les biographies du personnel"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Showing prospective students who their instructor will be is helpful. "
 "Include staff bios on the course About page."
 msgstr ""
-"Montrer aux étudiants potentiels qui sera leur instructeur est utile. "
-"Ajoutez les profils des personnels sur la page à propos du cours."
+"Montrez aux étudiants potentiels qui sera leur instructeur est utile. "
+"Ajoutez les profils du personnel sur la page à propos du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course FAQs"
-msgstr ""
+msgstr "Ajouter la FAQ du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Include a short list of frequently asked questions about your course."
-msgstr ""
+msgstr "Inclure une courte liste de foire aux questions à propos de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Prerequisites"
@@ -2758,7 +2863,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Due Date Display Format"
-msgstr ""
+msgstr "Format de la date de remise"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2769,25 +2874,27 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "External Login Domain"
-msgstr ""
+msgstr "Domaine de connexion externe"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the external login method students can use for the course."
-msgstr ""
+msgstr "Entrez la méthode de connexion externe que les étudiants peuvent utiliser pour ce cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Downloadable Before End"
-msgstr ""
+msgstr "Attestations téléchargeables avant la fin"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les étudiants pourront télécharger les attestations avant "
+"la fin du cours, s'ils ont rencontré les exigences de l'attestation."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Display Behavior"
-msgstr ""
+msgstr "Comportement d'affichage des attestations"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2803,7 +2910,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
-msgstr ""
+msgstr "Image de la page à propos du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2831,7 +2938,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Short)"
-msgstr ""
+msgstr "Nom de l'attestation (Court)"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2842,15 +2949,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Long)"
-msgstr ""
+msgstr "Nom de l'attestation (Long)"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Web/HTML View Enabled"
-msgstr ""
+msgstr "Attestations Web/HTML activées"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "If true, certificate Web/HTML views are enabled for the course."
-msgstr ""
+msgstr "Si vrai, les attestations Web/HTML sont activées pour ce cours."
 
 #. Translators: This field is the container for course-specific certifcate
 #. configuration values
@@ -2870,7 +2977,7 @@ msgstr ""
 #. configuration values
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Configuration"
-msgstr ""
+msgstr "Configuration d'attestation"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -2898,11 +3005,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Hide Progress Tab"
-msgstr ""
+msgstr "Cacher l'onglet de progrès"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allows hiding of the progress tab."
-msgstr ""
+msgstr "Permet de cacher l'onglet de progrès."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Organization Display String"
@@ -2930,7 +3037,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Maximum Student Enrollment"
-msgstr ""
+msgstr "Nombre d'inscriptions maximum pour le cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2940,17 +3047,19 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Public Wiki Access"
-msgstr ""
+msgstr "Permettre l'accès public au Wiki"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, edX users can view the course wiki even if "
 "they're not enrolled in the course."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les utilisateurs edX verront le wiki du cours même si "
+"ils ne sont pas inscrits dans le cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Invitation Only"
-msgstr ""
+msgstr "Sur invitation seulement"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
@@ -2958,7 +3067,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
-msgstr ""
+msgstr "Nom du sondage pré-cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Name of SurveyForm to display as a pre-course survey to the user."
@@ -2966,7 +3075,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Required"
-msgstr ""
+msgstr "Sondage pré-cours nécessaure"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2977,7 +3086,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Visibility In Catalog"
-msgstr ""
+msgstr "Visibilité du cours dans le catalogue"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2989,12 +3098,12 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Both"
-msgstr ""
+msgstr "Les deux"
 
 #: lms/templates/footer.html lms/templates/static_templates/about.html
 #: themes/red-theme/lms/templates/footer.html
 msgid "About"
-msgstr "A propos"
+msgstr "À propos"
 
 #: cms/templates/settings.html
 msgid "None"
@@ -3010,10 +3119,13 @@ msgid ""
 " your course content. Note, you must enable Entrance Exams for this course "
 "setting to take effect."
 msgstr ""
+"Spécifier si les étudiants doivent compléter un examen d'entrée avant de voir "
+"le contenu de votre cours. Note, vous devez activer les examens d'entrée pour ce cours "
+"afin que ce paramètre prenne effet."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Entrance Exam Minimum Score (%)"
-msgstr ""
+msgstr "Note minimale (%) pour l'examen d'entrée"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3024,7 +3136,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Entrance Exam ID"
-msgstr ""
+msgstr "Identifiant de l'examen d'entrée"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Content module identifier (location) of entrance exam."
@@ -3048,11 +3160,11 @@ msgstr "Langue du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Specify the language of your course."
-msgstr ""
+msgstr "Spécifiez la langue de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Teams Configuration"
-msgstr ""
+msgstr "Configuration d'équipes"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3070,6 +3182,9 @@ msgid ""
 "your course. Note that enabling proctored exams will also enable timed "
 "exams."
 msgstr ""
+"Entrez vrai ou faux. Si cette valeur est vrai, les examens surveillés seront activés "
+"dans votre cours. Veuillez noter qu'activer les examens surveillés va aussi active les examens "
+"chronométrés."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Timed Exams"
@@ -3080,10 +3195,12 @@ msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course."
 msgstr ""
+"Entrez vrai ou faux. Si cette valeur est vrai, les examens chronométrés seront activés "
+"dans votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Minimum Grade for Credit"
-msgstr ""
+msgstr "Note minimale pour les crédits"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3093,7 +3210,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Self Paced"
-msgstr ""
+msgstr "À votre rythme"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3104,7 +3221,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: common/lib/xmodule/xmodule/discussion_module.py
 msgid "Discussion Id"
@@ -3123,6 +3240,8 @@ msgid ""
 "A category name for the discussion. This name appears in the left pane of "
 "the discussion forum for the course."
 msgstr ""
+"Une nom de catégorie pour les discussions. Ce nom apparait dans le volet gauche "
+"du forum de discussions pour le cours."
 
 #: common/lib/xmodule/xmodule/discussion_module.py
 msgid "Subcategory"
@@ -3133,6 +3252,8 @@ msgid ""
 "A subcategory name for the discussion. This name appears in the left pane of"
 " the discussion forum for the course."
 msgstr ""
+"Une nom de sous-catégorie pour les discussions. Ce nom apparait dans le volet gauche "
+"du forum de discussions pour le cours."
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Text"
@@ -3141,11 +3262,11 @@ msgstr "Texte"
 #: common/lib/xmodule/xmodule/html_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Html contents to display for this module"
-msgstr ""
+msgstr "Contenu HTML à afficher pour ce module"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Source code for LaTeX documents. This feature is not well-supported."
-msgstr ""
+msgstr "Code source des documents LaTeX. Cette fonctionnalité n'est pas bien prise en charge."
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid ""
@@ -3156,19 +3277,19 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Editor"
-msgstr ""
+msgstr "Éditeur"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Visual"
-msgstr ""
+msgstr "Visuel"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Raw"
-msgstr ""
+msgstr "Cru"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "HTML for the additional pages"
-msgstr ""
+msgstr "HTML pour les pages additionnelles"
 
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "List of course update items"
@@ -3176,12 +3297,12 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 msgid "Image Annotation"
-msgstr ""
+msgstr "Annotation d'image"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid "Tags for Assignments"
-msgstr ""
+msgstr "Tags pour les devoirs"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3200,13 +3321,13 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Url for Annotation Storage"
-msgstr ""
+msgstr "Url pour le stockage des annotations"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Secret string for annotation storage"
-msgstr ""
+msgstr "Chaîne secrète pour le stockage des annotations"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -3247,7 +3368,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Mode for Annotation Tool"
-msgstr ""
+msgstr "Mode pour l'outil d'annotation"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3260,7 +3381,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "No email address found."
-msgstr ""
+msgstr "Aucune adresse courriel trouvée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Any Type"
@@ -3276,7 +3397,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library Version"
-msgstr ""
+msgstr "Version de la bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Determines how content is drawn from the library"
@@ -3288,118 +3409,126 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Count"
-msgstr ""
+msgstr "Compte"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Enter the number of components to display to each student."
-msgstr ""
+msgstr "Entrer le nombre de composants à afficher à chaque étudiant."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Problem Type"
-msgstr ""
+msgstr "Type de problème"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
 "Choose a problem type to fetch from the library. If \"Any Type\" is selected"
 " no filtering is applied."
 msgstr ""
+"Choisir un type de problème à récupérer de la bibliothèque. If \"Tout Type\" est sélectionné "
+"aucun filtre n'est appliqué."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Scored"
-msgstr ""
+msgstr "Noté"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
 "Set this value to True if this module is either a graded assignment or a "
 "practice problem."
 msgstr ""
+"Définir cette valeur à vrai si ce module est soit un devoir noté ou un "
+"problème de pratique."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "This component is out of date. The library has new content."
-msgstr ""
+msgstr "Ce composant est obsolète. La bibliothèque a un nouveau contenu."
 
 #. Translators: {refresh_icon} placeholder is substituted to "↻" (without
 #. double quotes)
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "{refresh_icon} Update now."
-msgstr ""
+msgstr "{refresh_icon} Mettre à jour maintenant."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Library is invalid, corrupt, or has been deleted."
-msgstr ""
+msgstr "La bibliothèque est non valide, corrompue, ou a été supprimée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit Library List."
-msgstr ""
+msgstr "Éditer la liste de bibliothèques"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
 "This course does not support content libraries. Contact your system "
 "administrator for more information."
 msgstr ""
+"Ce cours ne supporte pas les bibliothèques de contenu. Contacter votre administrateur "
+"de systèmes pour plus d'information."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "A library has not yet been selected."
-msgstr ""
+msgstr "Une bibliothèque n'a pas encore été sélectionnée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select a Library."
-msgstr ""
+msgstr "Choisir une bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "There are no matching problem types in the specified libraries."
-msgstr ""
+msgstr "Il n'y a pas de types de problèmes correspondant dans la bibliothèque spécifiée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select another problem type."
-msgstr ""
+msgstr "Choisir un autre type de problème."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "La bibliothèque spécifiée est configurée pour récupérer {count} problème "
+msgstr[1] "La bibliothèque spécifiée est configurée pour récupérer {count} problèmes"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mais il n'y a que {actual} problème correspondant"
+msgstr[1] "mais il n'y a que {actual} problèmes correspondants"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
-msgstr ""
+msgstr "Éditer la configuration de la bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Invalid Library"
-msgstr ""
+msgstr "Bibliothèque non valide"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "No Library Selected"
-msgstr ""
+msgstr "Aucune bibliothèque choisie"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the name of the library as it should appear in Studio."
-msgstr ""
+msgstr "Entrer le nom de la bibliothèque tel qu'il devrait apparaitre dans Studio."
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Library Display Name"
-msgstr ""
+msgstr "Nom d'affichage de la bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the names of the advanced components to use in your library."
-msgstr ""
+msgstr "Entrer les noms des composants avancés à utiliser dans votre bibliothèque."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "Enter the name that students see for this component.  Analytics reports may "
 "also use the display name to identify this component."
 msgstr ""
+"Entrer le nom que les étudiants voient pour ce composant. Les rapports d'analytiques pourraient "
+"aussi utiliser ce nom d'affichage pour identifier ce composant."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI ID"
-msgstr ""
+msgstr "Identifiant LTI"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3411,7 +3540,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI URL"
-msgstr ""
+msgstr "URL LTI"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3423,7 +3552,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Custom Parameters"
-msgstr ""
+msgstr "Paramètres personnalisés"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3435,7 +3564,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Open in New Page"
-msgstr ""
+msgstr "Ouvrir dans une nouvelle page"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3453,7 +3582,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Weight"
-msgstr ""
+msgstr "Poids"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3484,23 +3613,23 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Request user's username"
-msgstr ""
+msgstr "Demander le nom d'utilisateur"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's username."
-msgstr ""
+msgstr "Choisir vrai afin de demander le nom d'utilisateur."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Request user's email"
-msgstr ""
+msgstr "Demander l'adresse courriel de l'utilisateur"
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's email address."
-msgstr ""
+msgstr "Choisir vrai afin de demander l'adresse courriel de l'utilisateur."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI Application Information"
@@ -3545,7 +3674,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/mixin.py
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #: common/lib/xmodule/xmodule/mixin.py
 msgid ""
@@ -12119,7 +12248,7 @@ msgstr "Ajouter {course_name} au panier <span>({price} CAD)</span>"
 
 #: lms/templates/courseware/course_about.html
 msgid "Enroll in {course_name}"
-msgstr "S'inscrire dans le cours {course_name}"
+msgstr "S'inscrire à {course_name}"
 
 #: lms/templates/courseware/course_about.html
 msgid "View About Page in studio"
