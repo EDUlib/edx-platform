@@ -3647,7 +3647,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable LaTeX Compiler"
-msgstr ""
+msgstr "Activer le compilateur LaTeX"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -5088,11 +5088,11 @@ msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "Course has not started"
-msgstr ""
+msgstr "Le cours n'a pas encore débuté"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "Course does not start until {}"
-msgstr ""
+msgstr "Le cours ne débute pas avant {}"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You have unfulfilled milestones"
@@ -5100,11 +5100,11 @@ msgstr ""
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You do not have access to this course"
-msgstr ""
+msgstr "Vous n'avez pas accès à ce cours"
 
 #: lms/djangoapps/courseware/access_response.py
 msgid "You do not have access to this course on a mobile device"
-msgstr ""
+msgstr "Vous n'avez pas accès à ce cours sur un appareil mobile"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "in {relative_date} - {absolute_date}"
@@ -5116,20 +5116,21 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Today is {date}"
-msgstr ""
+msgstr "Aujourd'hui est le {date}"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course Starts"
-msgstr ""
+msgstr "Cours débute"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
-msgstr ""
+msgstr "Cours termine"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
 "To earn a certificate, you must complete all requirements before this date."
 msgstr ""
+"Pour obtenir une attestation, vous devez compléter toutes les conditions avant cette date."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -5143,11 +5144,11 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "You are still eligible to upgrade to a Verified Certificate!"
-msgstr ""
+msgstr "Vous êtes encore admissible à une mise à jour à une attestation vérifiée"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Upgrade to Verified Certificate"
-msgstr ""
+msgstr "Mettre à jour à une attestation vérifiée"
 
 #: cms/templates/group_configurations.html
 msgid "Learn More"
@@ -5155,11 +5156,11 @@ msgstr "En savoir plus"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Retry Verification"
-msgstr ""
+msgstr "Réessayer la vérification"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Verify My Identity"
-msgstr ""
+msgstr "Vérifier mon identité"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Missed Verification Deadline"
@@ -5329,25 +5330,25 @@ msgstr ""
 #. corrected".
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "fixed password"
-msgstr ""
+msgstr "mot de passe corrigé"
 
 #. Translators: this means everything happened successfully, yay!
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "All ok!"
-msgstr ""
+msgstr "Tout est ok!"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Must provide username"
-msgstr ""
+msgstr "Doit fournir le nom d'utilisateur"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Must provide full name"
-msgstr ""
+msgstr "Doit fournir le nom complet"
 
 #. Translators: Domain is an email domain, such as "@gmail.com"
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Email address must end in {domain}"
-msgstr ""
+msgstr "L'adresse courriel doit se terminer par {domain}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed - email {email_addr} already exists as {external_id}"
@@ -5355,7 +5356,7 @@ msgstr "Échec - l'adresse courriel {email_addr} existe déjà pour {external_id
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Password must be supplied if not using certificates"
-msgstr ""
+msgstr "Le mot de passe doit être fourni si des certificats ne sont pas utilisés"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "email address required (not username)"
@@ -5363,31 +5364,31 @@ msgstr "adresse courriel requise (pas de nom d'utilisateur)"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Oops, failed to create user {user}, {error}"
-msgstr ""
+msgstr "Oups, création échouée pour utilisateur {user}, {error}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "User {user} created successfully!"
-msgstr ""
+msgstr "Utilisateur {user} créé avec succès!"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Cannot find user with email address {email_addr}"
-msgstr ""
+msgstr "Ne peut trouver l'utilisateur avec l'adresse courriel {email_addr}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Cannot find user with username {username} - {error}"
-msgstr ""
+msgstr "Ne peut trouver l'utilisateur avec le nom d'utilisateur {username} - {error}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Deleted user {username}"
-msgstr ""
+msgstr "Utilisateur {username} supprimé"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Statistic"
-msgstr ""
+msgstr "Statistique"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Site statistics"
@@ -5676,7 +5677,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "This invoice is already active."
-msgstr ""
+msgstr "Cette facture est déjà active."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The registration codes for invoice {0} have been re-activated."
@@ -5688,11 +5689,11 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Certificate Type"
-msgstr ""
+msgstr "Type d'attestation"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Total Certificates Issued"
-msgstr ""
+msgstr "Nombre d'attestations émises"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Date Report Run"
@@ -5711,15 +5712,15 @@ msgstr "Courriel"
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper.py lms/envs/devstack.py
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Location"
-msgstr ""
+msgstr "Emplacement"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Birth Year"
-msgstr ""
+msgstr "Année de naissance"
 
 #: lms/templates/register.html lms/templates/signup_modal.html
 msgid "Gender"
@@ -5728,7 +5729,7 @@ msgstr "Genre"
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Level of Education"
-msgstr ""
+msgstr "Niveau d'éducation"
 
 #: lms/templates/register.html
 msgid "Mailing Address"
@@ -5737,15 +5738,15 @@ msgstr "Adresse postale"
 #: lms/djangoapps/instructor/views/api.py
 #: lms/djangoapps/instructor_task/tasks_helper.py
 msgid "Goals"
-msgstr ""
+msgstr "Objectifs"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Cohort"
-msgstr ""
+msgstr "Cohorte"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Team"
-msgstr ""
+msgstr "Équipe"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6683,6 +6684,8 @@ msgid ""
 "Enter true or false. If true, the course is open to the public. If false, "
 "the course is open only to admins."
 msgstr ""
+"Entrer vrai ou faux. Si vrai, le cours est ouvert au public. Si faux, "
+"le cours est ouvert uniquement aux administrateurs."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -7695,7 +7698,7 @@ msgstr "Coût total"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Currency"
-msgstr "Monnaie"
+msgstr "Devise"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Comments"
@@ -8928,7 +8931,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Deadline for purchasing and requesting credit."
-msgstr ""
+msgstr "Date limite pour l'achat et la demande de crédit."
 
 #: openedx/core/djangoapps/profile_images/images.py
 msgid "bytes"
@@ -8948,7 +8951,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "API Version"
-msgstr ""
+msgstr "Version de l'API"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Internal Service URL"
