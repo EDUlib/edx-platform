@@ -916,6 +916,8 @@ msgid ""
 "If this option is selected, users will not be required to confirm their "
 "email, and their account will be activated immediately upon registration."
 msgstr ""
+"Si cette option est sélectionnée, les utilisateurs n'auront pas à confirmer leur adresse "
+"courriel, et leur compte sera activé immédiatement après l'inscription."
 
 #: lms/templates/student_account/finish_auth.html
 msgid "Please wait"
@@ -1289,7 +1291,7 @@ msgstr "Le cours {course_id} nécessite {prerequisite_course_id}"
 
 #: common/djangoapps/util/milestones_helpers.py
 msgid "System defined milestone"
-msgstr ""
+msgstr "Jalon défini par le système"
 
 #: common/djangoapps/util/password_policy_validators.py
 msgid "Invalid Length ({0})"
@@ -1337,11 +1339,11 @@ msgstr "Trop similaire à un mot du dictionnaire"
 
 #: common/djangoapps/xblock_django/models.py
 msgid "Space-separated list of XBlocks which should not render."
-msgstr ""
+msgstr "Liste séparée par des espaces de XBlocks qui ne devraient pas être rendus."
 
 #: common/lib/capa/capa/capa_problem.py
 msgid "Cannot rescore problems with possible file submissions"
-msgstr ""
+msgstr "Ne peut renoter les problèmes avec possiblement des soumissions de fichiers"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "correct"
@@ -1392,7 +1394,7 @@ msgstr "Cela est en traitement."
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: common/lib/capa/capa/inputtypes.py
 msgid "ChoiceGroup: unexpected tag {tag_name}"
-msgstr ""
+msgstr "ChoiceGroup: tag innatendu {tag_name}"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Answer received."
@@ -1409,50 +1411,56 @@ msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
+"Vos fichiers ont été soumis. Aussitôt que votre soumission est notée, ce "
+"message sera remplacé par les commentaires de l'évaluateur."
 
 #: common/lib/capa/capa/inputtypes.py
 msgid ""
 "Your answer has been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr ""
+"Vos réponse a été soumise. Aussitôt que votre soumission est notée, ce "
+"message sera remplacé par les commentaires de l'évaluateur."
 
 #: common/lib/capa/capa/inputtypes.py
 msgid ""
 "Submitted. As soon as a response is returned, this message will be replaced "
 "by that feedback."
 msgstr ""
+"Soumis. Aussitôt qu'une réponse est retournée, ce message sera remplacé "
+"par les commentaires."
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
-msgstr ""
+msgstr "Aucune réponse de Xqueue à l'intérieur de {xqueue_timeout} secondes. Interrompu."
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Error running code."
-msgstr ""
+msgstr "Erreur d'exécution de code."
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Cannot connect to the queue"
-msgstr ""
+msgstr "Ne peut se connecter à la queue"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "No formula specified."
-msgstr ""
+msgstr "Aucune formule spécifiée"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Couldn't parse formula: {error_msg}"
-msgstr ""
+msgstr "Impossible d'analyser la formule: {error_msg}"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Error while rendering preview"
-msgstr ""
+msgstr "Erreur pendant le rendu de l'aperçu"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Sorry, couldn't parse formula"
-msgstr ""
+msgstr "Désolé, nous ne pouvons analyser la formule"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "{input_type}: unexpected tag {tag_name}"
-msgstr ""
+msgstr "{input_type}: tag innatendu {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: common/lib/capa/capa/inputtypes.py
@@ -1475,19 +1483,19 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "(Source code line unavailable)"
-msgstr ""
+msgstr "(Ligne du code source non disponible)"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "See XML source line {sourcenum}."
-msgstr ""
+msgstr "Voir la ligne du code sources XML {sourcenum}."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "JavaScript Input"
-msgstr ""
+msgstr "Entrée JavaScript"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Execution of unsafe Javascript code is not allowed."
-msgstr ""
+msgstr "L'exécution de code Javascript non sécure n'est pas permis."
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Checkboxes"
@@ -1506,18 +1514,18 @@ msgstr ""
 #. be translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "Do not use shuffle and answer-pool at the same time"
-msgstr ""
+msgstr "Ne pas utiliser shuffle et answer-pool en même temps"
 
 #. Translators: 'answer-pool' is an attribute name and should not be
 #. translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "answer-pool value should be an integer"
-msgstr ""
+msgstr "la valeur de answer-pool devrait être un nombre entier"
 
 #. Translators: 'Choicegroup' is an input type and should not be translated.
 #: common/lib/capa/capa/responsetypes.py
 msgid "Choicegroup must include at least 1 correct and 1 incorrect choice"
-msgstr ""
+msgstr "Choicegroup doit inclue au moins 1 choix correct et 1 choix incorrect"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "True/False Choice"
@@ -1533,27 +1541,27 @@ msgstr "Chiffres à saisir"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr ""
+msgstr "Il y avait un problème avec la réponse du staff à ce problème."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{student_answer}' as a number."
-msgstr ""
+msgstr "Ne peut interpréter '{student_answer}' comme un nombre."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "You may not use variables ({bad_variables}) in numerical problems."
-msgstr ""
+msgstr "Vous ne pouvez utiliser les variables ({bad_variables}) dans les problèmes numériques"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "factorial function evaluated outside its domain:'{student_answer}'"
-msgstr ""
+msgstr "fonction factorielle évaluée en dehors de son domaine: '{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Invalid math syntax: '{student_answer}'"
-msgstr ""
+msgstr "Syntaxe mathématique invalide: '{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "You may not use complex numbers in range tolerance problems"
-msgstr ""
+msgstr "Vous ne pouvez pas utiliser les nombres complexes dans des problèmes de tolérance de gamme"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. provided a boundary
@@ -1563,6 +1571,7 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
 msgstr ""
+"Il y avait un problème avec la réponse du personnel à ce problème: limite complexe."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not provide
@@ -1571,6 +1580,7 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
 msgstr ""
+"Il y avait un problème avec la réponse du personnel à ce problème: limite vide."
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Text Input"
@@ -1594,11 +1604,11 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "error getting student answer from {student_answers}"
-msgstr ""
+msgstr "erreur d'obtention de réponse étudiant de {student_answers}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "No answer entered!"
-msgstr ""
+msgstr "Aucune réponse entrée!"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "CustomResponse: check function returned an invalid dictionary!"
@@ -1606,7 +1616,7 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Symbolic Math Input"
-msgstr ""
+msgstr "Entrée mathématique symbolique"
 
 #. Translators: 'SymbolicResponse' is a problem type and should not be
 #. translated.
@@ -1616,15 +1626,15 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Code Input"
-msgstr ""
+msgstr "Entrée de code"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "No answer provided."
-msgstr ""
+msgstr "Aucue réponse fournie."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error: No grader has been set up for this problem."
-msgstr ""
+msgstr "Erreur: Aucun évaluateur n'a été initialisé pour ce problèmes."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
@@ -1644,7 +1654,7 @@ msgstr ""
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "External Grader"
-msgstr ""
+msgstr "Évaluateur externe"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Math Expression Input"
@@ -1728,11 +1738,11 @@ msgstr ""
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 #: common/lib/xmodule/xmodule/word_cloud_module.py
 msgid "Display name for this module"
-msgstr ""
+msgstr "Afficher le nom de ce module"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py
 msgid "Annotation"
-msgstr ""
+msgstr "Annotation"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1811,7 +1821,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether to force the save button to appear on the page"
@@ -1830,7 +1840,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Randomization"
-msgstr ""
+msgstr "Aléatoire"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -1915,12 +1925,12 @@ msgstr ""
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/html_module.py
 msgid "Enable LaTeX templates?"
-msgstr ""
+msgstr "Activé les gabarits LaTeX?"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Matlab API key"
-msgstr ""
+msgstr "Clé d'API Matlab"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -1934,7 +1944,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Check"
-msgstr ""
+msgstr "Vérifier"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Final Check"
@@ -1946,7 +1956,7 @@ msgstr "Vérification en cours..."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr ""
+msgstr "Avertissement: ce problème a été réinitialisé à son état initial!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -1958,23 +1968,23 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "If this error persists, please contact the course staff."
-msgstr ""
+msgstr "Si cette erreur persiste, contacer le personnel de cours."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Hint: "
-msgstr ""
+msgstr "Indice: "
 
 #. Translators: e.g. "Hint 1 of 3" meaning we are showing the first of three
 #. hints.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr ""
+msgstr "Indice ({hint_num} de {hints_count}): "
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem is closed."
-msgstr ""
+msgstr "Problème fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be reset before it can be checked again."
@@ -1982,7 +1992,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "You must wait at least {wait} seconds between submissions."
-msgstr ""
+msgstr "Vous devez attendre au minimum {wait} secondes entre les soumissions."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -1995,7 +2005,7 @@ msgstr ""
 #. Translators: {msg} will be replaced with a problem's error message.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Error: {msg}"
-msgstr ""
+msgstr "Erreur: {msg}"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "{num_hour} hour"
@@ -2023,7 +2033,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be answered before it can be graded again."
-msgstr ""
+msgstr "Le problème doit être répondu avant d'être noté de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem needs to be reset prior to save."
@@ -2031,7 +2041,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Your answers have been saved."
-msgstr ""
+msgstr "Vos réponses ont été sauvegardées."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -2045,7 +2055,7 @@ msgstr ""
 #. page before they can reset it.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Refresh the page and make an attempt before resetting."
-msgstr ""
+msgstr "Rafraichir la page et effectuer une tentative avant de réinitialiser."
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid ""
@@ -2065,7 +2075,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Current task that the student is on."
-msgstr ""
+msgstr "Tâche courante sur laquelle l'étudiant travaille."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid ""
@@ -2087,7 +2097,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 #: lms/templates/peer_grading/peer_grading.html
 msgid "Graded"
-msgstr ""
+msgstr "Noté"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid ""
@@ -2101,11 +2111,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "The number of times the student can try to answer this problem."
-msgstr ""
+msgstr "Le nombre de fois que l'étudiant peut essayer de répondre à ce problème."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Allow File Uploads"
-msgstr ""
+msgstr "Permettre les téléchargements de fichiers"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Whether or not the student can submit files as a response."
@@ -2123,7 +2133,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Current version number"
-msgstr ""
+msgstr "Numéro de version courant"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
@@ -14849,6 +14859,9 @@ msgid ""
 " link to every report remains available on this page, identified by the date"
 " and time (in UTC) that the report was generated."
 msgstr ""
+"Les rapports suivants sont disponibles pour téléchargement. Les rapports ne sont pas détruits. Un"
+" line pour chaque rapport reste disponible sur cette page, identifié par la date"
+" et l'heure (UTC) à laquelle le rapport a été généré."
 
 #. Translators: a table of URL links to report files appears after this
 #. sentence.
@@ -14858,30 +14871,33 @@ msgid ""
 "save outside of this page or that you send or receive in email expire after "
 "five minutes."
 msgstr ""
+"<b>Note</b>: Afin de protéger les données des étudiants, les liens pour les rapports que vous sauvegarder "
+"à l'extérieur de cette page ou que vous envoyez or que vous recevez dans un courriels expirent après "
+"cinq minutes."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Coupon Code List"
-msgstr ""
+msgstr "Liste des codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download a .csv file of all coupon codes for this course."
-msgstr ""
+msgstr "Télécharger un fichier .csv contenant tout les codes de coupon pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download Coupon Codes"
-msgstr ""
+msgstr "Télécharger les codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Coupon Codes"
-msgstr ""
+msgstr "Codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Coupon (%)"
-msgstr ""
+msgstr "Coupon (%)"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Number Redeemed"
-msgstr ""
+msgstr "Nombre utilisés"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "{code}"
@@ -14897,7 +14913,7 @@ msgstr "{discount}"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "The Invoice Number field cannot be empty."
-msgstr ""
+msgstr "Le numéro de facturation ne peut être vide."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "No Expiration Date"
@@ -14985,11 +15001,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 msgid "Edit Coupon Code"
-msgstr ""
+msgstr "Éditer le code de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 msgid "Edit Coupon Code Information"
-msgstr ""
+msgstr "Éditer l'information du code de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 msgid "Code"
@@ -15005,7 +15021,7 @@ msgstr "Pourcentage de remise"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
 msgid "Update Coupon Code"
-msgstr ""
+msgstr "Mettre à jour le code de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Executive Summary for {display_name}"
@@ -15045,11 +15061,11 @@ msgstr "Prix moyen par place"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Frequently Used Coupon Codes"
-msgstr ""
+msgstr "Codes de coupon fréquement utilisés"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Number of seats purchased using coupon codes"
-msgstr ""
+msgstr "Nombre de places achetées avec des codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Rank"
@@ -15081,7 +15097,7 @@ msgstr "Nombre de place achetées avec factures"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Unused bulk purchase seats (revenue at risk)"
-msgstr ""
+msgstr "Achats de places en lot inutilisé (revenus à risque)"
 
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Percentage of seats purchased individually"
@@ -18243,6 +18259,11 @@ msgid ""
 "Only learners in the cohorts that are associated with the specified content "
 "groups see the additional content."
 msgstr ""
+"Chaque groupe de contenu que vous créer peut être associé à une ou plusieurs "
+"cohortess. En plus du contenu de cours qui est prévu pour tous les étudiants, "
+"vous pouvez désigner une partie du contenu visible uniquement à des groupes de contenu spécifiques."
+"Seuls les étudiants dans les cohortes qui sont associées à des groupes de contenu spécifiques "
+"verront ce contenu additionnel."
 
 #: cms/templates/group_configurations.html
 msgid ""
@@ -18252,6 +18273,11 @@ msgid ""
 "use by a unit. To delete a content group, hover over its box and click the "
 "delete icon."
 msgstr ""
+"Cliquer {em_start}Nouveau groupe de contenu{em_end} pour ajouter un nouveau groupe de contenu. Pour "
+"éditer le nom du groupe de contenu, passez au-dessus de sa boîte et cliquer"
+"{em_start}Éditer{em_end}. Vous pouvez supprimer un groupe de contenu uniquement s'il n'est pas utilisé "
+"par une unité. Pour supprimer un groupe de contenu, passez au-dessus de sa boite et cliquer "
+"l'icône supprimer."
 
 #: cms/templates/group_configurations.html
 msgid ""
@@ -18270,6 +18296,10 @@ msgid ""
 "not in use in an experiment. To delete a configuration, hover over its box "
 "and click the delete icon."
 msgstr ""
+"Cliquer {em_start}Nouvelle configuration de groupe{em_end} pour ajouter une nouvelle configuration. "
+"Pour éditer une configuration, passez au-dessus de sa boite et cliquer "
+"{em_start}Éditer{em_end}. Vous pouvez supprimer une configuration de groupe uniquement si elle n'est pas utilisée. "
+"Pour supprimer une configuration, passez au-dessus de sa boite et cliquer l'icône supprimer."
 
 #: cms/templates/howitworks.html
 msgid "Welcome"
@@ -18534,6 +18564,11 @@ msgid ""
 "recommend that you export the current library, so that you have a backup "
 "copy of it."
 msgstr ""
+"Soyez certain que vous voulez importer une bibliothèque avant de continuer. Le contenu de la "
+"bibliothèque importée remplacera le contenu de la bibliothèque existante. "
+"{em_start}Vous ne pouvez annuler un import de bibliothèques{em_end}. Avant de procéder, nous "
+"recommandons que vous exportiez la bibliothèque existante, de façon à ce que vous ayez une copie de sauvegarde "
+"de celle-ci."
 
 #: cms/templates/import.html
 msgid ""
@@ -18541,6 +18576,9 @@ msgid ""
 "compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
 " It may also contain other files."
 msgstr ""
+"La bibliothèque que vous importez doit être un fichier au format .tar.gz (c-à-d. un"
+" fichier .tar compressé au format GNU Zip). Ce fichier .tar.gz doit contenir"
+" un fichier library.xml. Il peut également contenir d'autres fichiers."
 
 #: cms/templates/import.html
 msgid ""
@@ -18549,6 +18587,11 @@ msgid ""
 "completed. We recommend, however, that you don't make important changes to "
 "your library until the import operation has completed."
 msgstr ""
+"Le processus d'importation comprend cinq étapes. Durant les deux premières "
+"étapes, vous devez rester sur cette page. Vous pouvez quitter cette page dès"
+" que l'étape de décompression est achevée. Cependant, nous vous recommandons"
+" de ne pas faire de modifications importantes à votre bibliothèque avant que "
+"l'opération d'importation ne soit complètement terminée."
 
 #: cms/templates/import.html
 msgid ""
@@ -18558,6 +18601,11 @@ msgid ""
 "recommend that you export the current course, so that you have a backup copy"
 " of it."
 msgstr ""
+"Soyez certain que vous voulez importer un cours avant de continuer. Le contenu du "
+"cours importé remplacera le contenu du cours existant. "
+"{em_start}Vous ne pouvez annuler un import de cours{em_end}. Avant de procéder, nous "
+"recommandons que vous exportiez le cours existant, de façon à ce que vous ayez une copie de sauvegarde "
+"de celui-ci."
 
 #: cms/templates/import.html
 msgid ""
@@ -18584,7 +18632,7 @@ msgstr ""
 
 #: cms/templates/import.html
 msgid "Select a .tar.gz File to Replace Your Library Content"
-msgstr ""
+msgstr "Sélectionnez un fichier .tar.gz afin de remplacer le contenu de votre bibliothèque"
 "Sélectionnez un fichier .tar.gz pour remplacer le contenu de votre bibliothèque"
 
 #: cms/templates/import.html
@@ -18697,6 +18745,9 @@ msgid ""
 " existing library entirely. You might also have developed a library outside "
 "of {studio_name}."
 msgstr ""
+"Vous pourriez vouloir mettre à jour une bibliothèque existante à une nouvelle version "
+"ou remplacer entièrement une bibliothèque existante. Vous pourriez aussi"
+" vouloir développer une bibliothèque à l'extérieur de {studio_name}."
 
 #: cms/templates/import.html
 msgid "Note: Library content is not automatically updated in courses"
@@ -18726,7 +18777,7 @@ msgid ""
 msgstr ""
 "Vous pourriez avoir envie d'exécuter une nouvelle version d'un cours "
 "existant, ou de remplacer entièrement un cours existant. Vous pourriez aussi"
-" vouloir développer un cours en dehors de  {studio_name}."
+" vouloir développer un cours à l'extérieur de {studio_name}."
 
 #: cms/templates/import.html
 msgid "What content is imported?"
