@@ -1982,6 +1982,12 @@ msgid ""
 "compromised. To obtain a key for your course, or to report an issue, please "
 "contact moocsupport@mathworks.com"
 msgstr ""
+"Entrez la clé API fournie par MathWorks pour accéder au service hébergé de the MATLAB. "
+"Cette clé est permise pour une utilisation exclusive dans ce cours pour une durée spécifique. "
+"Ne partagez pas cette clé AI avec d'autres cours. Prévenez immédiatement MathWorks "
+"si vous croyez que la clé est compromise. Pour obtenir une clé pour votre cours "
+"ou pour signaler un problèmes, s'il vous plaît contacter "
+"moocsupport@mathworks.com"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Check"
@@ -2301,7 +2307,7 @@ msgstr "Date à laquelle cette classe prend fin"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cosmetic Course Display Price"
-msgstr ""
+msgstr "Affichage du prix du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2918,16 +2924,20 @@ msgid ""
 "Files & Uploads page. You can also set the course image on the Settings & "
 "Details page."
 msgstr ""
+"Éditer le nom du fichier de l'image du cours. Vous devez télécharger ce fichier sur la page " 
+"Fichiers et téléchargements. Vous pouvez aussi définit l'image de cours sur la page Dates et détails."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Issue Open Badges"
-msgstr ""
+msgstr "Émettre des badges ouverts"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
 msgstr ""
+"Émettre des bdges ouverts pour ce cours. Les badges sont générés quand "
+"les attestations sont créées."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2935,6 +2945,9 @@ msgid ""
 "marks, enter the short name of the course to use on the certificate that "
 "students receive when they complete the course."
 msgstr ""
+"Utilisez ce paramètre seulement quand vous générez des attestations PDF. Entre guillemets, "
+"entrez le nom court du cours qui sera utilisé sur l'attestation que "
+"les étudiants recevront quand ils auront complété le cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Short)"
@@ -2946,6 +2959,9 @@ msgid ""
 "marks, enter the long name of the course to use on the certificate that "
 "students receive when they complete the course."
 msgstr ""
+"Utilisez ce paramètre seulement quand vous générez des attestations PDF. Entre guillemets, "
+"entrez le nom long du cours qui sera utilisé sur l'attestation que "
+"les étudiants recevront quand ils auront complété le cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificate Name (Long)"
@@ -2972,6 +2988,8 @@ msgid ""
 "Enter course-specific overrides for the Web/HTML template parameters here "
 "(JSON format)"
 msgstr ""
+"Entrez des exceptions à certains cours pour les paramètres de gabarits Web / HTML ici "
+"(format JSON)"
 
 #. Translators: This field is the container for course-specific certifcate
 #. configuration values
@@ -3013,7 +3031,7 @@ msgstr "Permet de cacher l'onglet de progrès."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Organization Display String"
-msgstr ""
+msgstr "Chaîne d'affichage de l'organisation du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3022,10 +3040,14 @@ msgid ""
 "the course. To use the organization that you entered when you created the "
 "course, enter null."
 msgstr ""
+"Entrez l'organisation que vous désirez voir apparaitre dans le cours. Ce "
+"paramètre passe outre l'organisation que vous avez entré quand vous avez créé "
+"le cours. Afin d'utiliser l'organisation que vous avez entré lors de la création du cours, "
+"entrez null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Number Display String"
-msgstr ""
+msgstr "Chaîne d'affichage du numéro de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -3034,6 +3056,10 @@ msgid ""
 "course. To use the course number that you entered when you created the "
 "course, enter null."
 msgstr ""
+"Entrez le numéro de cours que vous désirez voir apparaitre dans le cours. Ce "
+"paramètre passe outre le numéro de cours que vous avez entré quand vous avez créé "
+"le cours. Afin d'utiliser le numéro de cours que vous avez entré lors de la création du cours, "
+"entrez null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Maximum Student Enrollment"
@@ -3044,6 +3070,8 @@ msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow"
 " an unlimited number of students, enter null."
 msgstr ""
+"Entrez le nombre maximum qui peuvent s'inscrire au cours. Pour permettre "
+"un nombre illimité d'étudiants, entrez null."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Public Wiki Access"
@@ -3063,7 +3091,7 @@ msgstr "Sur invitation seulement"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "Restreindre ou non l'inscription par invitation au personnel du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -3334,13 +3362,13 @@ msgstr "Chaîne secrète pour le stockage des annotations"
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Secret Token String for Annotation"
-msgstr ""
+msgstr "Jeton secret pour les annotations"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Default Annotations Tab"
-msgstr ""
+msgstr "Onglet de défaut des annotations"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3349,12 +3377,14 @@ msgid ""
 "Select which tab will be the default in the annotations table: myNotes, "
 "Instructor, or Public."
 msgstr ""
+"Sélectionnez quel ongler sera le défaut dans la table des annotations: myNotes, "
+"Instructor, ou Public."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Email for 'Instructor' Annotations"
-msgstr ""
+msgstr "Courriel pour les annonations 'Instructeur'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3363,6 +3393,8 @@ msgid ""
 "Email of the user that will be attached to all annotations that will be "
 "found in 'Instructor' tab."
 msgstr ""
+"Courriel de l'utilisateur qui sera attaché à toutes les annotations qui seront trouvées "
+"dans l'onglet 'Instructeur'."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3748,31 +3780,35 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
-msgstr ""
+msgstr "Nombre de jours pour les utilisateurs beta"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the number of days before the start date that beta users can access "
 "the course."
 msgstr ""
+"Entrez le nombre de jours avant la date de début du cours pendant lesquels les utilisateurs beta peuvent accéder "
+"au cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Static Asset Path"
-msgstr ""
+msgstr "Chemin d'accès des assets statiques"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the path to use for files on the Files & Uploads page. This value "
 "overrides the Studio default, c4x://."
 msgstr ""
+"Entrez le chemin d'accès à utiliser pour les fichiers sur la page Fichiers et téléchargements. Cette valeur "
+"outrepasse la valeur de défaut de Studio, c4x://."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Text Customization"
-msgstr ""
+msgstr "Texte personnalisé"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter string customization substitutions for particular locations."
-msgstr ""
+msgstr "Entrez une chaîne de substitutions de personnalisation pour des endroits particuliers."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable LaTeX Compiler"
@@ -3783,6 +3819,8 @@ msgid ""
 "Enter true or false. If true, you can use the LaTeX templates for HTML "
 "components and advanced Problem components."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, vous pouvez utiliser les gabarits LaTeX pour "
+"les composants HTML et les composants de problèmes avancés."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3793,6 +3831,11 @@ msgid ""
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
 msgstr ""
+"Entrez le nombre maximum de tentatives qu'un étudiant peut faire afin de répondre aux problèmes. Par "
+"défaut, le nombre de tentatives maximum est défini à null, permettant ainsi aux étudiants d'avoir un nombre illimité "
+"de tentatives afin de répondre aux problèmes. Vous pouvez modifier cette valeur globale pour des problèmes "
+"individuels. Cependant, si cette valeur est un nombre spécifique, vous ne pourrez modifier le nombre de tentatives maximum à illimité "
+"pour les problèmes individuels."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3803,6 +3846,12 @@ msgid ""
 "obtain a key for your course, or to report an issue, please contact "
 "moocsupport@mathworks.com"
 msgstr ""
+"Entrez la clé API fournie par MathWorks pour accéder au service hébergé de the MATLAB. "
+"Cette clé est permise pour une utilisation exclusive dans ce cours pour une durée spécifique. "
+"Ne partagez pas cette clé AI avec d'autres cours. Prévenez immédiatement MathWorks "
+"si vous croyez que la clé est compromise. Pour obtenir une clé pour votre cours "
+"ou pour signaler un problèmes, s'il vous plaît contacter "
+"moocsupport@mathworks.com"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
@@ -3814,15 +3863,17 @@ msgstr "Configuration des groupes"
 msgid ""
 "Enter the configurations that govern how students are grouped together."
 msgstr ""
+"Entrez les configurations qui régissent la façon dont les élèves sont regroupés."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable video caching system"
-msgstr ""
+msgstr "Activer le système de cache vidéo"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter true or false. If true, video caching will be used for HTML5 videos."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, le système de cache vidéo sera utilisé pour les vidéos HTML5."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Video Pre-Roll"
@@ -3841,7 +3892,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
-msgstr ""
+msgstr "Afficher le bouton de réiniatilisation pour les problèmes"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3850,76 +3901,85 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting "
 "is changed."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les problèmes afficheront toujours pas défaut "
+"un bouton 'Réinitialiser'. Vous pouvez outrepasser le tout dans les paramètres de chaque "
+"problèmes. Tous les problèmes existants seront affectés quand ce paramètre global "
+"est modifié."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable Student Notes"
-msgstr ""
+msgstr "Activer les notes étudiant"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter true or false. If true, students can use the Student Notes feature."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les étudiants peuvent utiliser la fonctionnalité des notes étudiant."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Indicates whether Student Notes are visible in the course. Students can also"
 " show or hide their notes in the courseware."
 msgstr ""
+"Indiquer si les notes étudiant sont visibles dans le cours. Les étudiants peuvent aussi "
+"afficher ou cacher leurs notes dans le cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Tag this module as part of an Entrance Exam section"
-msgstr ""
+msgstr "Tagger ce module comme faisant partie d'une section d'examen d'entrée"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter true or false. If true, answer submissions for problem modules will be"
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les soumissions de réponses aux modules de problèmes seront "
+"prises en compte dans l'algorithme de notation de l'examen d'entrée."
 
 #. Translators: "Self" is used to denote an openended response that is self-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Self"
-msgstr ""
+msgstr "Soi"
 
 #. Translators: "AI" is used to denote an openended response that is machine-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "AI"
-msgstr ""
+msgstr "IA"
 
 #. Translators: "Peer" is used to denote an openended response that is peer-
 #. graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Peer"
-msgstr ""
+msgstr "Pair"
 
 #. Translators: "Not started" is used to communicate to a student that their
 #. response
 #. has not yet been graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Not started."
-msgstr ""
+msgstr "Non débuté."
 
 #. Translators: "Being scored." is used to communicate to a student that their
 #. response
 #. are in the process of being scored
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Being scored."
-msgstr ""
+msgstr "En cours de notation."
 
 #. Translators: "Scoring finished" is used to communicate to a student that
 #. their response
 #. have been scored, but the full scoring process is not yet complete
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Scoring finished."
-msgstr ""
+msgstr "Notation terminée."
 
 #. Translators: "Complete" is used to communicate to a student that their
 #. openended response has been fully scored
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "Complete."
-msgstr ""
+msgstr "Complétée."
 
 #. Translators: "Scored rubric" appears to a user as part of a longer
 #. string that looks something like: "Scored rubric from grader 1".
@@ -3935,34 +3995,36 @@ msgid ""
 "You have attempted this question {number_of_student_attempts} times. You are"
 " only allowed to attempt it {max_number_of_attempts} times."
 msgstr ""
+"Vous avez essayé cette question {number_of_student_attempts} fois. Vous pouvez "
+"seulement l'essayer {max_number_of_attempts} fois."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "The problem state got out-of-sync. Please try reloading the page."
-msgstr ""
+msgstr "Le statut du problème est désynchronisé. Essayer de recharger la page."
 
 #. Translators: "Self-Assessment" refers to the self-assessed mode of
 #. openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Self-Assessment"
-msgstr ""
+msgstr "Auto-évaluation"
 
 #. Translators: "Peer-Assessment" refers to the peer-assessed mode of
 #. openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Peer-Assessment"
-msgstr ""
+msgstr "Évaluation par les pairs"
 
 #. Translators: "Instructor-Assessment" refers to the instructor-assessed mode
 #. of openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Instructor-Assessment"
-msgstr ""
+msgstr "Évaluation par l'instructeur"
 
 #. Translators: "AI-Assessment" refers to the machine-graded mode of openended
 #. evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "AI-Assessment"
-msgstr ""
+msgstr "Évaluation par IA"
 
 #. Translators: 'tag' is one of 'feedback', 'submission_id',
 #. 'grader_id', or 'score'. They are categories that a student
@@ -3973,26 +4035,28 @@ msgid ""
 "Could not find needed tag {tag_name} in the survey responses. Please try "
 "submitting again."
 msgstr ""
+"Ne peut trouver le tag {tag_name} nécessaire dans les réponses du sondage. S'il vous plaît essayer "
+"de soumettre à nouveau."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "There was an error saving your feedback. Please contact course staff."
-msgstr ""
+msgstr "Il y a eu un erreur lors de la sauvegarde de vos commentaires. S'il vous plaît contacter le personnel de cours."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Couldn't submit feedback."
-msgstr ""
+msgstr "Impossible de soumettre les commentaires."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Successfully saved your feedback."
-msgstr ""
+msgstr "Vos commentaires ont été enregistrés avec succès."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Unable to save your feedback. Please try again later."
-msgstr ""
+msgstr "Incapable de sauvegarder vos commentaires. S'il vous plaît essayer plus tard."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Successfully saved your submission."
-msgstr ""
+msgstr "Vos soumissions ont été enregistrés avec succès."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -4002,6 +4066,7 @@ msgstr ""
 msgid ""
 "Unable to submit your submission to the grader. Please try again later."
 msgstr ""
+"Impossible de soumettre vos soumissions à l'évaluateur. S'il vous plaît essayer plus tard."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -4009,7 +4074,7 @@ msgstr ""
 #. graded.
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Error getting feedback from grader."
-msgstr ""
+msgstr "Erreur en essayant d'obtenir des commentaires de l'évaluateur."
 
 #. Translators: the `grader` refers to the grading service open response
 #. problems
@@ -4017,11 +4082,11 @@ msgstr ""
 #. graded.
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "No feedback available from grader."
-msgstr ""
+msgstr "Aucun commentaire de l'évaluateur disponible."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Error handling action. Please try again."
-msgstr ""
+msgstr "Erreur lors du traitement de l'action. S'il vous plaît essayer plus tard."
 
 #. Translators: this string appears once an openended response
 #. is submitted but before it has been graded
@@ -4029,44 +4094,49 @@ msgstr ""
 msgid ""
 "Your response has been submitted. Please check back later for your grade."
 msgstr ""
+"Votre réponse a été soumise. S'il vous plaît revenez plus tard pour votre note."
 
 #. Translators: "Not started" communicates to a student that their response
 #. has not yet been graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "Not started"
-msgstr ""
+msgstr "Non débuté"
 
 #. Translators: "In progress" communicates to a student that their response
 #. is currently in the grading process
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "In progress"
-msgstr ""
+msgstr "En cours de traitement"
 
 #. Translators: "Done" communicates to a student that their response
 #. has been fully graded
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid "Done"
-msgstr ""
+msgstr "Fini"
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid ""
 "We could not find a file in your submission. Please try choosing a file or "
 "pasting a URL to your file into the answer box."
 msgstr ""
+"Nous n'avons pu trouver un fichier dans votre soumission. S'il vous plaît essayer de choisir un fichier ou "
+"coller un URL vers votre fichier dans la zone de réponse."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/openendedchild.py
 msgid ""
 "We are having trouble saving your file. Please try another file or paste a "
 "URL to your file into the answer box."
 msgstr ""
+"Nous avons des problèmes à sauvegarder votre fichier. S'il vous plaît essayer avec un autre fichier ou "
+"coller un URL vers votre fichier dans la zone de réponse."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/self_assessment_module.py
 msgid "Error saving your score.  Please notify course staff."
-msgstr ""
+msgstr "Erreur lors de la sauvegarde de votre note. S'il vous plaît contacter le personnel du cours."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Show Single Problem"
-msgstr ""
+msgstr "Afficher un seul problème"
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
@@ -4074,108 +4144,125 @@ msgid ""
 " is shown. When False, a panel is displayed with all problems available for "
 "peer grading."
 msgstr ""
+"Quand vrai, seul le problème spécifié par \"Lien vers l'emplacement du problème\""
+" est affiché. Quanf faux, un volet est affiché avec tous les problèmes disponibles pour "
+"l'évaluation par les pairs."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Link to Problem Location"
-msgstr ""
+msgstr "Lien vers l'emplacement du problème"
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
 "The location of the problem being graded. Only used when \"Show Single "
 "Problem\" is True."
 msgstr ""
+"L'emplacement du problème en cours de notation. Uniquement utilisé quand \"Afficher un seul "
+"problème\" est vrai."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
 "Defines whether the student gets credit for grading this problem. Only used "
 "when \"Show Single Problem\" is True."
 msgstr ""
+"Définit si un étudiant obtient des crédits pour noter ce problème. Uniquement utilisé "
+"quand \"Afficher un seul problèmes\" est vrai."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Due date that should be displayed."
-msgstr ""
+msgstr "Date de remise qui devrait être affichée."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Amount of grace to give on the due date."
-msgstr ""
+msgstr "Période de grâce à donner pour la date de remise. "
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Student data for a given peer grading problem."
-msgstr ""
+msgstr "Données de l'étudiant pour un problème évalué par les pairs spécifique."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Peer Grading Interface"
-msgstr ""
+msgstr "Interface d'évaluation par les pairs"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Enter the date by which problems are due."
-msgstr ""
+msgstr "Entrez la data à laquelle les problèmes doivent être remis."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Entrance Exam"
-msgstr ""
+msgstr "Est un examen d'entrée"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "Tag this course module as an Entrance Exam. Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
+"Taggez ce module de cours comme un examen d'entrée. Notez, vous devez activer le paramètre "
+"d'examen d'entrée pour ce cours afin que ceci prenne effet."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Time Limited"
-msgstr ""
+msgstr "Est limité dans le temps"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "This setting indicates whether students have a limited time to view or "
 "interact with this courseware component."
 msgstr ""
+"Ce paramètre indique si les étudiantss ont une vue limitée dans le temps pour voir ou "
+"intéragir avec ce composant de cours."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Time Limit in Minutes"
-msgstr ""
+msgstr "Limite de temps en minutes"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "The number of minutes available to students for viewing or interacting with "
 "this courseware component."
 msgstr ""
+"Le nombre de minutes pendant lequel les étudiants peuvent voir ou intéragir avec "
+"ce composant de cours."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Proctoring Enabled"
-msgstr ""
+msgstr "Surveillance d'examen activée"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "This setting indicates whether this exam is a proctored exam."
-msgstr ""
+msgstr "Ce paramètre indique si cet examen est un examen surveillé."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Practice Exam"
-msgstr ""
+msgstr "Est un examen de pratique"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "This setting indicates whether this exam is for testing purposes only. "
 "Practice exams are not verified."
 msgstr ""
+"Ce paramètre indique si cet examen est pour fins de test seulement. "
+"Les examens de pratique ne sont pas vérifiés."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Group ID {group_id}"
-msgstr ""
+msgstr "Identifiant de groupe {group_id}"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Not Selected"
-msgstr ""
+msgstr "Non sélectionné"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
 "This name is used for organizing your course content, but is not shown to "
 "students."
 msgstr ""
+"Ce nom est utilisé afin d'organiser votre contenu de cours, mais il n'est pas montré "
+"aux étudiants."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Content Experiment"
-msgstr ""
+msgstr "Test de contenu"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -4183,6 +4270,8 @@ msgid ""
 "The list of group configurations for partitioning students in content "
 "experiments."
 msgstr ""
+"La liste des configurations de groupe afin de partitionner les étudiants "
+"dans des tests de contenu."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
@@ -4190,69 +4279,79 @@ msgid ""
 " Caution: Changing the group configuration of a student-visible experiment "
 "will impact the experiment data."
 msgstr ""
+"Cette configuration definie comment les utilisateurs sont regroupés pour les tests de contenu. "
+"Attention: Modifier la configuration de groupe d'un test visible par les étudiants "
+"va impacter les données de test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Group Configuration"
-msgstr ""
+msgstr "Configuration de groupe"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Which child module students in a particular group_id should see"
-msgstr ""
+msgstr "Quel module enfant verront les étudiants dans un identificateur de groupe spécifique"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "{group_name} (inactive)"
-msgstr ""
+msgstr "{group_name} (inactif)"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "The experiment is not associated with a group configuration."
-msgstr ""
+msgstr "Ce test n'est pas associé à une configuration de groupe."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Select a Group Configuration"
-msgstr ""
+msgstr "Choisir une configuration de groupe"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
 "The experiment uses a deleted group configuration. Select a valid group "
 "configuration or delete this experiment."
 msgstr ""
+"Ce test utilise une configuration de groupe supprimée. "
+"Sélectionnez une configuration de groupe valide ou supprimer ce test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
 "The experiment uses a group configuration that is not supported for "
 "experiments. Select a valid group configuration or delete this experiment."
 msgstr ""
+"Ce test utilise une configuration de groupe qui n'est pas supportée pour "
+"des tests. Sélectionnez une configuration de groupe valide ou supprimer ce test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
 "The experiment does not contain all of the groups in the configuration."
 msgstr ""
+"Ce test ne contient pas tous les groupes dans la configuration."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Add Missing Groups"
-msgstr ""
+msgstr "Ajouter les groupes manquants"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
 "The experiment has an inactive group. Move content into active groups, then "
 "delete the inactive group."
 msgstr ""
+"Ce test a un groupe inactif. Déplacez le contenu dans des groupes actifs, puis "
+"supprimer le groupe inactif."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "This content experiment has issues that affect content visibility."
-msgstr ""
+msgstr "Ce test de contenu a des problèmes qui affectent la visibilité du contenu."
 
 #: common/lib/xmodule/xmodule/tabs.py
 msgid "External Discussion"
-msgstr ""
+msgstr "Discussion externe"
 
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid "Text Annotation"
-msgstr ""
+msgstr "Annotation textuelle"
 
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid "Source/Citation"
-msgstr ""
+msgstr "Source/Citation"
 
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid ""
@@ -4278,7 +4377,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "We support only SubRip (*.srt) transcripts format."
-msgstr ""
+msgstr "Nous supportons seulemet le format de transcription SubRip (*.srt)."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid ""
@@ -11141,7 +11240,7 @@ msgid ""
 "This content experiment uses group configuration "
 "'{group_configuration_name}'."
 msgstr ""
-"Cette expérience de contenu utilise la configuration de groupe "
+"Ce test de contenu utilise la configuration de groupe "
 "'{group_configuration_name}'."
 
 #: lms/templates/split_test_author_view.html
@@ -17581,11 +17680,11 @@ msgstr ""
 
 #: cms/templates/container.html
 msgid "For content experiments, you can drag components to other groups."
-msgstr "Pour les expériences de contenu, vous pouvez faire glisser des composants dans d'autres groupes."
+msgstr "Pour les tests de contenu, vous pouvez faire glisser des composants dans d'autres groupes."
 
 #: cms/templates/container.html
 msgid "Working with content experiments"
-msgstr "Travailler avec les expériences de contenu"
+msgstr "Travailler avec les tests de contenu"
 
 #: cms/templates/container.html
 msgid ""
@@ -17593,7 +17692,7 @@ msgid ""
 " groups."
 msgstr ""
 "Confirmez que vous avez correctement configuré contenu dans chacun de votre groupe "
-"d'expérience."
+"de test."
 
 #: cms/templates/container.html
 msgid "Learn more about component containers"
@@ -19886,11 +19985,11 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course Overview"
-msgstr "Présentation du Cours"
+msgstr "Présentation du cours"
 
 #: cms/templates/settings.html
 msgid "your course summary page"
-msgstr "Page de sommaire de votre Cours"
+msgstr "Page de sommaire de votre cours"
 
 #: cms/templates/settings.html
 #, python-format
@@ -20095,7 +20194,7 @@ msgid ""
 "familiar with their purpose."
 msgstr ""
 "<strong>Attention</strong>: Ne modifiez pas ces règles si vous n'êtes pas "
-"familier avec leur usage."
+"familier avec leur utilisation."
 
 #: cms/templates/settings_advanced.html
 msgid "Show Deprecated Settings"
