@@ -1371,7 +1371,7 @@ msgstr "Liste séparée par des espaces de XBlocks qui ne devraient pas être re
 
 #: common/lib/capa/capa/capa_problem.py
 msgid "Cannot rescore problems with possible file submissions"
-msgstr "Ne peut renoter les problèmes avec possiblement des soumissions de fichiers"
+msgstr "Ne peut renoter les exercices avec possiblement des soumissions de fichiers"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "correct"
@@ -1569,7 +1569,7 @@ msgstr "Chiffres à saisir"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr "Il y avait un problème avec la réponse du staff à ce problème."
+msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à cet exercice."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{student_answer}' as a number."
@@ -1577,7 +1577,7 @@ msgstr "Ne peut interpréter '{student_answer}' comme un nombre."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "You may not use variables ({bad_variables}) in numerical problems."
-msgstr "Vous ne pouvez utiliser les variables ({bad_variables}) dans les problèmes numériques"
+msgstr "Vous ne pouvez utiliser les variables ({bad_variables}) dans les exercices numériques"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "factorial function evaluated outside its domain:'{student_answer}'"
@@ -1589,7 +1589,7 @@ msgstr "Syntaxe mathématique invalide: '{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "You may not use complex numbers in range tolerance problems"
-msgstr "Vous ne pouvez pas utiliser les nombres complexes dans des problèmes de tolérance de gamme"
+msgstr "Vous ne pouvez pas utiliser les nombres complexes dans des exercices de tolérance de gamme"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. provided a boundary
@@ -1599,7 +1599,7 @@ msgstr "Vous ne pouvez pas utiliser les nombres complexes dans des problèmes de
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
 msgstr ""
-"Il y avait un problème avec la réponse du personnel à ce problème: limite complexe."
+"Il y avait un problème avec la réponse de l'équipe pédagogique à cet exercice: limite complexe."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not provide
@@ -1608,7 +1608,7 @@ msgstr ""
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
 msgstr ""
-"Il y avait un problème avec la réponse du personnel à ce problème: limite vide."
+"Il y avait un problème avec la réponse de l'équipe pédagogique à cet exercice: limite vide."
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Text Input"
@@ -1662,7 +1662,7 @@ msgstr "Aucue réponse fournie."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error: No grader has been set up for this problem."
-msgstr "Erreur: Aucun évaluateur n'a été initialisé pour ce problèmes."
+msgstr "Erreur: Aucun évaluateur n'a été initialisé pour cet exercice."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
@@ -1699,7 +1699,7 @@ msgid ""
 "factorial function not permitted in answer for this problem. Provided answer"
 " was: {bad_input}"
 msgstr ""
-"fonction factorielle non permise dans la réponse pour ce problème. La réponse fournie "
+"fonction factorielle non permise dans la réponse pour cet exercice. La réponse fournie "
 "était: {bad_input}"
 
 #: common/lib/capa/capa/responsetypes.py
@@ -1727,7 +1727,7 @@ msgstr "erreur d'évaluation {image_input_id} (input={user_input})"
 #. Translators: {sr_coords} are the coordinates of a rectangle
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error in problem specification! Cannot parse rectangle in {sr_coords}"
-msgstr "Erreur dans la description du problème! Ne peut analyser le rectangle dans {sr_coords}"
+msgstr "Erreur dans la description de l'exercice! Ne peut analyser le rectangle dans {sr_coords}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Annotation Input"
@@ -1743,7 +1743,7 @@ msgstr "Réponse non fournie pour {input_type}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr "La réponse du personnel ne peut être interprétée comme un nombre."
+msgstr "La réponse de l'équipe pédagogique ne peut être interprétée comme un nombre."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{given_answer}' as a number."
@@ -1785,7 +1785,7 @@ msgstr "Problème avancé vide"
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Number of attempts taken by the student on this problem"
-msgstr "Nombre de tentatives de l'étudiant sur ce problème"
+msgstr "Nombre de tentatives de l'étudiant sur cet exercice"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1798,13 +1798,13 @@ msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr ""
-"Définit le nombre de fois où un étudiant peut tenter de répondre à ce problème. Si cette "
+"Définit le nombre de fois où un étudiant peut tenter de répondre à cet exercice. Si cette "
 "valeur n'est pas définie, un nombre infini de tentatives est permis."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Date that this problem is due by"
-msgstr "Date à laquelle ce problème doit être remis"
+msgstr "Date à laquelle cet exercice doit être remis"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1820,7 +1820,7 @@ msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
 msgstr ""
-"Définit quand afficher la réponse au problème. Une valeur de défaut peut être définie "
+"Définit quand afficher la réponse à l'exercice. Une valeur de défaut peut être définie "
 "dans les paramètres avancés."
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -1882,7 +1882,7 @@ msgid ""
 "script. For problems that do not randomize values, specify \"Never\". "
 msgstr ""
 "Définit le moment de rendre aléatoire les variables spécifiées dans le script Python "
-"associé. Pour les problèmes qui n'utilisent pas de valeurs aléatoires, indiquer \"Jamais\". "
+"associé. Pour les exercices qui n'utilisent pas de valeurs aléatoires, indiquer \"Jamais\". "
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "On Reset"
@@ -1896,7 +1896,7 @@ msgstr "Par étudiant"
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/discussion_module.py
 msgid "XML data for the problem"
-msgstr "données XML pour le problème"
+msgstr "données XML pour l'exercice"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary with the correctness of current student answers"
@@ -1912,7 +1912,7 @@ msgstr "Dictionnaire avec les réponses de l'étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Whether the student has answered the problem"
-msgstr "Si l'étudiant a répondu au problème"
+msgstr "Si l'étudiant a répondu à l'exercice"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Random seed for this student"
@@ -1931,22 +1931,22 @@ msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
-"Nombre de secondes que l'étudiant doit attendre entre chaque soumission pour un problème avec "
+"Nombre de secondes que l'étudiant doit attendre entre chaque soumission pour un exercice avec "
 "des tentatives multiples."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Problem Weight"
-msgstr "Poids du problème"
+msgstr "Poids de l'exercice"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each response field in the problem is worth one point."
 msgstr ""
-"Définit le nombre de points que chaque problème vaut. Si la valeur n'est pas définie, "
-"chaque champ de réponse dans le problème vaut un point."
+"Définit le nombre de points que chaque exercice vaut. Si la valeur n'est pas définie, "
+"chaque champ de réponse dans l'exercice vaut un point."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1957,7 +1957,7 @@ msgstr "Source markdown de ce module"
 msgid ""
 "Source code for LaTeX and Word problems. This feature is not well-supported."
 msgstr ""
-"Code source pour les problèmes LaTeX et Word. Cette fonctionnalité n'est pas bien pris en charge."
+"Code source pour les exercices LaTeX et Word. Cette fonctionnalité n'est pas bien pris en charge."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "String customization substitutions for particular locations"
@@ -1986,7 +1986,7 @@ msgstr ""
 "Cette clé est permise pour une utilisation exclusive dans ce cours pour une durée spécifique. "
 "Ne partagez pas cette clé AI avec d'autres cours. Prévenez immédiatement MathWorks "
 "si vous croyez que la clé est compromise. Pour obtenir une clé pour votre cours "
-"ou pour signaler un problèmes, s'il vous plaît contacter "
+"ou pour signaler un problème, s'il vous plaît contacter "
 "moocsupport@mathworks.com"
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -2003,7 +2003,7 @@ msgstr "Vérification en cours..."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr "Avertissement: ce problème a été réinitialisé à son état initial!"
+msgstr "Avertissement: cet exercice a été réinitialisé à son état initial!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -2012,7 +2012,7 @@ msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr ""
-"L'état du problème a été corrumpu par une soumission invalide. La soumission "
+"L'état de l'exercice a été corrumpu par une soumission invalide. La soumission "
 "était composée de:"
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -2037,7 +2037,7 @@ msgstr "Problème fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be reset before it can be checked again."
-msgstr "Le problème doit être réinitialisé avant qu'il puisse être utilisé de nouveau."
+msgstr "L'exercice doit être réinitialisé avant qu'il puisse être utilisé de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "You must wait at least {wait} seconds between submissions."
@@ -2078,15 +2078,15 @@ msgstr[1] "{num_second} secondes"
 #. solution so it can get a new score.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem's definition does not support rescoring."
-msgstr "La définition du problème ne supporte pas une nouvelle notation."
+msgstr "La définition de l'exercice ne supporte pas une nouvelle notation."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be answered before it can be graded again."
-msgstr "Le problème doit être répondu avant d'être noté de nouveau."
+msgstr "L'exercice doit être répondu avant d'être noté de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem needs to be reset prior to save."
-msgstr "Le problème doit être réinitialiser avant de sauvegarder."
+msgstr "L'exercice doit être réinitialisé avant d'être sauvegardé."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Your answers have been saved."
@@ -2119,7 +2119,7 @@ msgid ""
 "The state of this problem has changed since you loaded this page. Please "
 "refresh your page."
 msgstr ""
-"Le statut de ce problème a changé depuis que vous avez téléchargé cette page. S'il vous plaît "
+"Le statut de cet exercice a changé depuis que vous avez téléchargé cette page. S'il vous plaît "
 "rafraichissez votre page."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -2157,16 +2157,16 @@ msgid ""
 "Defines whether the student gets credit for this problem. Credit is based on"
 " peer grades of this problem."
 msgstr ""
-"Définit si l'étudiant obtient des crédits pour ce problème. Les crédits sont basés sur "
-"les évaluations par les pairs de ce problème."
+"Définit si l'étudiant obtient des crédits pour cet exercice. Les crédits sont basés sur "
+"les évaluations par les pairs de cet exercice."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "If the problem is ready to be reset or not."
-msgstr "Si le problème est prêt à être remis à zéro ou non."
+msgstr "Si l'exercice est prêt à être remis à zéro ou non."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "The number of times the student can try to answer this problem."
-msgstr "Le nombre de fois que l'étudiant peut essayer de répondre à ce problème."
+msgstr "Le nombre de fois que l'étudiant peut essayer de répondre à cet exercice."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Allow File Uploads"
@@ -2198,8 +2198,8 @@ msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each problem is worth one point."
 msgstr ""
-"Définit le nombre de points que chaque problème vaut. Si la valeur n'est pas définie, "
-"chaque problème vaut un point."
+"Définit le nombre de points que chaque exercice vaut. Si la valeur n'est pas définie, "
+"chaque exercice vaut un point."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Minimum Peer Grading Calibrations"
@@ -2278,7 +2278,7 @@ msgid ""
 "Enter the passports for course LTI tools in the following format: "
 "\"id:client_key:client_secret\"."
 msgstr ""
-"Entrer les passeports pour les outils de cours LTI dans le format suivant: "
+"Entrez les passeports pour les outils de cours LTI dans le format suivant: "
 "\"id:clé_client:secret_client\"."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2361,6 +2361,7 @@ msgstr ""
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
 msgstr ""
+"Entrez le nom du cours comme il devrait apparaitre dans la liste de cours sur cours.edulib.org."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
@@ -2530,6 +2531,9 @@ msgid ""
 " name of the tab (usually the name of the book) as well as the URLs and "
 "titles of all the chapters in the book."
 msgstr ""
+"Pour les manuels HTML qui apparaissent comme des onglets dans le cours, entrez le nom "
+"de l'onglet (habituellement le nom du manuel) ainsi que les URLs et titres "
+"de tous les chapîtres du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Remote Gradebook"
@@ -2540,6 +2544,8 @@ msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
 msgstr ""
+"Entrez le mappage du cahier de notes distant. Utiliser ce paramètre uniquement quand "
+"REMOTE_GRADEBOOK_URL a été spécifié."
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content. CCX Coach is
@@ -2817,7 +2823,7 @@ msgstr "Éditez les Dates &amp; Détails du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Staff Bios"
-msgstr "Ajouter les biographies du personnel"
+msgstr "Ajouter les biographies de l'équipe pédagogique"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2877,6 +2883,9 @@ msgid ""
 "\"%m-%d-%Y\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for "
 "YYYY-MM-DD, or \"%Y-%d-%m\" for YYYY-DD-MM."
 msgstr ""
+"Entrez le format des dates de remises. Le défaut est Mon DD, YYYY. Entrez "
+"\"%m-%d-%Y\" pour MM-DD-YYYY, \"%d-%m-%Y\" pour DD-MM-YYYY, \"%Y-%m-%d\" pour "
+"YYYY-MM-DD, ou \"%Y-%d-%m\" pour YYYY-DD-MM."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "External Login Domain"
@@ -2913,6 +2922,14 @@ msgid ""
 "early_with_info. To display only the links to passing students as soon as "
 "certificates are generated, enter early_no_info."
 msgstr ""
+"Entrez end, early_with_info, ou early_no_info. Après la génération des attestations, "
+"les étudiants qui ont passé le cours verront un lien vers leurs attestation dans leur tableau de bord et "
+"les étudiant qui n'ont pas passé le cours verront de l'information sur leur évaluation. "
+"Le défaut est end, qui affiche les informations d'attestation à tous les étudiants "
+"après la date de fin de cours. Pour afficher l'information d'attestation "
+"à tous les étudiants aussitôt que les attestations sont générées, entrez "
+"early_with_info. Pour afficher les liens seulement aux étudiants qui ont passé le cours aussitôt "
+"ue les attestations sont générées, entrez early_no_info."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
@@ -2936,7 +2953,7 @@ msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
 msgstr ""
-"Émettre des bdges ouverts pour ce cours. Les badges sont générés quand "
+"Émettre des badges ouverts pour ce cours. Les badges sont générés quand "
 "les attestations sont créées."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3449,14 +3466,14 @@ msgstr "Entrer le nombre de composants à afficher à chaque étudiant."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Problem Type"
-msgstr "Type de problème"
+msgstr "Type d'exercice"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid ""
 "Choose a problem type to fetch from the library. If \"Any Type\" is selected"
 " no filtering is applied."
 msgstr ""
-"Choisir un type de problème à récupérer de la bibliothèque. If \"Tout Type\" est sélectionné "
+"Choisir un type d'exercice à récupérer de la bibliothèque. If \"Tout Type\" est sélectionné "
 "aucun filtre n'est appliqué."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
@@ -3470,7 +3487,7 @@ msgid ""
 "practice problem."
 msgstr ""
 "Définir cette valeur à vrai si ce module est soit un devoir noté ou un "
-"problème de pratique."
+"exercice de pratique."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "This component is out of date. The library has new content."
@@ -3508,23 +3525,23 @@ msgstr "Choisir une bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "There are no matching problem types in the specified libraries."
-msgstr "Il n'y a pas de types de problèmes correspondant dans la bibliothèque spécifiée."
+msgstr "Il n'y a pas de types d'exercice correspondant dans la bibliothèque spécifiée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Select another problem type."
-msgstr "Choisir un autre type de problème."
+msgstr "Choisir un autre type d'exercice."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] "La bibliothèque spécifiée est configurée pour récupérer {count} problème "
-msgstr[1] "La bibliothèque spécifiée est configurée pour récupérer {count} problèmes"
+msgstr[0] "La bibliothèque spécifiée est configurée pour récupérer {count} exercice "
+msgstr[1] "La bibliothèque spécifiée est configurée pour récupérer {count} exercices"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] "mais il n'y a que {actual} problème correspondant"
-msgstr[1] "mais il n'y a que {actual} problèmes correspondants"
+msgstr[0] "mais il n'y a que {actual} exercice correspondant"
+msgstr[1] "mais il n'y a que {actual} exercices correspondants"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
@@ -3732,7 +3749,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the URL for the course data GIT repository."
-msgstr ""
+msgstr "Entrez le URL du référentiel GIT pour le cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "XQA Key"
@@ -3750,13 +3767,15 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "URL for Annotation Storage"
-msgstr ""
+msgstr "URL pour le stockage des annotations"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the secret string for annotation storage. The textannotation, "
 "videoannotation, and imageannotation advanced modules require this string."
 msgstr ""
+"Entrez la chaîne secrète pour le stockage des annotations. Les modules avancés "
+"textannotation, videoannotation, et imageannotation ont besoin de cette chaîne."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the ids for the content groups this problem belongs to."
@@ -3768,6 +3787,10 @@ msgid ""
 "are \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
 "\"past_due\", \"correct_or_past_due\", and \"never\"."
 msgstr ""
+"Spécifie quand le bouton Afficher la réponse apparait pour chaque exercice. Les valeurs valides "
+"sont \"always\", \"answered\", \"attempted\", \"closed\", \"finished\", "
+"\"past_due\", \"correct_or_past_due\", et \"never\"."
+
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3777,6 +3800,11 @@ msgid ""
 "problems in your course. Valid values are \"always\", \"onreset\", "
 "\"never\", and \"per_student\"."
 msgstr ""
+"Spécifie la valeur de défaut de la fréquence à laquelle les valeurs des variables sont "
+"aléatoirement modifiées. Ce paramètre devrait être initialisé à \"never\" à moins que vous planifiez de "
+"fournir un script Python qui identifierait et qui modifierait les valeurs aléatoirement pour la plupart "
+"des exercices dans votre cours. Les valeurs valides sont \"always\", \"onreset\", "
+"\"never\", et \"per_student\"."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
@@ -3820,7 +3848,7 @@ msgid ""
 "components and advanced Problem components."
 msgstr ""
 "Entrez vrai ou faux. Si vrai, vous pouvez utiliser les gabarits LaTeX pour "
-"les composants HTML et les composants de problèmes avancés."
+"les composants HTML et les composants des exercices avancés."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3831,11 +3859,11 @@ msgid ""
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
 msgstr ""
-"Entrez le nombre maximum de tentatives qu'un étudiant peut faire afin de répondre aux problèmes. Par "
+"Entrez le nombre maximum de tentatives qu'un étudiant peut faire afin de répondre aux exercices. Par "
 "défaut, le nombre de tentatives maximum est défini à null, permettant ainsi aux étudiants d'avoir un nombre illimité "
-"de tentatives afin de répondre aux problèmes. Vous pouvez modifier cette valeur globale pour des problèmes "
+"de tentatives afin de répondre aux exercices. Vous pouvez modifier cette valeur globale pour des exercices "
 "individuels. Cependant, si cette valeur est un nombre spécifique, vous ne pourrez modifier le nombre de tentatives maximum à illimité "
-"pour les problèmes individuels."
+"pour les exercices individuels."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3850,7 +3878,7 @@ msgstr ""
 "Cette clé est permise pour une utilisation exclusive dans ce cours pour une durée spécifique. "
 "Ne partagez pas cette clé AI avec d'autres cours. Prévenez immédiatement MathWorks "
 "si vous croyez que la clé est compromise. Pour obtenir une clé pour votre cours "
-"ou pour signaler un problèmes, s'il vous plaît contacter "
+"ou pour signaler un problème, s'il vous plaît contacter "
 "moocsupport@mathworks.com"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
@@ -3892,7 +3920,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
-msgstr "Afficher le bouton de réiniatilisation pour les problèmes"
+msgstr "Afficher le bouton de réiniatilisation pour les exercices"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -3901,9 +3929,9 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting "
 "is changed."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les problèmes afficheront toujours pas défaut "
+"Entrez vrai ou faux. Si vrai, les exercices afficheront toujours pas défaut "
 "un bouton 'Réinitialiser'. Vous pouvez outrepasser le tout dans les paramètres de chaque "
-"problèmes. Tous les problèmes existants seront affectés quand ce paramètre global "
+"exercice. Tous les exercices existants seront affectés quand ce paramètre global "
 "est modifié."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -3933,7 +3961,7 @@ msgid ""
 "Enter true or false. If true, answer submissions for problem modules will be"
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les soumissions de réponses aux modules de problèmes seront "
+"Entrez vrai ou faux. Si vrai, les soumissions de réponses aux modules des exercices seront "
 "prises en compte dans l'algorithme de notation de l'examen d'entrée."
 
 #. Translators: "Self" is used to denote an openended response that is self-
@@ -4000,7 +4028,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_modulev1.py
 msgid "The problem state got out-of-sync. Please try reloading the page."
-msgstr "Le statut du problème est désynchronisé. Essayer de recharger la page."
+msgstr "Le statut de l'exercice est désynchronisé. Essayer de recharger la page."
 
 #. Translators: "Self-Assessment" refers to the self-assessed mode of
 #. openended evaluation
@@ -4136,7 +4164,7 @@ msgstr "Erreur lors de la sauvegarde de votre note. S'il vous plaît contacter l
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Show Single Problem"
-msgstr "Afficher un seul problème"
+msgstr "Afficher un seul exercice"
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
@@ -4144,29 +4172,29 @@ msgid ""
 " is shown. When False, a panel is displayed with all problems available for "
 "peer grading."
 msgstr ""
-"Quand vrai, seul le problème spécifié par \"Lien vers l'emplacement du problème\""
-" est affiché. Quanf faux, un volet est affiché avec tous les problèmes disponibles pour "
+"Quand vrai, seul l'exercice spécifié par \"Lien vers l'emplacement de l'exercice\""
+" est affiché. Quanf faux, un volet est affiché avec tous les exercices disponibles pour "
 "l'évaluation par les pairs."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Link to Problem Location"
-msgstr "Lien vers l'emplacement du problème"
+msgstr "Lien vers l'emplacement de l'exercice"
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
 "The location of the problem being graded. Only used when \"Show Single "
 "Problem\" is True."
 msgstr ""
-"L'emplacement du problème en cours de notation. Uniquement utilisé quand \"Afficher un seul "
-"problème\" est vrai."
+"L'emplacement de l'exercice en cours de notation. Uniquement utilisé quand \"Afficher un seul "
+"exercice\" est vrai."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
 "Defines whether the student gets credit for grading this problem. Only used "
 "when \"Show Single Problem\" is True."
 msgstr ""
-"Définit si un étudiant obtient des crédits pour noter ce problème. Uniquement utilisé "
-"quand \"Afficher un seul problèmes\" est vrai."
+"Définit si un étudiant obtient des crédits pour noter cet exercice. Uniquement utilisé "
+"quand \"Afficher un seul exercice\" est vrai."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Due date that should be displayed."
@@ -4178,7 +4206,7 @@ msgstr "Période de grâce à donner pour la date de remise. "
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Student data for a given peer grading problem."
-msgstr "Données de l'étudiant pour un problème évalué par les pairs spécifique."
+msgstr "Données de l'étudiant pour un exercice évalué par les pairs spécifique."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Peer Grading Interface"
@@ -4186,7 +4214,7 @@ msgstr "Interface d'évaluation par les pairs"
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Enter the date by which problems are due."
-msgstr "Entrez la data à laquelle les problèmes doivent être remis."
+msgstr "Entrez la date à laquelle les exercices doivent être remis."
 
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Entrance Exam"
@@ -5265,7 +5293,7 @@ msgstr "Note"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "problems"
-msgstr "problèmes"
+msgstr "exercices"
 
 #: lms/djangoapps/commerce/api/v1/serializers.py
 msgid "{course_id} is not a valid course key."
@@ -5520,7 +5548,7 @@ msgstr "Emplacement invalide."
 
 #: lms/djangoapps/courseware/views.py
 msgid "User {username} has never accessed problem {location}"
-msgstr "L'utilisateur {username} n'a jamais accéder au problème {location}"
+msgstr "L'utilisateur {username} n'a jamais accéder à l'exercice {location}"
 
 #: lms/djangoapps/courseware/views.py
 msgid "You must be signed in to {platform_name} to create a certificate."
@@ -5868,11 +5896,11 @@ msgstr "Notes"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "{platform_name} Staff"
-msgstr "Personnel {platform_name}"
+msgstr "Équipe pédagogique {platform_name}"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py
 msgid "Course Staff"
-msgstr "Personnel de cours"
+msgstr "Équipe pédagogique du cours"
 
 #: lms/templates/courseware/course_navigation.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -5949,14 +5977,14 @@ msgstr "Fichier n'est pas joint."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Could not find problem with this location."
-msgstr "Impossible de trouver un problème avec cet emplacement."
+msgstr "Impossible de trouver un exercice avec cet emplacement."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
 "The problem responses report is being created. To view the status of the "
 "report, see Pending Tasks below."
 msgstr ""
-"Le rapport des réponses au problème est en cours de création. Pour voir le statut de ce rapport, "
+"Le rapport des réponses à l'exercice est en cours de création. Pour voir le statut de ce rapport, "
 "voir les tâches en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -5965,7 +5993,7 @@ msgid ""
 " 'Pending Tasks' table for the status of the task. When completed, the "
 "report will be available for download in the table below."
 msgstr ""
-"Une tâche de génération du rapport des réponses au problèmes est déja en cours. Consultez le "
+"Une tâche de génération du rapport des réponses à l'exercice est déja en cours. Consultez le "
 "tableau 'Tâches en attente' pour le statut de cette tâche. Quand la tâche sera complétée, le "
 "rapport sera disponible pour téléchargement dans le tableau ci-dessous."
 
@@ -6277,7 +6305,7 @@ msgid ""
 "The problem grade report is being created. To view the status of the report,"
 " see Pending Instructor Tasks below."
 msgstr ""
-"Le rapport de notation de problème est en cours de création. Pour consulter le statut de ce "
+"Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
 "rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6286,7 +6314,7 @@ msgid ""
 " report, see Pending Instructor Tasks below. You will be able to download "
 "the report when it is complete."
 msgstr ""
-"Le rapport de notation de problème est en cours de création. Pour consulter le statut de ce "
+"Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
 "rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
@@ -6722,7 +6750,7 @@ msgstr "Date de remise étendues pour {0} {1} ({2})"
 
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "Not all problems in entrance exam support re-scoring."
-msgstr "Certains problèmes dans l'examen d'entrée ne supportent pas la re-notation."
+msgstr "Certains exercices dans l'examen d'entrée ne supportent pas la re-notation."
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -7136,7 +7164,7 @@ msgstr "pour le cours {0} et l'étudiant {1}."
 msgid ""
 "View all problems that require peer assessment in this particular course."
 msgstr ""
-"Voir tous les problèmes qui ont besoin d'une évaluation par les pairs dans ce cours."
+"Voir tous les exercices qui ont besoin d'une évaluation par les pairs dans ce cours."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid ""
@@ -7148,7 +7176,7 @@ msgstr ""
 msgid ""
 "View open ended problems that you have previously submitted for grading."
 msgstr ""
-"Voir les problèmes à question ouverte que vous avez soumis précédement pour être évaluées."
+"Voir les exercices à question ouverte que vous avez soumis précédement pour être évaluées."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid "View submissions that have been flagged by students as inappropriate."
@@ -11477,7 +11505,7 @@ msgstr "Ajouter un commentaire"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug"
-msgstr "Débogage équipe pédagogique"
+msgstr "Débogage pour l'équipe pédagogique"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
@@ -12956,7 +12984,7 @@ msgid ""
 "To download a CSV listing student responses to a given problem, visit the "
 "Data Download section of the Instructor Dashboard."
 msgstr ""
-"Afin de télécharger un fichier CSV contenant les réponses des étudiants à un problème donné, "
+"Afin de télécharger un fichier CSV contenant les réponses des étudiants à un exercice donné, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
 "l'enseignant."
 
@@ -14729,13 +14757,13 @@ msgid ""
 " grading, though with diminishing returns. You can see the current accuracy "
 "of AI grading in the problem view."
 msgstr ""
-"Liste des problèmes qui doivent  être notés afin d’entraîner le système IA "
+"Liste des exercices qui doivent être notés afin d’entraîner le système IA "
 "de notation et de créer des tests de calibration pour l'évaluation par les "
-"pairs. Chaque problème doit être traité séparément, et nous avons indiqué le"
+"pairs. Chaque exercice doit être traité séparément, et nous avons indiqué le"
 " nombre de soumissions d'étudiants qui doivent être notées. Vous pouvez "
 "évaluer plus de soumissions que le nombre minimal requis - cela permettra "
 "d'améliorer la précision de l'IA, mais avec des rendements décroissants. "
-"Vous pouvez voir la précision actuelle de l'IA dans la vue du problème."
+"Vous pouvez voir la précision actuelle de l'IA dans la vue de l'exercice."
 
 #: lms/templates/instructor/staff_grading.html
 msgid "Problem List"
@@ -14987,7 +15015,7 @@ msgid ""
 msgstr ""
 "Cliquez pour afficher la configuration d'évaluation du cours. La "
 "configuration d'évaluation montre la répartition des sous-sections évaluées "
-"du cours (tels que les examens, problèmes et exercices). Elle peut être "
+"du cours (tels que les examens et les ensembles d'exercices). Elle peut être "
 "modifiée dans la page \"Evaluation\" (dans le menu \"Paramètres\") dans "
 "Studio."
 
@@ -15080,16 +15108,16 @@ msgid ""
 "To generate a CSV file that lists all student answers to a given problem, "
 "enter the location of the problem (from its Staff Debug Info)."
 msgstr ""
-"Pour générer un fichier CSV contenant toutes les réponses d'étudiants pour un problème donné, "
-"entrer l'emplacement du problème (à partir de son information de debug)."
+"Pour générer un fichier CSV contenant toutes les réponses d'étudiants pour un exercice donné, "
+"entrer l'emplacement de l'exercice (à partir de l'information de debug de l'équipe pédagogique)."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Problem location: "
-msgstr "Emplacement du problème: "
+msgstr "Emplacement de l'exercice: "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of problem responses"
-msgstr "Télécharger un fichier CSV des réponses aux problèmes"
+msgstr "Télécharger un fichier CSV des réponses aux exercices"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to list certificates that are issued for this course:"
@@ -15128,7 +15156,7 @@ msgstr "Générer le rapport de notes"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Problem Grade Report"
-msgstr "Générer le rapport de notes des problèmes"
+msgstr "Générer le rapport de notes des exercices"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports Available for Download"
@@ -15864,7 +15892,7 @@ msgstr "Gestion de l'équipe du cours"
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Select a course team role:"
-msgstr "Sélectionner un rôle:"
+msgstr "Sélectionner un rôle dans l'équipe de cours:"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Getting available lists..."
@@ -15884,7 +15912,7 @@ msgid ""
 "all course data. Staff also have access to your course in Studio and "
 "Insights. You can only give course team roles to enrolled users."
 msgstr ""
-"Les membres de l'équipe avec le rôle Équipe pédagogique aident à la gestion "
+"Les membres de l'équipe avec le rôle équipe pédagogique aident à la gestion "
 "du cours. L'équipe pédagogique peut inscrire et désinscrire des "
 "participants, ainsi que modifier les notes aux exercices et accéder à "
 "l'ensemble des données du cours. L'équipe pédagogique a également accès au "
@@ -15893,7 +15921,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "Ajouter à Équipe pédagogique"
+msgstr "Ajouter à l'équipe pédagogique"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -15904,7 +15932,7 @@ msgid ""
 "enrolled users."
 msgstr ""
 "Les membres de l'équipe avec le rôle Admin aident à la gestion du cours. Ils"
-" peuvent également effectuer toutes les actions comme l'Équipe pédagogique, "
+" peuvent également effectuer toutes les actions comme l'équipe pédagogique, "
 "mais aussi ajouter ou supprimer des membres Admin, gérer les rôles de "
 "modérations des forums, l'ajout de bêta-testeurs. Vous ne pouvez affecter "
 "des rôles que pour les utilisateurs inscrits au cours."
@@ -16065,7 +16093,7 @@ msgstr "Données de distribution des notes"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Each bar shows the grade distribution for that problem."
-msgstr "Chaque barre montre la distribution des notes pour un problème donné"
+msgstr "Chaque barre montre la distribution des notes pour un exercice donné"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid ""
@@ -16073,16 +16101,16 @@ msgid ""
 "problem, along with the grades they received."
 msgstr ""
 "Vous pouvez cliquer sur n'importe quelle barre pour lister les étudiants qui"
-" ont répondu au problème, avec les notes qu'ils ont obtenues. "
+" ont répondu à l'exercice, avec les notes qu'ils ont obtenues. "
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Problem Data for all Problems as a CSV"
 msgstr ""
-"Télécharger les données du problème pour tous les problèmes en tant que CSV"
+"Télécharger les données de l'exercice pour tous les exercices en tant que CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Grade Distribution per Problem"
-msgstr "Répartition des notes par problème"
+msgstr "Répartition des notes par exercice"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Student Opened as a CSV"
@@ -16100,7 +16128,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "There are no problems in this section."
-msgstr "Cette section ne contient pas de problèmes."
+msgstr "Cette section ne contient pas d'exercices."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Send Email"
@@ -16116,7 +16144,7 @@ msgstr "Moi même"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Staff and admins"
-msgstr "Staff et administrateurs"
+msgstr "Équipe pédagogique et administrateurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "All (students, staff, and admins)"
@@ -16269,7 +16297,7 @@ msgstr "Ajustement de note spécifique à un étudiant"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Specify a problem in the course here with its complete location:"
-msgstr "Précisez un problème du cours à l'aide de sa localisation complète :"
+msgstr "Précisez un exercice du cours à l'aide de sa localisation complète :"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Problem location"
@@ -16281,25 +16309,25 @@ msgid ""
 "You must provide the complete location of the problem. In the Staff Debug "
 "viewer, the location looks like this:"
 msgstr ""
-"Vous devez fournir la localisation complète du problème. Dans le visualiseur"
-" de débogage, la localisation ressemble à ceci :"
+"Vous devez fournir la localisation complète de l'exercice. Dans le visualiseur"
+" de débogage de l'équipe pédagogique, la localisation ressemble à ceci :"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Next, select an action to perform for the given user and problem:"
 msgstr ""
-"Ensuite, choisissez une action à exécuter pour l'utilisateur et le problème "
+"Ensuite, choisissez une action à exécuter pour l'utilisateur et l'exercice "
 "choisis :"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "You may also delete the entire state of a student for the specified problem:"
 msgstr ""
-"Vous pouvez aussi supprimer la totalité de l'état d'un étudiant pour le "
-"problème spécifié :"
+"Vous pouvez aussi supprimer la totalité de l'état d'un étudiant pour l'exercice "
+"spécifié :"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Delete Student State for Problem"
-msgstr "Supprimer l'état de l'étudiant pour ce problème"
+msgstr "Supprimer l'état de l'étudiant pour cet exercice"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
@@ -16332,7 +16360,7 @@ msgstr "Réinitialiser le nombre de tentatives"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Rescore All Problems"
-msgstr "Renoter tous les problèmes"
+msgstr "Renoter tous les exercices"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Let Student Skip Entrance Exam"
@@ -16452,12 +16480,12 @@ msgid ""
 "Here is a list of open ended problems for this course that have been flagged"
 " by students as potentially inappropriate."
 msgstr ""
-"Voici une liste de problèmes à réponse ouverte de ce cours qui ont été "
+"Voici une liste d'exercices à réponse ouverte de ce cours qui ont été "
 "signalés par les étudiants comme potentiellement inappropriés."
 
 #: lms/templates/open_ended_problems/open_ended_flagged_problems.html
 msgid "No flagged problems exist."
-msgstr "Pas de problème marqué existant."
+msgstr "Pas d'exercice marqué existant."
 
 #: lms/templates/open_ended_problems/open_ended_flagged_problems.html
 msgid "Unflag"
@@ -16524,7 +16552,7 @@ msgstr "Evaluation par les pairs"
 msgid ""
 "Here is a list of problems that need to be peer graded for this course."
 msgstr ""
-"Voici une liste des problèmes à réponse ouverte qui doivent être évalués par"
+"Voici une liste des exercices à réponse ouverte qui doivent être évalués par"
 " les pairs pour ce cours."
 
 #: lms/templates/peer_grading/peer_grading.html
@@ -18883,7 +18911,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
-msgstr "Un grand catalogue de problèmes types"
+msgstr "Un grand catalogue de d'exercices types"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -19275,9 +19303,9 @@ msgid ""
 msgstr ""
 "Si vous faites une importation pendant qu'un cours est en train de "
 "s'exécuter, et que vous changez les noms d'URL (ou les noeuds url_name) de "
-"n'importe quels composants de problème, les données des étudiants associées "
+"n'importe quels composants d'exercice, les données des étudiants associées "
 "à ces composantes peuvent être perdues. Ces données incluent les points des "
-"étudiants pour le problème."
+"étudiants pour l'exercice."
 
 #: cms/templates/import.html
 msgid "Learn more about importing a course"
@@ -19555,7 +19583,7 @@ msgid ""
 "{platform_name} Staff."
 msgstr ""
 "Votre requête ne satisfait pas les critères/directives spécifiées par "
-"l'équipe {platform_name}."
+"l'équipe pédagogique de {platform_name}."
 
 #: cms/templates/index.html
 msgid ""
@@ -19659,7 +19687,7 @@ msgid ""
 "{link_start}contact {platform_name} Staff with further questions{link_end}."
 msgstr ""
 "Votre demande pour obtenir les droits de création de cours dans {studio_name} a été refusée. S'il vous plaît "
-"{link_start}contacter le personnel de {platform_name} avec vos questions{link_end}."
+"{link_start}contacter l'équipe pédagogique de {platform_name} avec vos questions{link_end}."
 
 #: cms/templates/index.html
 #, python-format
@@ -19782,7 +19810,7 @@ msgstr "Adresse courriel utilisateur"
 
 #: cms/templates/manage_users.html
 msgid "Provide the email address of the user you want to add as Staff"
-msgstr "Fournir l'adresse courriel de l'utilisateur que vous souhaitez ajouter au Staff"
+msgstr "Fournir l'adresse courriel de l'utilisateur que vous souhaitez ajouter à l'équipe pédagogique"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "Add User"
@@ -19813,7 +19841,7 @@ msgid ""
 "Course team members with the Staff role are course co-authors. They have "
 "full writing and editing privileges on all course content."
 msgstr ""
-"Les membres de l'équipe du cours avec le rôle de staff sont co-auteurs de cours. Ils ont "
+"Les membres de l'équipe pédagogique du cours sont co-auteurs de cours. Ils ont "
 "droits complets d'écriture et d'édition sur tout le contenu du cours."
 
 #: cms/templates/manage_users.html
@@ -19901,7 +19929,7 @@ msgid ""
 "Library Staff are content co-authors. They have full editing privileges on "
 "the contents of a library."
 msgstr ""
-"Le staff des bibliothèques sont co-auteurs de contenu. Ils ont les droits complets d'édition sur "
+"Les membres des bibliothèques sont co-auteurs de contenu. Ils ont les droits complets d'édition sur "
 "le contenu d'une bibliothèque."
 
 #: cms/templates/manage_users_lib.html
@@ -20732,7 +20760,7 @@ msgstr "Rendre visible pour :"
 
 #: cms/templates/visibility_editor.html
 msgid "All Students and Staff"
-msgstr "Tous les étudiants et Staff"
+msgstr "Tous les étudiants et l'équipe pédagogique"
 
 #: cms/templates/visibility_editor.html
 msgid "Specific Content Groups"
