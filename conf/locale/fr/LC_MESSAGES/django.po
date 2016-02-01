@@ -6651,29 +6651,34 @@ msgid ""
 "Failed to find any background tasks for course \"{course}\", module "
 "\"{problem}\" and student \"{student}\"."
 msgstr ""
+"Impossible de trouver des tâches en arrière-plan pour le cours \"{course}\", module "
+"\"{problem}\" et étudiant \"{student}\"."
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid ""
 "Failed to find any background tasks for course \"{course}\" and module "
 "\"{problem}\"."
 msgstr ""
+"Impossible de trouver des tâches en arrière-plan pour le cours \"{course}\" et module "
+"\"{problem}\"."
 
 #: lms/djangoapps/instructor/views/registration_codes.py
 msgid ""
 "The enrollment code ({code}) was not found for the {course_name} course."
 msgstr ""
+"Le code d'inscription ({code}) n'a pas été trouvé pour le cours {course_name}."
 
 #: lms/djangoapps/instructor/views/registration_codes.py
 msgid "This enrollment code has been canceled. It can no longer be used."
-msgstr ""
+msgstr "Ce code d'inscription a été cancellé. Il ne peut plus être utilisé."
 
 #: lms/djangoapps/instructor/views/registration_codes.py
 msgid "This enrollment code has been marked as unused."
-msgstr ""
+msgstr "Ce code d'inscription a été marqué comme inutilisé."
 
 #: lms/djangoapps/instructor/views/registration_codes.py
 msgid "The enrollment code has been restored."
-msgstr ""
+msgstr "Ce code d'inscription a été restauré."
 
 #: lms/djangoapps/instructor/views/registration_codes.py
 msgid "The redemption does not exist against enrollment code ({code})."
@@ -6681,49 +6686,49 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Could not find student matching identifier: {student_identifier}"
-msgstr ""
+msgstr "Impossible de trouver un étudiant correspondant à l'identifiant: {student_identifier}"
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Unable to parse date: "
-msgstr ""
+msgstr "Impossible d'analyser la date: "
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Couldn't find module for url: {0}"
-msgstr ""
+msgstr "Impossible de trouver le module pour le url: {0}"
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Unit {0} has no due date to extend."
-msgstr ""
+msgstr "Unité {0} n'a pas de date de remise pouvant être étendue."
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "An extended due date must be later than the original due date."
-msgstr ""
+msgstr "Une date de remise étendue doit être plus tard que la date de remise originale."
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "No due date extension is set for that student and unit."
-msgstr ""
+msgstr "Aucune date de remise étendue n'est définie pour cet étudiant et cette unité."
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Extended Due Date"
-msgstr ""
+msgstr "Date de remise étendue"
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Users with due date extensions for {0}"
-msgstr ""
+msgstr "Utilisateurs avec des date de remise étendues pour {0}"
 
 #: lms/djangoapps/instructor/views/tools.py
 msgid "Due date extensions for {0} {1} ({2})"
-msgstr ""
+msgstr "Date de remise étendues pour {0} {1} ({2})"
 
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "Not all problems in entrance exam support re-scoring."
-msgstr ""
+msgstr "Certains problèmes dans l'examen d'entrée ne supportent pas la re-notation."
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "rescored"
-msgstr ""
+msgstr "renoté"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -6761,7 +6766,7 @@ msgstr "noté"
 #. progress messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "problem distribution graded"
-msgstr ""
+msgstr "problem distribution notée"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -6869,7 +6874,7 @@ msgstr "Aucune information task_output trouvée pour instructor_task {0}"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No parsable task_output information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Auce information task_output analysable trouvée pour instructor_task {0}: {1}"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No parsable status information available"
@@ -6881,7 +6886,7 @@ msgstr "Aucun message fourni"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "Invalid task_output information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Information invalide task_output trouvée pour instructor_task {0}: {1}"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No progress status information available"
@@ -6889,7 +6894,7 @@ msgstr "Aucune information de statut du progrès disponible"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No parsable task_input information found for instructor_task {0}: {1}"
-msgstr ""
+msgstr "Aucune information task_input analysable trouvée pour instructor_task {0}: {1}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} and {succeeded} are counts.
@@ -6901,13 +6906,13 @@ msgstr "Progrès: {action} {succeeded} de {attempted} jusqu'à maintenant"
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Unable to find submission to be {action} for student '{student}'"
-msgstr ""
+msgstr "Impossible de trouver une soumission à être {action} pour l'etudiant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr ""
+msgstr "Problème a échoué à être {action} pour l'etudiant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -6995,7 +7000,7 @@ msgstr ""
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Whether to display this module in the table of contents"
-msgstr ""
+msgstr "Afficher ou non ce module dans la table des matières"
 
 #. Translators: "TOC" stands for "Table of Contents"
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -7062,10 +7067,11 @@ msgstr ""
 msgid ""
 "This component refers to deleted or invalid content group configurations."
 msgstr ""
+"Ce composant réfère à des configurations de groupes de contenu supprimés ou invalides."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "This component refers to deleted or invalid content groups."
-msgstr ""
+msgstr "Ce composant réfère à des groupes de contenus supprimés ou invalides."
 
 #: lms/templates/notes.html
 msgid "My Notes"
@@ -7076,6 +7082,8 @@ msgid ""
 "Could not contact the external grading server. Please contact the "
 "development team at {email}."
 msgstr ""
+"Impossible de contacter le serveur d'évaluation externe. S'il vous plaît contacter "
+"l'équipe de développement à {email}."
 
 #: lms/djangoapps/open_ended_grading/staff_grading_service.py
 msgid ""
@@ -7086,44 +7094,49 @@ msgstr ""
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "AI Assessment"
-msgstr ""
+msgstr "Évaluation par IA"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Peer Assessment"
-msgstr ""
+msgstr "Évaluation par les pairs"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Not yet available"
-msgstr ""
+msgstr "Pas encore disponible"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Automatic Checker"
-msgstr ""
+msgstr "Vérification automatique"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Instructor Assessment"
-msgstr ""
+msgstr "Évaluation par l'instructeur"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
 "Error occurred while contacting the grading service.  Please notify course "
 "staff."
 msgstr ""
+"Une erreur est survenue lors de la connexion avec le service d'évaluation. S'il vous plaît, informez "
+"le personnel du cours."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
 "Error occurred while contacting the grading service.  Please notify your edX"
 " point of contact."
 msgstr ""
+"Une erreur est survenue lors de la connexion avec le service d'évaluation. S'il vous plaît, informez "
+"votre contact edX."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "for course {0} and student {1}."
-msgstr ""
+msgstr "pour le cours {0} et l'étudiant {1}."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid ""
 "View all problems that require peer assessment in this particular course."
 msgstr ""
+"Voir tous les problèmes qui ont besoin d'une évaluation par les pairs dans ce cours."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid ""
@@ -7135,10 +7148,11 @@ msgstr ""
 msgid ""
 "View open ended problems that you have previously submitted for grading."
 msgstr ""
+"Voir les problèmes à question ouverte que vous avez soumis précédement pour être évaluées."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid "View submissions that have been flagged by students as inappropriate."
-msgstr ""
+msgstr "Voir les soumissions qui ont été marquées par les étudiants comme inappropriées."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid "New submissions to grade"
@@ -7226,6 +7240,10 @@ msgid ""
 " payment or refund was received. 'cancelled' means that payment or refund "
 "was expected, but was cancelled before money was transferred. "
 msgstr ""
+"Le statut du paiement ou remboursement. 'débuté' signifie que le paiement est "
+"attendu, mais l'argent n'a pas encore été transferré. 'complété' signifie que le "
+"paiement ou remboursement a été reçu. 'cancellé' signifie que le paiement ou le remboursement "
+"était attendu, mais a été cancellé avant que l'argent soit transféré. "
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "The number of items sold."
@@ -7301,6 +7319,10 @@ msgid ""
 "contributions for tax purposes.  We confirm that neither goods nor services "
 "were provided in exchange for this gift."
 msgstr ""
+"Nous apprécions grandement cette généreuse contribution et votre support de "
+"la mission {platform_name}.  Ce reçu a été préparé pour soutenir les dons de charité "
+"pour fins d'impôt.  Nous confirmons qu'aucun bien ou service n'ont été fournis "
+"en échange de ce cadeau."
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Could not find a course with the ID '{course_id}'"
@@ -8267,11 +8289,11 @@ msgstr "le numéro d'identification du cours doit être fourni"
 
 #: lms/djangoapps/teams/views.py
 msgid "text_search and order_by cannot be provided together"
-msgstr ""
+msgstr "text_search et order_by ne peuvent être fournis ensemble"
 
 #: lms/djangoapps/teams/views.py
 msgid "The supplied topic id {topic_id} is not valid"
-msgstr ""
+msgstr "Le id de sujet {topic_id} fourni n'est pas valide"
 
 #: lms/djangoapps/teams/views.py
 msgid "Error connecting to elasticsearch"
@@ -8588,7 +8610,7 @@ msgstr ""
 msgid "The following errors occurred while processing your registration: "
 msgstr ""
 "Les erreurs suivantes se sont produites pendant le traitement de votre "
-"inscription :"
+"inscription: "
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "You must complete all fields."
@@ -9231,14 +9253,16 @@ msgid ""
 "Unique identifier for this credit provider. Only alphanumeric characters and"
 " hyphens (-) are allowed. The identifier is case-sensitive."
 msgstr ""
+"Identifiant unique pour ce fournisseur de crédit. Seulement des caractères alphanumériques et "
+"les tirets (-) sont permis. L'identifiant est sensible à la casse."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Whether the credit provider is currently enabled."
-msgstr ""
+msgstr "Si le fournisseur de crédit est présentement activé ou non."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Name of the credit provider displayed to users"
-msgstr ""
+msgstr "Nome du fournisseur de crédit affiché aux utilisateurs"
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9246,6 +9270,9 @@ msgid ""
 "credit. In order for this to work, a shared secret key MUST be configured "
 "for the credit provider in secure auth settings."
 msgstr ""
+"Lorsque vrai, signale automatiquement le fournisseur de crédit quand un utilisateur demande "
+"un crédit. De façon à ce que cela fonctionne, une clé secrète partagée DOIT être configurée "
+"pour le fournisseur de crédit dans les paramètres d'authentification sécure."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9254,6 +9281,10 @@ msgid ""
 "request.  Otherwise, the user will be shown a link to this URL, so the user "
 "can request credit from the provider directly."
 msgstr ""
+"URL du fournisseur de crédit. Si l'intégration automatique est activée, cela sera "
+"le end-point que nous POSTERONS afin de signaler au fournisseur une demande "
+"de crédit. Autrement, l'utilisateur se verra montré un lien vers ce URL, de façon "
+"à ce que l'utilisateur puisser faire directement la demande de crédit auprès du fournisseur."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9261,10 +9292,13 @@ msgid ""
 "her request for credit.  This is displayed to students *after* they have "
 "requested credit."
 msgstr ""
+"URL du fournisseur de crédit où l'utilisateur peut vérifier le statut de sa demande "
+"de crédit. Ceci est affiché aux étudiants *après* qu'ils aient fait une demande "
+"de crédit."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Description for the credit provider displayed to users."
-msgstr ""
+msgstr "Description du fournisseur de crédit affichée aux utilisateurs"
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9272,6 +9306,9 @@ msgid ""
 "*after* paying for the credit to get credit for a credit course against a "
 "credit provider."
 msgstr ""
+"Texte brut ou contenu html pour afficher les prochaines étapes sur la page "
+"de reçu *après* avoir payé pour le crédit afin d'obtenir les crédits de cours "
+"auprès d'un fournisseur de crédit."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9279,6 +9316,9 @@ msgid ""
 "eligibility email content which is sent when user has met all credit "
 "eligibility requirements."
 msgstr ""
+"Texte brut ou contenu html pour afficher un message personnalisé dans "
+"le contenu du courriel d'admissibilité qui est envoyé quand un utilisateur a rencontré "
+"toutes les exigences d'admissibilité au crédit."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid ""
@@ -9286,10 +9326,13 @@ msgid ""
 "receipt email content which is sent *after* paying to get credit for a "
 "credit course."
 msgstr ""
+"Texte brut ou contenu html pour afficher un message personnalisé dans "
+"le contenu courriel de reçu qui est envoyé *après* avoir payé pour obtenir un crédit pour "
+"un crédit de cours."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Thumbnail image url of the credit provider."
-msgstr ""
+msgstr "url de l'image thumbnail du fournisseur de crédit."
 
 #: openedx/core/djangoapps/credit/models.py
 msgid "Deadline for purchasing and requesting credit."
@@ -9309,7 +9352,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/profile_images/views.py
 msgid "No file provided for profile image"
-msgstr ""
+msgstr "Aucun fichier fourni pour l'image du profil"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "API Version"
@@ -9317,76 +9360,81 @@ msgstr "Version de l'API"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Internal Service URL"
-msgstr ""
+msgstr "URL du service interne"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Public Service URL"
-msgstr ""
+msgstr "URL du service public"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Path to authoring app's JS"
-msgstr ""
+msgstr "Chemin au JS de l'application de création"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid ""
 "This value is required in order to enable the Studio authoring interface."
 msgstr ""
+"Cette valeur est nécessaire afin d'activer l'interface de création Studio."
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Path to authoring app's CSS"
-msgstr ""
+msgstr "Chemin au CSS de l'application de création"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Cache Time To Live"
-msgstr ""
+msgstr "Durée de vie de la cache"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid ""
 "Specified in seconds. Enable caching by setting this to a value greater than"
 " 0."
 msgstr ""
+"Exprimé en secondes. Activé la cache en définissant ce paramètre à une valeur supérieure à"
+" 0."
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Enable Student Dashboard Displays"
-msgstr ""
+msgstr "Activer l'affichage du tableau de bord étudiant"
 
 #: openedx/core/djangoapps/programs/models.py
 msgid "Enable Studio Authoring Interface"
-msgstr ""
+msgstr "Activer l'interface de création Studio"
 
 #: openedx/core/djangoapps/self_paced/models.py
 msgid "Enable course home page improvements."
-msgstr ""
+msgstr "Activer la page d'accueil des améliorations au cours."
 
 #: openedx/core/djangoapps/user_api/accounts/api.py
 msgid "The '{field_name}' field cannot be edited."
-msgstr ""
+msgstr "Le champ '{field_name}' ne peut être édité."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Delete failed for user preference '{preference_key}'."
-msgstr ""
+msgstr "Échec de la suppression de la préférence de l'utilisateur '{preference_key}'."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Preference '{preference_key}' cannot be set to an empty value."
-msgstr ""
+msgstr "La préférence {preference_key}' ne peut être définie à une valeur vide."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Invalid user preference key '{preference_key}'."
-msgstr ""
+msgstr "Clé de préférence de l'utilisateur '{preference_key}' invalide."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid ""
 "Value '{preference_value}' is not valid for user preference "
 "'{preference_key}'."
 msgstr ""
+"La valeur '{preference_value}' n'est pas valide pour la préférence de l'utilisateur "
+"'{preference_key}'."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py
 msgid "Save failed for user preference '{key}' with value '{value}'."
-msgstr ""
+msgstr "Échec de la sauvegarde de la préférence de l'utilisateur '{key}' avec la valeur '{value}'."
 
 #: openedx/core/djangoapps/user_api/preferences/views.py
 msgid "No data provided for user preference update"
-msgstr ""
+msgstr "Aucune données fournies pour la mise à jour des préférences de l'utilisateur"
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the login form meant to hold the user's email address.
@@ -9588,11 +9636,11 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to determine branch, repo in detached HEAD mode"
-msgstr "Impossible de déterminer branche, dépôt en mode HEAD détaché"
+msgstr "Impossible de déterminer branche, référentiel en mode HEAD détaché"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to update or clone git repository."
-msgstr "Impossible de cloner ou de mettre à jour le dépot."
+msgstr "Impossible de cloner ou de mettre à jour le référentiel."
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to export course to xml."
@@ -9616,7 +9664,7 @@ msgid ""
 "cannot be contacted"
 msgstr ""
 "Impossible d'intégrer les modifications. C'est généralement parce que le "
-"dépôt distant ne peut pas être contacté"
+"référentiel distant ne peut être contacté"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Bad course location provided"
@@ -9631,8 +9679,8 @@ msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr ""
-"Prenez le cours choisi et tentez de l'exporter vers un dépôt git. Le "
-"répertoire de cours doit déjà être un dépôt git. Utilisation git_export "
+"Prenez le cours choisi et tentez de l'exporter vers un référentiel git. Le "
+"répertoire de cours doit déjà être un référentiel git. Utilisation git_export "
 "<course_loc> <git_url>"
 
 #: cms/djangoapps/contentstore/utils.py
@@ -9659,7 +9707,7 @@ msgstr "doit avoir le nom de l'attestation"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr ""
+msgstr "Clé de valeur manquante '{1}' pour le dict {0} de l'attestation"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "PermissionDenied: Failed in authenticating {user}"
@@ -9727,7 +9775,7 @@ msgstr "Une erreur s'est produite pendant la sauvegarde de vos onglets"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Tabs Exception"
-msgstr ""
+msgstr "Onglets de dérogation"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This group configuration is in use and cannot be deleted."
@@ -9748,7 +9796,7 @@ msgstr "Examen d'entrée complété"
 
 #: cms/djangoapps/contentstore/views/export_git.py
 msgid "Course successfully exported to git repository"
-msgstr "Cours exporté avec succès dans un dépôt git"
+msgstr "Cours exporté avec succès dans un référentiel git"
 
 #: cms/djangoapps/contentstore/views/helpers.py
 msgid "Vertical"
@@ -10768,8 +10816,12 @@ msgid_plural ""
 "Showing all matching content eligible to be added into {display_name}. Each "
 "student will be assigned {max_count} components drawn randomly from this "
 "list."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Affiche tout le contenu correspondant à être ajouté dans {display_name}. Chaque "
+"étudiant se verra assigné {max_count} composant tiré aléatoirement de cette "
+"liste."
+msgstr[1] "Affiche tout le contenu correspondant à être ajouté dans {display_name}. Chaque "
+"étudiant se verra assigné {max_count} composants tiré aléatoirement de cette "
+"liste."
 
 #: lms/templates/login-sidebar.html
 msgid "Helpful Information"
@@ -11112,6 +11164,8 @@ msgid ""
 "We're sorry, but this version of your browser is not supported. Try again "
 "using a different browser or a newer version of your browser."
 msgstr ""
+"Nous sommes désolés, mais cette version de votre fureteur n'est pas supporté. Essayer de nouveau "
+"en utilisant un fureteur différent ou une version plus récente de votre fureteur."
 
 #: lms/templates/register-shib.html lms/templates/register.html
 msgid "The following errors occurred while processing your registration:"
@@ -11556,14 +11610,14 @@ msgstr "Administrer les cours"
 #. courseware; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard.html
 msgid "Repo Location"
-msgstr "Emplacement du dépôt"
+msgstr "Emplacement du référentiel"
 
 #. Translators: Repo is short for git repository (http://git-scm.com/about) or
 #. source of
 #. courseware and branch is a specific version within that repository
 #: lms/templates/sysadmin_dashboard.html
 msgid "Repo Branch (optional)"
-msgstr "Branche du dépôt (optionnelle) "
+msgstr "Branche du référentiel (optionnelle) "
 
 #. Translators: GitHub is a popular website for hosting code
 #: lms/templates/sysadmin_dashboard.html
@@ -12361,7 +12415,7 @@ msgstr "Sauter la post-évaluation"
 #: lms/templates/combinedopenended/openended/open_ended_combined_rubric.html
 msgid "{num} point: {explanatory_text}"
 msgid_plural "{num} points: {explanatory_text}"
-msgstr[0] "{num} points : {explanatory_text}"
+msgstr[0] "{num} point : {explanatory_text}"
 msgstr[1] "{num} points : {explanatory_text}"
 
 #: lms/templates/combinedopenended/openended/open_ended_error.html
@@ -12450,6 +12504,10 @@ msgid ""
 " enroll button again. Please visit the {start_help_tag}help page{end_tag} "
 "for a possible solution."
 msgstr ""
+"Le compte de l'utilisateur présentement connecté n'a pas la permission de s'inscrire dans "
+"ce cours. Vous devez peut-être vous {start_logout_tag}déconneter{end_tag} et essayer "
+"le bouton d'inscription de nouveau. S'il vous plaît visiter la {start_help_tag}page d'aide{end_tag} "
+"pour une solution possible."
 
 #: lms/templates/courseware/course_about.html
 msgid "You are enrolled in this course"
@@ -13145,6 +13203,9 @@ msgid ""
 "completing your {platform_name} course! {link_start}Get your credit "
 "now.{link_end}"
 msgstr ""
+"Félicitations! Vous êtes admissible à recevoir des crédits de cours après avoir "
+"complété avec succès votre cours sur {platform_name}! {link_start}Obtenez votre crédit "
+"maintenant.{link_end}"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 msgid ""
@@ -13152,6 +13213,9 @@ msgid ""
 "finish a degree already started, or fulfill requirements at a different "
 "academic institution."
 msgstr ""
+"Un crédit de cours peut vous aider à démarrer votre diplôme universitaire, "
+"terminer un diplôme déjà en cours, ou répondre aux exigences d'une autre institution "
+"académique."
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 msgid ""
@@ -13160,12 +13224,18 @@ msgid ""
 "receive your credit, you will also have an official academic transcript at "
 "the institution that granted the credit."
 msgstr ""
+"Afin de recevoir un crédit de cours, simplement vous rendre sur {link_start}votre tableau de bord "
+"{platform_name}{link_end} et cliquez sur le bouton <b>Obtenir un crédit</b>. Après avoir "
+"reçu votre crédit, vous aurez aussi une transcription académique officielle de "
+"l'institution qui vous a accordé le crédit."
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 msgid ""
 "We hope you enjoyed the course, and we hope to see you in future "
 "{platform_name} courses!"
 msgstr ""
+"Nous espérons que vous avez apprécié le cours, et nous espérons vous voir "
+"à l'avenir dans d'autres cours {platform_name}!"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 #: lms/templates/emails/activation_email.txt
@@ -13291,7 +13361,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "{category} Program Course"
-msgstr ""
+msgstr "Programme de cours {category}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "{course_number} {course_name} Home Page"
@@ -13518,6 +13588,9 @@ msgid ""
 "credit at the {link_to_provider_site}  website. Select <b>Request Credit</b>"
 " to get started."
 msgstr ""
+"Merci pour votre paiement. Afin de recevoir votre crédit, vous devez maintenant demander "
+"le crédit sur le site {link_to_provider_site}. Sélectionnez <b>Demande de crédit</b>"
+" pour commencer."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "View Details"
@@ -14157,6 +14230,7 @@ msgstr ""
 msgid ""
 "(5) Course materials will not be available until the course start date."
 msgstr ""
+"(5) Le matériel de cours ne sera pas disponible avant la date de début de cours."
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use. Please also keep the <p> and </p> HTML
@@ -14289,7 +14363,7 @@ msgstr ""
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "This email was automatically sent from {site_name} to {full_name}"
-msgstr "Cet email a été envoyé automatiquement de {site_name} à {full_name}"
+msgstr "Cet courriel a été envoyé automatiquement de {site_name} à {full_name}"
 
 #: lms/templates/emails/enroll_email_enrolledsubject.txt
 msgid "You have been enrolled in {course_name}"
@@ -14342,6 +14416,8 @@ msgid ""
 "An invoice for {currency_symbol}{total_price} is attached. Payment is due "
 "upon receipt. You can find information about payment methods on the invoice."
 msgstr ""
+"Une facture pour {currency_symbol}{total_price} est jointe. Le paiement est "
+"exigible sur réception. Vous trouverez de l'information à propos des méthodes de paiement sur la facture."
 
 #: lms/templates/emails/registration_codes_sale_email.txt
 msgid ""
@@ -14349,6 +14425,9 @@ msgid ""
 "email template below to distribute enrollment codes to your students. Each "
 "student must use a separate enrollment code."
 msgstr ""
+"Un fichier .csv contenant la liste de vos codes d'inscription est joint. Vous pouvez utilisez "
+"le gabarti de courriel ci-dessous afin de distribuer les codes d'inscription aux étudiants. Chaque "
+"étudiant doit utiliser un code d'inscription différent."
 
 #. Translators: This is the signature of an email.  "\n" is a newline
 #. character
@@ -14628,14 +14707,13 @@ msgid ""
 "everywhere. Your help allows us to continuously improve the learning "
 "experience for millions and make a better future one learner at a time."
 msgstr ""
-"{platform_name} est à but non lucratif pour offrir a tous des enseignement "
+"{platform_name} est à but non lucratif pour offrir à tous des enseignements "
 "de grande qualité dans le monde entier. Grâce à votre aide nous pouvons "
-"améliorer constamment l'expérience d'apprentissage pour des millions de gens"
-" ... "
+"améliorer constamment l'expérience d'apprentissage pour des millions de gens un étudiant à la fois."
 
 #: lms/templates/enrollment/course_enrollment_message.html
 msgid "Donation Actions"
-msgstr "Collectes de Dons"
+msgstr "Collectes de dons"
 
 #: lms/templates/instructor/staff_grading.html
 msgid "{course_number} Staff Grading"
@@ -16426,6 +16504,15 @@ msgid ""
 "{end_ul_tag}\n"
 "{end_p_tag}\n"
 msgstr ""
+"\n"
+"{p_tag}Vous n'avez actuellemet aucune évaluation par les pairs à effectuer.  Afin d'avoir des évaluations par les pairs à effectuer:\n"
+"{ul_tag}\n"
+"{li_tag}Vous devez avoir soumis une réponse à un exercice avec évaluation par les pairs.{end_li_tag}\n"
+"{li_tag}L'équipe pédagogique doit évaluer les compositions qui seront utilisés pour vous aider à mieux comprendre les critères\n"
+"d'évaluation.{end_li_tag}\n"
+"{li_tag}Il doit y avoir des soumissions qui sont en attente d'évaluation.{end_li_tag}\n"
+"{end_ul_tag}\n"
+"{end_p_tag}\n"
 
 #: lms/templates/peer_grading/peer_grading.html
 #: lms/templates/peer_grading/peer_grading_closed.html
@@ -16764,8 +16851,10 @@ msgid ""
 msgid_plural ""
 "You have successfully purchased <b>{number} course registration codes</b> "
 "for {course_names}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous avez acheté avec succès <b>{number} code d'inscription de cours</b> pour"
+" {course_names}."
+msgstr[1] "Vous avez acheté avec succès <b>{number} codes d'inscription de cours</b> "
+"pour {course_names}."
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "The following receipt has been emailed to {receipient_emails}"
@@ -16777,6 +16866,9 @@ msgid ""
 "enroll into the course. The confirmation/receipt email you will receive has "
 "an example email template with directions for the individuals enrolling."
 msgstr ""
+"S'il vous plaît envoyer à chaque professionnel un code d'inscription unique "
+"pour s'inscrire au cours. Le courriel de confirmation / reçu que vous recevrez a "
+"un exemple de gabarit de courriel avec des directions pour les inscriptions individuelles."
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Enrollment Link"
@@ -16968,7 +17060,9 @@ msgid ""
 msgid_plural ""
 "{course_names} have been removed because the enrollment period has closed."
 msgstr[0] ""
+"{course_names} a été supprimé parce que la période d'inscription est fermée."
 msgstr[1] ""
+"{course_names} ont été supprimés parce que la période d'inscription est fermée."
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "Cover Image"
@@ -17088,6 +17182,10 @@ msgid ""
 " sanctions. Unfortunately, at this time {platform_name} must comply with "
 "export controls, and we cannot allow you to access this course."
 msgstr ""
+"Notre système indique que vous essayez d'accéder à un cours {platform_name} "
+"à partir d'un pays ou d'une région assujettie à des sanctions économiques et commerciales U.S. "
+"Malheureusement, en ce moment {platform_name} doit se conformer aux "
+"contrôles à l'exportation, et nous ne pouvons pas vous permettre d'accéder à ce cours."
 
 #: lms/templates/static_templates/faq.html
 #: themes/red-theme/lms/templates/footer.html
@@ -17637,6 +17735,9 @@ msgid ""
 "right corner of the form and select {em_start}Edit{em_end} or the delete "
 "icon."
 msgstr ""
+"Afin d'éditer ou supprimer une attestation avant que celle-ci ne soit activée, passer au-dessus "
+"du coin supérieur droit du formulaire et choisir {em_start}Éditer{em_end} ou l'icône "
+"supprimer."
 
 #: cms/templates/certificates.html
 msgid ""
@@ -18553,7 +18654,7 @@ msgstr "A propos de l'exportation vers Git"
 
 #: cms/templates/export_git.html
 msgid "Use this to export your course to its git repository."
-msgstr "Utiliser ceci pour exporter votre cours ver son dépôt git"
+msgstr "Utiliser ceci pour exporter votre cours ver son référentiel git"
 
 #: cms/templates/export_git.html
 msgid ""
@@ -18573,7 +18674,7 @@ msgstr "Exporter le Cours vers Git:"
 msgid ""
 "giturl must be defined in your course settings before you can export to git."
 msgstr ""
-"L'url du dépôt git doit être définie dans les paramètres de votre cours "
+"L'url du référentiel git doit être définie dans les paramètres de votre cours "
 "avant de pouvoir exporter vers git."
 
 #: cms/templates/export_git.html
