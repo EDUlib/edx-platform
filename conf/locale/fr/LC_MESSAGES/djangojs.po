@@ -1707,7 +1707,7 @@ msgid ""
 "SequenceModule. Please contact the course staff."
 msgstr ""
 "Erreur de séquence! Impossible de se rendre à %(tab_name)s dans le module "
-"SequenceModule en cours. Veuillez contacter les responsables du cours."
+"SequenceModule en cours. Veuillez contacter l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
@@ -3105,7 +3105,7 @@ msgid ""
 "staff or instructor on this course. Is this OK?"
 msgstr ""
 "Vous êtes sur le point d'envoyer un courriel intitulé  '<%= subject %>' à tous"
-" les membres du staff et enseignants. Voulez-vous continuer ?"
+" les membres de l'équipe pédagogique ou enseignants de ce cours. Voulez-vous continuer ?"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
@@ -3113,8 +3113,8 @@ msgid ""
 "is enrolled in this course as student, staff, or instructor). Is this OK?"
 msgstr ""
 "Vous êtes sur le point d'envoyer un courriel intitulé '<%= subject %>' à TOUS "
-"(n'importe quelle personne inscrite au cours en tant qu'étudiant, professeur"
-" ou membre du staff). Voulez-vous continuer ? "
+"(n'importe quelle personne inscrite au cours en tant qu'étudiant, membre de l'équipe pédagogique, "
+"ou enseignant). Voulez-vous continuer ? "
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
@@ -3125,7 +3125,7 @@ msgstr ""
 "Votre courriel a été ajouté avec succès dans la file d'envoi. Attention, pour "
 "des cours comprenant un grand nombre d'étudiants, le temps d'envoi de tous "
 "les courriels peuvent prendre jusqu'à une heure (ou plus, si d'autres "
-"instructeurs envoient des courriels simultanément)."
+"cours envoient des courriels simultanément)."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "Error sending email."
@@ -5899,11 +5899,11 @@ msgstr "Suivi"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 msgid "By: Staff"
-msgstr "Par: L'équipe pédagogique"
+msgstr "Par: Équipe pédagogique"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 msgid "By: Community TA"
-msgstr "Par: L'assistant d'enseignement de la communauté"
+msgstr "Par: Assistant d'enseignement de la communauté"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-response-show.underscore
@@ -7682,7 +7682,7 @@ msgstr "Ce groupe de contenu est utilisé dans une ou plusieurs unités."
 
 #: cms/templates/js/course-outline.underscore
 msgid "Contains staff only content"
-msgstr "Contient du contenu réservé aux membres de l'équipe enseignante"
+msgstr "Contient du contenu réservé aux membres de l'équipe pédagogique"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to live content"
@@ -8114,7 +8114,7 @@ msgstr "Brouillon (Jamais publié)"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Visible to Staff Only"
-msgstr "Visible par l'équipe seulement"
+msgstr "Visible par l'équipe pédagogique seulement"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Published and Live"
@@ -8156,7 +8156,7 @@ msgstr "Sera visible pour :"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Staff Only"
-msgstr "Réservé au personnel"
+msgstr "Réservé à l'équipe pédagogique"
 
 #: cms/templates/js/publish-xblock.underscore
 #, python-format
@@ -8165,7 +8165,7 @@ msgstr "avec %(section_or_subsection)s"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Staff and Students"
-msgstr "Personnel et étudiants"
+msgstr "Équipe pédagogique et étudiants"
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Some content in this unit is visible only to particular content groups"
