@@ -2874,7 +2874,7 @@ msgstr "Erreur lors de la génération des notes. Merci d’essayer à nouveau."
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating problem grade report. Please try again."
 msgstr ""
-"Erreur lors de la génération du rapport des notes. Merci d’essayer à "
+"Erreur lors de la génération du rapport des notes de l'exercice. Merci d’essayer à "
 "nouveau."
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
@@ -3162,14 +3162,14 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid "Please enter a problem location."
-msgstr "Merci d'introduire la localisation d'un exercice."
+msgstr "S'il vous plaît l'emplacement d'un exercice."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid ""
 "Success! Problem attempts reset for problem '<%= problem_id %>' and student "
 "'<%= student_id %>'."
 msgstr ""
-"Action effectuée avec succès ! Réinitialisation des tentatives pour le "
+"Action effectuée avec succès ! Réinitialisation des tentatives pour "
 "l'exercice  '<%= problem_id %>' de l'étudiant '<%= student_id %>'."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
@@ -3831,7 +3831,7 @@ msgstr ""
 #. translated.
 #: lms/static/js/edxnotes/views/tabs/tags.js
 msgid "[no tags]"
-msgstr "[aucun tag]"
+msgstr "[aucune balise]"
 
 #: lms/static/js/groups/views/cohort_discussions.js
 #: lms/static/js/groups/views/cohort_discussions_course_wide.js
@@ -3962,11 +3962,11 @@ msgstr "Cohortes désactivées"
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Allow students to generate certificates for this course?"
-msgstr "Autoriser les étudiants à générer des certificats pour ce cours?"
+msgstr "Autoriser les étudiants à générer des attestations pour ce cours?"
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Prevent students from generating certificates in this course?"
-msgstr "Empêcher les étudiants de générer des certificats pour ce cours?"
+msgstr "Empêcher les étudiants de générer des attestations pour ce cours?"
 
 #: lms/static/js/instructor_dashboard/certificates.js
 msgid "Start generating certificates for all students in this course?"
@@ -4122,7 +4122,7 @@ msgid ""
 "The name that appears on your certificates. Other learners never see your "
 "full name."
 msgstr ""
-"Le nom complet visible sur vos certificats. Les autres étudiants ne pourront"
+"Le nom complet visible sur vos attestations. Les autres étudiants ne pourront"
 " pas voir votre nom complet."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -4572,11 +4572,11 @@ msgstr "Ce lien s'ouvrira dans une nouvelle fenêtre contextuelle"
 
 #: cms/static/js/certificates/collections/certificates.js
 msgid "Could not parse certificate JSON. %(message)s"
-msgstr "Le certificat JSON n'a pas pu être analysé. %(message)s"
+msgstr "Le JSON de l'attestation n'a pas pu être analysé. %(message)s"
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Certificate name is required."
-msgstr "Le nom du certificat est requis."
+msgstr "Le nom de l'attesation est nécessaire."
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Signatory field(s) has invalid data."
@@ -7004,8 +7004,8 @@ msgid ""
 "submit photos for verification again."
 msgstr ""
 "Merci de nous avoir envoyé vos photos. Nous allons les examiner sous peu. "
-"Vous pouvez maintenant vous inscrire à un cours %(platformName)s offrant des certificats "
-"vérifiés. La vérification de votre identité est bonne pour un an. Après un an, "
+"Vous pouvez maintenant vous inscrire à un cours %(platformName)s offrant des attestations "
+"vérifiées. La vérification de votre identité est bonne pour un an. Après un an, "
 "vous devrez soumettre de nouvelles photos pour une nouvelle vérification."
 
 #: lms/templates/verify_student/error.underscore
@@ -7280,7 +7280,7 @@ msgid ""
 "Certificate."
 msgstr ""
 "Vous pouvez payer maintenant, même si les éléments suivants ne sont pas disponibles, mais "
-"vous aurez besoin de ceux-ci d'ici %(date)s afin de vous qualifier pour obtenir un certificat vérifié."
+"vous aurez besoin de ceux-ci d'ici %(date)s afin de vous qualifier pour obtenir une attestation vérifiée."
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -7289,7 +7289,7 @@ msgid ""
 msgstr ""
 "Vous pouvez payer maintenant, même si les éléments suivants ne sont pas disponibles, mais "
 "vous aurez besoin de ceux-ci afin de vous qualifier pour obtenir "
-"un certificat vérifié."
+"une attestation vérifiée."
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid "Government-Issued Photo ID"
@@ -7584,11 +7584,11 @@ msgstr "message.d'erreur"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Information"
-msgstr "Information d'attestation"
+msgstr "Information de l'attestation"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Name"
-msgstr "Nom d'attestation"
+msgstr "Nom de l'attestation"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Name of the certificate"
