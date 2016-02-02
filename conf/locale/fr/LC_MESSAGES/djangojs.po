@@ -4774,7 +4774,7 @@ msgstr "Participe déjà au cours sélectionné"
 #: cms/static/js/factories/manage_users_lib.js
 msgid ""
 "Are you sure you want to delete {email} from the library “{container}”?"
-msgstr ""
+msgstr "Êtes-vous certain que vous désirez supprimer {email} de la bibliothèque “{container}”?"
 
 #: cms/static/js/factories/manage_users_lib.js
 msgid "Library User"
@@ -5130,6 +5130,9 @@ msgid ""
 "but only if they give credit the way you request. Currently, this option is "
 "required."
 msgstr ""
+"Permettre à d'autres de copier, distribuer, afficher et exécuter votre oeuvre avec copyright "
+"mais seulement s'il vous donne crédit de la manière que vous demander. Présentement, cette option "
+"est requis."
 
 #: cms/static/js/views/license.js
 msgid "Noncommercial"
@@ -5159,7 +5162,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js
 msgid "Share Alike"
-msgstr ""
+msgstr "Share Alike"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -5303,11 +5306,11 @@ msgstr "Date ajoutée"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/pages/container.js
 msgid "Editing visibility for: %(title)s"
-msgstr "Dupliquer"
+msgstr "Éditer la visibilité pour: %(title)s"
 
 #: cms/static/js/views/pages/container.js
 msgid "Duplicating"
-msgstr ""
+msgstr "Dupliquer"
 
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Publishing"
@@ -5449,6 +5452,9 @@ msgid ""
 "currently in place yet. If you are having difficulties, please review your "
 "policy pairs."
 msgstr ""
+"S'il vous plaît prendre note que la vérification de la politique de clé et de paires de valeurs "
+"n'est pas encore en place. Si vous avez des difficultés, s'il vous plaît réviser "
+"votre politique."
 
 #: cms/static/js/views/settings/main.js
 msgid "Course Credit Requirements"
@@ -7299,9 +7305,7 @@ msgstr "Photo d'identité officielle"
 msgid ""
 "ID-Verification is not required for this Professional Education course."
 msgstr ""
-"Si l'unité a déjà été publiée et diffusée aux étudiants, tous les "
-"changements apportés à l'unité pendant qu' elle était cachée seront "
-"désormais visibles par les étudiants. Voulez-vous continuer?"
+"La vérification d'identité n'est pas nécessaire pour ce cours de formation professionnelle."
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
