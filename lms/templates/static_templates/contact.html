@@ -1,12 +1,45 @@
-<%page expression_filter="h"/>
 <%! from django.utils.translation import ugettext as _ %>
 <%inherit file="../main.html" />
 
 <%block name="pagetitle">${_("Contact")}</%block>
 
-<main id="main" aria-label="Content" tabindex="-1">
-    <section class="container about">
-        <h1>${_("Contact")}</h1>
-        <p>${_("This page left intentionally blank. Feel free to add your own content.")}</p>
-    </section>
-</main>
+<section class="container about">
+    <h1>${_("Contact")}</h1>
+    <h3>Nous joindre</h3>
+
+    <ul style="list-style-type:none; padding-left:0;">
+        <li>Pour les demandes d’information générale: <a href="mailto:info@edulib.org">info@edulib.org</a></li>
+        <li>Pour les demandes techniques générales, non reliées à un cours: <a href="mailto:support@edulib.org">support@edulib.org</a></li>
+        <li>Pour les demandes reliées à la facturation: <a href="mailto:facturation@edulib.org">facturation@edulib.org</a></li>
+    </ul>
+
+    <h3>EDUlib, les trois partenaires fondateurs</h3>
+
+    <p style="float:left;width:33%;margin-top:20px;">
+        <a href="http://www.umontreal.ca" onclick="window.open(this.href);return false;" style="display:inline-block; width:100%; margin-bottom:10px; text-align:center;"><img src="/static/images/edulib-theme/institutions/udem.png" alt="Universit&eacute; de Montr&eacute;al" width="185" height="48" /></a><br />
+        <a href="http://sse.umontreal.ca" onclick="window.open(this.href);return false;">Services de soutien à l’enseignement</a><br />
+        3744, rue Jean-Brillant<br />
+        Montréal (Québec) Canada<br />
+        Canada, H3C 3J7
+    </p>
+    <p style="float:left;width:33%;">
+        <a href="http://www.hec.ca" onclick="window.open(this.href);return false;" style="display:inline-block; width:100%; margin-bottom:10px; text-align:center;"><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" width="185" height="48" /></a><br />
+        <a href="http://www.hec.ca/daip/" onclick="window.open(this.href);return false;">Direction de l'apprentissage et de l'innovation pédagogique</a><br />
+        3000, chemin de la Côte-Sainte-Catherine<br />
+        Montréal (Québec) Canada<br />
+        H3T 2A7
+    </p>
+    <p style="float:left;width:33%;">
+        <a href="http://www.polymtl.ca" onclick="window.open(this.href);return false;" style="display:inline-block; width:100%; margin-bottom:10px; text-align:center;"><img src="/static/images/edulib-theme/institutions/poly.png" alt="&Eacute;cole Polytechnique de Montr&eacute;al" width="185" height="48" /></a><br />
+        <a href="http://www.polymtl.ca/bap/" onclick="window.open(this.href);return false;">Bureau d’appui pédagogique Polytechnique Montréal</a><br />
+        2900, boul. Édouard-Montpetit<br />
+        Campus de l'Université de Montréal<br />
+        2500, chemin de Polytechnique<br />
+        Montréal (Québec) Canada<br />
+        H3T 1J4
+    </p>
+
+    <br style="clear:both;" />
+
+
+</section>
