@@ -2541,7 +2541,7 @@ msgstr "Vérifiez les champs en surbrillance ci-dessous et essayez à nouveau."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team name."
-msgstr "Entrer le nom de l'équipe"
+msgstr "Entrez le nom de l'équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team name cannot have more than 255 characters."
@@ -2549,7 +2549,7 @@ msgstr "Un nom d'équipe ne peut avoir plus de 255 caractères."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team description."
-msgstr "Entrer une description pour l'équipe"
+msgstr "Entrez une description pour l'équipe"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team description cannot have more than 300 characters."
@@ -3670,7 +3670,7 @@ msgstr "Enregistrer les modifications"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Please enter valid start date and time."
-msgstr "Entrer une date et heure de départ valide"
+msgstr "Entrez une date et heure de départ valide"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Due date cannot be before start date."
@@ -3678,11 +3678,11 @@ msgstr "La date de remise ne peut être avant la date de début"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Due Date and Time"
-msgstr "Entrer la date et l'heure de remise"
+msgstr "Entrez la date et l'heure de remise"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Start Date and Time"
-msgstr "Entrer la date et l'heure de début"
+msgstr "Entrez la date et l'heure de début"
 
 #: lms/static/js/certificates/models/certificate_exception.js
 msgid "Student username/email field is required and can not be empty. "
@@ -3994,7 +3994,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Enter the enrollment code."
-msgstr "Entrer le code d'inscription"
+msgstr "Entrez le code d'inscription"
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Cancel enrollment code"
@@ -5669,7 +5669,7 @@ msgstr "Numéro de page"
 
 #: common/static/common/templates/components/paging-footer.underscore
 msgid "Enter the page number you'd like to quickly navigate to."
-msgstr "Entrer le numéro de page à laquelle vous voudrier vous rendre rapidement."
+msgstr "Entrez le numéro de page à laquelle vous voudrier vous rendre rapidement."
 
 #: common/static/common/templates/components/paging-header.underscore
 msgid "Sorted by"
@@ -6580,7 +6580,7 @@ msgstr "Ajouter une cohorte"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Enter the name of the cohort"
-msgstr "Entrer le nom de la cohorte"
+msgstr "Entrez le nom de la cohorte"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Cohort Name"
