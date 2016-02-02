@@ -2382,7 +2382,7 @@ msgstr "Utilisateurs"
 #: common/static/js/vendor/ova/catch/js/catch.js
 #: lms/static/js/edxnotes/views/tabs/tags.js
 msgid "Tags"
-msgstr "Balises"
+msgstr "Étiquettes"
 
 #: common/static/js/vendor/ova/catch/js/catch.js
 msgid "Annotation Text"
@@ -2412,7 +2412,7 @@ msgstr "Répondre"
 #: common/static/js/vendor/ova/catch/js/catch.js
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Tags:"
-msgstr "Balises : "
+msgstr "Étiquettes: "
 
 #. Translators: please note that this is not a literal flag, but rather a
 #. report
@@ -3831,7 +3831,7 @@ msgstr ""
 #. translated.
 #: lms/static/js/edxnotes/views/tabs/tags.js
 msgid "[no tags]"
-msgstr "[aucune balise]"
+msgstr "[aucune étiquette]"
 
 #: lms/static/js/groups/views/cohort_discussions.js
 #: lms/static/js/groups/views/cohort_discussions_course_wide.js
