@@ -207,7 +207,7 @@ msgstr "Discussion"
 #: cms/djangoapps/contentstore/views/component.py
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 msgid "Problem"
-msgstr "Problème"
+msgstr "Exercice"
 
 #: cms/djangoapps/contentstore/views/component.py
 #: common/lib/xmodule/xmodule/video_module/video_module.py
@@ -819,7 +819,7 @@ msgstr ""
 
 #: common/djangoapps/student/views.py
 msgid "Please enter a username"
-msgstr "Entrer un nom d'utilisateur"
+msgstr "Entrez un nom d'utilisateur"
 
 #: common/djangoapps/student/views.py
 msgid "Please choose an option"
@@ -1680,7 +1680,7 @@ msgstr ""
 #: common/lib/capa/capa/responsetypes.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr "Réponse d'évaluation invalide. S'il vous plaît contacter le personnel du cours."
+msgstr "Réponse d'évaluation invalide. S'il vous plaît contacter l'équipe pédagogique du cours."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "External Grader"
@@ -1780,7 +1780,7 @@ msgstr "Ce nom apparaît dans la navigation horizontale au haut de la page."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
-msgstr "Problème avancé vide"
+msgstr "Exercice avancé vide"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -2017,7 +2017,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "If this error persists, please contact the course staff."
-msgstr "Si cette erreur persiste, contacer le personnel de cours."
+msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Hint: "
@@ -2033,7 +2033,7 @@ msgstr "Indice ({hint_num} de {hints_count}): "
 #. longer attempt to solve the problem.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem is closed."
-msgstr "Problème fermé."
+msgstr "Exercice fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem must be reset before it can be checked again."
@@ -2531,7 +2531,7 @@ msgid ""
 " name of the tab (usually the name of the book) as well as the URLs and "
 "titles of all the chapters in the book."
 msgstr ""
-"Pour les manuels HTML qui apparaissent comme des onglets dans le cours, entrez le nom "
+"Pour les manuels HTML qui apparaissent comme des onglets dans le cours, entrer le nom "
 "de l'onglet (habituellement le nom du manuel) ainsi que les URLs et titres "
 "de tous les chapîtres du cours."
 
@@ -2592,7 +2592,7 @@ msgid ""
 msgstr ""
 "Entrez vrai ou faux. Si vrai, les étudiants pourront créer des messages anonymes "
 "pour les autres étudiants. Ce paramètre ne rend pas les messages anonymes pour "
-"le personnel du cours."
+"l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/library_root_xblock.py
@@ -2830,8 +2830,8 @@ msgid ""
 "Showing prospective students who their instructor will be is helpful. "
 "Include staff bios on the course About page."
 msgstr ""
-"Montrez aux étudiants potentiels qui sera leur instructeur est utile. "
-"Ajoutez les profils du personnel sur la page à propos du cours."
+"Montrez aux étudiants potentiels qui sera leur enseignant est utile. "
+"Ajoutez les profils de l'équipe pédagogique sur la page à propos du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course FAQs"
@@ -3108,7 +3108,7 @@ msgstr "Sur invitation seulement"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr "Restreindre ou non l'inscription par invitation au personnel du cours."
+msgstr "Restreindre ou non l'inscription par invitation à l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -3403,7 +3403,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Email for 'Instructor' Annotations"
-msgstr "Courriel pour les annonations 'Instructeur'"
+msgstr "Courriel pour les annonations 'Enseignant'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3413,7 +3413,7 @@ msgid ""
 "found in 'Instructor' tab."
 msgstr ""
 "Courriel de l'utilisateur qui sera attaché à toutes les annotations qui seront trouvées "
-"dans l'onglet 'Instructeur'."
+"dans l'onglet 'Enseignant'."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3427,6 +3427,7 @@ msgstr "Mode pour l'outil d'annotation"
 msgid ""
 "Type in number corresponding to following modes:  'instructor' or 'everyone'"
 msgstr ""
+"Entrez un nombre correspondat aux modes suivants:  'enseignant' ou 'tous'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3436,7 +3437,7 @@ msgstr "Aucune adresse courriel trouvée."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Any Type"
-msgstr ""
+msgstr "N'importe quel type"
 
 #: cms/templates/widgets/header.html
 msgid "Library"
@@ -3464,7 +3465,7 @@ msgstr "Compte"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Enter the number of components to display to each student."
-msgstr "Entrer le nombre de composants à afficher à chaque étudiant."
+msgstr "Entrez le nombre de composants à afficher à chaque étudiant."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Problem Type"
@@ -3559,7 +3560,7 @@ msgstr "Aucune bibliothèque choisie"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the name of the library as it should appear in Studio."
-msgstr "Entrer le nom de la bibliothèque tel qu'il devrait apparaitre dans Studio."
+msgstr "Entrez le nom de la bibliothèque tel qu'il devrait apparaitre dans Studio."
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Library Display Name"
@@ -3567,14 +3568,14 @@ msgstr "Nom d'affichage de la bibliothèque"
 
 #: common/lib/xmodule/xmodule/library_root_xblock.py
 msgid "Enter the names of the advanced components to use in your library."
-msgstr "Entrer les noms des composants avancés à utiliser dans votre bibliothèque."
+msgstr "Entrez les noms des composants avancés à utiliser dans votre bibliothèque."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "Enter the name that students see for this component.  Analytics reports may "
 "also use the display name to identify this component."
 msgstr ""
-"Entrer le nom que les étudiants voient pour ce composant. Les rapports d'analytiques pourraient "
+"Entrez le nom que les étudiants voient pour ce composant. Les rapports d'analytiques pourraient "
 "aussi utiliser ce nom d'affichage pour identifier ce composant."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3731,6 +3732,7 @@ msgstr "Licence"
 msgid ""
 "A license defines how the contents of this block can be shared and reused."
 msgstr ""
+"Une licence définit comment le contenu de ce bloc peut être partagé et réutilisé."
 
 #: lms/templates/ccx/schedule.html
 msgid "Due Date"
@@ -3738,16 +3740,16 @@ msgstr "Date d'échéance"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the default date by which problems are due."
-msgstr ""
+msgstr "Entrez la date de remise de défaut à laquelle les exercices doivent être remis."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "If true, can be seen only by course staff, regardless of start date."
-msgstr ""
+msgstr "Si vrai, ne peut être vu que par l'équipe pédagogique du cours, peu importe la date de début du cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "GIT URL"
-msgstr ""
+msgstr "URL GIT"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enter the URL for the course data GIT repository."
@@ -4048,7 +4050,7 @@ msgstr "Évaluation par les pairs"
 #. of openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Instructor-Assessment"
-msgstr "Évaluation par l'instructeur"
+msgstr "Évaluation par l'enseignant"
 
 #. Translators: "AI-Assessment" refers to the machine-graded mode of openended
 #. evaluation
@@ -4070,7 +4072,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "There was an error saving your feedback. Please contact course staff."
-msgstr "Il y a eu un erreur lors de la sauvegarde de vos commentaires. S'il vous plaît contacter le personnel de cours."
+msgstr "Il y a eu un erreur lors de la sauvegarde de vos commentaires. S'il vous plaît contacter l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Couldn't submit feedback."
@@ -4162,7 +4164,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/self_assessment_module.py
 msgid "Error saving your score.  Please notify course staff."
-msgstr "Erreur lors de la sauvegarde de votre note. S'il vous plaît contacter le personnel du cours."
+msgstr "Erreur lors de la sauvegarde de votre note. S'il vous plaît contacter l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Show Single Problem"
@@ -5347,7 +5349,7 @@ msgstr ""
 
 #: lms/djangoapps/commerce/views.py
 msgid "Please wait a few minutes and then try again."
-msgstr "Svp attender quelques minutes et ensuite essayer de nouveau."
+msgstr "S'il vous plaît attendre quelques minutes et ensuite essayer de nouveau."
 
 #: lms/djangoapps/commerce/views.py
 msgid "For help, contact {payment_support_link}."
@@ -5616,14 +5618,14 @@ msgstr "La branche distante spécifiée n'est pas disponible."
 #. doesn't exist, or there is a problem changing to it.
 #: lms/djangoapps/dashboard/git_import.py
 msgid "Unable to switch to specified branch. Please check your branch name."
-msgstr "Impossible de basculer vers la branche spécifiée. Svp vérifier le nom de votre branche."
+msgstr "Impossible de basculer vers la branche spécifiée. S'il vous plaît vérifier le nom de votre branche."
 
 #: lms/djangoapps/dashboard/management/commands/git_add_course.py
 msgid ""
 "Import the specified git repository and optional branch into the modulestore"
 " and optionally specified directory."
 msgstr ""
-"Importer le répertoire git spécifié et la branche optionnelle dans le modulestore " 
+"Importer le référentiel git spécifié et la branche optionnelle dans le modulestore " 
 "et optionnellement dans le répertoire spécifié."
 
 #. Translators: This message means that the user could not be authenticated
@@ -5777,7 +5779,7 @@ msgstr ""
 msgid ""
 "Unable to clone or pull repository. Please check your url. Output was: {0!r}"
 msgstr ""
-"Impossible de cloner le référentiel pull. Svp vérifier votre url. La sortie était: {0!r}"
+"Impossible de cloner le référentiel pull. S'il vous plaît vérifier votre url. La sortie était: {0!r}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed to clone repository to {directory_name}"
@@ -5840,7 +5842,7 @@ msgstr "# staff"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "instructors"
-msgstr "instructeurs"
+msgstr "enseignants"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Enrollment information for all courses"
@@ -5882,11 +5884,11 @@ msgstr "Bien"
 
 #: lms/djangoapps/edxnotes/helpers.py
 msgid "EdxNotes Service is unavailable. Please try again in a few minutes."
-msgstr "Le service EdxNotes est indisponible. Svp essayer encore dans quelques minutes."
+msgstr "Le service EdxNotes est indisponible. S'il vous plaît essayer encore dans quelques minutes."
 
 #: lms/djangoapps/edxnotes/helpers.py
 msgid "Server error. Please try again in a few minutes."
-msgstr "Erreur de serveur. Svp essayer encore dans quelques minutes."
+msgstr "Erreur de serveur. S'il vous plaît essayer encore dans quelques minutes."
 
 #: lms/djangoapps/edxnotes/helpers.py
 msgid "No endpoint was provided for EdxNotes."
@@ -6090,7 +6092,7 @@ msgid ""
 "the report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport des étudiants inscrits est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6099,7 +6101,7 @@ msgid ""
 "the report when it is complete."
 msgstr ""
 "Ce rapport d'inscription est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6110,7 +6112,7 @@ msgid ""
 msgstr ""
 "Le rapport d'inscription est en cours de création. Ce rapport contient "
 "l'information à propos des étudiant qui peuvent s'inscrire à ce cours. Pour voir le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The file must contain a 'cohort' column containing cohort names."
@@ -6169,7 +6171,7 @@ msgid ""
 "report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport détaillé des inscriptions est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6178,7 +6180,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport détaillé des inscriptions est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6187,7 +6189,7 @@ msgid ""
 "report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport sommaire exécutif est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6196,7 +6198,7 @@ msgid ""
 "download the report when it is complete."
 msgstr ""
 "Le rapport sommaire exécutif est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6205,7 +6207,7 @@ msgid ""
 "Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de sondage est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6214,7 +6216,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport de sondage est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6223,7 +6225,7 @@ msgid ""
 "the report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport des résultats d'examen surveillé est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6232,7 +6234,7 @@ msgid ""
 "to download the report when it is complete."
 msgstr ""
 "Le rapport des résultats d'examen surveillé est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6270,7 +6272,7 @@ msgstr "all_students et delete_module sont mutuellement exclusifs."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Requires instructor access."
-msgstr "Accès instructeur nécessaire."
+msgstr "Accès enseignant nécessaire."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Course has no valid entrance exam section."
@@ -6290,7 +6292,7 @@ msgid ""
 "Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de notation est en cours de création.  Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6299,7 +6301,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport de notation est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6308,7 +6310,7 @@ msgid ""
 " see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous."
+"rapport, voir les tâches d'enseignant en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6317,7 +6319,7 @@ msgid ""
 "the report when it is complete."
 msgstr ""
 "Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6359,12 +6361,12 @@ msgid ""
 "Please select one or more certificate statuses that require certificate "
 "regeneration."
 msgstr ""
-"Svp choisir un ou plusieurs statuts d'attestation qui ont besoin d'une "
+"S'il vous plaît choisir un ou plusieurs statuts d'attestation qui ont besoin d'une "
 "regénération d'attestation."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Please select certificate statuses from the list only."
-msgstr "Svp choisir les statuts d'attestation de cette liste seulement."
+msgstr "S'il vous plaît choisir les statuts d'attestation de cette liste seulement."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6384,7 +6386,7 @@ msgid ""
 "list. Please refresh the page and try again."
 msgstr ""
 "La dérogation d'attestion pour (user={user}) n'existe pas dans la liste de dérogation des attestations."
-"Svp rafraichir la page et essayer de nouveau."
+"S'il vous plaît rafraichir la page et essayer de nouveau."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Invalid Json data, Please refresh the page and then try again."
@@ -6456,15 +6458,15 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "Please Enter the Integer Value for Coupon Discount"
-msgstr "Svp entrer la valeur entière pour le coupon de rabais"
+msgstr "S'il vous plaît entrez la valeur entière pour le coupon de rabais"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "Please Enter the Coupon Discount Value Less than or Equal to 100"
-msgstr "Svp entrer la valeur du coupon de rabais inférieur ou égal à 100"
+msgstr "S'il vous plaît entrez la valeur du coupon de rabais inférieur ou égal à 100"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "Please enter the date in this format i-e month/day/year"
-msgstr "Svp entrer la date dans ce format i-e mois/jour/année"
+msgstr "S'il vous plaît entrez la date dans ce format i-e mois/jour/année"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon with the coupon code ({code}) added successfully"
@@ -6472,7 +6474,7 @@ msgstr "coupon avec le code de coupon ({code}) ajouté avec succès"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon with the coupon code ({code}) already exists for this course"
-msgstr "coupn avec le code de coupon ({code}) existe déjà pour ce cours"
+msgstr "coupon avec le code de coupon ({code}) existe déjà pour ce cours"
 
 #: lms/djangoapps/instructor/views/coupons.py
 msgid "coupon id not found"
@@ -6484,7 +6486,7 @@ msgstr "coupon aved le id de coupon ({coupon_id}) mis à jour avec succès"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Instructor"
-msgstr "Instructeur"
+msgstr "Enseignant"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid ""
@@ -6507,7 +6509,7 @@ msgstr "Attestations"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Please Enter the numeric value for the course price"
-msgstr "Svp entrer une valeur numérique comme prix du cours"
+msgstr "S'il vous plaît entrez une valeur numérique comme prix du cours"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "CourseMode with the mode slug({mode_slug}) DoesNotExist"
@@ -6600,7 +6602,7 @@ msgstr "Nom du devoir"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Please enter an assignment name"
-msgstr "Svp entrer un nom de devoir"
+msgstr "S'il vous plaît entrez un nom de devoir"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Invalid assignment name '{name}'"
@@ -6942,7 +6944,7 @@ msgstr "Impossible de trouver une soumission à être {action} pour l'etudiant '
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr "Problème a échoué à être {action} pour l'etudiant '{student}'"
+msgstr "Exercice a échoué à être {action} pour l'etudiant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -7081,7 +7083,7 @@ msgid ""
 "Enter true or false. If true, the course is open to the public. If false, "
 "the course is open only to admins."
 msgstr ""
-"Entrer vrai ou faux. Si vrai, le cours est ouvert au public. Si faux, "
+"Entrez vrai ou faux. Si vrai, le cours est ouvert au public. Si faux, "
 "le cours est ouvert uniquement aux administrateurs."
 
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -7140,7 +7142,7 @@ msgstr "Vérification automatique"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Instructor Assessment"
-msgstr "Évaluation par l'instructeur"
+msgstr "Évaluation par l'enseignant"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
@@ -7148,7 +7150,7 @@ msgid ""
 "staff."
 msgstr ""
 "Une erreur est survenue lors de la connexion avec le service d'évaluation. S'il vous plaît, informez "
-"le personnel du cours."
+"l'équipe pédagogique du cours."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
@@ -8153,7 +8155,7 @@ msgstr "Inscriptions selon le code d'honneur"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Verified Enrollment"
-msgstr "Inscriptions au certificat vérifié"
+msgstr "Inscription vérifiée"
 
 #: lms/djangoapps/shoppingcart/reports.py
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
@@ -8674,7 +8676,7 @@ msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
 msgstr ""
-"Veuillez entrer votre mot de passe deux fois afin que nous puissions vérifier que vous l'avez entré"
+"Veuillez entrez votre mot de passe deux fois afin que nous puissions vérifier que vous l'avez entré"
 "correctement."
 
 #: lms/templates/registration/password_reset_confirm.html
@@ -8800,7 +8802,7 @@ msgstr "Coût :"
 
 #: lms/templates/support/refund.html
 msgid "CertificateItem Status:"
-msgstr "État de l'élément du certificat: "
+msgstr "État de l'élément d'attestation: "
 
 #: lms/templates/support/refund.html
 msgid "Order Status:"
@@ -10315,16 +10317,16 @@ msgid ""
 "this valuable credential to improve your job prospects and advance your "
 "career, or highlight your certificate in school applications."
 msgstr ""
-"Faites ressortir vos nouvelles connaissances et compétences avec un certificat vérifié. "
+"Faites ressortir vos nouvelles connaissances et compétences avec une attestation vérifiée. "
 "Utilisez cette attestation de compétences pour améliorer vos perspectives d'emploi et "
-"faire progresser votre carrière, ou mettre en évidence votre certificat lors de demandes d'admission."
+"faire progresser votre carrière, ou mettre en évidence votre attestation lors de demandes d'admission."
 
 #: common/templates/course_modes/choose.html
 msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"{b_start}Officiel: {b_end}Recevoir une attestation d'instructeur-signé avec "
+"{b_start}Officiel: {b_end}Recevoir une attestation signé par l'enseignant avec "
 "le logo de l'institution"
 
 #: common/templates/course_modes/choose.html
@@ -10364,7 +10366,7 @@ msgstr ""
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue an Honor Certificate"
-msgstr "Poursuivre un certificat sur l'honneur"
+msgstr "Poursuivre une attestation sur l'honneur"
 
 #: common/templates/course_modes/choose.html
 msgid "Audit This Course"
@@ -10606,7 +10608,7 @@ msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
 msgstr ""
-"Merci d'entrer votre adresse courriel ci-dessous, nous vous enverrons des "
+"Merci d'entrez votre adresse courriel ci-dessous, nous vous enverrons des "
 "instructions pour choisir un nouveau mot de passe"
 
 #: lms/templates/forgot_password_modal.html
@@ -11374,7 +11376,7 @@ msgstr "Nom affiché publiquement"
 
 #: lms/templates/register.html
 msgid "Additional Personal Information"
-msgstr "Informations  personnelles supplémentaires"
+msgstr "Informations personnelles supplémentaires"
 
 #: lms/templates/register.html
 msgid "example: New York"
@@ -11428,7 +11430,7 @@ msgstr "par exemple : votrenom (affiché sur les forums)"
 
 #: lms/templates/signup_modal.html
 msgid "e.g. Your Name (for certificates)"
-msgstr "par exemple Votre Nom (pour les certificats)"
+msgstr "par exemple Votre Nom (pour les attestations)"
 
 #: lms/templates/signup_modal.html
 msgid "<i>Welcome</i> {name}"
@@ -11621,17 +11623,17 @@ msgid ""
 "Go to each individual course's Instructor dashboard to manage course "
 "enrollment."
 msgstr ""
-"Aller à chaque tableau de bord d'instructeur de cours pour gérer les "
+"Aller à chaque tableau de bord d'enseignant de cours pour gérer les "
 "inscriptions au cours."
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Manage course staff and instructors"
-msgstr "Gérer l'équipe de cours et les instructeurs"
+msgstr "Gérer l'équipe pédagogique du cours et les enseignants"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
 msgstr ""
-"Télécharger la liste de l'équipe de cours et des instructeurs (fichier CSV)"
+"Télécharger la liste de l'équipe pédagogique du cours et des enseignants (fichier CSV)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -12221,11 +12223,11 @@ msgstr "Télécharger les notes des étudiants"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
-msgstr "Imprimer ou partager votre certificat:"
+msgstr "Imprimer ou partager votre attestation:"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Click the link to see my certificate."
-msgstr "Cliquer sur le lien pour voir mon certificat."
+msgstr "Cliquer sur le lien pour voir mon attestation."
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Post on Facebook"
@@ -12343,7 +12345,7 @@ msgid ""
 "automatically, and will be returned within 30 minutes if the original is "
 "already graded, or when the original is graded if not."
 msgstr ""
-"Remarque pour l'équipe pédagogique : veuillez noter que si vous soumettez un"
+"Avertissement pour l'équipe pédagogique : veuillez noter que si vous soumettez un"
 " duplicata d'un texte, qui a déjà été soumis à la notation, il n'apparaîtra "
 "pas dans la page de notation de l'équipe pédagogique. La note sera celle "
 "attribuée automatiquement à l'original , et sera retourné dans les 30 "
@@ -12881,7 +12883,7 @@ msgid ""
 "course, visit the Data Download section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger le rapport des notes et voir la configuration de notation "
-"du cours, visitez la section Data Download de l'onglet Instructeur."
+"du cours, visitez la section Data Download de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -12891,7 +12893,7 @@ msgid ""
 msgstr ""
 "Pour voir le carnet de notes  (uniquement disponible pour les cours avec de "
 "petits nombres d'étudiants inscrits), visitez la section Student Admin de "
-"l'onglet Instructeur."
+"l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Export grades to remote gradebook"
@@ -12924,7 +12926,7 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour effectuer ces actions, visitez la section Student Admin de l'onglet "
-"Instructeur."
+"Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Student-specific grade inspection and adjustment"
@@ -12940,7 +12942,7 @@ msgid ""
 "of the Instructor Dashboard."
 msgstr ""
 "Pour ajouter ou supprimer des membres de l'équipe pédagogique, visitez la "
-"section Membership de l'onglet Instructeur."
+"section Membership de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -12948,7 +12950,7 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour la gestion des rôles des forums, visitez la section Membership de "
-"l'onglet Instructeur."
+"l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Enrollment Data"
@@ -12997,7 +12999,7 @@ msgid ""
 " section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger les informations anonymes des étudiants, visitez la section"
-" Data Download de l'onglet Instructeur."
+" Data Download de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13005,7 +13007,7 @@ msgid ""
 " Instructor Dashboard."
 msgstr ""
 "Pour la gestion des cohortes et beta testeur, visitez la section Membership "
-"de l'onglet Instructeur."
+"de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13013,12 +13015,12 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour la gestion des beta testeurs, visitez la section Membership de l'onglet"
-" Instructeur."
+" Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "To send email, visit the Email section of the Instructor Dashboard."
 msgstr ""
-"Pour envoyer un courriel, visitez la section Courriel de l'onglet Instructeur."
+"Pour envoyer un courriel, visitez la section Courriel de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Pending Instructor Tasks"
@@ -13062,7 +13064,7 @@ msgid ""
 "dashboard."
 msgstr ""
 "Voir les statistiques du cours dans la section Amin de l'ancien onglet "
-"Instructeur."
+"Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Course errors"
@@ -14064,7 +14066,7 @@ msgid ""
 "by a member of the course staff."
 msgstr ""
 "Vous avez été invité à être un bêta-testeur de {course_name} sur {site_name}"
-" par un membre de l'équipe de ce cours."
+" par un membre de l'équipe pédagogique de ce cours."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
@@ -14226,7 +14228,7 @@ msgstr ""
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Your redeem url is: [[Enter Redeem URL here from the attached CSV]]"
 msgstr ""
-"Votre URL de remboursement est : [[Entrer l'URL de remboursement depuis le "
+"Votre URL de remboursement est : [[Entrez l'URL de remboursement depuis le "
 "CSV joint]]"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
@@ -15112,7 +15114,7 @@ msgid ""
 "enter the location of the problem (from its Staff Debug Info)."
 msgstr ""
 "Pour générer un fichier CSV contenant toutes les réponses d'étudiants pour un exercice donné, "
-"entrer l'emplacement de l'exercice (à partir de l'information de debug de l'équipe pédagogique)."
+"entrez l'emplacement de l'exercice (à partir de l'information de debogage de l'équipe pédagogique)."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Problem location: "
@@ -15289,7 +15291,7 @@ msgstr "Télécharger tous les achats par carte de crédit"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "To cancel or resubmit an invoice, enter the invoice number below."
-msgstr "Pour annuler ou resoumettre une facture, entrer le numéro de facture ci-dessous."
+msgstr "Pour annuler ou resoumettre une facture, entrez le numéro de facture ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Invoice Number"
@@ -15395,7 +15397,7 @@ msgstr "Aucune date d'expiration"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the company name."
-msgstr "Entrer le nom de l'entreprise."
+msgstr "Entrez le nom de l'entreprise."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "The company name cannot be a number."
@@ -15403,7 +15405,7 @@ msgstr "Le nom de l'entreprise ne peut être un nombre."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the company contact name."
-msgstr "Entrer le nom du contact de l'entreprise."
+msgstr "Entrez le nom du contact de l'entreprise."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "The company contact name cannot be a number."
@@ -15411,11 +15413,11 @@ msgstr "Le nom du contact de l'entreprise ne peut être un nombre."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the email address for the company contact."
-msgstr "Entrer l'adresse courriel du contact de l'entreprise."
+msgstr "Entrez l'adresse courriel du contact de l'entreprise."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter a valid email address."
-msgstr "Entrer une adresse courriel valide."
+msgstr "Entrez une adresse courriel valide."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the recipient name."
@@ -15427,31 +15429,31 @@ msgstr "Le nom du destinataire ne peut être un nombre."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the recipient email address."
-msgstr "Entrer l'adresse courriel du destinataire."
+msgstr "Entrez l'adresse courriel du destinataire."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the billing address."
-msgstr "Entrer l'adresse de facturation."
+msgstr "Entrez l'adresse de facturation."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the price per course seat."
-msgstr "Entrer le prix du cours par place."
+msgstr "Entrez le prix du cours par place."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid ""
 "Enter a numeric value for the price per course seat. Do not include currency"
 " symbols."
 msgstr ""
-"Entrer une valeur numérique pour le prix du cours par place. Ne pas inclure "
+"Entrez une valeur numérique pour le prix du cours par place. Ne pas inclure "
 "le symbole de la devise."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter the number of enrollment codes."
-msgstr "Entrer le nombre de codes d'inscription."
+msgstr "Entrez le nombre de codes d'inscription."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter a numeric value for the number of enrollment codes."
-msgstr "Entrer une valeur numérique pour le nombre de codes d'inscription."
+msgstr "Entrez une valeur numérique pour le nombre de codes d'inscription."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Select a currency."
@@ -15459,7 +15461,7 @@ msgstr "Sélectionnez une devise."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enter a coupon code."
-msgstr "Entrer un code de coupon."
+msgstr "Entrez un code de coupon."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "The discount percentage must be less than or equal to 100."
@@ -15470,7 +15472,7 @@ msgid ""
 "Enter a numeric value for the discount amount. Do not include the percent "
 "sign."
 msgstr ""
-"Entrer une valeur numérique pour le montant du rabais. Ne pas inclure le symbole "
+"Entrez une valeur numérique pour le montant du rabais. Ne pas inclure le symbole "
 "de pourcentage."
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
@@ -15811,7 +15813,7 @@ msgstr "Trouver un code d'inscription"
 msgid ""
 "Enter the reason why the students are to be manually enrolled or unenrolled."
 msgstr ""
-"Entrer la raison pour laquelle les étudiants seront inscrits ou désinscrits manuellement."
+"Entrez la raison pour laquelle les étudiants seront inscrits ou désinscrits manuellement."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -15907,6 +15909,9 @@ msgid ""
 "Admin must give you the Admin role to add Staff or Beta Testers, or the "
 "Discussion Admin role to add discussion moderators and TAs."
 msgstr ""
+"L'équipe pédagogique ne peut modifier ces listes. Pour vous permettre de gérer l'adhésion à l'équipe du cours, un administrateur "
+"du cours doit vous assigner le rôle Admin pour ajouter des béta testeurs ou des membres de l'équipe pédagogique, ou le rôle "
+"de Discussion Admin role pour ajouter des modérateurs de de discussions ou des assistants d'enseignement."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -16251,7 +16256,7 @@ msgstr "Définir le prix du mode de cours"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Please enter Course Mode detail below"
-msgstr "Veuillez entrer le détail du mode de cours ci-dessous"
+msgstr "Veuillez entrez le détail du mode de cours ci-dessous"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 msgid "Set Price"
@@ -17109,7 +17114,7 @@ msgstr "Étudiants:"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "Input quantity and press enter."
-msgstr "Entrer la quantité et appuyez sur enter"
+msgstr "Entrez la quantité et appuyez sur enter"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "discount or activation code"
@@ -17438,7 +17443,7 @@ msgid ""
 "certificates{a_end}."
 msgstr ""
 "Merci de lire {a_start}notre FAQ afin de voir les questions fréquentes à "
-"propos de nos certificats{a_end}."
+"propos de nos attestations{a_end}."
 
 #: lms/templates/verify_student/pay_and_verify.html
 msgid "Technical Requirements"
@@ -17804,7 +17809,7 @@ msgstr ""
 
 #: cms/templates/certificates.html
 msgid "Learn more about certificates"
-msgstr "En savoir plus sur les certificats"
+msgstr "En savoir plus sur les attestations"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
@@ -18124,7 +18129,7 @@ msgid ""
 "in the course, and there is no student data. There is no content in the "
 "discussion topics or wiki."
 msgstr ""
-"Vous êtes le seul membre de l'équipe du nouveau cours. Aucun-e élève n'est "
+"Vous êtes le seul membre de l'équipe pédagogique du nouveau cours. Aucun-e élève n'est "
 "encore inscrit-e, et il n'y a aucune donnée étudiante. Il n'y a aucun "
 "contenu dans le wiki ou les sujets de discussion."
 
@@ -18561,7 +18566,7 @@ msgstr "Structure du cours"
 
 #: cms/templates/export.html
 msgid "Individual Problems"
-msgstr "Problèmes individuels"
+msgstr "Exercices individuels"
 
 #: cms/templates/export.html
 msgid "Course Assets"
@@ -18685,7 +18690,7 @@ msgstr "A propos de l'exportation vers Git"
 
 #: cms/templates/export_git.html
 msgid "Use this to export your course to its git repository."
-msgstr "Utiliser ceci pour exporter votre cours ver son référentiel git"
+msgstr "Utiliser ceci pour exporter votre cours vers son référentiel git"
 
 #: cms/templates/export_git.html
 msgid ""
@@ -19035,7 +19040,7 @@ msgstr ""
 
 #: cms/templates/html_error.html
 msgid "We're having trouble rendering your component"
-msgstr "Nous avons des problèmes pour traiter votre composant."
+msgstr "Nous avons des problèmes à traiter votre composant."
 
 #: cms/templates/html_error.html
 msgid ""
@@ -19601,7 +19606,7 @@ msgid ""
 "Your request is currently being reviewed by {platform_name} staff and should"
 " be updated shortly."
 msgstr ""
-"Votre demande est en cours de révision par le personnel de {platform_name} et devrait"
+"Votre demande est en cours de révision par l'équipe {platform_name} et devrait"
 " être mise à jour prochainement."
 
 #: cms/templates/index.html
@@ -20321,7 +20326,7 @@ msgstr "ID de votre vidéo YouTube"
 #: cms/templates/settings.html
 msgid "Enter your YouTube video's ID (along with any restriction parameters)"
 msgstr ""
-"Entrer l'ID de votre vidéo Youtube (avec les paramètres de restriction)"
+"Entrez l'ID de votre vidéo Youtube (avec les paramètres de restriction)"
 
 #: cms/templates/settings.html
 msgid "Expectations of the students taking this course"
@@ -20643,7 +20648,7 @@ msgid ""
 "Name field."
 msgstr ""
 "Si votre manuel n'a pas de chapitres individuels, vous pouvez envoyer le "
-"texte entier comme un chapitre unique, et entrer le nom de votre choix dans "
+"texte entier comme un chapitre unique, et entrez le nom de votre choix dans "
 "le champ \"Nom du Chapitre\"."
 
 #: cms/templates/textbooks.html
@@ -20779,7 +20784,7 @@ msgid ""
 " Students and staff"
 msgstr ""
 "Le groupe de contenu n'existe plus. S'il vous plaît choisir un autre groupe ou autoriser l'accès"
-" à tous les étudiants et staff"
+" à tous les étudiants et membres de l'équipe"
 
 #: cms/templates/visibility_editor.html
 msgid "Verification Checkpoint"
@@ -20987,7 +20992,7 @@ msgid ""
 "Access Course Staff Support on the Partner Portal to submit or review "
 "support tickets"
 msgstr ""
-"Accéder au support d'aide du personnel sur le portail des partenaires afin de soumettre ou réviser "
+"Accéder au support d'aide de l'équipe sur le portail des partenaires afin de soumettre ou réviser "
 "un billet de support"
 
 #: cms/templates/widgets/sock.html
@@ -21171,7 +21176,7 @@ msgstr "Propriétaire"
 
 #: wiki/forms.py
 msgid "Enter the username of the owner."
-msgstr "Entrer le nom d'utilisateur du propriétaire."
+msgstr "Entrez le nom d'utilisateur du propriétaire."
 
 #: wiki/forms.py
 msgid "(none)"
