@@ -1422,7 +1422,7 @@ msgstr "Cela est en traitement."
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: common/lib/capa/capa/inputtypes.py
 msgid "ChoiceGroup: unexpected tag {tag_name}"
-msgstr "ChoiceGroup: tag innatendu {tag_name}"
+msgstr "ChoiceGroup: étiquette innatendue {tag_name}"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "Answer received."
@@ -1432,7 +1432,7 @@ msgstr "Réponse reçue."
 #. be translated.
 #: common/lib/capa/capa/inputtypes.py
 msgid "Expected a <choice> or <compoundhint> tag; got {given_tag} instead"
-msgstr "Attendait un tag <choice> ou <compoundhint>; a reçu un tag {given_tag} au lieu"
+msgstr "Attendait une étiquette <choice> ou <compoundhint>; a reçu une étiquette {given_tag} au lieu"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid ""
@@ -1488,12 +1488,12 @@ msgstr "Désolé, nous ne pouvons analyser la formule"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "{input_type}: unexpected tag {tag_name}"
-msgstr "{input_type}: tag innatendu {tag_name}"
+msgstr "{input_type}: étiquette innatendue {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: common/lib/capa/capa/inputtypes.py
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr "Attendions un tag {expected_tag}; avons reçu {given_tag} au lieu"
+msgstr "Attendions une étiquette {expected_tag}; avons reçu {given_tag} au lieu"
 
 #: lms/templates/combinedopenended/open_ended_result_table.html
 #: lms/templates/combinedopenended/openended/open_ended_evaluation.html
@@ -3347,7 +3347,7 @@ msgstr "Annotation d'image"
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid "Tags for Assignments"
-msgstr "Tags pour les devoirs"
+msgstr "Étiquettes pour les devoirs"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3355,6 +3355,8 @@ msgid ""
 "Add tags that automatically highlight in a certain color using the comma-"
 "separated form, i.e. imagery:red,parallelism:blue"
 msgstr ""
+"Ajouter des étiquettes qui automatiquement mettent en relief selon une certaine couleur en utilisant "
+"une notation séparée par des virgules, i.e. imagery:red,parallelism:blue"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3954,7 +3956,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Tag this module as part of an Entrance Exam section"
-msgstr "Tagger ce module comme faisant partie d'une section d'examen d'entrée"
+msgstr "Étiquetter ce module comme faisant partie d'une section d'examen d'entrée"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -4063,7 +4065,7 @@ msgid ""
 "Could not find needed tag {tag_name} in the survey responses. Please try "
 "submitting again."
 msgstr ""
-"Ne peut trouver le tag {tag_name} nécessaire dans les réponses du sondage. S'il vous plaît essayer "
+"Ne peut trouver l'étiquette {tag_name} nécessaire dans les réponses du sondage. S'il vous plaît essayer "
 "de soumettre à nouveau."
 
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
@@ -4225,7 +4227,7 @@ msgid ""
 "Tag this course module as an Entrance Exam. Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
-"Taggez ce module de cours comme un examen d'entrée. Notez, vous devez activer le paramètre "
+"Étiquetter ce module de cours comme un examen d'entrée. Notez, vous devez activer le paramètre "
 "d'examen d'entrée pour ce cours afin que ceci prenne effet."
 
 #: common/lib/xmodule/xmodule/seq_module.py
@@ -9186,13 +9188,13 @@ msgid ""
 "The following files are available for this article. Copy the markdown tag to"
 " directly refer to a file from the article text."
 msgstr ""
-"Les fichiers suivants sont disponibles pour cet article. Copiez le tag de "
+"Les fichiers suivants sont disponibles pour cet article. Copiez l'étiquette de "
 "surlignement pour directement référer à un fichier depuis le texte de "
 "l'article."
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Markdown tag"
-msgstr "Élément surligné"
+msgstr "Étiquette Markdown"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Uploaded by"
@@ -11490,15 +11492,15 @@ msgstr "commentaire"
 
 #: lms/templates/staff_problem_info.html
 msgid "Tag"
-msgstr "Tag"
+msgstr "Étiquette"
 
 #: lms/templates/staff_problem_info.html
 msgid "Optional tag (eg \"done\" or \"broken\"):"
-msgstr "Tag optionnel (par exemple \"fait\" ou \"cassé\"):"
+msgstr "Étiquette optionnelle (par exemple \"fait\" ou \"cassé\"):"
 
 #: lms/templates/staff_problem_info.html
 msgid "tag"
-msgstr "tag"
+msgstr "étiquette"
 
 #: lms/templates/staff_problem_info.html
 msgid "Add comment"
