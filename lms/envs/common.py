@@ -2595,11 +2595,13 @@ REGISTRATION_EXTRA_FIELDS = {
     'year_of_birth': 'optional',
     'mailing_address': 'optional',
     'goals': 'optional',
-    'honor_code': 'required',
-    'terms_of_service': 'hidden',
+    'honor_code': 'hidden',
+    'terms_of_service': 'required',
     'city': 'hidden',
     'country': 'hidden',
-    'consent': 'required',
+#### EDULIB
+####    'consent': 'hidden',
+#### EDULIB
 }
 
 REGISTRATION_FIELD_ORDER = [

@@ -92,6 +92,27 @@ class LoginSessionView(APIView):
 class RegistrationView(APIView):
     """HTTP end-points for creating a new user. """
 
+    DEFAULT_FIELDS = ["email", "name", "username", "password"]
+
+    EXTRA_FIELDS = [
+        "confirm_email",
+        "first_name",
+        "last_name",
+        "city",
+        "state",
+        "country",
+        "gender",
+        "year_of_birth",
+        "level_of_education",
+        "company",
+        "title",
+        "mailing_address",
+        "goals",
+####        "consent",
+        "honor_code",
+        "terms_of_service",
+    ]
+
     # This end-point is available to anonymous users,
     # so do not require authentication.
     authentication_classes = []
