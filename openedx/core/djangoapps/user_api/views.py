@@ -174,7 +174,7 @@ class RegistrationView(APIView):
         "title",
         "mailing_address",
         "goals",
-####        "consent", 
+####        "consent",
         "honor_code",
         "terms_of_service",
     ]
@@ -614,6 +614,7 @@ class RegistrationView(APIView):
 ####        """
 ####        # Translators: This phrase appears above a field on the registration form
 ####        # meant to hold the user's reasons for registering with edX.
+####        consent_label = u'Dans le cadre de l\'initiative EDUlib (ou FUN), des équipes de chercheurs vont recueillir et analyser les traces informatiques des activités de tous les participants, dans le but de produire des connaissances scientifiques et d\'améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées, par une équipe de l\'Université de Montréal sous la supervision du Pr. Poellhuber, par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible.'
 ####
 ####        form_desc.add_field(
 ####            "consent",
@@ -621,7 +622,6 @@ class RegistrationView(APIView):
 ####            field_type="text",
 ####            required=required
 ####        )
-
 
     def _add_city_field(self, form_desc, required=True):
         """Add a city field to a form description.
