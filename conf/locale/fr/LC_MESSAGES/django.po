@@ -8923,7 +8923,7 @@ msgstr "désinscrit"
 
 #: lms/templates/support/refund.html
 msgid "Cost:"
-msgstr "Coût :"
+msgstr "Coût:"
 
 #: lms/templates/support/refund.html
 msgid "CertificateItem Status:"
@@ -8931,19 +8931,19 @@ msgstr "État de l'élément d'attestation: "
 
 #: lms/templates/support/refund.html
 msgid "Order Status:"
-msgstr "Statut de la commande : "
+msgstr "Statut de la commande: "
 
 #: lms/templates/support/refund.html
 msgid "Fulfilled Time:"
-msgstr "Moment de complétion : "
+msgstr "Moment de complétion: "
 
 #: lms/templates/support/refund.html
 msgid "Refund Request Time:"
-msgstr "Heure de la demande de remboursement :"
+msgstr "Heure de la demande de remboursement:"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
-msgstr "Dernière modification :"
+msgstr "Dernière modification:"
 
 #: lms/templates/wiki/article.html
 msgid "See all children"
@@ -9087,7 +9087,7 @@ msgstr "Aperçu de cette révision"
 
 #: lms/templates/wiki/history.html
 msgid "Auto log:"
-msgstr "Log automatique :"
+msgstr "Log automatique:"
 
 #: lms/templates/wiki/history.html
 msgid "Change"
