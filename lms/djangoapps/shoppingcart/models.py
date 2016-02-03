@@ -1913,7 +1913,7 @@ class CertificateItem(OrderItem):
         order_number = target_cert.order_id
         # send billing an email so they can handle refunding
         subject = _("[Refund] User-Requested Refund")
-        message = "User {user} ({user_email}) has requested a refund on Order #{order_number}.".format(user=course_enrollment.user,
+        message = _("User {user} ({user_email}) has requested a refund on Order #{order_number}.").format(user=course_enrollment.user,
                                                                                                        user_email=course_enrollment.user.email,
                                                                                                        order_number=order_number)
         to_email = [settings.PAYMENT_SUPPORT_EMAIL]
