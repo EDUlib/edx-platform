@@ -1,4 +1,4 @@
-# #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
+#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 # edX translation file.
 # Copyright (C) 2015 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
@@ -8876,6 +8876,8 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at %(site_name)s."
 msgstr ""
+"Vous recevez ce courriel parce que vous avez demandé une réinitialisation de votre "
+"mot de passe pour votre compte utilisateur à %(site_name)s."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
@@ -9148,8 +9150,7 @@ msgstr ""
 
 #: lms/templates/wiki/includes/anonymous_blocked.html
 msgid "You need to log in or sign up to use this function."
-msgstr ""
-"Vous devez vous connecter ou vous inscrire pour utiliser cette fonction."
+msgstr "Vous devez vous connecter ou vous inscrire pour utiliser cette fonction."
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Wiki Cheatsheet"
@@ -9841,7 +9842,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/utils.py
 msgid "Deleted group"
-msgstr "Groupe effacé"
+msgstr "Groupe supprimé"
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid ""
@@ -9940,7 +9941,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "This content group is in use and cannot be deleted."
-msgstr "Ce groupe de contenu est utilisé et ne peut pas être effacé."
+msgstr "Ce groupe de contenu est utilisé et ne peut pas être supprimé."
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Entrance Exam - Subsection"
@@ -10055,9 +10056,7 @@ msgstr "Impossible de trouver un utilisateur avec l'adresse courriel '{email}'."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "User {email} has registered but has not yet activated his/her account."
-msgstr ""
-"L'utilisateur {email} s'est enregistré mais n'a pas encore activé son "
-"compte."
+msgstr "L'utilisateur {email} s'est enregistré mais n'a pas encore activé son compte."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "No `role` specified."
@@ -10069,9 +10068,7 @@ msgstr "`rôle` spécifié invalide."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "You may not remove the last Admin. Add another Admin first."
-msgstr ""
-"Vous ne pouvez  pas supprimer le dernier administrateur. Créez-en un autre "
-"afin de supprimer celui-ci."
+msgstr "Vous ne pouvez pas supprimer le dernier administrateur. Créez-en un autre afin de supprimer celui-ci."
 
 #. #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 #. Translators: This is the status of an active video upload
@@ -10095,7 +10092,7 @@ msgstr "Prêt"
 #. process
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Failed"
-msgstr "Echec"
+msgstr "Échoué"
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
@@ -10371,8 +10368,7 @@ msgstr "Partage à l'identique"
 
 #: common/templates/license.html
 msgid "Creative Commons licensed content, with terms as follow:"
-msgstr ""
-"Contenu sous licence Creative Commons, aveec les conditions suivantes:"
+msgstr "Contenu sous licence Creative Commons, aveec les conditions suivantes:"
 
 #: common/templates/license.html
 msgid "Some Rights Reserved"
@@ -10401,6 +10397,10 @@ msgid ""
 "qualify for academic credit from {org}, advance your career, or strengthen "
 "your school applications."
 msgstr ""
+"Devenez admissible pour un crédit académique et faites ressortir vos nouvelles connaissances et "
+"compétences avec une attestation vérifiée. Utilisez cette attestation de compétences "
+"afin d'obtenir un crédit académique de {org}, faire progresser votre carrière, "
+"ou renforcer vos demandes d'admission."
 
 #: common/templates/course_modes/choose.html
 msgid "Benefits of a Verified Certificate"
@@ -10473,7 +10473,7 @@ msgid ""
 "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr ""
-"{b_start}Supporter notre mission: {b_end} EdX, une organisation sans but lucratif, repose sur les attestations "
+"{b_start}Supportez notre mission: {b_end} EdX, une organisation sans but lucratif, repose sur les attestations "
 "vérifiées afin de financer l'éducation gratuite pour tous à l'échelle mondiale"
 
 #: common/templates/course_modes/choose.html
@@ -10486,6 +10486,9 @@ msgid ""
 "material, activities, tests, and forums. Please note that learners who earn "
 "a passing grade will earn a certificate in this course."
 msgstr ""
+"Suivez ce cours gratuitement et ayez un accès complet au matériel, "
+"activités, tests et forums du cours. Veuillez prendre note que les étudiants qui obtiendrons la note de passage "
+"se mériteront une attestation de ce cours."
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue an Honor Certificate"
@@ -10567,7 +10570,7 @@ msgstr "Rechercher vos cours"
 
 #: lms/templates/dashboard.html lms/templates/courseware/courseware.html
 msgid "Clear search"
-msgstr "Effacer la recherche"
+msgstr "Supprimer la recherche"
 
 #: lms/templates/dashboard.html
 msgid ""
@@ -10631,9 +10634,7 @@ msgstr "Adresse courriel modifiée avec succès !"
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
-msgstr ""
-"Vous devez voir votre nouvelle adresse courriel sur votre {link_start}Tableau "
-"de bord{link_end}."
+msgstr "Vous devez voir votre nouvelle adresse courriel sur votre {link_start}Tableau de bord{link_end}."
 
 #: lms/templates/email_exists.html
 msgid "An account with the new e-mail address already exists."
@@ -10653,19 +10654,19 @@ msgstr "Ajouter des nouveaux étudiants"
 
 #: lms/templates/enroll_students.html
 msgid "Existing students:"
-msgstr "Étudiants existants :"
+msgstr "Étudiants existants:"
 
 #: lms/templates/enroll_students.html
 msgid "New students added: "
-msgstr "Nouveaux étudiants ajoutés :"
+msgstr "Nouveaux étudiants ajoutés:"
 
 #: lms/templates/enroll_students.html
 msgid "Students rejected: "
-msgstr "Étudiants rejetés :"
+msgstr "Étudiants rejetés:"
 
 #: lms/templates/enroll_students.html
 msgid "Debug: "
-msgstr "Debogage :"
+msgstr "Debogage:"
 
 #: lms/templates/extauth_failure.html
 msgid "External Authentication failed"
@@ -10673,12 +10674,12 @@ msgstr "Échec de l'authentification externe"
 
 #: lms/templates/folditbasic.html
 msgid "Due:"
-msgstr "A rendre pour le :"
+msgstr "A rendre pour le:"
 
 #: lms/templates/folditbasic.html
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Status:"
-msgstr "Statut :"
+msgstr "Statut:"
 
 #: lms/templates/folditbasic.html
 msgid "You have successfully gotten to level {goal_level}."
@@ -10740,9 +10741,7 @@ msgstr "Votre adresse courriel"
 
 #: lms/templates/forgot_password_modal.html lms/templates/login.html
 msgid "This is the e-mail address you used to register with {platform}"
-msgstr ""
-"Voici l'adresse courriel que vous avez utilisée pour vous inscrire sur "
-"{platform}"
+msgstr "Voici l'adresse courriel que vous avez utilisée pour vous inscrire sur {platform}"
 
 #: lms/templates/forgot_password_modal.html
 msgid "Reset My Password"
@@ -10925,9 +10924,7 @@ msgstr "Bienvenue sur Open edX!"
 #. http://openedx.org for more information.
 #: lms/templates/index.html
 msgid "It works! This is the default homepage for this Open edX instance."
-msgstr ""
-"Ça marche! Ceci est la page d'accueil par défaut pour cette plateforme Open "
-"edX."
+msgstr "Ça marche! Ceci est la page d'accueil par défaut pour cette plateforme Open edX."
 
 #: lms/templates/index.html lms/templates/courseware/courses.html
 msgid "Search for a course"
@@ -10959,9 +10956,7 @@ msgstr "Votre client de messagerie a-t-il coupé l'URL en deux lignes ?"
 
 #: lms/templates/invalid_email_key.html
 msgid "The keys are valid for a limited amount of time. Has the key expired?"
-msgstr ""
-"Les clés sont valides pour une durée limitée. Est ce que la clé est expirée "
-"?"
+msgstr "Les clés sont valides pour une durée limitée. Est ce que la clé est expirée?"
 
 #: lms/templates/library-block-author-preview-header.html
 msgid ""
@@ -11005,13 +11000,11 @@ msgstr "Inscrivez-vous dès maintenant sur {platform_name} !"
 
 #: lms/templates/login-sidebar.html
 msgid "Looking for help in logging in or with your {platform_name} account?"
-msgstr "Besoin d'aide pour vous connecter à votre compte {platform_name} ?"
+msgstr "Besoin d'aide pour vous connecter à votre compte {platform_name}?"
 
 #: lms/templates/login-sidebar.html
 msgid "View our help section for answers to commonly asked questions."
-msgstr ""
-"Visitez notre section d'aide pour des réponses aux questions fréquemment "
-"posées."
+msgstr "Visitez notre section d'aide pour des réponses aux questions fréquemment posées."
 
 #: lms/templates/login.html
 msgid "Log into your {platform_name} Account"
@@ -11040,9 +11033,7 @@ msgstr "Pour accéder à votre compte et à vos cours"
 
 #: lms/templates/login.html
 msgid "We're Sorry, {platform_name} accounts are unavailable currently"
-msgstr ""
-"Nous sommes désolés, les comptes {platform_name} ne sont pas disponibles "
-"pour le moment"
+msgstr "Nous sommes désolés, les comptes {platform_name} ne sont pas disponibles pour le moment"
 
 #: lms/templates/login.html
 msgid "We couldn't log you in."
@@ -11102,8 +11093,7 @@ msgstr "Voir cette ressource dans une nouvelle fenêtre"
 msgid ""
 "Please provide launch_url. Click \"Edit\", and fill in the required fields."
 msgstr ""
-"Veuillez fournir launch_url. Cliquez sur \"Editer\" et remplissez les champs"
-" requis."
+"Veuillez fournir launch_url. Cliquez sur \"Editer\" et remplissez les champs requis."
 
 #: lms/templates/lti.html
 msgid "Feedback on your work from the grader:"
@@ -11325,9 +11315,7 @@ msgstr ""
 
 #: lms/templates/register-shib.html lms/templates/register.html
 msgid "The following errors occurred while processing your registration:"
-msgstr ""
-"Les erreurs suivantes se sont produites pendant le traitement de votre  "
-"inscription :"
+msgstr "Les erreurs suivantes se sont produites pendant le traitement de votre inscription:"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 msgid ""
@@ -11352,8 +11340,7 @@ msgstr "Accusés de réception des comptes"
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
 msgid "I agree to the {link_start}Terms of Service{link_end}"
-msgstr ""
-"J'accepte les {link_start}conditions d'utilisation du Service{link_end}"
+msgstr "J'accepte les {link_start}conditions d'utilisation du Service{link_end}"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
@@ -11402,7 +11389,7 @@ msgid ""
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
 "able to receive email from your courses."
 msgstr ""
-"Vous allez recevoir un courriel d'activation. Vous devrez cliquer sur le lien "
+"Vous recevrez un courriel d'activation. Vous devrez cliquer sur le lien "
 "d'activation pour compléter l'inscription. Vous ne voyez pas le courriel ? "
 "Vérifiez votre dossier de spam et marquez les courriels provenant de "
 "edulib.org comme n'étant pas du spam, puisque vous voudrez pouvoir "
@@ -11511,9 +11498,7 @@ msgstr "Plus haut niveau de formation obtenu"
 
 #: lms/templates/register.html
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr ""
-"Merci de nous faire part de vos motivations concernant l'inscription à "
-"{platform_name}"
+msgstr "Merci de nous faire part de vos motivations concernant l'inscription à {platform_name}"
 
 #: lms/templates/register.html lms/templates/signup_modal.html
 msgid "Create My Account"
@@ -11755,8 +11740,7 @@ msgstr "Gérer l'équipe pédagogique du cours et les enseignants"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
-msgstr ""
-"Télécharger la liste de l'équipe pédagogique du cours et des enseignants (fichier CSV)"
+msgstr "Télécharger la liste de l'équipe pédagogique du cours et des enseignants (fichier CSV)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -12576,9 +12560,7 @@ msgstr[1] "{num} points : {explanatory_text}"
 
 #: lms/templates/combinedopenended/openended/open_ended_error.html
 msgid "There was an error with your submission.  Please contact course staff."
-msgstr ""
-"Il y a eu une erreur avec votre soumission. Merci de contacter l'équipe "
-"pédagogique."
+msgstr "Il y a eu une erreur avec votre soumission.  Merci de contacter l'équipe pédagogique."
 
 #: lms/templates/combinedopenended/openended/open_ended_rubric.html
 msgid "Rubric"
@@ -12862,8 +12844,7 @@ msgstr ""
 
 #: lms/templates/courseware/courseware.html
 msgid "Your score is {current_score}%. You have passed the entrance exam."
-msgstr ""
-"Votre score est de {current_score}%. Vous avez réussi l'examen d'entrée."
+msgstr "Votre score est de {current_score}%. Vous avez réussi l'examen d'entrée."
 
 #: lms/templates/courseware/error-message.html
 msgid ""
@@ -13142,8 +13123,7 @@ msgstr ""
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "To send email, visit the Email section of the Instructor Dashboard."
-msgstr ""
-"Pour envoyer un courriel, visitez la section Courriel de l'onglet Enseignant."
+msgstr "Pour envoyer un courriel, visitez la section Courriel de l'onglet Enseignant."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Pending Instructor Tasks"
@@ -13224,7 +13204,7 @@ msgstr "Votre attestation est disponible"
 #: lms/templates/courseware/progress.html
 msgid ""
 "You can keep working for a higher grade, or request your certificate now."
-msgstr ""
+msgstr "Vous pouvez continuer à travailler pour obtenir une meilleure note, ou demander votre attestation maintenant."
 
 #: lms/templates/courseware/progress.html
 msgid "View certificate in a new browser window or tab."
@@ -13253,6 +13233,8 @@ msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
+"Nous somes en train de créer votre attestation. Vous pouvez continuer à travailler dans vos cours et un lien "
+"vers celui-ci apparaitra ici et sur votre tableau de bord quand celui-ci sera prêt."
 
 #: lms/templates/courseware/progress.html
 msgid "Congratulations, you qualified for a certificate!"
@@ -13404,6 +13386,8 @@ msgid ""
 "{link_start}Click here for more information on credit at "
 "{platform_name}{link_end}."
 msgstr ""
+"{link_start}Cliquez ici pour plus d'information sur les crédits "
+"{platform_name}{link_end}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -13796,15 +13780,13 @@ msgstr "Revu et vérifié"
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "Your verification status is good for one year after submission."
-msgstr ""
-"Votre état de vérification est valide pour une durée de 1 an après sa soumission."
+msgstr "Votre statut de vérification est valide pour une durée de 1 an après sa soumission."
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid ""
 "Your verification photos have been submitted and will be reviewed shortly."
 msgstr ""
-"Vos photos de vérification ont été soumises et seront contrôlées très "
-"prochainement."
+"Vos photos de vérification ont été soumises et seront contrôlées très prochainement."
 
 #: lms/templates/dashboard/_dashboard_status_verification.html
 msgid "{platform_name} Verification Status"
@@ -13850,6 +13832,8 @@ msgid ""
 "This course is 1 of {course_count} courses in the "
 "{link_start}{program_display_name}{link_end} {program_category}."
 msgstr ""
+"Ce cours est l'un des {course_count} cours dans le "
+"{link_start}{program_display_name}{link_end} {program_category}."
 
 #: lms/templates/dashboard/_dashboard_xseries_info.html
 msgid "View {category} Details"
@@ -14198,23 +14182,18 @@ msgstr "Pour commencer le cours, rendez-vous sur {course_url}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid "Visit {course_about_url} to join the course and begin the beta test."
-msgstr ""
-"Veuillez vous rendre sur {course_about_url} afin de rejoindre le cours et de"
-" commencer le bêta-test."
+msgstr "Veuillez vous rendre sur {course_about_url} afin de rejoindre le cours et commencer le bêta-test."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 msgid "Visit {site_name} to enroll in the course and begin the beta test."
-msgstr ""
-"Aller sur la page  {site_name} pour s'inscrire au cours et commencer le beta"
-" test."
+msgstr "Aller sur la page  {site_name} pour s'inscrire au cours et commencer le bêta-test."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid "This email was automatically sent from {site_name} to {email_address}"
-msgstr ""
-"Ce courriel a été envoyé automatiquement de {site_name} à {email_address}"
+msgstr "Ce courriel a été envoyé automatiquement de {site_name} à {email_address}"
 
 #: lms/templates/emails/add_beta_tester_email_subject.txt
 msgid "You have been invited to a beta test for {course_name}"
@@ -14240,9 +14219,7 @@ msgstr ""
 #: lms/templates/emails/business_order_confirmation_email.txt
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr ""
-"Si vous avez des questions concernant la facturation, veuillez contacter "
-"{billing_email}."
+msgstr "Si vous avez des questions concernant la facturation, veuillez contacter {billing_email}."
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid ""
@@ -14273,8 +14250,7 @@ msgstr "Quantité - Description - Prix"
 #: lms/templates/emails/business_order_confirmation_email.txt
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Total billed to credit/debit card: {currency_symbol}{total_cost}"
-msgstr ""
-"Total facturé à la carte de crédit/débit : {currency_symbol}{total_cost}"
+msgstr "Total facturé à la carte de crédit/débit : {total_cost}{currency_symbol}"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Company Name:"
@@ -14345,14 +14321,14 @@ msgid ""
 "To enroll in {course_names} we have provided a registration URL for you.  "
 "Please follow the instructions below to claim your access."
 msgstr ""
+"Pour vous inscrire à {course_names} nous vous avons fourni un URL d'inscription. "
+"S'il vous plaît suivre les instructions ci-dessous réclamer votre accès."
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use.
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Your redeem url is: [[Enter Redeem URL here from the attached CSV]]"
-msgstr ""
-"Votre URL de remboursement est : [[Entrez l'URL de remboursement depuis le "
-"CSV joint]]"
+msgstr "Votre URL de remboursement est : [[Entrez l'URL de remboursement depuis le CSV joint]]"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "(1) Register for an account at {site_name}"
@@ -14446,8 +14422,7 @@ msgstr ""
 
 #: lms/templates/emails/email_change_subject.txt
 msgid "Request to change {platform_name} account e-mail"
-msgstr ""
-"Demande de modification de l'adresse courriel du compte sur {platform_name}"
+msgstr "Demande de modification de l'adresse courriel du compte sur {platform_name}"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "Dear student,"
@@ -14463,8 +14438,7 @@ msgstr ""
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "To access the course visit {course_url} and login."
-msgstr ""
-"Pour accéder au cours, rendez-vous sur {course_url} et identifiez-vous."
+msgstr "Pour accéder au cours, rendez-vous sur {course_url} et identifiez-vous."
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
@@ -14572,7 +14546,7 @@ msgid ""
 "An invoice for {currency_symbol}{total_price} is attached. Payment is due "
 "upon receipt. You can find information about payment methods on the invoice."
 msgstr ""
-"Une facture pour {currency_symbol}{total_price} est jointe. Le paiement est "
+"Une facture pour {total_price}{currency_symbol} est jointe. Le paiement est "
 "exigible sur réception. Vous trouverez de l'information à propos des méthodes de paiement sur la facture."
 
 #: lms/templates/emails/registration_codes_sale_email.txt
@@ -14662,7 +14636,7 @@ msgstr "Numéro de référence client : {reference_number}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Balance Due: {currency_symbol}{sale_price}"
-msgstr "Solde: {currency_symbol}{sale_price}"
+msgstr "Solde: {sale_price}{currency_symbol}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Course: {course_name}"
@@ -14674,13 +14648,13 @@ msgid ""
 "Sub-Total:    {currency_symbol}{sub_total}  Discount:  "
 "{currency_symbol}{discount}"
 msgstr ""
-"Prix:        {currency_symbol}{course_price}  Quantité:      {quantity}  "
-"Sous-total:    {currency_symbol}{sub_total}  Rabais:  "
-"{currency_symbol}{discount}"
+"Prix:        {course_price}{currency_symbol}  Quantité:      {quantity}  "
+"Sous-total:    {sub_total}{currency_symbol}  Rabais:  "
+"{discount}{currency_symbol}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Total:      {currency_symbol}{sale_price}"
-msgstr "Total:      {currency_symbol}{sale_price}"
+msgstr "Total:      {sale_price}{currency_symbol}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Payment Instructions"
@@ -16466,6 +16440,9 @@ msgid ""
 " the 'Pending Tasks' table. To see status for all tasks submitted for this "
 "problem and student, click on this button:"
 msgstr ""
+"La renotation exécute en arrière-plan et le statut pour les tâches va apparaitre dans "
+"le tableau 'Tâches en attente'. Pour voir le status de toutes les tâches soumises pour cet exercice et "
+"étudiant, cliquez sur ce bouton:"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Show Background Task History for Student"
@@ -16484,6 +16461,8 @@ msgid ""
 "Select an action for the student's entrance exam. This action will affect "
 "every problem in the student's exam."
 msgstr ""
+"Sélectionnez une action pour l'examen d'entrée de l'étudiant. Cette action affectera "
+"chaque exercice dans l'examen de l'étudiant."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Reset Number of Student Attempts"
@@ -17051,7 +17030,7 @@ msgstr "Imprimer le reçu"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Billed To Details"
-msgstr ""
+msgstr "Détails de la facturation"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "N/A"
@@ -17263,7 +17242,7 @@ msgstr "TOTAL:"
 #. "$500.00 USD"
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "{currency_symbol}{price} {currency_abbr}"
-msgstr ""
+msgstr "{price}{currency_symbol} {currency_abbr}"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid ""
@@ -18298,6 +18277,10 @@ msgid ""
 "the course team; review course updates and other assets for dated material; "
 "and seed the discussions and wiki."
 msgstr ""
+"Aucun contenu de cours n'est visible actuellement, et aucun étudiant n'est inscrit. Soyez "
+"certain de réviser et réinitialiser toutes les dates, y compris la date de début du cours; mettre en place "
+"l'équipe du cours; réviser les mises-à-jour du cours et autres items pour du matériel périmé; "
+"et alimenter les discussions et le wiki."
 
 #: cms/templates/course_outline.html cms/templates/index.html
 msgid "Dismiss"
@@ -18330,6 +18313,10 @@ msgid ""
 "the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
+"Afin d'éviter les erreurs, {platform_name} recommande fortement que vous supprimiez "
+"les fonctionnalités non supportées des paramètres avancés du cours. Pour ce faire, allez à "
+"la page des {link_start}Paramètres avancés{link_end}, trouver le paramètre \"Liste "
+"des modules avancés\", et ensuite effacer les modules suivants de la liste."
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Advance Modules"
@@ -18591,7 +18578,7 @@ msgid ""
 "please feel free to {link_start}contact {studio_name} support{link_end} for "
 "further help."
 msgstr ""
-"Nous sommes désolé. Il y a eu un problème avec le serveur lors l'exécution "
+"Nous sommes désolés. Il y a eu un problème avec le serveur lors l'exécution "
 "de la dernière requête. Vous pouvez retourner à l'accueil {studio_name} ou "
 "réessayer. Si vous rencontrez de nouveux problèmes, vous pouvez "
 "{link_start}contactez le support {studio_name}{link_end} pour obtenir de "
@@ -18621,6 +18608,10 @@ msgid ""
 "Zip) that contains the library structure and content. You can also re-import"
 " libraries that you've exported."
 msgstr ""
+"Vous pouvez exporter les bibliothèques et les éditer à l'extérieur de {studio_name}. Le "
+"fichier exporté est un fichier .tar.gz (donc, un fichier .tar compressé avec GNU "
+"Zip) contenant la structure et le contenue de la bibliothèque. Vous pouvez aussi réimporter "
+"les bibliothèques que vous avez exportées."
 
 #: cms/templates/export.html
 msgid "About Exporting Courses"
@@ -19049,6 +19040,8 @@ msgid ""
 "It's more than just multiple choice. {studio_name} supports more than a "
 "dozen types of problems to challenge your learners."
 msgstr ""
+"Ce sont plus que des choix multiples. {studio_name} supporte plus d'une douzaine "
+"de types d'exercices afin de défier vos étudiants."
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -20820,6 +20813,9 @@ msgid ""
 "successfully before additional work can begin. You can monitor the progress "
 "of files as they upload, and try again if the upload fails."
 msgstr ""
+"Chaque fichier vidéo que vous télécharger a besoin d'accéder avec succès aux serveurs de traitement vidéo "
+"avant que ne puisse commencer des travaux supplémentaires. Vous pouvez suivre le progrès "
+"des fichiers pendant le téléchargement, et essayer de nouveau s'il échoue."
 
 #: cms/templates/videos_index.html
 msgid "Managing uploaded files"
@@ -20833,12 +20829,19 @@ msgid ""
 "status is {em_start}Ready{em_end}. Allow 24 hours for file processing at the"
 " external video hosting sites to complete."
 msgstr ""
+"Après qu'un fichier ait été téléchargé avec succès, le traitement automatisé débute. Le fichier est alors "
+"énuméré sous Téléchargements Précédents comme {em_start}En Progrès{em_end}. Vous pouvez "
+"ajouter le vidéo à votre cours aussitôt qu'il a un identifiant de vidéo unique et "
+"le statut {em_start}Prêt{em_end}. Attendre 24 heures pour que se termine le traitement des fichiers "
+"sur le site externe d'hébergement de vidéos."
 
 #: cms/templates/videos_index.html
 msgid ""
 "If something goes wrong, the {em_start}Failed{em_end} status message "
 "appears. Check for problems in your original file and upload a replacement."
 msgstr ""
+"Si quelque chose va mal, le statut {em_start}Échoué{em_end} apparait. "
+"Vérifier les problèmes dans votre fichier d'origine et télécharger un remplacement."
 
 #: cms/templates/videos_index.html
 msgid "How do I get the videos into my course?"
@@ -20854,6 +20857,13 @@ msgid ""
 "its status is {em_start}Ready{em_end}, although processing may not be "
 "complete for all encodings and all video hosting sites."
 msgstr ""
+"Quand le statut d'un fichier est {em_start}Prêt{em_end}, vous pouvez ajouter ce vidéo "
+"dans un composant de votre cours. Copier l'identifiant unique du vidéo. Dans un autre fenêtre du fureteur, "
+"sur la page du plan de cours, créer ou trouver un composant vidéo pour faire jouer ce vidéo. "
+"Éditer le composant vidéo afin d'y coller l'identifiant dans le champ avancé "
+"{em_start}Video ID{em_end}. Le vidéo peut s'exécuter dans le LMS dès que "
+"son statut est {em_start}Prêt{em_end}, même si le traitement n'est pas encore complet "
+"pour tous les encodages et tous les sites d'hébergement de vidéos."
 
 #: cms/templates/visibility_editor.html
 msgid "No content groups exist"
@@ -20899,7 +20909,7 @@ msgstr "Groupes de contenu spécifiques"
 
 #: cms/templates/visibility_editor.html
 msgid "Deleted Content Group"
-msgstr "Groupe de contenu effacé"
+msgstr "Groupe de contenu supprimé"
 
 #: cms/templates/visibility_editor.html
 msgid ""
