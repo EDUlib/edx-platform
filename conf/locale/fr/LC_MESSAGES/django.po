@@ -5440,6 +5440,10 @@ msgstr ""
 msgid "[Refund] User-Requested Refund"
 msgstr "[Remboursement] Remboursement demandé par l'utilisateur"
 
+#: lms/djangoapps/commerce/signals.py lms/djangoapps/shoppingcart/models.py
+msgid "User {user} ({user_email}) has requested a refund on Order #{order_number}."
+msgstr "L'utilisateur {user} ({user_email}) a demandé un remboursement sur la commande #{order_number}."
+
 #: lms/djangoapps/commerce/views.py lms/djangoapps/shoppingcart/pdf.py
 msgid "Receipt"
 msgstr "Reçu"
