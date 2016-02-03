@@ -5659,7 +5659,7 @@ msgstr "Manuels"
 #: lms/djangoapps/courseware/views.py
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "{currency_symbol}{price}"
-msgstr "{price}{currency_symbol}"
+msgstr "{currency_symbol}{price}"
 
 #. Translators: This refers to the cost of the course. In this case, the
 #. course costs nothing so it is free.
@@ -14250,7 +14250,7 @@ msgstr "Quantité - Description - Prix"
 #: lms/templates/emails/business_order_confirmation_email.txt
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "Total billed to credit/debit card: {currency_symbol}{total_cost}"
-msgstr "Total facturé à la carte de crédit/débit : {total_cost}{currency_symbol}"
+msgstr "Total facturé à la carte de crédit/débit : {currency_symbol}{total_cost}"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Company Name:"
@@ -14546,7 +14546,7 @@ msgid ""
 "An invoice for {currency_symbol}{total_price} is attached. Payment is due "
 "upon receipt. You can find information about payment methods on the invoice."
 msgstr ""
-"Une facture pour {total_price}{currency_symbol} est jointe. Le paiement est "
+"Une facture pour {currency_symbol}{total_price} est jointe. Le paiement est "
 "exigible sur réception. Vous trouverez de l'information à propos des méthodes de paiement sur la facture."
 
 #: lms/templates/emails/registration_codes_sale_email.txt
@@ -14636,7 +14636,7 @@ msgstr "Numéro de référence client : {reference_number}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Balance Due: {currency_symbol}{sale_price}"
-msgstr "Solde: {sale_price}{currency_symbol}"
+msgstr "Solde: {currency_symbol}{sale_price}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Course: {course_name}"
@@ -14648,13 +14648,13 @@ msgid ""
 "Sub-Total:    {currency_symbol}{sub_total}  Discount:  "
 "{currency_symbol}{discount}"
 msgstr ""
-"Prix:        {course_price}{currency_symbol}  Quantité:      {quantity}  "
-"Sous-total:    {sub_total}{currency_symbol}  Rabais:  "
-"{discount}{currency_symbol}"
+"Prix:        {currency_symbol}{course_price}  Quantité:      {quantity}  "
+"Sous-total:    {currency_symbol}{sub_total}  Rabais:  "
+"{currency_symbol}{discount}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Total:      {currency_symbol}{sale_price}"
-msgstr "Total:      {sale_price}{currency_symbol}"
+msgstr "Total:      {currency_symbol}{sale_price}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Payment Instructions"
@@ -17242,7 +17242,7 @@ msgstr "TOTAL:"
 #. "$500.00 USD"
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "{currency_symbol}{price} {currency_abbr}"
-msgstr "{price}{currency_symbol} {currency_abbr}"
+msgstr "{currency_symbol}{price} {currency_abbr}"
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid ""
