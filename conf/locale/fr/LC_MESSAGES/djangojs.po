@@ -414,7 +414,7 @@ msgid ""
 "answer box."
 msgstr ""
 "Cette question nécessite de joindre un fichier mais cela n'est pas possible "
-"avec votre navigateur. Essayez la version la plus récente de Google Chrome. "
+"avec votre fureteur. Essayez la version la plus récente de Google Chrome. "
 "Vous pouvez également coller le lien URL de votre image dans le champ de "
 "réponse après avoir uploadé votre image sur un autre site web. "
 
@@ -1643,7 +1643,7 @@ msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
 "Ctrl+X/C/V keyboard shortcuts instead."
 msgstr ""
-"Votre navigateur ne supporte pas l'accès direct au presse-papier. Veuillez "
+"Votre fureteur ne supporte pas l'accès direct au presse-papier. Veuillez "
 "utiliser les raccourcis clavier Ctrl + X / C / V à la place."
 
 #: common/lib/xmodule/xmodule/js/src/lti/lti.js
@@ -1731,12 +1731,12 @@ msgstr "Remettre le son"
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Exit full browser"
-msgstr "Quitter le navigateur plein écran"
+msgstr "Quitter le fureteur plein écran"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Fill browser"
-msgstr "Remplir le navigateur"
+msgstr "Remplir le fureteur"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
@@ -1792,11 +1792,11 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
 msgid "This browser cannot play .mp4, .ogg, or .webm files."
-msgstr "Ce navigateur ne peut pas lire les fichiers .mp4, .ogg, ou .webm"
+msgstr "Ce fureteur ne peut pas lire les fichiers .mp4, .ogg, ou .webm"
 
 #: common/lib/xmodule/xmodule/js/src/video/02_html5_video.js
 msgid "Try using a different browser, such as Google Chrome."
-msgstr "Essayez un navigateur différent, Google Chrome par exemple."
+msgstr "Essayez un fureteur différent, Google Chrome par exemple."
 
 #: common/lib/xmodule/xmodule/js/src/video/05_video_quality_control.js
 msgid "High Definition"
@@ -3840,7 +3840,7 @@ msgstr "[aucune étiquette]"
 #: lms/static/js/groups/views/cohorts.js
 msgid "We've encountered an error. Refresh your browser and then try again."
 msgstr ""
-"Nous avons rencontré une erreur. Rafraîchissez votre navigateur puis "
+"Nous avons rencontré une erreur. Rafraîchissez votre fureteur puis "
 "réessayer."
 
 #: lms/static/js/groups/views/cohort_editor.js
@@ -4392,7 +4392,7 @@ msgid ""
 "Please verify that your webcam is connected and that you have allowed your "
 "browser to access it."
 msgstr ""
-"Vérifiez que votre webcam est bien connectée et que votre navigateur est "
+"Vérifiez que votre webcam est bien connectée et que votre fureteur est "
 "autorisé à l'accéder."
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
@@ -4564,7 +4564,7 @@ msgstr "Erreur de la sauvegarde d'OpenAssessment"
 #: cms/static/js/base.js
 msgid "This link will open in a new browser window/tab"
 msgstr ""
-"Ce lien s'ouvrira dans une nouvelle fenêtre ou onglet de votre navigateur"
+"Ce lien s'ouvrira dans une nouvelle fenêtre ou onglet de votre fureteur"
 
 #: cms/static/js/base.js
 msgid "This link will open in a modal window"
