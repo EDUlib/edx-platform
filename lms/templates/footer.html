@@ -8,24 +8,6 @@
 <% footer = get_footer(is_secure=is_secure) %>
 <%namespace name='static' file='static_content.html'/>
 
-<div class="wrapper-all-footer">
-
-<footer class="partners-footer">
-    <nav>
-        <ul>
-          <li>
-            <a href="${marketing_link('UMONTREAL')}"><img src="${static.url('images/default-theme/institutions/udem.png')}" alt="Universit&eacute; de Montr&eacute;al" width="185" height="48" /></a>
-          </li>
-          <li>
-            <a href="${marketing_link('HEC')}"><img src="${static.url('images/default-theme/institutions/hec.png')}" alt="HEC Montr&eacute;al" width="185" height="48" /></a>
-          </li>
-          <li>
-            <a href="${marketing_link('POLYMTL')}"><img src="${static.url('images/default-theme/institutions/poly.png')}" alt="&Eacute;cole Polytechnique de Montr&eacute;al" width="185" height="48" /></a>
-          </li>
-        </ul>
-    </nav>
-</footer>
-    
 <div class="wrapper wrapper-footer">
   <footer id="footer-openedx" class="grid-container"
     ## When rendering the footer through the branding API,
@@ -36,142 +18,60 @@
     % endif
   >
     <div class="colophon">
-
-      #### nouveau code cypress
-      ####<nav class="nav-colophon" aria-label="${_('About')}">
-      ####  <ol>
-      ####      % for item_num, link in enumerate(footer['navigation_links'], start=1):
-      ####      <li class="nav-colophon-0${item_num}">
-      ####        <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
-      ####      </li>
-      ####      % endfor
-      ####  </ol>
-      ####</nav>
-
-      ####<div class="wrapper-logo">
-      ####  <p>
-      ####    <a href="/">
-      ####      ## The default logo is a placeholder.
-      ####      ## You can either replace this link entirely or update
-      ####      ## the FOOTER_ORGANIZATION_IMAGE in Django settings.
-      ####      ## If you customize FOOTER_ORGANIZATION_IMAGE, then the image
-      ####      ## can be included in the footer on other sites
-      ####      ## (e.g. a blog or marketing front-end) to provide a consistent
-      ####      ## user experience.  See the branding app for details.
-      ####      <img alt="organization logo" src="${footer['logo_image']}">
-      ####    </a>
-      ####  </p>
-      ####</div>
-
-      ###### Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-      ####<p class="copyright">${footer['copyright']}</p>
-
-      ####<nav class="nav-legal" aria-label="${_('Legal')}">
-      ####  <ul>
-      ####    % for item_num, link in enumerate(footer['legal_links'], start=1):
-      ####      <li class="nav-legal-0${item_num}">
-      ####        <a href="${link['url']}">${link['title']}</a>
-      ####      </li>
-      ####    % endfor
-      ####  </ul>
-      ####</nav>
-    ####</div>
-
-    ###### Please leave this link and use one of the logos provided
-    ###### The OpenEdX link may be hidden when this view is served
-    ###### through an API to partner sites (such as marketing sites or blogs),
-    ###### which are not technically powered by OpenEdX.
-    ####% if not hide_openedx_link:
-    ####<div class="footer-about-openedx">
-    ####  <p>
-    ####    <a href="${footer['openedx_link']['url']}">
-    ####      <img src="${footer['openedx_link']['image']}" alt="${footer['openedx_link']['title']}" width="140" />
-    ####    </a>
-    ####  </p>
-
-      <nav class="nav-colophon">
-      <ol>
-          <li class="nav-colophon-01">
-          <a href="${marketing_link('TOS')}">
-              ${_("Terms of Service")}
-          </a>
-          </li>
-          <li class="nav-colophon-02">
-          <a href="${marketing_link('TOS')}#privacy">
-              ${_("Privacy Policy")}
-          </a>
-          </li>
-          <li class="nav-colophon-03">
-          <a href="${marketing_link('TOS')}#copyright">
-              ${_("Copyright")}
-          </a>
-          </li>
-          <li class="nav-colophon-04">
-          <a href="${marketing_link('HONOR')}">
-              ${_("Honor Code")}
-          </a>
-          </li>
-          <li class="nav-colophon-05">
-          <a href="${marketing_link('ABOUT')}">
-              ${_("About")}
-          </a>
-          </li>          
-          </li>
-          <li class="nav-colophon-06">
-          <a href="${marketing_link('CONTACT')}">
-              ${_("Contact")}
-          </a>
-          </li>
-
-      </ol>
+      <nav class="nav-colophon" aria-label="${_('About')}">
+        <ol>
+            % for item_num, link in enumerate(footer['navigation_links'], start=1):
+            <li class="nav-colophon-0${item_num}">
+              <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
+            </li>
+            % endfor
+        </ol>
       </nav>
 
-      <p class="copyright">&copy; ${settings.COPYRIGHT_YEAR} <a href="/">
-            ## this is just a placeholder logo
-            ## feel free to change this logo to your own by replacing "logo.png" with your own logo
-            <img alt="${settings.PLATFORM_NAME}" src="${static.url('images/default-theme/logo.png')}"></a><br />
+      <div class="wrapper-logo">
+        <p>
+          <a href="/">
+            ## The default logo is a placeholder.
+            ## You can either replace this link entirely or update
+            ## the FOOTER_ORGANIZATION_IMAGE in Django settings.
+            ## If you customize FOOTER_ORGANIZATION_IMAGE, then the image
+            ## can be included in the footer on other sites
+            ## (e.g. a blog or marketing front-end) to provide a consistent
+            ## user experience.  See the branding app for details.
+            <img alt="organization logo" src="${footer['logo_image']}">
+          </a>
+        </p>
+      </div>
 
       ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-      
-	## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
-	${_("EdX, Open edX, and the edX and Open edX logos are registered trademarks or trademarks of {link_start}edX Inc.{link_end}").format(
-	    link_start=u"<a href='https://www.edx.org/'>",
-	    link_end=u"</a>"
-	)}
+      <p class="copyright">${footer['copyright']}</p>
+
+      <nav class="nav-legal" aria-label="${_('Legal')}">
+        <ul>
+          % for item_num, link in enumerate(footer['legal_links'], start=1):
+            <li class="nav-legal-0${item_num}">
+              <a href="${link['url']}">${link['title']}</a>
+            </li>
+          % endfor
+        </ul>
+      </nav>
+    </div>
+
+    ## Please leave this link and use one of the logos provided
+    ## The OpenEdX link may be hidden when this view is served
+    ## through an API to partner sites (such as marketing sites or blogs),
+    ## which are not technically powered by OpenEdX.
+    % if not hide_openedx_link:
+    <div class="footer-about-openedx">
+      <p>
+        <a href="${footer['openedx_link']['url']}">
+          <img src="${footer['openedx_link']['image']}" alt="${footer['openedx_link']['title']}" width="140" />
+        </a>
       </p>
     </div>
-    
-    
-    <div class="references">
-        
-        <nav class="social-sharing">
-        <ul>
-           <li>
-               <a href="https://twitter.com/EDUlib_ORG" class="share">
-                   <img src="${static.url('images/social/twitter-sharing.png')}"></a>
-          </li>
-           <li>
-               <a href="https://www.facebook.com/EDUlib.org" class="share">                  <img src="${static.url('images/social/facebook-sharing.png')}">
-               </a>
-          </li>
-           <li>
-               <a href="https://plus.google.com/u/0/103788734382092523995/posts" class="share">
-                   <img src="${static.url('images/social/google-plus-sharing.png')}">
-               </a>
-          </li>
-        </ul>
-        </nav>
-        
-        ## please leave this link and use one of the logos provided
-        <div class="powered-by"><a href="http://openedx.org/">
-          ## standard powered-by logo
-          ## Translators: 'Open edX' is a brand, please keep this untranslated. See http://openedx.org for more information.
-              <img src="${static.url('images/openedx-logo-tag.png')}" alt="${_('Powered by Open edX')}" width="150" height="50" /></a>
-        </div>
-    </div>
+    % endif
   </footer>
 </div>
-
 % if include_dependencies:
   <%static:js group='base_vendor'/>
   <%static:css group='style-vendor'/>
