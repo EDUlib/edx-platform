@@ -2191,7 +2191,7 @@ msgid ""
 "If False, the Quality Filter is enabled and submissions with poor spelling, "
 "short length, or poor grammar will not be peer reviewed."
 msgstr ""
-"Si faux, le filtre de qualité est activé et les soumissions avec une mauvaise orthographe, "
+"Si faux (false), le filtre de qualité est activé et les soumissions avec une mauvaise orthographe, "
 "trop court, ou une mauvaise grammaire ne seront pas évaluées par les pairs."
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -2368,7 +2368,7 @@ msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les étudiants peuvent voir la calculatrice dans le "
+"Entrez vrai (true) ou faux (false). Si vrai, les étudiants peuvent voir la calculatrice dans le "
 "cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2459,7 +2459,7 @@ msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les catégories et sous-catégories de discussions sont "
+"Entrez vrai (true) ou faux (false). Si vrai, les catégories et sous-catégories de discussions sont "
 "triés alphabétiquement. Si faux, elles sont triées chronologiquement."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2493,7 +2493,7 @@ msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, le cours apparaît dans la liste des nouveaux cours "
+"Entrez vrai (true) ou faux (false). Si vrai, le cours apparaît dans la liste des nouveaux cours "
 "sur edx.org, et un badge Nouveau! apparaît temporairement près de l'image du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2505,7 +2505,7 @@ msgid ""
 "Enter true or false. If true, the course will be available to mobile "
 "devices."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, le cours sera disponible sur les appareils "
+"Entrez vrai (true) ou faux (false). Si vrai, le cours sera disponible sur les appareils "
 "mobiles."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2536,7 +2536,7 @@ msgstr "Cours non évalué"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, the course will not be graded."
-msgstr "Entrez vrai ou faux. Si vrai, le cours ne sera pas évalué."
+msgstr "Entrez vrai (true) ou faux (false). Si vrai, le cours ne sera pas évalué."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Disable Progress Graph"
@@ -2544,7 +2544,7 @@ msgstr "Désactiver les graphiques de progrès"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
-msgstr "Entrez vrai ou faux. Si vrai, les étudiants pourront voir le graphique de progrès."
+msgstr "Entrez vrai (true) ou faux (false). Si vrai, les étudiants pourront voir le graphique de progrès."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "PDF Textbooks"
@@ -2601,7 +2601,7 @@ msgid ""
 "but existing Custom Courses will be preserved."
 msgstr ""
 "Permet aux enseignants de cours d'assigner le rôle de CCX Coach, et permet aux coaches de "
-"gérer des cours personnalisés sur edX (CCX). Quand faux, des cours personnalisés ne peuvent être créés, "
+"gérer des cours personnalisés sur edX (CCX). Quand faux (false), des cours personnalisés ne peuvent être créés, "
 "mais les cours personnalisés existants seront préservés."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2613,7 +2613,7 @@ msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les étudiants pourront créer des messages de discussion qui sont anonymes "
+"Entrez vrai (true) ou faux (false). Si vrai, les étudiants pourront créer des messages de discussion qui sont anonymes "
 "pour tous les utilisateurs."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2626,7 +2626,7 @@ msgid ""
 "anonymous to other students. This setting does not make posts anonymous to "
 "course staff."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les étudiants pourront créer des messages anonymes "
+"Entrez vrai (true) ou faux (false). Si vrai, les étudiants pourront créer des messages anonymes "
 "pour les autres étudiants. Ce paramètre ne rend pas les messages anonymes pour "
 "l'équipe pédagogique du cours."
 
@@ -2942,7 +2942,7 @@ msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les étudiants pourront télécharger les attestations avant "
+"Entrez vrai (true) ou faux (false). Si vrai, les étudiants pourront télécharger les attestations avant "
 "la fin du cours, s'ils ont rencontré les exigences de l'attestation."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3139,7 +3139,7 @@ msgid ""
 "Enter true or false. If true, edX users can view the course wiki even if "
 "they're not enrolled in the course."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les utilisateurs edX verront le wiki du cours même si "
+"Entrez vrai (true) ou faux (false). Si vrai, les utilisateurs edX verront le wiki du cours même si "
 "ils ne sont pas inscrits dans le cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3283,7 +3283,7 @@ msgid ""
 "your course. Note that enabling proctored exams will also enable timed "
 "exams."
 msgstr ""
-"Entrez vrai ou faux. Si cette valeur est vrai, les examens surveillés seront activés "
+"Entrez vrai (true) ou faux (false). Si cette valeur est vrai, les examens surveillés seront activés "
 "dans votre cours. Veuillez noter qu'activer les examens surveillés va aussi active les examens "
 "chronométrés."
 
@@ -3296,7 +3296,7 @@ msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course."
 msgstr ""
-"Entrez vrai ou faux. Si cette valeur est vrai, les examens chronométrés seront activés "
+"Entrez vrai (true) ou faux (false). Si cette valeur est vrai, les examens chronométrés seront activés "
 "dans votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3670,7 +3670,7 @@ msgid ""
 "on this setting."
 msgstr ""
 "Entrez le URL de l'outil externe que ce composant démarre. Ce "
-"paramètre est seulement utilisé quand Cacher les outils externes est initialisé à Faux.<br />Voir "
+"paramètre est seulement utilisé quand Cacher les outils externes est initialisé à faux (false).<br />Voir "
 "{docs_anchor_open}the edX LTI documentation{anchor_close} pour plus de détails sur ce "
 "paramètre."
 
@@ -3701,17 +3701,17 @@ msgid ""
 "in the current page. This setting is only used when Hide External Tool is "
 "set to False.  "
 msgstr ""
-"Sélectionnez vrai si vous voulez que les étudiants cliquent sur un lien qui ouvre l'outil LTI "
-"dans une nouvelle fenêtre. Sélectionnez faux si vous voulez que le contenu LTI ouvre dans un IFrame "
+"Sélectionnez vrai (true) si vous voulez que les étudiants cliquent sur un lien qui ouvre l'outil LTI "
+"dans une nouvelle fenêtre. Sélectionnez faux (false) si vous voulez que le contenu LTI ouvre dans un IFrame "
 "dans la page courante. Ce paramètre est seulement utilisé quand Cacher les outils externes est initialisé "
-"à Faux.  "
+"à faux (false).  "
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "Select True if this component will receive a numerical score from the "
 "external LTI system."
 msgstr ""
-"Sélectionnez vrai si ce composant va recevoir une note numérique de la part "
+"Sélectionnez vrai (true) si ce composant va recevoir une note numérique de la part "
 "du système externe LTI."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3724,7 +3724,7 @@ msgid ""
 "is 1.0.  This setting is only used when Scored is set to True."
 msgstr ""
 "Entrez le nombre de points possible pour ce composant. La valeur de défaut "
-"est 1.0. Ce paramètre est uniquement utilisé quabd Noté est initialisé à Vrai."
+"est 1.0. Ce paramètre est uniquement utilisé quand Noté est initialisé à Vrai (True)."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3748,7 +3748,7 @@ msgid ""
 "with an external grading  system rather than launch an external tool.  This "
 "setting hides the Launch button and any IFrames for this component."
 msgstr ""
-"Sélectionnez vrai si vous voulez utiliser ce composant comme un espace réservé pour synchroniser "
+"Sélectionnez vrai (true) si vous voulez utiliser ce composant comme un espace réservé pour synchroniser "
 "avec un système d'évaluation externe au lieu de démarrer un outil externe.  Ce "
 "paramètre cache le bouton Démarrage et tout IFrames pour ce composant."
 
@@ -3760,7 +3760,7 @@ msgstr "Demander le nom d'utilisateur"
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's username."
-msgstr "Choisir vrai afin de demander le nom d'utilisateur."
+msgstr "Choisir vrai (true) afin de demander le nom d'utilisateur."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Request user's email"
@@ -3770,7 +3770,7 @@ msgstr "Demander l'adresse courriel de l'utilisateur"
 #. service.
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's email address."
-msgstr "Choisir vrai afin de demander l'adresse courriel de l'utilisateur."
+msgstr "Choisir vrai (true) afin de demander l'adresse courriel de l'utilisateur."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI Application Information"
@@ -3804,7 +3804,7 @@ msgstr "Accepter les notes après la date limite"
 msgid ""
 "Select True to allow third party systems to post grades past the deadline."
 msgstr ""
-"Sélectionnez vrai pour permettre aux systèmes tierces de poster des notes après la date limite."
+"Sélectionnez vrai (true) pour permettre aux systèmes tierces de poster des notes après la date limite."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3841,7 +3841,7 @@ msgstr "Entrez la date de remise de défaut à laquelle les exercices doivent ê
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "If true, can be seen only by course staff, regardless of start date."
-msgstr "Si vrai, ne peut être vu que par l'équipe pédagogique du cours, peu importe la date de début du cours."
+msgstr "Si vrai (true), ne peut être vu que par l'équipe pédagogique du cours, peu importe la date de début du cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "GIT URL"
@@ -3949,7 +3949,7 @@ msgid ""
 "Enter true or false. If true, you can use the LaTeX templates for HTML "
 "components and advanced Problem components."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, vous pouvez utiliser les gabarits LaTeX pour "
+"Entrez vrai (true) ou faux (false). Si vrai, vous pouvez utiliser les gabarits LaTeX pour "
 "les composants HTML et les composants des exercices avancés."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -4003,7 +4003,7 @@ msgstr "Activer le système de cache vidéo"
 msgid ""
 "Enter true or false. If true, video caching will be used for HTML5 videos."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, le système de cache vidéo sera utilisé pour les vidéos HTML5."
+"Entrez vrai (true) ou faux (false). Si vrai, le système de cache vidéo sera utilisé pour les vidéos HTML5."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Video Pre-Roll"
@@ -4038,7 +4038,7 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting "
 "is changed."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les exercices afficheront toujours pas défaut "
+"Entrez vrai (true) ou faux (false). Si vrai, les exercices afficheront toujours pas défaut "
 "un bouton 'Réinitialiser'. Vous pouvez outrepasser le tout dans les paramètres de chaque "
 "exercice. Tous les exercices existants seront affectés quand ce paramètre global "
 "est modifié."
@@ -4051,7 +4051,7 @@ msgstr "Activer les notes étudiant"
 msgid ""
 "Enter true or false. If true, students can use the Student Notes feature."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les étudiants peuvent utiliser la fonctionnalité des notes étudiant."
+"Entrez vrai (true) ou faux (false). Si vrai, les étudiants peuvent utiliser la fonctionnalité des notes étudiant."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
@@ -4070,7 +4070,7 @@ msgid ""
 "Enter true or false. If true, answer submissions for problem modules will be"
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, les soumissions de réponses aux modules des exercices seront "
+"Entrez vrai (true) ou faux (false). Si vrai, les soumissions de réponses aux modules des exercices seront "
 "prises en compte dans l'algorithme de notation de l'examen d'entrée."
 
 #. Translators: "Self" is used to denote an openended response that is self-
@@ -4281,8 +4281,8 @@ msgid ""
 " is shown. When False, a panel is displayed with all problems available for "
 "peer grading."
 msgstr ""
-"Quand vrai, seul l'exercice spécifié par \"Lien vers l'emplacement de l'exercice\""
-" est affiché. Quanf faux, un volet est affiché avec tous les exercices disponibles pour "
+"Quand vrai (true), seul l'exercice spécifié par \"Lien vers l'emplacement de l'exercice\""
+" est affiché. Quand faux (false), un volet est affiché avec tous les exercices disponibles pour "
 "l'évaluation par les pairs."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
@@ -4295,7 +4295,7 @@ msgid ""
 "Problem\" is True."
 msgstr ""
 "L'emplacement de l'exercice en cours de notation. Uniquement utilisé quand \"Afficher un seul "
-"exercice\" est vrai."
+"exercice\" est vrai (true)."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid ""
@@ -4303,7 +4303,7 @@ msgid ""
 "when \"Show Single Problem\" is True."
 msgstr ""
 "Définit si un étudiant obtient des crédits pour noter cet exercice. Uniquement utilisé "
-"quand \"Afficher un seul exercice\" est vrai."
+"quand \"Afficher un seul exercice\" est vrai (true)."
 
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Due date that should be displayed."
@@ -4674,7 +4674,7 @@ msgstr ""
 "(Pour la compatibilité des fureteurs, nous recommandons fortement les formats .mp4 et .webm.) "
 "Les étudiants pourront voir le premier vidéo compatible avec leur ordinateur. "
 "Pour permettre aux étudiants de télécharger ces vidéos, définir "
-"Téléchargement de vidéo permis à vrai."
+"Téléchargement de vidéo permis à vrai (true)."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video File URLs"
@@ -4691,7 +4691,7 @@ msgid ""
 "transcript below the video."
 msgstr ""
 "Par défaut, les étudiants peuvent télécharger une transcription .srt ou .txt quand vous définissez "
-"Téléchargement des transcriptins permis à vrai. Si vous voulez fournir une transcription téléchargeable "
+"Téléchargement des transcriptins permis à vrai (true). Si vous voulez fournir une transcription téléchargeable "
 "dans un format différent, nous recommandons que vous téléchargiez une copie en utilisant "
 "le champ Upload a Handout field. Si cela n'est pas possible, vous pouvez poster "
 "un fichier de transcripton sur la page fichiers & téléchargements ou sur Internet, et ensuite ajouter "
@@ -7077,7 +7077,7 @@ msgstr "Exercice a échoué à être {action} pour l'etudiant '{student}'"
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem successfully {action} for student '{student}'"
-msgstr ""
+msgstr "Exercice {action} avec succès pour étudiant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -7086,76 +7086,78 @@ msgid ""
 "Unable to find entrance exam submission to be {action} for student "
 "'{student}'"
 msgstr ""
+"Impossible de trouver la soumission de l'examen d'entrée à être {action} pour étudiant "
+"'{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Entrance exam successfully {action} for student '{student}'"
-msgstr ""
+msgstr "Examen d'entrée {action} avec succès pour étudiant '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Unable to find any students with submissions to be {action}"
-msgstr ""
+msgstr "Impossible de trouver des étudiants avec des soumissions à être {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem failed to be {action} for any of {attempted} students"
-msgstr ""
+msgstr "Exercice échoué à être {action} pour tous les {attempted} étudiants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem successfully {action} for {attempted} students"
-msgstr ""
+msgstr "Exercice {action} avec succès pour {attempted} étudiants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Problem {action} for {succeeded} of {attempted} students"
-msgstr ""
+msgstr "Exercice {action} pour {succeeded} des {attempted} étudiants"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Unable to find any recipients to be {action}"
-msgstr ""
+msgstr "Impossible de trouver un bénéficiaire à être {action}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py
-msgid "Message failed to be {action} for any of {attempted} recipients "
-msgstr ""
+msgid "Message failed to be {action} for any of {attempted} bénéficiaires"
+msgstr "Message échoué à être {action} pour tous les {attempted} destinataires"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Message successfully {action} for {attempted} recipients"
-msgstr ""
+msgstr "Message {action} avec succès pour {attempted} bénéficiaires"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Message {action} for {succeeded} of {attempted} recipients"
-msgstr ""
+msgstr "Message {action} pour {succeeded} des {attempted} bénéficaires"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py
 msgid "Status: {action} {succeeded} of {attempted}"
-msgstr ""
+msgstr "Statut: {succeeded} {action} pour {attempted}"
 
 #. Translators: {skipped} is a count.  This message is appended to task
 #. progress status messages.
 #: lms/djangoapps/instructor_task/views.py
 msgid " (skipping {skipped})"
-msgstr ""
+msgstr " ({skipped} sautés)"
 
 #. Translators: {total} is a count.  This message is appended to task progress
 #. status messages.
 #: lms/djangoapps/instructor_task/views.py
 msgid " (out of {total})"
-msgstr ""
+msgstr " (sur un total de {total})"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Whether to display this module in the table of contents"
@@ -7167,10 +7169,12 @@ msgid ""
 "What format this module is in (used for deciding which grader to apply, and "
 "what to show in the TOC)"
 msgstr ""
+"Le format dans lequel est ce module (utilisé pour décider quelle évaluation à appliquer, et "
+"quoi afficher dans la table des matières)"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Courseware Chrome"
-msgstr ""
+msgstr "Interface usager"
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -7180,6 +7184,11 @@ msgid ""
 "\"accordion\" -- to use the accordion only; or \n"
 "\"tabs,accordion\" -- to use tabs and the accordion."
 msgstr ""
+"Entrez l'interface usager, ou les outils de navigation, à utiliser dans le LMS pour ce XBlock. Les choix valides sont: \n"
+"\"chromeless\" -- ne pas utiliser d'onglets ou d'affichage en accordéon; \n"
+"\"tabs\" -- utiliser les onglets seulement; \n"
+"\"accordion\" -- utiliser l'affichage en accordéon seulement; ou \n"
+"\"tabs,accordion\" -- utiliser les onglets et l'affichage en accordéon."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid "Default Tab"
@@ -7210,7 +7219,7 @@ msgid ""
 "Enter true or false. If true, the course is open to the public. If false, "
 "the course is open only to admins."
 msgstr ""
-"Entrez vrai ou faux. Si vrai, le cours est ouvert au public. Si faux, "
+"Entrez vrai (true) ou faux (false). Si vrai, le cours est ouvert au public. Si faux, "
 "le cours est ouvert uniquement aux administrateurs."
 
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -7221,6 +7230,11 @@ msgid ""
 "the block is considered visible to all. Note that this field is ignored if "
 "the block is visible_to_staff_only."
 msgstr ""
+"Un dictionnaire qui fait la correspondance des groupes qui peuvent être affichés dans ce bloc. Les clés sont "
+"les identifiants des configurations de groupe et les valeurs sont une liste des identifiants de groupes. S'il n'y a "
+"pas de clé pour une configuration de groupe ou si l'ensemble des identifiants de groupe est vide alors "
+"le bloc est considéré visible pour tous. Notez que ce champ est ignoré si "
+"le bloc est visible à l'équipe pédagogique seulement (visible_to_staff_only)."
 
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
@@ -7250,6 +7264,9 @@ msgid ""
 "answers to any open response assessment questions? If not, please do so and "
 "return to this page."
 msgstr ""
+"Imposible de trouver des exercices à réponse ouverte dans ce cours. Avez-vous soumis "
+"des réponses pour une ou des évaluations avec questions à réponse ouverte? Si non, s'il vous plaît "
+"faites le et revenez à cette page."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "AI Assessment"
@@ -7302,6 +7319,8 @@ msgid ""
 "View ungraded submissions submitted by students for the open ended problems "
 "in the course."
 msgstr ""
+"Voir les soumissions non notées soumises par les étudiants pour les exercices à réponses ouvertes "
+"dans ce cours."
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid ""
@@ -7341,7 +7360,7 @@ msgstr "Évaluation par les pairs"
 #. needs to grade
 #: lms/djangoapps/open_ended_grading/views.py
 msgid "Open Ended Panel"
-msgstr ""
+msgstr "Panneau des exercices à réponses ouvertes"
 
 #: lms/djangoapps/open_ended_grading/views.py
 msgid ""
@@ -7351,6 +7370,11 @@ msgid ""
 "        Please check back later for this.\n"
 "        "
 msgstr ""
+"\n"
+"        Erreur lors de l'initialisaton de l'évaluation par les pairs.\n"
+"        Il n'y a eu aucun module d'évaluation par les pairs créé dans ce cours qui vous permettrait de noter les autres.\n"
+"        S'il vous plaît revenez plus tard.\n"
+"        "
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Order Payment Confirmation"
@@ -7509,7 +7533,7 @@ msgstr "Commande"
 
 #: lms/djangoapps/shoppingcart/pdf.py
 msgid "{id_label} # {item_id}"
-msgstr ""
+msgstr "{id_label} # {item_id}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Date: {date}"
@@ -9430,7 +9454,7 @@ msgid ""
 "credit. In order for this to work, a shared secret key MUST be configured "
 "for the credit provider in secure auth settings."
 msgstr ""
-"Lorsque vrai, signale automatiquement le fournisseur de crédit quand un utilisateur demande "
+"Lorsque vrai (true), signale automatiquement le fournisseur de crédit quand un utilisateur demande "
 "un crédit. De façon à ce que cela fonctionne, une clé secrète partagée DOIT être configurée "
 "pour le fournisseur de crédit dans les paramètres d'authentification sécure."
 
@@ -12218,7 +12242,7 @@ msgstr "Gestion de la liste des étudiants"
 
 #: lms/templates/ccx/enrollment.html
 msgid "CCX student list management response message"
-msgstr ""
+msgstr "Message de réponse de la gestion de la liste des étudiants du cours CCX"
 
 #: lms/templates/ccx/enrollment.html
 msgid "Revoke access"
@@ -17310,7 +17334,7 @@ msgid ""
 "This page left intentionally blank. It is not used by edx.org but is left "
 "here for possible use by installations of Open edX."
 msgstr ""
-"Cette page est laissée vide. Elle n'est pas utilisée par edx.org, mais est "
+"Cette page est laissée vide. Elle n'est pas utilisée par edulib.org, mais est "
 "laissée ici pour une éventuelle utilisation par l'installation d'Open edX."
 
 #: lms/templates/static_templates/copyright.html
@@ -18880,7 +18904,7 @@ msgid ""
 "groups see the additional content."
 msgstr ""
 "Chaque groupe de contenu que vous créer peut être associé à une ou plusieurs "
-"cohortess. En plus du contenu de cours qui est prévu pour tous les étudiants, "
+"cohortes. En plus du contenu de cours qui est prévu pour tous les étudiants, "
 "vous pouvez désigner une partie du contenu visible uniquement à des groupes de contenu spécifiques."
 "Seuls les étudiants dans les cohortes qui sont associées à des groupes de contenu spécifiques "
 "verront ce contenu additionnel."
@@ -18907,6 +18931,11 @@ msgid ""
 "experiment. When you create a content experiment for a course, you select "
 "the group configuration to use."
 msgstr ""
+"Utilisez les configurations de groupe de test de contenu si vous faites "
+"des tests, aussi connu sous test A/B, dans votre cours. Les configurations de test de contenu "
+"définissent combien de groupes d'étudiants sont dans un test de contenu. "
+"Quand vous créez un test de contenu pour un cours, vous sélectionnes "
+"la configuration de groupe à essayer."
 
 #: cms/templates/group_configurations.html
 msgid ""
@@ -19382,6 +19411,10 @@ msgid ""
 "updated content. You must manually refresh the randomized content blocks to "
 "bring them up to date with the latest library content."
 msgstr ""
+"Si vous changez et importez une bibliothèque qui est référencée par des blocs de contenus aléatoires "
+"dans un ou plusieurs cours, ces cours n'utilisent pas automatiquement le contenu "
+"mis à jour. Vous devez manuellement rafraichir les blocs de contenus aléatoires "
+"afin de les mettre à jour avec le contenu le plus récent de la bibliothèque."
 
 #: cms/templates/import.html
 msgid "Learn more about importing a library"
@@ -19676,6 +19709,12 @@ msgid ""
 "team will evaluate your request and provide you feedback within 24 hours "
 "during the work week."
 msgstr ""
+"{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités "
+"sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, "
+"tant que les privilège de créateur de cours sont permis par {platform_name}. Notre "
+"équipe évaluera votre demande et vous donnera une rétroaction à l'intérieur de 24 heures "
+"pendant la semaine de travail."
+
 
 #: cms/templates/index.html
 msgid "Your Course Creator Request Status:"
@@ -19696,6 +19735,10 @@ msgid ""
 "edit, while course creator privileges are granted by {platform_name}. Our "
 "team is has completed evaluating your request."
 msgstr ""
+"{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités "
+"sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, "
+"tant que les privilège de créateur de cours sont permis par {platform_name}. Notre "
+"équipe a complété l'évaluation de votre demande."
 
 #: cms/templates/index.html
 msgid "Your Course Creator request is:"
@@ -19720,6 +19763,10 @@ msgid ""
 "edit, while course creator privileges are granted by {platform_name}. Our "
 "team is currently  evaluating your request."
 msgstr ""
+"{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités "
+"sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, "
+"tant que les privilège de créateur de cours sont permis par {platform_name}. Notre "
+"équipe évalue présentement votre demande."
 
 #: cms/templates/index.html
 msgid ""
@@ -19895,6 +19942,13 @@ msgid ""
 "this library as the source library, and specify the number of problems to be"
 " randomly selected and displayed to each student."
 msgstr ""
+"Utilisez le contenu de la bibliothèque dans les cours en ajoutant "
+"la clé de politique {em_start}library_content{em_end} dans la liste des modules avancés "
+"dans les paramètres avancés du cours, et ensuite en ajoutant un bloc de contenu aléatoire "
+"à votre cours. Dans les paramètres pour chaque bloc de contenu aléatoire, sélectionnez "
+"cette bibliothèque comme la bibliothèque source, et spécifier le nombre d'exercices à être "
+"aléatoirement sélectionnés et affichés à chaque étudiant."
+
 
 #: cms/templates/library.html
 msgid "Learn more about content libraries"
@@ -20735,7 +20789,7 @@ msgstr "Ce block contient des composants multiples."
 
 #: cms/templates/temp-course-landing.html
 msgid "{platform_name} edge"
-msgstr ""
+msgstr "edge {platform_name}"
 
 #: cms/templates/textbooks.html
 msgid "New Textbook"
