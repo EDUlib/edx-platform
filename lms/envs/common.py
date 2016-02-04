@@ -2317,10 +2317,7 @@ SOCIAL_SHARING_SETTINGS = {
 SOCIAL_MEDIA_FOOTER_NAMES = [
     "facebook",
     "twitter",
-    "youtube",
-    "linkedin",
-    "google_plus",
-    "reddit",
+    "google_plus"
 ]
 
 # JWT Settings
