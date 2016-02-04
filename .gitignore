@@ -60,6 +60,10 @@ conf/locale/fake*/LC_MESSAGES/*.po
 conf/locale/fake*/LC_MESSAGES/*.mo
 # this was a mistake in i18n_tools, now fixed.
 conf/locale/messages.mo
+conf/locale/fr/LC_MESSAGES/djangojs.po
+conf/locale/fr/LC_MESSAGES/djangojs.mo
+conf/locale/fr/LC_MESSAGES/django.po
+conf/locale/fr/LC_MESSAGES/django.mo
 
 ### Testing artifacts
 .testids/
