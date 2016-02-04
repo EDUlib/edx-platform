@@ -5071,8 +5071,8 @@ msgid ""
 "This Group Configuration is not in use. Start by adding a content experiment"
 " to any Unit via the %(outlineAnchor)s."
 msgstr ""
-"Cette configuration de groupe n'est pas utilisée. Commencez par ajouter une "
-"expérience de contenu à l'une des unités à l'aide de %(outlineAnchor)s."
+"Cette configuration de groupe n'est pas utilisée. Commencez par ajouter un "
+"test de contenu à l'une des unités à l'aide de %(outlineAnchor)s."
 
 #. Translators: this refers to a collection of groups.
 #: cms/static/js/views/group_configuration_item.js
@@ -5914,19 +5914,20 @@ msgstr "Par: Assistant d'enseignement de la communauté"
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-response-show.underscore
 msgid "fmt"
-msgstr ""
+msgstr "fmt"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #, python-format
 msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
-msgstr ""
+msgstr "%(comments_count)s commentaires (%(unread_comments_count)s "
+"commentaires non lus%(span_close)s"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr ""
+msgstr "%(comments_count)s %(span_sr_open)s commentaires %(span_close)s"
 
 #: common/static/common/templates/discussion/thread-response-edit.underscore
 msgid "Editing response"
@@ -5965,7 +5966,7 @@ msgstr[1] "Afficher (%(num_comments)s) commentaires"
 
 #: common/static/common/templates/discussion/thread-response.underscore
 msgid "fmts"
-msgstr ""
+msgstr "fmts"
 
 #: common/static/common/templates/discussion/thread-response.underscore
 msgid "Add a comment"
@@ -7661,8 +7662,7 @@ msgstr ""
 #: cms/templates/js/content-group-details.underscore
 #: cms/templates/js/content-group-editor.underscore
 msgid "Cannot delete when in use by a unit"
-msgstr ""
-"Ne peut être supprimé lorsqu'il est en cours d'utilisation dans une unité"
+msgstr "Ne peut être supprimé lorsqu'il est en cours d'utilisation dans une unité"
 
 #: cms/templates/js/content-group-details.underscore
 msgid "This content group is used in:"
@@ -7698,9 +7698,7 @@ msgstr "Les unités non publiées ne seront pas diffusées."
 
 #: cms/templates/js/course-outline.underscore
 msgid "Unpublished changes to content that will release in the future"
-msgstr ""
-"Modifications non publiées dans les contenus qui seront diffusées "
-"ultérieurement"
+msgstr "Modifications non publiées dans les contenus qui seront diffusées ultérieurement"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Ungraded"
@@ -7866,9 +7864,7 @@ msgstr "Chapitre %s"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "provide the title/name of the chapter that will be used in navigating"
-msgstr ""
-"Veuillez fournir le titre/nom du chapitre qui sera utilisé pendant la "
-"navigation."
+msgstr "Veuillez fournir le titre/nom du chapitre qui sera utilisé pendant la navigation."
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
@@ -7881,12 +7877,11 @@ msgstr "chemin/vers/l'introductionÀLaManipulationDesCookies%d.pdf"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "upload a PDF file or provide the path to a Studio asset file"
-msgstr ""
-"Téléversez un PDF ou fournissez le chemin d'un fichier de ressource Studio"
+msgstr "télécharger un PDF ou fournissez le chemin d'un fichier de ressource Studio"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "Upload PDF"
-msgstr "Envoyer un PDF"
+msgstr "Télécharger un PDF"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "delete chapter"
@@ -7931,9 +7926,7 @@ msgstr "Noter comme :"
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Cannot delete when in use by an experiment"
-msgstr ""
-"Ne peut être supprimé lorsqu'il est en cours d'utilisation par une "
-"expérience"
+msgstr "Ne peut être supprimé lorsqu'il est en cours d'utilisation par un test"
 
 #: cms/templates/js/group-configuration-details.underscore
 msgid "This Group Configuration is used in:"
@@ -7992,9 +7985,9 @@ msgid ""
 "This configuration is currently used in content experiments. If you make "
 "changes to the groups, you may need to edit those experiments."
 msgstr ""
-"Cette configuration est actuellement utilisé dans des expériences de "
+"Cette configuration est actuellement utilisé dans des tests de "
 "contenu. Si vous apportez des modifications aux groupes, vous devrez peut-"
-"être modifier ces expériences."
+"être modifier ces tests."
 
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
