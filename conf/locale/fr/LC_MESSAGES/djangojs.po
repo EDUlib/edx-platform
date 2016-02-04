@@ -6286,7 +6286,7 @@ msgid ""
 " also receive an email with the same information."
 msgstr ""
 "Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous "
-"recevrez également un e-mail avec les mêmes informations."
+"recevrez également un courriel avec les mêmes informations."
 
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
