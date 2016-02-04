@@ -959,7 +959,7 @@ msgstr "Veuillez patienter"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "LONG_DATE_FORMAT"
-msgstr ""
+msgstr "%A, %d %B %Y"
 
 #. Translators: the translation for "DATE_TIME_FORMAT" must be a format
 #. string for formatting dates with times.  For example, the American
@@ -967,7 +967,7 @@ msgstr ""
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "DATE_TIME_FORMAT"
-msgstr ""
+msgstr "%d %b, %Y à %H:%M"
 
 #. Translators: the translation for "SHORT_DATE_FORMAT" must be a
 #. format string for formatting dates in a brief form.  For example,
@@ -975,14 +975,14 @@ msgstr ""
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "SHORT_DATE_FORMAT"
-msgstr ""
+msgstr "%d %b %Y"
 
 #. Translators: the translation for "TIME_FORMAT" must be a format
 #. string for formatting times.  For example, the American English
 #. form is "%H:%M:%S". See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "TIME_FORMAT"
-msgstr ""
+msgstr "%H:%M:%S"
 
 #. Translators: This is an AM/PM indicator for displaying times.  It is
 #. used for the %p directive in date-time formats. See http://strftime.org
@@ -11234,7 +11234,7 @@ msgid ""
 "<strong>Warning:</strong> Your browser is not fully supported. We strongly "
 "recommend using {chrome_link} or {ff_link}."
 msgstr ""
-"<strong>Attention :</strong> Votre navigateur n'est pas complètement "
+"<strong>Attention :</strong> Votre fureteur n'est pas complètement "
 "supporté. Nous recommandons vivement d'utiliser {chrome_link} ou {ff_link}."
 
 #: lms/templates/navigation.html themes/red-theme/lms/templates/header.html
@@ -11892,7 +11892,7 @@ msgid ""
 " ctrl-minus at the same time."
 msgstr ""
 "Si vous avez besoin de polices de caractères plus grandes ou plus petites, "
-"utilisez les paramètres de votre navigateur pour les agrandir ou les "
+"utilisez les paramètres de votre fureteur pour les agrandir ou les "
 "diminuer. Sous Google Chrome, ceci se fait avec CTRL+PLUS, ou CTRL+MOINS."
 
 #: lms/templates/video.html
@@ -14107,7 +14107,7 @@ msgid ""
 msgstr ""
 "Pour commencer, activer votre compte  {platform_name} en cliquant sur le "
 "lien ci-dessous ou copier coller le lien dans la barre d'adresse de votre "
-"navigateur."
+"fureteur."
 
 #: lms/templates/emails/activation_email.txt
 msgid ""
@@ -14343,7 +14343,7 @@ msgid ""
 "(2) Once registered, copy the redeem URL and paste it in your web browser."
 msgstr ""
 "(2) Une fois identifié, copiez l'URL de remboursement et collez la dans "
-"votre navigateur internet."
+"votre fureteur internet."
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid ""
@@ -17562,11 +17562,11 @@ msgid ""
 "turned on, and allowed to function in your web browser (commonly adjustable "
 "in your browser settings).</strong>"
 msgstr ""
-"Veuillez vous assurer que votre navigateur est mis à jour à la{a_start} "
+"Veuillez vous assurer que votre fureteur est mis à jour à la{a_start} "
 "version la plus récente possible{a_end}. Veuillez aussi vous assurer que "
 "votre <strong> webcam est branchée, mise sous tension, et autorisé à "
-"fonctionner dans votre navigateur Web (paramètre communément ajustable dans "
-"les paramètres du navigateur). </strong>"
+"fonctionner dans votre fureteur Web (paramètre communément ajustable dans "
+"les paramètres du fureteur). </strong>"
 
 #: lms/templates/verify_student/reverify.html
 msgid "Re-Verification"
@@ -20948,7 +20948,7 @@ msgid ""
 msgstr ""
 "Merci pour votre inscription à {studio_name}! Pour activer votre compte "
 "cliquez sur le lien ci-dessous ou copier coller le lien dans la barre de "
-"recherche de votre navigateur:"
+"recherche de votre fureteur:"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
