@@ -4905,7 +4905,7 @@ msgstr ""
 #: lms/djangoapps/branding/api.py cms/templates/widgets/footer.html
 #: themes/red-theme/lms/templates/footer.html
 msgid "Powered by Open edX"
-msgstr "Propulsé pas Open edX"
+msgstr "Propulsé par Open edX"
 
 #: lms/templates/static_templates/blog.html
 msgid "Blog"
@@ -10527,14 +10527,17 @@ msgid "Audit This Course"
 msgstr "Suivre ce cours"
 
 #: common/templates/course_modes/choose.html
+msgid "Audit This Course (No Certificate)"
+msgstr "Suivre ce cours (sans attestation)"
+
+#: common/templates/course_modes/choose.html
 msgid ""
-"Audit this course for free and have complete access to all the course "
-"material, activities, tests, and forums.  Please note that this track does "
-"not offer a certificate for learners who earn a passing grade."
+"Audit this course for free and have complete access to all the course material, activities, tests, and forums.  "
+"{b_start}Please note that this track does not offer a certificate for learners who earn a passing grade.{b_end}"
 msgstr ""
 "Auditer ce cours gratuitement et bénéficier d'un accès complet à tous les supports de cours, "
-"les activités, les tests et forums. S'il vous plaît noter que ce cours ne propose pas une attestation "
-"pour les étudiants qui obtiennet une note de passage."
+"les activités, les tests et forums.  {b_start}S'il vous plaît noter que ce cours ne propose d'attestation "
+"pour les étudiants qui obtiennent une note de passage.{b_end}"
 
 #: lms/templates/admin_dashboard.html
 msgid "{platform_name}-wide Summary"
