@@ -10436,26 +10436,26 @@ msgstr "Avantages d'une attestation vérifiée"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Eligible for credit:{b_end} Receive academic credit after "
+"<b>Eligible for credit:</b> Receive academic credit after "
 "successfully completing the course"
 msgstr ""
-"{b_start}Admissible pour crédit:{b_end} Recevez des crédits universitaires après "
+"<b>Admissible pour crédit:</b> Recevez des crédits universitaires après "
 "avoir terminé le cours avec succès"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Official:{b_end} Receive an instructor-signed certificate with the "
+"<b>Official:</b> Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"{b_start}Officiel:{b_end} Recevez une attestation signée par l'enseignant et avec "
+"<b>Officiel:</b> Recevez une attestation signée par l'enseignant et avec "
 "le logo de l'institution"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
+"<b>Easily shareable:</b> Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Facilement partageable:{b_end} Ajouter l'attestation à votre CV, "
+"<b>Facilement partageable:</b> Ajouter l'attestation à votre CV, "
 "ou poster le directement sur LinkedIn"
 
 #: common/templates/course_modes/choose.html
@@ -10474,34 +10474,34 @@ msgstr ""
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
+"<b>Official: </b>Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"{b_start}Officiel: {b_end}Recevoir une attestation signé par l'enseignant avec "
+"<b>Officiel: </b>Recevoir une attestation signé par l'enseignant avec "
 "le logo de l'institution"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
+"<b>Easily shareable: </b>Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Facilement partageable: {b_end}Ajouter l'attestation à votre CV ou curriculum vitae, "
+"<b>Facilement partageable: </b>Ajouter l'attestation à votre CV ou curriculum vitae, "
 "ou poster le directement sur les réseaux sociaux"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Motivating: {b_end}Give yourself an additional incentive to "
+"<b>Motivating: </b>Give yourself an additional incentive to "
 "complete the course"
 msgstr ""
-"{b_start}Motivant: {b_end}Donnez-vous une incitation supplémentaire pour "
+"<b>Motivant: </b>Donnez-vous une incitation supplémentaire pour "
 "compléter le cours"
 
 #: common/templates/course_modes/choose.html
 msgid ""
-"{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified "
+"<b>Support our Mission: </b> EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr ""
-"{b_start}Supportez notre mission: {b_end} EdX, une organisation sans but lucratif, repose sur les attestations "
+"<b>Supportez notre mission: </b> EdX, une organisation sans but lucratif, repose sur les attestations "
 "vérifiées afin de financer l'éducation gratuite pour tous à l'échelle mondiale"
 
 #: common/templates/course_modes/choose.html
