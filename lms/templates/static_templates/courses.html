@@ -1,16 +1,10 @@
-<%!
-  import json
-  from django.utils.translation import ugettext as _
-  from openedx.core.lib.js_utils import escape_json_dumps
-  from xmodule.modulestore.django import modulestore
-  from xmodule.contentstore.django import contentstore
-  from microsite_configuration import microsite
-%>
-<%inherit file="../main.html" />
-<%
-  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
-%>
+<%! from xmodule.modulestore.django import modulestore %>
 
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from django.core.urlresolvers import reverse %>
+
+<%inherit file="../main.html"/>
 <%namespace name='static' file='../static_content.html'/>
 
 #####% if course_discovery_enabled:
