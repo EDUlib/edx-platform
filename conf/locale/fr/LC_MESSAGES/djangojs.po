@@ -6452,6 +6452,7 @@ msgstr ""
 msgid "Generate a Certificate for all "
 msgstr "Générer une attestation pour tous "
 
+#: lms/templates/discovery/course_card.underscore
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "New"
 msgstr "Nouveau"
