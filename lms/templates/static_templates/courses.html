@@ -44,32 +44,32 @@ logo_alt_text = "EDUlib Logo"
 
 <section class="home">
 
-  <header class="edulib">
-    <div class="outer-wrapper">
-      <div class="title">
-        <hgroup>
-          % if homepage_overlay_html:
-            ${homepage_overlay_html}
-          % else:
-            % if self.stanford_theme_enabled():
-              <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
-              <h2>${_("For anyone, anywhere, anytime")}</h2>
-            % else:
-              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
-            % endif
-          % endif
-        </hgroup>
-      </div>
-
-      % if show_homepage_promo_video:
-        <a href="#video-modal" class="media" rel="leanModal">
-          <div class="hero">
-            <div class="play-intro"></div>
-          </div>
-        </a>
-      % endif
-    </div>
-  </header>
+#####  <header class="edulib">
+#####    <div class="outer-wrapper">
+#####      <div class="title">
+#####        <hgroup>
+#####          % if homepage_overlay_html:
+#####            ${homepage_overlay_html}
+#####          % else:
+#####            % if self.stanford_theme_enabled():
+#####              <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
+#####              <h2>${_("For anyone, anywhere, anytime")}</h2>
+#####            % else:
+#####              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
+#####            % endif
+#####          % endif
+#####        </hgroup>
+#####      </div>
+#####
+#####      % if show_homepage_promo_video:
+#####        <a href="#video-modal" class="media" rel="leanModal">
+#####          <div class="hero">
+#####            <div class="play-intro"></div>
+#####          </div>
+#####        </a>
+#####      % endif
+#####    </div>
+#####  </header>
 
   ##### insertion du code de EDUlib
 
