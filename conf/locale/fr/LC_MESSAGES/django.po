@@ -10564,6 +10564,11 @@ msgid "Hide Annotations"
 msgstr "Cacher les annotations"
 
 #: lms/templates/course.html
+#: lms/templates/course-edulib.html
+msgid "New"
+msgstr "Nouveau"
+
+#: lms/templates/course.html
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
 
