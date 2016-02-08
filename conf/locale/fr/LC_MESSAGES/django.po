@@ -13436,7 +13436,7 @@ msgstr "Votre note finale :"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
-msgstr "Note requise pour le {cert_name_short}:"
+msgstr "Note requise pour une {cert_name_short}:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required to pass this course:"
@@ -13475,7 +13475,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your {cert_name_short} is Generating"
-msgstr "Votre attestation est en cours de préparation"
+msgstr "Votre {cert_name_short} est en cours de préparation"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open the certificate web view"
@@ -13483,7 +13483,7 @@ msgstr "Ce lien ouvrira l'attestation web view"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "View {cert_name_short}"
-msgstr "Voir l'attestation"
+msgstr "Voir {cert_name_short}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open/download a PDF document"
@@ -13491,11 +13491,11 @@ msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger votre attestation (PDF)"
+msgstr "Télécharger votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre attestation (PDF)"
+msgstr "Télécharger votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -13507,7 +13507,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre attestation vérifiée (PDF)"
+msgstr "Télécharger votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -13529,7 +13529,7 @@ msgid ""
 msgstr ""
 "Comme nous ne disposions pas de jeu valide de photos de vérification de "
 "votre part lorsque votre attestation ide réussite a été générée, nous n'avons pas pu "
-"vous octroyer une attestation vérifiée {cert_name_short}. Une attestation sur "
+"vous octroyer une {cert_name_long}. Une {cert_name_short} sur "
 "l'honneur vous a été octroyée en remplacement."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13623,7 +13623,7 @@ msgid ""
 "Are you sure you want to unenroll from the verified %(cert_name_long)s track"
 " of %(course_name)s (%(course_number)s)?"
 msgstr ""
-"Êtes-vous sûr de vouloir vous désinscrire du %(cert_name_long)s vérifié"
+"Êtes-vous certain de vouloir vous désinscrire de cette %(cert_name_long)s vérifiée"
 " pour %(course_name)s (%(course_number)s)?"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13693,7 +13693,7 @@ msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
 msgstr ""
-"Obtenez une attestation vérifiée afin de mettre en valeur les connaissances et "
+"Obtenez une {cert_name_long} afin de mettre en valeur les connaissances et "
 "les compétences acquises dans ce cours."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13704,7 +13704,7 @@ msgid ""
 msgstr ""
 "C'est officiel. C'est facilement partageable. C'est un facteur de motivation "
 "afin de compléter le cours. <br>{link_start}Apprenez en plus au sujet "
-"des attestations vérifiées{link_end}."
+"d'une {cert_name_long}{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
