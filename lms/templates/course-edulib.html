@@ -5,19 +5,13 @@ from django.core.urlresolvers import reverse
 from openedx.core.lib.courses import course_image_url
 %>
 <%page args="course" />
-##### nouveau code Dogwood
 <article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
-##### nouveau code Dogwood
-##### code Cypress
-###########<article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
-###########%if course.is_newish:
-###########  <span class="status">${_("New")}</span>
-###########%endif
-##### code Cypress
+%if course.is_new:
+  <span class="status">${_("New")}</span>
+%endif
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     <header class="course-image">
       <div class="cover-image">
-#####        <img src="${course.course_image_url | h}" alt="${course.display_name_with_default} ${course.display_number_with_default | h}" />
         <img src="${course_image_url(course) | h}" alt="${course.display_name_with_default} ${course.display_number_with_default | h}" />
         <div class="learn-more" aria-hidden=true>${_("LEARN MORE")}</div>
       </div>
