@@ -4938,7 +4938,7 @@ msgstr "Plan du site"
 
 #: lms/djangoapps/branding/api.py
 msgid "Terms of Service & Honor Code"
-msgstr "Conditions d'utilisation & code sur l'honneur"
+msgstr "Conditions générales du service & code sur l'honneur"
 
 #: cms/templates/widgets/footer.html
 #: lms/templates/static_templates/privacy.html
@@ -5237,7 +5237,7 @@ msgstr "Attestation invalide"
 #. be ignored
 #: lms/djangoapps/certificates/views/webview.py
 msgid "Terms of Service &amp; Honor Code"
-msgstr "Conditions d'utilisation &amp; code sur l'honneur"
+msgstr "Conditions générales du service &amp; code sur l'honneur"
 
 #. Translators: This line appears as a byline to a header image and describes
 #. the purpose of the page
@@ -9749,9 +9749,26 @@ msgstr "J'acccepte les {terms_of_service} {platform_name}."
 #. in order to register a new account.
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
+#. msgstr "Dans le cadre de l'initiative EDUlib (ou FUN), des équipes de chercheurs vont recueillir et analyser les traces informatiques des activités de tous les participants, dans le but de produire des connaissances scientifiques et d'améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées, par une équipe de l'Université de Montréal sous la supervision du Pr. Poellhuber, par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible. J'acccepte les {terms_of_service} {platform_name}."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "I agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}."
+msgstr "J'accepte {link_start}les conditions générales du service{link_end} et {link_start2}le code sur l'honneur{link_end2} {platform_name}." 
+
+#. Translators: "Terms of Service" is a legal document users must agree to
+#. in order to register a new account.
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "You must agree to the {platform_name} {terms_of_service}."
 msgstr "Vous devez accepter les {terms_of_service} {platform_name}."
+
+#. Translators: "Terms of Service" is a legal document users must agree to
+#. in order to register a new account.
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "You must agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}."
+msgstr "Vous devez accepter {link_start}les conditions générales du service{link_end} et {link_start2}le code sur l'honneur{link_end2} {platform_name} ."
 
 #: openedx/core/lib/api/view_utils.py
 msgid "This value is invalid."
@@ -11372,8 +11389,13 @@ msgstr "Accusés de réception des comptes"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
+msgid "I agree to the {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}"
+msgstr "J'accepte les {link_start}conditions générales du service{link_end} et {link_start2}code sur l'honneur{link_end2}"
+
+#: lms/templates/register-shib.html lms/templates/register.html
+#: lms/templates/signup_modal.html
 msgid "I agree to the {link_start}Terms of Service{link_end}"
-msgstr "J'accepte les {link_start}conditions d'utilisation du Service{link_end}"
+msgstr "J'accepte les {link_start}conditions générales du service{link_end}"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
@@ -17375,7 +17397,7 @@ msgstr "Kit média"
 #: lms/templates/static_templates/news.html
 #: lms/templates/static_templates/press.html
 msgid "In the Press"
-msgstr "Dans la presse"
+msgstr "Dans les nouvelles"
 
 #: lms/templates/static_templates/server-down.html
 msgid "Currently the {platform_name} servers are down"
