@@ -793,17 +793,42 @@ class RegistrationView(APIView):
 
         # Translators: "Terms of Service" is a legal document users must agree to
         # in order to register a new account.
-        label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
-            platform_name=configuration_helpers.get_value("PLATFORM_NAME", settings.PLATFORM_NAME),
-            terms_of_service=terms_link
-        )
+##### EUCALYPTUS CODE
+#####        label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
+#####            platform_name=get_themed_value("PLATFORM_NAME", settings.PLATFORM_NAME),
+#####            terms_of_service=terms_link
+#####        )
+#####
+#####        # Translators: "Terms of Service" is a legal document users must agree to
+#####        # in order to register a new account.
+#####        error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
+#####            platform_name=get_themed_value("PLATFORM_NAME", settings.PLATFORM_NAME),
+#####            terms_of_service=terms_link
+#####        )
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+        #label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
+        #    platform_name=settings.PLATFORM_NAME,
+        #    terms_of_service=terms_link
+        #)
+
+        label = _(u"I agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}.").format(
+                platform_name=settings.PLATFORM_NAME,
+                link_start='<a href="{url}" class="new-vp">'.format(url=marketing_link('TOS')), link_end='</a>',
+                link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>')
 
         # Translators: "Terms of Service" is a legal document users must agree to
         # in order to register a new account.
-        error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
-            platform_name=configuration_helpers.get_value("PLATFORM_NAME", settings.PLATFORM_NAME),
-            terms_of_service=terms_link
-        )
+        #error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
+        #    platform_name=settings.PLATFORM_NAME,
+        #    terms_of_service=terms_link
+        #)
+
+        error_msg = _(u"You must agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}.").format(
+                platform_name=settings.PLATFORM_NAME,
+                link_start='<a href="{url}" class="new-vp">'.format(url=marketing_link('TOS')), link_end='</a>',
+                link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>')
+##### DOGWOOD CODE
 
         form_desc.add_field(
             "honor_code",
@@ -836,17 +861,42 @@ class RegistrationView(APIView):
 
         # Translators: "Terms of service" is a legal document users must agree to
         # in order to register a new account.
-        label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
-            platform_name=configuration_helpers.get_value("PLATFORM_NAME", settings.PLATFORM_NAME),
-            terms_of_service=terms_link
-        )
+##### EUCALYPTUS CODE
+#####        label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
+#####            platform_name=get_themed_value("PLATFORM_NAME", settings.PLATFORM_NAME),
+#####            terms_of_service=terms_link
+#####        )
+#####
+#####        # Translators: "Terms of service" is a legal document users must agree to
+#####        # in order to register a new account.
+#####        error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
+#####            platform_name=get_themed_value("PLATFORM_NAME", settings.PLATFORM_NAME),
+#####            terms_of_service=terms_link
+#####        )
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+        #label = _(u"I agree to the {platform_name} {terms_of_service}.").format(
+        #    platform_name=settings.PLATFORM_NAME,
+        #    terms_of_service=terms_link
+        #)
+
+        label = _(u"I agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}.").format(
+                platform_name=settings.PLATFORM_NAME,
+                link_start='<a href="{url}" class="new-vp">'.format(url=marketing_link('TOS')), link_end='</a>',
+                link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>')
 
         # Translators: "Terms of service" is a legal document users must agree to
         # in order to register a new account.
-        error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
-            platform_name=configuration_helpers.get_value("PLATFORM_NAME", settings.PLATFORM_NAME),
-            terms_of_service=terms_link
-        )
+        #error_msg = _(u"You must agree to the {platform_name} {terms_of_service}.").format(
+        #    platform_name=settings.PLATFORM_NAME,
+        #    terms_of_service=terms_link
+        #)
+
+        error_msg = _(u"You must agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}.").format(
+                platform_name=settings.PLATFORM_NAME,
+                link_start='<a href="{url}" class="new-vp">'.format(url=marketing_link('TOS')), link_end='</a>',
+                link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>')
+##### DOGWOOD CODE
 
         form_desc.add_field(
             "terms_of_service",
