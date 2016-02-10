@@ -14997,11 +14997,11 @@ msgstr "Générer un exemple d'attestations pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Example Certificates"
-msgstr "Générer des examples d'attestations"
+msgstr "Générer des exemples d'attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generating example {name} certificate"
-msgstr "Générer un exemple d'attestation {name}"
+msgstr "Générer un exemple d'attestation"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Error generating example {name} certificate: {error}"
@@ -15066,7 +15066,7 @@ msgstr "L'état des tâches actives apparaît dans la table ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate Certificates"
-msgstr "Regénerer les attestations"
+msgstr "Regénérer les attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
@@ -15095,6 +15095,64 @@ msgid ""
 msgstr ""
 "Utilisez ceci afin de générer des attestations pour les utilisateurs qui n'ont pas réussi le cours mais "
 "qui ont reçus une dérogation par l'équipe de cours pour recevoir une attestation."
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid
+"To regenerate certificates for your course, chose the learners who will receive regenerated certificates and click <br/> Regenerate Certificates."
+msgstr
+"Pour regénérer des attestations pour votre cours, choisissez les étudiants qui recevront des attestations et cliquez sur <br/> Regénérer les attestations."
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Regenerate for learners who have already received certificates. ({count})"
+msgstr "Regénérer pour les étudiants qui ont déjà reçu des attestations. ({count})"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Regenerate for learners who have not received certificates. ({count})"
+msgstr "Regénérer pour les étudiants qui n'ont pas reçu d'attestations. ({count})"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Regenerate for learners in an error state. ({count})"
+msgstr "Regénérer pour les étudiants qui sont en statut d'erreur. ({count})"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "Certificate Generation History"
+msgstr "Historique de génération d'attestations."
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid "SET CERTIFICATE EXCEPTIONS"
+msgstr "Dérogations d'attestation"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Enter the username or email address of each learner that you want to add as an exception."
+msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque étudiant que vous désirez ajouter comme dérogation."
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Student email or username"
+msgstr "nom d'utilisateur ou adresse courriel"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Free text notes"
+msgstr "Explication pour la dérogation"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificates.html
+msgid
+"Set exceptions to generate certificates for learners who did not qualify for a certificate but have "
+"been given an exception by the course team. After you add learners to the exception list, click Generate "
+"Exception Certificates below."
+msgstr 
+"Appliquer les dérogrations pour la génération des attestations pour les étudiants qui ne se qualifient pas pour une attestation mais qui "
+"ont reçu une dérogation par l'équipe pédagogique. Après avoir ajouté des étudiants à la liste de dérogation, cliquez sur "
+"Générer les attestations de dérogation plus bas."
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Enrollment Information"
