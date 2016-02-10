@@ -96,9 +96,7 @@ div.wrapper-footer {
 	min-height: 55px;
 }
 
-footer#footer-edx-v3 .legal-notices {
-    margin: 0 !important;
-}
+footer#footer-edx-v3 .site-details {width: 65% !important;}
 
 footer#footer-edx-v3 .copyright {
     font-size: 0.7em;
@@ -115,6 +113,8 @@ footer#footer-edx-v3 .openedx-link {
 footer#footer-edx-v3 .openedx-link img {
     width: 140px !important;
 }
+
+footer#footer-edx-v3 .external-links {width: 25% !important;}
 
 footer#footer-edx-v3 .external-links:last-child {float: right;}
 
@@ -154,9 +154,9 @@ footer.partners-footer a, div.references a {
 
 
 //  Redimensionnement de la bannière d'accueil
-section.home header {height: 150px;}
-section.home header .outer-wrapper {padding: 20px;}
-section.home header .title {
+section.home header.banner {height: 150px;}
+section.home header.banner .outer-wrapper {padding: 20px;}
+section.home header.banner .title {
     min-height: 100px;
     background-color: rgba(255, 255, 255, 0.75);
     padding: 25px 0 0 0;
@@ -193,4 +193,9 @@ section.about ol ul {list-style-type: circle;}
 
 .find-courses, .university-profile {
     background: none !important;
+}
+
+.find-courses {
+    //Retirer si la recherche est utilisée
+    display: none !important;
 }
