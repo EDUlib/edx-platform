@@ -4691,7 +4691,7 @@ msgid ""
 "transcript below the video."
 msgstr ""
 "Par défaut, les étudiants peuvent télécharger une transcription .srt ou .txt quand vous définissez "
-"Téléchargement des transcriptins permis à vrai (true). Si vous voulez fournir une transcription téléchargeable "
+"Téléchargement des transcripts permis à vrai (true). Si vous voulez fournir une transcription téléchargeable "
 "dans un format différent, nous recommandons que vous téléversiez une copie en utilisant "
 "le champ Upload a Handout field. Si cela n'est pas possible, vous pouvez poster "
 "un fichier de transcripton sur la page fichiers & téléchargements ou sur Internet, et ensuite ajouter "
@@ -4712,7 +4712,7 @@ msgstr ""
 "Permet aux étudiants de télécharger la transcription chronométrée. Un lien pour télécharger le fichier "
 "apparait sous le vidéo. Par défaut, la transcription est un fichier .srt ou .txt. "
 "Si vous désirez fournir la transcription pour téléchargement dans un format "
-"différent, téléversez un fichier en utilisant le champ Téléverser document de cours."
+"différent, téléversez un fichier en utilisant le champ Téléverser un document de cours."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Download Transcript Allowed"
@@ -4792,7 +4792,7 @@ msgid ""
 "by clicking Download Handout under the video."
 msgstr ""
 "Téléversez un document accompagnant ce vidéo. Les étudiants peuvent télécharger ce document "
-"en cliquant Télécharger document sous le vidéo."
+"en cliquant Téléchargez document sous le vidéo."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Upload Handout"
@@ -12957,7 +12957,7 @@ msgstr "Infos et actualités"
 
 #: lms/templates/courseware/info.html
 msgid "Handout Navigation"
-msgstr "Navigation des documents pédagogiques"
+msgstr "Navigation des documents de cours"
 
 #: lms/templates/courseware/info.html
 msgid "Important Course Dates"
@@ -17895,7 +17895,7 @@ msgid ""
 "Handouts sidebar also appear in this list."
 msgstr ""
 "L'image du cours, le texte des chapitres, et les fichiers qui apparaissent dans la colonne "
-"des Documents du cours apparaitront aussi dans cette liste."
+"des Documents de cours apparaitront aussi dans cette liste."
 
 #: cms/templates/asset_index.html
 msgid "Using File URLs"
@@ -17908,7 +17908,7 @@ msgid ""
 msgstr ""
 "Utilisez la valeur de {em_start}l'URL {studio_name}{em_end} pour créer un "
 "lien depuis le fichier ou l'image d'un composant, une mise à jour du cours, "
-"ou le syllabus."
+"ou un document du cours."
 
 #: cms/templates/asset_index.html
 msgid ""
