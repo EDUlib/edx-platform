@@ -6474,14 +6474,32 @@ msgstr ""
 "Vous pouvez ajouter un nom d'utilisateur ou une adresse courriel pouvant être ajouté à la liste "
 "de dérogation."
 
+#. Modified by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate a Certificate for all "
-msgstr "Générer une attestation toutes les "
+msgstr "Générer une attestation pour tous les "
 
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Student email or username"
+msgstr "nom d'utilisateur ou adresse courriel"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Free text notes"
+msgstr "Explication pour la dérogation"
+
+#. Added by EDUlib
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
+msgid "Enter the username or email address of each learner that you want to add as an exception."
+msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque étudiant que vous désirez ajouter comme dérogation."
+
+#. Modified by EDUlib
 #: lms/templates/discovery/course_card.underscore
 msgid "New"
 msgstr "Nouveau"
 
+#. Modified by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "New "
 msgstr "nouveaux"
