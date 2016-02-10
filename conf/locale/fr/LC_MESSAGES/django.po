@@ -2176,7 +2176,7 @@ msgstr "Le nombre de fois que l'étudiant peut essayer de répondre à cet exerc
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Allow File Uploads"
-msgstr "Permettre les téléchargements de fichiers"
+msgstr "Permettre les téléversements de fichiers"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Whether or not the student can submit files as a response."
@@ -2510,7 +2510,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
-msgstr "Crédentiels de téléchargement de vidéo"
+msgstr "Crédentiels de téléversement de vidéo"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2979,8 +2979,8 @@ msgid ""
 "Files & Uploads page. You can also set the course image on the Settings & "
 "Details page."
 msgstr ""
-"Éditer le nom du fichier de l'image du cours. Vous devez télécharger ce fichier sur la page " 
-"Fichiers et téléchargements. Vous pouvez aussi définit l'image de cours sur la page Dates et détails."
+"Éditer le nom du fichier de l'image du cours. Vous devez téléverser ce fichier sur la page " 
+"Fichiers et téléversements. Vous pouvez aussi définit l'image de cours sur la page Dates et détails."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Issue Open Badges"
@@ -3929,7 +3929,7 @@ msgid ""
 "Enter the path to use for files on the Files & Uploads page. This value "
 "overrides the Studio default, c4x://."
 msgstr ""
-"Entrez le chemin d'accès à utiliser pour les fichiers sur la page Fichiers et téléchargements. Cette valeur "
+"Entrez le chemin d'accès à utiliser pour les fichiers sur la page Fichiers et téléversements. Cette valeur "
 "outrepasse la valeur de défaut de Studio, c4x://."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -4020,7 +4020,7 @@ msgid ""
 " \"uk\": \"/static/DemoX-D01_1_uk.srt\"}}"
 msgstr ""
 "Identifier un vidéo, d'une durée de 5 à 10 secondes, à jouer avant les vidéos du cours. "
-"Entrez l'identifiant du vidéo de la page Video Uploads et une ou plusieurs fichiers de transcriptions "
+"Entrez l'identifiant du vidéo de la page Téléversements de vidéos et une ou plusieurs fichiers de transcriptions "
 "dans le format suivant: {\"video_id\": \"ID\", \"transcripts\": "
 "{\"language\": \"/static/filename.srt\"}}. Par exemple, une entré pour un vidéo "
 "avec deux transcriptions resemblerait à ceci: {\"video_id\": \"77cef264-d6f5-4cf2"
@@ -4536,7 +4536,7 @@ msgstr "Quelque chose s'est mal passé avec les transcriptions SubRip pendant l'
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
-msgstr "{exception_message}: Impossible de télécharger les transcriptions: {user_filename}"
+msgstr "{exception_message}: Impossible de téléverser les transcriptions: {user_filename}"
 
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py
 msgid "Invalid encoding type, transcripts should be UTF-8 encoded."
@@ -4644,7 +4644,7 @@ msgstr "Le URL externe pour télécharger le vidéo."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Download Video"
-msgstr "Télécharger le vidéo"
+msgstr "Téléchargez le vidéo"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid ""
@@ -4692,7 +4692,7 @@ msgid ""
 msgstr ""
 "Par défaut, les étudiants peuvent télécharger une transcription .srt ou .txt quand vous définissez "
 "Téléchargement des transcriptins permis à vrai (true). Si vous voulez fournir une transcription téléchargeable "
-"dans un format différent, nous recommandons que vous téléchargiez une copie en utilisant "
+"dans un format différent, nous recommandons que vous téléversiez une copie en utilisant "
 "le champ Upload a Handout field. Si cela n'est pas possible, vous pouvez poster "
 "un fichier de transcripton sur la page fichiers & téléchargements ou sur Internet, et ensuite ajouter "
 "le URL de la transcription ici. Les étudiants verront un lien pour télécharger cette transcription "
@@ -4712,7 +4712,7 @@ msgstr ""
 "Permet aux étudiants de télécharger la transcription chronométrée. Un lien pour télécharger le fichier "
 "apparait sous le vidéo. Par défaut, la transcription est un fichier .srt ou .txt. "
 "Si vous désirez fournir la transcription pour téléchargement dans un format "
-"différent, chargez un fichier en utilisant le champ Télécharger document de cours."
+"différent, téléversez un fichier en utilisant le champ Téléverser document de cours."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Download Transcript Allowed"
@@ -4745,8 +4745,8 @@ msgid ""
 "Add transcripts in different languages. Click below to specify a language "
 "and upload an .srt transcript file for that language."
 msgstr ""
-"Ajouter des transcriptions dans différentes langues. Cliquex ci-dessous pour spécifier une langue "
-"et télécharger un fichier de transcription .srt dans cette langue."
+"Ajouter des transcriptions dans différentes langues. Cliquez ci-dessous pour spécifier une langue "
+"et téléversez un fichier de transcription .srt dans cette langue."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Transcript Languages"
@@ -4791,12 +4791,12 @@ msgid ""
 "Upload a handout to accompany this video. Students can download the handout "
 "by clicking Download Handout under the video."
 msgstr ""
-"Téléchargez un document accompagnant ce vidéo. Les étudiants peuvent télécharger ce document "
+"Téléversez un document accompagnant ce vidéo. Les étudiants peuvent télécharger ce document "
 "en cliquant Télécharger document sous le vidéo."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Upload Handout"
-msgstr "Télécharger document de cours "
+msgstr "Téléversez un document de cours "
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid ""
@@ -4957,11 +4957,11 @@ msgstr "Conditions générales du service"
 
 #: lms/djangoapps/branding/api.py
 msgid "Download the {platform_name} mobile app from the Apple App Store"
-msgstr "Télécharger l'application mobile {platform_name} à partir du Apple App Store"
+msgstr "Téléchargez l'application mobile {platform_name} à partir du Apple App Store"
 
 #: lms/djangoapps/branding/api.py
 msgid "Download the {platform_name} mobile app from Google Play"
-msgstr "Télécharger l'application mobile {platform_name} à partir de Google Play"
+msgstr "Téléchargez l'application mobile {platform_name} à partir de Google Play"
 
 #: lms/djangoapps/ccx/plugins.py
 msgid "CCX Coach"
@@ -6001,7 +6001,7 @@ msgstr "Niveau de commentaire trop profond"
 msgid ""
 "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
-"Erreur de téléchargement de fichier. S'il vous plaît contacter l'administrateur du site. Merci."
+"Erreur de téléversement de fichier. S'il vous plaît contacter l'administrateur du site. Merci."
 
 #: lms/djangoapps/django_comment_client/base/views.py
 msgid "Good"
@@ -6069,12 +6069,12 @@ msgid ""
 "Make sure that the file you upload is in CSV format with no extraneous "
 "characters or rows."
 msgstr ""
-"Soyez certain que le fichier que vous téléchargez est en format CSV sans "
+"Soyez certain que le fichier que vous téléversez est en format CSV sans "
 "caractères ou rangées sans rapport."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Could not read uploaded file."
-msgstr "Impossible de lire le fichier téléchargé."
+msgstr "Impossible de lire le fichier téléversé."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -9100,7 +9100,7 @@ msgid ""
 " can change to a particular revision or merge an old revision with the "
 "current one."
 msgstr ""
-"Cliquer sur chaque révision pour voir une liste des lignes modifiées. "
+"Cliquez sur chaque révision pour voir une liste des lignes modifiées. "
 "Cliquez sur le bouton \"Aperçu\" pour obtenir le rendu en l'état d'un "
 "article. En bas de la page, vous pouvez changer pour une révision "
 "particulière ou fusionner une ancienne révision avec la révision courante."
@@ -9215,7 +9215,7 @@ msgid ""
 "you the creation page."
 msgstr ""
 "Pour créer un nouvel article dans le wiki, créez un lien vers celui-ci. "
-"Cliquer sur le lien vous mènera vers la création de la page."
+"Cliquez sur le lien vous mènera vers la création de la page."
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "[Article Name](wiki:ArticleName)"
@@ -9302,7 +9302,7 @@ msgstr "Pièces jointes"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload new file"
-msgstr "Charger un nouveau fichier"
+msgstr "Téléversez un nouveau fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Search and add file"
@@ -9310,11 +9310,11 @@ msgstr "Chercher et ajouter un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload File"
-msgstr "Déposer un fichier"
+msgstr "Téléversez un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload file"
-msgstr "Charger un fichier"
+msgstr "Téléversez un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Search files and articles"
@@ -9352,7 +9352,7 @@ msgstr "Étiquette Markdown"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Uploaded by"
-msgstr "Chargé par"
+msgstr "Téléversé par"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Size"
@@ -9901,7 +9901,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
-msgstr "Chargement terminé"
+msgstr "Téléversement terminé"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
@@ -10010,11 +10010,11 @@ msgstr "Vide"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
-msgstr "Nous ne supportons que le téléchargement d'un fichier .tar.gz."
+msgstr "Nous ne supportons que le téléversement d'un fichier .tar.gz."
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
-msgstr "Téléchargement du fichier corrompu. S'il vous plaît essayer à nouveau"
+msgstr "Téléversement corrompu du fichier. S'il vous plaît essayer à nouveau"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "Could not find the {0} file in the package."
@@ -10119,7 +10119,7 @@ msgstr "Vous ne pouvez pas supprimer le dernier administrateur. Créez-en un aut
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/views/videos.py cms/templates/import.html
 msgid "Uploading"
-msgstr "Chargement en cours"
+msgstr "Téléversement en cours"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
@@ -11151,7 +11151,7 @@ msgstr "Feedback sur votre travail provenant de l'évaluateur :"
 
 #: lms/templates/lti_form.html
 msgid "Press to Launch"
-msgstr "Cliquer pour commencer"
+msgstr "Cliquez pour commencer"
 
 #: lms/templates/manage_user_standing.html
 msgid "Manage student accounts"
@@ -11318,7 +11318,7 @@ msgstr "Réinitialiser"
 #: lms/templates/combinedopenended/selfassessment/self_assessment_prompt.html
 #: lms/templates/verify_student/face_upload.html
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "Sauvegarder"
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} submissions"
@@ -11775,7 +11775,7 @@ msgstr "Créer un utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download list of all users (csv file)"
-msgstr "Télécharger la liste de tous les utilisateurs (fichier CSV)"
+msgstr "Téléchargez la liste de tous les utilisateurs (fichier CSV)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Check and repair external authentication map"
@@ -11795,7 +11795,7 @@ msgstr "Gérer l'équipe pédagogique du cours et les instructeurs"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
-msgstr "Télécharger la liste de l'équipe pédagogique du cours et des instructeurs (fichier CSV)"
+msgstr "Téléchargez la liste de l'équipe pédagogique du cours et des instructeurs (fichier CSV)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -11817,7 +11817,7 @@ msgstr "Branche du référentiel (optionnelle) "
 #. Translators: GitHub is a popular website for hosting code
 #: lms/templates/sysadmin_dashboard.html
 msgid "Load new course from GitHub"
-msgstr "Télécharger un nouveau cours à partir de GitHub"
+msgstr "Téléchargez un nouveau cours à partir de GitHub"
 
 #. Translators: 'dir' is short for 'directory'
 #: lms/templates/sysadmin_dashboard.html
@@ -11924,7 +11924,7 @@ msgid ""
 " amounts."
 msgstr ""
 "Pendant la lecture de la vidéo, utilisez les sous-titres et la barre de "
-"défilement pour naviguer. Cliquer sur les sous-titres est un moyen rapide "
+"défilement pour naviguer. Cliquez sur les sous-titres est un moyen rapide "
 "pour avancer et reculer de quelques instants."
 
 #: lms/templates/using.html
@@ -11972,15 +11972,15 @@ msgstr "Retourner au début du sous-titrage."
 
 #: lms/templates/video.html
 msgid "Download video"
-msgstr "Télécharger la vidéo"
+msgstr "Téléchargez la vidéo"
 
 #: lms/templates/video.html
 msgid "Download transcript"
-msgstr "Télécharger la transcription"
+msgstr "Téléchargez la transcription"
 
 #: lms/templates/video.html
 msgid "Download Handout"
-msgstr "Télécharger les documents pédagogiques"
+msgstr "Téléchargez les documents pédagogiques"
 
 #: lms/templates/word_cloud.html
 msgid "Your words:"
@@ -12381,7 +12381,7 @@ msgstr "Voir le carnet de notes"
 
 #: lms/templates/ccx/student_admin.html
 msgid "Download student grades"
-msgstr "Télécharger les notes des étudiants"
+msgstr "Téléchargez les notes des étudiants"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
@@ -12389,7 +12389,7 @@ msgstr "Imprimer ou partager votre attestation:"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Click the link to see my certificate."
-msgstr "Cliquer sur le lien pour voir mon attestation."
+msgstr "Cliquez sur le lien pour voir mon attestation."
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Post on Facebook"
@@ -13042,7 +13042,7 @@ msgid ""
 "course, visit the Data Download section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger le rapport des notes et voir la configuration de notation "
-"du cours, visitez la section Data Download de l'onglet Instructeur."
+"du cours, visitez la section Téléchargements des donnéées de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13121,7 +13121,7 @@ msgid ""
 "enrolled in this course, visit the Data Download section of the Instructor "
 "Dashboard."
 msgstr ""
-"Afin de télécharger un fichier CSV contenant les informations de profil des étudiants inscrits dans ce cours, "
+"Pour télécharger un fichier CSV contenant les informations de profil des étudiants inscrits dans ce cours, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
 "l'instructeur."
 
@@ -13131,7 +13131,7 @@ msgid ""
 "yet signed up for it, visit the Data Download section of the Instructor "
 "Dashboard."
 msgstr ""
-"Afin de télécharger une liste des étudiants pouvant s'inscrire à ce cours mais qui ne l'ont pas encore fait, "
+"Pour télécharger une liste des étudiants pouvant s'inscrire à ce cours mais qui ne l'ont pas encore fait, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
 "l'instructeur."
 
@@ -13148,7 +13148,7 @@ msgid ""
 "To download a CSV listing student responses to a given problem, visit the "
 "Data Download section of the Instructor Dashboard."
 msgstr ""
-"Afin de télécharger un fichier CSV contenant les réponses des étudiants à un exercice donné, "
+"Pour télécharger un fichier CSV contenant les réponses des étudiants à un exercice donné, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
 "l'instructeur."
 
@@ -13158,7 +13158,7 @@ msgid ""
 " section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger les informations anonymes des étudiants, visitez la section"
-" Data Download de l'onglet Instructeur."
+" Téléchargements des données de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13275,7 +13275,7 @@ msgstr "Le PDF ouvrira dans une nouvelle fenêtre ou onglet du fureteur."
 
 #: lms/templates/courseware/progress.html
 msgid "Download Your Certificate"
-msgstr "Télécharger votre attestation"
+msgstr "Téléchargez votre attestation"
 
 #. Translators: This message appears to users when the system is processessing
 #. course certificates, which can take a few hours.
@@ -13513,11 +13513,11 @@ msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Téléchargez votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Téléchargez votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -13529,7 +13529,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Téléchargez votre {cert_name_short} (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -14937,7 +14937,7 @@ msgstr ""
 "Veuillez noter que si vous voyez une soumission ici, c'est qu'elle a "
 "temporairement été retirée de la liste à évaluer. Cette soumission "
 "retournera dans la liste à évaluer après 30 minutes sans notation soumise. "
-"Cliquer sur le bouton Retour résultera en une attente de 30 minutes pour "
+"Cliquez sur le bouton Retour résultera en une attente de 30 minutes pour "
 "pouvoir noter à nouveau cette soumission."
 
 #: lms/templates/instructor/staff_grading.html
@@ -15241,7 +15241,7 @@ msgstr "Configuration de la Notation"
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to download a CSV of anonymized student IDs:"
 msgstr ""
-"Cliquer pour télécharger un fichier CSV contenant les ID anonymisés des "
+"Cliquez pour télécharger un fichier CSV contenant les ID anonymisés des "
 "étudiants :"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
@@ -15272,7 +15272,7 @@ msgid ""
 "Please be patient and do not click these buttons multiple times. Clicking "
 "these buttons multiple times will significantly slow the generation process."
 msgstr ""
-"Soyez patient et ne cliquer pas plusieurs fois sur ces boutons. Cliquer "
+"Soyez patient et ne cliquer pas plusieurs fois sur ces boutons. Cliquez "
 "plusieurs fois sur ces boutons va considérablement ralentir le processus de génération."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
@@ -15280,31 +15280,31 @@ msgid ""
 "Click to generate a CSV file of all students enrolled in this course, along "
 "with profile information such as email address and username:"
 msgstr ""
-"Cliquer pour générer un fichier CSV de tous les étudiants inscrits au cours,"
+"Cliquez pour générer un fichier CSV de tous les étudiants inscrits au cours,"
 " avec leurs informations de profil comme l'adresse électronique et leur nom "
 "d'utilisateur :"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download profile information as a CSV"
-msgstr "Télécharger les informations de profil au format CSV"
+msgstr "Téléchargez les informations de profil au format CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
 msgstr ""
-"Cliquer pour générer un fichier CSV de tous les apprenants qui peuvent s'inscrire au cours, "
+"Cliquez pour générer un fichier CSV de tous les apprenants qui peuvent s'inscrire au cours, "
 "mais qui ne l'ont pas encore fait."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of learners who can enroll"
-msgstr "Télécharger au format CSV une liste des apprenants pouvant s'inscrire"
+msgstr "Téléchargez au format CSV une liste des apprenants pouvant s'inscrire"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Click to generate a CSV file of all proctored exam results in this course."
 msgstr ""
-"Cliquer pour générer un fichier CSV de tous les résultats des examens suveillés pour ce cours."
+"Cliquez pour générer un fichier CSV de tous les résultats des examens suveillés pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Proctored Exam Results Report"
@@ -15312,7 +15312,7 @@ msgstr "Générer le rapport des résultats d'examens surveillés"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to generate a CSV file of survey results for this course."
-msgstr "Cliquer pour générer un fichier CSV avec les résultats de sondage pour ce cours."
+msgstr "Cliquez pour générer un fichier CSV avec les résultats de sondage pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Generate Survey Results Report"
@@ -15332,11 +15332,11 @@ msgstr "Emplacement de l'exercice: "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of problem responses"
-msgstr "Télécharger un fichier CSV des réponses aux exercices"
+msgstr "Téléchargez un fichier CSV des réponses aux exercices"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Click to list certificates that are issued for this course:"
-msgstr "Cliquer afin de voir la liste des attestations émises pour ce cours:"
+msgstr "Cliquez afin de voir la liste des attestations émises pour ce cours:"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "View Certificates Issued"
@@ -15344,7 +15344,7 @@ msgstr "Voir les attestations émises"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download CSV of Certificates Issued"
-msgstr "Téleecharger au format CSV une liste des attestations délivrées"
+msgstr "Téléchargez au format CSV une liste des attestations délivrées"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -15375,7 +15375,7 @@ msgstr "Générer le rapport de notes des exercices"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Reports Available for Download"
-msgstr "Rapports disponibles pour être téléchargés"
+msgstr "Rapports disponibles pour téléchargements"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -15440,27 +15440,27 @@ msgstr "Modifier le statut du code d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download a .csv file of all enrollment codes for this course."
-msgstr "Télécharger un fichier .csv contenant tous les codes d'inscription pour ce cours."
+msgstr "Téléchargez un fichier .csv contenant tous les codes d'inscription pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download All Enrollment Codes"
-msgstr "Télécharger tous les codes d'inscription"
+msgstr "Téléchargez tous les codes d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download a .csv file of all unused enrollment codes for this course."
-msgstr "Télécharger un fichier .csv contenant tous les codes d'inscription inutilisés pour ce cours."
+msgstr "Téléchargez un fichier .csv contenant tous les codes d'inscription inutilisés pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download Unused Enrollment Codes"
-msgstr "Télécharger les codes d'inscription inutilisés"
+msgstr "Téléchargez les codes d'inscription inutilisés"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download a .csv file of all used enrollment codes for this course."
-msgstr "Télécharger un fichier .csv contenant tous les codes d'inscription utilisés pour ce cours."
+msgstr "Téléchargez un fichier .csv contenant tous les codes d'inscription utilisés pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download Used Enrollment Codes"
-msgstr "Télécharger les codes d'inscription utilisés"
+msgstr "Téléchargez les codes d'inscription utilisés"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
@@ -15488,16 +15488,16 @@ msgid ""
 "Download a .csv file for all credit card purchases or for all invoices, "
 "regardless of status."
 msgstr ""
-"Télécharger un fichiers .csv contenant tous les achats par carte de crédit ou pour toutes les factures, "
+"Téléchargez un fichier .csv contenant tous les achats par carte de crédit ou pour toutes les factures, "
 "indépendamment du statut."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download All Invoices"
-msgstr "Télécharger toutes les factures"
+msgstr "Téléchargez toutes les factures"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download All Credit Card Purchases"
-msgstr "Télécharger tous les achats par carte de crédit"
+msgstr "Téléchargez tous les achats par carte de crédit"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "To cancel or resubmit an invoice, enter the invoice number below."
@@ -15567,11 +15567,11 @@ msgstr "Liste des codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download a .csv file of all coupon codes for this course."
-msgstr "Télécharger un fichier .csv contenant tout les codes de coupon pour ce cours."
+msgstr "Téléchargez un fichier .csv contenant tout les codes de coupon pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download Coupon Codes"
-msgstr "Télécharger les codes de coupon"
+msgstr "Téléchargez les codes de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Coupon Codes"
@@ -16060,7 +16060,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Upload CSV"
-msgstr "Importer CSV"
+msgstr "Téléversez CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Batch Beta Tester Addition"
@@ -16302,7 +16302,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Subsection Data for all Subsections as a CSV"
 msgstr ""
-"Télécharger les données de la sous-section pour toutes les sous-sections en "
+"Téléchargez les données de la sous-section pour toutes les sous-sections en "
 "tant que CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -16324,7 +16324,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Problem Data for all Problems as a CSV"
 msgstr ""
-"Télécharger les données de l'exercice pour tous les exercices en tant que CSV"
+"Téléchargez les données de l'exercice pour tous les exercices en tant que CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Grade Distribution per Problem"
@@ -16332,11 +16332,11 @@ msgstr "Répartition des notes par exercice"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Student Opened as a CSV"
-msgstr ""
+msgstr "Téléchargez les exercices à réponses ouvertes de l'étudiant sous format CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Download Student Grades as a CSV"
-msgstr "Télécharger les notes de l'étudiant au format CSV"
+msgstr "Téléchargez les notes de l'étudiant au format CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "This is a partial list, to view all students download as a csv."
@@ -17027,11 +17027,11 @@ msgstr "Paiement"
 
 #: lms/templates/shoppingcart/download_report.html
 msgid "Download CSV Reports"
-msgstr "Télécharger les rapports CSV"
+msgstr "Téléchargez les rapports CSV"
 
 #: lms/templates/shoppingcart/download_report.html
 msgid "Download CSV Data"
-msgstr "Télécharger les données CSV"
+msgstr "Téléchargez les données CSV"
 
 #: lms/templates/shoppingcart/download_report.html
 msgid ""
@@ -17841,7 +17841,7 @@ msgstr ""
 
 #: cms/templates/asset_index.html cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
-msgstr "Fichiers et téléchargements"
+msgstr "Fichiers et téléversements"
 
 #: cms/templates/asset_index.html cms/templates/course_info.html
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
@@ -17864,7 +17864,7 @@ msgstr "Actions de la Page"
 
 #: cms/templates/asset_index.html cms/templates/videos_index.html
 msgid "Upload New File"
-msgstr "Télécharger un nouveau fichier"
+msgstr "Téléversez un nouveau fichier"
 
 #: cms/templates/asset_index.html
 msgid "Adding Files for Your Course"
@@ -17875,7 +17875,7 @@ msgid ""
 "To add files to use in your course, click {em_start}Upload New File{em_end}."
 " Then follow the prompts to upload a file from your computer."
 msgstr ""
-"Pour ajouter des fichiers à votre cours, cliquez {em_start}Téléversez nouveau fichier{em_end}. "
+"Pour ajouter des fichiers à votre cours, cliquez {em_start}Téléversez un nouveau fichier{em_end}. "
 "Ensuite suivre les instructions pour téléverser un fichier à partir de votre ordinateur."
 
 #: cms/templates/asset_index.html
@@ -17885,7 +17885,7 @@ msgid ""
 "audio files. You should use a third party service to host multimedia files."
 msgstr ""
 "{em_start}Attention{em_end} : {platform_name} recommande de limiter la "
-"taille du fichier à {em_start}10 MB{em_end}. Ne pas importer des fichiers "
+"taille du fichier à {em_start}10 MB{em_end}. Ne pas téléverser des fichiers "
 "vidéo ou audio, vous devez utiliser un service tiers pour héberger vos "
 "fichiers multimédias."
 
@@ -17978,7 +17978,7 @@ msgid ""
 "upload the associated images."
 msgstr ""
 "Pour les attestations vérifiées, spécifiez entre un ou quatre signataires et "
-"télécharges les images de leurs signatures."
+"téléversez les images de leurs signatures."
 
 #: cms/templates/certificates.html
 msgid ""
@@ -18153,7 +18153,7 @@ msgstr "Edition des composants"
 msgid ""
 "Click the {em_start}Edit{em_end} icon in a component to edit its content."
 msgstr ""
-"Cliquer l'icone {em_start}Editer{em_end} du composant pour éditer son contenu."
+"Cliquez l'icone {em_start}Editer{em_end} du composant pour éditer son contenu."
 
 #: cms/templates/container.html
 msgid "Reorganizing components"
@@ -18437,7 +18437,7 @@ msgstr "Modules avancés non supportés"
 
 #: cms/templates/course_outline.html
 msgid "Click to add a new section"
-msgstr "Cliquer pour ajouter une section"
+msgstr "Cliquez pour ajouter une section"
 
 #: cms/templates/course_outline.html
 msgid "New Section"
@@ -19002,7 +19002,7 @@ msgid ""
 "use by a unit. To delete a content group, hover over its box and click the "
 "delete icon."
 msgstr ""
-"Cliquer {em_start}Nouveau groupe de contenu{em_end} pour ajouter un nouveau groupe de contenu. Pour "
+"Cliquez {em_start}Nouveau groupe de contenu{em_end} pour ajouter un nouveau groupe de contenu. Pour "
 "éditer le nom du groupe de contenu, passez au-dessus de sa boîte et cliquer"
 "{em_start}Éditer{em_end}. Vous pouvez supprimer un groupe de contenu uniquement s'il n'est pas utilisé "
 "par une unité. Pour supprimer un groupe de contenu, passez au-dessus de sa boite et cliquer "
@@ -19030,7 +19030,7 @@ msgid ""
 "not in use in an experiment. To delete a configuration, hover over its box "
 "and click the delete icon."
 msgstr ""
-"Cliquer {em_start}Nouvelle configuration de groupe{em_end} pour ajouter une nouvelle configuration. "
+"Cliquez {em_start}Nouvelle configuration de groupe{em_end} pour ajouter une nouvelle configuration. "
 "Pour éditer une configuration, passez au-dessus de sa boite et cliquer "
 "{em_start}Éditer{em_end}. Vous pouvez supprimer une configuration de groupe uniquement si elle n'est pas utilisée. "
 "Pour supprimer une configuration, passez au-dessus de sa boite et cliquer l'icône supprimer."
@@ -20539,14 +20539,14 @@ msgid ""
 "&amp; uploads</a>"
 msgstr ""
 "Vous pouvez gérer cette image ainsi que tous vos autres <a href='{}'>fichiers "
-"&amp; téléchargements</a>"
+"&amp; téléversements</a>"
 
 #: cms/templates/settings.html
 msgid ""
 "Your course currently does not have an image. Please upload one (JPEG or PNG"
 " format, and minimum suggested dimensions are 375px wide by 200px tall)"
 msgstr ""
-"Votre cours n'a pas encore d'image. Veuillez en télécharger une (format PNG "
+"Votre cours n'a pas encore d'image. Veuillez en téléverser une (format PNG "
 "ou JPEG, dimensions minimales suggérées 375px de large par 200 pixels de "
 "haut)"
 
@@ -20566,7 +20566,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Upload Course Image"
-msgstr "Charger l'image du cours"
+msgstr "Téléversez l'image du cours"
 
 #: cms/templates/settings.html
 msgid "Course Introduction Video"
@@ -20906,7 +20906,7 @@ msgid ""
 " text as a single chapter and enter a name of your choice in the Chapter "
 "Name field."
 msgstr ""
-"Si votre manuel n'a pas de chapitres individuels, vous pouvez envoyer le "
+"Si votre manuel n'a pas de chapitres individuels, vous pouvez téléverser le "
 "texte entier comme un chapitre unique, et entrez le nom de votre choix dans "
 "le champ \"Nom du Chapitre\"."
 
@@ -20916,11 +20916,11 @@ msgstr "En savoir plus à propos des manuels"
 
 #: cms/templates/videos_index.html cms/templates/widgets/header.html
 msgid "Video Uploads"
-msgstr "Téléchargements vidéos"
+msgstr "Téléversements des vidéos"
 
 #: cms/templates/videos_index.html
 msgid "Why upload video files?"
-msgstr "Pourquoi télécharger des fichiers vidéos?"
+msgstr "Pourquoi téléverser des fichiers vidéos?"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -20930,7 +20930,7 @@ msgid ""
 "and stores them for you."
 msgstr ""
 "Pour qu'un vidéo puisser jouer sur différents appareils, il doit être disponibles en "
-"plusieurs formats. Après avoir téléchargé le fichier original en format .mp4 ou .mov "
+"plusieurs formats. Après avoir téléversé le fichier original en format .mp4 ou .mov "
 "sur cette page, un processus automatisé crée les formats additionnels et les sauvegarde "
 "pour vous."
 
@@ -20943,12 +20943,12 @@ msgid ""
 "The maximum size for each video file that you upload is 5 GB. The upload "
 "process fails for larger files."
 msgstr ""
-"La taille maximum pour chaque fichier vidéo téléchargé est de 5 GB. Le processus de téléchargement "
+"La taille maximum pour chaque fichier vidéo téléversé est de 5 GB. Le processus de téléversement "
 "échoue pour de plus gros fichiers."
 
 #: cms/templates/videos_index.html
 msgid "Monitoring files as they upload"
-msgstr "Suivre le chargement des fichiers"
+msgstr "Suivre le téléversements des fichiers"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -20956,13 +20956,13 @@ msgid ""
 "successfully before additional work can begin. You can monitor the progress "
 "of files as they upload, and try again if the upload fails."
 msgstr ""
-"Chaque fichier vidéo que vous télécharger a besoin d'accéder avec succès aux serveurs de traitement vidéo "
+"Chaque fichier vidéo que vous téléverser a besoin d'accéder avec succès aux serveurs de traitement vidéo "
 "avant que ne puisse commencer des travaux supplémentaires. Vous pouvez suivre le progrès "
-"des fichiers pendant le téléchargement, et essayer de nouveau s'il échoue."
+"des fichiers pendant le téléversement, et essayer de nouveau s'il échoue."
 
 #: cms/templates/videos_index.html
 msgid "Managing uploaded files"
-msgstr "Gestion des fichiers téléchargés"
+msgstr "Gestion des fichiers téléversés"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -20972,8 +20972,8 @@ msgid ""
 "status is {em_start}Ready{em_end}. Allow 24 hours for file processing at the"
 " external video hosting sites to complete."
 msgstr ""
-"Après qu'un fichier ait été téléchargé avec succès, le traitement automatisé débute. Le fichier est alors "
-"énuméré sous Téléchargements Précédents comme {em_start}En Progrès{em_end}. Vous pouvez "
+"Après qu'un fichier ait été téléversé avec succès, le traitement automatisé débute. Le fichier est alors "
+"énuméré sous Téléversements Précédents comme {em_start}En Progrès{em_end}. Vous pouvez "
 "ajouter le vidéo à votre cours aussitôt qu'il a un identifiant de vidéo unique et "
 "le statut {em_start}Prêt{em_end}. Attendre 24 heures pour que se termine le traitement des fichiers "
 "sur le site externe d'hébergement de vidéos."
@@ -20984,7 +20984,7 @@ msgid ""
 "appears. Check for problems in your original file and upload a replacement."
 msgstr ""
 "Si quelque chose va mal, le statut {em_start}Échoué{em_end} apparait. "
-"Vérifier les problèmes dans votre fichier d'origine et télécharger un remplacement."
+"Vérifiez les problèmes dans votre fichier d'origine et téléversez un remplacement."
 
 #: cms/templates/videos_index.html
 msgid "How do I get the videos into my course?"
@@ -21697,7 +21697,7 @@ msgstr "Oui, je suis sûr..."
 
 #: wiki/plugins/attachments/markdown_extensions.py
 msgid "Click to download file"
-msgstr "Cliquer pour télécharger le fichier"
+msgstr "Cliquez pour télécharger le fichier"
 
 #: wiki/plugins/attachments/models.py
 msgid ""
@@ -21752,7 +21752,7 @@ msgstr ""
 #: wiki/plugins/attachments/views.py
 #, python-format
 msgid "%s uploaded and replaces old attachment."
-msgstr "%s téléchargé et remplace l'ancienne pièce jointe."
+msgstr "%s téléversé et remplace l'ancienne pièce jointe."
 
 #: wiki/plugins/attachments/views.py
 msgid ""
@@ -21799,7 +21799,7 @@ msgid ""
 "New image %s was successfully uploaded. You can use it by selecting it from "
 "the list of available images."
 msgstr ""
-"La nouvelle image %s a été uploadée avec succès. Vous pouvez l'utiliser en "
+"La nouvelle image %s a été téléversée avec succès. Vous pouvez l'utiliser en "
 "la sélectionnant dans la liste des images disponibles."
 
 #: wiki/plugins/images/forms.py
