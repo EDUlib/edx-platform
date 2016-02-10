@@ -2140,7 +2140,7 @@ msgid ""
 "assessed problem is changed to self and peer assessed)."
 msgstr ""
 "Une liste des listes de dictionnaires de statuts sauvegardées pour les états d'étudiants. "
-"Ce champ est seulement peuplé si l'enseignant a modifié les tâches après "
+"Ce champ est seulement peuplé si l'instructeur a modifié les tâches après "
 "que le module ait été créé et que les étudiants l'ont essayé (par exemple, si un exercice "
 "avec auto-évaluation est modifié à auto-évalué et évalué par les pairs)."
 
@@ -2600,7 +2600,7 @@ msgid ""
 "manage Custom Courses on edX. When false, Custom Courses cannot be created, "
 "but existing Custom Courses will be preserved."
 msgstr ""
-"Permet aux enseignants de cours d'assigner le rôle de CCX Coach, et permet aux coaches de "
+"Permet aux instructeurs de cours d'assigner le rôle de CCX Coach, et permet aux coaches de "
 "gérer des cours personnalisés sur edX (CCX). Quand faux (false), des cours personnalisés ne peuvent être créés, "
 "mais les cours personnalisés existants seront préservés."
 
@@ -2777,7 +2777,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add an Instructor-Only Section to Your Outline"
-msgstr "Ajouter une section enseignant-seulement à votre plan de cours"
+msgstr "Ajouter une section instructeur-seulement à votre plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2866,7 +2866,7 @@ msgid ""
 "Showing prospective students who their instructor will be is helpful. "
 "Include staff bios on the course About page."
 msgstr ""
-"Montrez aux étudiants potentiels qui sera leur enseignant est utile. "
+"Montrez aux étudiants potentiels qui sera leur instructeur est utile. "
 "Ajoutez les profils de l'équipe pédagogique sur la page à propos du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3308,7 +3308,7 @@ msgid ""
 "The minimum grade that a learner must earn to receive credit in the course, "
 "as a decimal between 0.0 and 1.0. For example, for 75%, enter 0.75."
 msgstr ""
-"La note minimale qu'un étudiant doit obtenir pour recevoir un crédit dans ce cours, "
+"La note minimale qu'un apprenant doit obtenir pour recevoir un crédit dans ce cours, "
 "exprimée comme une décimale entre 0.0 et 1.0. Par example, pour 75%, entrez 0.75."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -3467,7 +3467,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Email for 'Instructor' Annotations"
-msgstr "Courriel pour les annonations 'Enseignant'"
+msgstr "Courriel pour les annonations 'instructeur'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3477,7 +3477,7 @@ msgid ""
 "found in 'Instructor' tab."
 msgstr ""
 "Courriel de l'utilisateur qui sera attaché à toutes les annotations qui seront trouvées "
-"dans l'onglet 'Enseignant'."
+"dans l'onglet 'Instructeur'."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3491,7 +3491,7 @@ msgstr "Mode pour l'outil d'annotation"
 msgid ""
 "Type in number corresponding to following modes:  'instructor' or 'everyone'"
 msgstr ""
-"Entrez un nombre correspondat aux modes suivants:  'enseignant' ou 'tous'"
+"Entrez un nombre correspondat aux modes suivants:  'instructeur' ou 'tous'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -4155,7 +4155,7 @@ msgstr "Évaluation par les pairs"
 #. of openended evaluation
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/combined_open_ended_rubric.py
 msgid "Instructor-Assessment"
-msgstr "Évaluation par l'enseignant"
+msgstr "Évaluation par l'instructeur"
 
 #. Translators: "AI-Assessment" refers to the machine-graded mode of openended
 #. evaluation
@@ -5138,7 +5138,7 @@ msgid ""
 "agreed to abide by {platform_name}'s honor code and completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
-"Une attestation {cert_type} signifie que l'étudiant a convenu"
+"Une attestation {cert_type} signifie que l'apprenant a convenu"
 "de respecter le code d'honneur {platform_name} et a complété"
 "toutes les tâches requises pour ce cours tout en respectant les lignes directrices de celui-ci."
 
@@ -5153,7 +5153,7 @@ msgid ""
 "required tasks for this course under its guidelines, as well as having their"
 " photo ID checked to verify their identity."
 msgstr ""
-"Une attestation {cert_type} signifie que l'étudiant a convenu"
+"Une attestation {cert_type} signifie que l'apprenant a convenu"
 "de respecter le code d'honneur {platform_name} et a complété"
 "toutes les tâches requises pour ce cours tout en respectant les lignes directrices de celui-ci et"
 "en se soumettant a une vérification de son identité."
@@ -5967,7 +5967,7 @@ msgstr "# staff"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "instructors"
-msgstr "enseignants"
+msgstr "instructeurs"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Enrollment information for all courses"
@@ -6216,8 +6216,8 @@ msgid ""
 "The enrolled learner profile report is being created. To view the status of "
 "the report, see Pending Instructor Tasks below."
 msgstr ""
-"Le rapport des étudiants inscrits est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"Le rapport des apprenants inscrits est en cours de création. Pour consulter le statut de ce "
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6226,7 +6226,7 @@ msgid ""
 "the report when it is complete."
 msgstr ""
 "Ce rapport d'inscription est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6236,8 +6236,8 @@ msgid ""
 "report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport d'inscription est en cours de création. Ce rapport contient "
-"l'information à propos des étudiant qui peuvent s'inscrire à ce cours. Pour voir le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"l'information à propos des apprenants qui peuvent s'inscrire à ce cours. Pour voir le statut de ce "
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "The file must contain a 'cohort' column containing cohort names."
@@ -6296,7 +6296,7 @@ msgid ""
 "report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport détaillé des inscriptions est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6305,7 +6305,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport détaillé des inscriptions est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6314,7 +6314,7 @@ msgid ""
 "report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport sommaire exécutif est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6323,7 +6323,7 @@ msgid ""
 "download the report when it is complete."
 msgstr ""
 "Le rapport sommaire exécutif est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6332,7 +6332,7 @@ msgid ""
 "Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de sondage est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6341,7 +6341,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport de sondage est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6350,7 +6350,7 @@ msgid ""
 "the report, see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport des résultats d'examen surveillé est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6359,7 +6359,7 @@ msgid ""
 "to download the report when it is complete."
 msgstr ""
 "Le rapport des résultats d'examen surveillé est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6397,7 +6397,7 @@ msgstr "all_students et delete_module sont mutuellement exclusifs."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Requires instructor access."
-msgstr "Accès enseignant nécessaire."
+msgstr "Accès instructeur nécessaire."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Course has no valid entrance exam section."
@@ -6417,7 +6417,7 @@ msgid ""
 "Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de notation est en cours de création.  Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6426,7 +6426,7 @@ msgid ""
 " report when it is complete."
 msgstr ""
 "Le rapport de notation est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6435,7 +6435,7 @@ msgid ""
 " see Pending Instructor Tasks below."
 msgstr ""
 "Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous."
+"rapport, voir les tâches d'instructeur en attente ci-dessous."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -6444,7 +6444,7 @@ msgid ""
 "the report when it is complete."
 msgstr ""
 "Le rapport de notation de l'exercice est en cours de création. Pour consulter le statut de ce "
-"rapport, voir les tâches d'enseignant en attente ci-dessous. Vous pourrez télécharger "
+"rapport, voir les tâches d'instructeur en attente ci-dessous. Vous pourrez télécharger "
 "ce rapport quand la tâche sera complétée."
 
 #: lms/djangoapps/instructor/views/api.py
@@ -6611,7 +6611,7 @@ msgstr "coupon aved le id de coupon ({coupon_id}) mis à jour avec succès"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Instructor"
-msgstr "Enseignant"
+msgstr "Instructeur"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid ""
@@ -7286,7 +7286,7 @@ msgstr "Vérification automatique"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Instructor Assessment"
-msgstr "Évaluation par l'enseignant"
+msgstr "Évaluation par l'instructeur"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
@@ -10464,7 +10464,7 @@ msgid ""
 "<b>Official:</b> Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"<b>Officiel:</b> Recevez une attestation signée par l'enseignant et avec "
+"<b>Officiel:</b> Recevez une attestation signée par l'instructeur et avec "
 "le logo de l'institution"
 
 #: common/templates/course_modes/choose.html
@@ -10494,7 +10494,7 @@ msgid ""
 "<b>Official: </b>Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"<b>Officiel: </b>Recevoir une attestation signé par l'enseignant avec "
+"<b>Officiel: </b>Recevoir une attestation signé par l'instructeur avec "
 "le logo de l'institution"
 
 #: common/templates/course_modes/choose.html
@@ -10532,7 +10532,7 @@ msgid ""
 "a passing grade will earn a certificate in this course."
 msgstr ""
 "Suivez ce cours gratuitement et ayez un accès complet au matériel, "
-"activités, tests et forums du cours. Veuillez prendre note que les étudiants qui obtiendrons la note de passage "
+"activités, tests et forums du cours. Veuillez prendre note que les apprenants qui obtiendrons la note de passage "
 "se mériteront une attestation de ce cours."
 
 #: common/templates/course_modes/choose.html
@@ -10551,7 +10551,7 @@ msgstr "Suivre ce cours (sans attestation)"
 msgid ""
 "Audit this course for free and have complete access to all the course material, activities, tests, and forums.  <b>Please note that this track does not offer a certificate for learners who earn a passing grade.</b>"
 msgstr ""
-"Auditer ce cours gratuitement et bénéficier d'un accès complet à tous les supports de cours, les activités, les tests et forums.  <b>S'il vous plaît noter que ce cours ne propose pas d'attestation pour les étudiants qui obtiennent une note de passage.</b>"
+"Auditer ce cours gratuitement et bénéficier d'un accès complet à tous les supports de cours, les activités, les tests et forums.  <b>S'il vous plaît noter que ce cours ne propose pas d'attestation pour les apprenants qui obtiennent une note de passage.</b>"
 
 #: lms/templates/admin_dashboard.html
 msgid "{platform_name}-wide Summary"
@@ -10954,7 +10954,7 @@ msgstr "Veuillez réessayer plus tard."
 
 #: lms/templates/imageannotation.html
 msgid "Note: only instructors may annotate."
-msgstr "Note : seuls les enseignants sont autorisés à annoter. "
+msgstr "Note : seuls les instructeurs sont autorisés à annoter. "
 
 #: lms/templates/index.html
 msgid "Free courses from <strong>{university_name}</strong>"
@@ -11786,16 +11786,16 @@ msgid ""
 "Go to each individual course's Instructor dashboard to manage course "
 "enrollment."
 msgstr ""
-"Aller à chaque tableau de bord d'enseignant de cours pour gérer les "
+"Aller à chaque tableau de bord d'instructeur de cours pour gérer les "
 "inscriptions au cours."
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Manage course staff and instructors"
-msgstr "Gérer l'équipe pédagogique du cours et les enseignants"
+msgstr "Gérer l'équipe pédagogique du cours et les instructeurs"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
-msgstr "Télécharger la liste de l'équipe pédagogique du cours et des enseignants (fichier CSV)"
+msgstr "Télécharger la liste de l'équipe pédagogique du cours et des instructeurs (fichier CSV)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -12969,7 +12969,7 @@ msgstr "Documents de cours"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Legacy Instructor Dashboard"
-msgstr "Ancienne version du tableau de bord de l'enseignant"
+msgstr "Ancienne version du tableau de bord de l'instructeur"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
@@ -12978,7 +12978,7 @@ msgstr "Voir le cours dans Studio"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Back To Instructor Dashboard"
-msgstr "Retour au tableau de bord de l'enseignant"
+msgstr "Retour au tableau de bord de l'instructeur"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -12986,11 +12986,11 @@ msgid ""
 "near future."
 msgstr ""
 "Vous êtes en train d'utiliser l'ancienne version du tableau de bord de "
-"l'enseignant, que nous allons supprimer dans un futur proche. "
+"l'instructeur, que nous allons supprimer dans un futur proche. "
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Return to the Instructor Dashboard"
-msgstr "Retour au tableau de bord de l'enseignant"
+msgstr "Retour au tableau de bord de l'instructeur"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -12998,7 +12998,7 @@ msgid ""
 " to let us know."
 msgstr ""
 "Si vous trouvez que certaines fonctionnalités manquent au tableau de bord de"
-" l'enseignant, contactez votre PM pour nous le signaler. "
+" l'instructeur, contactez votre PM pour nous le signaler. "
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Psychometrics"
@@ -13042,7 +13042,7 @@ msgid ""
 "course, visit the Data Download section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger le rapport des notes et voir la configuration de notation "
-"du cours, visitez la section Data Download de l'onglet Enseignant."
+"du cours, visitez la section Data Download de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13052,7 +13052,7 @@ msgid ""
 msgstr ""
 "Pour voir le carnet de notes  (uniquement disponible pour les cours avec de "
 "petits nombres d'étudiants inscrits), visitez la section Student Admin de "
-"l'onglet Enseignant."
+"l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Export grades to remote gradebook"
@@ -13085,7 +13085,7 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour effectuer ces actions, visitez la section Student Admin de l'onglet "
-"Enseignant."
+"Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Student-specific grade inspection and adjustment"
@@ -13101,7 +13101,7 @@ msgid ""
 "of the Instructor Dashboard."
 msgstr ""
 "Pour ajouter ou supprimer des membres de l'équipe pédagogique, visitez la "
-"section Membership de l'onglet Enseignant."
+"section Membership de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13109,7 +13109,7 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour la gestion des rôles des forums, visitez la section Membership de "
-"l'onglet Enseignant."
+"l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Enrollment Data"
@@ -13123,7 +13123,7 @@ msgid ""
 msgstr ""
 "Afin de télécharger un fichier CSV contenant les informations de profil des étudiants inscrits dans ce cours, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
-"l'enseignant."
+"l'instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13133,7 +13133,7 @@ msgid ""
 msgstr ""
 "Afin de télécharger une liste des étudiants pouvant s'inscrire à ce cours mais qui ne l'ont pas encore fait, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
-"l'enseignant."
+"l'instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Pull enrollment from remote gradebook"
@@ -13150,7 +13150,7 @@ msgid ""
 msgstr ""
 "Afin de télécharger un fichier CSV contenant les réponses des étudiants à un exercice donné, "
 "visitez la section de téléchargements des données dans le tableau de bord de "
-"l'enseignant."
+"l'instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13158,7 +13158,7 @@ msgid ""
 " section of the Instructor Dashboard."
 msgstr ""
 "Pour télécharger les informations anonymes des étudiants, visitez la section"
-" Data Download de l'onglet Enseignant."
+" Data Download de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13166,7 +13166,7 @@ msgid ""
 " Instructor Dashboard."
 msgstr ""
 "Pour la gestion des cohortes et beta testeur, visitez la section Membership "
-"de l'onglet Enseignant."
+"de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
@@ -13174,15 +13174,15 @@ msgid ""
 "Dashboard."
 msgstr ""
 "Pour la gestion des beta testeurs, visitez la section Membership de l'onglet"
-" Enseignant."
+" Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "To send email, visit the Email section of the Instructor Dashboard."
-msgstr "Pour envoyer un courriel, visitez la section Courriel de l'onglet Enseignant."
+msgstr "Pour envoyer un courriel, visitez la section Courriel de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Pending Instructor Tasks"
-msgstr "Tâches Enseignant en Attente"
+msgstr "Tâches Instructeur en Attente"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Task Type"
@@ -13222,7 +13222,7 @@ msgid ""
 "dashboard."
 msgstr ""
 "Voir les statistiques du cours dans la section Amin de l'ancien onglet "
-"Enseignant."
+"Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Course errors"
@@ -14722,8 +14722,8 @@ msgid ""
 "All purchases are final. For more information, see the {site_name} "
 "cancellation policy."
 msgstr ""
-"Si nous ne recevons pas le paiement, les inscriptions d'étudiants utilisant ces codes "
-"seront annulés et les étudiants ne pourront pas accéder au matériel du cours. "
+"Si nous ne recevons pas le paiement, les inscriptions d'apprenants utilisant ces codes "
+"seront annulés et les apprenants ne pourront pas accéder au matériel du cours. "
 "Tous les achats sont finaux. Pour plus d'information, voir la politique la politique "
 "d'annulation sur {site_name} "
 
@@ -14894,7 +14894,7 @@ msgid ""
 msgstr ""
 "{platform_name} est à but non lucratif pour offrir à tous des enseignements "
 "de grande qualité dans le monde entier. Grâce à votre aide nous pouvons "
-"améliorer constamment l'expérience d'apprentissage pour des millions de gens un étudiant à la fois."
+"améliorer constamment l'expérience d'apprentissage pour des millions de gens un apprenant à la fois."
 
 #: lms/templates/enrollment/course_enrollment_message.html
 msgid "Donation Actions"
@@ -15101,22 +15101,22 @@ msgstr ""
 msgid
 "To regenerate certificates for your course, chose the learners who will receive regenerated certificates and click <br/> Regenerate Certificates."
 msgstr
-"Pour regénérer des attestations pour votre cours, choisissez les étudiants qui recevront des attestations et cliquez sur <br/> Regénérer les attestations."
+"Pour regénérer des attestations pour votre cours, choisissez les apprenants qui recevront des attestations et cliquez sur <br/> Regénérer les attestations."
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate for learners who have already received certificates. ({count})"
-msgstr "Regénérer pour les étudiants qui ont déjà reçu des attestations. ({count})"
+msgstr "Regénérer pour les apprenants qui ont déjà reçu des attestations. ({count})"
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate for learners who have not received certificates. ({count})"
-msgstr "Regénérer pour les étudiants qui n'ont pas reçu d'attestations. ({count})"
+msgstr "Regénérer pour les apprenants qui n'ont pas reçu d'attestations. ({count})"
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate for learners in an error state. ({count})"
-msgstr "Regénérer pour les étudiants qui sont en statut d'erreur. ({count})"
+msgstr "Regénérer pour les apprenants qui sont en statut d'erreur. ({count})"
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
@@ -15131,7 +15131,7 @@ msgstr "Dérogations d'attestation"
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Enter the username or email address of each learner that you want to add as an exception."
-msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque étudiant que vous désirez ajouter comme dérogation."
+msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque apprenant que vous désirez ajouter comme dérogation."
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
@@ -15150,8 +15150,8 @@ msgid
 "been given an exception by the course team. After you add learners to the exception list, click Generate "
 "Exception Certificates below."
 msgstr 
-"Appliquer les dérogrations pour la génération des attestations pour les étudiants qui ne se qualifient pas pour une attestation mais qui "
-"ont reçu une dérogation par l'équipe pédagogique. Après avoir ajouté des étudiants à la liste de dérogation, cliquez sur "
+"Appliquer les dérogrations pour la génération des attestations pour les apprenants qui ne se qualifient pas pour une attestation mais qui "
+"ont reçu une dérogation par l'équipe pédagogique. Après avoir ajouté des apprenants à la liste de dérogation, cliquez sur "
 "Générer les attestations de dérogation plus bas."
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
@@ -15293,12 +15293,12 @@ msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
 msgstr ""
-"Cliquer pour générer un fichier CSV de tous les étudiants qui peuvent s'inscrire au cours, "
+"Cliquer pour générer un fichier CSV de tous les apprenants qui peuvent s'inscrire au cours, "
 "mais qui ne l'ont pas encore fait."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Download a CSV of learners who can enroll"
-msgstr "Télécharger au format CSV une liste des étudiants pouvant s'inscrire"
+msgstr "Télécharger au format CSV une liste des apprenants pouvant s'inscrire"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -15557,7 +15557,7 @@ msgid ""
 "save outside of this page or that you send or receive in email expire after "
 "five minutes."
 msgstr ""
-"<b>Note</b>: Afin de protéger les données des étudiants, les liens pour les rapports que vous sauvegarder "
+"<b>Note</b>: Afin de protéger les données des apprenants, les liens pour les rapports que vous sauvegarder "
 "à l'extérieur de cette page ou que vous envoyez or que vous recevez dans un courriels expirent après "
 "cinq minutes."
 
@@ -15996,7 +15996,7 @@ msgstr "Envoyez-moi une copie de la facture"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "Instructor Dashboard"
-msgstr "Tableau de bord enseignant"
+msgstr "Tableau de bord instructeur"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "Revert to Legacy Dashboard"
@@ -16132,7 +16132,7 @@ msgid ""
 msgstr ""
 "Les membres de l'équipe avec le rôle équipe pédagogique aident à la gestion "
 "du cours. L'équipe pédagogique peut inscrire et désinscrire des "
-"participants, ainsi que modifier les notes aux exercices et accéder à "
+"apprenants, ainsi que modifier les notes aux exercices et accéder à "
 "l'ensemble des données du cours. L'équipe pédagogique a également accès au "
 "cours dans Studio. Vous ne pouvez affecter des rôles que pour les "
 "utilisateurs inscrits au cours."
@@ -16170,7 +16170,7 @@ msgid ""
 " give course team roles to enrolled users."
 msgstr ""
 "Les Bêta-testeurs peuvent voir le contenu du cours avant les autres "
-"participants. Ils peuvent ainsi s'assurer que le contenu fonctionne, mais ne"
+"apprenants. Ils peuvent ainsi s'assurer que le contenu fonctionne, mais ne"
 " disposent pas de permissions supplémentaires. Vous ne pouvez affecter de "
 "rôle uniquement à des utilisateurs inscrits."
 
@@ -16863,7 +16863,7 @@ msgid ""
 "asked to score them yourself."
 msgstr ""
 "Nous allons vous montrer un jeu d'exercices de test déjà notés par un "
-"enseignant, et nous allons vous demander de les noter à votre tour."
+"instructeur, et nous allons vous demander de les noter à votre tour."
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid ""
@@ -16871,7 +16871,7 @@ msgid ""
 "to grade your peers."
 msgstr ""
 "Lorsque vous noterez les exercices de test de manière similaire à un "
-"enseignant, vous serez prêt à noter vos pairs."
+"instructeur, vous serez prêt à noter vos pairs."
 
 #: lms/templates/peer_grading/peer_grading_problem.html
 msgid "Start learning to grade"
@@ -17502,7 +17502,7 @@ msgstr "Se connecter ou s'inscrire"
 
 #: lms/templates/student_profile/learner_profile.html
 msgid "Learner Profile"
-msgstr "Profil de participant"
+msgstr "Profil de l'apprenant"
 
 #. Translators: this section lists all the third-party authentication
 #. providers
@@ -18000,7 +18000,7 @@ msgstr ""
 
 #: cms/templates/certificates.html
 msgid "Issuing Certificates to Learners"
-msgstr "Émettre des attestations aux étudiants"
+msgstr "Émettre des attestations aux apprenants"
 
 #: cms/templates/certificates.html
 msgid ""
@@ -18019,7 +18019,7 @@ msgid ""
 "access them."
 msgstr ""
 "{em_start}Ne supprimez pas{em_end} les attestations après le début d'un cours; "
-"les étudiants ayant déjà obtenu des attestations ne pourront plus "
+"les apprenants ayant déjà obtenu des attestations ne pourront plus "
 "les accéder."
 
 #: cms/templates/certificates.html
@@ -18482,7 +18482,7 @@ msgstr "A votre rythme"
 
 #: cms/templates/course_outline.html
 msgid "Instructor-Paced"
-msgstr "Au rythme de l'enseignant"
+msgstr "Au rythme de l'instructeur"
 
 #: cms/templates/course_outline.html
 msgid "Creating your course organization"
@@ -18991,7 +18991,7 @@ msgstr ""
 "Chaque groupe de contenu que vous créer peut être associé à une ou plusieurs "
 "cohortes. En plus du contenu de cours qui est prévu pour tous les étudiants, "
 "vous pouvez désigner une partie du contenu visible uniquement à des groupes de contenu spécifiques."
-"Seuls les étudiants dans les cohortes qui sont associées à des groupes de contenu spécifiques "
+"Seuls les apprenants dans les cohortes qui sont associées à des groupes de contenu spécifiques "
 "verront ce contenu additionnel."
 
 #: cms/templates/group_configurations.html
@@ -19159,7 +19159,7 @@ msgid ""
 "dozen types of problems to challenge your learners."
 msgstr ""
 "Ce sont plus que des choix multiples. {studio_name} supporte plus d'une douzaine "
-"de types d'exercices afin de défier vos étudiants."
+"de types d'exercices afin de défier vos apprenants."
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -20653,7 +20653,7 @@ msgid ""
 "You can configure release dates for course content and due dates for "
 "assignments."
 msgstr ""
-"Les cours au rythme de l'enseignant progressent selon le rythme déterminé par l'enseignant. "
+"Les cours au rythme de l'instructeur progressent selon le rythme déterminé par l'instructeur. "
 "Vous pouvez configurer des dates de disponibilité pour le contenu du cours et des dates de remise pour "
 "les travaux."
 
@@ -20664,7 +20664,7 @@ msgid ""
 "the course end date."
 msgstr ""
 "Les cours à votre rythme n'ont pas de date de disponibilité pour le contenu de cours ou de date de remise "
-" pour les travaux. Les étudiants peuvent compléter le contenu du cours n'importe quand avant la date "
+" pour les travaux. Les apprenants peuvent compléter le contenu du cours n'importe quand avant la date "
 "de fin du cours."
 
 #: cms/templates/settings.html
@@ -21076,8 +21076,8 @@ msgid ""
 "the content in this component. Learners who do not require verification see "
 "this content by default."
 msgstr ""
-"Les étudiants qui ont besoin d'une vérification doivent passer le point de contrôle afin de voir "
-"le contenu de ce composant. Les étudiants qui n'ont pas besoin de vérification voient "
+"Les apprenants qui ont besoin d'une vérification doivent passer le point de contrôle afin de voir "
+"le contenu de ce composant. Les apprenants qui n'ont pas besoin de vérification voient "
 "ce contenu par défaut."
 
 #: cms/templates/emails/activation_email.txt
