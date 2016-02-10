@@ -967,7 +967,7 @@ msgstr "%A, %d %B %Y"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "DATE_TIME_FORMAT"
-msgstr "%d %b, %Y à %H:%M"
+msgstr "%d %b %Y à %H:%M"
 
 #. Translators: the translation for "SHORT_DATE_FORMAT" must be a
 #. format string for formatting dates in a brief form.  For example,
