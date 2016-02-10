@@ -957,7 +957,6 @@ msgstr "Veuillez patienter"
 #. string for formatting dates in a long form.  For example, the
 #. American English form is "%A, %B %d %Y".
 #. See http://strftime.org for details.
-#. msgstr "%A, %d %B %Y"
 #: common/djangoapps/util/date_utils.py
 msgid "LONG_DATE_FORMAT"
 msgstr "%A, %d %B %Y"
