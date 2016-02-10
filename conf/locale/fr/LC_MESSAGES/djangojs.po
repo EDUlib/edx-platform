@@ -139,7 +139,7 @@ msgstr ""
 #: cms/static/js/views/utils/xblock_utils.js lms/static/js/ccx/schedule.js
 #: lms/static/js/views/fields.js
 msgid "Saving"
-msgstr "Enregistrement en cours"
+msgstr "Sauvegarde en cours"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -238,21 +238,21 @@ msgstr "Téléverser un fichier"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "Sauvegardez"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/edit_xblock.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Close"
-msgstr "Fermer"
+msgstr "Fermez"
 
 #: cms/static/js/views/validation.js
 #: lms/static/js/groups/views/cohort_discussions_course_wide.js
 #: lms/static/js/groups/views/cohort_discussions_inline.js
 #: lms/static/js/views/fields.js
 msgid "Your changes have been saved."
-msgstr "Vos modifications ont été enregistrées."
+msgstr "Vos modifications ont été sauvegardées."
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -3848,7 +3848,7 @@ msgstr "Onglet sélectionné"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Saved cohort"
-msgstr "Cohorte enregistrée"
+msgstr "Cohorte sauvegardée"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Error adding students."
@@ -7865,7 +7865,7 @@ msgstr "Documents de cours"
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid "You have no handouts defined"
-msgstr "Vous n'avez défini aucun polycopié"
+msgstr "Vous n'avez défini aucun document de cours"
 
 #: cms/templates/js/course_info_handouts.underscore
 msgid ""
