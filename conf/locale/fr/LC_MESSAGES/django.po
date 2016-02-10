@@ -10617,7 +10617,7 @@ msgstr "Erreurs de chargement du cours"
 
 #: lms/templates/dashboard.html
 msgid "Search Your Courses"
-msgstr "Rechercher vos cours"
+msgstr "Chercher dans vos cours"
 
 #: lms/templates/dashboard.html lms/templates/courseware/courseware.html
 msgid "Clear search"
