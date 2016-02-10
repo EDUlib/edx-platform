@@ -15121,7 +15121,7 @@ msgstr "Regénérer pour les étudiants qui sont en statut d'erreur. ({count})"
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Certificate Generation History"
-msgstr "Historique de génération d'attestations."
+msgstr "Historique de génération d'attestations"
 
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
