@@ -35,20 +35,25 @@
   % endif
 >
     <h2 class="sr footer-about-title">${_("About edX")}</h2>
-    <div class="footer-content-wrapper clearfix">      
+    <div class="footer-content-wrapper clearfix">
+      
+          <!--
+            <img alt="EDUlib" src="${static.url('images/logo-edulib-nb.png')}" class="footer-logo">
+            -->
+      
 
       <div class="site-details">
           <nav class="site-nav" aria-label="${_('About edX')}">
               % for link in footer["navigation_links"]:
               <a href="${link['url']}">${link['title']}</a>
               % endfor
-          
+          </nav>
+          <nav class="legal-notices" aria-label="${_('Legal')}">
               % for link in footer["legal_links"]:
               <a href="${link['url']}">${link['title']}</a>
               % endfor
           </nav>
           <p class="copyright">
-          
           ## The OpenEdX link may be hidden when this view is served
           ## through an API to partner sites (such as marketing sites or blogs),
           ## which are not technically powered by OpenEdX.
@@ -57,21 +62,7 @@
               <img alt="${footer['openedx_link']['title']}" src="${footer['openedx_link']['image']}" width="140">
             </a>
           % endif
-            ## ${footer['copyright']}
-        
-            &copy; ${settings.COPYRIGHT_YEAR} <a href="/">
-            ## this is just a placeholder logo
-            ## feel free to change this logo to your own by replacing "logo.png" with your own logo
-            <img alt="${settings.PLATFORM_NAME}" src="${static.url('images/logo-edulib-nb.png')}"></a>&nbsp;
-        
-            ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-      
-            ## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
-            ${_("EdX, Open edX, and the edX and Open edX logos are registered trademarks or trademarks of {link_start}edX Inc.{link_end}").format(
-                link_start=u"<a href='https://www.edx.org/'>",
-                link_end=u"</a>"
-            )}
-          </p>
+          ${footer['copyright']}</p>
       </div>
 
       <div class="external-links">
