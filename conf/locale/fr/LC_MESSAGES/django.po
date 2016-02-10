@@ -957,9 +957,10 @@ msgstr "Veuillez patienter"
 #. string for formatting dates in a long form.  For example, the
 #. American English form is "%A, %B %d %Y".
 #. See http://strftime.org for details.
+#. msgstr "%A, %d %B %Y"
 #: common/djangoapps/util/date_utils.py
 msgid "LONG_DATE_FORMAT"
-msgstr "%A, %d %B %Y"
+msgstr "%d %b %Y"
 
 #. Translators: the translation for "DATE_TIME_FORMAT" must be a format
 #. string for formatting dates with times.  For example, the American
@@ -22004,3 +22005,8 @@ msgid ""
 msgstr ""
 "Une nouvelle révision a été créée : Fusion entre la révision #%(r1)d et la "
 "révision #%(r2)d"
+
+#: lms/templates/discovery/course_card.underscore
+#, python-format
+msgid "Starts: {start_date}"
+msgstr "Commence: {start_date}"
