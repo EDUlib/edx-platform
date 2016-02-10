@@ -6416,9 +6416,35 @@ msgstr "Cliquer pour modifier"
 msgid "title"
 msgstr "titre"
 
+#. Added by EDULIB
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+msgid "Exception Granted"
+msgstr "Dérogation accordée"
+
+#. Added by EDULIB
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+msgid "Certificate Generated"
+msgstr "Attestation générée"
+
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Bulk Exceptions"
-msgstr "Dérogations de masse"
+msgstr "Dérogations en lot"
+
+#. Added by EDULIB
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+msgid
+"Upload a comma separated values (.csv) file that contains the usernames or email addresses "
+"of learners who have been given exceptions. Include the username or email address in the first comma "
+"separated field. You can include an optional note describing the reason for the exception in the second comma separated field."
+msgstr ""
+"Téléchargez un fichier comma separated values (.csv) contenant les noms d'utilisateurs ou les adresses courriels "
+"d'étudiants qui ont reçu une dérogation. Inclure le nom d'utilisateur ou l'adresses courriel dans le premier champ. "
+"Vous pouvez include une note optionnelle pour décrire la raison de la dérogation dans le deuxième champ."
+
+#. Added by EDULIB
+#: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
+msgid "Add to Exception List"
+msgstr "Ajouter à la liste de dérogation"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid ""
@@ -6450,12 +6476,15 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "Generate a Certificate for all "
-msgstr "Générer une attestation pour tous "
+msgstr "Générer une attestation toutes les "
 
 #: lms/templates/discovery/course_card.underscore
-#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "New"
 msgstr "Nouveau"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+msgid "New "
+msgstr "nouveaux"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
 msgid "additions to the Exception list"
