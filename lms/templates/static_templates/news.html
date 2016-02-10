@@ -16,3 +16,18 @@
 ##### CODE DOGWOOD
 <meta http-equiv="refresh" content="0; URL='https://edulib.atlassian.net/wiki/display/DOC/Nouvelles'" />
 ##### CODE DOGWOOD
+<%! from django.utils.translation import ugettext as _ %>
+
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("In the Press")}</%block>
+
+<section class="container about">
+    <h1>${_("In the Press")}</h1>
+
+    <h3 style="text-align:center;"><a href="http://edulib-nouvelles.blogspot.ca/">Cliquez ici pour accéder aux nouvelles</a></h3>
+
+    <script type="text/javascript">
+        window.location.href = 'http://edulib-nouvelles.blogspot.ca/';
+    </script>
+</section>
