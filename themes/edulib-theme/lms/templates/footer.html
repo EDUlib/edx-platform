@@ -26,14 +26,14 @@
               % for link in footer["navigation_links"]:
               <a href="${link['url']}">${link['title']}</a>
               % endfor
-          </nav>
-          <nav class="legal-notices" aria-label="${_('Legal')}">
+          
               % for link in footer["legal_links"]:
               <a href="${link['url']}">${link['title']}</a>
               % endfor
           </nav>
           
           <p class="copyright">
+          
           ## The OpenEdX link may be hidden when this view is served
           ## through an API to partner sites (such as marketing sites or blogs),
           ## which are not technically powered by OpenEdX.
