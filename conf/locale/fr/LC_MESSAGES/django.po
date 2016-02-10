@@ -13289,7 +13289,7 @@ msgid ""
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
 "Nous somes en train de créer votre attestation. Vous pouvez continuer à travailler dans vos cours et un lien "
-"vers celui-ci apparaitra ici et sur votre tableau de bord quand celui-ci sera prêt."
+"vers celle-ci apparaitra ici et sur votre tableau de bord quand elle sera prête."
 
 #: lms/templates/courseware/progress.html
 msgid "Congratulations, you qualified for a certificate!"
