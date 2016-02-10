@@ -2358,7 +2358,7 @@ msgstr "Mes Notes"
 
 #: common/static/js/vendor/ova/catch/js/catch.js
 msgid "Instructor"
-msgstr "Enseignant"
+msgstr "Instructeur"
 
 #: common/static/js/vendor/ova/catch/js/catch.js
 msgid "Public"
@@ -2505,7 +2505,7 @@ msgid ""
 "A short description of the team to help other learners understand the goals "
 "or direction of the team (maximum 300 characters)."
 msgstr ""
-"Une courte description de l'équipe afin d'aider les autres étudiants à comprendre les objectifs "
+"Une courte description de l'équipe afin d'aider les autres apprenants à comprendre les objectifs "
 "ou la direction de l'équipe (300 caractères maximum)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
@@ -2584,7 +2584,7 @@ msgid ""
 "This learner will be removed from the team, allowing another learner to take"
 " the available spot."
 msgstr ""
-"Cet étudiant sera supprimer de l'équipe, permettant à un autre étudiant de prendre"
+"Cet apprenant sera supprimé de l'équipe, permettant à un autre apprenant de prendre"
 " la place disponible."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
@@ -2643,7 +2643,7 @@ msgid ""
 "will be available to another learner."
 msgstr ""
 "Si vous quittez, vous ne pourrez plus poster dans les discussions de cette équipe. Votre place "
-"sera disponible pour un autre étudiant."
+"sera disponible pour un autre apprenant."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/static/js/verify_student/views/reverify_view.js
@@ -2683,7 +2683,7 @@ msgid ""
 " with other learners who are interested in the same topic as you are."
 msgstr ""
 "Voir toutes les équipes dans votre cours, organisé par thème. Rejoignez une équipe afin de collaborer "
-"avec d'autres étudiants qui sont interessés dans les mêmes thèmes que vous."
+"avec d'autres apprenants qui sont interessés dans les mêmes thèmes que vous."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Team"
@@ -2921,9 +2921,7 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Error: You cannot remove yourself from the Instructor group!"
-msgstr ""
-"Erreur : Vous ne pouvez pas vous supprimer vous-même du groupe des "
-"enseignants !"
+msgstr "Erreur : Vous ne pouvez pas vous supprimer vous-même du groupe des instructeurs!"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Errors"
@@ -3105,7 +3103,7 @@ msgid ""
 "staff or instructor on this course. Is this OK?"
 msgstr ""
 "Vous êtes sur le point d'envoyer un courriel intitulé  '<%= subject %>' à tous"
-" les membres de l'équipe pédagogique ou enseignants de ce cours. Voulez-vous continuer ?"
+" les membres de l'équipe pédagogique ou instructeurs de ce cours. Voulez-vous continuer ?"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
@@ -3114,7 +3112,7 @@ msgid ""
 msgstr ""
 "Vous êtes sur le point d'envoyer un courriel intitulé '<%= subject %>' à TOUS "
 "(n'importe quelle personne inscrite au cours en tant qu'étudiant, membre de l'équipe pédagogique, "
-"ou enseignant). Voulez-vous continuer ? "
+"ou instructeur). Voulez-vous continuer ? "
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
@@ -3694,11 +3692,11 @@ msgstr "Erreurs!"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are successfully added to exception list"
-msgstr " étudiants sont ajoutés avec succès à la liste de dérogation"
+msgstr " apprenants sont ajoutés avec succès à la liste de dérogation"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is successfully added to the exception list"
-msgstr " étudiant est ajouté avec succès à la liste de dérogation"
+msgstr " apprenant est ajouté avec succès à la liste de dérogation"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " records are not in correct format"
@@ -3710,27 +3708,27 @@ msgstr " enregistrement n'est pas dans le bon format"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners do not exist in LMS"
-msgstr " étudiants n'existent pas dans le LMS"
+msgstr " apprenants n'existent pas dans le LMS"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner does not exist in LMS"
-msgstr " étudiant n'existe pas dans le LMS"
+msgstr " apprenant n'existe pas dans le LMS"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are already white listed"
-msgstr " étudiants sont déjà dans la liste de dérogation"
+msgstr " apprenants sont déjà dans la liste de dérogation"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is already white listed"
-msgstr " étudiant déjà dans la liste de dérogation"
+msgstr " apprenant déjà dans la liste de dérogation"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learners are not enrolled in course"
-msgstr " étudiants ne sont pas inscrits dans ce cours"
+msgstr " apprenants ne sont pas inscrits dans ce cours"
 
 #: lms/static/js/certificates/views/certificate_bulk_whitelist.js
 msgid " learner is not enrolled in course"
-msgstr " étudiant n'est pas inscrit dans ce cours"
+msgstr " apprenant n'est pas inscrit dans ce cours"
 
 #: lms/static/js/course_survey.js
 msgid "There has been an error processing your survey."
@@ -4122,7 +4120,7 @@ msgid ""
 "The name that appears on your certificates. Other learners never see your "
 "full name."
 msgstr ""
-"Le nom complet visible sur vos attestations. Les autres étudiants ne pourront"
+"Le nom complet visible sur vos attestations. Les autres apprenants ne pourront"
 " pas voir votre nom complet."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -4243,7 +4241,7 @@ msgstr "Lien supprimé."
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "{platform_name} learners can see my:"
-msgstr "Les utilisateurs de {platform_name} peuvent voir mon:"
+msgstr "Les apprenants de {platform_name} peuvent voir mon:"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js
 msgid "Limited Profile"
@@ -4270,7 +4268,7 @@ msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
-"Parlez nous de vous : où habitez-vous, quels sont vos intérêts, pourquoi "
+"Dites aux autres apprenants un peu plus sur vous: où habitez-vous, quels sont vos intérêts, pourquoi "
 "suivez-vous des cours ou ce que vous souhaitez apprendre."
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js
@@ -6118,7 +6116,7 @@ msgid ""
 "characteristics for your team. Choose carefully, because fewer people might "
 "be interested in joining your team if it seems too restrictive."
 msgstr ""
-"Aidez les autres étudiants à décider s'ils veulent rejoindre votre équipe en spécifiant quelques "
+"Aidez les autres apprenants à décider s'ils veulent rejoindre votre équipe en spécifiant quelques "
 "caractéristiques de votre équipe. Choisissez soigneusement, car moins de personnes seront intéressés "
 "à rejoindre votre équipe si votre équipe semble trop restrictive."
 
@@ -6140,7 +6138,7 @@ msgstr "Annuler la mise à jour de l'équipe"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Instructor tools"
-msgstr "Outils de l'enseignant"
+msgstr "Outils de l'instructeur"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Delete Team"
@@ -6254,7 +6252,7 @@ msgid ""
 "To finalize course credit, %(display_name)s requires %(platform_name)s "
 "learners to submit a credit request."
 msgstr ""
-"Pour finaliser l'obtention de crédit de cours, %(display_name)s demande aux étudiants de %(platform_name)s "
+"Pour finaliser l'obtention de crédit de cours, %(display_name)s demande aux apprenants de %(platform_name)s "
 "de soumettre une demande de crédit."
 
 #: lms/templates/commerce/provider.underscore
@@ -6438,7 +6436,7 @@ msgid
 "separated field. You can include an optional note describing the reason for the exception in the second comma separated field."
 msgstr ""
 "Téléchargez un fichier comma separated values (.csv) contenant les noms d'utilisateurs ou les adresses courriels "
-"d'étudiants qui ont reçu une dérogation. Inclure le nom d'utilisateur ou l'adresses courriel dans le premier champ. "
+"d'apprenants qui ont reçu une dérogation. Inclure le nom d'utilisateur ou l'adresses courriel dans le premier champ. "
 "Vous pouvez include une note optionnelle pour décrire la raison de la dérogation dans le deuxième champ."
 
 #. Added by EDULIB
@@ -6492,7 +6490,7 @@ msgstr "Explication pour la dérogation"
 #. Added by EDUlib
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Enter the username or email address of each learner that you want to add as an exception."
-msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque étudiant que vous désirez ajouter comme dérogation."
+msgstr "Entrer le nom d'utilisateur our l'adresse courriel pour chaque apprenant que vous désirez ajouter comme dérogation."
 
 #. Modified by EDUlib
 #: lms/templates/discovery/course_card.underscore
@@ -7012,7 +7010,7 @@ msgstr "Vous partagez actuellement votre profil restreint."
 
 #: lms/templates/student_profile/learner_profile.underscore
 msgid "This edX learner is currently sharing a limited profile."
-msgstr "Cette utilisateur partage actuellement un profil restreint."
+msgstr "Cette apprenant EDUlib partage actuellement un profil restreint."
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 #, python-format
@@ -8388,9 +8386,9 @@ msgid ""
 "subsection. Learners must submit answers before the time expires. You can "
 "allow additional time on per learner basis through the Instructor Dashboard."
 msgstr ""
-"Utilisez un examen surveillé afin de limiter le temps que les étudiants peuvent passer sur les exercices dans cette "
-"sous-section. Les étudiants doivent soumettre leurs réponses avant que le temps n'expire. Vous pouvez "
-"du temps additionnel par étudiant via le tableau de bord de l'enseignant."
+"Utilisez un examen surveillé afin de limiter le temps que les apprenants peuvent passer sur les exercices dans cette "
+"sous-section. Les apprenants doivent soumettre leurs réponses avant que le temps n'expire. Vous pouvez "
+"du temps additionnel par apprenant via le tableau de bord de l'instructeur."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "Proctored"
@@ -8401,7 +8399,7 @@ msgid ""
 "Proctored exams are timed, and software records video of each learner taking"
 " the exam. These videos are then reviewed by a third party."
 msgstr ""
-"Les examens surveillés sont chronométrés, et le logiciel enregistre la vidéo de chaque étudiant passant "
+"Les examens surveillés sont chronométrés, et le logiciel enregistre la vidéo de chaque apprenant passant "
 "l'examen. Ces vidéos sont ensuite examinés par un tiers parti."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
@@ -8414,7 +8412,7 @@ msgid ""
 "and processes. Results of the practice exam do not count towards the "
 "learner's grade."
 msgstr ""
-"Utilisez un examen de pratique surveillé afin d'introduire les étudiants au processus et "
+"Utilisez un examen de pratique surveillé afin d'introduire les apprenants au processus et "
 "aux outils de surveillance. Les résultats de l'examen de pratique ne comptent pas "
 "pour la note finale de l'étudiant."
 
@@ -8429,9 +8427,9 @@ msgid ""
 "grant learners extra time to complete the exam through the Instructor "
 "Dashboard."
 msgstr ""
-"Les étudidant voient des avertissements quand le temps imparti restant atteint 20% et 5%. Vous pouvez "
-"permettre du temps supplémentaire aux étudiants afin de compléter l'examen via le tableau de bord "
-"de l'enseignant."
+"Les apprenants voient des avertissements quand le temps imparti restant atteint 20% et 5%. Vous pouvez "
+"permettre du temps supplémentaire aux apprenants afin de compléter l'examen via le tableau de bord "
+"de l'instructeur."
 
 #: cms/templates/js/upload-dialog.underscore
 msgid "File upload succeeded"
@@ -8463,7 +8461,7 @@ msgid ""
 "the content in this unit. Learners who do not require verification see this "
 "content by default."
 msgstr ""
-"Les étudiants qui ont besoin d'une vérification doit passer le point de contrôle sélectionné afin de voir "
+"Les apprenants qui ont besoin d'une vérification doit passer le point de contrôle sélectionné afin de voir "
 "le contenu de cette unité. Les étudiants qui n'ont pas besoin d'une vérification voient "
 "ce contenu par défaut."
 
