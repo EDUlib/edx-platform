@@ -4969,7 +4969,7 @@ msgstr "Coach CCX"
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be a CCX Coach to access this view."
-msgstr "Vous devez être un cach CCX pour accéder à cette vue."
+msgstr "Vous devez être un coach CCX pour accéder à cette vue."
 
 #: lms/djangoapps/ccx/views.py
 msgid "You must be the coach for this ccx to access this view"
@@ -12166,7 +12166,7 @@ msgstr "Sortie de la calculatrice"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "CCX Coach Dashboard"
-msgstr "Tableau de bord CCX"
+msgstr "Tableau de bord Coach CCX"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Name your CCX"
