@@ -196,7 +196,7 @@ msgstr "Supprimer"
 #: cms/static/js/models/active_video_upload.js cms/static/js/views/assets.js
 #: lms/static/js/views/image_field.js
 msgid "Uploading"
-msgstr "Téléchargement en cours"
+msgstr "Téléversement en cours"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -219,7 +219,7 @@ msgstr "Inconnu"
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Télécharger un fichier"
+msgstr "Téléverser un fichier"
 
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -3941,7 +3941,7 @@ msgstr "Seuls les fichiers au format .csv seront acceptés."
 
 #: lms/static/js/groups/views/cohorts.js
 msgid "Upload File and Assign Students"
-msgstr "Charger le fichier et associer les étudiants"
+msgstr "Téléverser le fichier et associer les étudiants"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid ""
@@ -4303,7 +4303,7 @@ msgstr "Image de profil pour {username}"
 
 #: lms/static/js/verify_student/views/image_input_view.js
 msgid "Image Upload Error"
-msgstr "Erreur lors du téléchargement de l'image"
+msgstr "Erreur lors du téléversement de l'image"
 
 #: lms/static/js/verify_student/views/image_input_view.js
 msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
@@ -4447,7 +4447,7 @@ msgstr "Le chargement de '{file}' a échoué."
 
 #: lms/static/js/views/image_field.js
 msgid "Upload an image"
-msgstr "Charger une image"
+msgstr "Téléverser une image"
 
 #: lms/static/js/views/image_field.js
 msgid "Change image"
@@ -4474,7 +4474,7 @@ msgid ""
 "Upload is in progress. To avoid errors, stay on this page until the process "
 "is complete."
 msgstr ""
-" Dépôt de fichier en cours. Pour éviter toute erreur, restez sur cette page "
+"Téléversement en cours. Pour éviter toute erreur, restez sur cette page "
 "jusqu'à la fin du traitement."
 
 #: lms/static/js/views/image_field.js
@@ -4624,7 +4624,7 @@ msgstr "Cette action ne peut pas être annulée."
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Upload signature image."
-msgstr "Charger l'image de signature."
+msgstr "Téléversez l'image de signature."
 
 #: cms/static/js/certificates/views/signatory_editor.js
 msgid "Image must be in PNG format."
@@ -4803,12 +4803,12 @@ msgstr "Mis en file d'attente"
 #. completed successfully
 #: cms/static/js/models/active_video_upload.js
 msgid "Upload completed"
-msgstr "Chargement terminé"
+msgstr "Téléversement terminé"
 
 #. Translators: This is the status of a video upload that has failed
 #: cms/static/js/models/active_video_upload.js
 msgid "Upload failed"
-msgstr "Le chargement a échoué"
+msgstr "Le téléversement a échoué"
 
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
@@ -4979,7 +4979,7 @@ msgstr "Choisir le fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
 msgid "Upload New File"
-msgstr "Envoyer un nouveau fichier"
+msgstr "Téléverser un nouveau fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
 msgid "Load Another File"
@@ -5472,7 +5472,7 @@ msgstr "%(hours)s:%(minutes)s (Heure actuelle UTC )"
 
 #: cms/static/js/views/settings/main.js
 msgid "Upload your course image."
-msgstr "Téléchargez votre image de cours."
+msgstr "Téléversez votre image de cours."
 
 #: cms/static/js/views/settings/main.js
 msgid "Files must be in JPEG or PNG format."
@@ -5492,7 +5492,7 @@ msgstr ""
 
 #: cms/static/js/views/uploads.js
 msgid "Upload"
-msgstr "Envoyer"
+msgstr "Téléversez"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
@@ -5571,7 +5571,7 @@ msgstr "Sélectionner un fichier au format .srt."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js
 msgid "Error: Uploading failed."
-msgstr "Erreur: Le chargement a échoué."
+msgstr "Erreur: Le téléversement a échoué."
 
 #: cms/static/js/views/video/transcripts/message_manager.js
 msgid "Error: Import failed."
@@ -5615,7 +5615,7 @@ msgstr ""
 
 #: cms/static/js/views/video/translations_editor.js
 msgid "Upload translation"
-msgstr "Charger une traduction"
+msgstr "Téléversez une traduction"
 
 #: cms/static/js/views/xblock_editor.js
 msgid "Editor"
@@ -6435,7 +6435,7 @@ msgid
 "of learners who have been given exceptions. Include the username or email address in the first comma "
 "separated field. You can include an optional note describing the reason for the exception in the second comma separated field."
 msgstr ""
-"Téléchargez un fichier comma separated values (.csv) contenant les noms d'utilisateurs ou les adresses courriels "
+"Téléversez un fichier comma separated values (.csv) contenant les noms d'utilisateurs ou les adresses courriels "
 "d'apprenants qui ont reçu une dérogation. Inclure le nom d'utilisateur ou l'adresses courriel dans le premier champ. "
 "Vous pouvez include une note optionnelle pour décrire la raison de la dérogation dans le deuxième champ."
 
@@ -6458,7 +6458,7 @@ msgstr "Parcourir"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-white-list.underscore
 msgid "Upload CSV"
-msgstr "Télécharger un fichier CSV"
+msgstr "Téléversez un fichier CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore
 msgid "Individual Exceptions"
@@ -6760,9 +6760,9 @@ msgid ""
 "%(link_start)s the Data Download page. %(link_end)s"
 msgstr ""
 "Pour vérifier les affectations de cohortes d'étudiants ou voir les résultats"
-" de l'import du fichier CSV, télécharger les informations du profil de cours"
-" ou les résultat des cohortes depuis  %(link_start)s s la page de Data "
-"Download. %(link_end)s"
+" de l'import du fichier CSV, téléchargez les informations du profil de cours"
+" ou les résultat des cohortes depuis  %(link_start)s la page de Téléchargement des "
+"données. %(link_end)s"
 
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
 msgid "Used"
@@ -7241,7 +7241,7 @@ msgstr "Aperçu de l'image téléchargée"
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Upload an image or capture one with your web or phone camera."
-msgstr "Téléchargez une photo ou prenez en une avec votre caméra web ou votre caméra de téléphone."
+msgstr "Téléversez une photo ou prenez en une avec votre caméra web ou votre caméra de téléphone."
 
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid ""
@@ -7927,7 +7927,7 @@ msgstr "télécharger un PDF ou fournissez le chemin d'un fichier de ressource S
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "Upload PDF"
-msgstr "Télécharger un PDF"
+msgstr "Téléversez un PDF"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "delete chapter"
@@ -8116,7 +8116,7 @@ msgstr "Ajouter votre premier manuel"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Previous Uploads"
-msgstr "Téléchargements précédents"
+msgstr "Téléversements précédents"
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Download available encodings (.csv)"
@@ -8552,12 +8552,12 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Upload New Transcript"
-msgstr "Envoyer une nouvelle transcription"
+msgstr "Téléversez une nouvelle transcription"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore
 msgid "Upload New .srt Transcript"
-msgstr "Envoyer une nouvelle transcription .srt"
+msgstr "Téléversez une nouvelle transcription .srt"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore
 #: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore
@@ -8614,7 +8614,7 @@ msgstr "Oui, remplacer la transcription EdX par celle de YouTube"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid "Timed Transcript Uploaded Successfully"
-msgstr "Transcription synchronisée importée avec succès"
+msgstr "Transcription synchronisée téléversée avec succès"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore
 msgid ""
@@ -8625,7 +8625,7 @@ msgstr ""
 "EdX dispose d'une transcription synchronisée pour cette vidéo. Si vous "
 "souhaitez remplacer cette transcription, envoyer un nouveau fichier de "
 "transcription srt. Si vous souhaitez éditer cette transcription, vous pouvez"
-" envoyer, éditer et re-réenvoyer la transcription existante."
+" télécharger, éditer et re-réenvoyer la transcription existante."
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Confirm Timed Transcript"
