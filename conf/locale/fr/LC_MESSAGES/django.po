@@ -2967,7 +2967,7 @@ msgstr ""
 "après la date de fin de cours. Pour afficher l'information d'attestation "
 "à tous les étudiants aussitôt que les attestations sont générées, entrez "
 "early_with_info. Pour afficher les liens seulement aux étudiants qui ont passé le cours aussitôt "
-"ue les attestations sont générées, entrez early_no_info."
+"que les attestations sont générées, entrez early_no_info."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course About Page Image"
