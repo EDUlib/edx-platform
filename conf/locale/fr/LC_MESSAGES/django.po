@@ -3910,14 +3910,14 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Days Early for Beta Users"
-msgstr "Nombre de jours pour les utilisateurs beta"
+msgstr "Nombre de jours pour les bêta testeurs"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the number of days before the start date that beta users can access "
 "the course."
 msgstr ""
-"Entrez le nombre de jours avant la date de début du cours pendant lesquels les utilisateurs beta peuvent accéder "
+"Entrez le nombre de jours avant la date de début du cours pendant lesquels les bêta testeurs peuvent accéder "
 "au cours."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -6656,7 +6656,7 @@ msgstr "Les donnés d'inscriptio sont maintenant disponibles au lien {dashboard_
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Membership"
-msgstr "Appartenance"
+msgstr "Inscription"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Cohorts"
@@ -13101,14 +13101,14 @@ msgid ""
 "of the Instructor Dashboard."
 msgstr ""
 "Pour ajouter ou supprimer des membres de l'équipe pédagogique, visitez la "
-"section Membership de l'onglet Instructeur."
+"section Inscription de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid ""
 "To manage forum roles, visit the Membership section of the Instructor "
 "Dashboard."
 msgstr ""
-"Pour la gestion des rôles des forums, visitez la section Membership de "
+"Pour la gestion des rôles des forums, visitez la section Inscription de "
 "l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -13165,7 +13165,7 @@ msgid ""
 "To manage beta tester roles and cohorts, visit the Membership section of the"
 " Instructor Dashboard."
 msgstr ""
-"Pour la gestion des cohortes et beta testeur, visitez la section Membership "
+"Pour la gestion des cohortes et bêta testeurs, visitez la section Inscription "
 "de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -13173,7 +13173,7 @@ msgid ""
 "To manage beta tester roles, visit the Membership section of the Instructor "
 "Dashboard."
 msgstr ""
-"Pour la gestion des beta testeurs, visitez la section Membership de l'onglet"
+"Pour la gestion des bêta testeurs, visitez la section Inscription de l'onglet"
 " Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -14227,7 +14227,7 @@ msgid ""
 "You have been invited to be a beta tester for {course_name} at {site_name} "
 "by a member of the course staff."
 msgstr ""
-"Vous avez été invité à être un bêta-testeur de {course_name} sur {site_name}"
+"Vous avez été invité à être un bêta testeur de {course_name} sur {site_name}"
 " par un membre de l'équipe pédagogique de ce cours."
 
 #: lms/templates/emails/add_beta_tester_email_message.txt
@@ -14757,7 +14757,7 @@ msgid ""
 " member of the course staff. The course will remain on your dashboard, but "
 "you will no longer be part of the beta testing group."
 msgstr ""
-"Vous avez été supprimé en tant que bêta-testeur de {course_name} sur "
+"Vous avez été supprimé en tant que bêta testeur de {course_name} sur "
 "{site_name} par un membre de l'équipe pédagogique. Le cours apparaitra "
 "toujours dans votre tableau de bord mais vous ne ferez plus partie du groupe"
 " de test du cours."
@@ -14769,7 +14769,7 @@ msgstr "Vos autres cours n'ont pas été affectés."
 
 #: lms/templates/emails/remove_beta_tester_email_subject.txt
 msgid "You have been removed from a beta test for {course_name}"
-msgstr "Vous avez été supprimé en tant que bêta-testeur de {course_name} "
+msgstr "Vous avez été supprimé en tant que bêta testeur de {course_name} "
 
 #: lms/templates/emails/reverification_processed.txt
 msgid ""
@@ -16090,11 +16090,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add beta testers"
-msgstr "Ajouter des bêta-testeurs"
+msgstr "Ajouter des bêta testeurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Remove beta testers"
-msgstr "Supprimer des bêta-testeurs"
+msgstr "Supprimer des bêta testeurs"
 
 #. Translators: an "Administration List" is a list, such as Course Staff, that
 #. users can be added to.
@@ -16152,7 +16152,7 @@ msgstr ""
 "Les membres de l'équipe avec le rôle Admin aident à la gestion du cours. Ils"
 " peuvent également effectuer toutes les actions comme l'équipe pédagogique, "
 "mais aussi ajouter ou supprimer des membres Admin, gérer les rôles de "
-"modérations des forums, l'ajout de bêta-testeurs. Vous ne pouvez affecter "
+"modérations des forums, l'ajout de bêta testeurs. Vous ne pouvez affecter "
 "des rôles que pour les utilisateurs inscrits au cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -16161,7 +16161,7 @@ msgstr "Ajouter un Admin"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Beta Testers"
-msgstr "Beta testeurs"
+msgstr "Bêta testeurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
