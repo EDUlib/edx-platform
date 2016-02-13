@@ -2747,7 +2747,7 @@ msgstr ""
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Membership"
-msgstr "Appartenance"
+msgstr "Inscription"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2957,23 +2957,23 @@ msgstr ""
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "These users were successfully added as beta testers:"
-msgstr "Ces utilisateurs ont été ajoutés comme bêta-testeurs avec succès :"
+msgstr "Ces utilisateurs ont été ajoutés comme bêta testeurs avec succès :"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "These users were successfully removed as beta testers:"
-msgstr "Ces utilisateurs ont été supprimés des bêta-testeurs avec succès :"
+msgstr "Ces utilisateurs ont été supprimés des bêta testeurs avec succès :"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "These users were not added as beta testers:"
-msgstr "Ces utilisateurs n'ont pas été ajoutés comme bêta-testeurs :"
+msgstr "Ces utilisateurs n'ont pas été ajoutés comme bêta testeurs :"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "These users were not removed as beta testers:"
 msgstr ""
-"Ces utilisateurs n'ont pas pu être supprimés en tant que bêta-testeurs :"
+"Ces utilisateurs n'ont pas pu être supprimés en tant que bêta testeurs :"
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid ""
@@ -2981,7 +2981,7 @@ msgid ""
 "beta tester."
 msgstr ""
 "Les utilisateurs doivent créer et activer leur compte avant de pouvoir "
-"devenir des bêta-testeurs."
+"devenir des bêta testeurs."
 
 #. Translators: A list of identifiers (which are email addresses and/or
 #. usernames) appears after this sentence;
@@ -6146,7 +6146,7 @@ msgstr "Supprimer l'équipe"
 
 #: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
 msgid "Edit Membership"
-msgstr "Editer le membership"
+msgstr "Editer les inscriptions"
 
 #: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
 msgid "Are you having trouble finding a team to join?"
