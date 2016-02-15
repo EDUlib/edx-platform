@@ -257,7 +257,7 @@ msgstr "Revenir à la configuration choisie"
 
 #: common/djangoapps/config_models/admin.py
 msgid "Please select a single configuration to revert to."
-msgstr "Sélectionner une configuration à laquelle revenir."
+msgstr "Sélectionnez une configuration à laquelle revenir."
 
 #: common/djangoapps/config_models/admin.py
 msgid "Reverted configuration."
@@ -2649,7 +2649,7 @@ msgstr "Commencer avec Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Team Members"
-msgstr "Ajouter des membres à l'équipe de cours"
+msgstr "Ajoutez des membres à l'équipe de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2713,7 +2713,7 @@ msgstr "Rédiger un plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Create Your First Section and Subsection"
-msgstr "Créer votre première section et sous-section"
+msgstr "Créez votre première section et sous-section"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use your course outline to build your first Section and Subsection."
@@ -2765,19 +2765,19 @@ msgstr "Renomme les sections en cliquant le nom de la section à partir du plan 
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Deleting Course Content"
-msgstr "Supprimer le contenu de cours"
+msgstr "Supprimez le contenu de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Delete Sections, Subsections, or Units you don't need anymore. Be careful, "
 "as there is no Undo function."
 msgstr ""
-"Supprimer les sections, sous-sections, ou unités que vous n'utilisez plus. Soyez prudent, "
+"Supprimez les sections, sous-sections, ou unités que vous n'utilisez plus. Soyez prudent, "
 "il n'y a pas de fonction annuler."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add an Instructor-Only Section to Your Outline"
-msgstr "Ajouter une section instructeur-seulement à votre plan de cours"
+msgstr "Ajoutez une section instructeur-seulement à votre plan de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2859,7 +2859,7 @@ msgstr "Éditez les Dates &amp; Détails du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Staff Bios"
-msgstr "Ajouter les biographies de l'équipe pédagogique"
+msgstr "Ajoutez les biographies de l'équipe pédagogique"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2871,7 +2871,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course FAQs"
-msgstr "Ajouter la FAQ du cours"
+msgstr "Ajoutez la FAQ du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Include a short list of frequently asked questions about your course."
@@ -3419,7 +3419,7 @@ msgid ""
 "Add tags that automatically highlight in a certain color using the comma-"
 "separated form, i.e. imagery:red,parallelism:blue"
 msgstr ""
-"Ajouter des étiquettes qui automatiquement mettent en relief selon une certaine couleur en utilisant "
+"Ajoutez des étiquettes qui automatiquement mettent en relief selon une certaine couleur en utilisant "
 "une notation séparée par des virgules, i.e. imagery:red,parallelism:blue"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
@@ -4446,7 +4446,7 @@ msgid ""
 "configuration or delete this experiment."
 msgstr ""
 "Ce test utilise une configuration de groupe supprimée. "
-"Sélectionnez une configuration de groupe valide ou supprimer ce test."
+"Sélectionnez une configuration de groupe valide ou supprimez ce test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
@@ -4454,7 +4454,7 @@ msgid ""
 "experiments. Select a valid group configuration or delete this experiment."
 msgstr ""
 "Ce test utilise une configuration de groupe qui n'est pas supportée pour "
-"des tests. Sélectionnez une configuration de groupe valide ou supprimer ce test."
+"des tests. Sélectionnez une configuration de groupe valide ou supprimez ce test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
@@ -4464,7 +4464,7 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Add Missing Groups"
-msgstr "Ajouter les groupes manquants"
+msgstr "Ajoutez les groupes manquants"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid ""
@@ -4472,7 +4472,7 @@ msgid ""
 "delete the inactive group."
 msgstr ""
 "Ce test a un groupe inactif. Déplacez le contenu dans des groupes actifs, puis "
-"supprimer le groupe inactif."
+"supprimez le groupe inactif."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "This content experiment has issues that affect content visibility."
@@ -4507,7 +4507,7 @@ msgid ""
 "Add diacritic marks to be added to a text using the comma-separated form, "
 "i.e. markname;urltomark;baseline,markname2;urltomark2;baseline2"
 msgstr ""
-"Ajouter les signes diacritiques à être ajoutées à un texte utiliant la forme séparé par des virgules, "
+"Ajoutez les signes diacritiques à être ajoutées à un texte utiliant la forme séparé par des virgules, "
 "i.e. markname;urltomark;baseline,markname2;urltomark2;baseline2"
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py
@@ -4745,7 +4745,7 @@ msgid ""
 "Add transcripts in different languages. Click below to specify a language "
 "and upload an .srt transcript file for that language."
 msgstr ""
-"Ajouter des transcriptions dans différentes langues. Cliquez ci-dessous pour spécifier une langue "
+"Ajoutez des transcriptions dans différentes langues. Cliquez ci-dessous pour spécifier une langue "
 "et téléversez un fichier de transcription .srt dans cette langue."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
@@ -5861,11 +5861,11 @@ msgstr "Réparer les résultats"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Create User Results"
-msgstr "Créer les résultats utilisateurs"
+msgstr "Créez les résultats utilisateurs"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Delete User Results"
-msgstr "Supprimer les résultats utilisateurs"
+msgstr "Supprimez les résultats utilisateurs"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "The git repo location should end with '.git', and be a valid url"
@@ -8983,11 +8983,11 @@ msgstr "Cet article a été modifié pour la dernière fois:"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/create.html.py
 msgid "Add new article"
-msgstr "Ajouter un nouvel article"
+msgstr "Ajoutez un nouvel article"
 
 #: lms/templates/wiki/create.html
 msgid "Create article"
-msgstr "Créer un article"
+msgstr "Créez un article"
 
 #: lms/templates/wiki/create.html lms/templates/wiki/delete.html
 #: lms/templates/wiki/delete.html.py
@@ -8997,12 +8997,12 @@ msgstr "Retour"
 #: lms/templates/wiki/delete.html lms/templates/wiki/delete.html.py
 #: lms/templates/wiki/edit.html
 msgid "Delete article"
-msgstr "Supprimer l'article"
+msgstr "Supprimez l'article"
 
 #: lms/templates/wiki/delete.html
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Supprimez"
 
 #: lms/templates/wiki/delete.html
 msgid "You cannot delete a root article."
@@ -9164,7 +9164,7 @@ msgstr "Après ceci, il est important de procéder à une relecture."
 
 #: lms/templates/wiki/history.html
 msgid "Create new merged version"
-msgstr "Créer une nouvelle version fusionnée"
+msgstr "Créez une nouvelle version fusionnée"
 
 #: lms/templates/wiki/includes/anonymous_blocked.html
 #, python-format
@@ -9306,7 +9306,7 @@ msgstr "Téléversez un nouveau fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Search and add file"
-msgstr "Chercher et ajouter un fichier"
+msgstr "Cherchez et ajoutez un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload File"
@@ -9318,7 +9318,7 @@ msgstr "Téléversez un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Search files and articles"
-msgstr "Chercher des fichiers et des articles"
+msgstr "Cherchez des fichiers et des articles"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid ""
@@ -10622,11 +10622,11 @@ msgstr "Erreurs de chargement du cours"
 
 #: lms/templates/dashboard.html
 msgid "Search Your Courses"
-msgstr "Chercher dans vos cours"
+msgstr "Cherchez dans vos cours"
 
 #: lms/templates/dashboard.html lms/templates/courseware/courseware.html
 msgid "Clear search"
-msgstr "Supprimer la recherche"
+msgstr "Réinitialisez la recherche"
 
 #: lms/templates/dashboard.html
 msgid ""
@@ -10706,7 +10706,7 @@ msgstr "Cours :"
 
 #: lms/templates/enroll_students.html
 msgid "Add new students"
-msgstr "Ajouter des nouveaux étudiants"
+msgstr "Ajoutez des nouveaux étudiants"
 
 #: lms/templates/enroll_students.html
 msgid "Existing students:"
@@ -10984,7 +10984,7 @@ msgstr "Ça marche! Ceci est la page d'accueil par défaut pour cette plateforme
 
 #: lms/templates/index.html lms/templates/courseware/courses.html
 msgid "Search for a course"
-msgstr "Rechercher un cours"
+msgstr "Recherchez un cours"
 
 #: lms/templates/index.html
 msgid "View all Courses"
@@ -11197,7 +11197,7 @@ msgstr "Réactiver le compte"
 
 #: lms/templates/manage_user_standing.html
 msgid "Remove Profile Image"
-msgstr "Supprimer l'image de profil"
+msgstr "Supprimez l'image de profil"
 
 #: lms/templates/manage_user_standing.html
 msgid "Students whose accounts have been disabled"
@@ -11491,7 +11491,7 @@ msgstr "S'inscrire à {platform_name}"
 
 #: lms/templates/register.html
 msgid "Create My {platform_name} Account"
-msgstr "Créer mon compte {platform_name}"
+msgstr "Créez mon compte {platform_name}"
 
 #: lms/templates/register.html
 msgid "Welcome!"
@@ -11563,7 +11563,7 @@ msgstr "Merci de nous faire part de vos motivations concernant l'inscription à 
 
 #: lms/templates/register.html lms/templates/signup_modal.html
 msgid "Create My Account"
-msgstr "Créer mon compte"
+msgstr "Créez mon compte"
 
 #: lms/templates/resubscribe.html
 msgid "Re-subscribe Successful!"
@@ -11675,7 +11675,7 @@ msgstr "étiquette"
 
 #: lms/templates/staff_problem_info.html
 msgid "Add comment"
-msgstr "Ajouter un commentaire"
+msgstr "Ajoutez un commentaire"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug"
@@ -11693,7 +11693,7 @@ msgstr "Réinitialiser Essais des Étudiant"
 
 #: lms/templates/staff_problem_info.html
 msgid "Delete Student State"
-msgstr "Supprimer l'état de l’étudiant"
+msgstr "Supprimez le statut de l’étudiant"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -11773,11 +11773,11 @@ msgstr "Courriel ou nom d'utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Delete user"
-msgstr "Supprimer l'utilisateur"
+msgstr "Supprimez l'utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Create user"
-msgstr "Créer un utilisateur"
+msgstr "Créez un utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download list of all users (csv file)"
@@ -11832,7 +11832,7 @@ msgstr "Identifiant ou dossier du cours"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Delete course from site"
-msgstr "Supprimer le cours du site"
+msgstr "Supprimez le cours du site"
 
 #. Translators: A version number appears after this string
 #: lms/templates/sysadmin_dashboard.html
@@ -12287,7 +12287,7 @@ msgstr "Entre le nom d'utilisateur ou l'adresse courriel"
 
 #: lms/templates/ccx/enrollment.html
 msgid "Checking this box has no effect if 'Revoke' is clicked."
-msgstr "Sélectionner cette boîte n'a aucun effet si 'Révoqué' est cliqué."
+msgstr "Sélectionnez cette boîte n'a aucun effet si 'Révoqué' est cliqué."
 
 #: lms/templates/ccx/grading_policy.html
 msgid "WARNING"
@@ -12367,11 +12367,11 @@ msgstr "Format de date de remise deux chiffres heures deux-points deux chiffres 
 
 #: lms/templates/ccx/schedule.html
 msgid "Add Unit"
-msgstr "Ajouter une unité"
+msgstr "Ajoutez une unité"
 
 #: lms/templates/ccx/schedule.html
 msgid "Add All Units"
-msgstr "Ajouter toutes les unités"
+msgstr "Ajoutez toutes les unités"
 
 #: lms/templates/ccx/schedule.html
 msgid "All units have been added."
@@ -12412,11 +12412,11 @@ msgstr "Tweeter cette réussite. Fenêtre Pop up."
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Add to LinkedIn Profile"
-msgstr "Ajouter au profil LinkedIn"
+msgstr "Ajoutez au profil LinkedIn"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Add to Mozilla Backpack"
-msgstr "Ajouter à Mozilla Backpack"
+msgstr "Ajoutez à Mozilla Backpack"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print Certificate"
@@ -12734,7 +12734,7 @@ msgstr "Les inscriptions sont fermées"
 
 #: lms/templates/courseware/course_about.html
 msgid "Add {course_name} to Cart <span>({price} USD)</span>"
-msgstr "Ajouter {course_name} au panier <span>({price} CAD)</span>"
+msgstr "Ajoutez {course_name} au panier <span>({price} CAD)</span>"
 
 #: lms/templates/courseware/course_about.html
 msgid "Enroll in {course_name}"
@@ -12883,11 +12883,11 @@ msgstr "Utilitaires de cours"
 
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
-msgstr "Rechercher un cours"
+msgstr "Recherchez un cours"
 
 #: lms/templates/courseware/courseware.html
 msgid "search"
-msgstr "rechercher"
+msgstr "recherchez"
 
 #: lms/templates/courseware/courseware.html
 msgid "No content has been added to this course"
@@ -12923,7 +12923,7 @@ msgstr "Bulletin de notes"
 
 #: lms/templates/courseware/gradebook.html
 msgid "Search students"
-msgstr "Rechercher des étudiants"
+msgstr "Recherchez des étudiants"
 
 #: lms/templates/courseware/gradebook.html
 msgid "previous page"
@@ -13543,7 +13543,7 @@ msgstr "Compléter notre sondage de remarques à propos du cours"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Add Certificate to LinkedIn Profile"
-msgstr "Ajouter l'attestation à votre profil LinkedIn"
+msgstr "Ajoutez l'attestation à votre profil LinkedIn"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Share on LinkedIn"
@@ -13958,7 +13958,7 @@ msgstr "Suivant"
 
 #: lms/templates/discussion/_search_bar.html
 msgid "Search posts"
-msgstr "Rechercher…"
+msgstr "Recherchez dans les publications"
 
 #: lms/templates/discussion/_similar_posts.html
 msgid "Hide"
@@ -13970,7 +13970,7 @@ msgstr "Sujets de discussion; la sélection en cours est :"
 
 #: lms/templates/discussion/_thread_list_template.html
 msgid "Search all posts"
-msgstr "Rechercher…"
+msgstr "Recherchez dans toutes les publications"
 
 #. Translators: This labels a filter menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html
@@ -14803,7 +14803,7 @@ msgstr ""
 
 #: lms/templates/emails/reverification_processed.txt
 msgid "To try to verify your identity again, select the following link:"
-msgstr "Afin d'essayer de vérifier votre identité une autre fois, sélectionner le lien suivant:"
+msgstr "Afin d'essayer de vérifier votre identité une autre fois, sélectionnez le lien suivant:"
 
 #: lms/templates/emails/reverification_processed.txt
 msgid ""
@@ -14979,7 +14979,7 @@ msgstr "Passer"
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Add Coupon Code"
-msgstr "Ajouter un code de coupon"
+msgstr "Ajoutez un code de coupon"
 
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 msgid "Enter information about the coupon code below."
@@ -14991,7 +14991,7 @@ msgstr "Pourcentage de rabais"
 
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 msgid "Add expiration date"
-msgstr "Ajouter une date d'expiration"
+msgstr "Ajoutez une date d'expiration"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Example Certificates"
@@ -15072,14 +15072,14 @@ msgstr "L'état des tâches actives apparaît dans la table ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate Certificates"
-msgstr "Regénérer les attestations"
+msgstr "Regénérez les attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
 "Select one or more certificate statuses below using your mouse and ctrl or "
 "command key."
 msgstr ""
-"Sélectionner un ou plusieurs statuts d'attestations ci-dessous en utilisant votre souris et la touche "
+"Sélectionnez un ou plusieurs statuts d'attestations ci-dessous en utilisant votre souris et la touche "
 "ctrl ou command."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
@@ -15087,7 +15087,7 @@ msgid ""
 "Select certificate statuses that need regeneration and click Regenerate "
 "Certificates button."
 msgstr ""
-"Sélectionner les statuts d'attestations qui ont besoin d'être regénérées et cliquer sur le bouton Regénérer "
+"Sélectionnez les statuts d'attestations qui ont besoin d'être regénérées et cliquer sur le bouton Regénérer "
 "les attestations."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
@@ -15428,13 +15428,13 @@ msgid ""
 "Create one or more pre-paid course enrollment codes. Students can use these "
 "codes to enroll in the course."
 msgstr ""
-"Créer un ou plusieurs codes d'inscription prépayés. Les étudiants peuvent utiliser "
+"Créez un ou plusieurs codes d'inscription prépayés. Les étudiants peuvent utiliser "
 "ces codes pour s'inscrire dans le cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 msgid "Create Enrollment Codes"
-msgstr "Créer des codes d'inscriptions"
+msgstr "Créez des codes d'inscriptions"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Cancel, restore, or mark an enrollment code as unused."
@@ -15525,21 +15525,21 @@ msgstr "Renvoyer la facture"
 msgid ""
 "Create a .csv file that contains enrollment information for your course."
 msgstr ""
-"Créer un fichier .csv contenant les informations d'inscription pour votre cours."
+"Créez un fichier .csv contenant les informations d'inscription pour votre cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Create Enrollment Report"
-msgstr "Créer un rappor d'inscription"
+msgstr "Créez un rapport d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid ""
 "Create an HTML file that contains an executive summary for this course."
 msgstr ""
-"Créer un fichier HTML contenant un sommaire exécutif pour ce cours."
+"Créez un fichier HTML contenant un sommaire exécutif pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Create Executive Summary"
-msgstr "Créer un sommaire exécutif"
+msgstr "Créez un sommaire exécutif"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Available Reports"
@@ -16091,16 +16091,16 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Checking this box has no effect if 'Remove beta testers' is selected."
 msgstr ""
-"Cocher cette case n'a pas d'effet si \"Supprimer les bêta testeurs\" est "
+"Cocher cette case n'a pas d'effet si \"Supprimez les bêta testeurs\" est "
 "sélectionné. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add beta testers"
-msgstr "Ajouter des bêta testeurs"
+msgstr "Ajoutez des bêta testeurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Remove beta testers"
-msgstr "Supprimer des bêta testeurs"
+msgstr "Supprimez des bêta testeurs"
 
 #. Translators: an "Administration List" is a list, such as Course Staff, that
 #. users can be added to.
@@ -16113,7 +16113,7 @@ msgstr "Gestion de l'équipe du cours"
 #. users can be added to.
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Select a course team role:"
-msgstr "Sélectionner un rôle dans l'équipe de cours:"
+msgstr "Sélectionnez un rôle dans l'équipe de cours:"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Getting available lists..."
@@ -16145,7 +16145,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "Ajouter à l'équipe pédagogique"
+msgstr "Ajoutez à l'équipe pédagogique"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -16163,7 +16163,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Admin"
-msgstr "Ajouter un Admin"
+msgstr "Ajoutez un Admin"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Beta Testers"
@@ -16182,7 +16182,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Beta Tester"
-msgstr "Ajouter un Bêta-testeur"
+msgstr "Ajoutez un Bêta-testeur"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Admins"
@@ -16205,7 +16205,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Discussion Admin"
-msgstr "Ajouter un Administrateur de discussion"
+msgstr "Ajoutez un Administrateur de discussion"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Moderators"
@@ -16228,7 +16228,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Moderator"
-msgstr "Ajouter un Modérateur"
+msgstr "Ajoutez un Modérateur"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Discussion Community TAs"
@@ -16251,7 +16251,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Community TA"
-msgstr "Ajouter un assistant d'enseignement"
+msgstr "Ajoutez un assistant d'enseignement"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "CCX Coaches"
@@ -16269,7 +16269,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add CCX Coach"
-msgstr "Ajouter un coach CCX"
+msgstr "Ajoutez un coach CCX"
 
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "There is no data available to display at this time."
@@ -16551,7 +16551,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Delete Student State for Problem"
-msgstr "Supprimer l'état de l'étudiant pour cet exercice"
+msgstr "Supprimez le statut de l'étudiant pour cet exercice"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
@@ -16605,7 +16605,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Delete Student's Answers and Scores"
-msgstr "Supprimer les réponses et notes de l'étudiant"
+msgstr "Supprimez les réponses et les notes de l'étudiant"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Show Student's Exam Adjustment History"
@@ -17531,7 +17531,7 @@ msgstr "Non lié"
 #. LinkedIn).
 #: lms/templates/student_profile/third_party_auth.html
 msgid "Unlink"
-msgstr "Supprimer le lien"
+msgstr "Supprimez le lien"
 
 #. Translators: clicking on this creates a link between a user's edX account
 #. and their account with an external authentication provider (like Google or
@@ -17723,7 +17723,7 @@ msgstr "{span_start}actif{span_end}"
 
 #: lms/templates/wiki/includes/breadcrumbs.html
 msgid "Add article"
-msgstr "Ajouter un article"
+msgstr "Ajoutez un article"
 
 #. Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'.
 #. Please do not translate any of these trademarks and company names.
@@ -18015,7 +18015,7 @@ msgid ""
 "role cannot edit or delete an activated certificate."
 msgstr ""
 "Pour commencer l'émission d'attestations, un membre de l'équipe du cours avec le rôle Admin "
-"doit sélectionner {em_start}Activer{em_end}. Les membres de l'équipe sans le rôle Admin "
+"doit sélectionner {em_start}Activez{em_end}. Les membres de l'équipe sans le rôle Admin "
 "ne peuvent éditer ou supprimer une attestation activée."
 
 #: cms/templates/certificates.html
@@ -18112,7 +18112,7 @@ msgstr "Dupliquer ce composant"
 
 #: cms/templates/component.html
 msgid "Delete this component"
-msgstr "Supprimer ce composant"
+msgstr "Supprimez ce composant"
 
 #: cms/templates/component.html cms/templates/edit-tabs.html
 #: cms/templates/studio_xblock_wrapper.html
@@ -18140,8 +18140,8 @@ msgid ""
 "Select a component type under {em_start}Add New Component{em_end}. Then "
 "select a template."
 msgstr ""
-"Sélectionner un type de composant sous {em_start}Ajouter un composant{em_end}. Ensuite "
-"sélectionner un gabarit."
+"Sélectionnez un type de composant sous {em_start}Ajoutez un composant{em_end}. Ensuite "
+"sélectionnez un gabarit."
 
 #: cms/templates/container.html
 msgid ""
@@ -18212,11 +18212,11 @@ msgstr "Emplacement dans le plan de cours"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a Course Rerun of:"
-msgstr "Créer une nouvelle session du cours :"
+msgstr "Créez une nouvelle session du cours :"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a re-run of a course"
-msgstr "Créer une nouvelle session d'un cours"
+msgstr "Créez une nouvelle session d'un cours"
 
 #: cms/templates/course-create-rerun.html
 msgid "You are creating a re-run from:"
@@ -18316,7 +18316,7 @@ msgstr ""
 
 #: cms/templates/course-create-rerun.html
 msgid "Create Re-run"
-msgstr "Créer une relance"
+msgstr "Créez une relance"
 
 #: cms/templates/course-create-rerun.html
 msgid "When will my course re-run start?"
@@ -18415,7 +18415,7 @@ msgstr "Ce cours utilise des fonctionnalités qui ne sont plus prises en charge.
 
 #: cms/templates/course_outline.html
 msgid "You must delete or replace the following components."
-msgstr "Vous devez supprimer our remplace les composants suivants."
+msgstr "Vous devez supprimer ou remplacer les composants suivants."
 
 #: cms/templates/course_outline.html
 msgid "Unsupported Components"
@@ -18596,7 +18596,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "Add a New Page"
-msgstr "Ajouter une nouvelle page"
+msgstr "Ajoutez une nouvelle page"
 
 #: cms/templates/edit-tabs.html
 msgid "What are pages?"
@@ -19589,7 +19589,7 @@ msgstr "Merci de corriger les champs en surbrillance ci-dessous."
 
 #: cms/templates/index.html
 msgid "Create a New Course"
-msgstr "Créer un nouveau cours"
+msgstr "Créez un nouveau cours"
 
 #: cms/templates/index.html
 msgid "Required Information to Create a New Course"
@@ -19643,11 +19643,11 @@ msgstr "Le trimestre durant lequel le cours va s'exécuter."
 
 #: cms/templates/index.html
 msgid "Create"
-msgstr "Créer"
+msgstr "Créez"
 
 #: cms/templates/index.html
 msgid "Create a New Library"
-msgstr "Créer une nouvelle bibliothèque"
+msgstr "Créez une nouvelle bibliothèque"
 
 #: cms/templates/index.html
 msgid "Required Information to Create a New Library"
@@ -19782,7 +19782,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create Your First Course"
-msgstr "Créer votre premier cours"
+msgstr "Créez votre premier cours"
 
 #: cms/templates/index.html
 msgid "Your new course is just a click away!"
@@ -19885,7 +19885,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create Your First Library"
-msgstr "Créer votre première bibliothèque"
+msgstr "Créez votre première bibliothèque"
 
 #: cms/templates/index.html
 msgid ""
@@ -19905,7 +19905,7 @@ msgstr "Les programmes sont des groupes de cours liés à un sujet commun."
 
 #: cms/templates/index.html
 msgid "Create Your First Program"
-msgstr "Créer votre premier programme"
+msgstr "Créez votre premier programme"
 
 #: cms/templates/index.html
 msgid "New to {studio_name}?"
@@ -19996,18 +19996,18 @@ msgstr "Bibliothèque de contenu"
 
 #: cms/templates/library.html
 msgid "Add Component"
-msgstr "Ajouter un composant"
+msgstr "Ajoutez un composant"
 
 #: cms/templates/library.html
 msgid "Adding content to your library"
-msgstr "Ajouter du contenu à votre bibliothèque"
+msgstr "Ajoutez du contenu à votre bibliothèque"
 
 #: cms/templates/library.html
 msgid ""
 "Add components to your library for use in courses, using Add New Component "
 "at the bottom of this page."
 msgstr ""
-"Ajouter des composants à votre bibliothèques afin de les utilisers dans les cours en utilisant ajouter nouveau composant "
+"Ajoutez des composants à votre bibliothèques afin de les utilisers dans les cours en utilisant ajoutez nouveau composant "
 "au bas de cette page."
 
 #: cms/templates/library.html
@@ -20071,7 +20071,7 @@ msgstr "Nouveau membre d'équipe"
 
 #: cms/templates/manage_users.html
 msgid "Add a User to Your Course's Team"
-msgstr "Ajouter un utilisateur à votre équipe de cours"
+msgstr "Ajoutez un utilisateur à votre équipe de cours"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "New Team Member Information"
@@ -20087,18 +20087,18 @@ msgstr "Fournir l'adresse courriel de l'utilisateur que vous souhaitez ajouter �
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "Add User"
-msgstr "Ajouter un utilisateur"
+msgstr "Ajoutez un utilisateur"
 
 #: cms/templates/manage_users.html
 msgid "Add Team Members to This Course"
-msgstr "Ajouter des membres d'équipe à ce Cours"
+msgstr "Ajoutez des membres d'équipe à ce cours"
 
 #: cms/templates/manage_users.html
 msgid ""
 "Adding team members makes course authoring collaborative. Users must be "
 "signed up for {studio_name} and have an active account."
 msgstr ""
-"Ajouter des membres d'équipe rend collaborative la création de cours. Les utilisateurs doivent être "
+"Ajoutez des membres d'équipe rend collaborative la création de cours. Les utilisateurs doivent être "
 "inscrits pour {studio_name} et avoir un compte actif."
 
 #: cms/templates/manage_users.html
@@ -20145,7 +20145,7 @@ msgid ""
 "Course Team list."
 msgstr ""
 "Chaque cours doit avoir un administrateur. Si vous êtes l'administrateur et que vous désirez "
-"transférer l'administration du cours, cliquer <strong>ajouter accès administrateur</strong> afin"
+"transférer l'administration du cours, cliquer <strong>ajoutez accès administrateur</strong> afin"
 " d'ajouter un administrateur, et demander à cet utilisateur de vous enlever de la liste "
 "de l'équipe du cours."
 
@@ -20167,7 +20167,7 @@ msgstr "Fournir l'adresse courriel de l'utilisateur que vous désirez ajouter"
 
 #: cms/templates/manage_users_lib.html
 msgid "Add More Users to This Library"
-msgstr "Ajouter d'autres utilisateurs à cette bibliothèque"
+msgstr "Ajoutez d'autres utilisateurs à cette bibliothèque"
 
 #: cms/templates/manage_users_lib.html
 msgid ""
@@ -20179,7 +20179,7 @@ msgstr ""
 
 #: cms/templates/manage_users_lib.html
 msgid "Add a New User"
-msgstr "Ajouter un nouvel utilisateur"
+msgstr "Ajoutez un nouvel utilisateur"
 
 #: cms/templates/manage_users_lib.html
 msgid "Library Access Roles"
@@ -20261,7 +20261,7 @@ msgstr "J’accepte les {a_start}conditions d’utilisation{a_end} du service"
 
 #: cms/templates/register.html
 msgid "Create My Account &amp; Start Authoring Courses"
-msgstr "Créer mon compte &amp; Commencer à créer des Cours"
+msgstr "Créez mon compte &amp; Commencer à créer des Cours"
 
 #: cms/templates/register.html
 msgid "Common {studio_name} Questions"
@@ -20580,7 +20580,7 @@ msgstr "Vidéo de présentation du cours"
 
 #: cms/templates/settings.html
 msgid "Delete Current Video"
-msgstr "Supprimer la vidéo en cours"
+msgstr "Supprimez la vidéo en cours"
 
 #. Translators: This is the placeholder text for a field that requests a
 #. YouTube video ID for a course video
