@@ -5013,7 +5013,7 @@ msgid ""
 "receive a response from the queue to determine which example certificate was"
 " processed."
 msgstr ""
-"Un identificateur unique pour l'attestation d'exemple. Ceci est utilise quand "
+"Un identificateur unique pour l'attestation d'exemple. Ceci est utilisé quand "
 "nous recevons une réponse de de la queue de traitement afin de déterminer quel type d'attestation a été"
 " traitée."
 
@@ -12052,11 +12052,11 @@ msgstr "Ne pas utiliser d'espaces dans ces expressions."
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For constants, indicate multiplication explicitly (example: 5*c)."
-msgstr "Pour les constantes, indiquer la multiplication explicitement (example: 5*c)."
+msgstr "Pour les constantes, indiquer la multiplication explicitement (exemple: 5*c)."
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For affixes, type the number and affix without a space (example: 5c)."
-msgstr "Pour les suffixes, indiquer le nombre et le suffixe sans espace (example: 5c)."
+msgstr "Pour les suffixes, indiquer le nombre et le suffixe sans espace (exemple: 5c)."
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid ""
