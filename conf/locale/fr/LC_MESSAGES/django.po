@@ -10553,6 +10553,12 @@ msgid ""
 msgstr ""
 "Auditer ce cours gratuitement et bénéficier d'un accès complet à tous les supports de cours, les activités, les tests et forums.  <b>S'il vous plaît noter que ce cours ne propose pas d'attestation pour les apprenants qui obtiennent une note de passage.</b>"
 
+#: common/templates/course_modes/choose.html
+msgid ""
+"Audit this course for free and have complete access to all the course material, activities, tests, and forums."
+msgstr ""
+"Auditer ce cours gratuitement et bénéficier d'un accès complet à tous les supports de cours, les activités, les tests et forums."
+
 #: lms/templates/admin_dashboard.html
 msgid "{platform_name}-wide Summary"
 msgstr "Résumé général de {platform_name}"
@@ -21542,7 +21548,7 @@ msgid ""
 "group membership. Groups are handled through the Django auth system."
 msgstr ""
 "A l'instar du système des fichiers d'UNIX, les permissions peuvent être "
-"données à un utilisateur selon son appartenance à un groupe. Les groupes "
+"données à un utilisateur selon son inscription à un groupe. Les groupes "
 "sont gérés via le système d'authentification Django."
 
 #: wiki/models/article.py
