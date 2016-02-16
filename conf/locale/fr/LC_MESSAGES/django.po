@@ -12737,6 +12737,10 @@ msgid "Add {course_name} to Cart <span>({price} USD)</span>"
 msgstr "Ajouter {course_name} au panier <span>({price} CAD)</span>"
 
 #: lms/templates/courseware/course_about.html
+msgid "Add {course_name} to Cart ({price})"
+msgstr "Ajouter {course_name} au panier ({price})"
+
+#: lms/templates/courseware/course_about.html
 msgid "Enroll in {course_name}"
 msgstr "S'inscrire à {course_name}"
 
