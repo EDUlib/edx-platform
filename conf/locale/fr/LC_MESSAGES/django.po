@@ -1906,7 +1906,7 @@ msgstr "Dictionaire avec l'exactitude des réponses de l'étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary for maintaining the state of inputtypes"
-msgstr "Dictionnaire pour maintenir l'état de inputtypes"
+msgstr "Dictionnaire pour maintenir le statut de inputtypes"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Dictionary with the current student responses"
@@ -2005,7 +2005,7 @@ msgstr "Vérification en cours..."
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr "Avertissement: cet exercice a été réinitialisé à son état initial!"
+msgstr "Avertissement: cet exercice a été réinitialisé à son statut initial!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -2014,7 +2014,7 @@ msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr ""
-"L'état de l'exercice a été corrumpu par une soumission invalide. La soumission "
+"Le statut de l'exercice a été corrumpu par une soumission invalide. La soumission "
 "était composée de:"
 
 #: common/lib/xmodule/xmodule/capa_base.py
@@ -2139,7 +2139,7 @@ msgid ""
 "module is created and students have attempted it (for example, if a self "
 "assessed problem is changed to self and peer assessed)."
 msgstr ""
-"Une liste des listes de dictionnaires de statuts sauvegardées pour les états d'étudiants. "
+"Une liste des listes de dictionnaires de statuts sauvegardées pour les statuts d'étudiants. "
 "Ce champ est seulement peuplé si l'instructeur a modifié les tâches après "
 "que le module ait été créé et que les étudiants l'ont essayé (par exemple, si un exercice "
 "avec auto-évaluation est modifié à auto-évalué et évalué par les pairs)."
@@ -7037,7 +7037,7 @@ msgstr "Auce information task_output analysable trouvée pour instructor_task {0
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No parsable status information available"
-msgstr "Aucune information d'état pouvant être analysée n'est disponible"
+msgstr "Aucune information de statut pouvant être analysée n'est disponible"
 
 #: lms/djangoapps/instructor_task/views.py
 msgid "No message provided"
@@ -9101,7 +9101,7 @@ msgid ""
 "current one."
 msgstr ""
 "Cliquer sur chaque révision pour voir une liste des lignes modifiées. "
-"Cliquer sur le bouton \"Aperçu\" pour obtenir le rendu en l'état d'un "
+"Cliquer sur le bouton \"Aperçu\" pour obtenir le rendu du statut d'un "
 "article. En bas de la page, vous pouvez changer pour une révision "
 "particulière ou fusionner une ancienne révision avec la révision courante."
 
@@ -10208,7 +10208,7 @@ msgstr "Utilisateur de Studio"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "The date when state was last updated"
-msgstr "Date de la dernière modification de l'état"
+msgstr "Date de la dernière modification du statut"
 
 #: cms/djangoapps/course_creators/models.py
 msgid "Current course creator state"
@@ -14591,7 +14591,7 @@ msgid ""
 "can check the status of the verification process on your dashboard."
 msgstr ""
 "Nous avons reçu vos informations et la vérification est en cours. Vous "
-"pouvez suivre l'état de la vérification sur votre tableau de bord."
+"pouvez suivre le statut de la vérification sur votre tableau de bord."
 
 #: lms/templates/emails/photo_submission_confirmation.txt
 #: lms/templates/emails/reverification_processed.txt
@@ -14995,23 +14995,23 @@ msgstr "Ajouter une date d'expiration"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Example Certificates"
-msgstr "Exemple d'attestations"
+msgstr "Exemples d'attestations"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate example certificates for the course."
-msgstr "Générer un exemple d'attestations pour ce cours."
+msgstr "Générer des exemples d'attestations auto-générées par les étudiants pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Example Certificates"
-msgstr "Générer des exemples d'attestations"
+msgstr "Générer des exemples d'attestations auto-générées par les étudiants pour ce cours."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generating example {name} certificate"
-msgstr "Générer un exemple d'attestation"
+msgstr "En cours de génération d'un exemple d'attestation"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Error generating example {name} certificate: {error}"
-msgstr "Erreur de génération de l'attestation exemple {name}: {error}"
+msgstr "Erreur lors de la génération de l'exemple d'attestation exemple {name}: {error}"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "View {name} certificate"
@@ -15023,15 +15023,15 @@ msgstr "Rafraichir le statut"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Student-Generated Certificates"
-msgstr "Attestations générées par les étudiants" 
+msgstr "Attestations auto-générées par les étudiants" 
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Disable Student-Generated Certificates"
-msgstr "Désactiver les attestations générées par les étudiants"
+msgstr "Désactiver les attestations auto-générées par les étudiants"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Enable Student-Generated Certificates"
-msgstr "Activer les attestations générées par les étudiants"
+msgstr "Activer les attestations auto-générées par les étudiants"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid ""
@@ -15039,7 +15039,7 @@ msgid ""
 "student-generated certificates."
 msgstr ""
 "Vous devez générer avec succès les exemples d'attestations avant que vous puissiez activer "
-"les attestations générées par les étudiants."
+"les attestations auto-générées par les étudiants."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Generate Certificates"
@@ -15068,7 +15068,7 @@ msgstr "Tâches en attente"
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "The status for any active tasks appears in a table below."
-msgstr "L'état des tâches actives apparaît dans la table ci-dessous."
+msgstr "Le statut des tâches actives apparaît dans la table ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html
 msgid "Regenerate Certificates"
@@ -16432,7 +16432,7 @@ msgid ""
 "Email actions run in the background. The status for any active tasks - "
 "including email tasks - appears in a table below."
 msgstr ""
-"Les actions liées aux courriels fonctionnent en tâche de fond. L'état des "
+"Les actions liées aux courriels fonctionnent en tâche de fond. Le statut des "
 "tâches actives - incluant les actions courriel - apparaissent dans le tableau "
 "ci-dessous."
 
@@ -16459,7 +16459,7 @@ msgid ""
 "To see the status for all bulk email tasks ever submitted for this course, "
 "click on this button:"
 msgstr ""
-"Pour consulter l'état de toutes les tâches de courriels "
+"Pour consulter le statut de toutes les tâches de courriels "
 "réalisées pour ce cours, cliquer sur ce bouton: "
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
@@ -16546,7 +16546,7 @@ msgstr ""
 msgid ""
 "You may also delete the entire state of a student for the specified problem:"
 msgstr ""
-"Vous pouvez aussi supprimer la totalité de l'état d'un étudiant pour l'exercice "
+"Vous pouvez aussi supprimer la totalité du statut d'un étudiant pour l'exercice "
 "spécifié :"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
@@ -16629,9 +16629,9 @@ msgid ""
 "appear in a table on the Course Info tab. To see status for all tasks "
 "submitted for this problem, click on this button"
 msgstr ""
-"Les tâches ci-dessus fonctionnent en arrière plan, et l'état des tâches "
+"Les tâches ci-dessus fonctionnent en arrière plan, et le statut des tâches "
 "actives sera visible dans un tableau dans l'onglet d'Informations du cours. "
-"Pour voir l'état de toutes les tâches soumises pour cet exercice, cliquer "
+"Pour voir le statut de toutes les tâches soumises pour cet exercice, cliquer "
 "sur ce bouton"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
