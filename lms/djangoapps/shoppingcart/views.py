@@ -25,6 +25,10 @@ from django.views.decorators.http import require_http_methods, require_POST
 from ipware.ip import get_ip
 from opaque_keys import InvalidKeyError
 from opaque_keys.edx.keys import CourseKey
+#####EDULIB
+from util.date_utils import strftime_localized
+from opaque_keys.edx.locations import SlashSeparatedCourseKey
+#####EDULIB
 from opaque_keys.edx.locator import CourseLocator
 
 from course_modes.models import CourseMode
@@ -1047,7 +1051,9 @@ def _show_receipt_html(request, order):
         'currency': settings.PAID_COURSE_REGISTRATION_CURRENCY[0],
         'total_registration_codes': total_registration_codes,
         'reg_code_info_list': reg_code_info_list,
-        'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        #'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        #'order_purchase_date': strftime_localized(order.purchase_time, "%B %d, %Y"),
+        'order_purchase_date': strftime_localized(order.purchase_time, "%d %B %Y"),
     }
 
     # We want to have the ability to override the default receipt page when
