@@ -98,8 +98,14 @@ from openedx.core.lib.courses import course_image_url
       </table>
     %endif
     <div class="bordered-bar">
+##### EUCALYPTUS CODE
       <h2>${_('Invoice')} #${order.id}<span>${_('Date of purchase')}: ${order_purchase_date} </span><span
           class="pull-right"><a href="" onclick="window.print();" class="blue-link"><span class="icon fa fa-print" aria-hidden="true"></span> ${_('Print Receipt')}</a></span>
+##### EUCALYPTUS CODE
+##### DOGWOOD CODE
+#####      <h2>${_('Invoice')} #${order.id}<span>${_('Date of purchase')}: ${_(order_purchase_date)} </span><span
+#####          class="pull-right"><a href="" onclick="window.print();" class="blue-link"><i class="icon fa fa-print"></i> ${_('Print Receipt')}</a></span>
+##### DOGWOOD CODE
       </h2>
     </div>
     % if order.total_cost > 0:
