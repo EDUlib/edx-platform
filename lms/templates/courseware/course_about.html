@@ -116,6 +116,12 @@ from openedx.core.lib.courses import course_image_url
           <h1>
             ${course.display_name_with_default_escaped}
             <a href="#">${course.display_org_with_default | h}</a>
+##### OLD CODE DOGWOOOD
+#####            ${course.display_name_with_default}<br />
+#####            % if not self.theme_enabled():
+#####              <span>${course.display_org_with_default | h}</span>
+#####            % endif
+##### OLD CODE DOGWOOOD
           </h1>
         </div>
 
