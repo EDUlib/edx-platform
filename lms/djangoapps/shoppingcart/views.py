@@ -19,6 +19,9 @@ from django.core.urlresolvers import reverse
 from django.views.decorators.csrf import csrf_exempt
 from util.bad_request_rate_limiter import BadRequestRateLimiter
 from util.date_utils import get_default_time_display
+#### PIERRE
+from util.date_utils import strftime_localized
+#### PIERRE
 from django.contrib.auth.decorators import login_required
 from edxmako.shortcuts import render_to_response
 from opaque_keys.edx.locations import SlashSeparatedCourseKey
@@ -1020,7 +1023,9 @@ def _show_receipt_html(request, order):
         'currency': settings.PAID_COURSE_REGISTRATION_CURRENCY[0],
         'total_registration_codes': total_registration_codes,
         'reg_code_info_list': reg_code_info_list,
-        'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        #'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        #'order_purchase_date': strftime_localized(order.purchase_time, "%B %d, %Y"),
+        'order_purchase_date': strftime_localized(order.purchase_time, "%d %B %Y"),
     }
 
     # We want to have the ability to override the default receipt page when
