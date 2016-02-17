@@ -17095,7 +17095,7 @@ msgstr "Merci de votre achat!"
 #: lms/templates/shoppingcart/receipt.html
 #: lms/templates/shoppingcart/registration_code_redemption.html
 msgid "View Dashboard"
-msgstr "Voir le Tableau de bord"
+msgstr "Voir le tableau de bord"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid ""
@@ -17146,6 +17146,10 @@ msgstr "Invalide"
 #: lms/templates/shoppingcart/receipt.html
 msgid "Date of purchase"
 msgstr "Date d'achat"
+
+#: lms/templates/shoppingcart/receipt.html
+msgid "{order_purchase_date}"
+msgstr "{order_purchase_date}"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Print Receipt"
