@@ -129,6 +129,7 @@
             'draggabilly': 'js/vendor/draggabilly',
             'hls': 'common/js/vendor/hls',
 
+#####NEW CODE EUCALYPTUS
             // Files needed for Annotations feature
             'annotator': 'js/vendor/ova/annotator-full',
             'annotator-harvardx': 'js/vendor/ova/annotator-full-firebase-auth',
@@ -150,6 +151,157 @@
             'handlebars': 'js/vendor/ova/catch/js/handlebars-1.1.2',
             'lang_edx': 'js/src/lang_edx',
             // end of Annotation tool files
+#####NEW CODE EUCALYPTUS
+#####OLD CODE DOGWOOD
+#####        // externally hosted files
+#####        // "mathjax": "//cdn.mathjax.org/mathjax/2.5-latest/MathJax.js?config=TeX-MML-AM_HTMLorMML-full&delayStartupUntil=configured",
+#####        "mathjax": "//cdn.mathjax.org/mathjax/2.6-latest/MathJax.js?config=TeX-MML-AM_CHTML&delayStartupUntil=configured", // jshint ignore:line
+#####        "youtube": [
+#####            // youtube URL does not end in ".js". We add "?noext" to the path so
+#####            // that require.js adds the ".js" to the query component of the URL,
+#####            // and leaves the path component intact.
+#####            "//www.youtube.com/player_api?noext",
+#####            // if youtube fails to load, fallback on a local file
+#####            // so that require doesn't fall over
+#####            "js/src/youtube_fallback"
+#####        ]
+#####    },
+#####    shim: {
+#####        "gettext": {
+#####            exports: "gettext"
+#####        },
+#####        "date": {
+#####            exports: "Date"
+#####        },
+#####        "jquery.ui": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.ui"
+#####        },
+#####        "jquery.form": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.ajaxForm"
+#####        },
+#####        "jquery.markitup": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.markitup"
+#####        },
+#####        "jquery.leanmodal": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.leanModal"
+#####        },
+#####        "jquery.ajaxQueue": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.ajaxQueue"
+#####        },
+#####        "jquery.smoothScroll": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.smoothScroll"
+#####        },
+#####        "jquery.cookie": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.cookie"
+#####        },
+#####        "jquery.qtip": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.qtip"
+#####        },
+#####        "jquery.scrollTo": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.scrollTo",
+#####        },
+#####        "jquery.flot": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.plot"
+#####        },
+#####        "jquery.fileupload": {
+#####            deps: ["jquery.ui", "jquery.iframe-transport"],
+#####            exports: "jQuery.fn.fileupload"
+#####        },
+#####        "jquery.fileupload-process": {
+#####            deps: ["jquery.fileupload"]
+#####        },
+#####        "jquery.fileupload-validate": {
+#####            deps: ["jquery.fileupload"]
+#####        },
+#####        "jquery.inputnumber": {
+#####            deps: ["jquery"],
+#####            exports: "jQuery.fn.inputNumber"
+#####        },
+#####        "jquery.tinymce": {
+#####            deps: ["jquery", "tinymce"],
+#####            exports: "jQuery.fn.tinymce"
+#####        },
+#####        "datepair": {
+#####            deps: ["jquery.ui", "jquery.timepicker"]
+#####        },
+#####        "underscore": {
+#####            exports: "_"
+#####        },
+#####        "backbone": {
+#####            deps: ["underscore", "jquery"],
+#####            exports: "Backbone"
+#####        },
+#####        "backbone.associations": {
+#####            deps: ["backbone"],
+#####            exports: "Backbone.Associations"
+#####        },
+#####        "backbone.paginator": {
+#####            deps: ["backbone"],
+#####            exports: "Backbone.Paginator"
+#####        },
+#####        "youtube": {
+#####            exports: "YT"
+#####        },
+#####        "codemirror": {
+#####            exports: "CodeMirror"
+#####        },
+#####        "codemirror/stex": {
+#####            deps: ["codemirror"]
+#####        },
+#####        "tinymce": {
+#####            exports: "tinymce"
+#####        },
+#####        "mathjax": {
+#####            exports: "MathJax",
+#####            init: function() {
+#####              MathJax.Hub.Config({
+#####                tex2jax: {
+#####                  inlineMath: [
+#####                    ["\\(","\\)"],
+#####                    ['[mathjaxinline]','[/mathjaxinline]']
+#####                  ],
+#####                  displayMath: [
+#####                    ["\\[","\\]"],
+#####                    ['[mathjax]','[/mathjax]']
+#####                  ]
+#####                }
+#####              });
+#####              // In order to eliminate all flashing during interactive
+#####              // preview, it is necessary to set processSectionDelay to 0
+#####              // (remove delay between input and output phases). This
+#####              // effectively disables fast preview, regardless of
+#####              // the fast preview setting as shown in the context menu.
+#####              MathJax.Hub.processSectionDelay = 0;
+#####              MathJax.Hub.Configured();
+#####            }
+#####        },
+#####        "URI": {
+#####            exports: "URI"
+#####        },
+#####        "tooltip_manager": {
+#####            deps: ["jquery", "underscore"]
+#####        },
+#####        "jquery.immediateDescendents": {
+#####            deps: ["jquery"]
+#####        },
+#####        "xblock/core": {
+#####            exports: "XBlock",
+#####            deps: ["jquery", "jquery.immediateDescendents"]
+#####        },
+#####        "xblock/runtime.v1": {
+#####            exports: "XBlock",
+#####            deps: ["xblock/core"]
+#####        },
 
             // externally hosted files
             mathjax: '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG&delayStartupUntil=configured',  // eslint-disable-line max-len
@@ -311,6 +463,8 @@
                 deps: ['coffee/src/ajax_prefix']
             },
 
+<<<<<<< 9acea3a4529cc92edc6be46d76eb06c6a6488480
+#####NEW CODE EUCALYPTUS
             // the following are all needed for annotation tools
             'video.dev': {
                 exports: 'videojs'
@@ -366,3 +520,60 @@
         }
     });
 }).call(this, require, define);
+#####NEW CODE EUCALYPTUS
+#####OLD CODE DOGWOOD
+#####        // the following are all needed for annotation tools
+#####        "video.dev": {
+#####            exports:"videojs"
+#####        },
+#####        "vjs.youtube": {
+#####            deps: ["video.dev"]
+#####        },
+#####        "rangeslider": {
+#####            deps: ["video.dev"]
+#####        },
+#####        "annotator": {
+#####            exports: "Annotator"
+#####        },
+#####        "annotator-harvardx":{
+#####            deps: ["annotator"]
+#####        },
+#####        "share-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "richText-annotator": {
+#####            deps: ["annotator", "tinymce"]
+#####        },
+#####        "reply-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "tags-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "diacritic-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "flagging-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "grouping-annotator": {
+#####            deps: ["annotator"]
+#####        },
+#####        "ova":{
+#####            exports: "ova",
+#####            deps: ["annotator", "annotator-harvardx", "video.dev", "vjs.youtube",
+#####                   "rangeslider", "share-annotator", "richText-annotator", "reply-annotator",
+#####                   "tags-annotator", "flagging-annotator", "grouping-annotator", "diacritic-annotator",
+#####                   "jquery-Watch", "catch", "handlebars", "URI"]
+#####        },
+#####        "osda":{
+#####            exports: "osda",
+#####            deps: ["annotator", "annotator-harvardx", "video.dev", "vjs.youtube",
+#####                   "rangeslider", "share-annotator", "richText-annotator", "reply-annotator",
+#####                   "tags-annotator", "flagging-annotator", "grouping-annotator", "diacritic-annotator",
+#####                   "openseadragon", "jquery-Watch", "catch", "handlebars", "URI"]
+#####        },
+#####        // end of annotation tool files
+#####    }
+#####});
+#####OLD CODE DOGWOOD
