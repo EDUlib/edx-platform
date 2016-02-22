@@ -326,7 +326,7 @@ def create_mode(request, course_id):
         'mode_display_name': u'Honor Code Certificate',
         'min_price': 0,
         'suggested_prices': u'',
-        'currency': u'usd',
+        'currency': u'cad',
         'sku': None,
     }
 
