@@ -195,6 +195,7 @@ class DiscussionThreadPage(PageObject, DiscussionPageMixin):
         """ Checks that MathJax css class is present """
         self.wait_for(
             lambda: self.is_element_visible(".MathJax_SVG"),
+#####DOGWOOD            lambda: self._is_element_visible(".MathJax_CHTML"),
             description="MathJax Preview is rendered"
         )
 
