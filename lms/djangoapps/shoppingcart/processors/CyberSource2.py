@@ -238,7 +238,7 @@ def render_purchase_form_html(cart, callback_url=None, extra_data=None):
         unicode: The rendered HTML form.
 
     """
-    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
+    callback_url = 'https://cours.edulib.org/shoppingcart/postpay_callback/'
     return render_to_string('shoppingcart/cybersource_form.html', {
         'action': get_purchase_endpoint(),
         'params': get_signed_purchase_params(
@@ -266,7 +266,7 @@ def get_signed_purchase_params(cart, callback_url=None, extra_data=None):
         dict
 
     """
-    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
+    callback_url = 'https://cours.edulib.org/shoppingcart/postpay_callback/'
     return sign(get_purchase_params(cart, callback_url=callback_url, extra_data=extra_data))
 
 
@@ -289,7 +289,7 @@ def get_purchase_params(cart, callback_url=None, extra_data=None):
         dict
 
     """
-    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
+    callback_url = 'https://cours.edulib.org/shoppingcart/postpay_callback/'
 
     total_cost = cart.total_cost
     amount = "{0:0.2f}".format(total_cost)
@@ -391,7 +391,7 @@ def _payment_accepted(order_id, auth_amount, currency, decision):
         return {
             'accepted': False,
             'amt_charged': 0,
-            'currency': 'usd',
+            'currency': 'cad',
             'order': order
         }
 
