@@ -112,7 +112,7 @@ class Order(models.Model):
         app_label = "shoppingcart"
 
     user = models.ForeignKey(User, db_index=True)
-    currency = models.CharField(default="usd", max_length=8)  # lower case ISO currency codes
+    currency = models.CharField(default="cad", max_length=8)  # lower case ISO currency codes
     status = models.CharField(max_length=32, default='cart', choices=ORDER_STATUSES)
     purchase_time = models.DateTimeField(null=True, blank=True)
     refunded_time = models.DateTimeField(null=True, blank=True)
@@ -654,7 +654,7 @@ class OrderItem(TimeStampedModel):
     unit_cost = models.DecimalField(default=0.0, decimal_places=2, max_digits=30)
     list_price = models.DecimalField(decimal_places=2, max_digits=30, null=True)
     line_desc = models.CharField(default="Misc. Item", max_length=1024)
-    currency = models.CharField(default="usd", max_length=8)  # lower case ISO currency codes
+    currency = models.CharField(default="cad", max_length=8)  # lower case ISO currency codes
     fulfilled_time = models.DateTimeField(null=True, db_index=True)
     refund_requested_time = models.DateTimeField(null=True, db_index=True)
     service_fee = models.DecimalField(default=0.0, decimal_places=2, max_digits=30)
@@ -677,7 +677,7 @@ class OrderItem(TimeStampedModel):
         # this is a validation step to verify that the currency of the item we
         # are adding is the same as the currency of the order we are adding it
         # to
-        currency = kwargs.get('currency', 'usd')
+        currency = kwargs.get('currency', 'cad')
         if order.currency != currency and order.orderitem_set.exists():
             raise InvalidCartItem(_("Trying to add a different currency into the cart"))
 
@@ -999,7 +999,7 @@ class InvoiceTransaction(TimeStampedModel):
         )
     )
     currency = models.CharField(
-        default="usd",
+        default="cad",
         max_length=8,
         help_text=ugettext_lazy("Lower-case ISO currency codes")
     )
@@ -1093,7 +1093,7 @@ class InvoiceItem(TimeStampedModel):
         help_text=ugettext_lazy("The price per item sold, including discounts.")
     )
     currency = models.CharField(
-        default="usd",
+        default="cad",
         max_length=8,
         help_text=ugettext_lazy("Lower-case ISO currency codes")
     )
@@ -1935,7 +1935,7 @@ class CertificateItem(OrderItem):
 
     @classmethod
     @transaction.atomic
-    def add_to_order(cls, order, course_id, cost, mode, currency='usd'):
+    def add_to_order(cls, order, course_id, cost, mode, currency='cad'):
         """
         Add a CertificateItem to an order
 
@@ -2073,7 +2073,7 @@ class CertificateItem(OrderItem):
                 course_id=course_id,
                 mode='verified',
                 status='purchased',
-                unit_cost__gt=(CourseMode.min_course_price_for_verified_for_currency(course_id, 'usd')))).count()
+                unit_cost__gt=(CourseMode.min_course_price_for_verified_for_currency(course_id, 'cad')))).count()
 
     def analytics_data(self):
         """Simple function used to construct analytics data for the OrderItem.
@@ -2127,7 +2127,7 @@ class Donation(OrderItem):
 
     @classmethod
     @transaction.atomic
-    def add_to_order(cls, order, donation_amount, course_id=None, currency='usd'):
+    def add_to_order(cls, order, donation_amount, course_id=None, currency='cad'):
         """Add a donation to an order.
 
         Args:
