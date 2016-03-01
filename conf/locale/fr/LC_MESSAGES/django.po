@@ -12733,7 +12733,7 @@ msgid "Enrollment is Closed"
 msgstr "Les inscriptions sont fermées"
 
 #: lms/templates/courseware/course_about.html
-msgid "Add {course_name} to Cart <span>({price} USD)</span>"
+msgid "Add {course_name} to Cart <span>({price} CAD)</span>"
 msgstr "Ajouter {course_name} au panier <span>({price} CAD)</span>"
 
 #: lms/templates/courseware/course_about.html
