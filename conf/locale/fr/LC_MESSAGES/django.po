@@ -13740,7 +13740,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
-msgstr "Mettre à jour au statut vérifié"
+msgstr "Mettre à jour à une attestation vérifiée"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
