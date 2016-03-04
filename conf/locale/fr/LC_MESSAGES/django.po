@@ -5579,7 +5579,7 @@ msgstr "Vous êtes encore admissible à une mise à jour à une attestation vér
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Upgrade to Verified Certificate"
-msgstr "Mettre à jour à une attestation vérifiée"
+msgstr "Mise à jour à une attestation vérifiée"
 
 #: cms/templates/group_configurations.html
 msgid "Learn More"
@@ -10477,7 +10477,7 @@ msgstr ""
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue a Verified Certificate"
-msgstr "Poursuivre une attestation vérifiée"
+msgstr "Poursuivre avec une attestation vérifiée"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -13740,7 +13740,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
-msgstr "Mettre à jour à une attestation vérifiée"
+msgstr "Mise à jour à une attestation vérifiée"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
@@ -17643,7 +17643,7 @@ msgid ""
 "The deadline to upgrade to a verified certificate for this course has "
 "passed."
 msgstr ""
-"La date limite de mise à niveau à une attestation vérifiée est "
+"La date limite de mise à jour à une attestation vérifiée est "
 "écoulée."
 
 #: lms/templates/verify_student/pay_and_verify.html
