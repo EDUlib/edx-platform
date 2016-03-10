@@ -328,7 +328,7 @@ msgstr "Vérifiée: en attente de vérification"
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "ID verification pending"
-msgstr "Vérification d'identité en attente"
+msgstr "Vous êtes inscrit en vue d'une attestation."
 
 #: common/djangoapps/course_modes/helpers.py
 msgid "You're enrolled as a verified student"
@@ -671,7 +671,7 @@ msgstr "Attestation sur le code d'honneur {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Verified Certificate for {course_name}"
-msgstr "Attestation vérifiée {platform_name} pour {course_name}"
+msgstr "Attestation {platform_name} pour {course_name}"
 
 #: common/djangoapps/student/models.py
 msgid "{platform_name} Professional Certificate for {course_name}"
@@ -5005,7 +5005,7 @@ msgid ""
 "'verified' or 'honor' to differentiate between two types of certificates."
 msgstr ""
 "Une description lisible de l'attestation d'exemple.  Par exemple, "
-"'vérifiée' or 'honneur' afin de différencier entre deux types d'attestation."
+"'vérifiée' ou 'honneur' afin de différencier entre deux types d'attestation."
 
 #: lms/djangoapps/certificates/models.py
 msgid ""
@@ -5300,7 +5300,7 @@ msgid ""
 msgstr ""
 "{platform_name} offre des cours en ligne et des MOOCs provenant de ses partenaires "
 "incluant l'Université de Montréal, HEC Montréal et Polytechnique Montréal."
-"{platform_name} est une initiative sans but lucratif créée par les partenaires fondateurs "
+"{platform_name} est une initiative d’éducation populaire en ligne et ouverte à tous créée par les partenaires fondateurs "
 "Université de Montréal, HEC Montréal et Polytechnique Montréal."
 
 #: lms/djangoapps/certificates/views/webview.py
@@ -5575,11 +5575,11 @@ msgstr "Date limite de mise à niveau de la vérification"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "You are still eligible to upgrade to a Verified Certificate!"
-msgstr "Vous êtes encore admissible à une mise à jour à une attestation vérifiée"
+msgstr "Vous êtes encore admissible à une mise à jour à une attestation!"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Upgrade to Verified Certificate"
-msgstr "Mise à jour à une attestation vérifiée"
+msgstr "Demander une attestation"
 
 #: cms/templates/group_configurations.html
 msgid "Learn More"
@@ -5611,7 +5611,7 @@ msgid ""
 "a Verified Certificate."
 msgstr ""
 "Vous devez avoir complété et réussi une vérification avant cette date pour être admissible "
-"à une attestation vérifiée."
+"à une attestation."
 
 #: lms/djangoapps/courseware/masquerade.py
 msgid ""
@@ -8530,17 +8530,17 @@ msgstr "Votre vérification {platform_name} a expiré."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "No photo ID was provided."
-msgstr "Aucune photo ID a été fournie."
+msgstr "Aucune photo d'identification officielle n'a été fournie."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "We couldn't read your name from your photo ID image."
-msgstr "Nous n'avons pas pu lire votre nom à partir de l'image de votre pièce d'identification."
+msgstr "Nous n'avons pu lire votre nom à partir de la photo de votre pièce d'identification officielle."
 
 #: lms/djangoapps/verify_student/models.py
 msgid ""
 "The name associated with your account and the name on your ID do not match."
 msgstr ""
-"Le nom associé avec votre compte et le nom sur votre pièce d'identification ne correspondent pas."
+"Le nom associé avec votre compte et le nom sur votre pièce d'identification officielle ne correspondent pas."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "The image of your face was not clear."
@@ -8552,7 +8552,7 @@ msgstr "Votre visage n'était pas visible dans votre photo."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "There was an error verifying your ID photos."
-msgstr "Il y a eu une erreur dans la vérification de vos photos."
+msgstr "Il y a eu une erreur dans la vérification de votre photo et de la photo de votre pièce d'identification officielle."
 
 #: lms/djangoapps/verify_student/models.py
 msgid "The course for which this deadline applies"
@@ -8584,7 +8584,7 @@ msgstr "Prendre une photo"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Take a photo of your ID"
-msgstr "Prendre une photo de votre ID"
+msgstr "Prendre une photo de votre pièce d'identification officielle"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Review your info"
@@ -8611,7 +8611,7 @@ msgid ""
 "Photo ID image is required if the user does not have an initial verification"
 " attempt."
 msgstr ""
-"Une image d'une pièce d'identification est nécessaire si l'utilisateur n'a effectué aucune demande de vérification."
+"Une photo d'une pièce d'identification officielle est nécessaire si l'utilisateur n'a effectué aucune demande de vérification."
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Missing required parameter face_image"
@@ -10433,7 +10433,7 @@ msgstr "Félicitations! Vous êtes maintenant inscrit à {course_name}"
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue Academic Credit with a Verified Certificate"
-msgstr "Obtenir des crédits universitaires avec une attestation vérifiée"
+msgstr "Obtenir des crédits universitaires avec une attestation"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -10443,13 +10443,13 @@ msgid ""
 "your school applications."
 msgstr ""
 "Devenez admissible pour un crédit académique et faites ressortir vos nouvelles connaissances et "
-"compétences avec une attestation vérifiée. Utilisez cette attestation de compétences "
+"compétences avec une attestation. Utilisez cette attestation de compétences "
 "afin d'obtenir un crédit académique de {org}, faire progresser votre carrière, "
 "ou renforcer vos demandes d'admission."
 
 #: common/templates/course_modes/choose.html
 msgid "Benefits of a Verified Certificate"
-msgstr "Avantages d'une attestation vérifiée"
+msgstr "Avantages d'une attestation"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -10477,7 +10477,7 @@ msgstr ""
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue a Verified Certificate"
-msgstr "Poursuivre avec une attestation vérifiée"
+msgstr "Demander une attestation"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -10485,7 +10485,7 @@ msgid ""
 "this valuable credential to improve your job prospects and advance your "
 "career, or highlight your certificate in school applications."
 msgstr ""
-"Faites ressortir vos nouvelles connaissances et compétences avec une attestation vérifiée. "
+"Faites ressortir vos nouvelles connaissances et compétences avec une attestation. "
 "Utilisez cette attestation de compétences pour améliorer vos perspectives d'emploi et "
 "faire progresser votre carrière, ou mettre en évidence votre attestation lors de demandes d'admission."
 
@@ -10518,12 +10518,11 @@ msgid ""
 "<b>Support our Mission: </b> EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr ""
-"<b>Supportez notre mission: </b> EdX, une organisation sans but lucratif, repose sur les attestations "
-"vérifiées afin de financer l'éducation gratuite pour tous à l'échelle mondiale"
+"<b>Supportez notre mission: </b> EDUlib est une initiative d’éducation populaire en ligne et ouverte à tous. "
 
 #: common/templates/course_modes/choose.html
 msgid "Earn an Honor Certificate"
-msgstr "Obtenez une attestation sur l'honneur"
+msgstr "Obtenez une attestation"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -13560,7 +13559,7 @@ msgid ""
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
 msgstr ""
 "Comme nous ne disposions pas de jeu valide de photos de vérification de "
-"votre part lorsque votre attestation ide réussite a été générée, nous n'avons pas pu "
+"votre part lorsque votre attestation a été générée, nous n'avons pas pu "
 "vous octroyer une {cert_name_long}. Une {cert_name_short} sur "
 "l'honneur vous a été octroyée en remplacement."
 
@@ -13655,7 +13654,7 @@ msgid ""
 "Are you sure you want to unenroll from the verified %(cert_name_long)s track"
 " of %(course_name)s (%(course_number)s)?"
 msgstr ""
-"Êtes-vous certain de vouloir vous désinscrire de cette %(cert_name_long)s vérifiée"
+"Êtes-vous certain de vouloir vous désinscrire de cette %(cert_name_long)s"
 " pour %(course_name)s (%(course_number)s)?"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13694,7 +13693,7 @@ msgstr "Vérifier maintenant"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You have already verified your ID!"
-msgstr "Vous avez déjà vérifié votre identité!"
+msgstr "Vous êtes inscrit en vue d'une attestation."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Thanks for your patience as we process your request."
@@ -13717,8 +13716,8 @@ msgid ""
 "webcam and a government-issued ID."
 msgstr ""
 "Votre vérification actuelle expirera avant la date limite "
-"pour ce cours. {start_link}Revérifiez votre identité maintenant{end_link} en utilisant une "
-"webcam et une pièce d'identité émise par le gouvernement."
+"pour ce cours. {start_link}Revérifiez votre identité maintenant{end_link} en prenant une "
+"photo de votre visage avec votre caméra et une photo d'une pièce d'identification officielle émise par le gouvernement."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
@@ -13740,7 +13739,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
-msgstr "Mise à jour à une attestation vérifiée"
+msgstr "Demander une attestation"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
@@ -13866,8 +13865,8 @@ msgid ""
 "To receive a verified certificate, you have to submit a new photo of "
 "yourself and your government-issued photo ID before the course ends."
 msgstr ""
-"Afin de recevoir une attestation vérifiée, vous devez soumettre une photo de vous-même "
-"et une photo d'une pièce d'identité émise par le gouvernement avant la fin du cours."
+"Afin de recevoir une attestation, vous devez soumettre une photo de vous-même "
+"et une photo d'une pièce d'identification officielle émise par le gouvernement avant la fin du cours."
 
 #: lms/templates/dashboard/_dashboard_third_party_error.html
 msgid "Could Not Link Accounts"
@@ -14902,7 +14901,7 @@ msgid ""
 "everywhere. Your help allows us to continuously improve the learning "
 "experience for millions and make a better future one learner at a time."
 msgstr ""
-"{platform_name} est à but non lucratif pour offrir à tous des enseignements "
+"{platform_name} est une initiative d’éducation populaire en ligne et ouverte à tous offrant des enseignements "
 "de grande qualité dans le monde entier. Grâce à votre aide nous pouvons "
 "améliorer constamment l'expérience d'apprentissage pour des millions de gens un apprenant à la fois."
 
@@ -17643,7 +17642,7 @@ msgid ""
 "The deadline to upgrade to a verified certificate for this course has "
 "passed."
 msgstr ""
-"La date limite de mise à jour à une attestation vérifiée est "
+"La date limite pour une demande d'attestation est "
 "écoulée."
 
 #: lms/templates/verify_student/pay_and_verify.html
@@ -17687,7 +17686,7 @@ msgid ""
 msgstr ""
 "Veuillez vous assurer que votre fureteur est mis à jour à la{a_start} "
 "version la plus récente possible{a_end}. Veuillez aussi vous assurer que "
-"votre <strong> webcam est branchée, mise sous tension, et autorisé à "
+"votre <strong> caméra est branchée, mise sous tension, et autorisé à "
 "fonctionner dans votre fureteur Web (paramètre communément ajustable dans "
 "les paramètres du fureteur). </strong>"
 
@@ -17991,7 +17990,7 @@ msgid ""
 "For verified certificates, specify between one and four signatories and "
 "upload the associated images."
 msgstr ""
-"Pour les attestations vérifiées, spécifier entre un ou quatre signataires et "
+"Pour les attestations, spécifier entre un ou quatre signataires et "
 "téléverser les images de leurs signatures."
 
 #: cms/templates/certificates.html
