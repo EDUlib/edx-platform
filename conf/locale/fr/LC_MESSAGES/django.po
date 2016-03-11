@@ -13467,7 +13467,7 @@ msgstr "Votre note finale :"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
-msgstr "Note requise pour une {cert_name_short}:"
+msgstr "Note requise pour une attestation:"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required to pass this course:"
@@ -13482,12 +13482,12 @@ msgid ""
 "please let us know by contacting {email}. If you would like a refund on your"
 " {cert_name_long}, please contact our billing address {billing_email}"
 msgstr ""
-"Votre {cert_name_long} est en attente de confirmation que l'émission de "
-"votre {cert_name_short} respecte la législation des États-Unis concernant "
+"Votre attestation est en attente de confirmation que l'émission de "
+"votre attestation respecte la législation des États-Unis concernant "
 "les embargos sur l'Iran, Cuba, la Syrie et le Soudan. Si vous pensez que "
 "notre système vous a identifié à tort comme relié à un de ces pays, faites-"
 "le nous savoir en nous contactant à l'adresse {email}. Si vous souhaitez un "
-"remboursement de votre {cert_name_long}, merci de contacter notre service de"
+"remboursement de votre attestation, merci de contacter notre service de"
 " paiement à l'adresse {billing_email}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
@@ -13498,15 +13498,15 @@ msgid ""
 "identified you as being connected with one of those countries, please let us"
 " know by contacting {email}."
 msgstr ""
-"Votre {cert_name_long} est en attente de confirmation que l'émission de "
-"votre {cert_name_short} respecte la législation des États-Unis concernant "
+"Votre attestation est en attente de confirmation que l'émission de "
+"votre attestation respecte la législation des États-Unis concernant "
 "les embargos sur l'Iran, Cuba, la Syrie et le Soudan. Si vous pensez que "
 "notre système vous a identifié à tort comme relié à un de ces pays, faites-"
 "le nous savoir en nous contactant à l'adresse {email}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your {cert_name_short} is Generating"
-msgstr "Votre {cert_name_short} est en cours de préparation"
+msgstr "Votre attestation est en cours de préparation"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open the certificate web view"
@@ -13514,7 +13514,7 @@ msgstr "Ce lien ouvrira l'attestation web view"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "View {cert_name_short}"
-msgstr "Voir {cert_name_short}"
+msgstr "Voir attestation"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open/download a PDF document"
@@ -13522,11 +13522,11 @@ msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -13534,11 +13534,11 @@ msgid ""
 "{cert_name_long}."
 msgstr ""
 "Ce lien ouvrira/téléchargera un document PDF contenant votre "
-"{cert_name_long} vérifié."
+"attestation."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -13560,7 +13560,7 @@ msgid ""
 msgstr ""
 "Comme nous ne disposions pas de jeu valide de photos de vérification de "
 "votre part lorsque votre attestation a été générée, nous n'avons pas pu "
-"vous octroyer une {cert_name_long}. Une {cert_name_short} sur "
+"vous octroyer une attestation. Une attestation sur "
 "l'honneur vous a été octroyée en remplacement."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13654,7 +13654,7 @@ msgid ""
 "Are you sure you want to unenroll from the verified %(cert_name_long)s track"
 " of %(course_name)s (%(course_number)s)?"
 msgstr ""
-"Êtes-vous certain de vouloir vous désinscrire de cette %(cert_name_long)s"
+"Êtes-vous certain de vouloir vous désinscrire de cette attestation"
 " pour %(course_name)s (%(course_number)s)?"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13724,7 +13724,7 @@ msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
 msgstr ""
-"Obtenez une {cert_name_long} afin de mettre en valeur les connaissances et "
+"Obtenez une attestation afin de mettre en valeur les connaissances et "
 "les compétences acquises dans ce cours."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13735,7 +13735,7 @@ msgid ""
 msgstr ""
 "C'est officiel. C'est facilement partageable. C'est un facteur de motivation "
 "afin de compléter le cours. <br>{link_start}Apprenez en plus au sujet "
-"d'une {cert_name_long}{link_end}."
+"d'une attestation{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Upgrade to Verified"
