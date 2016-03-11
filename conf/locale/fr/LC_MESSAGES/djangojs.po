@@ -7534,7 +7534,7 @@ msgstr "Types d'exercice commun"
 
 #: cms/templates/js/add-xblock-component.underscore
 msgid "Add New Component"
-msgstr "Aouter un nouveau composant"
+msgstr "Ajouter un nouveau composant"
 
 #: cms/templates/js/advanced_entry.underscore
 msgid "Deprecated"
