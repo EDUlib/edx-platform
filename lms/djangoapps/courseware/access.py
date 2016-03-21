@@ -138,6 +138,10 @@ def has_access(user, action, obj, course_key=None):
         if not bool(has_staff_access_to_preview_mode(user=user, obj=obj, course_key=course_key)):
             return ACCESS_DENIED
 
+    if in_preview_mode():
+        if not bool(has_staff_access_to_preview_mode(user=user, obj=obj, course_key=course_key)):
+            return ACCESS_DENIED
+
     # delegate the work to type-specific functions.
     # (start with more specific types, then get more general)
     if isinstance(obj, CourseDescriptor):
