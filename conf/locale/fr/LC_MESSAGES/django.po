@@ -2544,7 +2544,7 @@ msgstr "Désactiver les graphiques de progrès"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter true or false. If true, students cannot view the progress graph."
-msgstr "Entrez vrai (true) ou faux (false). Si vrai, les étudiants pourront voir le graphique de progrès."
+msgstr "Entrez vrai (true) ou faux (false). Si vrai, les étudiants ne pourront voir le graphique de progrès."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "PDF Textbooks"
