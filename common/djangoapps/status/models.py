@@ -36,7 +36,7 @@ class GlobalStatusMessage(ConfigurationModel):
         return msg
 
     def __unicode__(self):
-        return "{} - {} - {}".format(self.change_date, self.enabled, self.message)
+        return u"{} - {} - {}".format(self.change_date, self.enabled, self.message)
 
 
 class CourseMessage(models.Model):
