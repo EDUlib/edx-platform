@@ -5482,7 +5482,7 @@ msgstr "Pour de l'aide, contacter {payment_support_link}."
 
 #: lms/djangoapps/commerce/views.py
 msgid "An error occurred while creating your receipt."
-msgstr "Une erreur de survenue lors de la création de votre reçu."
+msgstr "Une erreur est survenue lors de la création de votre reçu."
 
 #: lms/djangoapps/commerce/views.py
 msgid ""
