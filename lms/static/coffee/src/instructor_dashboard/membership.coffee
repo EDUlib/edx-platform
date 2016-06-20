@@ -646,6 +646,7 @@ class AuthList
     # fetch data from the endpoint
     # the endpoint comes from data-endpoint of the table
     $.ajax
+      type: 'POST'
       dataType: 'json'
       type: 'POST'
       url: @$display_table.data 'endpoint'
@@ -666,6 +667,7 @@ class AuthList
   # action should be one of ['allow', 'revoke']
   access_change: (email, action, cb) ->
     $.ajax
+      type: 'POST'
       dataType: 'json'
       type: 'POST'
       url: @$add_section.data 'endpoint'
