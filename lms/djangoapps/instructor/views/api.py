@@ -1194,6 +1194,7 @@ def re_validate_invoice(obj_invoice):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_level('staff')
@@ -1371,6 +1372,7 @@ def _cohorts_csv_validator(file_storage, file_to_validate):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_POST
