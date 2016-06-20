@@ -169,6 +169,7 @@ class @SendEmail
         $(".msg-confirm").css({"display":"block"})
 
 
+
 # Email Section
 class Email
     # enable subsections.
