@@ -562,6 +562,7 @@ def create_and_enroll_user(email, username, name, country, password, course_id, 
 
 
 @require_POST
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_level('staff')
@@ -889,7 +890,6 @@ def modify_access(request, course_id):
         'success': 'yes',
     }
     return JsonResponse(response_payload)
-
 
 @require_POST
 @ensure_csrf_cookie
@@ -2208,6 +2208,7 @@ def rescore_entrance_exam(request, course_id):
 
 
 @require_POST
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_level('staff')
@@ -2336,6 +2337,7 @@ def list_entrance_exam_instructor_tasks(request, course_id):  # pylint: disable=
     return JsonResponse(response_payload)
 
 
+@require_POST
 @require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
@@ -2859,6 +2861,7 @@ def mark_student_can_skip_entrance_exam(request, course_id):  # pylint: disable=
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff
@@ -2879,6 +2882,7 @@ def start_certificate_generation(request, course_id):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff
@@ -2923,6 +2927,7 @@ def start_certificate_regeneration(request, course_id):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff
