@@ -2528,6 +2528,7 @@ def password_reset_confirm_wrapper(request, uidb36=None, token=None):
 
     if request.method == 'POST':
         password = request.POST['new_password1']
+
         is_password_valid, password_err_msg = validate_password(user, password)
         if not is_password_valid:
             # We have a password reset attempt which violates some security
