@@ -34,6 +34,10 @@ from util.testing import EventTestMixin
 from .test_configuration_overrides import fake_get_value
 
 
+@unittest.skipUnless(
+    settings.ROOT_URLCONF == "lms.urls",
+    "reset password tests should only run in LMS"
+)
 @ddt.ddt
 class ResetPasswordTests(EventTestMixin, CacheIsolationTestCase):
     """
@@ -269,13 +273,13 @@ class ResetPasswordTests(EventTestMixin, CacheIsolationTestCase):
         if token is None:
             token = self.token
 
-        bad_reset_req = self.request_factory.get('/password_reset_confirm/NO-OP/')
-        password_reset_confirm_wrapper(bad_reset_req, 'NO', 'OP')
-        confirm_kwargs = reset_confirm.call_args[1]
-
-        self.assertEquals(confirm_kwargs['uidb64'], self.uidb36_to_uidb64('NO'))
-
-        self.assertEquals(confirm_kwargs['token'], 'OP')
+        bad_request = self.request_factory.get(
+            reverse(
+                "password_reset_confirm",
+                kwargs={"uidb36": uidb36, "token": token}
+            )
+        )
+        password_reset_confirm_wrapper(bad_request, uidb36, token)
         self.user = User.objects.get(pk=self.user.pk)
         self.assertFalse(self.user.is_active)
 
@@ -289,9 +293,6 @@ class ResetPasswordTests(EventTestMixin, CacheIsolationTestCase):
         )
         good_reset_req = self.request_factory.get(url)
         password_reset_confirm_wrapper(good_reset_req, self.uidb36, self.token)
-        confirm_kwargs = reset_confirm.call_args[1]
-        self.assertEquals(confirm_kwargs['uidb64'], self.uidb36_to_uidb64())
-        self.assertEquals(confirm_kwargs['token'], self.token)
         self.user = User.objects.get(pk=self.user.pk)
         self.assertTrue(self.user.is_active)
 
@@ -393,16 +394,6 @@ class ResetPasswordTests(EventTestMixin, CacheIsolationTestCase):
         password_reset_confirm_wrapper(good_reset_req, self.uidb36, self.token)
         confirm_kwargs = reset_confirm.call_args[1]
         self.assertEquals(confirm_kwargs['extra_context']['platform_name'], 'Fake University')
-
-    @patch('student.views.password_reset_confirm')
-    def test_reset_password_with_reused_password(self, reset_confirm):
-        """Tests good token and uidb36 in password reset"""
-
-        good_reset_req = self.request_factory.get('/password_reset_confirm/{0}-{1}/'.format(self.uidb36, self.token))
-        password_reset_confirm_wrapper(good_reset_req, self.uidb36, self.token)
-        confirm_kwargs = reset_confirm.call_args[1]
-        self.assertEquals(confirm_kwargs['uidb64'], self.uidb36_to_uidb64())
-        self.assertEquals(confirm_kwargs['token'], self.token)
         self.user = User.objects.get(pk=self.user.pk)
         self.assertTrue(self.user.is_active)
 
