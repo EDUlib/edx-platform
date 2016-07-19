@@ -2436,36 +2436,13 @@ def password_reset(request):
     })
 
 
-def uidb36_to_uidb64(uidb36):
-    """
-    Needed to support old password reset URLs that use base36-encoded user IDs
-    https://github.com/django/django/commit/1184d077893ff1bc947e45b00a4d565f3df81776#diff-c571286052438b2e3190f8db8331a92bR231
-    Args:
-        uidb36: base36-encoded user ID
-
-    Returns: base64-encoded user ID. Otherwise returns a dummy, invalid ID
-    """
-    try:
-        uidb64 = force_text(urlsafe_base64_encode(force_bytes(base36_to_int(uidb36))))
-    except ValueError:
-        uidb64 = '1'  # dummy invalid ID (incorrect padding for base64)
-    return uidb64
-
-
-def validate_password(user, password):
-    """
-    Tie in password policy enforcement as an optional level of
-    security protection
-
-    Args:
-        user: the user object whose password we're checking.
-        password: the user's proposed new password.
-
-    Returns:
-        is_valid_password: a boolean indicating if the new password
-            passes the validation.
-        err_msg: an error message if there's a violation of one of the password
-            checks. Otherwise, `None`.
+def password_reset_confirm_wrapper(
+    request,
+    uidb36=None,
+    token=None,
+):
+    """ A wrapper around django.contrib.auth.views.password_reset_confirm.
+        Needed because we want to set the user as active at this step.
     """
     err_msg = None
 
@@ -2518,38 +2495,67 @@ def password_reset_confirm_wrapper(request, uidb36=None, token=None):
     try:
         uid_int = base36_to_int(uidb36)
         user = User.objects.get(id=uid_int)
+        user.is_active = True
+        user.save()
     except (ValueError, User.DoesNotExist):
-        # if there's any error getting a user, just let django's
-        # password_reset_confirm function handle it.
-        return password_reset_confirm(
-            request, uidb64=uidb64, token=token, extra_context=platform_name
-        )
+        pass
+
+    # tie in password strength enforcement as an optional level of
+    # security protection
+    err_msg = None
 
     if request.method == 'POST':
         password = request.POST['new_password1']
+        if settings.FEATURES.get('ENFORCE_PASSWORD_POLICY', False):
+            try:
+                validate_password_length(password)
+                validate_password_complexity(password)
+                validate_password_dictionary(password)
+            except ValidationError, err:
+                err_msg = _('Password: ') + '; '.join(err.messages)
 
-        is_password_valid, password_err_msg = validate_password(user, password)
-        if not is_password_valid:
-            # We have a password reset attempt which violates some security
-            # policy. Use the existing Django template to communicate that
-            # back to the user.
-            context = {
-                'validlink': False,
-                'form': None,
-                'title': _('Password reset unsuccessful'),
-                'err_msg': password_err_msg,
-            }
-            context.update(platform_name)
-            return TemplateResponse(
-                request, 'registration/password_reset_confirm.html', context
-            )
+        # also, check the password reuse policy
+        if not PasswordHistory.is_allowable_password_reuse(user, password):
+            if user.is_staff:
+                num_distinct = settings.ADVANCED_SECURITY_CONFIG['MIN_DIFFERENT_STAFF_PASSWORDS_BEFORE_REUSE']
+            else:
+                num_distinct = settings.ADVANCED_SECURITY_CONFIG['MIN_DIFFERENT_STUDENT_PASSWORDS_BEFORE_REUSE']
+            err_msg = ungettext(
+                "You are re-using a password that you have used recently. You must have {num} distinct password before reusing a previous password.",
+                "You are re-using a password that you have used recently. You must have {num} distinct passwords before reusing a previous password.",
+                num_distinct
+            ).format(num=num_distinct)
 
-        # remember what the old password hash is before we call down
-        old_password_hash = user.password
+        # also, check to see if passwords are getting reset too frequent
+        if PasswordHistory.is_password_reset_too_soon(user):
+            num_days = settings.ADVANCED_SECURITY_CONFIG['MIN_TIME_IN_DAYS_BETWEEN_ALLOWED_RESETS']
+            err_msg = ungettext(
+                "You are resetting passwords too frequently. Due to security policies, {num} day must elapse between password resets.",
+                "You are resetting passwords too frequently. Due to security policies, {num} days must elapse between password resets.",
+                num_days
+            ).format(num=num_days)
 
-        response = password_reset_confirm(
-            request, uidb64=uidb64, token=token, extra_context=platform_name
-        )
+    if err_msg:
+        # We have an password reset attempt which violates some security policy, use the
+        # existing Django template to communicate this back to the user
+        context = {
+            'validlink': True,
+            'form': None,
+            'title': _('Password reset unsuccessful'),
+            'err_msg': err_msg,
+            'platform_name': microsite.get_value('platform_name', settings.PLATFORM_NAME),
+        }
+        return TemplateResponse(request, 'registration/password_reset_confirm.html', context)
+    else:
+        # we also want to pass settings.PLATFORM_NAME in as extra_context
+        extra_context = {"platform_name": microsite.get_value('platform_name', settings.PLATFORM_NAME)}
+
+        # Support old password reset URLs that used base36 encoded user IDs.
+        # https://github.com/django/django/commit/1184d077893ff1bc947e45b00a4d565f3df81776#diff-c571286052438b2e3190f8db8331a92bR231
+        try:
+            uidb64 = force_text(urlsafe_base64_encode(force_bytes(base36_to_int(uidb36))))
+        except ValueError:
+            uidb64 = '1'    # dummy invalid ID (incorrect padding for base64)
 
         # If password reset was unsuccessful a template response is returned (status_code 200).
         # Check if form is invalid then show an error to the user.
@@ -2561,22 +2567,23 @@ def password_reset_confirm_wrapper(request, uidb36=None, token=None):
         # get the updated user
         updated_user = User.objects.get(id=uid_int)
 
-        # did the password hash change, if so record it in the PasswordHistory
-        if updated_user.password != old_password_hash:
-            entry = PasswordHistory()
-            entry.create(updated_user)
+            result = password_reset_confirm(
+                request, uidb64=uidb64, token=token, extra_context=extra_context
+            )
 
-    else:
-        response = password_reset_confirm(
-            request, uidb64=uidb64, token=token, extra_context=platform_name
-        )
+            # get the updated user
+            updated_user = User.objects.get(id=uid_int)
 
-        response_was_successful = response.context_data.get('validlink')
-        if response_was_successful and not user.is_active:
-            user.is_active = True
-            user.save()
+            # did the password hash change, if so record it in the PasswordHistory
+            if updated_user.password != old_password_hash:
+                entry = PasswordHistory()
+                entry.create(updated_user)
 
-    return response
+            return result
+        else:
+            return password_reset_confirm(
+                request, uidb64=uidb64, token=token, extra_context=extra_context
+            )
 
 
 def reactivation_email_for_user(user):
