@@ -184,10 +184,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'foo'
         }, follow=True)
 
-        self.assertIn(
-            err_msg,
-            resp.content
-        )
+        self.assertPasswordResetError(resp, err_msg)
 
         # now retry with a different password
         resp = self.client.post('/password_reset_confirm/{0}-{1}/'.format(uidb36, token), {
@@ -195,10 +192,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'bar'
         }, follow=True)
 
-        self.assertIn(
-            success_msg,
-            resp.content
-        )
+        self.assertIn(success_msg, resp.content)
 
     @patch.dict("django.conf.settings.ADVANCED_SECURITY_CONFIG", {'MIN_DIFFERENT_STAFF_PASSWORDS_BEFORE_REUSE': 2})
     def test_staff_password_reset_reuse(self):
@@ -220,10 +214,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'foo',
         }, follow=True)
 
-        self.assertIn(
-            err_msg,
-            resp.content
-        )
+        self.assertPasswordResetError(resp, err_msg)
 
         # now use different one
         user = User.objects.get(email=staff_email)
@@ -235,10 +226,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'bar',
         }, follow=True)
 
-        self.assertIn(
-            success_msg,
-            resp.content
-        )
+        self.assertIn(success_msg, resp.content)
 
         # now try again with the first one
         user = User.objects.get(email=staff_email)
@@ -250,11 +238,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'foo',
         }, follow=True)
 
-        # should be rejected
-        self.assertIn(
-            err_msg,
-            resp.content
-        )
+        self.assertPasswordResetError(resp, err_msg)
 
         # now use different one
         user = User.objects.get(email=staff_email)
@@ -266,10 +250,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'baz',
         }, follow=True)
 
-        self.assertIn(
-            success_msg,
-            resp.content
-        )
+        self.assertIn(success_msg, resp.content)
 
         # now we should be able to reuse the first one
         user = User.objects.get(email=staff_email)
@@ -281,10 +262,7 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
             'new_password2': 'foo',
         }, follow=True)
 
-        self.assertIn(
-            success_msg,
-            resp.content
-        )
+        self.assertIn(success_msg, resp.content)
 
     @patch.dict("django.conf.settings.ADVANCED_SECURITY_CONFIG", {'MIN_TIME_IN_DAYS_BETWEEN_ALLOWED_RESETS': 1})
     def test_password_reset_frequency_limit(self):
@@ -324,10 +302,9 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
                 'new_password2': 'foo',
             }, follow=True)
 
-            self.assertIn(
-                success_msg,
-                resp.content
-            )
+
+
+            self.assertIn(success_msg, resp.content)
 
     @patch.dict("django.conf.settings.FEATURES", {'ENFORCE_PASSWORD_POLICY': True})
     @override_settings(PASSWORD_MIN_LENGTH=6)
