@@ -2209,7 +2209,7 @@ INSTALLED_APPS = [
     'sorl.thumbnail',
 
     # edx-milestones service
-    'milestones',
+    #'milestones',
 
     # Gating of course content
     'gating.apps.GatingConfig',
