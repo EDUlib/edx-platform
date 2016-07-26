@@ -34,7 +34,7 @@ from util.enterprise_helpers import get_enterprise_customer_logo_url
 try:
     course_id = course.id
 except:
-    # cant figure out a better way to get at a possibly-defined course var
+    # can't figure out a better way to get at a possibly-defined course var
     course_id = None
 site_status_msg = get_site_status_msg(course_id)
 %>
@@ -137,45 +137,24 @@ site_status_msg = get_site_status_msg(course_id)
               <a href="${marketing_link('SCHOOLS')}">${_("Schools")}</a>
             </li>
           % endif
-##### CODE EUCALYPTUS
-#####        </%block>
-#####
-#####        <%block name="navigation_other_global_links">
-#####          % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
-#####            % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
-#####              <li class="item nav-global-05">
-#####                <a class="btn" href="/courses">${_("Explore Courses")}</a>
-#####              </li>
-#####            %endif
-#####            % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-#####              <li class="item nav-global-04">
-#####                <a class="btn-neutral" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register")}</a>
-#####              </li>
-#####            % else:
-#####              <li class="item nav-global-04">
-#####                <a class="btn-neutral" href="/register${login_query()}">${_("Register")}</a>
-#####              </li>
-#####            % endif
-##### CODE EUCALYPTUS
-##### CODE DOGWOOD
-          <li class="nav-global-03">
-            <a href="${marketing_link('SCHOOLS')}">${_("Schools")}</a>
-          </li>
-        % endif
-      </%block>
-    </ol>
+        </%block>
 
-    <ol class="right nav-courseware">
-        % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
-          % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-          <li class="nav-courseware-01">
-            <a class="cta cta-register" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register Now")}</a>
-          </li>
-          % else:
-          <li class="nav-courseware-01">
-            <a class="cta cta-register" href="/register">${_("Register Now")}</a>
-          </li>
-##### CODE DOGWOOD
+        <%block name="navigation_other_global_links">
+          % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
+            % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+              <li class="item nav-global-05">
+                <a class="btn" href="/courses">${_("Explore Courses")}</a>
+              </li>
+            %endif
+            % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
+              <li class="item nav-global-04">
+                <a class="btn-neutral" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register")}</a>
+              </li>
+            % else:
+              <li class="item nav-global-04">
+                <a class="btn-neutral" href="/register${login_query()}">${_("Register")}</a>
+              </li>
+            % endif
           % endif
         </%block>
       </ol>
@@ -221,15 +200,6 @@ site_status_msg = get_site_status_msg(course_id)
         </li>
       </ol>
       % endif
-##### CODE DOGWOOD
-    <li class="nav-courseware-02">
-      % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
-          % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-          <a class="cta cta-login" href="${reverse('course-specific-login', args=[course.id.to_deprecated_string()])}${login_query()}">${_("Sign in")}</a>
-          % else:
-          <a class="cta cta-login" href="/login${login_query()}">${_("Sign in")}</a>
-          % endif
-##### CODE DOGWOOD
       % endif
     </nav>
 </header>
