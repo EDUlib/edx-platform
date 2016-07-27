@@ -2,13 +2,14 @@
   import json
   from django.utils.translation import ugettext as _
   from openedx.core.djangolib.js_utils import dump_js_escaped_json
+  from xmodule.modulestore.django import modulestore
+  from xmodule.contentstore.django import contentstore
+  from microsite_configuration import microsite
 %>
 <%inherit file="../main.html" />
 <%
   course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
 %>
-
-<%! from django.core.urlresolvers import reverse %>
 
 <%namespace name='static' file='../static_content.html'/>
 
