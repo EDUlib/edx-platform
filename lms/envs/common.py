@@ -2193,7 +2193,7 @@ INSTALLED_APPS = (
     'openedx.core.djangoapps.credentials',
 
     # edx-milestones service
-    #'milestones',
+    'milestones',
 
     # Gating of course content
     'gating.apps.GatingConfig',
