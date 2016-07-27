@@ -1,11 +1,9 @@
-<%page expression_filter="h"/>
 <%inherit file="main.html" />
 <%namespace name='static' file='static_content.html'/>
 <%!
 from django.utils.translation import ugettext as _
 from django.urls import reverse
 
-from openedx.core.djangolib.markup import HTML, Text
 %>
 
 ##### HAWTHORN <main id="main" aria-label="Content" tabindex="-1">
@@ -96,6 +94,10 @@ from openedx.core.djangolib.markup import HTML, Text
             % endif
       </div>
 
+      % if show_homepage_promo_video:
+        <a href="#video-modal" class="media" rel="leanModal">
+          <div class="hero">
+            <div class="play-intro"></div>
           </div>
         </a>
       % endif
@@ -147,15 +149,19 @@ from openedx.core.djangolib.markup import HTML, Text
 
 
     </section>
-</main>
-
-% if show_homepage_promo_video:
-  <section id="video-modal" class="modal home-page-video-modal video-modal">
-    <div class="inner-wrapper">
-      <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${homepage_promo_video_youtube_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
-    </div>
   </section>
-% endif
+</section>
+
+#####<section id="video-modal" class="modal home-page-video-modal video-modal">
+#####  <div class="inner-wrapper">
+#####    <%
+#####      youtube_video_id = homepage_promo_video_youtube_id
+#####      if self.stanford_theme_enabled():
+#####        youtube_video_id = "2gmreZObCY4"
+#####    %>
+#####    <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${youtube_video_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+#####  </div>
+#####</section>
 
 <%block name="js_extra">
    <script type="text/javascript">
@@ -174,4 +180,3 @@ from openedx.core.djangolib.markup import HTML, Text
   $(window).load(function() {$('#signup_action').trigger("click");});
 </script>
 % endif
-
