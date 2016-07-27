@@ -11,8 +11,6 @@
   course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
 %>
 
-<%! from django.core.urlresolvers import reverse %>
-
 <%namespace name='static' file='../static_content.html'/>
 
 % if course_discovery_enabled:
