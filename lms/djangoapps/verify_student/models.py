@@ -665,16 +665,10 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
         aes_key_str = settings.VERIFY_STUDENT["SOFTWARE_SECURE"]["FACE_IMAGE_AES_KEY"]
         aes_key = aes_key_str.decode("hex")
 
-##### CODE EUCALYPTUS
-#####        path = self._get_path("face")
-#####        buff = ContentFile(encrypt_and_encode(img_data, aes_key))
-#####        self._storage.save(path, buff)
-##### CODE EUCALYPTUS
-##### CODE DOGWOOD
-        s3_key = self._generate_s3_key("face")
-        #####s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
-        s3_key.set_contents_from_string(img_data)
-##### CODE DOGWOOD
+        path = self._get_path("face")
+        #####buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        buff = ContentFile(img_data)
+        self._storage.save(path, buff)
 
     @status_before_must_be("created")
     def upload_photo_id_image(self, img_data):
@@ -702,18 +696,11 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
         rsa_key_str = settings.VERIFY_STUDENT["SOFTWARE_SECURE"]["RSA_PUBLIC_KEY"]
         rsa_encrypted_aes_key = rsa_encrypt(aes_key, rsa_key_str)
 
-##### CODE EUCALYPTUS
-#####        # Save this to the storage backend
-#####        path = self._get_path("photo_id")
-#####        buff = ContentFile(encrypt_and_encode(img_data, aes_key))
-#####        self._storage.save(path, buff)
-##### CODE EUCALYPTUS
-##### CODE DOGWOOD
-        # Upload this to S3
-        s3_key = self._generate_s3_key("photo_id")
-        #####s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
-        s3_key.set_contents_from_string(img_data)
-##### CODE DOGWOOD
+        # Save this to the storage backend
+        path = self._get_path("photo_id")
+        #####buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        buff = ContentFile(img_data)
+        self._storage.save(path, buff)
 
         # Update our record fields
         self.photo_id_key = rsa_encrypted_aes_key.encode('base64')
