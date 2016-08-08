@@ -60,14 +60,6 @@ from xmodule.modulestore.django import modulestore
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses">
             <ul class="courses-listing">
-            ##### new code Dogwood
-            ####### limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
-            #####%for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
-            #####  <li class="courses-listing-item">
-            #####    <%include file="course.html" args="course=course" />
-            #####  </li>
-            #####%endfor
-            #####new code Dogwood
             %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                  % if ((course.has_started() and not course.has_ended()) or (not course.has_started())) and course.catalog_visibility=="both":
                      <li class="courses-listing-item">
@@ -77,30 +69,11 @@ from xmodule.modulestore.django import modulestore
             %endfor
             </ul>
         </section>
-        ##### new code Dogwood
-        ####### in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
-        #####% if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
-        #####  <div class="courses-more">
-        #####    <a class="courses-more-cta" href="${marketing_link('COURSES')}" > ${_("View all Courses")} </a>
-        #####  </div>
-        #####% endif
-        ##### new code Dogwood
       % endif
 
     </section>
   </section>
 </section>
-
-#####<section id="video-modal" class="modal home-page-video-modal video-modal">
-#####  <div class="inner-wrapper">
-#####    <%
-#####      youtube_video_id = homepage_promo_video_youtube_id
-#####      if self.stanford_theme_enabled():
-#####        youtube_video_id = "2gmreZObCY4"
-#####    %>
-#####    <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${youtube_video_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
-#####  </div>
-#####</section>
 
 <%block name="js_extra">
    <script type="text/javascript">
