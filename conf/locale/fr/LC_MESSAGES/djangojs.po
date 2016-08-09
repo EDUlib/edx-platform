@@ -159,7 +159,6 @@ msgstr "Sauvegarde en cours"
 msgid "OK"
 msgstr "OK"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/coffee/src/views/tabs.js
@@ -225,7 +224,6 @@ msgstr "Supprimer"
 msgid "Uploading"
 msgstr "Téléversement en cours"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/assets.js
@@ -268,7 +266,6 @@ msgstr "Supprimer"
 msgid "Upload File"
 msgstr "Téléverser un fichier"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/base_modal.js
@@ -287,7 +284,6 @@ msgstr "Téléverser un fichier"
 msgid "Save"
 msgstr "Sauvegarder"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/course_outline_modals.js
@@ -296,7 +292,6 @@ msgstr "Sauvegarder"
 msgid "Advanced"
 msgstr "Avancé"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/edit_xblock.js
@@ -611,7 +606,6 @@ msgstr "Effacer le formatage"
 msgid "Code block"
 msgstr "Bloc du code"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -721,7 +715,6 @@ msgstr "Supprimer la ligne"
 msgid "Delete table"
 msgstr "Supprimer le tableau"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -762,7 +755,6 @@ msgstr "Propriétés du document"
 msgid "Edit HTML"
 msgstr "Editer le code HTML"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -863,7 +855,6 @@ msgstr "Formater"
 msgid "Formats"
 msgstr "Formats"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1172,7 +1163,6 @@ msgstr "Nouveau document"
 msgid "New window"
 msgstr "Nouvelle fenêtre"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1271,7 +1261,6 @@ msgstr "Pré"
 msgid "Prev"
 msgstr "Prévisualisation"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1526,7 +1515,6 @@ msgstr ""
 "L'URL que vous avez entrée semble être un lien externe. Voulez-vous ajouter "
 "le préfixe http:// requis ?"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1591,7 +1579,6 @@ msgstr "Alignement Vertical"
 msgid "Vertical space"
 msgstr "Espace Vertical"
 
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -4406,12 +4393,16 @@ msgid "Email Address"
 msgstr "Adresse courriel"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
+#. msgid ""
+#. "The email address you use to sign in. Communications from {platform_name} "
+#. "and your courses are sent to this address."
+#. msgstr ""
+#. "L'adresse courriel utilisée à l'inscription. Les communications de "
+#. "{platform_name} et des cours sont envoyées à cette adresse."
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address."
 msgstr ""
-"L'adresse courriel utilisée à l'inscription. Les communications de "
-"{platform_name} et des cours sont envoyées à cette adresse."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
