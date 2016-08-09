@@ -5470,12 +5470,10 @@ msgstr "Progression"
 msgid "Textbooks"
 msgstr "Manuels"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This will look like '$50', where {currency_symbol} is a symbol
 #. such as '$' and {price} is a
 #. numerical amount in that currency. Adjust this display as needed for your
 #. language.
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: currency_symbol is a symbol indicating type of currency, ex
 #. "$".
 #. This string would look like this when all variables are in:
@@ -6090,7 +6088,6 @@ msgstr "Date de l'exécution du rapport"
 msgid "User ID"
 msgstr "ID utilisateur"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's email address.
 #. Translators: This label appears above a field on the registration form
@@ -6117,7 +6114,6 @@ msgstr "Adresse"
 msgid "Birth Year"
 msgstr "Année de naissance"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's gender.
 #: lms/djangoapps/instructor/views/api.py
@@ -6153,7 +6149,6 @@ msgstr "Cohorte"
 msgid "Team"
 msgstr "Équipe"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the city in which they live.
 #: lms/djangoapps/instructor/views/api.py
@@ -6165,7 +6160,6 @@ msgstr "Équipe"
 msgid "City"
 msgstr "Ville"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
 #: lms/djangoapps/instructor/views/api.py
@@ -6821,7 +6815,6 @@ msgstr "renoté"
 msgid "reset"
 msgstr "réinitialisé"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
@@ -6887,7 +6880,6 @@ msgstr "Nom"
 msgid "Company Name"
 msgstr "Nom Entreprise"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the Title
 #: lms/djangoapps/instructor_task/tasks_helper.py
@@ -8752,7 +8744,6 @@ msgstr "Enregistrer les modifications"
 msgid "Preview"
 msgstr "Aperçu"
 
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a control to allow users to exit out of this modal
 #. interface (a menu or piece of UI that takes the full focus of the screen)
 #: lms/templates/wiki/edit.html lms/templates/wiki/history.html
@@ -8775,7 +8766,6 @@ msgstr "Fermer"
 msgid "Wiki Preview"
 msgstr "Aperçu du wiki"
 
-#. #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
 #. Translators: this text gives status on if the modal interface (a menu or
 #. piece of UI that takes the full focus of the screen) is open or not
 #: lms/templates/wiki/edit.html lms/templates/wiki/history.html
@@ -9557,7 +9547,6 @@ msgstr "utilisateur@domaine.com"
 msgid "The email address you used to register with {platform_name}"
 msgstr "L'adresse courriel que vous avez utilisée pour vous inscrire sur {platform_name}"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the login form
 #. meant to hold the user's password.
 #. Translators: This label appears above a field on the registration form
@@ -9607,7 +9596,6 @@ msgstr "Nom complet"
 msgid "Jane Doe"
 msgstr "Jean Dupont"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
@@ -9645,14 +9633,12 @@ msgstr "JeanDupont"
 msgid "Highest level of education completed"
 msgstr "Plus haut niveau de formation obtenu"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's year of birth.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/signup_modal.html
 msgid "Year of birth"
 msgstr "Année de naissance"
 
-#. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's mailing address.
 #: openedx/core/djangoapps/user_api/views.py lms/templates/signup_modal.html
@@ -10120,7 +10106,6 @@ msgstr "`rôle` spécifié invalide."
 msgid "You may not remove the last Admin. Add another Admin first."
 msgstr "Vous ne pouvez pas supprimer le dernier administrateur. Créez-en un autre afin de supprimer celui-ci."
 
-#. #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 #. Translators: This is the status of an active video upload
 #: cms/djangoapps/contentstore/views/videos.py cms/templates/import.html
 msgid "Uploading"
@@ -18141,8 +18126,6 @@ msgid ""
 "© edX Inc.  All rights reserved except where noted.  EdX, Open edX and the "
 "edX and Open EdX logos are registered trademarks or trademarks of edX Inc."
 msgstr ""
-"© edX Inc.  Tous droits réservés sauf où indiquer.  EdX, Open edX ainsi que les "
-"logos edX et Open EdX logos sont des marques déposées ou marques de edX Inc."
 
 #: themes/edx.org/lms/templates/header.html
 #: themes/red-theme/lms/templates/header.html
