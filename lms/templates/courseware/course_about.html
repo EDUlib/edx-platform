@@ -162,14 +162,7 @@ from openedx.core.lib.courses import course_image_url
               reg_element_id = ""
           %>
           <a href="${reg_href}" class="add-to-cart" id="${reg_element_id}">
-            ##### nouveau code Dogwood
-            #####${_("Add {course_name} to Cart <span>({price} CAD)</span>")\
-            #####  .format(course_name=course.display_number_with_default, price=course_price)}
-
-            ####${_("Add {course.display_number_with_default} to Cart ({currency_symbol}{cost})")\
-            ####  .format(course=course, currency_symbol=settings.PAID_COURSE_REGISTRATION_CURRENCY[1],
-            ####          cost=registration_price)}
-            ${_("Add {course_name} to Cart ({price})")\
+            ${_("Add {course_name} to Cart <span>({price} USD)</span>")\
               .format(course_name=course.display_number_with_default, price=course_price)}
           </a>
           <div id="register_error"></div>
@@ -186,8 +179,6 @@ from openedx.core.lib.courses import course_image_url
           %>
           <a href="${reg_href}" class="${href_class}">
             ${_("Enroll in {course_name}").format(course_name=course.display_number_with_default) | h}
-            ##### old code Cypress
-            #####${_("Register for {course.display_number_with_default}").format(course=course) | h}
           </a>
           <div id="register_error"></div>
         %endif
@@ -220,18 +211,6 @@ from openedx.core.lib.courses import course_image_url
         </div>
       % endif
 
-##### DOGWOOD CODE
-      
-      <nav aria-label="${_('Course About')}">
-      ##  <a href="#" class="active">${_("Overview")}</a>
-      ##  <a href="#">${_("FAQ")}</a>
-      ##  <a href="#">${_("Requirements")}</a>
-      ##  <a href="#">${_("Text-book")}</a>
-      ##  <a href="#">${_("Syllabus")}</a>
-      ##  <a href="#">${_("Reviews")}</a>
-      </nav>
-
-##### DOGWOOD CODE
       <div class="inner-wrapper">
         ${get_course_about_section(request, course, "overview")}
       </div>
@@ -243,13 +222,7 @@ from openedx.core.lib.courses import course_image_url
         <%include file="course_about_sidebar_header.html" />
 
         <ol class="important-dates">
-##### EUCALYPTUS CODE
           <li class="important-dates-item"><span class="icon fa fa-info-circle" aria-hidden="true"></span><p class="important-dates-item-title">${_("Course Number")}</p><span class="important-dates-item-text course-number">${course.display_number_with_default | h}</span></li>
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
-#####          <li class="important-dates-item"><i class="icon fa fa-info-sign"></i><p class="important-dates-item-title">${_("Course Number")}</p><span class="important-dates-item-text course-number">${course.display_number_with_default | h}</span></li>
-          <li class="important-dates-item"><i class="icon fa fa-info-sign"></i><p class="important-dates-item-title">${_("Institution")}</p><span class="important-dates-item-text course-number">${course.display_organization | h}</span></li>
-##### DOGWOOD CODE
           % if not course.start_date_is_still_default:
               <%
                   course_start_date = course.start
@@ -288,20 +261,11 @@ from openedx.core.lib.courses import course_image_url
             </li>
             % endif
 
-##### EUCALYPTUS CODE
-#####          % if get_course_about_section(request, course, "effort"):
-#####            <li class="important-dates-item"><span class="icon fa fa-pencil" aria-hidden="true"></span><p class="important-dates-item-title">${_("Estimated Effort")}</p><span class="important-dates-item-text effort">${get_course_about_section(request, course, "effort")}</span></li>
-#####          % endif
-#####
-#####          ##<li class="important-dates-item"><span class="icon fa fa-clock-o" aria-hidden="true"></span><p class="important-dates-item-title">${_('Course Length')}</p><span class="important-dates-item-text course-length">${_('{number} weeks').format(number=15)}</span></li>
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
-#####          % if get_course_about_section(request, course, "effort"):
-#####            <li class="important-dates-item"><i class="icon fa fa-pencil"></i><p class="important-dates-item-title">${_("Estimated Effort")}</p><span class="important-dates-item-text effort">${get_course_about_section(request, course, "effort")}</span></li>
-#####          % endif
-#####
-#####          ##<li class="important-dates-item"><i class="icon fa fa-clock-o"></i><p class="important-dates-item-title">${_('Course Length')}</p><span class="important-dates-item-text course-length">${_('{number} weeks').format(number=15)}</span></li>
-##### DOGWOOD CODE
+          % if get_course_about_section(request, course, "effort"):
+            <li class="important-dates-item"><span class="icon fa fa-pencil" aria-hidden="true"></span><p class="important-dates-item-title">${_("Estimated Effort")}</p><span class="important-dates-item-text effort">${get_course_about_section(request, course, "effort")}</span></li>
+          % endif
+
+          ##<li class="important-dates-item"><span class="icon fa fa-clock-o" aria-hidden="true"></span><p class="important-dates-item-title">${_('Course Length')}</p><span class="important-dates-item-text course-length">${_('{number} weeks').format(number=15)}</span></li>
 
           %if course_price and (can_add_course_to_cart or is_cosmetic_price_enabled):
             <li class="important-dates-item">
