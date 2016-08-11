@@ -18111,7 +18111,7 @@ msgstr ""
 
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "Explore New Courses"
-msgstr "Explorer de nouveaux cours"
+msgstr "Explorer les cours"
 
 #: themes/edx.org/lms/templates/footer.html
 msgid "Page Footer"
