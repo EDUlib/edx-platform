@@ -4535,7 +4535,7 @@ msgstr "Liez votre compte {accountName}"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Unlink This Account"
-msgstr "Déliez votre compte"
+msgstr "Dissocier votre compte"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
@@ -4547,7 +4547,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Unlink your {accountName} account"
-msgstr "Déliez votre compte {accountName}"
+msgstr "Dissociez votre compte {accountName}"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Link Your Account"
@@ -4563,7 +4563,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Unlinking"
-msgstr "Supprimer le lien"
+msgstr "Dissocier"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Linking"
@@ -4571,7 +4571,7 @@ msgstr "Lier"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "Successfully unlinked."
-msgstr "Lien supprimé."
+msgstr "Lien dissocié."
 
 #: lms/static/js/student_account/views/account_settings_view.js
 msgid "Account Information"
