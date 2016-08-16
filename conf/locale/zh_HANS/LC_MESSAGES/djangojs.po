@@ -5759,6 +5759,13 @@ msgid ""
 msgstr "谢谢您，%(full_name)s！我们已经收到了您为%(course_name)s的付款。"
 
 #: lms/templates/commerce/receipt.underscore
+#, python-format
+msgid ""
+"Thank you! We have received your payment for %(course_name)s."
+msgstr ""
+"Merci! Nous avons reçu votre paiement pour %(course_name)s."
+
+#: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
 "Please print this page for your records; it serves as your receipt. You will"
