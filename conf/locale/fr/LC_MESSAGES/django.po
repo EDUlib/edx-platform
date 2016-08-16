@@ -17871,7 +17871,7 @@ msgstr "Non lié"
 #. LinkedIn).
 #: lms/templates/student_profile/third_party_auth.html
 msgid "Unlink"
-msgstr "Supprimer le lien"
+msgstr "Dissocier"
 
 #. Translators: clicking on this creates a link between a user's edX account
 #. and their account with an external authentication provider (like Google or
