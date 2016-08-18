@@ -1,0 +1,8 @@
+
+#. Translators: "Terms of service" is a legal document users must agree to
+#. in order to register a new account.
+#. msgstr "Dans le cadre de l'initiative EDUlib (ou FUN), des équipes de chercheurs vont recueillir et analyser les traces informatiques des activités de tous les participants, dans le but de produire des connaissances scientifiques et d'améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées, par une équipe de l'Université de Montréal sous la supervision du Pr. Poellhuber, par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible. J'acccepte les {terms_of_service} {platform_name}."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "I agree to the {platform_name} {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}."
+msgstr "J'accepte {link_start}les conditions générales du service{link_end} et {link_start2}le code sur l'honneur{link_end2} {platform_name}."
+
