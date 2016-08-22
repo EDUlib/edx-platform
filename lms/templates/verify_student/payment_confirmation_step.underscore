@@ -49,6 +49,20 @@
 
             <tfoot>
               <tr>
+                <th scope="row" class="total-label" colspan="1">TPS</th>
+                <td class="total-value" colspan="3">
+                  <span class="value-amount"><%- receipt.totalCost*.15 %></span>
+                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="total-label" colspan="1">TVQ</th>
+                <td class="total-value" colspan="3">
+                  <span class="value-amount"><%- receipt.totalCost*.20 %></span>
+                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+                </td>
+              </tr>
+              <tr>
                 <th scope="row" class="total-label" colspan="1"><%- gettext( "Total" ) %></th>
                 <td class="total-value" colspan="3">
                   <span class="value-amount"><%- receipt.totalCost %></span>
