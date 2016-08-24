@@ -45,23 +45,26 @@
             </tbody>
 
             <tfoot>
-              <tr>
-                <th scope="row" class="total-label" colspan="1">TPS</th>
-                <td class="total-value" colspan="3">
+            <tr>
+              <th scope="row" class="total-label" colspan="1">TPS (108160995 RT0001)</th>
+                <td colspan="2"></td>
+                <td class="total-value">
                   <span class="value-amount"><%- (receipt.totalCost/(1.14975)*0.05).toFixed(2) %></span>
-                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row" class="total-label" colspan="1">TVQ</th>
-                <td class="total-value" colspan="3">
+                  <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+               </td>
+            </tr>
+            <tr>
+               <th scope="row" class="total-label" colspan="1">TVQ (1006011132 TQ0005)</th>
+                <td colspan="2"></td>
+                <td class="total-value">
                   <span class="value-amount"><%- (receipt.totalCost/(1.14975)*0.09975).toFixed(2) %></span>
-                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row" class="total-label" colspan="1"><%- gettext( "Total" ) %></th>
-                <td class="total-value" colspan="3">
+                  <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+               </td>
+            </tr>
+            <tr>
+                <th scope="row" class="total-label"><%- gettext( "Total" ) %></th>
+                <td colspan="2"></td>
+                <td class="total-value">
                   <span class="value-amount"><%- receipt.totalCost %></span>
                    <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                 </td>
