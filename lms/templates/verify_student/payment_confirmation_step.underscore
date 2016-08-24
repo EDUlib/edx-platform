@@ -35,13 +35,13 @@
                   <td><del><%- receipt.orderNum %></del></td>
                   <td><del><%- receipt.items[i].lineDescription %></del></td>
                   <td><del><%- receipt.purchasedDatetime %></del></td>
-                  <td><del><%- receipt.items[i].cost %> (<%- receipt.currency.toUpperCase() %>)</del></td>
+                  <td><del><%- (receipt.items[i].cost/(1.14975)).toFixed(2) %> (<%- receipt.currency.toUpperCase() %>)</del></td>
                 <% } else { %>
                   <tr>
                     <td><%- receipt.orderNum %></td>
                     <td><%- receipt.items[i].lineDescription %></td>
                     <td><%- receipt.purchasedDatetime %></td>
-                    <td><%- receipt.items[i].cost %> (<%- receipt.currency.toUpperCase() %>)</td>
+                    <td><%- (receipt.items[i].cost/(1.14975)).toFixed(2)%> (<%- receipt.currency.toUpperCase() %>)</td>
                   </tr>
                 <% } %>
               <% } %>
@@ -49,17 +49,17 @@
 
             <tfoot>
               <tr>
-                <th scope="row" class="total-label" colspan="1">TPS</th>
+                <th scope="row" class="total-label" colspan="1">TPS (108160995 RT0001)</th>
                 <td class="total-value" colspan="3">
                   <span class="value-amount"><%- receipt.totalCost*.15 %></span>
-                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+                  <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                 </td>
               </tr>
-              <tr>
-                <th scope="row" class="total-label" colspan="1">TVQ</th>
+            <tr>
+              <th scope="row" class="total-label" colspan="1">TVQ (1006011132 TQ0005)</th>
                 <td class="total-value" colspan="3">
                   <span class="value-amount"><%- receipt.totalCost*.20 %></span>
-                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
+                  <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                 </td>
               </tr>
               <tr>
