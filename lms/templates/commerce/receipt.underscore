@@ -22,7 +22,7 @@
                 <th scope="col" ><%- gettext( "Order No." ) %></th>
                 <th scope="col" ><%- gettext( "Description" ) %></th>
                 <th scope="col" ><%- gettext( "Date" ) %></th>
-                <th scope="col" ><%- gettext( "Amount" ) %></th>
+                <th scope="col" style="text-align: right;"><%- gettext( "Amount" ) %></th>
               </tr>
             </thead>
 
@@ -32,13 +32,13 @@
                   <td><del><%- receipt.orderNum %></del></td>
                   <td><del><%- receipt.items[i].lineDescription %></del></td>
                   <td><del><%- receipt.purchasedDatetime %></del></td>
-                  <td><del><%- (receipt.items[i].cost/(1.14975)).toFixed(2) %> (<%- receipt.currency.toUpperCase() %>)</del></td>
+                  <td style="text-align: right;"><del><%- (receipt.items[i].cost/(1.14975)).toFixed(2) %> (<%- receipt.currency.toUpperCase() %>)</del></td>
                 <% } else { %>
                   <tr>
                     <td><%- receipt.orderNum %></td>
                     <td><%- receipt.items[i].lineDescription %></td>
                     <td><%- receipt.purchasedDatetime %></td>
-                    <td><%- (receipt.items[i].cost/(1.14975)).toFixed(2) %> (<%- receipt.currency.toUpperCase() %>)</td>
+                    <td style="text-align: right;"><%- (receipt.items[i].cost/(1.14975)).toFixed(2) %> (<%- receipt.currency.toUpperCase() %>)</td>
                   </tr>
                 <% } %>
               <% } %>
@@ -48,7 +48,7 @@
             <tr>
               <th scope="row" class="total-label" colspan="1">TPS (108160995 RT0001)</th>
                 <td colspan="2"></td>
-                <td class="total-value">
+                <td class="total-value" style="text-align: right;">
                   <span class="value-amount"><%- (receipt.totalCost/(1.14975)*0.05).toFixed(2) %></span>
                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                </td>
@@ -56,7 +56,7 @@
             <tr>
                <th scope="row" class="total-label" colspan="1">TVQ (1006011132 TQ0005)</th>
                 <td colspan="2"></td>
-                <td class="total-value">
+                <td class="total-value" style="text-align: right;">
                   <span class="value-amount"><%- (receipt.totalCost/(1.14975)*0.09975).toFixed(2) %></span>
                   <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                </td>
@@ -64,7 +64,7 @@
             <tr>
                 <th scope="row" class="total-label"><%- gettext( "Total" ) %></th>
                 <td colspan="2"></td>
-                <td class="total-value">
+                <td class="total-value" style="text-align: right;">
                   <span class="value-amount"><%- receipt.totalCost %></span>
                    <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                 </td>
