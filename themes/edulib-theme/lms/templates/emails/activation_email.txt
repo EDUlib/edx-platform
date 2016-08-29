@@ -24,7 +24,7 @@ ${_("If you need help, please use our web form at "
     "{contact_us_url}, email {info_email_address}, "
     "or write to {info_postal_address}."
   ).format(
-    contact_us_url="https://test-cours.edulib.org/contact",
+    contact_us_url="https://www.edx.org/contact-us",
     info_email_address=settings.CONTACT_EMAIL,
     info_postal_address=settings.CONTACT_MAILING_ADDRESS
   )}
