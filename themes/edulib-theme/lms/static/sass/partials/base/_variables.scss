@@ -32,6 +32,8 @@ $homepage-bg-image: url('#{$static-path}/images/edulib-theme/nuages.jpg');
 //-----------------
 
 html {background-color: transparent !important;}
+div.info-wrapper {background-color: #fff !important;}
+body.discussion {background-color: #fcfcfc !important;}
 
 
 // ----------------------------
@@ -90,6 +92,13 @@ footer.partners-footer {
 	width: 100%;
 	min-height: 50px;
 }
+
+body.view-in-course footer.partners-footer, body.discussion footer.partners-footer {
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+body.view-in-course footer#footer-edx-v3 {margin-top: 0px !important;}
 
 footer.partners-footer ul {
 	text-align: center !important;
