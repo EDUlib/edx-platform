@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-16 19:40+0000\n"
-"PO-Revision-Date: 2016-08-18 06:09+0000\n"
+"POT-Creation-Date: 2016-08-25 15:04+0000\n"
+"PO-Revision-Date: 2016-08-25 20:04+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +80,7 @@ msgstr ""
 #. the discussion forums
 #: cms/djangoapps/contentstore/views/component.py:244
 #: lms/djangoapps/courseware/tabs.py:228
-#: lms/djangoapps/django_comment_client/forum/views.py:57
+#: lms/djangoapps/discussion/plugins.py:18
 msgid "Discussion"
 msgstr "Discussion"
 
@@ -94,8 +94,7 @@ msgstr "Exercice"
 msgid "Advanced"
 msgstr "Avancé"
 
-#: cms/djangoapps/contentstore/views/entrance_exam.py:136
-#: cms/djangoapps/contentstore/views/entrance_exam.py:146
+#: cms/djangoapps/contentstore/views/entrance_exam.py:139
 #: lms/djangoapps/courseware/tabs.py:304
 msgid "Entrance Exam"
 msgstr "Examen d'entrée"
@@ -1822,7 +1821,6 @@ msgstr "Données XML pour l'annotation"
 #: common/lib/xmodule/xmodule/library_content_module.py:63
 #: common/lib/xmodule/xmodule/textannotation_module.py:37
 #: common/lib/xmodule/xmodule/videoannotation_module.py:37
-#: common/lib/xmodule/xmodule/word_cloud_module.py:40
 msgid "Display name for this module"
 msgstr "Afficher le nom de ce module"
 
@@ -4042,43 +4040,59 @@ msgstr "URL de l'image du poster"
 msgid "Poster URL"
 msgstr "URL du poster"
 
+#: common/lib/xmodule/xmodule/word_cloud_module.py:40
+msgid "The label for this word cloud on the course page."
+msgstr "L'étiquette de ce nuage de mots-clés sur la page de cours."
+
 #: common/lib/xmodule/xmodule/word_cloud_module.py:45
+msgid "Instructions"
+msgstr "Instructions"
+
+#: common/lib/xmodule/xmodule/word_cloud_module.py:46
+msgid ""
+"Add instructions to help learners understand how to use the word cloud. "
+"Clear instructions are important, especially for learners who have "
+"accessibility requirements."
+msgstr "Ajouter des instructions pour aider les apprenants à comprendre comment utiliser le nuage de mots-clés. Des instructions claires sont importantes, en particulier pour les apprenants qui ont des besoins en matière d'accessibilité."
+
+#: common/lib/xmodule/xmodule/word_cloud_module.py:50
 msgid "Inputs"
 msgstr "Entrées"
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:46
-msgid "Number of text boxes available for students to input words/sentences."
-msgstr "Nombre de boîtes de dialogue disponibles aux étudiants pour entrer des mots/phrases."
+#: common/lib/xmodule/xmodule/word_cloud_module.py:51
+msgid ""
+"The number of text boxes available for learners to add words and sentences."
+msgstr "Le nombre de zones de texte disponibles pour les apprenants pour ajouter des mots et des phrases."
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:52
+#: common/lib/xmodule/xmodule/word_cloud_module.py:57
 msgid "Maximum Words"
 msgstr "Maximum de mots"
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:53
-msgid "Maximum number of words to be displayed in generated word cloud."
-msgstr "Nombre maximum de mots à afficher dans le nuage de mots généré."
+#: common/lib/xmodule/xmodule/word_cloud_module.py:58
+msgid "The maximum number of words displayed in the generated word cloud."
+msgstr "Le nombre maximum de mots affichés dans le nuage de mots-clés généré."
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:59
+#: common/lib/xmodule/xmodule/word_cloud_module.py:64
 msgid "Show Percents"
 msgstr "Afficher les pourcentages"
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:60
+#: common/lib/xmodule/xmodule/word_cloud_module.py:65
 msgid "Statistics are shown for entered words near that word."
 msgstr "Les statistiques sont affichées pour les mots entrés près de ce mot."
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:67
-msgid "Whether this student has posted words to the cloud."
-msgstr "Si cet étudiant a posté des mots dans le nuage."
-
 #: common/lib/xmodule/xmodule/word_cloud_module.py:72
+msgid "Whether this learner has posted words to the cloud."
+msgstr "Que cet apprenant a posté ou non des mots sur le nuage de mots-clés."
+
+#: common/lib/xmodule/xmodule/word_cloud_module.py:77
 msgid "Student answer."
 msgstr "Réponse de l'étudiant."
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:77
-msgid "All possible words from all students."
-msgstr "Tous les mots possibles de tous les étudiants."
+#: common/lib/xmodule/xmodule/word_cloud_module.py:82
+msgid "All possible words from all learners."
+msgstr "Tous les mots possibles de tous les apprenants."
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:81
+#: common/lib/xmodule/xmodule/word_cloud_module.py:86
 msgid "Top num_top_words words for word cloud."
 msgstr "Top num_top_words mots pour le nuage de mots."
 
@@ -7609,89 +7623,89 @@ msgstr "Photos de vérification reçues"
 
 #. Translators: This is the website name of www.facebook.com.  Please
 #. translate this the way that Facebook advertises in your language.
-#: lms/envs/common.py:2188
+#: lms/envs/common.py:2191
 msgid "Facebook"
 msgstr "Facebook"
 
-#: lms/envs/common.py:2190
+#: lms/envs/common.py:2193
 msgid "Like {platform_name} on Facebook"
 msgstr "Like {platform_name} sur Facebook"
 
 #. Translators: This is the website name of www.twitter.com.  Please
 #. translate this the way that Twitter advertises in your language.
-#: lms/envs/common.py:2195
+#: lms/envs/common.py:2198
 msgid "Twitter"
 msgstr "Twitter"
 
-#: lms/envs/common.py:2197
+#: lms/envs/common.py:2200
 msgid "Follow {platform_name} on Twitter"
 msgstr "Suivre {platform_name} sur Twitter"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
-#: lms/envs/common.py:2202
+#: lms/envs/common.py:2205
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: lms/envs/common.py:2204
+#: lms/envs/common.py:2207
 msgid "Follow {platform_name} on LinkedIn"
 msgstr "Suivre {platform_name} sur LinkedIn"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
-#: lms/envs/common.py:2209
+#: lms/envs/common.py:2212
 msgid "Google+"
 msgstr "Google+"
 
-#: lms/envs/common.py:2211
+#: lms/envs/common.py:2214
 msgid "Follow {platform_name} on Google+"
 msgstr "Suivre {platform_name} sur Google+"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
-#: lms/envs/common.py:2216
+#: lms/envs/common.py:2219
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #. Translators: This is the website name of www.meetup.com.  Please
 #. translate this the way that MeetUp advertises in your language.
-#: lms/envs/common.py:2222
+#: lms/envs/common.py:2225
 msgid "Meetup"
 msgstr "Meetup"
 
 #. Translators: This is the website name of www.reddit.com.  Please
 #. translate this the way that Reddit advertises in your language.
-#: lms/envs/common.py:2228
+#: lms/envs/common.py:2231
 msgid "Reddit"
 msgstr "Reddit"
 
-#: lms/envs/common.py:2230
+#: lms/envs/common.py:2233
 msgid "Subscribe to the {platform_name} subreddit"
 msgstr "S'inscrire au subreddit {platform_name}"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
-#: lms/envs/common.py:2235
+#: lms/envs/common.py:2238
 msgid "VK"
 msgstr "VK"
 
 #. Translators: This is the website name of http://www.weibo.com.  Please
 #. translate this the way that Weibo advertises in your language.
-#: lms/envs/common.py:2241
+#: lms/envs/common.py:2244
 msgid "Weibo"
 msgstr "Weibo"
 
 #. Translators: This is the website name of www.youtube.com.  Please
 #. translate this the way that YouTube advertises in your language.
-#: lms/envs/common.py:2247
+#: lms/envs/common.py:2250
 msgid "Youtube"
 msgstr "Youtube"
 
-#: lms/envs/common.py:2249
+#: lms/envs/common.py:2252
 msgid "Subscribe to the {platform_name} YouTube channel"
 msgstr "S'inscrire au canal YouTube de {platform_name}"
 
-#: lms/envs/common.py:2633
+#: lms/envs/common.py:2636
 msgid "Kosovo"
 msgstr "Kosovo"
 
@@ -8736,18 +8750,3 @@ msgid ""
 "A subcategory name for the discussion. This name appears in the left pane of"
 " the discussion forum for the course."
 msgstr "Un nom de sous-catégorie pour cette discussion. Ce nom apparait dans le volet gauche du forum de discussion pour ce cours."
-
-#: pavelib/utils/passthrough_opts.py:69 pavelib/utils/passthrough_opts.py:114
-#, python-format
-msgid "%s option requires an argument"
-msgstr "option %s exige un argument"
-
-#: pavelib/utils/passthrough_opts.py:71 pavelib/utils/passthrough_opts.py:116
-#, python-format
-msgid "%s option requires %d arguments"
-msgstr "option %s exige %d arguments"
-
-#: pavelib/utils/passthrough_opts.py:80
-#, python-format
-msgid "%s option does not take a value"
-msgstr "option %s ne prend pas de valeur"
