@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-16 19:40+0000\n"
+"POT-Creation-Date: 2016-08-25 15:05+0000\n"
 "PO-Revision-Date: 2016-08-17 16:23+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -103,11 +103,11 @@ msgid ""
 "articles etc..."
 msgstr "Ceci est le contenu initial de votre article. Après l'avoir créé, vous pourrez utiliser des fonctionnalités plus complexes, comme ajouter un module, des méta-données, des articles liés, etc."
 
-#: wiki/forms.py:45 wiki/forms.py:207
+#: wiki/forms.py:45 wiki/forms.py:208
 msgid "Contents"
 msgstr "Contenu"
 
-#: wiki/forms.py:48 wiki/forms.py:210
+#: wiki/forms.py:48 wiki/forms.py:211
 msgid "Summary"
 msgstr "Sommaire"
 
@@ -142,103 +142,103 @@ msgid ""
 "after creating the article."
 msgstr "Ceci sera l'adresse de votre article. Utilisez uniquement des caractères alphanumériques et - ou _. Notez que vous ne pourrez pas changer le slug avoir créé l'article."
 
-#: wiki/forms.py:210
+#: wiki/forms.py:211
 msgid "Write a brief message for the article's history log."
 msgstr "Ecrivez un court message pour l'historique de l'article."
 
-#: wiki/forms.py:220
+#: wiki/forms.py:221
 msgid "A slug may not begin with an underscore."
 msgstr "Un slug ne peut pas commencer avec un underscore."
 
-#: wiki/forms.py:229
+#: wiki/forms.py:230
 #, python-format
 msgid "A deleted article with slug \"%s\" already exists."
 msgstr "Un article supprimé avec le slug \"%s\" existe déjà."
 
-#: wiki/forms.py:231
+#: wiki/forms.py:232
 #, python-format
 msgid "A slug named \"%s\" already exists."
 msgstr "Un slug nommé \"%s\" existe déjà."
 
-#: wiki/forms.py:244
+#: wiki/forms.py:245
 msgid "Yes, I am sure"
 msgstr "Oui, je suis sûr"
 
-#: wiki/forms.py:246
+#: wiki/forms.py:247
 msgid "Purge"
 msgstr "Purger"
 
-#: wiki/forms.py:247
+#: wiki/forms.py:248
 msgid ""
 "Purge the article: Completely remove it (and all its contents) with no undo."
 " Purging is a good idea if you want to free the slug such that users can "
 "create new articles in its place."
 msgstr "Purger l'article : Le supprimer complètement et définitivement (ainsi que son contenu) sans retour en arrière possible. Purger est une bonne idée si vous voulez libérer le slug de telle sorte que les utilisateurs puissent créer de nouveaux articles à sa place."
 
-#: wiki/forms.py:254 wiki/plugins/attachments/forms.py:24
+#: wiki/forms.py:255 wiki/plugins/attachments/forms.py:24
 #: wiki/plugins/images/forms.py:64
 msgid "You are not sure enough!"
 msgstr "Vous n'êtes pas suffisamment sûr !"
 
-#: wiki/forms.py:256
+#: wiki/forms.py:257
 msgid "While you tried to delete this article, it was modified. TAKE CARE!"
 msgstr "Pendant que vous essayiez de supprimer cet article, il a été modifié. FAITES ATTENTION !"
 
-#: wiki/forms.py:262
+#: wiki/forms.py:263
 msgid "Lock article"
 msgstr "Verrouiller l'article"
 
-#: wiki/forms.py:262
+#: wiki/forms.py:263
 msgid "Deny all users access to edit this article."
 msgstr "Priver tous les utilisateurs du droit d'édition de cet article."
 
-#: wiki/forms.py:265
+#: wiki/forms.py:266
 msgid "Permissions"
 msgstr "Permissions"
 
-#: wiki/forms.py:269
+#: wiki/forms.py:270
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: wiki/forms.py:270
+#: wiki/forms.py:271
 msgid "Enter the username of the owner."
 msgstr "Entrer le nom d'utilisateur du propriétaire."
 
-#: wiki/forms.py:271
+#: wiki/forms.py:272
 msgid "(none)"
 msgstr "(néant)"
 
-#: wiki/forms.py:276
+#: wiki/forms.py:277
 msgid "Inherit permissions"
 msgstr "Hériter des permissions"
 
-#: wiki/forms.py:276
+#: wiki/forms.py:277
 msgid ""
 "Check here to apply the above permissions recursively to articles under this"
 " one."
 msgstr "Cochez ceci pour appliquer les permissions supérieures aux articles qui dépendent de celui-ci."
 
-#: wiki/forms.py:281
+#: wiki/forms.py:282
 msgid "Permission settings for the article were updated."
 msgstr "Les paramètres de permission pour cet article ont été mis à jour."
 
-#: wiki/forms.py:283
+#: wiki/forms.py:284
 msgid "Your permission settings were unchanged, so nothing saved."
 msgstr "Vos paramètres de permission demeurent inchangés, rien n'a été sauvegardé."
 
-#: wiki/forms.py:322
+#: wiki/forms.py:323
 msgid "No user with that username"
 msgstr "Aucun utilisateur avec ce nom d'utilisateur"
 
-#: wiki/forms.py:344
+#: wiki/forms.py:345
 msgid "Article locked for editing"
 msgstr "Article verrouillé pour l'édition"
 
-#: wiki/forms.py:351
+#: wiki/forms.py:352
 msgid "Article unlocked for editing"
 msgstr "Article déverrouillé pour l'édition"
 
-#: wiki/forms.py:364
+#: wiki/forms.py:365
 msgid "Filter..."
 msgstr "Filtrer..."
 
@@ -382,36 +382,36 @@ msgstr "La révision a été affichée pour ce plugin. Si vous devez faire un re
 msgid "Cache lookup value for articles"
 msgstr "Valeur de la recherche dans la cache pour les articles"
 
-#: wiki/models/urlpath.py:44
+#: wiki/models/urlpath.py:48
 msgid "slug"
 msgstr "slug"
 
-#: wiki/models/urlpath.py:133
+#: wiki/models/urlpath.py:138
 msgid "(root)"
 msgstr "(racine)"
 
-#: wiki/models/urlpath.py:143
+#: wiki/models/urlpath.py:148
 msgid "URL path"
 msgstr "chemin de l'URL"
 
-#: wiki/models/urlpath.py:144
+#: wiki/models/urlpath.py:149
 msgid "URL paths"
 msgstr "chemins de l'URL"
 
-#: wiki/models/urlpath.py:150
+#: wiki/models/urlpath.py:155
 msgid "Sorry but you cannot have a root article with a slug."
 msgstr "Désolé, vous ne pouvez pas avoir un article racine avec un slug."
 
-#: wiki/models/urlpath.py:152
+#: wiki/models/urlpath.py:157
 msgid "A non-root note must always have a slug."
 msgstr "Une note qui n'est pas racine doit obligatoirement avoir un slug."
 
-#: wiki/models/urlpath.py:155
+#: wiki/models/urlpath.py:160
 #, python-format
 msgid "There is already a root node on %s"
 msgstr "Il y a déjà un noeud racine sur %s"
 
-#: wiki/models/urlpath.py:259
+#: wiki/models/urlpath.py:264
 msgid ""
 "Articles who lost their parents\n"
 "===============================\n"
@@ -419,7 +419,7 @@ msgid ""
 "The children of this article have had their parents deleted. You should probably find a new home for them."
 msgstr "Articles qui ont perdu leurs parents\n===============================\n\nLes enfants de cet article ont eu leurs parents supprimés. Vous devriez probablement trouver une nouvelle maison pour eux."
 
-#: wiki/models/urlpath.py:262
+#: wiki/models/urlpath.py:267
 msgid "Lost and found"
 msgstr "Perdu et trouvé"
 
