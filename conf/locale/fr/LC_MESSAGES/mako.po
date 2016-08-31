@@ -84,8 +84,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-16 19:39+0000\n"
-"PO-Revision-Date: 2016-08-18 06:11+0000\n"
+"POT-Creation-Date: 2016-08-25 15:03+0000\n"
+"PO-Revision-Date: 2016-08-25 19:56+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgstr "Page non trouvée"
 #: cms/templates/course_outline.html:116 cms/templates/edit-tabs.html:32
 #: cms/templates/textbooks.html:39 cms/templates/videos_index.html:41
 #: cms/templates/widgets/header.html:50 lms/templates/static_htmlbook.html:121
-#: lms/templates/static_pdfbook.html:29 lms/templates/staticbook.html:79
+#: lms/templates/static_pdfbook.html:35 lms/templates/staticbook.html:79
 msgid "Content"
 msgstr "Contenu"
 
@@ -199,6 +199,7 @@ msgstr "Numéro du cours :"
 #: lms/templates/sysadmin_dashboard_gitlogs.html:116
 #: lms/templates/courseware/courses.html:29
 #: themes/edx.org/lms/templates/header.html:91
+#: themes/example/lms/templates/header.html:53
 #: themes/red-theme/lms/templates/header.html:80
 #: themes/red-theme/lms/templates/header.html:130
 msgid "Courses"
@@ -232,7 +233,7 @@ msgid "Required Information to Sign In to {studio_name}"
 msgstr "Information requise pour se connecter à {studio_name}"
 
 #: cms/templates/login.html:30 cms/templates/register.html:32
-#: lms/templates/help_modal.html:103 lms/templates/login.html:181
+#: lms/templates/help_modal.html:99 lms/templates/login.html:181
 #: lms/templates/provider_login.html:45 lms/templates/provider_login.html:46
 #: lms/templates/register-form.html:79 lms/templates/register-form.html:123
 #: lms/templates/register-shib.html:132 lms/templates/signup_modal.html:38
@@ -324,7 +325,7 @@ msgid "Requirements"
 msgstr "Pré-requis"
 
 #: cms/templates/studio_xblock_wrapper.html:111
-#: lms/templates/help_modal.html:231 lms/templates/help_modal.html:240
+#: lms/templates/help_modal.html:269 lms/templates/help_modal.html:278
 #: lms/templates/module-error.html:18
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:152
 msgid "Details"
@@ -340,7 +341,7 @@ msgstr "Voir"
 #: common/templates/darklang/preview_lang_include.html:7
 #: lms/templates/darklang/preview_lang.html:9
 msgid "Preview Language Setting"
-msgstr "Paramètre d'aperçu de langue"
+msgstr "Aperçu des paramètres de langue"
 
 #: cms/templates/maintenance/_force_publish_course.html:15
 #: lms/templates/sysadmin_dashboard_gitlogs.html:147
@@ -379,6 +380,8 @@ msgstr "Vous pouvez maintenant vous {link_start}connecter{link_end}."
 #: cms/templates/widgets/footer.html:19
 #: lms/templates/static_templates/tos.html:5
 #: lms/templates/static_templates/tos.html:9
+#: themes/example/lms/templates/static_templates/tos.html:7
+#: themes/example/lms/templates/static_templates/tos.html:10
 #: themes/red-theme/lms/templates/footer.html:86
 #: themes/stanford-style/lms/templates/footer.html:18
 #: themes/stanford-style/lms/templates/static_templates/tos.html:7
@@ -389,6 +392,8 @@ msgstr "Conditions générales du service"
 #: cms/templates/widgets/footer.html:24
 #: lms/templates/static_templates/privacy.html:6
 #: lms/templates/static_templates/privacy.html:10
+#: themes/example/lms/templates/static_templates/privacy.html:7
+#: themes/example/lms/templates/static_templates/privacy.html:10
 #: themes/red-theme/lms/templates/footer.html:90
 #: themes/stanford-style/lms/templates/footer.html:19
 #: themes/stanford-style/lms/templates/static_templates/tos.html:14
@@ -414,6 +419,7 @@ msgstr "Choisir la langue"
 
 #: cms/templates/widgets/header.html:219 cms/templates/widgets/header.html:232
 #: lms/templates/user_dropdown.html:31
+#: themes/example/lms/templates/header.html:40
 msgid "Account"
 msgstr "Compte"
 
@@ -475,6 +481,8 @@ msgstr "Envoyer un courriel à {email}"
 
 #: cms/templates/widgets/sock.html:48
 #: themes/edx.org/cms/templates/widgets/sock.html:51
+#: themes/example/lms/templates/static_templates/contact.html:12
+#: themes/example/lms/templates/static_templates/contact.html:15
 #: themes/stanford-style/lms/templates/static_templates/about.html:96
 msgid "Contact Us"
 msgstr "Nous contacter"
@@ -493,6 +501,7 @@ msgstr "Menu déroulant de l'utilisateur"
 #: cms/templates/widgets/user_dropdown.html:29
 #: cms/templates/widgets/user_dropdown.html:55
 #: lms/templates/user_dropdown.html:33 lms/templates/user_dropdown.html:53
+#: themes/example/lms/templates/header.html:41
 #: themes/red-theme/lms/templates/header.html:108
 msgid "Sign Out"
 msgstr "Se déconnecter"
@@ -538,7 +547,7 @@ msgid "For example use en for English"
 msgstr "Par exemple, utilisez fr pour Français"
 
 #: common/templates/darklang/preview_lang_include.html:20
-#: lms/templates/help_modal.html:116
+#: lms/templates/help_modal.html:112
 #: lms/templates/manage_user_standing.html:36
 #: lms/templates/register-shib.html:188
 #: lms/templates/peer_grading/peer_grading_problem.html:57
@@ -550,6 +559,43 @@ msgstr "Soumettre"
 #: common/templates/darklang/preview_lang_include.html:32
 msgid "Please refresh the page to see the changes applied."
 msgstr "S'il vous plaît rafraîchir la page pour voir les modifications appliquées."
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:19
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:17
+msgid "Discussion - {course_number}"
+msgstr "Discussion - {course_number}"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:68
+#: lms/templates/discussion/_discussion_inline.html:14
+msgid "Add a Post"
+msgstr "Ajouter un  message"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:77
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:57
+msgid "Discussion thread list"
+msgstr "Liste des discussions"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:81
+msgid "New topic form"
+msgstr "Nouveau sujet "
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:52
+msgid "Discussion"
+msgstr "Discussion"
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:58
+msgid "User Profile"
+msgstr "Profil utilisateur"
+
+#: lms/djangoapps/discussion/templates/discussion/maintenance.html:16
+msgid "Discussion unavailable"
+msgstr "Discussion non disponible"
+
+#: lms/djangoapps/discussion/templates/discussion/maintenance.html:22
+msgid ""
+"The discussions are currently undergoing maintenance. We'll have them back "
+"up shortly!"
+msgstr "Les forums sont en maintenance. Ils seront bientôt de retour en ligne !"
 
 #: lms/djangoapps/teams/templates/teams/teams.html:13
 msgid "Teams"
@@ -586,11 +632,12 @@ msgstr "Cliquer pour ajouter"
 msgid "Bookmark"
 msgstr "Signet"
 
-#: lms/templates/course.html:13
+#: lms/templates/course.html:13 themes/example/lms/templates/course.html:13
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
 
 #: lms/templates/course.html:22 lms/templates/course.html:28
+#: themes/example/lms/templates/course.html:27
 msgid "Starts"
 msgstr "Début"
 
@@ -600,6 +647,7 @@ msgstr "Voir tous les cours"
 
 #: lms/templates/dashboard.html:21 lms/templates/user_dropdown.html:29
 #: themes/edx.org/lms/templates/dashboard.html:22
+#: themes/example/lms/templates/header.html:38
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
@@ -657,8 +705,7 @@ msgstr "Historique des commandes"
 #. interface (a menu or piece of UI that takes the full focus of the screen)
 #: lms/templates/dashboard.html:188 lms/templates/dashboard.html:219
 #: lms/templates/forgot_password_modal.html:14
-#: lms/templates/help_modal.html:28 lms/templates/help_modal.html:92
-#: lms/templates/help_modal.html:126 lms/templates/signup_modal.html:17
+#: lms/templates/help_modal.html:28 lms/templates/signup_modal.html:17
 #: lms/templates/ccx/schedule.html:44
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html:13
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html:13
@@ -751,6 +798,7 @@ msgstr "Vous devez vous inscrire avant d'essayer d'accéder à l'unité"
 #: lms/templates/enroll_staff.html:33 lms/templates/ccx/enrollment.html:56
 #: lms/templates/courseware/course_about.html:314
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:80
+#: themes/example/lms/templates/courseware/course_about.html:409
 msgid "Enroll"
 msgstr "S'inscrire"
 
@@ -846,50 +894,50 @@ msgstr "Réinitialiser mon mot de passe"
 msgid "Email is incorrect."
 msgstr "L’adresse courriel est incorrecte."
 
-#: lms/templates/help_modal.html:21 lms/templates/help_modal.html:34
+#: lms/templates/help_modal.html:21 lms/templates/help_modal.html:35
 msgid "{platform_name} Help"
 msgstr "{platform_name} Aide"
 
-#: lms/templates/help_modal.html:47
+#: lms/templates/help_modal.html:48
 msgid ""
 "For {strong_start}questions on course lectures, homework, tools, or "
 "materials for this course{strong_end}, post in the {link_start}course "
 "discussion forum{link_end}."
 msgstr "Pour les {strong_start}questions sur les cours magistraux, devoirs, outils ou matériels de ce cours{strong_end}, écrivez dans le {link_start}forum de discussion du cours{link_end}"
 
-#: lms/templates/help_modal.html:58
+#: lms/templates/help_modal.html:59
 msgid ""
 "Have {strong_start}general questions about {platform_name}{strong_end}? You "
 "can find lots of helpful information in the {platform_name} "
 "{link_start}FAQ{link_end}."
 msgstr "Vous avez des {strong_start}questions d'ordre général à propos de {platform_name}{strong_end}? Vous pouvez trouver un tas d'informations utiles dans la {link_start}FAQ{link_end} de {platform_name}."
 
-#: lms/templates/help_modal.html:68
+#: lms/templates/help_modal.html:69
 msgid ""
 "Have a {strong_start}question about something specific{strong_end}? You can "
 "contact the {platform_name} general support team directly:"
 msgstr "Vous avez une {strong_start}question spécifique {strong_end}? Vous pouvez contacter l'équipe de support de {platform_name} directement :"
 
-#: lms/templates/help_modal.html:76
+#: lms/templates/help_modal.html:77
 msgid "Report a problem"
 msgstr "Soumettre un problème"
 
-#: lms/templates/help_modal.html:77
+#: lms/templates/help_modal.html:78
 msgid "Make a suggestion"
 msgstr "Suggérer"
 
-#: lms/templates/help_modal.html:78
+#: lms/templates/help_modal.html:79
 msgid "Ask a question"
 msgstr "Poser une question"
 
-#: lms/templates/help_modal.html:81
+#: lms/templates/help_modal.html:82
 msgid ""
 "Please note: The {platform_name} support team is English speaking. While we "
 "will do our best to address your inquiry in any language, our responses will"
 " be in English."
 msgstr "Remarque : L'équipe de support de {platform_name} parle anglais. Nous faisons de notre mieux pour comprendre votre demande dans n'importe quelle langue, mais nos réponses seront en anglais."
 
-#: lms/templates/help_modal.html:101
+#: lms/templates/help_modal.html:97
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:59
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html:90
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html:130
@@ -899,23 +947,26 @@ msgstr "Remarque : L'équipe de support de {platform_name} parle anglais. Nous f
 msgid "Name"
 msgstr "Nom"
 
-#: lms/templates/help_modal.html:106
+#: lms/templates/help_modal.html:102
 msgid "Briefly describe your issue"
 msgstr "Décrivez brièvement votre problème"
 
-#: lms/templates/help_modal.html:108
+#: lms/templates/help_modal.html:104
 msgid "Tell us the details"
 msgstr "Indiquez-nous les détails"
 
-#: lms/templates/help_modal.html:109
-msgid "Include error messages, steps which lead to the issue, etc"
-msgstr "En incluant les messages d'erreur, étapes qui on conduit au problème, etc"
+#: lms/templates/help_modal.html:105
+msgid ""
+"Describe what you were doing when you encountered the issue. Include any "
+"details that will help us to troubleshoot, including error messages that you"
+" saw."
+msgstr "Décrivez ce que vous faisiez lorsque vous avez rencontré le problème. Inclure tous les détails qui nous aideront à résoudre les problèmes, y compris les messages d'erreur que vous avez vus."
 
-#: lms/templates/help_modal.html:131
+#: lms/templates/help_modal.html:120
 msgid "Thank You!"
 msgstr "Merci !"
 
-#: lms/templates/help_modal.html:145
+#: lms/templates/help_modal.html:134
 msgid ""
 "Thank you for your inquiry or feedback.  We typically respond to a request "
 "within one business day (Monday to Friday, {open_time} UTC to {close_time} "
@@ -923,57 +974,55 @@ msgid ""
 " where most questions have already been answered."
 msgstr "Merci pour votre demande ou remarque. Nous répondons généralement à une sollicitation dans un délai d'un jour ouvrable (du Lundi au Vendredi, de {open_time} UTC à {close_time} UTC). Pendant ce temps, merci de consulter notre {link_start}FAQ détaillée{link_end} où une réponse est apportée à la plupart des questions."
 
-#: lms/templates/help_modal.html:215
+#: lms/templates/help_modal.html:255
 msgid "problem"
 msgstr "problème"
 
-#: lms/templates/help_modal.html:216
+#: lms/templates/help_modal.html:256
 msgid "Report a Problem"
 msgstr "Signaler un problème"
 
-#: lms/templates/help_modal.html:217
+#: lms/templates/help_modal.html:257
 msgid "Brief description of the problem"
 msgstr "Brève description du problème"
 
-#: lms/templates/help_modal.html:218
-msgid ""
-"Details of the problem you are encountering{asterisk}{begin_span}Include "
-"error messages, steps which lead to the issue, etc.{end_span}"
-msgstr "Détails du problème que vous rencontrez{asterisk}{begin_span}Inclure les messages d'erreurs, les étapes qui ont mené au problème, etc.{end_span}"
+#: lms/templates/help_modal.html:258
+msgid "Details of the problem you are encountering{asterisk}"
+msgstr "Détails du problème que vous rencontrez{asterisk}"
 
-#: lms/templates/help_modal.html:228
+#: lms/templates/help_modal.html:266
 msgid "suggestion"
 msgstr "suggestion"
 
-#: lms/templates/help_modal.html:229
+#: lms/templates/help_modal.html:267
 msgid "Make a Suggestion"
 msgstr "Faire une suggestion"
 
-#: lms/templates/help_modal.html:230
+#: lms/templates/help_modal.html:268
 msgid "Brief description of your suggestion"
 msgstr "Brève description de votre suggestion"
 
-#: lms/templates/help_modal.html:237
+#: lms/templates/help_modal.html:275
 msgid "question"
 msgstr "question"
 
-#: lms/templates/help_modal.html:238
+#: lms/templates/help_modal.html:276
 msgid "Ask a Question"
 msgstr "Poser une question"
 
-#: lms/templates/help_modal.html:239
+#: lms/templates/help_modal.html:277
 msgid "Brief summary of your question"
 msgstr "Bref résumé de votre question"
 
-#: lms/templates/help_modal.html:268
+#: lms/templates/help_modal.html:306
 msgid "An error has occurred."
 msgstr "Une erreur s'est produite."
 
-#: lms/templates/help_modal.html:270
+#: lms/templates/help_modal.html:308
 msgid "Please {link_start}send us e-mail{link_end}."
 msgstr "Veuillez {link_start}nous envoyer un courriel{link_end}."
 
-#: lms/templates/help_modal.html:277
+#: lms/templates/help_modal.html:315
 msgid "Please try again later."
 msgstr "Veuillez réessayer plus tard."
 
@@ -1261,6 +1310,7 @@ msgid "Raw data:"
 msgstr "Données brutes :"
 
 #: lms/templates/navigation.html:50
+#: themes/example/lms/templates/header.html:13
 #: themes/red-theme/lms/templates/header.html:41
 msgid "Global"
 msgstr "Mondial"
@@ -1310,6 +1360,7 @@ msgstr "Inscription"
 #: lms/templates/navigation.html:155 lms/templates/navigation.html:157
 #: themes/edx.org/lms/templates/header.html:123
 #: themes/edx.org/lms/templates/header.html:125
+#: themes/example/lms/templates/header.html:49
 #: themes/red-theme/lms/templates/header.html:155
 #: themes/red-theme/lms/templates/header.html:157
 msgid "Sign in"
@@ -1340,7 +1391,7 @@ msgstr "votre réponse"
 msgid "Hint"
 msgstr "Indice"
 
-#: lms/templates/problem.html:33 lms/templates/word_cloud.html:20
+#: lms/templates/problem.html:33 lms/templates/word_cloud.html:41
 msgid "Save"
 msgstr "Sauvegarder"
 
@@ -1616,7 +1667,7 @@ msgid ""
 "You can find the answers to most of your questions in our list of FAQs. "
 "After you enroll in a course, you can also find answers in the course "
 "discussions."
-msgstr "Vous trouverez la réponse à la plupart de vos questions dans notre liste de FAQs.Après votre inscription à un cours, vous trouverez aussi des réponses dans les forums de discussions du cours."
+msgstr "Vous trouverez la réponse à la plupart de vos questions dans notre liste de FAQs. Après votre inscription à un cours, vous trouverez aussi des réponses dans les forums de discussions du cours."
 
 #: lms/templates/register.html:16
 msgid "Register for {platform_name}"
@@ -1809,12 +1860,12 @@ msgstr "Utilisateur :"
 msgid "View History"
 msgstr "Afficher historique"
 
-#: lms/templates/static_htmlbook.html:13 lms/templates/static_pdfbook.html:5
+#: lms/templates/static_htmlbook.html:13 lms/templates/static_pdfbook.html:11
 #: lms/templates/staticbook.html:13
 msgid "{course_number} Textbook"
 msgstr "Manuel {course_number}"
 
-#: lms/templates/static_htmlbook.html:125 lms/templates/static_pdfbook.html:32
+#: lms/templates/static_htmlbook.html:125 lms/templates/static_pdfbook.html:38
 #: lms/templates/staticbook.html:82
 msgid "Textbook Navigation"
 msgstr "Navigation Manuel"
@@ -2016,6 +2067,7 @@ msgid "Dashboard for:"
 msgstr "Tableau de bord pour :"
 
 #: lms/templates/user_dropdown.html:30
+#: themes/example/lms/templates/header.html:39
 msgid "Profile"
 msgstr "Profil"
 
@@ -2076,13 +2128,13 @@ msgstr "Télécharger la transcription"
 msgid "Download Handout"
 msgstr "Télécharger les documents pédagogiques"
 
-#: lms/templates/word_cloud.html:25
-msgid "Your words:"
-msgstr "Vos mots :"
+#: lms/templates/word_cloud.html:30
+msgid "{num} of {total}"
+msgstr "{num} de {total}"
 
-#: lms/templates/word_cloud.html:26
-msgid "Total number of words:"
-msgstr "Nombre total de mots :"
+#: lms/templates/word_cloud.html:48
+msgid "Your words were:"
+msgstr "Vos mots étaient:"
 
 #: lms/templates/api_admin/api_access_request_form.html:8
 msgid "API Access Request"
@@ -3325,10 +3377,14 @@ msgstr "Ce contenu est classé"
 #: lms/templates/courseware/course_about.html:38
 #: lms/templates/courseware/course_about.html:76
 #: lms/templates/courseware/course_about.html:95
+#: themes/example/lms/templates/courseware/course_about.html:65
+#: themes/example/lms/templates/courseware/course_about.html:103
+#: themes/example/lms/templates/courseware/course_about.html:124
 msgid "An error occurred. Please try again later."
 msgstr "Une erreur s'est produite. Merci d'essayer de nouveau plus tard."
 
 #: lms/templates/courseware/course_about.html:60
+#: themes/example/lms/templates/courseware/course_about.html:87
 msgid ""
 "The currently logged-in user account does not have permission to enroll in "
 "this course. You may need to {start_logout_tag}log out{end_tag} then try the"
@@ -3407,6 +3463,7 @@ msgid "Additional Resources"
 msgstr "Ressources complémentaires"
 
 #: lms/templates/courseware/course_about.html:319
+#: themes/example/lms/templates/courseware/course_about.html:414
 msgid "enroll"
 msgstr "S'inscrire"
 
@@ -3472,7 +3529,7 @@ msgstr "Nom d'utilisateur ou courriel:"
 
 #: lms/templates/courseware/course_navigation.html:65
 msgid "Set preview mode"
-msgstr "Définir le mode de prévisualisation"
+msgstr "Définir le mode d'aperçu"
 
 #: lms/templates/courseware/course_navigation.html:72
 msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
@@ -3514,7 +3571,7 @@ msgstr "Affiner votre recherche"
 msgid "{course_number} Courseware"
 msgstr "Contenu du cours {course_number}"
 
-#: lms/templates/courseware/courseware-chromeless.html:76
+#: lms/templates/courseware/courseware-chromeless.html:75
 #: lms/templates/courseware/courseware.html:211
 msgid "Course Utilities"
 msgstr "Utilitaires de cours"
@@ -3598,7 +3655,7 @@ msgstr "Bienvenue au cours {course_name} de {org}!"
 
 #: lms/templates/courseware/info.html:66
 msgid "Resume Course"
-msgstr "Reprendre le cours"
+msgstr "Poursuivre le cours"
 
 #: lms/templates/courseware/info.html:76
 msgid "View Updates in Studio"
@@ -4226,18 +4283,13 @@ msgstr "Le compte {provider_name} choisi est déjà lié à un autre compte {pla
 msgid "Results:"
 msgstr "Résultats :"
 
-#: lms/templates/discussion/_discussion_course_navigation.html:11
-#: lms/templates/discussion/_discussion_inline.html:14
-msgid "Add a Post"
-msgstr "Ajouter un  message"
-
 #: lms/templates/discussion/_discussion_inline.html:11
 msgid "Show Discussion"
 msgstr "Afficher la discussion"
 
 #: lms/templates/discussion/_discussion_inline_studio.html:8
 msgid "To view live discussions, click Preview or View Live in Unit Settings."
-msgstr "Pour voir les discussions en direct, cliquer sur Prévisualisation ou Visualisation en direct dans les paramètres de l'unité."
+msgstr "Pour voir les forums de discusssions en direct, cliquer sur Aperçu ou Voir en direct dans les paramètres de l'unité."
 
 #: lms/templates/discussion/_discussion_inline_studio.html:9
 msgid "Discussion ID: {discussion_id}"
@@ -4252,76 +4304,66 @@ msgid "filter topics"
 msgstr "filtrer les sujets"
 
 #: lms/templates/discussion/_filter_dropdown.html:47
-#: lms/templates/discussion/_thread_list_template.html:11
 msgid "All Discussions"
-msgstr "Toutes les discussions"
+msgstr "Tous les discussions"
 
 #: lms/templates/discussion/_filter_dropdown.html:52
 msgid "Posts I'm Following"
 msgstr "Messages suivis"
 
-#: lms/templates/discussion/_thread_list_template.html:10
-msgid "Discussion topics; currently listing: "
-msgstr "Sujets de discussion; énumération courante :"
-
-#: lms/templates/discussion/_thread_list_template.html:17
-#: lms/templates/discussion/_thread_list_template.html:18
-msgid "Search all posts"
-msgstr "Rechercher…"
-
 #. Translators: This labels a filter menu in forum navigation
-#: lms/templates/discussion/_thread_list_template.html:29
+#: lms/templates/discussion/_thread_list_template.html:9
 msgid "Filter:"
 msgstr "Filtre :"
 
 #. Translators: This is a menu option for showing all forum threads unfiltered
-#: lms/templates/discussion/_thread_list_template.html:32
+#: lms/templates/discussion/_thread_list_template.html:12
 msgid "Show all"
 msgstr "Tout montrer"
 
 #. Translators: This is a menu option for showing only unread forum threads
-#: lms/templates/discussion/_thread_list_template.html:34
+#: lms/templates/discussion/_thread_list_template.html:14
 msgid "Unread"
 msgstr "Non lu"
 
 #. Translators: This is a menu option for showing only unanswered forum
 #. question threads
-#: lms/templates/discussion/_thread_list_template.html:37
+#: lms/templates/discussion/_thread_list_template.html:17
 msgid "Unanswered"
 msgstr "Non répondu"
 
 #. Translators: This is a menu option for showing only forum threads flagged
 #. for abuse
-#: lms/templates/discussion/_thread_list_template.html:41
+#: lms/templates/discussion/_thread_list_template.html:21
 msgid "Flagged"
 msgstr "Marqué"
 
 #. Translators: This labels a cohort menu in forum navigation
-#: lms/templates/discussion/_thread_list_template.html:47
+#: lms/templates/discussion/_thread_list_template.html:27
 msgid "Cohort:"
 msgstr "Cohorte :"
 
-#: lms/templates/discussion/_thread_list_template.html:49
+#: lms/templates/discussion/_thread_list_template.html:29
 msgid "in all cohorts"
 msgstr "dans toutes les cohortes"
 
 #. Translators: This labels a sort menu in forum navigation
-#: lms/templates/discussion/_thread_list_template.html:57
+#: lms/templates/discussion/_thread_list_template.html:37
 msgid "Sort:"
 msgstr "Tri :"
 
 #. Translators: This is a menu option for sorting forum threads
-#: lms/templates/discussion/_thread_list_template.html:60
+#: lms/templates/discussion/_thread_list_template.html:40
 msgid "by recent activity"
 msgstr "par activité récente"
 
 #. Translators: This is a menu option for sorting forum threads
-#: lms/templates/discussion/_thread_list_template.html:62
+#: lms/templates/discussion/_thread_list_template.html:42
 msgid "by most activity"
 msgstr "par maximum d'activité"
 
 #. Translators: This is a menu option for sorting forum threads
-#: lms/templates/discussion/_thread_list_template.html:64
+#: lms/templates/discussion/_thread_list_template.html:44
 msgid "by most votes"
 msgstr "par maximum de votes"
 
@@ -4338,33 +4380,6 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s commentaire"
 msgstr[1] "%s commentaires"
-
-#: lms/templates/discussion/index.html:15
-#: lms/templates/discussion/user_profile.html:10
-msgid "Discussion - {course_number}"
-msgstr "Discussion - {course_number}"
-
-#: lms/templates/discussion/index.html:46
-msgid "Discussion thread list"
-msgstr "Liste des discussions"
-
-#: lms/templates/discussion/index.html:49
-msgid "New topic form"
-msgstr "Nouveau sujet "
-
-#: lms/templates/discussion/maintenance.html:3
-msgid "We're sorry"
-msgstr "Nous sommes désolés"
-
-#: lms/templates/discussion/maintenance.html:4
-msgid ""
-"The forums are currently undergoing maintenance. We'll have them back up "
-"shortly!"
-msgstr "Les forums sont en maintenance. Ils seront bientôt de retour en ligne !"
-
-#: lms/templates/discussion/user_profile.html:29
-msgid "User Profile"
-msgstr "Profil utilisateur"
 
 #: lms/templates/edxnotes/edxnotes.html:13
 msgid "Student Notes"
@@ -7517,6 +7532,8 @@ msgstr "FAQ"
 
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:9
+#: themes/example/lms/templates/static_templates/honor.html:7
+#: themes/example/lms/templates/static_templates/honor.html:10
 #: themes/stanford-style/lms/templates/footer.html:20
 #: themes/stanford-style/lms/templates/static_templates/tos.html:18
 msgid "Honor Code"
@@ -7872,6 +7889,100 @@ msgid ""
 "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr "{b_start}Supporter notre mission: {b_end} EdX, une organisation sans but lucratif, repose sur les attestations pour assurer le financement de l'éducation gratuite pour tous à l´échelle mondiale"
+
+#: themes/example/lms/templates/header.html:46
+msgid "Create Account"
+msgstr "Créer un compte"
+
+#: themes/example/lms/templates/courseware/course_about.html:311
+msgid "Want to purchase this course for a group?"
+msgstr "Vous désirez acheter ce cours pour un groupe?"
+
+#: themes/example/lms/templates/courseware/course_about.html:312
+msgid ""
+"You can purchase enrollment codes for this course to distribute to your team"
+msgstr "Vous pouvez acheter des codes d'inscription pour ce cours pour les distribuer à votre équipe"
+
+#: themes/example/lms/templates/courseware/course_about.html:319
+msgid "Purchase for a Group"
+msgstr "Achat pour un groupe"
+
+#: themes/example/lms/templates/courseware/course_about.html:321
+msgid ""
+"Bulk discounts may apply for groups larger than 10. Contact "
+"{link_start}harvardxplus@harvard.edu{link_end} for more information."
+msgstr "Les rabais en vrac peuvent être utilisés pour des groupes de plus de 10. Contacter {link_stat}facturation@edulib.org{link} pour plus d'informations."
+
+#: themes/example/lms/templates/courseware/course_about.html:331
+msgid "Email Us"
+msgstr "Envoyez nous un courriel"
+
+#: themes/example/lms/templates/courseware/courses.html:29
+msgid "Lorem ipsum dolor sit amet."
+msgstr "Lorem ipsum dolor sit amet."
+
+#: themes/example/lms/templates/static_templates/about.html:7
+#: themes/example/lms/templates/static_templates/about.html:10
+msgid "About Us"
+msgstr "À propos de nous"
+
+#: themes/example/lms/templates/static_templates/contact.html:84
+msgid "Thank you for your inquiry"
+msgstr "Merci pour votre demande"
+
+#: themes/example/lms/templates/static_templates/faq.html:6
+msgid "FAQ's"
+msgstr "FAQ"
+
+#: themes/example/lms/templates/static_templates/faq.html:9
+msgid "General FAQs"
+msgstr "FAQ générales"
+
+#: themes/example/lms/templates/static_templates/faq.html:18
+#: themes/example/lms/templates/static_templates/faq.html:19
+#: themes/example/lms/templates/static_templates/faq.html:20
+#: themes/example/lms/templates/static_templates/honor.html:18
+#: themes/example/lms/templates/static_templates/honor.html:19
+#: themes/example/lms/templates/static_templates/honor.html:20
+#: themes/example/lms/templates/static_templates/privacy.html:18
+#: themes/example/lms/templates/static_templates/privacy.html:19
+#: themes/example/lms/templates/static_templates/privacy.html:20
+#: themes/example/lms/templates/static_templates/tos.html:18
+#: themes/example/lms/templates/static_templates/tos.html:19
+#: themes/example/lms/templates/static_templates/tos.html:20
+msgid "Lorem ipsum dolor sit amet"
+msgstr "Lorem ipsum dolor sit amet"
+
+#: themes/example/lms/templates/static_templates/faq.html:24
+msgid "Academic Planning"
+msgstr "Planification académique"
+
+#: themes/example/lms/templates/static_templates/faq.html:52
+#: themes/example/lms/templates/static_templates/faq.html:90
+#: themes/example/lms/templates/static_templates/faq.html:125
+#: themes/example/lms/templates/static_templates/honor.html:44
+#: themes/example/lms/templates/static_templates/honor.html:74
+#: themes/example/lms/templates/static_templates/honor.html:86
+#: themes/example/lms/templates/static_templates/privacy.html:41
+#: themes/example/lms/templates/static_templates/privacy.html:71
+#: themes/example/lms/templates/static_templates/privacy.html:83
+#: themes/example/lms/templates/static_templates/tos.html:41
+#: themes/example/lms/templates/static_templates/tos.html:71
+#: themes/example/lms/templates/static_templates/tos.html:83
+msgid "Back to top"
+msgstr "Retour au haut"
+
+#: themes/example/lms/templates/static_templates/faq.html:54
+msgid "Registration"
+msgstr "Inscription"
+
+#: themes/example/lms/templates/static_templates/faq.html:92
+msgid "Finances"
+msgstr "Finances"
+
+#: themes/example/lms/templates/student_account/login_and_register.html:11
+msgid "Sign in or Create Account"
+msgstr "Connexion ou Création de compte"
 
 #: themes/red-theme/lms/templates/footer.html:29
 msgid "News"
