@@ -84,8 +84,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-16 19:39+0000\n"
-"PO-Revision-Date: 2016-08-18 01:37+0000\n"
+"POT-Creation-Date: 2016-08-25 15:04+0000\n"
+"PO-Revision-Date: 2016-08-25 19:45+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -296,6 +296,7 @@ msgstr "Effacer la recherche"
 
 #: common/static/common/templates/components/search-field.underscore:7
 #: common/static/common/templates/components/search-field.underscore:10
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:9
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:4
 #: lms/djangoapps/support/static/support/templates/certificates.underscore:19
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:3
@@ -321,10 +322,12 @@ msgid "Find discussions"
 msgstr "Trouver des discussions"
 
 #: common/static/common/templates/discussion/discussion-home.underscore:21
-msgid "Use the Discussion Topics menu to find specific topics."
-msgstr "Utiliser le menu des sujets de discussions pour trouver des sujets spécifiques."
+msgid "Use the All Topics menu to find specific topics."
+msgstr "Utilisez le menu Tous les sujets pour trouver des sujets spécifiques."
 
 #: common/static/common/templates/discussion/discussion-home.underscore:25
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:1
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:7
 msgid "Search all posts"
 msgstr "Chercher dans toutes les discussions"
 
@@ -476,10 +479,12 @@ msgid "…"
 msgstr "…"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:4
+#: common/static/common/templates/discussion/thread-list-item.underscore:52
 msgid "Community TA"
 msgstr "Assistant d'enseignement de la communauté"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:6
+#: common/static/common/templates/discussion/thread-list-item.underscore:45
 msgid "Staff"
 msgstr "Équipe pédagogique"
 
@@ -510,9 +515,9 @@ msgstr "Mettre à jour le commentaire"
 msgid "posted %(time_ago)s by %(author)s"
 msgstr "postée %(time_ago)s par %(author)s"
 
-#: common/static/common/templates/discussion/response-comment-show.underscore:31
-#: common/static/common/templates/discussion/thread-response-show.underscore:41
-#: common/static/common/templates/discussion/thread-show.underscore:25
+#: common/static/common/templates/discussion/response-comment-show.underscore:32
+#: common/static/common/templates/discussion/thread-response-show.underscore:42
+#: common/static/common/templates/discussion/thread-show.underscore:28
 msgid "Reported"
 msgstr "Reporté"
 
@@ -541,7 +546,7 @@ msgid "unanswered question"
 msgstr "question non répondue"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:31
-#: common/static/common/templates/discussion/thread-show.underscore:24
+#: common/static/common/templates/discussion/thread-show.underscore:25
 msgid "Pinned"
 msgstr "Épinglé"
 
@@ -549,28 +554,24 @@ msgstr "Épinglé"
 msgid "Following"
 msgstr "Suivi"
 
-#: common/static/common/templates/discussion/thread-list-item.underscore:45
-msgid "By: Staff"
-msgstr "Par: Équipe pédagogique"
-
-#: common/static/common/templates/discussion/thread-list-item.underscore:52
-msgid "By: Community TA"
-msgstr "Par: Assistant d'enseignement de la communauté"
-
 #: common/static/common/templates/discussion/thread-list-item.underscore:67
-#: common/static/common/templates/discussion/thread-list-item.underscore:92
+#: common/static/common/templates/discussion/thread-list-item.underscore:103
 #: common/static/common/templates/discussion/thread-response-show.underscore:37
 msgid "fmt"
 msgstr "fmt"
 
-#: common/static/common/templates/discussion/thread-list-item.underscore:87
+#: common/static/common/templates/discussion/thread-list-item.underscore:79
+msgid "{unread_comments_count} new"
+msgstr "{unread_comments_count} nouveaux"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:98
 #, python-format
 msgid ""
 "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
 "unread comments)%(span_close)s"
 msgstr "%(comments_count)s %(span_sr_open)scommentaires (%(unread_comments_count)s commentaires non lus)%(span_close)s"
 
-#: common/static/common/templates/discussion/thread-list-item.underscore:90
+#: common/static/common/templates/discussion/thread-list-item.underscore:101
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
 msgstr "%(comments_count)s %(span_sr_open)s commentaires %(span_close)s"
@@ -630,21 +631,21 @@ msgstr "Soumettre"
 msgid "%(post_type)s posted %(time_ago)s by %(author)s"
 msgstr "%(post_type)s postée %(time_ago)s par %(author)s"
 
-#: common/static/common/templates/discussion/thread-show.underscore:26
+#: common/static/common/templates/discussion/thread-show.underscore:31
 msgid "Closed"
 msgstr "Fermé"
 
-#: common/static/common/templates/discussion/thread-show.underscore:59
+#: common/static/common/templates/discussion/thread-show.underscore:65
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
 msgstr "A propos de: %(courseware_title_linked)s"
 
-#: common/static/common/templates/discussion/thread-show.underscore:69
+#: common/static/common/templates/discussion/thread-show.underscore:75
 #, python-format
 msgid "This post is visible only to %(group_name)s."
 msgstr "Ce message est visible seulement par %(group_name)s."
 
-#: common/static/common/templates/discussion/thread-show.underscore:75
+#: common/static/common/templates/discussion/thread-show.underscore:81
 msgid "This post is visible to everyone."
 msgstr "Ce message est visible par tous."
 
@@ -700,7 +701,11 @@ msgstr "Filtrer les sujets"
 msgid "Add your post to a relevant topic to help others find it."
 msgstr "Ajouter votre message à un sujet pertinent afin d'aider les autres à le trouver."
 
-#: common/static/common/templates/discussion/user-profile.underscore:1
+#: lms/djangoapps/discussion/static/discussion/templates/fake-breadcrumbs.underscore:4
+msgid "All Topics"
+msgstr "Tous les sujets"
+
+#: lms/djangoapps/discussion/static/discussion/templates/user-profile.underscore:1
 msgid "Active Threads"
 msgstr "Fils actifs"
 
@@ -1217,7 +1222,7 @@ msgstr "Effacer les résultats de la recherche"
 
 #: lms/templates/fields/field_dropdown.underscore:38
 #: lms/templates/fields/field_dropdown_account.underscore:39
-#: lms/templates/fields/field_textarea.underscore:30
+#: lms/templates/fields/field_textarea.underscore:33
 msgid "Click to edit"
 msgstr "Cliquer pour modifier"
 
@@ -1601,8 +1606,8 @@ msgstr "Affecter les étudiants aux groupes de cohorte en important un fichier C
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
 msgid ""
 "To review student cohort assignments or see the results of uploading a CSV "
-"file, download course profile information or cohort results on {link_start} "
-"the Data Download page. {link_end}"
+"file, download course profile information or cohort results on the "
+"{link_start}Data Download{link_end} page."
 msgstr "Pour examiner les devoirs de cohortes étudiantes ou voir le résultat du téléversement d'un fichier CSV, téléchargez les informations sur le profil du cours ou les résultats des cohortes à partir de {link_start} la page de  télechargement des données. {link_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:3
@@ -1768,7 +1773,6 @@ msgid "There was an error, try searching again."
 msgstr "Une erreur est survenue, essayez à nouveau."
 
 #: lms/templates/search/search_loading.underscore:1
-#: lms/templates/student_account/account_settings_section.underscore:10
 msgid "Loading"
 msgstr "Chargement"
 
@@ -1792,11 +1796,11 @@ msgstr "Réinitialiser le mot de passe"
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: lms/templates/student_account/account_settings_section.underscore:6
+#: lms/templates/student_account/account_settings_section.underscore:9
 msgid "section.title"
 msgstr "section.title"
 
-#: lms/templates/student_account/account_settings_section.underscore:14
+#: lms/templates/student_account/account_settings_section.underscore:13
 msgid "An error occurred. Please reload the page."
 msgstr "Une erreur est survenue. Merci de rafraîchir la page."
 
