@@ -15,7 +15,7 @@ msgid "There's just one more step before you can enroll in a course: "
 msgstr "Il ne reste plus qu'une étape avant que vous puissiez vous inscrire dans un cours : "
 "vous devez activer votre compte {platform_name}. Pour cela, "
 "veuillez cliquez sur le lien suivant. Si le lien ne fonctionne pas, "
-"copiez et collez-le dans la barre d'adresse de votre fureteur."
+"copiez et collez-le dans la barre d'adresse de votre navigateur."
 
 #: themes/edulib-theme/lms/templates/emails/activation_email.txt
 msgid "After you activate your account, you can take "
