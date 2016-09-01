@@ -2681,13 +2681,13 @@ msgid ""
 "the page."
 msgstr ""
 "Entrer le titre que vous voulez que les étudiants voient au-dessus de vos "
-"documents de cours sur la page Information sur le cours. Vos documents de "
+"documents du cours sur la page Information sur le cours. Vos documents de "
 "cours apparaissent dans le panneau de droite de la page."
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: lms/templates/courseware/info.html
 msgid "Course Handouts"
-msgstr "Documents de cours"
+msgstr "Documents du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -5386,7 +5386,7 @@ msgstr "Wiki"
 #. alone.
 #: lms/djangoapps/course_wiki/views.py
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr "Ceci est le wiki pour **{course_name} - {organization}**"
+msgstr "Ceci est le wiki pour _{course_name}_ - **{organization}**"
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
@@ -18699,7 +18699,7 @@ msgid ""
 "Handouts sidebar also appear in this list."
 msgstr ""
 "L'image du cours, le texte des chapitres, et les fichiers qui apparaissent "
-"dans la colonne des Documents de cours apparaitront aussi dans cette liste."
+"dans la colonne des Documents du cours apparaitront aussi dans cette liste."
 
 #: cms/templates/asset_index.html
 msgid "Using File URLs"
