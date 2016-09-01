@@ -1661,7 +1661,7 @@ msgstr "(Ligne du code source non disponible)"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "See XML source line {sourcenum}."
-msgstr "Voir la ligne du code sources XML {sourcenum}."
+msgstr "Voir la ligne du code source XML {sourcenum}."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "JavaScript Input"
@@ -3537,7 +3537,7 @@ msgid ""
 msgstr ""
 "Entrer le  LTI ID pour le fournisseur LTI externe.  Cette valeur doit être "
 "la même que le LTI ID que vous avez entré dans le paramètre Passeports LTI "
-"sur la page des paramètres avancés.<br />Voir {docs_anchor_open}the edX LTI "
+"sur la page des paramètres avancés.<br />Consulter {docs_anchor_open}the edX LTI "
 "documentation{anchor_close} pour plus de détails sur ce paramètre."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3553,7 +3553,7 @@ msgid ""
 msgstr ""
 "Entrer le URL de l'outil externe que ce composant démarre. Ce paramètre est "
 "seulement utilisé quand Cacher les outils externes est initialisé à faux "
-"(false).<br />Voir {docs_anchor_open}the edX LTI documentation{anchor_close}"
+"(false).<br />Consulter {docs_anchor_open}the edX LTI documentation{anchor_close}"
 " pour plus de détails sur ce paramètre."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3569,7 +3569,7 @@ msgid ""
 msgstr ""
 "Ajouter la paire clé/valeur pour n'importe quel paramètre personnalisé, tel "
 "que la page à laquelle un livre électronique devrait ouvrir ou la couleur d"
-"'arrière-plan de ce composant.<br />Voir {docs_anchor_open}the edX LTI "
+"'arrière-plan de ce composant.<br />Consulter {docs_anchor_open}the edX LTI "
 "documentation{anchor_close} pour plus de détails sur ce paramètre."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -11338,7 +11338,7 @@ msgstr "Choisir une action : "
 
 #: lms/templates/manage_user_standing.html
 msgid "View Profile"
-msgstr "Voir le profil"
+msgstr "Consulter le profil"
 
 #: lms/templates/manage_user_standing.html
 msgid "Disable Account"
@@ -13189,7 +13189,7 @@ msgstr "Toutes les unités ont été ajoutées."
 
 #: lms/templates/ccx/student_admin.html
 msgid "View gradebook"
-msgstr "Voir le carnet de notes"
+msgstr "Consulter le carnet de notes"
 
 #: lms/templates/ccx/student_admin.html
 msgid "Download student grades"
@@ -14195,7 +14195,7 @@ msgstr "Début - {start_date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "View Archived Course"
-msgstr "Voir le cours"
+msgstr "Consulter le cours archivé"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Share on Facebook"
@@ -14392,7 +14392,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "View Details"
-msgstr "Voir les détails"
+msgstr "Consulter les détails"
 
 #. Translators: link_to_provider_site is a link to an external webpage. The
 #. text of the link will be the name of a credit provider, such as 'State
@@ -14666,7 +14666,7 @@ msgstr "Rechercher des notes sur..."
 
 #: lms/templates/edxnotes/edxnotes.html
 msgid "View notes by:"
-msgstr "Voir les notes par : "
+msgstr "Consulter les notes par : "
 
 #: lms/templates/edxnotes/edxnotes.html
 msgid ""
@@ -17107,7 +17107,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "View Gradebook"
-msgstr "Voir le bulletin de notes"
+msgstr "Consulter le bulletin de notes"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student-specific grade inspection"
@@ -17674,7 +17674,7 @@ msgstr "Votre panier d'achat est vide."
 #: lms/templates/shoppingcart/billing_details.html
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "View Courses"
-msgstr "Voir les cours"
+msgstr "Consulter les cours"
 
 #: lms/templates/shoppingcart/cybersource_form.html
 #: lms/templates/shoppingcart/shopping_cart_flow.html
@@ -17741,7 +17741,7 @@ msgstr "Merci de votre achat!"
 #: lms/templates/shoppingcart/receipt.html
 #: lms/templates/shoppingcart/registration_code_redemption.html
 msgid "View Dashboard"
-msgstr "Voir le tableau de bord"
+msgstr "Consulter le tableau de bord"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid ""
@@ -20268,7 +20268,7 @@ msgstr "Votre contenu importé a été incorporé à ce cours"
 
 #: cms/templates/import.html
 msgid "View Updated Library"
-msgstr "Voir la bibliothèque mise à jour"
+msgstr "Consulter la bibliothèque mise à jour"
 
 #: cms/templates/import.html
 msgid "View Updated Outline"
