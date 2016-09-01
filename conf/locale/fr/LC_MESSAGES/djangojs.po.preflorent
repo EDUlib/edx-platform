@@ -7267,7 +7267,7 @@ msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
 msgstr ""
-"{screen_reader_start}Avertissement:{screen_reader_end} Le groupe de contenu "
+"{screen_reader_start}Avertissement : {screen_reader_end} Le groupe de contenu "
 "sélectionné précédemment a été supprimé. Sélectionnez un autre groupe de "
 "contenu."
 
@@ -7275,7 +7275,7 @@ msgstr ""
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
 msgstr ""
-"{screen_reader_start}Avertissement:{screen_reader_end} Il n'existe aucun "
+"{screen_reader_start}Avertissement : {screen_reader_end} Il n'existe aucun "
 "groupe de contenu."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
