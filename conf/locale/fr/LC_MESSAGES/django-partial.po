@@ -496,7 +496,7 @@ msgstr "Votre nom complet doit contenir au minimum deux caractères"
 msgid ""
 "Usernames must contain only letters, numbers, underscores (_), and hyphens "
 "(-)."
-msgstr "Les noms d'utilisateur doivent contenir que des lettres, chiffres, undescore (_) et tiret (-)."
+msgstr "Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, undescore (_) et tiret (-)."
 
 #: common/djangoapps/student/forms.py:125
 #, python-format
