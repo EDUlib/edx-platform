@@ -1514,7 +1514,7 @@ msgstr "Espace Vertical"
 #: lms/templates/search/course_search_item.underscore
 #: lms/templates/search/dashboard_search_item.underscore
 msgid "View"
-msgstr "Voir"
+msgstr "Consulter"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -2096,7 +2096,7 @@ msgstr "Aucun fil ne correspond à votre requête"
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js
 msgid "Show posts by %(username)s."
-msgstr "Voir les messages de %(username)s."
+msgstr "Consulter les messages de %(username)s."
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 #: common/static/common/js/discussion/views/discussion_thread_view.js
@@ -2695,7 +2695,7 @@ msgstr "Dernière activité %(date)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "View %(span_start)s %(team_name)s %(span_end)s"
-msgstr "Voir %(span_start)s %(team_name)s %(span_end)s"
+msgstr "Consulter %(span_start)s %(team_name)s %(span_end)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
@@ -2858,7 +2858,7 @@ msgstr "Sujet"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the %(topic_name)s Topic"
-msgstr "Voir les équipes du sujet %(topic_name)s"
+msgstr "Consulter les équipes du sujet %(topic_name)s"
 
 #. Translators: this string is shown at the bottom of the teams page
 #. to find a team to join or else to create a new one. There are three
@@ -4071,7 +4071,7 @@ msgstr[1] ""
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "View all errors"
-msgstr "Voir toutes les erreurs"
+msgstr "Consulter toutes les erreurs"
 
 #: lms/static/js/groups/views/cohort_form.js
 msgid "You must specify a name for the cohort"
@@ -6239,7 +6239,7 @@ msgstr "Ce fil est fermé."
 
 #: common/static/common/templates/discussion/profile-thread.underscore
 msgid "View discussion"
-msgstr "Voir la discussion"
+msgstr "Consulter la discussion"
 
 #: common/static/common/templates/discussion/response-comment-edit.underscore
 msgid "Editing comment"
@@ -7324,7 +7324,7 @@ msgstr "Sélectionnez une cohorte"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "View Cohort"
-msgstr "Voir la cohorte"
+msgstr "Consulter la cohorte"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Assign students to cohorts by uploading a CSV file"
@@ -7380,7 +7380,7 @@ msgstr "Voir le cours"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Archived Course"
-msgstr "Voir le cours"
+msgstr "Consulter le cours archivé"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "not enrolled"
