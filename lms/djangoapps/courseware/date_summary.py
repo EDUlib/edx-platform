@@ -20,6 +20,10 @@ from lms.djangoapps.verify_student.models import VerificationDeadline, SoftwareS
 from openedx.core.lib.time_zone_utils import get_time_zone_abbr, get_user_time_zone
 from student.models import CourseEnrollment
 
+##### Added by EDUlib #####
+from util.date_utils import strftime_localized
+import pytz
+##### Added by EDUlib #####
 
 class DateSummary(object):
     """Base class for all date summary blocks."""
@@ -115,9 +119,15 @@ class DateSummary(object):
         # and if today were December 5th, 2020, 'relative' would be "1
         # month".
         date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
+        #return date_format.format(
+        #    relative=relative_date,
+        #    absolute=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8'),
+        #)
+        #localized = strftime_localized(self.date.astimezone(self.time_zone), "DATE_TIME")
+        localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
         return date_format.format(
             relative=relative_date,
-            absolute=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8'),
+            absolute=localized,
         )
 
     @property
@@ -163,10 +173,14 @@ class TodaysDate(DateSummary):
 
     @property
     def title(self):
+        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
+        #return _(u'Today is {date}').format(
+            #date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
+        #)
         return _(u'Today is {date}').format(
-            date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
+            date=localized
         )
-
+      
 
 class CourseStartDate(DateSummary):
     """
