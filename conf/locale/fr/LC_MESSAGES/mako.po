@@ -6929,7 +6929,7 @@ msgid ""
 "activate your account. We've sent an email message to "
 "{email_start}{email}{email_end} with instructions for activating your "
 "account. If you don't receive this message, check your spam folder."
-msgstr "Il n'y a qu'une seule autre étape: Avant de s'inscrire dans un cours, vous devez activer votre compte. Nous avons envoyé un message courriel à {email_start}{email}{email_end} avec des instructions pour activer votre compte. Si vous n'avez pas reçu ce message, vérifier votre dossier spam."
+msgstr "Il reste encore une étape : avant de s'inscrire dans un cours, vous devez activer votre compte. Nous avons envoyé un message courriel à {email_start}{email}{email_end} avec des instructions pour activer votre compte. Si vous n'avez pas reçu ce message, vérifier votre dossier spam."
 
 #: lms/templates/registration/activation_complete.html:14
 msgid "Account Activated"
