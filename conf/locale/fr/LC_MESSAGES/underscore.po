@@ -638,7 +638,7 @@ msgstr "Fermé"
 #: common/static/common/templates/discussion/thread-show.underscore:65
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr "A propos de: %(courseware_title_linked)s"
+msgstr "À propos de: %(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/thread-show.underscore:75
 #, python-format
@@ -1245,7 +1245,7 @@ msgstr "Incapable de soumettre votre demande"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:16
 msgid "About You"
-msgstr "A propos de vous"
+msgstr "À propos de vous"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:18
 msgid ""
