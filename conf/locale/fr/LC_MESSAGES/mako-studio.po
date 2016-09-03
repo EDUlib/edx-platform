@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:03+0000\n"
-"PO-Revision-Date: 2016-08-18 01:21+0000\n"
+"POT-Creation-Date: 2016-09-01 11:26+0000\n"
+"PO-Revision-Date: 2016-09-03 19:17+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
-msgstr "Utilisez la valeur du {em_start}URL Web{em_end} afin de faire référence à un fichier ou une image uniquement à l'extérieur de votre cours. {em_start}Note:{em_end} Si vous verrouillez un fichier, le URL Web ne fonctionnera plus pour l'accès externe à un fichier."
+msgstr "Utilisez la valeur du {em_start}URL Web{em_end} afin de faire référence à un fichier ou une image uniquement à l'extérieur de votre cours. {em_start}Note : {em_end} Si vous verrouillez un fichier, le URL Web ne fonctionnera plus pour l'accès externe à un fichier."
 
 #: cms/templates/asset_index.html:80
 msgid ""
@@ -241,7 +241,7 @@ msgstr "fermer"
 
 #: cms/templates/asset_index.html:94
 msgid "Max per-file size: {max_filesize}MB"
-msgstr "Taille maximale de fichier: {max_filesize}MB"
+msgstr "Taille maximale de fichier : {max_filesize}MB"
 
 #: cms/templates/asset_index.html:100
 msgid "URL:"
@@ -492,7 +492,7 @@ msgstr "Emplacement dans le plan de cours"
 
 #: cms/templates/course-create-rerun.html:10
 msgid "Create a Course Rerun of:"
-msgstr "Créer une nouvelle session du cours :"
+msgstr "Créer une nouvelle session du cours : "
 
 #: cms/templates/course-create-rerun.html:29
 msgid "Create a re-run of a course"
@@ -500,7 +500,7 @@ msgstr "Créer une nouvelle session d'un cours"
 
 #: cms/templates/course-create-rerun.html:42
 msgid "You are creating a re-run from:"
-msgstr "Vous créez une nouvelle session à partir de :"
+msgstr "Vous créez une nouvelle session à partir de : "
 
 #: cms/templates/course-create-rerun.html:56
 msgid ""
@@ -555,7 +555,7 @@ msgstr "Nom de l'organisme qui parraine le nouveau cours. (Ce nom est souvent le
 #: cms/templates/course-create-rerun.html:99
 #: cms/templates/course-create-rerun.html:109
 msgid "Note: No spaces or special characters are allowed."
-msgstr "Remarque: aucun espace ou caractère spécial n'est autorisé."
+msgstr "Remarque : aucun espace ou caractère spécial n'est autorisé."
 
 #. Translators: This is an example for the number used to identify a course,
 #. seen when filling out the form to create a new course. The number here is
@@ -735,7 +735,7 @@ msgstr "Modifier la date de début"
 
 #: cms/templates/course_outline.html:169
 msgid "Course Pacing:"
-msgstr "Rythme du cours:"
+msgstr "Rythme du cours : "
 
 #: cms/templates/course_outline.html:171
 msgid "Self-Paced"
@@ -832,7 +832,7 @@ msgid ""
 "Note: Pages are publicly visible. If users know the URL of a page, they can "
 "view the page even if they are not registered for or logged in to your "
 "course."
-msgstr "Remarque: Les pages sont visibles publiquement. Si les utilisateurs connaissent l'URL d'une page, ils peuvent afficher la page, même s'ils ne sont pas enregistrés ou authentifiés à votre cours."
+msgstr "Remarque : Les pages sont visibles publiquement. Si les utilisateurs connaissent l'URL d'une page, ils peuvent afficher la page, même s'ils ne sont pas enregistrés ou authentifiés à votre cours."
 
 #: cms/templates/edit-tabs.html:103
 msgid "Show this page"
@@ -990,7 +990,7 @@ msgid ""
 "annotation storage URLs are included in the exported data. If you share your"
 " exported files, you may also be sharing sensitive or license-specific "
 "information."
-msgstr "{em_start}Avertissement:{em_end} Quand vous exportez un cours, les informations telles que les clés API de MATLAB, les passeports LTI, les chaines de caractères d'annotations, et les URLs de stockage d'annotations sont aussi inclus dans les données exportées. Si vous partagez vos fichiers exportés, vous pourriez aussi partager de informations sensibles et des informations sur vos licences de logiciels. "
+msgstr "{em_start}Avertissement : {em_end} Quand vous exportez un cours, les informations telles que les clés API de MATLAB, les passeports LTI, les chaines de caractères d'annotations, et les URLs de stockage d'annotations sont aussi inclus dans les données exportées. Si vous partagez vos fichiers exportés, vous pourriez aussi partager de informations sensibles et des informations sur vos licences de logiciels. "
 
 #: cms/templates/export.html:89
 msgid "Export My Library Content"
@@ -1010,7 +1010,7 @@ msgstr "Exporter le contenu du cours"
 
 #: cms/templates/export.html:112
 msgid "Data {em_start}exported with{em_end} your course:"
-msgstr "Données {em_start}exportées avec{em_end} votre cours :"
+msgstr "Données {em_start}exportées avec{em_end} votre cours : "
 
 #: cms/templates/export.html:117
 msgid ""
@@ -1039,7 +1039,7 @@ msgstr "Paramètres du cours"
 
 #: cms/templates/export.html:129
 msgid "Data {em_start}not exported{em_end} with your course:"
-msgstr "Données {em_start}non exportées{em_end} de ce cours :"
+msgstr "Données {em_start}non exportées{em_end} de ce cours : "
 
 #: cms/templates/export.html:134
 msgid "User Data"
@@ -1144,7 +1144,7 @@ msgstr "Ceci déclenchera une mise à jour automatique du site principal du LMS 
 
 #: cms/templates/export_git.html:35
 msgid "Export Course to Git:"
-msgstr "Exporter le Cours vers Git:"
+msgstr "Exporter le Cours vers Git : "
 
 #: cms/templates/export_git.html:38
 msgid ""
@@ -1161,11 +1161,11 @@ msgstr "Export réussi"
 
 #: cms/templates/export_git.html:63
 msgid "Your course:"
-msgstr "Votre cours :"
+msgstr "Votre cours : "
 
 #: cms/templates/export_git.html:65
 msgid "Course git url:"
-msgstr "url git du cours :"
+msgstr "url git du cours : "
 
 #: cms/templates/group_configurations.html:52
 #: cms/templates/group_configurations.html:78
@@ -1516,7 +1516,7 @@ msgstr "Choisisser un fichier à importer"
 
 #: cms/templates/import.html:78
 msgid "File Chosen:"
-msgstr "Fichier choisi :"
+msgstr "Fichier choisi : "
 
 #: cms/templates/import.html:86
 msgid "Replace my library with the selected file"
@@ -1614,7 +1614,7 @@ msgstr "Vous pourriez vouloir mettre à jour une bibliothèque existante à une 
 
 #: cms/templates/import.html:210
 msgid "Note: Library content is not automatically updated in courses"
-msgstr "Prendre note: le contenu des bibliothèques n'est pas automatiquement mis à jour dans les cours"
+msgstr "Prendre note : le contenu des bibliothèques n'est pas automatiquement mis à jour dans les cours"
 
 #: cms/templates/import.html:211
 msgid ""
@@ -1653,7 +1653,7 @@ msgstr "Seuls la structure et le contenu (incluant les sections, sous-sections, 
 
 #: cms/templates/import.html:230
 msgid "Warning: Importing while a course is running"
-msgstr "Attention: Importation alors qu'un cours est en cours d'exécution."
+msgstr "Attention : Importation alors qu'un cours est en cours d'exécution."
 
 #: cms/templates/import.html:231
 msgid ""
@@ -1713,21 +1713,21 @@ msgid ""
 "organization name is part of the course URL.{strong_end} This cannot be "
 "changed, but you can set a different display name in Advanced Settings "
 "later."
-msgstr "Le nom de l'organisation qui commandite ce cours. {strong_start}Note: Le nom de l'organisation fait partie du URL de votre cours.{strong_end} Il ne peut être modifié, mais vous pouvez indiquer un autre nom d'affichage plus tard dans les paramètres avancés."
+msgstr "Le nom de l'organisation qui commandite ce cours. {strong_start}Note : Le nom de l'organisation fait partie du URL de votre cours.{strong_end} Il ne peut être modifié, mais vous pouvez indiquer un autre nom d'affichage plus tard dans les paramètres avancés."
 
 #: cms/templates/index.html:100
 msgid ""
 "The unique number that identifies your course within your organization. "
 "{strong_start}Note: This is part of your course URL, so no spaces or special"
 " characters are allowed and it cannot be changed.{strong_end}"
-msgstr "Le nombre unique qui identifie votre cours au sein de votre organisation. {strong_start}Note: Ceci fait partie du URL de votre cours, aucun espace ou caractères spéciaux ne sont permis et il ne peux être modifié.{strong_end}"
+msgstr "Le nombre unique qui identifie votre cours au sein de votre organisation. {strong_start}Note : Ceci fait partie du URL de votre cours, aucun espace ou caractères spéciaux ne sont permis et il ne peux être modifié.{strong_end}"
 
 #: cms/templates/index.html:112
 msgid ""
 "The term in which your course will run. {strong_start}Note: This is part of "
 "your course URL, so no spaces or special characters are allowed and it "
 "cannot be changed.{strong_end}"
-msgstr "Le trimestre durant lequel le cours va s'exécuter. {strong_start}Note: Ceci fait partie du URL de votre cours, aucun espace ou caractères spéciaux ne sont permis et il ne peux être modifié.{strong_end}"
+msgstr "Le trimestre durant lequel le cours va s'exécuter. {strong_start}Note : Ceci fait partie du URL de votre cours, aucun espace ou caractères spéciaux ne sont permis et il ne peux être modifié.{strong_end}"
 
 #: cms/templates/index.html:125 cms/templates/index.html:185
 msgid "Create"
@@ -1782,7 +1782,7 @@ msgid ""
 "The unique code that identifies this library. {strong_start}Note: This is "
 "part of your library URL, so no spaces or special characters are "
 "allowed.{strong_end} This cannot be changed."
-msgstr "Le code unique qui identifie votre bibiothèque. {strong_start}Note: Ceci fait partie du URL de votre bibliothèque, aucun espace ou caractères spéciaux ne sont permis.{strong_end}Ne peux être modifié."
+msgstr "Le code unique qui identifie votre bibiothèque. {strong_start}Note : Ceci fait partie du URL de votre bibliothèque, aucun espace ou caractères spéciaux ne sont permis.{strong_end}Ne peux être modifié."
 
 #: cms/templates/index.html:195
 msgid "Courses Being Processed"
@@ -1791,7 +1791,7 @@ msgstr "Cours en cours de traitement"
 #: cms/templates/index.html:215 cms/templates/index.html:261
 #: cms/templates/index.html:329
 msgid "Course Run:"
-msgstr "Cours dispensé:"
+msgstr "Cours dispensé : "
 
 #: cms/templates/index.html:221
 msgid "This course run is currently being created."
@@ -1819,7 +1819,7 @@ msgstr "Le nouveau cours va être ajouté à votre liste de cours dans 5-10 minu
 #. the process will follow this text.
 #: cms/templates/index.html:271
 msgid "This re-run processing status:"
-msgstr "Statut du traitement de relancement:"
+msgstr "Statut du traitement de relancement : "
 
 #: cms/templates/index.html:274
 msgid "Configuration Error"
@@ -1874,7 +1874,7 @@ msgstr "{studio_name} est une solution hébergée pour nos partenaires du xConso
 #: cms/templates/index.html:394 cms/templates/index.html:419
 #: cms/templates/index.html:447
 msgid "Your Course Creator Request Status:"
-msgstr "Statut de votre requête de création de cours :"
+msgstr "Statut de votre requête de création de cours : "
 
 #: cms/templates/index.html:398
 msgid "Request the Ability to Create Courses"
@@ -1894,7 +1894,7 @@ msgstr "{studio_name} est une solution hébergée pour nos partenaires du xConso
 
 #: cms/templates/index.html:422 cms/templates/index.html:450
 msgid "Your Course Creator request is:"
-msgstr "Votre requête de création de cours est :"
+msgstr "Votre requête de création de cours est : "
 
 #: cms/templates/index.html:425
 msgid "Denied"
@@ -2181,7 +2181,7 @@ msgstr "Rôles d'accès à la bibliothèque"
 
 #: cms/templates/manage_users_lib.html:100
 msgid "There are three access roles for libraries: User, Staff, and Admin."
-msgstr "Il y a trois rôles d'accès pour les bibliothèques: User, Staff et Admin."
+msgstr "Il y a trois rôles d'accès pour les bibliothèques : User, Staff et Admin."
 
 #: cms/templates/manage_users_lib.html:101
 msgid ""
@@ -2585,7 +2585,7 @@ msgstr "Le URL de l'image de votre bannière"
 msgid ""
 "Please provide a valid path and name to your banner image (Note: only JPEG "
 "or PNG format supported)"
-msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre bannière (Note: seuls les formats JPEG ou PNG sont supportés)"
+msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre bannière (Note : seuls les formats JPEG ou PNG sont supportés)"
 
 #: cms/templates/settings.html:407
 msgid "Upload Course Banner Image"
@@ -2616,7 +2616,7 @@ msgstr "Le URL de l'image de votre vignette vidéo"
 msgid ""
 "Please provide a valid path and name to your video thumbnail image (Note: "
 "only JPEG or PNG format supported)"
-msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre vignette vidéo (Note: seuls les formats JPEG ou PNG sont supportés)"
+msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre vignette vidéo (Note : seuls les formats JPEG ou PNG sont supportés)"
 
 #: cms/templates/settings.html:440
 msgid "Upload Video Thumbnail Image"
@@ -2790,7 +2790,7 @@ msgstr "Définition manuelle des réglages"
 msgid ""
 "{strong_start}Warning{strong_end}: Do not modify these policies unless you "
 "are familiar with their purpose."
-msgstr "{strong_start}Attention{strong_end}: Ne modifiez pas ces règles si vous n'êtes pas familier avec leur utilisation."
+msgstr "{strong_start}Attention{strong_end} : Ne modifiez pas ces règles si vous n'êtes pas familier avec leur utilisation."
 
 #: cms/templates/settings_advanced.html:70
 msgid "Show Deprecated Settings"
@@ -2819,7 +2819,7 @@ msgid ""
 "{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
 " you use double quotation marks (\") around the string. Do not use single "
 "quotation marks (')."
-msgstr "{em_start}Note:{em_end} Quand vous insérez des chaînes de caractère en tant que valeur pour une politique, assurez vous que vous utilisez des guillemets (\") autour de la chaîne de caractère. N'utilisez pas de simples apostrophes (')."
+msgstr "{em_start}Note : {em_end} Quand vous insérez des chaînes de caractère en tant que valeur pour une politique, assurez vous que vous utilisez des guillemets (\") autour de la chaîne de caractère. N'utilisez pas de simples apostrophes (')."
 
 #: cms/templates/settings_graders.html:3
 msgid "Grading Settings"
@@ -2847,7 +2847,7 @@ msgstr "Paramètres d'admissibilité de crédit pour le cours"
 
 #: cms/templates/settings_graders.html:96
 msgid "Minimum Credit-Eligible Grade:"
-msgstr "Note de passage minimu pour l'admissibilité de crédit:"
+msgstr "Note de passage minimu pour l'admissibilité de crédit : "
 
 #: cms/templates/settings_graders.html:99
 msgid "Must be greater than or equal to the course passing grade"
@@ -2863,7 +2863,7 @@ msgstr "Dates limites, exigences et logistique autour de la notation du travail 
 
 #: cms/templates/settings_graders.html:114
 msgid "Grace Period on Deadline:"
-msgstr "délai supplémentaire après la date limite :"
+msgstr "délai supplémentaire après la date limite : "
 
 #: cms/templates/settings_graders.html:116
 msgid "Leeway on due dates"
@@ -3028,7 +3028,7 @@ msgid ""
 "{em_start}Video ID{em_end} field. The video can play in the LMS as soon as "
 "its status is {em_start}Ready{em_end}, although processing may not be "
 "complete for all encodings and all video hosting sites."
-msgstr "Quand le statut d'un fichier est {em_start}Prêt{em_end}, vous pouvez ajouter ce vidéo dans un composant de votre cours. Copier l'identifiant unique du vidéo. Dans un autre fenêtre du fureteur, sur la page du plan de cours, créer ou trouver un composant vidéo pour faire jouer ce vidéo. Éditer le composant vidéo afin d'y coller l'identifiant dans le champ avancé {em_start}Video ID{em_end}. Le vidéo peut s'exécuter dans le LMS dès que son statut est {em_start}Prêt{em_end}, même si le traitement n'est pas encore complet pour tous les encodages et tous les sites d'hébergement de vidéos."
+msgstr "Quand le statut d'un fichier est {em_start}Prêt{em_end}, vous pouvez ajouter ce vidéo dans un composant de votre cours. Copier l'identifiant unique du vidéo. Dans un autre fenêtre du navigateur, sur la page du plan de cours, créer ou trouver un composant vidéo pour faire jouer ce vidéo. Éditer le composant vidéo afin d'y coller l'identifiant dans le champ avancé {em_start}Video ID{em_end}. Le vidéo peut s'exécuter dans le LMS dès que son statut est {em_start}Prêt{em_end}, même si le traitement n'est pas encore complet pour tous les encodages et tous les sites d'hébergement de vidéos."
 
 #: cms/templates/visibility_editor.html:19
 msgid "No content groups exist"
@@ -3052,11 +3052,11 @@ msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The Unit this component is "
 "contained in is hidden from students. Visibility settings here will be "
 "trumped by this."
-msgstr "{screen_reader_start}Avertissement:{screen_reader_end} L'unité de ce composant est contenu est caché des étudiants. Les paramètres de visibilité vont être remplacés par cela."
+msgstr "{screen_reader_start}Avertissement : {screen_reader_end} L'unité de ce composant est contenu est caché des étudiants. Les paramètres de visibilité vont être remplacés par cela."
 
 #: cms/templates/visibility_editor.html:50
 msgid "Make visible to:"
-msgstr "Rendre visible pour :"
+msgstr "Rendre visible pour : "
 
 #: cms/templates/visibility_editor.html:58
 msgid "All Students and Staff"
@@ -3096,7 +3096,7 @@ msgstr "Les apprenants qui ont besoin d'une vérification doivent passer le poin
 msgid ""
 "Thank you for signing up for {studio_name}! To activate your account, please"
 " copy and paste this address into your web browser's address bar:"
-msgstr "Merci pour votre inscription à {studio_name}! Pour activer votre compte cliquer sur le lien ci-dessous ou copier coller le lien dans la barre de recherche de votre fureteur:"
+msgstr "Merci pour votre inscription à {studio_name}! Pour activer votre compte cliquer sur le lien ci-dessous ou copier coller le lien dans la barre de recherche de votre navigateur : "
 
 #: cms/templates/emails/activation_email.txt:11
 msgid ""
@@ -3183,7 +3183,7 @@ msgstr "EdX, Open edX, Studio, and the edX and Open edX logos are registered tra
 
 #: cms/templates/widgets/header.html:39
 msgid "Current Course:"
-msgstr "Cours actuel :"
+msgstr "Cours actuel : "
 
 #: cms/templates/widgets/header.html:47 cms/templates/widgets/header.html:150
 msgid "Course Navigation"
@@ -3207,7 +3207,7 @@ msgstr "Exporter"
 
 #: cms/templates/widgets/header.html:142
 msgid "Current Library:"
-msgstr "Bibliothèque actuelle :"
+msgstr "Bibliothèque actuelle : "
 
 #: cms/templates/widgets/header.html:154
 msgid "Library"
@@ -3326,7 +3326,7 @@ msgstr "nom"
 #: cms/templates/widgets/user_dropdown.html:13
 #: cms/templates/widgets/user_dropdown.html:37
 msgid "Currently signed in as:"
-msgstr "Actuellement connecté en tant que :"
+msgstr "Actuellement connecté en tant que : "
 
 #: cms/templates/widgets/user_dropdown.html:51
 msgid "Maintenance"

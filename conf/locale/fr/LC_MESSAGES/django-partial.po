@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:04+0000\n"
-"PO-Revision-Date: 2016-08-25 20:04+0000\n"
+"POT-Creation-Date: 2016-09-01 11:26+0000\n"
+"PO-Revision-Date: 2016-09-03 19:36+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -223,7 +223,7 @@ msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to submit "
 "photos for verification.  This appies ONLY to modes that require "
 "verification."
-msgstr "OPTIONEL: Après cette date/heure, les utilisateurs ne pourront plus soumettre des photos pour vérification. Ceci s'applique UNIQUEMENT aux modes qui demandent une vérification."
+msgstr "OPTIONEL : Après cette date/heure, les utilisateurs ne pourront plus soumettre des photos pour vérification. Ceci s'applique UNIQUEMENT aux modes qui demandent une vérification."
 
 #: common/djangoapps/course_modes/helpers.py:38
 msgid "Your verification is pending"
@@ -231,7 +231,7 @@ msgstr "Votre vérification est en attente"
 
 #: common/djangoapps/course_modes/helpers.py:39
 msgid "Verified: Pending Verification"
-msgstr "Vérifiée: en attente de vérification"
+msgstr "Vérifiée : en attente de vérification"
 
 #: common/djangoapps/course_modes/helpers.py:41
 msgid "ID verification pending"
@@ -304,14 +304,14 @@ msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to enroll in "
 "this mode. Leave this blank if users can enroll in this mode until "
 "enrollment closes for the course."
-msgstr "OPTIONEL: Après cette date/heure, les utilisateurs ne pourront plus s'inscrire dans ce mode. Laisser vide si les utilisateurs peuvent s'inscrire dans ce mode jusqu'à la fin des inscriptions pour ce cours."
+msgstr "OPTIONEL : Après cette date/heure, les utilisateurs ne pourront plus s'inscrire dans ce mode. Laisser vide si les utilisateurs peuvent s'inscrire dans ce mode jusqu'à la fin des inscriptions pour ce cours."
 
 #: common/djangoapps/course_modes/models.py:95
 msgid ""
 "OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
 "ecommerce service.  Leave this blank if the course has not yet been migrated"
 " to the ecommerce service."
-msgstr "OPTIONEL: Ceci est le SKU (stock keeping unit) de ce mode pour le service externe de commerce électronique.  Laisser vide si le cours n'a pas encore été migré sur le service de commerce électronique."
+msgstr "OPTIONEL : Ceci est le SKU (stock keeping unit) de ce mode pour le service externe de commerce électronique.  Laisser vide si le cours n'a pas encore été migré sur le service de commerce électronique."
 
 #: common/djangoapps/course_modes/models.py:108
 msgid ""
@@ -368,7 +368,7 @@ msgstr "Code de langue non fourni"
 
 #: common/djangoapps/dark_lang/views.py:122
 msgid "Language set to language code: {preview_language_code}"
-msgstr "Langue initialisée sur le code de langue: {preview_language_code}"
+msgstr "Langue initialisée sur le code de langue : {preview_language_code}"
 
 #: common/djangoapps/dark_lang/views.py:156
 msgid "Language reset to the default language code"
@@ -376,7 +376,7 @@ msgstr "Langue réinitialisée sur le code de langue de défaut"
 
 #: common/djangoapps/dark_lang/views.py:158
 msgid "Language reset to user's preference: {preview_language_code}"
-msgstr "Langue réinitialisée selon la préférence de l'utilisateur: {preview_language_code}"
+msgstr "Langue réinitialisée selon la préférence de l'utilisateur : {preview_language_code}"
 
 #: common/djangoapps/django_comment_common/models.py:17
 msgid "Administrator"
@@ -458,7 +458,7 @@ msgid ""
 "        Your university identity server did not return your ID information to us.\n"
 "        Please try logging in again.  (You may need to restart your browser.)\n"
 "        "
-msgstr "\nVotre serveur d'identité universitaire ne nous a pas retourné vos informations d'identification.\nS'il vous plaît essayez de vous connecter à nouveau. (Vous devrez peut-être redémarrer votre fureteur.) "
+msgstr "\nVotre serveur d'identité universitaire ne nous a pas retourné vos informations d'identification.\nS'il vous plaît essayez de vous connecter à nouveau. (Vous devrez peut-être redémarrer votre navigateur.) "
 
 #: common/djangoapps/student/admin.py:161
 msgid "User profile"
@@ -496,9 +496,7 @@ msgstr "Votre nom complet doit contenir au minimum deux caractères"
 msgid ""
 "Usernames must contain only letters, numbers, underscores (_), and hyphens "
 "(-)."
-msgstr ""
-"Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, souligné"
-" (_) et trait d'union (-)."
+msgstr "Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, souligné (_) et trait d'union (-)."
 
 #: common/djangoapps/student/forms.py:125
 #, python-format
@@ -555,7 +553,7 @@ msgid "Username and password fields cannot match"
 msgstr "Le nom d'utilisateur et le mot de passe ne peuvent pas être identiques "
 
 #: common/djangoapps/student/forms.py:223
-#: common/djangoapps/student/views.py:2161
+#: common/djangoapps/student/views.py:2169
 msgid "Password: "
 msgstr "Mot de passe : "
 
@@ -571,7 +569,7 @@ msgstr "Il semblerait que {email} appartient à un compte existant. Réessayez a
 
 #: common/djangoapps/student/management/commands/manage_group.py:29
 msgid "Removed group: \"{}\""
-msgstr "Supprimer groupe: \"{}\""
+msgstr "Supprimer groupe : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:31
 msgid "Did not find a group with name \"{}\" - skipping."
@@ -579,15 +577,15 @@ msgstr "N'a pas trouvé un groupe avec le nom \"{}\" - on passe."
 
 #: common/djangoapps/student/management/commands/manage_group.py:53
 msgid "Invalid group name: \"{group_name}\". {messages}"
-msgstr "Non de groupe invalide: \"{group_name}\". {messages}"
+msgstr "Non de groupe invalide : \"{group_name}\". {messages}"
 
 #: common/djangoapps/student/management/commands/manage_group.py:59
 msgid "Created new group: \"{}\""
-msgstr "Nouveau groupe créé: \"{}\""
+msgstr "Nouveau groupe créé : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:61
 msgid "Found existing group: \"{}\""
-msgstr "Groupe existant trouvé: \"{}\""
+msgstr "Groupe existant trouvé : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_group.py:71
 msgid "Adding {codenames} permissions to group \"{group}\""
@@ -601,7 +599,7 @@ msgstr "Retrait des permissions {codenames} au groupe \"{group}\""
 msgid ""
 "Invalid permission option: \"{}\". Please specify permissions using the "
 "format: app_label:model_name:permission_codename."
-msgstr "Option de permission invalide: \"{}\". S'il vous plaît indiquer les permissions en utilisant le format: app_label:model_name:permission_codename."
+msgstr "Option de permission invalide : \"{}\". S'il vous plaît indiquer les permissions en utilisant le format : app_label:model_name:permission_codename."
 
 #: common/djangoapps/student/management/commands/manage_group.py:117
 msgid ""
@@ -625,15 +623,15 @@ msgstr "N'a pas trouvé un utilisateur avec le nom d'utilisateur \"{}\" - passe.
 
 #: common/djangoapps/student/management/commands/manage_user.py:70
 msgid "Removing user: \"{}\""
-msgstr "Suppression de l'utilisateur \"{}\""
+msgstr "Suppression de l'utilisateur : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:96
 msgid "Created new user: \"{}\""
-msgstr "Création du nouvel utilisateur: \"{}\""
+msgstr "Création du nouvel utilisateur : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:99
 msgid "Found existing user: \"{}\""
-msgstr "Utilisateur existant trouvé: \"{}\""
+msgstr "Utilisateur existant trouvé : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:108
 msgid "Setting unusable password for user \"{}\""
@@ -641,7 +639,7 @@ msgstr "Réglage de mot de passe inutilisable pour l'utilisateur \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:116
 msgid "Created new profile for user: \"{}\""
-msgstr "Création du nouveau profil pour l'utilisateur: \"{}\""
+msgstr "Création du nouveau profil pour l'utilisateur : \"{}\""
 
 #: common/djangoapps/student/management/commands/manage_user.py:126
 msgid "Could not find a group named \"{}\" - skipping."
@@ -740,7 +738,7 @@ msgid ""
 "Short identifier for the LinkedIn partner used in the tracking code.  "
 "(Example: 'edx')  If no value is provided, tracking codes will not be sent "
 "to LinkedIn."
-msgstr "Identifiant court pour le partenaire LinkedIn utilisé dans le code de suivi.  (Exemple: 'edx')  Si aucune valeur est fournie, les codes de suivi ne seront pas envoyés à LinkedIn."
+msgstr "Identifiant court pour le partenaire LinkedIn utilisé dans le code de suivi.  (Exemple : 'edx')  Si aucune valeur est fournie, les codes de suivi ne seront pas envoyés à LinkedIn."
 
 #: common/djangoapps/student/models.py:1982
 msgid "{platform_name} Certificate for {course_name}"
@@ -785,134 +783,134 @@ msgstr "Le cours que vous regardez ne commence pas avant {date}."
 msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr "Le cours que vous regardez est fermé aux inscriptions depuis {date}."
 
-#: common/djangoapps/student/views.py:1026
+#: common/djangoapps/student/views.py:1028
 msgid "Course id not specified"
 msgstr "L'identifiant du cours n'est pas spécifié"
 
-#: common/djangoapps/student/views.py:1037
+#: common/djangoapps/student/views.py:1039
 #: lms/djangoapps/support/views/refund.py:62
 msgid "Invalid course id"
 msgstr "Identifiant de cours invalide"
 
-#: common/djangoapps/student/views.py:1048
+#: common/djangoapps/student/views.py:1050
 msgid "Course id is invalid"
 msgstr "L'identifiant du cours est invalide"
 
-#: common/djangoapps/student/views.py:1082
+#: common/djangoapps/student/views.py:1084
 msgid "Could not enroll"
 msgstr "Ne peux vous inscrire"
 
-#: common/djangoapps/student/views.py:1098
+#: common/djangoapps/student/views.py:1100
 msgid "You are not enrolled in this course"
 msgstr "Vous n'êtes pas inscrit dans ce cours"
 
-#: common/djangoapps/student/views.py:1102
+#: common/djangoapps/student/views.py:1104
 msgid "Your certificate prevents you from unenrolling from this course"
 msgstr "Votre attestation ne vous permet pas de vous désinscrire de ce cours"
 
-#: common/djangoapps/student/views.py:1107
+#: common/djangoapps/student/views.py:1109
 msgid "Enrollment action is invalid"
 msgstr "Action d'inscription invalide"
 
-#: common/djangoapps/student/views.py:1148
+#: common/djangoapps/student/views.py:1150
 msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
 msgstr "Vous êtes connecté avec succès à votre compte {provider_name}, mais ce compte n'est pas encore lié avec un compte {platform_name}."
 
-#: common/djangoapps/student/views.py:1156
+#: common/djangoapps/student/views.py:1158
 msgid ""
 "Use your {platform_name} username and password to log into {platform_name} "
 "below, and then link your {platform_name} account with {provider_name} from "
 "your dashboard."
 msgstr "Utilisez votre nom d'utilisateur et mot de passe {platform_name} pour vous connecter sur {platform_name} ci-dessous, et ensuite liez votre compte {platform_name} avec {provider_name} à partir de votre tableau de bord."
 
-#: common/djangoapps/student/views.py:1164
+#: common/djangoapps/student/views.py:1166
 msgid ""
 "If you don't have an {platform_name} account yet, click "
 "<strong>Register</strong> at the top of the page."
 msgstr "Si vous n'avez pas encore un compte {platform_name}, cliquer <strong>Inscription</strong> au haut de la page."
 
-#: common/djangoapps/student/views.py:1178
+#: common/djangoapps/student/views.py:1180
 msgid "There was an error receiving your login information. Please email us."
 msgstr "Il y avait une erreur avec vos informations de connexion. S'il vous plaît écrivez-nous."
 
-#: common/djangoapps/student/views.py:1210
+#: common/djangoapps/student/views.py:1212
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
 msgstr "Ce compte a été temporairement bloqué en raison d'erreurs de connexions répétées. Essayez plus tard."
 
-#: common/djangoapps/student/views.py:1221
+#: common/djangoapps/student/views.py:1223
 msgid ""
 "Your password has expired due to password policy on this account. You must "
 "reset your password before you can log in again. Please click the \"Forgot "
 "Password\" link on this page to reset your password before logging in again."
 msgstr "Votre mot de passe a expiré en raison de la politique de mot de passe sur ce compte. Vous devez réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau. S'il vous plaît cliquer le lien \"Oublié votre mot de passe\" sur cette page afin réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau."
 
-#: common/djangoapps/student/views.py:1238
+#: common/djangoapps/student/views.py:1240
 msgid "Too many failed login attempts. Try again later."
 msgstr "Trop de tentatives d'accès refusées. Essayer plus tard."
 
-#: common/djangoapps/student/views.py:1256
+#: common/djangoapps/student/views.py:1258
 msgid "Email or password is incorrect."
 msgstr "Adresse courriel ou mot de passe incorrect."
 
-#: common/djangoapps/student/views.py:1331
+#: common/djangoapps/student/views.py:1333
 msgid ""
 "Before you sign in, you need to activate your account. We have sent you an "
 "email message with instructions for activating your account."
 msgstr "Avant de vous connecter, vous devez activer votre compte. Nous vous avons envoyé un courriel avec des instructions pour activer votre compte."
 
-#: common/djangoapps/student/views.py:1413
+#: common/djangoapps/student/views.py:1415
 msgid "Please enter a username"
 msgstr "Entrer un nom d'utilisateur"
 
-#: common/djangoapps/student/views.py:1418
+#: common/djangoapps/student/views.py:1420
 msgid "Please choose an option"
 msgstr "Choisir une option"
 
-#: common/djangoapps/student/views.py:1425
+#: common/djangoapps/student/views.py:1427
 msgid "User with username {} does not exist"
 msgstr "L'utilisateur avec le nom d'utilisateur {} n'existe pas"
 
-#: common/djangoapps/student/views.py:1433
+#: common/djangoapps/student/views.py:1435
 msgid "Successfully disabled {}'s account"
 msgstr "Compte {} désactivé avec succès"
 
-#: common/djangoapps/student/views.py:1437
+#: common/djangoapps/student/views.py:1439
 msgid "Successfully reenabled {}'s account"
 msgstr "Compte {} réactivé avec succès"
 
-#: common/djangoapps/student/views.py:1440
+#: common/djangoapps/student/views.py:1442
 msgid "Unexpected account status"
 msgstr "Statut de compte innatendu"
 
-#: common/djangoapps/student/views.py:1523
+#: common/djangoapps/student/views.py:1525
 msgid "An account with the Public Username '{username}' already exists."
 msgstr "Un compte avec le même nom d'utilisateur '{username}' existe déjà."
 
-#: common/djangoapps/student/views.py:1528
+#: common/djangoapps/student/views.py:1530
 msgid "An account with the Email '{email}' already exists."
 msgstr "Un compte avec l'adresse '{email}' existe déjà."
 
-#: common/djangoapps/student/views.py:1670
+#: common/djangoapps/student/views.py:1672
 msgid "An access_token is required when passing value ({}) for provider."
 msgstr "Un jeton d'accès est requis quand  la valeur ({}) est passée au le fournisseur"
 
-#: common/djangoapps/student/views.py:1681
+#: common/djangoapps/student/views.py:1683
 msgid "The provided access_token is already associated with another user."
 msgstr "Le jeton d'accès fourni est déjà associé à un autre utilisateur."
 
-#: common/djangoapps/student/views.py:1683
+#: common/djangoapps/student/views.py:1685
 msgid "The provided access_token is not valid."
 msgstr "Le jeton d'accès fourni n'est pas valide."
 
-#: common/djangoapps/student/views.py:2082
+#: common/djangoapps/student/views.py:2090
 msgid "Unknown error. Please e-mail us to let us know how it happened."
 msgstr "Erreur inconnue. S'il vous plaît nous écrire afin de nous laisser savoir comment cela est arrivé."
 
-#: common/djangoapps/student/views.py:2172
+#: common/djangoapps/student/views.py:2180
 msgid ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct password before reusing a previous password."
@@ -922,7 +920,7 @@ msgid_plural ""
 msgstr[0] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num} mot de passe distinct avant de réutiliser un mot de passe précédemment utilisé."
 msgstr[1] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num} mot de passe distincts avant de réutiliser un mot de passe précédemment utilisé."
 
-#: common/djangoapps/student/views.py:2183
+#: common/djangoapps/student/views.py:2191
 msgid ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "day must elapse between password resets."
@@ -932,31 +930,31 @@ msgid_plural ""
 msgstr[0] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} jour doivent s'écouler entre les réinitialisations de mot de passe."
 msgstr[1] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} jours doivent s'écouler entre les réinitialisations de mot de passe."
 
-#: common/djangoapps/student/views.py:2224
+#: common/djangoapps/student/views.py:2232
 msgid "Password reset unsuccessful"
 msgstr "Réinitialisation de mot de passe infructueuse"
 
-#: common/djangoapps/student/views.py:2266
+#: common/djangoapps/student/views.py:2274
 msgid "No inactive user with this e-mail exists"
 msgstr "Aucun utilisateur inactif avec ce courriel n'existe"
 
-#: common/djangoapps/student/views.py:2291
+#: common/djangoapps/student/views.py:2299
 msgid "Unable to send reactivation email"
 msgstr "Impossible d'envoyer le courriel de réactivation"
 
-#: common/djangoapps/student/views.py:2305
+#: common/djangoapps/student/views.py:2313
 msgid "Valid e-mail address required."
 msgstr "Adresse courriel valide nécessaire."
 
-#: common/djangoapps/student/views.py:2308
+#: common/djangoapps/student/views.py:2316
 msgid "Old email is the same as the new email."
 msgstr "L'ancien courriel est le même que le nouveau courriel."
 
-#: common/djangoapps/student/views.py:2311
+#: common/djangoapps/student/views.py:2319
 msgid "An account with this e-mail already exists."
 msgstr "Un compte avec cette adresse courriel existe déjà."
 
-#: common/djangoapps/student/views.py:2354
+#: common/djangoapps/student/views.py:2362
 msgid "Unable to send email activation link. Please try again later."
 msgstr "Impossible d'envoyer le lien d'activation par courriel. Essayez plus tard."
 
@@ -1343,7 +1341,7 @@ msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
 msgstr[0] "Le fichier doit se terminer avec l'extension '{file_types}'."
-msgstr[1] "Le fichier doit se terminer avec une des extensions suivantes: '{file_types}'."
+msgstr[1] "Le fichier doit se terminer avec une des extensions suivantes : '{file_types}'."
 
 #: common/djangoapps/util/file.py:67
 msgid "Maximum upload file size is {file_size} bytes."
@@ -1501,7 +1499,7 @@ msgstr "Cette réponse est en traitement."
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: common/lib/capa/capa/inputtypes.py:466
 msgid "ChoiceGroup: unexpected tag {tag_name}"
-msgstr "ChoiceGroup: étiquette innatendue {tag_name}"
+msgstr "ChoiceGroup : étiquette inattendue {tag_name}"
 
 #: common/lib/capa/capa/inputtypes.py:479
 #: common/lib/capa/capa/inputtypes.py:1717
@@ -1551,7 +1549,7 @@ msgstr "Aucune formule spécifiée"
 
 #: common/lib/capa/capa/inputtypes.py:1202
 msgid "Couldn't parse formula: {error_msg}"
-msgstr "Impossible d'analyser la formule: {error_msg}"
+msgstr "Impossible d'analyser la formule : {error_msg}"
 
 #: common/lib/capa/capa/inputtypes.py:1207
 #: common/lib/capa/capa/inputtypes.py:1300
@@ -1564,7 +1562,7 @@ msgstr "Désolé, nous ne pouvons analyser la formule"
 
 #: common/lib/capa/capa/inputtypes.py:1695
 msgid "{input_type}: unexpected tag {tag_name}"
-msgstr "{input_type}: étiquette innatendue {tag_name}"
+msgstr "{input_type} : étiquette inattendue {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
 #: common/lib/capa/capa/inputtypes.py:1781
@@ -1651,11 +1649,11 @@ msgstr "Vous ne pouvez utiliser les variables ({bad_variables}) dans les problè
 
 #: common/lib/capa/capa/responsetypes.py:1771
 msgid "factorial function evaluated outside its domain:'{student_answer}'"
-msgstr "fonction factorielle évaluée en dehors de son domaine: '{student_answer}'"
+msgstr "fonction factorielle évaluée en dehors de son domaine : '{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py:1778
 msgid "Invalid math syntax: '{student_answer}'"
-msgstr "Syntaxe mathématique invalide: '{student_answer}'"
+msgstr "Syntaxe mathématique invalide : '{student_answer}'"
 
 #: common/lib/capa/capa/responsetypes.py:1809
 msgid "You may not use complex numbers in range tolerance problems"
@@ -1668,7 +1666,7 @@ msgstr "Vous ne pouvez pas utiliser les nombres complexes dans des problèmes de
 #: common/lib/capa/capa/responsetypes.py:1817
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
-msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème: limite complexe."
+msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème : limite complexe."
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not
@@ -1676,7 +1674,7 @@ msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à ce
 #: common/lib/capa/capa/responsetypes.py:1823
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
-msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème: limite vide."
+msgstr "Il y avait un problème avec la réponse de l'équipe pédagogique à ce problème : limite vide."
 
 #: common/lib/capa/capa/responsetypes.py:1976
 msgid "Text Input"
@@ -1706,7 +1704,7 @@ msgstr "Aucune réponse entrée!"
 
 #: common/lib/capa/capa/responsetypes.py:2549
 msgid "CustomResponse: check function returned an invalid dictionary!"
-msgstr "CustomResponse: la fonction check a retourné un dictionnaire invalide!"
+msgstr "CustomResponse : la fonction check a retourné un dictionnaire invalide!"
 
 #: common/lib/capa/capa/responsetypes.py:2643
 msgid "Symbolic Math Input"
@@ -1716,7 +1714,7 @@ msgstr "Entrée mathématique symbolique"
 #. translated.
 #: common/lib/capa/capa/responsetypes.py:2674
 msgid "An error occurred with SymbolicResponse. The error was: {error_msg}"
-msgstr "Une erreur est survenue avec SymbolicResponse. L'erreur était: {error_msg}"
+msgstr "Une erreur est survenue avec SymbolicResponse. L'erreur était : {error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py:2712
 msgid "Code Input"
@@ -1728,13 +1726,13 @@ msgstr "Aucue réponse fournie."
 
 #: common/lib/capa/capa/responsetypes.py:2789
 msgid "Error: No grader has been set up for this problem."
-msgstr "Erreur: Aucun évaluateur n'a été initialisé pour ce problème."
+msgstr "Erreur : Aucun évaluateur n'a été initialisé pour ce problème."
 
 #: common/lib/capa/capa/responsetypes.py:2850
 msgid ""
 "Unable to deliver your submission to grader (Reason: {error_msg}). Please "
 "try again later."
-msgstr "Impossible de transmettre votre soumission à l'évaluateur (Rason: {error_msg}). S'il vous plaît essayer de nouveau plus tard."
+msgstr "Impossible de transmettre votre soumission à l'évaluateur (Raison : {error_msg}). S'il vous plaît essayer de nouveau plus tard."
 
 #. Translators: 'grader' refers to the edX automatic code grader.
 #: common/lib/capa/capa/responsetypes.py:2880
@@ -1751,21 +1749,21 @@ msgstr "Entré d'expression mathématique"
 
 #: common/lib/capa/capa/responsetypes.py:3227
 msgid "Invalid input: {bad_input} not permitted in answer."
-msgstr "Entrée invalide: {bad_input} n'est pas permis dans la réponse."
+msgstr "Entrée invalide : {bad_input} n'est pas permis dans la réponse."
 
 #: common/lib/capa/capa/responsetypes.py:3242
 msgid ""
 "factorial function not permitted in answer for this problem. Provided answer"
 " was: {bad_input}"
-msgstr "fonction factorielle non permise dans la réponse pour ce problème. La réponse fournie était: {bad_input}"
+msgstr "fonction factorielle non permise dans la réponse pour ce problème. La réponse fournie était : {bad_input}"
 
 #: common/lib/capa/capa/responsetypes.py:3249
 msgid "Invalid input: Could not parse '{bad_input}' as a formula."
-msgstr "Entrée invalide: Impossible d'analyser '{bad_input}' comme une formule."
+msgstr "Entrée invalide : Impossible d'analyser '{bad_input}' comme une formule."
 
 #: common/lib/capa/capa/responsetypes.py:3257
 msgid "Invalid input: Could not parse '{bad_input}' as a formula"
-msgstr "Entrée invalide: Impossible d'analyser '{bad_input}' comme une formule"
+msgstr "Entrée invalide : Impossible d'analyser '{bad_input}' comme une formule"
 
 #: common/lib/capa/capa/responsetypes.py:3365
 msgid "Circuit Schematic Builder"
@@ -1775,7 +1773,7 @@ msgstr "Constructeur de circuit schématique"
 #. translated.
 #: common/lib/capa/capa/responsetypes.py:3402
 msgid "Error in evaluating SchematicResponse. The error was: {error_msg}"
-msgstr "Erreur lors de l'évaluation de SchematicResponse. L'erreur était: {error_msg}"
+msgstr "Erreur lors de l'évaluation de SchematicResponse. L'erreur était : {error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py:3443
 msgid "Image Mapped Input"
@@ -2036,7 +2034,7 @@ msgstr "Vérification en cours..."
 
 #: common/lib/xmodule/xmodule/capa_base.py:570
 msgid "Warning: The problem has been reset to its initial state!"
-msgstr "Avertissement: ce problème a été réinitialisé à son statut initial!"
+msgstr "Avertissement : ce problème a été réinitialisé à son statut initial!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
@@ -2044,7 +2042,7 @@ msgstr "Avertissement: ce problème a été réinitialisé à son statut initial
 msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
-msgstr "Le statut du problème  a été corrumpu par une soumission invalide. La soumission était composée de:"
+msgstr "Le statut du problème  a été corrumpu par une soumission invalide. La soumission était composée de : "
 
 #: common/lib/xmodule/xmodule/capa_base.py:581
 msgid "If this error persists, please contact the course staff."
@@ -2052,13 +2050,13 @@ msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
 
 #: common/lib/xmodule/xmodule/capa_base.py:611
 msgid "Hint: "
-msgstr "Indice: "
+msgstr "Indice : "
 
 #. Translators: e.g. "Hint 1 of 3" meaning we are showing the first of three
 #. hints.
 #: common/lib/xmodule/xmodule/capa_base.py:614
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr "Indice ({hint_num} de {hints_count}): "
+msgstr "Indice ({hint_num} de {hints_count}) : "
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -2085,7 +2083,7 @@ msgstr "Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il re
 #. Translators: {msg} will be replaced with a problem's error message.
 #: common/lib/xmodule/xmodule/capa_base.py:1089
 msgid "Error: {msg}"
-msgstr "Erreur: {msg}"
+msgstr "Erreur : {msg}"
 
 #: common/lib/xmodule/xmodule/capa_base.py:1206
 msgid "{num_hour} hour"
@@ -2730,7 +2728,7 @@ msgid ""
 " This can be set to one of three values: 'both' (show in catalog and allow "
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
-msgstr "Définit les autorisations d'accès pour afficher le cours dans le catalogue de cours. Il existe trois valeurs possibles: 'both' (afficher dans le catalogue et permettre l'accès à la page d'information du cours), 'about' (uniquement permettre l'accès à la page d'information du cours), 'none' (ne pas afficher dans le catalogue et ne pas permettre l'accès à la page d'information du cours)."
+msgstr "Définit les autorisations d'accès pour afficher le cours dans le catalogue de cours. Il existe trois valeurs possibles : 'both' (afficher dans le catalogue et permettre l'accès à la page d'information du cours), 'about' (uniquement permettre l'accès à la page d'information du cours), 'none' (ne pas afficher dans le catalogue et ne pas permettre l'accès à la page d'information du cours)."
 
 #: common/lib/xmodule/xmodule/course_module.py:662
 msgid "Both"
@@ -2785,7 +2783,7 @@ msgid ""
 "provide a URL (such as the URL to a course About page) that social media "
 "sites can link to. URLs must be fully qualified. For example: "
 "http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
-msgstr "Si le partage du tableau de bord sur les réseaux sociaux et les URLs de cours personnalisés sont activés, vous pouvez fournir un URL (comme le URL d'une page d'information de cours) que les médias sociaux peuvent partager. Les URLs doivent être complets. Par exemple: http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
+msgstr "Si le partage du tableau de bord sur les réseaux sociaux et les URLs de cours personnalisés sont activés, vous pouvez fournir un URL (comme le URL d'une page d'information de cours) que les médias sociaux peuvent partager. Les URLs doivent être complets. Par exemple : http://www.edx.org/course/Introduction-to-MOOCs-ITM001"
 
 #: common/lib/xmodule/xmodule/course_module.py:705
 msgid "Course Language"
@@ -2809,7 +2807,7 @@ msgid ""
 "provide a list of 2 topics, enter the configuration in this format: "
 "{example_format}. In \"id\" values, the only supported special characters "
 "are underscore, hyphen, and period."
-msgstr "Indiquer la taille maximum de l'équipe et les sujets pour les équipes à l'intérieur de la paire d'accolades fournies. Assurez-vous que vous joignez tous les jeux de valeurs de sujets au sein d'un paire de crochets, avec une virgule après l'accolade fermant pour chaque sujet, et une autre virgule après le crochet fermant. Par exemple, pour indiquer que les équipes peuvent avoir au maximum 5 participants et fournir une liste de 2 sujets, entrer la configuration dans ce format: {example_format}. Dans les valeurs \"id\", les seuls caractères spéciaux supportés sont soulignement, trait d'union, et point."
+msgstr "Indiquer la taille maximum de l'équipe et les sujets pour les équipes à l'intérieur de la paire d'accolades fournies. Assurez-vous que vous joignez tous les jeux de valeurs de sujets au sein d'un paire de crochets, avec une virgule après l'accolade fermant pour chaque sujet, et une autre virgule après le crochet fermant. Par exemple, pour indiquer que les équipes peuvent avoir au maximum 5 participants et fournir une liste de 2 sujets, entrer la configuration dans ce format : {example_format}. Dans les valeurs \"id\", les seuls caractères spéciaux supportés sont soulignement, trait d'union, et point."
 
 #: common/lib/xmodule/xmodule/course_module.py:734
 msgid "Enable Proctored Exams"
@@ -3022,7 +3020,7 @@ msgstr "Onglet de défaut des annotations"
 msgid ""
 "Select which tab will be the default in the annotations table: myNotes, "
 "Instructor, or Public."
-msgstr "Sélectionner quel onglet sera le défaut dans la table des annotations: myNotes, Instructor, ou Public."
+msgstr "Sélectionner quel onglet sera le défaut dans la table des annotations : myNotes, Instructor, ou Public."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py:78
 #: common/lib/xmodule/xmodule/textannotation_module.py:79
@@ -3049,7 +3047,7 @@ msgstr "Mode pour l'outil d'annotation"
 #: common/lib/xmodule/xmodule/videoannotation_module.py:79
 msgid ""
 "Type in number corresponding to following modes:  'instructor' or 'everyone'"
-msgstr "Entrer un nombre correspondat aux modes suivants:  'instructeur' ou 'tous'"
+msgstr "Entrer un nombre correspondat aux modes suivants :  'instructeur' ou 'tous'"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py:121
 #: common/lib/xmodule/xmodule/textannotation_module.py:114
@@ -3330,13 +3328,13 @@ msgstr "Sélectionner vrai (true) pour permettre aux systèmes tierces de poster
 msgid ""
 "Could not parse custom parameter: {custom_parameter}. Should be \"x=y\" "
 "string."
-msgstr "Impossible d'analyser le paramètre personnalisé: {custom_parameter}. Devrait être une chaîne \"x=y\"."
+msgstr "Impossible d'analyser le paramètre personnalisé : {custom_parameter}. Devrait être une chaîne \"x=y\"."
 
 #: common/lib/xmodule/xmodule/lti_module.py:876
 msgid ""
 "Could not parse LTI passport: {lti_passport}. Should be \"id:key:secret\" "
 "string."
-msgstr "Impossible d'analyser le passeport LTI: {lti_passport}. Devrait être une chaîne \"id:key:secret\"."
+msgstr "Impossible d'analyser le passeport LTI : {lti_passport}. Devrait être une chaîne \"id:key:secret\"."
 
 #: common/lib/xmodule/xmodule/mixin.py:24
 msgid "License"
@@ -3503,7 +3501,7 @@ msgid ""
 "Enter the video ID from the Video Uploads page and one or more transcript "
 "files in the following format: {format}. For example, an entry for a video "
 "with two transcripts looks like this: {example}"
-msgstr "Identifier un vidéo, d'une durée de 5 à 10 secondes, à jouer avant les vidéos du cours. Entrer l'identifiant du vidéo de la page Téléversements de vidéos et une ou plusieurs fichiers de transcriptions dans le format suivant: {format}. Par exemple, une entrée pour une vidéo avec deux transcriptions ressemblerait à ceci: {example}"
+msgstr "Identifier un vidéo, d'une durée de 5-10 secondes, à jouer avant les vidéos du cours. Entrer l'identifiant du vidéo de la page Téléversements de vidéos et une ou plusieurs fichiers de transcriptions dans le format suivant : {format}. Par exemple, une entrée pour une vidéo avec deux transcriptions ressemblerait à ceci : {example}"
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:188
 msgid "Show Reset Button for Problems"
@@ -3664,7 +3662,7 @@ msgid ""
 "The configuration defines how users are grouped for this content experiment."
 " Caution: Changing the group configuration of a student-visible experiment "
 "will impact the experiment data."
-msgstr "Cette configuration definie comment les utilisateurs sont regroupés pour les tests de contenu. Attention: Modifier la configuration de groupe d'un test visible par les étudiants va impacter les données de test."
+msgstr "Cette configuration definie comment les utilisateurs sont regroupés pour les tests de contenu. Attention : Modifier la configuration de groupe d'un test visible par les étudiants va impacter les données de test."
 
 #: common/lib/xmodule/xmodule/split_test_module.py:76
 msgid "Group Configuration"
@@ -3754,7 +3752,7 @@ msgstr "Ajouter les signes diacritiques à être ajoutées à un texte utiliant 
 msgid ""
 "Can't receive transcripts from Youtube for {youtube_id}. Status code: "
 "{status_code}."
-msgstr "Impossible de recevoir les transcriptions de YouTube pour {youtube_id}. Code de statut: {status_code}."
+msgstr "Impossible de recevoir les transcriptions de YouTube pour {youtube_id}. Code de statut : {status_code}."
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py:215
 msgid "We support only SubRip (*.srt) transcripts format."
@@ -3772,7 +3770,7 @@ msgstr "Quelque chose s'est mal passé avec les transcriptions SubRip pendant l'
 
 #: common/lib/xmodule/xmodule/video_module/transcripts_utils.py:425
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
-msgstr "{exception_message}: Impossible de téléverser les transcriptions: {user_filename}"
+msgstr "{exception_message} : Impossible de téléverser les transcriptions : {user_filename}"
 
 #: common/lib/xmodule/xmodule/video_module/video_handlers.py:339
 msgid "Invalid encoding type, transcripts should be UTF-8 encoded."
@@ -3809,7 +3807,7 @@ msgstr "Position actuelle dans le vidéo."
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:31
 msgid ""
 "Optional, for older browsers: the YouTube ID for the normal speed video."
-msgstr "Optionel, pour les vieux fureteurs: l'identifiant YouTube pour la vitesse de vidéo normale."
+msgstr "Optionel, pour les vieux navigateurs : l'identifiant YouTube pour la vitesse de vidéo normale."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:32
 msgid "YouTube ID"
@@ -3817,7 +3815,7 @@ msgstr "ID YouTube"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:37
 msgid "Optional, for older browsers: the YouTube ID for the .75x speed video."
-msgstr "Optionel, pour les vieux fureteurs: l'identifiant YouTube pour la vitesse de vidéo .75x."
+msgstr "Optionel, pour les vieux navigateurs : l'identifiant YouTube pour la vitesse de vidéo .75x."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:38
 msgid "YouTube ID for .75x speed"
@@ -3826,7 +3824,7 @@ msgstr "ID YouTube pour vitesse .75x"
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:43
 msgid ""
 "Optional, for older browsers: the YouTube ID for the 1.25x speed video."
-msgstr "Optionel, pour les vieux fureteurs: l'identifiant YouTube pour la vitesse de vidéo 1.25x."
+msgstr "Optionel, pour les vieux navigateurs : l'identifiant YouTube pour la vitesse de vidéo 1.25x."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:44
 msgid "YouTube ID for 1.25x speed"
@@ -3834,7 +3832,7 @@ msgstr "ID YouTube pour la vitesse 1.25x"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:49
 msgid "Optional, for older browsers: the YouTube ID for the 1.5x speed video."
-msgstr "Optionel, pour les vieux fureteurs: l'identifiant YouTube pour la vitesse de vidéo 1.5x"
+msgstr "Optionel, pour les vieux navigateurs : l'identifiant YouTube pour la vitesse de vidéo 1.5x"
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:50
 msgid "YouTube ID for 1.5x speed"
@@ -3845,7 +3843,7 @@ msgid ""
 "Time you want the video to start if you don't want the entire video to play."
 " Not supported in the native mobile app: the full video file will play. "
 "Formatted as HH:MM:SS. The maximum value is 23:59:59."
-msgstr "Moment où vous voulez débuter le vidéo si vous ne voulez pas le faire jouer au complet. Non supporté dans l'application mobile: le vidéo complet jouera. Formatté comme HH:MM:SS. La valeur maximum est 23:59:59."
+msgstr "Moment où vous voulez débuter le vidéo si vous ne voulez pas le faire jouer au complet. Non supporté dans l'application mobile : le vidéo complet jouera. Formatté comme HH:MM:SS. La valeur maximum est 23:59:59."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:60
 msgid "Video Start Time"
@@ -3856,7 +3854,7 @@ msgid ""
 "Time you want the video to stop if you don't want the entire video to play. "
 "Not supported in the native mobile app: the full video file will play. "
 "Formatted as HH:MM:SS. The maximum value is 23:59:59."
-msgstr "Moment où vous voulez arrêter le vidéo si vous ne voulez pas le faire jouer au complet. Non supporté dans l'application mobile: le vidéo complet jouera. Formatté comme HH:MM:SS. La valeur maximum est 23:59:59."
+msgstr "Moment où vous voulez arrêter le vidéo si vous ne voulez pas le faire jouer au complet. Non supporté dans l'application mobile : le vidéo complet jouera. Formatté comme HH:MM:SS. La valeur maximum est 23:59:59."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:70
 msgid "Video Stop Time"
@@ -3889,7 +3887,7 @@ msgid ""
 "Students will be able to view the first listed video that's compatible with "
 "the student's computer. To allow students to download these videos, set "
 "Video Download Allowed to True."
-msgstr "Le URL ou les URLs où vous avez posté des versions non-YouTube de votre vidéo. Chaque URL doit se terminer en .mpeg, .mp4, .ogg, ou .webm et ne peut être un URL YouTube. (Pour la compatibilité des fureteurs, nous recommandons fortement les formats .mp4 et .webm.) Les étudiants pourront voir le premier vidéo compatible avec leur ordinateur. Pour permettre aux étudiants de télécharger ces vidéos, définir Téléchargement de vidéo permis à vrai (true)."
+msgstr "Le URL ou les URLs où vous avez posté des versions non-YouTube de votre vidéo. Chaque URL doit se terminer en .mpeg, .mp4, .ogg, ou .webm et ne peut être un URL YouTube. (Pour la compatibilité des navigateurs, nous recommandons fortement les formats .mp4 et .webm.) Les étudiants pourront voir le premier vidéo compatible avec leur ordinateur. Pour permettre aux étudiants de télécharger ces vidéos, définir Téléchargement de vidéo permis à vrai."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:92
 msgid "Video File URLs"
@@ -3999,7 +3997,7 @@ msgstr "Téléverser un document de cours "
 msgid ""
 "Specify whether access to this video is limited to browsers only, or if it "
 "can be accessed from other applications including mobile apps."
-msgstr "Spécifier si l'accès à ce vidéo est limité aux fureteurs seulement, ou si il peut être accédé à partir d'autres applications incluant les applications mobiles."
+msgstr "Spécifier si l'accès à ce vidéo est limité aux naviagteurs seulement, ou si il peut être accédé à partir d'autres applications incluant les applications mobiles."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:166
 msgid "Video Available on Web Only"
@@ -4145,14 +4143,14 @@ msgid ""
 "On each line, put the number of completed courses to award a badge for, a "
 "comma, and the slug of a badge class you have created that has the issuing "
 "component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr "Sur chaque ligne, inscrivez le nombre de cours complétés nécessaire pour attribuer un badge, une virgule, et le slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Par exemple: 3,enrolled_3_courses"
+msgstr "Sur chaque ligne, inscrivez le nombre de cours complétés nécessaire pour attribuer un badge, une virgule, et le slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Par exemple : 3,enrolled_3_courses"
 
 #: lms/djangoapps/badges/models.py:244
 msgid ""
 "On each line, put the number of enrolled courses to award a badge for, a "
 "comma, and the slug of a badge class you have created that has the issuing "
 "component 'openedx__course'. For example: 3,enrolled_3_courses"
-msgstr "Sur chaque ligne, inscrivez le nombre de cours inscrits nécessaire pour attribuer un badge, une virgule, et le slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Par exemple: 3,enrolled_3_courses"
+msgstr "Sur chaque ligne, inscrivez le nombre de cours inscrits nécessaire pour attribuer un badge, une virgule, et le slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Par exemple : 3,enrolled_3_courses"
 
 #: lms/djangoapps/badges/models.py:252
 msgid ""
@@ -4161,7 +4159,7 @@ msgid ""
 "'openedx__course'. The remaining items in each line are the course keys the "
 "learner needs to complete to be awarded the badge. For example: "
 "slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
-msgstr "Chaque ligne est liste séparée par des virgules. Le premier item sur chaque ligne est le slug de slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Les autres items sur chaque ligne sont les clés de cours que l'apprenant doit compléter afin de se voir attribuer le badge. Par exemple: slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
+msgstr "Chaque ligne est liste séparée par des virgules. Le premier item sur chaque ligne est le slug de slug de la classe de badge que vous avez créé qui attribue le composant 'openedx__course'. Les autres items sur chaque ligne sont les clés de cours que l'apprenant doit compléter afin de se voir attribuer le badge. Par exemple : slug_for_compsci_courses_group_badge,course-v1:CompSci+Course+First,course-v1:CompsSci+Course+Second"
 
 #: lms/djangoapps/badges/models.py:297
 msgid "Please check the syntax of your entry."
@@ -4252,7 +4250,7 @@ msgstr "Un CCX peut seulement être créé sur ce cours au traves d'un service e
 
 #: lms/djangoapps/ccx/utils.py:263
 msgid "The course is full: the limit is {max_student_enrollments_allowed}"
-msgstr "Ce cours est plein: la limite est {max_student_enrollments_allowed}"
+msgstr "Ce cours est plein : la limite est {max_student_enrollments_allowed}"
 
 #: lms/djangoapps/ccx/views.py:110
 msgid "You must be a CCX Coach to access this view."
@@ -4520,7 +4518,7 @@ msgstr "À propos des accomplissements {platform_name}"
 #. for the certificate
 #: lms/djangoapps/certificates/views/webview.py:180
 msgid "Issued On:"
-msgstr "Émis le:"
+msgstr "Émis le : "
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
@@ -4605,7 +4603,7 @@ msgstr "J'ai complété un cours sur {platform_name}. Jetez un coup d'oeil à mo
 
 #: lms/djangoapps/certificates/views/webview.py:305
 msgid "More Information About {user_name}'s Certificate:"
-msgstr "Plus d'information sur l'attestation de {user_name}:"
+msgstr "Plus d'information sur l'attestation de {user_name} : "
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
@@ -4807,15 +4805,15 @@ msgstr "Vous n'avez pas accès à ce cours sur un appareil mobile"
 #. month".
 #: lms/djangoapps/courseware/date_summary.py:117
 msgid "{relative} ago - {absolute}"
-msgstr "{relative} depuis - {absolute}"
+msgstr "{relative} depuis - {absolute} UTC"
 
 #: lms/djangoapps/courseware/date_summary.py:117
 msgid "in {relative} - {absolute}"
-msgstr "en {relative} - {absolute}"
+msgstr "dans {relative} - {absolute} UTC"
 
 #: lms/djangoapps/courseware/date_summary.py:166
 msgid "Today is {date}"
-msgstr "Nous sommes le {date}"
+msgstr "Nous sommes le {date} UTC"
 
 #: lms/djangoapps/courseware/date_summary.py:176
 msgid "Course Starts"
@@ -5009,7 +5007,7 @@ msgstr "Chemin {0} n'existe pas, svp créer le, ou configurer un chemin différe
 msgid ""
 "Non usable git url provided. Expecting something like: "
 "git@github.com:mitocw/edx4edx_lite.git"
-msgstr "L'url git fourni est inutilisable. Nous attendions quelque chose comme: git@github.com:mitocw/edx4edx_lite.git"
+msgstr "L'url git fourni est inutilisable. Nous attendions quelque chose comme : git@github.com:mitocw/edx4edx_lite.git"
 
 #: lms/djangoapps/dashboard/git_import.py:69
 msgid "Unable to get git log"
@@ -5371,7 +5369,7 @@ msgstr "Carte de crédit - Individuel"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:63
 msgid "manually enrolled by username: {username}"
-msgstr "inscript manuellement pas l'utilisateur: {username}"
+msgstr "inscript manuellement pas l'utilisateur : {username}"
 
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:68
 msgid "Manually Enrolled"
@@ -5416,7 +5414,7 @@ msgstr "Impossible de lire le fichier téléversé."
 msgid ""
 "Data in row #{row_num} must have exactly four columns: email, username, full"
 " name, and country"
-msgstr "Les données dans la rangée #{row_num} doit avoir exactement quatre colonnes: courriel, utilisateyr, nom complet, et pays"
+msgstr "Les données dans la rangée #{row_num} doit avoir exactement quatre colonnes : courriel, utilisateyr, nom complet, et pays"
 
 #: lms/djangoapps/instructor/views/api.py:353
 msgid "Invalid email {email_address}."
@@ -6089,15 +6087,15 @@ msgstr "Le rachat n'existe pas contre ce code d'inscription ({code})."
 
 #: lms/djangoapps/instructor/views/tools.py:86
 msgid "Could not find student matching identifier: {student_identifier}"
-msgstr "Impossible de trouver un étudiant correspondant à l'identifiant: {student_identifier}"
+msgstr "Impossible de trouver un étudiant correspondant à l'identifiant : {student_identifier}"
 
 #: lms/djangoapps/instructor/views/tools.py:100
 msgid "Unable to parse date: "
-msgstr "Impossible d'analyser la date: "
+msgstr "Impossible d'analyser la date : "
 
 #: lms/djangoapps/instructor/views/tools.py:123
 msgid "Couldn't find module for url: {0}"
-msgstr "Impossible de trouver le module pour le url: {0}"
+msgstr "Impossible de trouver le module pour le url : {0}"
 
 #: lms/djangoapps/instructor/views/tools.py:172
 msgid "Unit {0} has no due date to extend."
@@ -6275,7 +6273,7 @@ msgstr "Aucune information task_output trouvée pour instructor_task {0}"
 
 #: lms/djangoapps/instructor_task/views.py:118
 msgid "No parsable task_output information found for instructor_task {0}: {1}"
-msgstr "Auce information task_output analysable trouvée pour instructor_task {0}: {1}"
+msgstr "Aucune information task_output analysable trouvée pour instructor_task {0} : {1}"
 
 #: lms/djangoapps/instructor_task/views.py:120
 msgid "No parsable status information available"
@@ -6287,7 +6285,7 @@ msgstr "Aucun message fourni"
 
 #: lms/djangoapps/instructor_task/views.py:126
 msgid "Invalid task_output information found for instructor_task {0}: {1}"
-msgstr "Information invalide task_output trouvée pour instructor_task {0}: {1}"
+msgstr "Information invalide task_output trouvée pour instructor_task {0} : {1}"
 
 #: lms/djangoapps/instructor_task/views.py:128
 msgid "No progress status information available"
@@ -6295,13 +6293,13 @@ msgstr "Aucune information de statut du progrès disponible"
 
 #: lms/djangoapps/instructor_task/views.py:147
 msgid "No parsable task_input information found for instructor_task {0}: {1}"
-msgstr "Aucune information task_input analysable trouvée pour instructor_task {0}: {1}"
+msgstr "Aucune information task_input analysable trouvée pour instructor_task {0} : {1}"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} and {succeeded} are counts.
 #: lms/djangoapps/instructor_task/views.py:158
 msgid "Progress: {action} {succeeded} of {attempted} so far"
-msgstr "Progrès: {action} {succeeded} de {attempted} jusqu'à maintenant"
+msgstr "Progrès : {action} {succeeded} de {attempted} jusqu'à maintenant"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -6385,7 +6383,7 @@ msgstr "Message {action} pour {succeeded} des {attempted} bénéficaires"
 #. {succeeded} and {attempted} are counts.
 #: lms/djangoapps/instructor_task/views.py:215
 msgid "Status: {action} {succeeded} of {attempted}"
-msgstr "Statut: {succeeded} {action} pour {attempted}"
+msgstr "Statut : {succeeded} {action} pour {attempted}"
 
 #. Translators: {skipped} is a count.  This message is appended to task
 #. progress status messages.
@@ -6423,7 +6421,7 @@ msgid ""
 "\"tabs\" -- to use tabs only; \n"
 "\"accordion\" -- to use the accordion only; or \n"
 "\"tabs,accordion\" -- to use tabs and the accordion."
-msgstr "Entrer l'interface usager, ou les outils de navigation, à utiliser dans le LMS pour ce XBlock. Les choix valides sont: \n\"chromeless\" -- ne pas utiliser d'onglets ou d'affichage en accordéon; \n\"tabs\" -- utiliser les onglets seulement; \n\"accordion\" -- utiliser l'affichage en accordéon seulement; ou \n\"tabs,accordion\" -- utiliser les onglets et l'affichage en accordéon."
+msgstr "Entrer l'interface usager, ou les outils de navigation, à utiliser dans le LMS pour ce XBlock. Les choix valides sont : \n\"chromeless\" -- ne pas utiliser d'onglets ou d'affichage en accordéon; \n\"tabs\" -- utiliser les onglets seulement; \n\"accordion\" -- utiliser l'affichage en accordéon seulement; ou \n\"tabs,accordion\" -- utiliser les onglets et l'affichage en accordéon."
 
 #: lms/djangoapps/lms_xblock/mixin.py:57
 msgid "Default Tab"
@@ -6473,7 +6471,7 @@ msgstr "Confirmation de paiement"
 msgid ""
 "Confirmation and Registration Codes for the following courses: "
 "{course_name_list}"
-msgstr "Confirmation et codes d'inscription pour les cours suivants: {course_name_list}"
+msgstr "Confirmation et codes d'inscription pour les cours suivants : {course_name_list}"
 
 #: lms/djangoapps/shoppingcart/models.py:685
 msgid "Trying to add a different currency into the cart"
@@ -6500,7 +6498,7 @@ msgstr "Code de device ISO en minuscule"
 
 #: lms/djangoapps/shoppingcart/models.py:1012
 msgid "Optional: provide additional information for this transaction"
-msgstr "Optionel: fournir de l'information additionnelle pour cette transaction"
+msgstr "Optionel : fournir de l'information additionnelle pour cette transaction"
 
 #: lms/djangoapps/shoppingcart/models.py:1019
 msgid ""
@@ -6520,7 +6518,7 @@ msgstr "Le prix par article vendu, y compris les rabais."
 
 #: lms/djangoapps/shoppingcart/models.py:1586
 msgid "Registration for Course: {course_name}"
-msgstr "Inscription pour le cours: {course_name}"
+msgstr "Inscription pour le cours : {course_name}"
 
 #: lms/djangoapps/shoppingcart/models.py:1628
 msgid ""
@@ -6529,7 +6527,7 @@ msgstr "Veuillez visiter votre {link_start}tableau de bord{link_end} pour voir v
 
 #: lms/djangoapps/shoppingcart/models.py:1769
 msgid "Enrollment codes for Course: {course_name}"
-msgstr "Codes d'inscription pour le cours: {course_name}"
+msgstr "Codes d'inscription pour le cours : {course_name}"
 
 #: lms/djangoapps/shoppingcart/models.py:1965
 msgid "Mode {mode} does not exist for {course_id}"
@@ -6655,7 +6653,7 @@ msgstr "TERMES ET CONDITIONS"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:169
 msgid "The payment processor did not return a required parameter: {0}"
-msgstr "Le processeur de paiement n'a pas retourné un paramètre requis: {0}"
+msgstr "Le processeur de paiement n'a pas retourné un paramètre requis : {0}"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:175
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:190
@@ -6697,7 +6695,7 @@ msgid ""
 " the order total! The specific error message is: {error_message}. Your "
 "credit card has probably been charged. Contact us with payment-specific "
 "questions at {email}."
-msgstr "Désolé! Dû à une erreur votre commande a été facturée avec un montant différent que le montant total de la commande! Le message d'erreur spécifique est: {error_message}. Votre carte de crédit a possiblement été facturée. Contacter nous avec vos questions de paiement à {email}."
+msgstr "Désolé! Dû à une erreur votre commande a été facturée avec un montant différent que le montant total de la commande! Le message d'erreur spécifique est : {error_message}. Votre carte de crédit a possiblement été facturée. Contacter nous avec vos questions de paiement à {email}."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:306
 msgid ""
@@ -6707,7 +6705,7 @@ msgid ""
 "apologize that we cannot verify whether the charge went through and take "
 "further action on your order. Your credit card may possibly have been "
 "charged. Contact us with payment-specific questions at {email}."
-msgstr "Désolé! Notre processeur de paiement nous a retourné un message corrompu concernant votre facturation, alors nous somme dans l'impossibilité de valider que ce message provient bien de notre processeur de paiement. Le message d'erreur spécifique est: {error_message}. Nous nous excusons de ne pouvoir vérifier que le paiement soit passé et prendre des actions supplémentaires pour votre commande. Votre carte de crédit a possiblement été facturée. Contacter nous avec vos questions de paiement à {email}."
+msgstr "Désolé! Notre processeur de paiement nous a retourné un message corrompu concernant votre facturation, alors nous somme dans l'impossibilité de valider que ce message provient bien de notre processeur de paiement. Le message d'erreur spécifique est : {error_message}. Nous nous excusons de ne pouvoir vérifier que le paiement soit passé et prendre des actions supplémentaires pour votre commande. Votre carte de crédit a possiblement été facturée. Contacter nous avec vos questions de paiement à {email}."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:354
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:594
@@ -6731,13 +6729,13 @@ msgid ""
 "            merchantReferenceCode of another authorization request that you sent in the last 15 minutes.\n"
 "            Possible fix: retry the payment after 15 minutes.\n"
 "            "
-msgstr "\n            Le merchantReferenceCode envoyé avec etre demande d'autorisation correspond au\n            merchantReferenceCode d'une autre demande d'autorisation que vous avez envoyé dans les 15 dernières minutes.\n            Solution possible: réessayer votre paiement après 15 minutes.\n            "
+msgstr "\nLe merchantReferenceCode envoyé avec etre demande d'autorisation correspond au\nmerchantReferenceCode d'une autre demande d'autorisation que vous avez envoyé dans les 15 dernières minutes.\nSolution possible : réessayer votre paiement après 15 minutes.\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:363
 msgid ""
 "Error: General system failure. Possible fix: retry the payment after a few "
 "minutes."
-msgstr "Erreur: Défaillance générale du système.Solution possible: réessayer votre paiement après quelques minutes."
+msgstr "Erreur : Défaillance générale du système.Solution possible: réessayer votre paiement après quelques minutes."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:365
 msgid ""
@@ -6746,7 +6744,7 @@ msgid ""
 "            This error does not include timeouts between the client and the server.\n"
 "            Possible fix: retry the payment after some time.\n"
 "            "
-msgstr "\n            Erreur: La demande a été reçue, mais il y a eu un dépassement de délai du serveur.\n            Cette erreur n'inclut pas les dépassements de délai entre le client et le serveur.\n            Solution possible: réessayer votre paiement après quelques temps.            "
+msgstr "\nErreur : La demande a été reçue, mais il y a eu un dépassement de délai du serveur.\nCette erreur n'inclut pas les dépassements de délai entre le client et le serveur.\nSolution possible: réessayer votre paiement après quelques temps.            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:371
 msgid ""
@@ -6754,13 +6752,13 @@ msgid ""
 "            Error: The request was received, but a service did not finish running in time\n"
 "            Possible fix: retry the payment after some time.\n"
 "            "
-msgstr "\n            Erreur: La demande a été reçue, mais un service n'a pas fini de s'exécuter à temps.\n            Solution possible: réessayer votre paiement après quelques temps.            "
+msgstr "\nErreur : La demande a été reçue, mais un service n'a pas fini de s'exécuter à temps.\nSolution possible : réessayer votre paiement après quelques temps.            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:375
 msgid ""
 "The issuing bank has questions about the request. Possible fix: retry with "
 "another form of payment"
-msgstr "La banque La banque émettrice a des questions sur la demande. Solution possible: réessayer avec une autre forme de paiement."
+msgstr "La banque émettrice a des questions sur la demande. Solution possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:377
 msgid ""
@@ -6769,7 +6767,7 @@ msgid ""
 "            provided does not match the date the issuing bank has on file.\n"
 "            Possible fix: retry with another form of payment\n"
 "            "
-msgstr "\n            Carte expirée. Vous pouvez aussi recevoir ceci si la date d'expiration que vous\n            avez fourni ne correspond pas à la date que la banque émettrice a dans ses dossiers.\n            Solution possible: réessayer avec une autre forme de paiement\n            "
+msgstr "\nCarte expirée. Vous pouvez aussi recevoir ceci si la date d'expiration que vous\navez fourni ne correspond pas à la date que la banque émettrice a dans ses dossiers.\nSolution possible : réessayer avec une autre forme de paiement\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:383
 msgid ""
@@ -6777,13 +6775,13 @@ msgid ""
 "            General decline of the card. No other information provided by the issuing bank.\n"
 "            Possible fix: retry with another form of payment\n"
 "            "
-msgstr "\n            Refus général de la carte. Aucune autre information fournie par la banque émettrice.\n            Solution possible: réessayer avec une autre forme de paiement\n            "
+msgstr "\nRefus général de la carte. Aucune autre information fournie par la banque émettrice.\nSolution possible : réessayer avec une autre forme de paiement\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:387
 msgid ""
 "Insufficient funds in the account. Possible fix: retry with another form of "
 "payment"
-msgstr "Fonds insuffisants dans le compte. Solution possible: réessayer avec une autre forme de paiement"
+msgstr "Fonds insuffisants dans le compte. Solution possible : réessayer avec une autre forme de paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:389
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:400
@@ -6793,7 +6791,7 @@ msgstr "Raison inconnue"
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:390
 msgid ""
 "Issuing bank unavailable. Possible fix: retry again after a few minutes"
-msgstr "Banque émettrice indisponible. Solution possible: réessayer dans quelques minutes"
+msgstr "Banque émettrice indisponible. Solution possible : réessayer dans quelques minutes"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:392
 msgid ""
@@ -6801,24 +6799,24 @@ msgid ""
 "            Inactive card or card not authorized for card-not-present transactions.\n"
 "            Possible fix: retry with another form of payment\n"
 "            "
-msgstr "\n            Carte inactive ou carte non autorisée pour les transactions sans carte présente.\n            Solution possible: réessayer avec une autre forme de paiement\n            "
+msgstr "\nCarte inactive ou carte non autorisée pour les transactions sans carte présente.\nSolution possible : réessayer avec une autre forme de paiement\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:396
 msgid ""
 "The card has reached the credit limit. Possible fix: retry with another form"
 " of payment"
-msgstr "La carte a atteint la limite de crédit. Solution possible: éessayer avec une autre forme de paiement"
+msgstr "La carte a atteint la limite de crédit. Solution possible : réessayer avec une autre forme de paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:397
 msgid ""
 "Invalid card verification number. Possible fix: retry with another form of "
 "payment"
-msgstr "Numéro de vérification invalide. Solution possible: éessayer avec une autre forme de paiement"
+msgstr "Numéro de vérification invalide. Solution possible : réessayer avec une autre forme de paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:401
 msgid ""
 "Invalid account number. Possible fix: retry with another form of payment"
-msgstr "Numéro de compte invalide. Solution possible: éessayer avec une autre forme de paiement"
+msgstr "Numéro de compte invalide. Solution possible : réessayer avec une autre forme de paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:403
 msgid ""
@@ -6826,13 +6824,13 @@ msgid ""
 "            The card type is not accepted by the payment processor.\n"
 "            Possible fix: retry with another form of payment\n"
 "            "
-msgstr "\n            Ce type de carte n'est pas accepté par le processeur de paiement.\n            Solution possible: réessayer avec une autre forme de paiement\n            "
+msgstr "\nCe type de carte n'est pas accepté par le processeur de paiement.\nSolution possible : réessayer avec une autre forme de paiement\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:407
 msgid ""
 "General decline by the processor.  Possible fix: retry with another form of "
 "payment"
-msgstr "Refus général par le processeur. Solution possible: réessayer avec une autre forme depaiement"
+msgstr "Refus général par le processeur. Solution possible : réessayer avec une autre forme depaiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:409
 msgid ""
@@ -6846,7 +6844,7 @@ msgstr "Le montant demandé dépasse le montant autorisé initialement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:413
 msgid "Processor Failure.  Possible fix: retry the payment"
-msgstr "Erreur de processeur. Solution possible: réessayer le paiement"
+msgstr "Erreur de processeur. Solution possible : réessayer le paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:415
 msgid "The authorization has already been captured"
@@ -6864,7 +6862,7 @@ msgid ""
 "            The card type sent is invalid or does not correlate with the credit card number.\n"
 "            Possible fix: retry with the same card or another form of payment\n"
 "            "
-msgstr "\n            Le type de carte envoyé est invalide ou ne correspond pas avec le numéro de carte de crédit.\n            Solution possible: réessayer avec la même carte ou une autre forme de paiement\n            "
+msgstr "\nLe type de carte envoyé est invalide ou ne correspond pas avec le numéro de carte de crédit.\nSolution possible : réessayer avec la même carte ou une autre forme de paiement\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:426
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:675
@@ -6901,7 +6899,7 @@ msgid ""
 "            Error: The request was received, but there was a timeout at the payment processor.\n"
 "            Possible fix: retry the payment.\n"
 "            "
-msgstr "\n            Erreur: La demande a été reçue, mais il y a eu un dépassement de délai au processeur de paiement.\n            Solution possible: réessayer le paiement.\n            "
+msgstr "\nErreur : La demande a été reçue, mais il y a eu un dépassement de délai au processeur de paiement.\nSolution possible : réessayer le paiement.\n            "
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py:451
 msgid ""
@@ -6909,7 +6907,7 @@ msgid ""
 "            The authorization request was approved by the issuing bank but declined by CyberSource.'\n"
 "            Possible fix: retry with a different form of payment.\n"
 "            "
-msgstr "\n            La demande d'autorisation a été approuvé par la banque émettrice mais refusée par CyberSource.\n            Solution possible: réessayer avec une forme différente de paiement.\n            "
+msgstr "\nLa demande d'autorisation a été approuvé par la banque émettrice mais refusée par CyberSource.\nSolution possible : réessayer avec une forme différente de paiement.\n            "
 
 #. Translators: this text appears when an unfamiliar error code occurs during
 #. payment,
@@ -6920,7 +6918,7 @@ msgstr "RAISON INCONNUE"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:178
 msgid "The payment processor did not return a required parameter: {parameter}"
-msgstr "Le serveur de traitement des paiements n'a pas retourné un paramètre requis: {parameter}"
+msgstr "Le serveur de traitement des paiements n'a pas retourné un paramètre requis : {parameter}"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:186
 msgid ""
@@ -6950,7 +6948,7 @@ msgid ""
 "went through and take further action on your order. The specific error "
 "message is: {msg} Your credit card may possibly have been charged.  Contact "
 "us with payment-specific questions at {email}."
-msgstr "Désolé! Notre serveur de paiement nous a renvoyé une confirmation de paiement qui contenait des données incohérentes! Veuillez nous excuser de ne pas pouvoir vérifier si le règlement est parvenu et de ne pas pouvoir traiter plus avant votre commande. Le message d'erreur spécifique est: {msg} Le montant peut éventuellement avoir été prélevé sur votre carte de crédit. Contactez-nous pour les questions liées au paiement à l'adresse {email}."
+msgstr "Désolé! Notre serveur de paiement nous a renvoyé une confirmation de paiement qui contenait des données incohérentes! Veuillez nous excuser de ne pas pouvoir vérifier si le règlement est parvenu et de ne pas pouvoir traiter plus avant votre commande. Le message d'erreur spécifique est : {msg} Le montant peut éventuellement avoir été prélevé sur votre carte de crédit. Contactez-nous pour les questions liées au paiement à l'adresse {email}."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:510
 msgid ""
@@ -6958,7 +6956,7 @@ msgid ""
 " the order total! The specific error message is: {msg}. Your credit card has"
 " probably been charged. Contact us with payment-specific questions at "
 "{email}."
-msgstr "Désolé! En raison d'une erreur votre achat a été facturé pour un montant différent du montant total de la commande! Le message d'erreur spécifique est: {msg}. Le montant a probablement été prélevé sur votre carte de crédit. Contactez-nous pour les questions liées au paiement à l'adresse {email}."
+msgstr "Désolé! En raison d'une erreur votre achat a été facturé pour un montant différent du montant total de la commande! Le message d'erreur spécifique est : {msg}. Le montant a probablement été prélevé sur votre carte de crédit. Contactez-nous pour les questions liées au paiement à l'adresse {email}."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:521
 msgid ""
@@ -6968,7 +6966,7 @@ msgid ""
 "that we cannot verify whether the charge went through and take further "
 "action on your order. Your credit card may possibly have been charged. "
 "Contact us with payment-specific questions at {email}."
-msgstr "Désolé! Notre processeur de paiement nous a envoyé un message corrompu concernant votre paiement, de sorte que nous sommes incapables de valider que le message provenait en fait de celui-ci.  Le message d'erreur spécifique est: {msg}. Nous nous excusons de ne pouvoir vérifier si le montant vous a été facturé et prendre des mesures supplémentaires sur votre commande. Votre carte de crédit peut éventuellement avoir été facturé. Contactez-nous avec des questions spécifiques au paiement à {email}."
+msgstr "Désolé! Notre processeur de paiement nous a envoyé un message corrompu concernant votre paiement, de sorte que nous sommes incapables de valider que le message provenait en fait de celui-ci.  Le message d'erreur spécifique est : {msg}. Nous nous excusons de ne pouvoir vérifier si le montant vous a été facturé et prendre des mesures supplémentaires sur votre commande. Votre carte de crédit peut éventuellement avoir été facturé. Contactez-nous avec des questions spécifiques au paiement à {email}."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:534
 msgid ""
@@ -6998,7 +6996,7 @@ msgid ""
 "            authorization request that you sent within the past 15 minutes.\n"
 "            Possible action: Resend the request with a unique merchant reference code.\n"
 "            "
-msgstr "\nLes champs acces_key et transaction_uuid pour cette demande d'autorisation correspondent  aux champs  acces_key  et transaction_uuid d'une autre demande d'autorisation que vous avez envoyée pendant les 15 dernières minutes. Solution possible: réessayer le paiement après 15 minutes"
+msgstr "\nLes champs acces_key et transaction_uuid pour cette demande d'autorisation correspondent  aux champs  acces_key  et transaction_uuid d'une autre demande d'autorisation que vous avez envoyée pendant les 15 dernières minutes. Solution possible : réessayer le paiement après 15 minutes"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:603
 msgid "Only a partial amount was approved."
@@ -7036,7 +7034,7 @@ msgid ""
 "            authorization code programmatically, but you might receive one verbally by calling the processor.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nLa banque émettrice a des questions sur la demande. Vous ne recevez pas un code d'autorisation, mais vous pourriez recevoir un appel verbal du processeur. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nLa banque émettrice a des questions sur la demande. Vous ne recevez pas un code d'autorisation, mais vous pourriez recevoir un appel verbal du processeur. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:623
 msgid ""
@@ -7045,7 +7043,7 @@ msgid ""
 "            provided does not match the date the issuing bank has on file.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nCarte périmée. Vous pourriez également recevoir ce message si la date d'expiration fournie ne correspond pas à la date dossier de la banque émettrice. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nCarte périmée. Vous pourriez également recevoir ce message si la date d'expiration fournie ne correspond pas à la date dossier de la banque émettrice. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:629
 msgid ""
@@ -7053,13 +7051,13 @@ msgid ""
 "            General decline of the card. No other information provided by the issuing bank.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nDéclinaison de la carte. Aucune autre information fournie par la banque émettrice. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nDéclinaison de la carte. Aucune autre information fournie par la banque émettrice. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:633
 msgid ""
 "Insufficient funds in the account. Possible action: retry with another form "
 "of payment."
-msgstr "Fonds insuffisant dans le compte. Action possible: réessayer avec une autre forme de paiement."
+msgstr "Fonds insuffisant dans le compte. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:635
 msgid "Stolen or lost card."
@@ -7068,7 +7066,7 @@ msgstr "Carte perdue ou volée."
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:636
 msgid ""
 "Issuing bank unavailable. Possible action: retry again after a few minutes."
-msgstr "Banque émettrice indisponible. Action possible: réessayer dans quelques minutes."
+msgstr "Banque émettrice indisponible. Action possible : réessayer dans quelques minutes."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:638
 msgid ""
@@ -7076,7 +7074,7 @@ msgid ""
 "            Inactive card or card not authorized for card-not-present transactions.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nCarte inactive ou non autorisé pour les transactions sans carte présente. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nCarte inactive ou non autorisé pour les transactions sans carte présente. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:642
 msgid "CVN did not match."
@@ -7086,13 +7084,13 @@ msgstr "CVN ne correspond pas."
 msgid ""
 "The card has reached the credit limit. Possible action: retry with another "
 "form of payment."
-msgstr "La carte a atteint la limite de crédit. Action possible: réessayer avec une autre forme de paiement."
+msgstr "La carte a atteint la limite de crédit. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:644
 msgid ""
 "Invalid card verification number (CVN). Possible action: retry with another "
 "form of payment."
-msgstr "Numéro de vérification de carte invalide (CVN) Solution possible: réessayer avec une autre forme de paiement"
+msgstr "Numéro de vérification de carte invalide (CVN) Solution possible : réessayer avec une autre forme de paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:647
 msgid "The customer matched an entry on the processors negative file."
@@ -7109,12 +7107,12 @@ msgid ""
 "            CyberSource because it did not pass the CVN check.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nLa demande d'autorisation a été approuvé par la banque émettrice, mais a été refusé par CyberSource, car elle n'a pas passé le contrôle de CVN. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nLa demande d'autorisation a été approuvé par la banque émettrice, mais a été refusé par CyberSource, car elle n'a pas passé le contrôle de CVN. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:655
 msgid ""
 "Invalid account number. Possible action: retry with another form of payment."
-msgstr "Numéro de compte invalide. Solution possible: réessayer avec une autre forme de paiement."
+msgstr "Numéro de compte invalide. Solution possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:657
 msgid ""
@@ -7122,13 +7120,13 @@ msgid ""
 "            The card type is not accepted by the payment processor.\n"
 "            Possible action: retry with another form of payment.\n"
 "            "
-msgstr "\nCe type de carte n'est acceptée par le processeur de paiement. Action possible: réessayer avec une autre forme de paiement."
+msgstr "\nCe type de carte n'est acceptée par le processeur de paiement. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:661
 msgid ""
 "General decline by the processor.  Possible action: retry with another form "
 "of payment."
-msgstr "Refus global par le processeur de paiement. Action possible: réessayer avec une autre forme de paiement."
+msgstr "Refus global par le processeur de paiement. Action possible : réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:663
 msgid ""
@@ -7142,7 +7140,7 @@ msgstr "Le montant demandée dépasse le montant autorisé initialement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:666
 msgid "Processor Failure.  Possible action: retry the payment"
-msgstr "Panne de processeur. Action possible: réessayer le paiement"
+msgstr "Panne de processeur. Action possible : réessayer le paiement"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:667
 msgid "The authorization has already been reversed."
@@ -7158,7 +7156,7 @@ msgid ""
 "            The card type sent is invalid or does not correlate with the credit card number.\n"
 "            Possible action: retry with the same card or another form of payment.\n"
 "            "
-msgstr "\nLe type de carte envoyée est invalide ou ne correspond pas avec le numéro de carte de crédit. Action possible: réessayer avec la même carte ou une autre forme de paiement."
+msgstr "\nLe type de carte envoyée est invalide ou ne correspond pas avec le numéro de carte de crédit.\nAction possible : réessayer avec la même carte ou une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py:677
 msgid ""
@@ -7205,7 +7203,7 @@ msgid ""
 "            on your legacy Smart Authorization settings.\n"
 "            Possible action: retry with a different form of payment.\n"
 "            "
-msgstr "\nLa demande d'autorisation a été approuvé par la banque émettrice, mais refusée par CyberSource sur la base de paramètres d'autorisation enrichis existants. \nSolution possible: réessayer avec un autre mode de paiement."
+msgstr "\nLa demande d'autorisation a été approuvé par la banque émettrice, mais refusée par CyberSource\nsur la base de paramètres d'autorisation enrichis existants. \nSolution possible : réessayer avec un autre mode de paiement."
 
 #: lms/djangoapps/shoppingcart/reports.py:93
 msgid "Order Number"
@@ -7625,89 +7623,89 @@ msgstr "Photos de vérification reçues"
 
 #. Translators: This is the website name of www.facebook.com.  Please
 #. translate this the way that Facebook advertises in your language.
-#: lms/envs/common.py:2191
+#: lms/envs/common.py:2201
 msgid "Facebook"
 msgstr "Facebook"
 
-#: lms/envs/common.py:2193
+#: lms/envs/common.py:2203
 msgid "Like {platform_name} on Facebook"
 msgstr "Like {platform_name} sur Facebook"
 
 #. Translators: This is the website name of www.twitter.com.  Please
 #. translate this the way that Twitter advertises in your language.
-#: lms/envs/common.py:2198
+#: lms/envs/common.py:2208
 msgid "Twitter"
 msgstr "Twitter"
 
-#: lms/envs/common.py:2200
+#: lms/envs/common.py:2210
 msgid "Follow {platform_name} on Twitter"
 msgstr "Suivre {platform_name} sur Twitter"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
-#: lms/envs/common.py:2205
+#: lms/envs/common.py:2215
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: lms/envs/common.py:2207
+#: lms/envs/common.py:2217
 msgid "Follow {platform_name} on LinkedIn"
 msgstr "Suivre {platform_name} sur LinkedIn"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
-#: lms/envs/common.py:2212
+#: lms/envs/common.py:2222
 msgid "Google+"
 msgstr "Google+"
 
-#: lms/envs/common.py:2214
+#: lms/envs/common.py:2224
 msgid "Follow {platform_name} on Google+"
 msgstr "Suivre {platform_name} sur Google+"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
-#: lms/envs/common.py:2219
+#: lms/envs/common.py:2229
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #. Translators: This is the website name of www.meetup.com.  Please
 #. translate this the way that MeetUp advertises in your language.
-#: lms/envs/common.py:2225
+#: lms/envs/common.py:2235
 msgid "Meetup"
 msgstr "Meetup"
 
 #. Translators: This is the website name of www.reddit.com.  Please
 #. translate this the way that Reddit advertises in your language.
-#: lms/envs/common.py:2231
+#: lms/envs/common.py:2241
 msgid "Reddit"
 msgstr "Reddit"
 
-#: lms/envs/common.py:2233
+#: lms/envs/common.py:2243
 msgid "Subscribe to the {platform_name} subreddit"
 msgstr "S'inscrire au subreddit {platform_name}"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
-#: lms/envs/common.py:2238
+#: lms/envs/common.py:2248
 msgid "VK"
 msgstr "VK"
 
 #. Translators: This is the website name of http://www.weibo.com.  Please
 #. translate this the way that Weibo advertises in your language.
-#: lms/envs/common.py:2244
+#: lms/envs/common.py:2254
 msgid "Weibo"
 msgstr "Weibo"
 
 #. Translators: This is the website name of www.youtube.com.  Please
 #. translate this the way that YouTube advertises in your language.
-#: lms/envs/common.py:2250
+#: lms/envs/common.py:2260
 msgid "Youtube"
 msgstr "Youtube"
 
-#: lms/envs/common.py:2252
+#: lms/envs/common.py:2262
 msgid "Subscribe to the {platform_name} YouTube channel"
 msgstr "S'inscrire au canal YouTube de {platform_name}"
 
-#: lms/envs/common.py:2636
+#: lms/envs/common.py:2646
 msgid "Kosovo"
 msgstr "Kosovo"
 
@@ -7740,7 +7738,7 @@ msgstr "Vous recevez ce courriel parce que vous avez demandé une réinitialisat
 
 #: lms/templates/registration/password_reset_email.html:4
 msgid "Please go to the following page and choose a new password:"
-msgstr "Veuillez aller à la page suivante et choisissez un nouveau mot de passe :"
+msgstr "Veuillez aller à la page suivante et choisissez un nouveau mot de passe : "
 
 #: lms/templates/registration/password_reset_email.html:9
 msgid ""
@@ -7759,7 +7757,7 @@ msgstr "L'équipe  %(platform_name)s"
 
 #: lms/templates/wiki/article.html:31
 msgid "Last modified:"
-msgstr "Dernière modification:"
+msgstr "Dernière modification : "
 
 #: lms/templates/wiki/article.html:37
 msgid "See all children"
@@ -7767,7 +7765,7 @@ msgstr "Voir tous les articles"
 
 #: lms/templates/wiki/article.html:48
 msgid "This article was last modified:"
-msgstr "Cet article a été modifié pour la dernière fois:"
+msgstr "Cet article a été modifié pour la dernière fois : "
 
 #: lms/templates/wiki/create.html:5 lms/templates/wiki/create.html.py:30
 msgid "Add new article"
@@ -7874,7 +7872,7 @@ msgstr "Aperçu de cette révision"
 
 #: lms/templates/wiki/history.html:153
 msgid "Auto log:"
-msgstr "Log automatique:"
+msgstr "Log automatique : "
 
 #: lms/templates/wiki/history.html:161
 msgid "Change"
@@ -7946,11 +7944,11 @@ msgstr "Aide syntaxique du Wiki"
 msgid ""
 "This wiki uses <strong>Markdown</strong> for styling. There are several "
 "useful guides online. See any of the links below for in-depth details:"
-msgstr "Ce wiki utilise <strong>Markdown</strong> pour le formatage. Il existe plusieurs guides pratiques en ligne. Regardez n'importe lequel des liens ci-dessous pour plus de détails:"
+msgstr "Ce wiki utilise <strong>Markdown</strong> pour le formatage. Il existe plusieurs guides pratiques en ligne. Regardez n'importe lequel des liens ci-dessous pour plus de détails : "
 
 #: lms/templates/wiki/includes/cheatsheet.html:16
 msgid "Markdown: Basics"
-msgstr "Markdown: Les bases"
+msgstr "Markdown : Les bases"
 
 #: lms/templates/wiki/includes/cheatsheet.html:17
 msgid "Quick Markdown Syntax Guide"
@@ -7973,7 +7971,7 @@ msgstr "[Nom article](wiki:NomArticle)"
 #: lms/templates/wiki/includes/cheatsheet.html:24
 #, python-format
 msgid "%(platform_name)s Additions:"
-msgstr "Ajouts %(platform_name)s:"
+msgstr "Ajouts %(platform_name)s : "
 
 #: lms/templates/wiki/includes/cheatsheet.html:25
 msgid "Math Expression"
@@ -7981,7 +7979,7 @@ msgstr "Expression mathématique"
 
 #: lms/templates/wiki/includes/cheatsheet.html:31
 msgid "Useful examples:"
-msgstr "Exemples utiles:"
+msgstr "Exemples utiles : "
 
 #: lms/templates/wiki/includes/cheatsheet.html:34
 msgid "Wikipedia"
@@ -8128,7 +8126,7 @@ msgstr "Pas de pièce jointe à cet article."
 
 #: lms/templates/wiki/preview_inline.html:13
 msgid "Previewing revision:"
-msgstr "Aperçu de la modification :"
+msgstr "Aperçu de la modification : "
 
 #: lms/templates/wiki/preview_inline.html:20
 msgid "Previewing a merge between two revisions:"
@@ -8170,7 +8168,7 @@ msgstr "L'adresse du contact pour votre compagnie."
 
 #: openedx/core/djangoapps/api_admin/forms.py:68
 msgid "The following users do not exist: {usernames}."
-msgstr "Les utilisateurs suivants n'existent pas: {usernames}."
+msgstr "Les utilisateurs suivants n'existent pas : {usernames}."
 
 #: openedx/core/djangoapps/api_admin/forms.py:81
 msgid ""
@@ -8229,11 +8227,11 @@ msgstr "Paramètre usage_id non fourni."
 #: openedx/core/djangoapps/bookmarks/views.py:241
 #: openedx/core/djangoapps/bookmarks/views.py:321
 msgid "Invalid usage_id: {usage_id}."
-msgstr "usage_id invalide: {usage_id}."
+msgstr "usage_id invalide : {usage_id}."
 
 #: openedx/core/djangoapps/bookmarks/views.py:248
 msgid "Block with usage_id: {usage_id} not found."
-msgstr "Block avec usage_id: {usage_id} non trouvé."
+msgstr "Block avec usage_id : {usage_id} non trouvé."
 
 #: openedx/core/djangoapps/bookmarks/views.py:253
 msgid ""
@@ -8244,7 +8242,7 @@ msgstr "Vous pouvez créer jusqu'à {max_num_bookmarks_per_course} signets. Vous
 #: openedx/core/djangoapps/bookmarks/views.py:342
 #: openedx/core/djangoapps/bookmarks/views.py:362
 msgid "Bookmark with usage_id: {usage_id} does not exist."
-msgstr "Signet avec usage_id: {usage_id} n'existe pas."
+msgstr "Signet avec usage_id : {usage_id} n'existe pas."
 
 #: openedx/core/djangoapps/catalog/models.py:14
 msgid "Internal API URL"
@@ -8284,7 +8282,7 @@ msgid ""
 "The platform key associates CourseTalk widgets with your platform. "
 "Generally, it is the domain name for your platform. For example, if your "
 "platform is http://edx.org, the platform key is \"edx\"."
-msgstr "La clé de plateforme associe les widgets CourseTalk avec votre plateforme. Généralement, il s'agit du nom de domaine de votre plateforme. Par exemple, si votre plateforme est http://edx.org, la clé de plateforme est \"edx\"."
+msgstr "La clé de plateforme associe les widgets CourseTalk avec votre plateforme. Généralement, il s'agit du nom de domaine de votre plateforme. Par exemple, si votre plateforme est http:/edulib.org, la clé de plateforme est \"edulib\"."
 
 #: openedx/core/djangoapps/credentials/models.py:25
 #: openedx/core/djangoapps/programs/models.py:22
@@ -8423,7 +8421,7 @@ msgstr "La taille du fichier doit être au minimum de {image_min_size}."
 
 #: openedx/core/djangoapps/profile_images/images.py:113
 msgid "The file must be one of the following types: {valid_file_types}."
-msgstr "Le fichier doit être d'un des types suivants: {valid_file_types}."
+msgstr "Le fichier doit être d'un des types suivants : {valid_file_types}."
 
 #: openedx/core/djangoapps/profile_images/images.py:121
 msgid ""
@@ -8539,7 +8537,7 @@ msgstr "La valeur '{preference_value}' n'est pas valide pour la préférence de 
 msgid ""
 "Value '{preference_value}' not valid for preference '{preference_key}': Not "
 "in timezone set."
-msgstr "La valeur '{preference_value}' est invalide pour la préférence '{preference_key}': Pas dans le fuseau horaire."
+msgstr "La valeur '{preference_value}' est invalide pour la préférence '{preference_key}' : Pas dans le fuseau horaire."
 
 #: openedx/core/djangoapps/user_api/preferences/api.py:401
 msgid "Value '{preference_value}' is not a valid time zone selection."
@@ -8708,11 +8706,11 @@ msgstr "J'acccepte les {terms_of_service} {platform_name}."
 msgid "You must agree to the {platform_name} {terms_of_service}."
 msgstr "Vous devez accepter les {terms_of_service} {platform_name}."
 
-#: openedx/core/lib/api/view_utils.py:150
+#: openedx/core/lib/api/view_utils.py:153
 msgid "This value is invalid."
 msgstr "Cette valeur n'est pas valide."
 
-#: openedx/core/lib/api/view_utils.py:196
+#: openedx/core/lib/api/view_utils.py:199
 msgid "This field is not editable"
 msgstr "Ce champ n'est pas modifiable"
 

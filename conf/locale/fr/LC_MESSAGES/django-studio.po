@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:04+0000\n"
-"PO-Revision-Date: 2016-08-17 23:41+0000\n"
+"POT-Creation-Date: 2016-09-01 11:26+0000\n"
+"PO-Revision-Date: 2016-09-03 15:46+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "Mise à jour du cours non trouvée."
 
 #: cms/djangoapps/contentstore/courseware_index.py:247
 msgid "Could not index item: {}"
-msgstr "Impossible d’indexer l'élément: {}"
+msgstr "Impossible d’indexer l'élément : {}"
 
 #: cms/djangoapps/contentstore/courseware_index.py:269
 msgid "General indexing error occurred"
@@ -168,7 +168,7 @@ msgstr "Branche manquante sur le nouveau clone"
 msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
-msgstr "Prenez le cours choisi et tentez de l'exporter vers un dépôt git. Le répertoire de cours doit déjà être un dépôt git. Utilisation git_export <course_loc> <git_url>"
+msgstr "Prenez le cours choisi et tentez de l'exporter vers un dépôt git. Le répertoire de cours doit déjà être un dépôt git. Utilisation : git_export <course_loc> <git_url>"
 
 #: cms/djangoapps/contentstore/utils.py:370
 msgid "Deleted group"
@@ -196,11 +196,11 @@ msgstr "Clé de valeur manquante '{1}' pour le dict {0} de l'attestation"
 #: cms/djangoapps/contentstore/views/certificates.py:308
 #: cms/djangoapps/contentstore/views/certificates.py:346
 msgid "PermissionDenied: Failed in authenticating {user}"
-msgstr "Permission refusée: authentification infructueuse pour {user}"
+msgstr "Permission refusée : authentification infructueuse pour {user}"
 
 #: cms/djangoapps/contentstore/views/component.py:240
 msgid "{platform_name} Support Levels:"
-msgstr "Niveaux de support {platform_name} :"
+msgstr "Niveaux de support {platform_name} : "
 
 #: cms/djangoapps/contentstore/views/component.py:245
 msgid "HTML"
@@ -254,23 +254,23 @@ msgid ""
 " it to the system"
 msgstr "Vous devez lier ce cours à une organisation afin de continuer. L'organisation que vous avez choisi n'existe pas dans le système, vous devrez l'ajouter au système"
 
-#: cms/djangoapps/contentstore/views/course.py:1063
+#: cms/djangoapps/contentstore/views/course.py:1067
 msgid "Invalid prerequisite course key"
 msgstr "Id du cours prérequis invalide"
 
-#: cms/djangoapps/contentstore/views/course.py:1246
+#: cms/djangoapps/contentstore/views/course.py:1250
 msgid "An error occurred while trying to save your tabs"
 msgstr "Une erreur s'est produite pendant la sauvegarde de vos onglets"
 
-#: cms/djangoapps/contentstore/views/course.py:1247
+#: cms/djangoapps/contentstore/views/course.py:1251
 msgid "Tabs Exception"
 msgstr "Onglets de dérogation"
 
-#: cms/djangoapps/contentstore/views/course.py:1471
+#: cms/djangoapps/contentstore/views/course.py:1475
 msgid "This group configuration is in use and cannot be deleted."
 msgstr "Cette configuration de groupe est utilisée et ne peut pas être supprimée."
 
-#: cms/djangoapps/contentstore/views/course.py:1485
+#: cms/djangoapps/contentstore/views/course.py:1489
 msgid "This content group is in use and cannot be deleted."
 msgstr "Ce groupe de contenu est utilisé et ne peut pas être supprimé."
 

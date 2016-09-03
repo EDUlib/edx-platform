@@ -84,8 +84,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:04+0000\n"
-"PO-Revision-Date: 2016-08-25 19:45+0000\n"
+"POT-Creation-Date: 2016-09-01 11:26+0000\n"
+"PO-Revision-Date: 2016-09-03 19:19+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -433,7 +433,7 @@ msgstr "Charger plus"
 
 #: common/static/common/templates/discussion/new-post.underscore:9
 msgid "Visible To:"
-msgstr "Visible pour:"
+msgstr "Visible pour : "
 
 #: common/static/common/templates/discussion/new-post.underscore:11
 msgid "All Groups"
@@ -447,7 +447,7 @@ msgstr "Les administateurs, les modérateurs et les assistants d'enseignement pe
 
 #: common/static/common/templates/discussion/new-post.underscore:23
 msgid "Title:"
-msgstr "Titre :"
+msgstr "Titre : "
 
 #: common/static/common/templates/discussion/new-post.underscore:26
 msgid "Add a clear and descriptive title to encourage participation."
@@ -638,7 +638,7 @@ msgstr "Fermé"
 #: common/static/common/templates/discussion/thread-show.underscore:65
 #, python-format
 msgid "Related to: %(courseware_title_linked)s"
-msgstr "À propos de: %(courseware_title_linked)s"
+msgstr "À propos de : %(courseware_title_linked)s"
 
 #: common/static/common/templates/discussion/thread-show.underscore:75
 #, python-format
@@ -652,7 +652,7 @@ msgstr "Ce message est visible par tous."
 #: common/static/common/templates/discussion/thread-type.underscore:5
 #: common/static/common/templates/discussion/thread-type.underscore:6
 msgid "Post type:"
-msgstr "Type de message :"
+msgstr "Type de message : "
 
 #: common/static/common/templates/discussion/thread-type.underscore:11
 msgid "Question"
@@ -674,7 +674,7 @@ msgstr "Ajouter une réponse"
 
 #: common/static/common/templates/discussion/thread.underscore:25
 msgid "Add a response:"
-msgstr "Ajouter une réponse :"
+msgstr "Ajouter une réponse : "
 
 #: common/static/common/templates/discussion/thread.underscore:36
 msgid "Expand discussion"
@@ -686,11 +686,11 @@ msgstr "Replier la discussion"
 
 #: common/static/common/templates/discussion/topic.underscore:3
 msgid "Topic Area:"
-msgstr "Secteur thématique:"
+msgstr "Secteur thématique : "
 
 #: common/static/common/templates/discussion/topic.underscore:5
 msgid "Discussion topics; currently listing: "
-msgstr "Sujets de discussion; à l'affiche présentement: "
+msgstr "Sujets de discussion; à l'affiche présentement : "
 
 #: common/static/common/templates/discussion/topic.underscore:11
 #: common/static/common/templates/discussion/topic.underscore:12
@@ -765,15 +765,15 @@ msgstr "Générer l'attestation de l'utilisateur"
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:4
 msgid "Current enrollment mode:"
-msgstr "Mode courant d'inscription:"
+msgstr "Mode courant d'inscription : "
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:6
 msgid "New enrollment mode:"
-msgstr "Nouveau mode d'inscription:"
+msgstr "Nouveau mode d'inscription : "
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:14
 msgid "Reason for change:"
-msgstr "Raison pour le changement:"
+msgstr "Raison pour le changement : "
 
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:16
 msgid "Choose One"
@@ -962,7 +962,7 @@ msgstr "Il y a eu une erreur lors de la récupération de l'aperçu des résulta
 
 #: lms/templates/api_admin/catalog-results.underscore:1
 msgid "This catalog's courses:"
-msgstr "Les cours de ce catalogue:"
+msgstr "Les cours de ce catalogue : "
 
 #: lms/templates/bookmarks/bookmarks-list.underscore:2
 msgid "My Bookmarks"
@@ -1172,7 +1172,7 @@ msgstr "EN SAVOIR PLUS"
 #: lms/templates/discovery/course_card.underscore:17
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr "Début: %(start_date)s"
+msgstr "Début : %(start_date)s"
 
 #: lms/templates/discovery/course_card.underscore:26
 msgid "Starts"
@@ -1201,11 +1201,11 @@ msgstr "Vous avez commenté..."
 
 #: lms/templates/edxnotes/note-item.underscore:33
 msgid "Noted in:"
-msgstr "Noté dans :"
+msgstr "Noté dans : "
 
 #: lms/templates/edxnotes/note-item.underscore:40
 msgid "Last Edited:"
-msgstr "Dernière modification:"
+msgstr "Dernière modification : "
 
 #: lms/templates/edxnotes/note-item.underscore:44
 msgid "Tags:"
@@ -1457,7 +1457,7 @@ msgstr "Ajouter des étudiants à cette cohorte"
 msgid ""
 "Note: Students can be in only one cohort. Adding students to this group "
 "overrides any previous group assignment."
-msgstr "Remarque: Les étudiants peuvent être dans une seule cohorte. L'ajout d'étudiants à ce groupe prévaut sur toute affectation précédente à d'autres groupes."
+msgstr "Remarque : Les étudiants peuvent être dans une seule cohorte. L'ajout d'étudiants à ce groupe prévaut sur toute affectation précédente à d'autres groupes."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:24
 msgid ""
@@ -1541,12 +1541,12 @@ msgstr "Groupe de contenu supprimé"
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} The previously selected "
 "content group was deleted. Select another content group."
-msgstr "{screen_reader_start}Avertissement:{screen_reader_end} Le groupe de contenu sélectionné précédemment a été supprimé. Sélectionnez un autre groupe de contenu."
+msgstr "{screen_reader_start}Avertissement : {screen_reader_end} Le groupe de contenu sélectionné précédemment a été supprimé. Sélectionnez un autre groupe de contenu."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:122
 msgid ""
 "{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
-msgstr "{screen_reader_start}Avertissement:{screen_reader_end} Il n'existe aucun groupe de contenu."
+msgstr "{screen_reader_start}Avertissement : {screen_reader_end} Il n'existe aucun groupe de contenu."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:129
 msgid "Create a content group"
@@ -1842,7 +1842,7 @@ msgstr "Connectez vous avec les crédentiels d'institution ou de campus"
 #: lms/templates/student_account/institution_login.underscore:10
 #: lms/templates/student_account/institution_register.underscore:10
 msgid "Choose your institution from the list below:"
-msgstr "Sélectionner votre institution dans la liste ci-dessous:"
+msgstr "Sélectionner votre institution dans la liste ci-dessous : "
 
 #: lms/templates/student_account/institution_login.underscore:29
 msgid "Back to sign in"
@@ -2049,7 +2049,7 @@ msgstr "Félicitations! Votre identité est maintenant vérifié sur %(platformN
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
 msgid "You are now enrolled as a verified student for:"
-msgstr "Vous vous êtes maintenant engagé en tant qu'étudiant vérifié pour :"
+msgstr "Vous vous êtes maintenant engagé en tant qu'étudiant vérifié pour : "
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
 msgid "A list of courses you have just enrolled in as a verified student"
@@ -2087,7 +2087,7 @@ msgstr "Merci de nous avoir envoyé vos photos. Nous allons les examiner sous pe
 
 #: lms/templates/verify_student/error.underscore:6
 msgid "Error:"
-msgstr "Erreur :"
+msgstr "Erreur : "
 
 #: lms/templates/verify_student/face_photo_step.underscore:4
 msgid "What You Need for Verification"
@@ -2105,7 +2105,7 @@ msgstr "Caméra"
 msgid ""
 "You need a computer that has a webcam. When you receive a browser prompt, "
 "make sure that you allow access to the camera."
-msgstr "Vous avez besoin d'un ordinateur doté d'une caméra. Lors que votre explorateur vous le demandera, assurez vous de lui donner l'autorisation d'accéder à la caméra."
+msgstr "Vous avez besoin d'un ordinateur doté d'une caméra. Lors que votre navigateur vous le demandera, assurez vous de lui donner l'autorisation d'accéder à la caméra."
 
 #: lms/templates/verify_student/face_photo_step.underscore:10
 msgid "Photo Identification"
@@ -2130,7 +2130,7 @@ msgstr "Lorsque votre visage est en position, utilisez le bouton de la caméra {
 
 #: lms/templates/verify_student/face_photo_step.underscore:25
 msgid "To take a successful photo, make sure that:"
-msgstr "Pour prendre une bonne photo, assurez-vous que: "
+msgstr "Pour prendre une bonne photo, assurez-vous que : "
 
 #: lms/templates/verify_student/face_photo_step.underscore:29
 msgid "Your face is well-lit."
@@ -2196,7 +2196,7 @@ msgstr "Nous utilisons les plus hauts niveaux de sécurité disponibles pour chi
 #: lms/templates/verify_student/payment_confirmation_step.underscore:151
 #, python-format
 msgid "Next: %(nextStepTitle)s"
-msgstr "Suivant: %(nextStepTitle)s"
+msgstr "Suivant : %(nextStepTitle)s"
 
 #: lms/templates/verify_student/id_photo_step.underscore:3
 msgid "Take a Photo of Your ID"
@@ -2268,7 +2268,7 @@ msgstr "Pouvons-nous faire une comparaison de la photo prise avec la photo de vo
 
 #: lms/templates/verify_student/intro_step.underscore:6
 msgid "Thanks for returning to verify your ID in: {courseName}"
-msgstr "Merci d'être revenu faire la vérification de votre identité dans: {courseName}"
+msgstr "Merci d'être revenu faire la vérification de votre identité dans : {courseName}"
 
 #: lms/templates/verify_student/intro_step.underscore:19
 msgid ""
@@ -2301,11 +2301,11 @@ msgstr "Un permis de conduire, un passeport ou toute pièce d'identification off
 #: lms/templates/verify_student/make_payment_step.underscore:6
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
 msgid "You are enrolling in: {courseName}"
-msgstr "Vous demandez une attestation à: {courseName}"
+msgstr "Vous demandez une attestation à : {courseName}"
 
 #: lms/templates/verify_student/make_payment_step.underscore:17
 msgid "You are upgrading your enrollment for: {courseName}"
-msgstr "Vous demandez une attestation pour votre inscription à: {courseName}"
+msgstr "Vous demandez une attestation pour votre inscription à : {courseName}"
 
 #: lms/templates/verify_student/make_payment_step.underscore:26
 msgid ""
@@ -2427,7 +2427,7 @@ msgstr "Merci. Nous avons reçu votre paiement pour {courseName}."
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:88
 msgid "Next Step: Confirm your identity"
-msgstr "Étape suivante: Confirmer votre identité"
+msgstr "Étape suivante : Confirmer votre identité"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore:101
 msgid "Check your email"
@@ -2491,7 +2491,7 @@ msgstr "Photo de l'ID de %(fullName)s"
 
 #: lms/templates/verify_student/review_photos_step.underscore:25
 msgid "Photo requirements:"
-msgstr "Conditions requises pour la photo:"
+msgstr "Conditions requises pour la photo : "
 
 #: lms/templates/verify_student/review_photos_step.underscore:27
 msgid "Does the photo of you show your whole face?"
@@ -2508,7 +2508,7 @@ msgstr "Le nom sur votre pièce d'identité est-il lisible ?"
 #: lms/templates/verify_student/review_photos_step.underscore:30
 #, python-format
 msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr "Le nom sur votre pièce d'identité correspond-il à votre nom de compte: %(fullName)s?"
+msgstr "Le nom sur votre pièce d'identité correspond-il à votre nom de compte : %(fullName)s?"
 
 #: lms/templates/verify_student/review_photos_step.underscore:34
 msgid "Edit Your Name"
@@ -2539,7 +2539,7 @@ msgstr "Confirmer"
 msgid ""
 "Don't see your picture? Make sure to allow your browser to use your camera "
 "when it asks for permission."
-msgstr "Vous ne voyez pas votre image? Soyez certain de permettre à votre fureteur d'utiliser votre caméra lorsqu'il en demande la permission."
+msgstr "Vous ne voyez pas votre image? Soyez certain de permettre à votre navigateur d'utiliser votre caméra lorsqu'il en demande la permission."
 
 #: lms/templates/verify_student/webcam_photo.underscore:7
 msgid "Live view of webcam"
