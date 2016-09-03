@@ -54,8 +54,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:04+0000\n"
-"PO-Revision-Date: 2016-08-18 00:05+0000\n"
+"POT-Creation-Date: 2016-09-01 11:27+0000\n"
+"PO-Revision-Date: 2016-09-03 15:18+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr "Suppression en cours"
 
 #: cms/static/js/base.js:72
 msgid "This link will open in a new browser window/tab"
-msgstr "Ce lien s'ouvrira dans une nouvelle fenêtre ou onglet de votre fureteur"
+msgstr "Ce lien s'ouvrira dans une nouvelle fenêtre ou onglet de votre navigateur"
 
 #: cms/static/js/base.js:76
 msgid "This link will open in a modal window"
@@ -221,7 +221,7 @@ msgstr "Aller sur la page principale du cours"
 
 #: cms/static/js/factories/export.js:36
 msgid "The raw error message is:"
-msgstr "Le message d'erreur est:"
+msgstr "Le message d'erreur est : "
 
 #: cms/static/js/factories/export.js:38
 msgid "There has been an error with your export."
@@ -346,7 +346,7 @@ msgstr "Vous devez indiquer un nom"
 
 #: cms/static/js/models/course_update.js:14
 msgid "Action required: Enter a valid date."
-msgstr "Action requise: Entrez une date valide."
+msgstr "Action requise : Entrez une date valide."
 
 #: cms/static/js/models/group.js:40
 msgid "Group name is required"
@@ -426,7 +426,7 @@ msgstr "Impossible de déposer plus de <%= types %> qu'il n'est possible d'en as
 
 #: cms/static/js/models/settings/course_grading_policy.js:74
 msgid "Grace period must be specified in HH:MM format."
-msgstr "Le délai doit être au format HH: MM."
+msgstr "Le délai doit être au format HH:MM."
 
 #: cms/static/js/models/settings/course_grading_policy.js:84
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
@@ -508,7 +508,7 @@ msgstr "{0} doit être entre {1} et {2} caractères"
 
 #: cms/static/js/programs/utils/validation_config.js:27
 msgid "{0} must be one of: {1}"
-msgstr "{0} doit être l'un de: {1}"
+msgstr "{0} doit être l'un de : {1}"
 
 #: cms/static/js/programs/utils/validation_config.js:28
 msgid "{0} must be the same as {1}"
@@ -592,7 +592,7 @@ msgstr "Le fichier nommé {filename} dépasse le poids maximum autorisé : {maxF
 msgid ""
 "Please follow the instructions here to upload a file elsewhere and link to "
 "it: {maxFileSizeRedirectUrl}"
-msgstr "Veuillez suivre les instructions présentées ici pour téléverser un fichier ailleurs et créer un lien vers lui: {maxFileSizeRedirectUrl}"
+msgstr "Veuillez suivre les instructions présentées ici pour téléverser un fichier ailleurs et créer un lien vers celui-ci : {maxFileSizeRedirectUrl}"
 
 #: cms/static/js/views/assets.js:210
 msgid "Your file could not be uploaded"
@@ -849,7 +849,7 @@ msgstr "Basique"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js:23
 msgid "Editing: %(title)s"
-msgstr "Modification: %(title)s"
+msgstr "Modifier : %(title)s"
 
 #: cms/static/js/views/modals/edit_xblock.js:122
 msgid "Component"
@@ -874,7 +874,7 @@ msgstr "Date ajoutée"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/pages/container.js:183
 msgid "Editing visibility for: %(title)s"
-msgstr "Éditer la visibilité pour: %(title)s"
+msgstr "Modifier la visibilité pour: %(title)s"
 
 #: cms/static/js/views/pages/container.js:230
 msgid "Duplicating"
@@ -1131,24 +1131,24 @@ msgstr "Sélectionner un fichier au format .srt."
 
 #: cms/static/js/views/video/transcripts/file_uploader.js:188
 msgid "Error: Uploading failed."
-msgstr "Erreur: Le téléversement a échoué."
+msgstr "Erreur : Le téléversement a échoué."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:147
 msgid "Error: Import failed."
-msgstr "Erreur: L'import a échoué."
+msgstr "Erreur : L'import a échoué."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:161
 msgid "Error: Replacing failed."
-msgstr "Erreur: Le remplacement a échoué."
+msgstr "Erreur : Le remplacement a échoué."
 
 #: cms/static/js/views/video/transcripts/message_manager.js:177
 #: cms/static/js/views/video/transcripts/message_manager.js:191
 msgid "Error: Choosing failed."
-msgstr "Erreur: La sélection a échoué."
+msgstr "Erreur : La sélection a échoué."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:66
 msgid "Error: Connection with server failed."
-msgstr "Erreur: La connection avec le serveur a échoué."
+msgstr "Erreur : La connexion avec le serveur a échoué."
 
 #: cms/static/js/views/video/transcripts/metadata_videolist.js:82
 msgid "No sources"
