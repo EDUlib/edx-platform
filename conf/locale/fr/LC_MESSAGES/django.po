@@ -487,8 +487,8 @@ msgid ""
 "Usernames must contain only letters, numbers, underscores (_), and hyphens "
 "(-)."
 msgstr ""
-"Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, undescore"
-" (_) et tiret (-)."
+"Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, souligné"
+" (_) et trait d'union (-)."
 
 #: common/djangoapps/student/forms.py
 #, python-format
@@ -2681,7 +2681,7 @@ msgid ""
 "the page."
 msgstr ""
 "Entrer le titre que vous voulez que les étudiants voient au-dessus de vos "
-"documents du cours sur la page Information sur le cours. Vos documents de "
+"documents du cours sur la page Information sur le cours. Vos documents du "
 "cours apparaissent dans le panneau de droite de la page."
 
 #: common/lib/xmodule/xmodule/course_module.py
@@ -5386,7 +5386,7 @@ msgstr "Wiki"
 #. alone.
 #: lms/djangoapps/course_wiki/views.py
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr "Ceci est le wiki pour _{course_name}_ - **{organization}**"
+msgstr "Ceci est le wiki pour le cours _{course_name}_ - **{organization}**"
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
@@ -10803,7 +10803,7 @@ msgstr "Erreurs de chargement du cours"
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "Search Your Courses"
-msgstr "Chercher dans vos cours"
+msgstr "Effectuez une recherche dans vos cours"
 
 #: lms/templates/dashboard.html lms/templates/courseware/courseware.html
 #: themes/edx.org/lms/templates/dashboard.html
@@ -11689,8 +11689,8 @@ msgid ""
 msgstr ""
 "Dans le cadre de votre adhésion à {platform_name}, vous recevrez un courriel"
 " avec des instructions pour activer votre compte. Vous ne voyez pas le "
-"courriel ? Vérifiez votre dossier de spam et marquez les courriels provenant"
-" de {platform_name} comme n'étant pas du spam. Chez {platform_name}, nous "
+"courriel ? Vérifiez votre dossier de pourriel et marquez les courriels provenant"
+" de {platform_name} comme n'étant pas du pourriel. Chez {platform_name}, nous "
 "communiquons principalement par courriel."
 
 #: lms/templates/register-sidebar.html
@@ -13747,7 +13747,7 @@ msgstr ""
 
 #: lms/templates/courseware/info.html
 msgid "Welcome to {org}'s {course_name}!"
-msgstr "Bienvenue au cours {course_name} - {org}!"
+msgstr "Bienvenue dans le cours {course_name} - {org}!"
 
 #: lms/templates/courseware/info.html
 msgid "Resume Course"
@@ -13791,7 +13791,7 @@ msgstr "Voir la notation dans Studio"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for Student '{username}' ({email})"
-msgstr "Progression pour '{username}' ({email})"
+msgstr "Progression pour {username} ({email})"
 
 #: lms/templates/courseware/progress.html
 msgid "Your enrollment: Audit track"
@@ -14710,7 +14710,7 @@ msgstr "Afficher les notes"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt
 msgid "Welcome to {course_name}"
-msgstr "Bienvenue dans {course_name}"
+msgstr "Bienvenue dans le cours {course_name}"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt
 msgid ""
@@ -17527,7 +17527,7 @@ msgstr ""
 "Il reste encore une étape : avant de s'inscrire dans un cours, vous "
 "devez activer votre compte. Nous avons envoyé un message courriel à "
 "{email_start}{email}{email_end} avec des instructions pour activer votre "
-"compte. Si vous n'avez pas reçu ce message, vérifier votre dossier spam."
+"compte. Si vous n'avez pas reçu ce message, vérifier votre dossier pourriel."
 
 #: lms/templates/registration/activation_complete.html
 msgid "Account Activated"
@@ -18520,11 +18520,11 @@ msgid ""
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
 "able to receive email from your courses."
 msgstr ""
-"Vous allez recevoir un mail d'activation. Vous devrez cliquer sur le lien "
-"d'activation pour compléter l'inscription. Vous ne voyez pas le mail ? "
-"Vérifiez votre dossier de spam et marquez les mails provenant de "
-"class.stanford.edu comme n'étant pas du spam, puisque vous voudrez pouvoir "
-"recevoir des e-mails provenant de nos cours."
+"Vous allez recevoir un courriel d'activation. Vous devrez cliquer sur le lien "
+"d'activation pour compléter l'inscription. Vous ne voyez pas le courriel ? "
+"Vérifiez votre dossier de pourriel et marquez les courriels provenant de "
+"class.stanford.edu comme n'étant pas du pourriel, puisque vous voudrez pouvoir "
+"recevoir des courriels provenant de nos cours."
 
 #: themes/stanford-style/lms/templates/register-sidebar.html
 msgid "Need help in registering with {platform_name}?"
@@ -22902,7 +22902,7 @@ msgid "There's just one more step before you can enroll in a course: "
 "You need to activate your {platform_name} account. To activate "
 "your account, click the following link. If that doesn't work, "
 "copy and paste the link into your browser's address bar."
-msgstr "Il ne reste plus qu'une étape avant que vous puissiez vous inscrire dans un cours : "
+msgstr "Il ne reste plus qu'une étape avant que vous puissiez vous inscrire à un cours : "
 "vous devez activer votre compte {platform_name}. Pour cela, "
 "veuillez cliquez sur le lien suivant. Si le lien ne fonctionne pas, "
 "copiez et collez-le dans la barre d'adresse de votre navigateur."
