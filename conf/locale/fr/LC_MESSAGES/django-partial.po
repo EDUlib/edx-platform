@@ -496,7 +496,9 @@ msgstr "Votre nom complet doit contenir au minimum deux caractères"
 msgid ""
 "Usernames must contain only letters, numbers, underscores (_), and hyphens "
 "(-)."
-msgstr "Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, undescore (_) et tiret (-)."
+msgstr ""
+"Les noms d'utilisateurs ne doivent contenir que des lettres, chiffres, souligné"
+" (_) et trait d'union (-)."
 
 #: common/djangoapps/student/forms.py:125
 #, python-format
@@ -2467,11 +2469,11 @@ msgid ""
 "Enter the heading that you want students to see above your course handouts "
 "on the Course Home page. Your course handouts appear in the right panel of "
 "the page."
-msgstr "Entrer le titre que vous voulez que les étudiants voient au-dessus de vos documents de cours sur la page Information sur le cours. Vos documents de cours apparaissent dans le panneau de droite de la page."
+msgstr "Entrer le titre que vous voulez que les étudiants voient au-dessus de vos documents du cours sur la page Information sur le cours. Vos documents du cours apparaissent dans le panneau de droite de la page."
 
 #: common/lib/xmodule/xmodule/course_module.py:421
 msgid "Course Handouts"
-msgstr "Documents de cours"
+msgstr "Documents du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py:424
 msgid ""
@@ -2737,7 +2739,7 @@ msgstr "Les deux"
 #: common/lib/xmodule/xmodule/course_module.py:663
 #: lms/djangoapps/branding/api.py:174
 msgid "About"
-msgstr "A propos"
+msgstr "À propos"
 
 #: common/lib/xmodule/xmodule/course_module.py:664
 msgid "None"
@@ -4512,7 +4514,7 @@ msgstr "Validation de l'attestation"
 #. students on this platform
 #: lms/djangoapps/certificates/views/webview.py:175
 msgid "About {platform_name} Accomplishments"
-msgstr "A propos des accomplissements {platform_name}"
+msgstr "À propos des accomplissements {platform_name}"
 
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
@@ -4528,7 +4530,7 @@ msgstr "Numéro d'identification de l'attestation"
 
 #: lms/djangoapps/certificates/views/webview.py:185
 msgid "About {platform_name} Certificates"
-msgstr "A propos des attestations {platform_name}"
+msgstr "À propos des attestations {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:189
 msgid "How {platform_name} Validates Student Certificates"
@@ -4556,7 +4558,7 @@ msgstr "{platform_name} offre des cours en ligne et des MOOCs."
 
 #: lms/djangoapps/certificates/views/webview.py:206
 msgid "About {platform_name}"
-msgstr "A propos de {platform_name}"
+msgstr "À propos de {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:208
 msgid "Learn more about {platform_name}"
@@ -4764,7 +4766,7 @@ msgstr "Wiki"
 #. alone.
 #: lms/djangoapps/course_wiki/views.py:77
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr "Ceci est le wiki pour **{organization}**'s _{course_name}_."
+msgstr "Ceci est le wiki pour le cours _{course_name}_ - **{organization}**."
 
 #: lms/djangoapps/course_wiki/views.py:87
 msgid "Course page automatically created."
@@ -4813,7 +4815,7 @@ msgstr "en {relative} - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:166
 msgid "Today is {date}"
-msgstr "Aujourd'hui est le {date}"
+msgstr "Nous sommes le {date}"
 
 #: lms/djangoapps/courseware/date_summary.py:176
 msgid "Course Starts"
