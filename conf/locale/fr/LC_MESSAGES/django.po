@@ -3135,13 +3135,8 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/course_module.py:421
 #: lms/templates/courseware/info.html:106
-#, fuzzy
 msgid "Course Handouts"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Documents du cours\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Documents de cours"
+msgstr "Documents du cours"
 
 #: common/lib/xmodule/xmodule/course_module.py:424
 msgid ""
