@@ -972,7 +972,7 @@ msgstr "Vous pouvez exporter les bibliothèques et les éditer à l'extérieur d
 
 #: cms/templates/export.html:72
 msgid "About Exporting Courses"
-msgstr "A propos de l'export des cours"
+msgstr "À propos de l'export des cours"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html:75
@@ -1129,7 +1129,7 @@ msgstr "Exporter vers Git"
 
 #: cms/templates/export_git.html:27
 msgid "About Export to Git"
-msgstr "A propos de l'exportation vers Git"
+msgstr "À propos de l'exportation vers Git"
 
 #: cms/templates/export_git.html:29
 msgid "Use this to export your course to its git repository."
@@ -2772,7 +2772,7 @@ msgid ""
 "This information includes the course overview, course image, introduction "
 "video, and estimated time requirements. Students use About pages to choose "
 "new courses to take."
-msgstr "D'autres informations provenant de cette page apparaissent sur la page \"A propos\" de votre cours. Ces informations comprennent un aperçu de votre cours, l'image du cours, la vidéo d'introduction, le temps de travail estimé ainsi que les pré-requis. Les étudiants utilisent les pages \"A propos\" pour choisir de nouveaux cours à suivre."
+msgstr "D'autres informations provenant de cette page apparaissent sur la page \"À propos\" de votre cours. Ces informations comprennent un aperçu de votre cours, l'image du cours, la vidéo d'introduction, le temps de travail estimé ainsi que les pré-requis. Les étudiants utilisent les pages \"À propos\" pour choisir de nouveaux cours à suivre."
 
 #: cms/templates/settings_advanced.html:49
 msgid "Your policy changes have been saved."
