@@ -674,7 +674,7 @@ msgstr "Erreurs de chargement du cours"
 #: lms/templates/dashboard.html:140
 #: themes/edx.org/lms/templates/dashboard.html:141
 msgid "Search Your Courses"
-msgstr "Chercher dans vos cours"
+msgstr "Effectuez une recherche dans vos cours"
 
 #: lms/templates/dashboard.html:143 lms/templates/index.html:33
 #: lms/templates/api_admin/catalogs/search.html:23
@@ -847,7 +847,7 @@ msgstr "Échec de l'authentification externe"
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
-msgstr "A propos"
+msgstr "À propos"
 
 #: lms/templates/footer.html:49 themes/edx.org/lms/templates/footer.html:32
 #: themes/red-theme/lms/templates/footer.html:66
@@ -1651,7 +1651,7 @@ msgid ""
 "instructions for activating your account. Don't see the email? Check your "
 "spam folder and mark {platform_name} emails as 'not spam'. At "
 "{platform_name}, we communicate mostly through email."
-msgstr "Dans le cadre de votre adhésion à {platform_name}, vous recevrez un courriel avec des instructions pour activer votre compte. Vous ne voyez pas le courriel ? Vérifiez votre dossier de spam et marquez les courriels provenant de {platform_name} comme n'étant pas du spam. Chez {platform_name}, nous communiquons principalement par courriel."
+msgstr "Dans le cadre de votre adhésion à {platform_name}, vous recevrez un courriel avec des instructions pour activer votre compte. Vous ne voyez pas le courriel ? Vérifiez votre dossier de pourriel et marquez les courriels provenant de {platform_name} comme n'étant pas du pourriel. Chez {platform_name}, nous communiquons principalement par courriel."
 
 #: lms/templates/register-sidebar.html:42
 msgid "Need help registering with {platform_name}?"
@@ -3651,7 +3651,7 @@ msgstr "Vous n'êtes pas actuellement inscrit dans ce cours. {link_start}Inscriv
 
 #: lms/templates/courseware/info.html:61
 msgid "Welcome to {org}'s {course_name}!"
-msgstr "Bienvenue au cours {course_name} de {org}!"
+msgstr "Bienvenue dans le cours {course_name} - {org}!"
 
 #: lms/templates/courseware/info.html:66
 msgid "Resume Course"
@@ -3673,7 +3673,7 @@ msgstr "Navigation des documents pédagogiques"
 
 #: lms/templates/courseware/info.html:93
 msgid "Important Course Dates"
-msgstr "Dates de cours importantes"
+msgstr "Dates importantes du cours"
 
 #: lms/templates/courseware/info.html:106
 msgid "Course Handouts"
@@ -3701,7 +3701,7 @@ msgstr "Voir la notation dans Studio"
 
 #: lms/templates/courseware/progress.html:50
 msgid "Course Progress for Student '{username}' ({email})"
-msgstr "Progression pour '{username}' ({email})"
+msgstr "Progression pour {username} ({email})"
 
 #: lms/templates/courseware/progress.html:65
 msgid "View certificate in a new browser window or tab."
@@ -4441,7 +4441,7 @@ msgstr "Afficher les notes"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:3
 msgid "Welcome to {course_name}"
-msgstr "Bienvenue dans {course_name}"
+msgstr "Bienvenue dans le cours {course_name}"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt:5
 msgid ""
@@ -6929,7 +6929,7 @@ msgid ""
 "activate your account. We've sent an email message to "
 "{email_start}{email}{email_end} with instructions for activating your "
 "account. If you don't receive this message, check your spam folder."
-msgstr "Il reste encore une étape : avant de s'inscrire dans un cours, vous devez activer votre compte. Nous avons envoyé un message courriel à {email_start}{email}{email_end} avec des instructions pour activer votre compte. Si vous n'avez pas reçu ce message, vérifier votre dossier spam."
+msgstr "Il reste encore une étape : avant de s'inscrire dans un cours, vous devez activer votre compte. Nous avons envoyé un message courriel à {email_start}{email}{email_end} avec des instructions pour activer votre compte. Si vous n'avez pas reçu ce message, vérifier votre dossier pourriel."
 
 #: lms/templates/registration/activation_complete.html:14
 msgid "Account Activated"
@@ -7854,7 +7854,7 @@ msgstr "Portail des partenaires edX"
 msgid ""
 "Browse recently launched courses and see what's new in your favorite "
 "subjects."
-msgstr "Parcourir les cours récemment lancés et voir ce qui est nouveau dans vos matières préférées."
+msgstr "Découvrir les cours récemment lancés, ainsi que les nouveautés dans vos disciplines préférées."
 
 #: themes/edx.org/lms/templates/dashboard.html:168
 msgid "Explore New Courses"
@@ -7867,7 +7867,7 @@ msgstr "Bas de page"
 #: themes/edx.org/lms/templates/footer.html:18
 #: themes/edx.org/lms/templates/footer.html:27
 msgid "About edX"
-msgstr "A propos d'edX"
+msgstr "À propos d'EDUlib"
 
 #: themes/edx.org/lms/templates/footer.html:37
 msgid ""
@@ -8036,7 +8036,7 @@ msgid ""
 " to complete the process.  Don't see the email?  Check your spam folder and "
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
 "able to receive email from your courses."
-msgstr "Vous allez recevoir un mail d'activation. Vous devrez cliquer sur le lien d'activation pour compléter l'inscription. Vous ne voyez pas le mail ? Vérifiez votre dossier de spam et marquez les mails provenant de class.stanford.edu comme n'étant pas du spam, puisque vous voudrez pouvoir recevoir des e-mails provenant de nos cours."
+msgstr "Vous allez recevoir un courriel d'activation. Vous devrez cliquer sur le lien d'activation pour compléter l'inscription. Vous ne voyez pas le mail ? Vérifiez votre dossier de pourriel et marquez les courriels provenant de edulib.org comme n'étant pas du pourriel, puisque vous voudrez pouvoir recevoir des courriels provenant de nos cours."
 
 #: themes/stanford-style/lms/templates/register-sidebar.html:33
 msgid "Need help in registering with {platform_name}?"

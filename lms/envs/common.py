@@ -950,7 +950,7 @@ MEDIA_URL = '/media/'
 
 # Locale/Internationalization
 TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'fr'  # http://www.i18nguy.com/unicode/language-identifiers.html
 # these languages display right to left
 LANGUAGES_BIDI = ("he", "ar", "fa", "ur", "fa-ir", "rtl")
 
@@ -1708,6 +1708,7 @@ PIPELINE_JS = {
                 'js/query-params.js',
                 'common/js/vendor/moment-with-locales.js',
                 'common/js/vendor/moment-timezone-with-data.js',
+                'js/vendor/moment.min.js',
             ]
         ),
         'output_filename': 'js/lms-application.js',
