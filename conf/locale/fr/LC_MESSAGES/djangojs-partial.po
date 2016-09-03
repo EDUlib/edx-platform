@@ -4238,7 +4238,7 @@ msgstr "Ajouter une langue"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js:121
 msgid "About me"
-msgstr "A propos de moi"
+msgstr "À propos de moi"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js:122
 msgid ""
