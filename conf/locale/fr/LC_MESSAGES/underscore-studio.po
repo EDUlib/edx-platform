@@ -84,8 +84,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:04+0000\n"
-"PO-Revision-Date: 2016-08-18 00:44+0000\n"
+"POT-Creation-Date: 2016-09-01 11:26+0000\n"
+"PO-Revision-Date: 2016-09-03 19:07+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,7 @@ msgstr "Sélectionner une sous-section pré-requise et entrer un score minimum e
 
 #: cms/templates/js/access-editor.underscore:11
 msgid "Prerequisite:"
-msgstr "Pré-requis:"
+msgstr "Pré-requis : "
 
 #: cms/templates/js/access-editor.underscore:13
 msgid "No prerequisite"
@@ -115,7 +115,7 @@ msgstr "Pas de pré-requis"
 
 #: cms/templates/js/access-editor.underscore:22
 msgid "Minimum Score:"
-msgstr "Score minimum:"
+msgstr "Score minimum : "
 
 #: cms/templates/js/access-editor.underscore:27
 msgid "The minimum score percentage must be a whole number between 0 and 100."
@@ -143,7 +143,7 @@ msgstr "statut"
 
 #: cms/templates/js/add-xblock-component-button.underscore:7
 msgid "Add Component:"
-msgstr "Ajouter un composant :"
+msgstr "Ajouter un composant : "
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
@@ -248,11 +248,11 @@ msgstr "Ouvrir/Télécharger ce fichier"
 
 #: cms/templates/js/asset.underscore:23
 msgid "Studio:"
-msgstr "Studio :"
+msgstr "Studio : "
 
 #: cms/templates/js/asset.underscore:29
 msgid "Web:"
-msgstr "Web :"
+msgstr "Web : "
 
 #: cms/templates/js/asset.underscore:39
 msgid "Delete this asset"
@@ -379,7 +379,7 @@ msgstr "Désactiver"
 msgid ""
 "Caution: The last published version of this unit is live. By publishing "
 "changes you will change the student experience."
-msgstr "Attention: la dernière version publiée de cette unité est active. En publiant des modifications vous allez changer l'expérience des étudiants."
+msgstr "Attention : la dernière version publiée de cette unité est active. En publiant des modifications vous allez changer l'expérience des étudiants."
 
 #: cms/templates/js/content-group-details.underscore:34
 #: cms/templates/js/content-group-editor.underscore:40
@@ -388,7 +388,7 @@ msgstr "Ne peut supprimer lorsque utilisé par une unité"
 
 #: cms/templates/js/content-group-details.underscore:44
 msgid "This content group is used in:"
-msgstr "Ce groupe de contenu est utilisé dans :"
+msgstr "Ce groupe de contenu est utilisé dans : "
 
 #: cms/templates/js/content-group-details.underscore:55
 msgid ""
@@ -515,7 +515,7 @@ msgstr "URL de la photo de l'enseignant"
 msgid ""
 "Please add a photo of the instructor (Note: only JPEG or PNG format "
 "supported)"
-msgstr "S'il vous plaît ajouter une photo de l'enseignant (Note: seuls les format JPEG or PNG sont supportés)"
+msgstr "S'il vous plaît ajouter une photo de l'enseignant (Note : seuls les format JPEG or PNG sont supportés)"
 
 #: cms/templates/js/course-instructor-details.underscore:36
 msgid "Upload Photo"
@@ -524,7 +524,7 @@ msgstr "Téléverser une photo"
 #: cms/templates/js/course-outline.underscore:19
 #, python-format
 msgid "Prerequisite: %(prereq_display_name)s"
-msgstr "Pré-requis: %(prereq_display_name)s"
+msgstr "Pré-requis : %(prereq_display_name)s"
 
 #: cms/templates/js/course-outline.underscore:26
 msgid "Contains staff only content"
@@ -587,28 +587,28 @@ msgstr "Glissez pour modifier l'ordre"
 
 #: cms/templates/js/course-outline.underscore:145
 msgid "Release Status:"
-msgstr "Statut de la diffusion :"
+msgstr "Statut de la diffusion : "
 
 #: cms/templates/js/course-outline.underscore:150
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
-msgstr "Diffusé :"
+msgstr "Diffusé : "
 
 #: cms/templates/js/course-outline.underscore:153
 #: cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
-msgstr "Programmé :"
+msgstr "Programmé : "
 
 #: cms/templates/js/course-outline.underscore:169
 #: cms/templates/js/course-outline.underscore:183
 msgid "Graded as:"
-msgstr "Noté comme :"
+msgstr "Noté comme : "
 
 #: cms/templates/js/course-outline.underscore:176
 #: cms/templates/js/course-outline.underscore:187
 msgid "Due:"
-msgstr "Date d'échéance :"
+msgstr "Date d'échéance : "
 
 #: cms/templates/js/course-outline.underscore:196
 msgid "Subsection is hidden after due date"
@@ -713,11 +713,11 @@ msgstr "Poster"
 
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
-msgstr "Date de remise :"
+msgstr "Date de remise : "
 
 #: cms/templates/js/due-date-editor.underscore:9
 msgid "Due Time in UTC:"
-msgstr "Horaire de rendu en UTC :"
+msgstr "Horaire de rendu en UTC : "
 
 #: cms/templates/js/due-date-editor.underscore:17
 #: cms/templates/js/due-date-editor.underscore:19
@@ -780,7 +780,7 @@ msgstr "Évaluation"
 
 #: cms/templates/js/grading-editor.underscore:5
 msgid "Grade as:"
-msgstr "Noter comme :"
+msgstr "Noter comme : "
 
 #: cms/templates/js/grading-editor.underscore:7
 msgid "Not Graded"
@@ -793,7 +793,7 @@ msgstr "Ne peut être supprimé lorsqu'il est en cours d'utilisation par un test
 
 #: cms/templates/js/group-configuration-details.underscore:61
 msgid "This Group Configuration is used in:"
-msgstr "Cette configuration de groupe est utilisée dans :"
+msgstr "Cette configuration de groupe est utilisée dans : "
 
 #: cms/templates/js/group-configuration-details.underscore:84
 msgid ""
@@ -881,7 +881,7 @@ msgstr "Affichage de la licence"
 msgid ""
 "The following message will be displayed at the bottom of the courseware "
 "pages within your course:"
-msgstr "Le message suivant apparaîtra au bas des pages dans votre cours:"
+msgstr "Le message suivant apparaîtra au bas des pages dans votre cours : "
 
 #: cms/templates/js/license-selector.underscore:82
 #: cms/templates/js/license-selector.underscore:110
@@ -890,7 +890,7 @@ msgstr "Tous Droits Réservés"
 
 #: cms/templates/js/license-selector.underscore:101
 msgid "Creative Commons licensed content, with terms as follow:"
-msgstr "Contenu sous license Creative Commons, avec les conditions suivantes:"
+msgstr "Contenu sous license Creative Commons, avec les conditions suivantes : "
 
 #: cms/templates/js/license-selector.underscore:105
 msgid "Some Rights Reserved"
@@ -1013,7 +1013,7 @@ msgstr "Brouillon (Changements non publiés)"
 
 #: cms/templates/js/publish-xblock.underscore:13
 msgid "Release:"
-msgstr "Diffusion :"
+msgstr "Diffusion : "
 
 #: cms/templates/js/publish-xblock.underscore:23
 msgid "Publishing Status"
@@ -1031,11 +1031,11 @@ msgstr "avec %(release_date_from)s"
 
 #: cms/templates/js/publish-xblock.underscore:67
 msgid "Is Visible To:"
-msgstr "Est visible pour :"
+msgstr "Est visible pour : "
 
 #: cms/templates/js/publish-xblock.underscore:69
 msgid "Will Be Visible To:"
-msgstr "Sera visible pour :"
+msgstr "Sera visible pour : "
 
 #: cms/templates/js/publish-xblock.underscore:74
 msgid "Staff Only"
@@ -1061,7 +1061,7 @@ msgstr "Cacher des apprenants."
 
 #: cms/templates/js/publish-xblock.underscore:105
 msgid "Note: Do not hide graded assignments after they have been released."
-msgstr "Note: Ne pas cacher les travaux notés après qu'ils aient été publiés."
+msgstr "Note : Ne pas cacher les travaux notés après qu'ils aient été publiés."
 
 #: cms/templates/js/publish-xblock.underscore:118
 msgid "Discard Changes"
@@ -1073,11 +1073,11 @@ msgstr "Date et heure de diffusion"
 
 #: cms/templates/js/release-date-editor.underscore:5
 msgid "Release Date:"
-msgstr "Date de diffusion :"
+msgstr "Date de diffusion : "
 
 #: cms/templates/js/release-date-editor.underscore:11
 msgid "Release Time in UTC:"
-msgstr "Horaire de diffusion en UTC :"
+msgstr "Horaire de diffusion en UTC : "
 
 #: cms/templates/js/release-date-editor.underscore:21
 #: cms/templates/js/release-date-editor.underscore:23
@@ -1179,7 +1179,7 @@ msgstr "Si vous rendez ce %(xblockType)s visible aux apprenants, les apprenants 
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
-msgstr "Rôle actuel:"
+msgstr "Rôle actuel : "
 
 #: cms/templates/js/team-member.underscore:8
 msgid "You!"
@@ -1252,7 +1252,7 @@ msgstr "Utilisez un examen de pratique surveillé afin d'introduire les apprenan
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:41
 msgid "Time Allotted (HH:MM):"
-msgstr "Temps imparti (HH:MM):"
+msgstr "Temps imparti (HH:MM) : "
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:45
 msgid ""
@@ -1280,7 +1280,7 @@ msgstr "Chargement du fichier réussi"
 msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
-msgstr "Veuillez vérifier les commentaires de validation suivants et en tenir compte dans les paramètres de votre cours:"
+msgstr "Veuillez vérifier les commentaires de validation suivants et en tenir compte dans les paramètres de votre cours : "
 
 #: cms/templates/js/verification-access-editor.underscore:3
 msgid "Verification Checkpoint"
@@ -1378,12 +1378,12 @@ msgstr "Supprimer l'instance %(key)s du programme"
 #: cms/templates/js/programs/course_run.underscore:19
 #, python-format
 msgid "Start Date: %(date)s"
-msgstr "Date de début: %(date)s"
+msgstr "Date de début : %(date)s"
 
 #: cms/templates/js/programs/course_run.underscore:24
 #, python-format
 msgid "Mode: %(mode)s"
-msgstr "Mode: %(mode)s"
+msgstr "Mode : %(mode)s"
 
 #: cms/templates/js/programs/course_run.underscore:30
 msgid "Please select a Course Run"
