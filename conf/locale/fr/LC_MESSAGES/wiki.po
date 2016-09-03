@@ -45,6 +45,7 @@
 # Pedro Guimarães Martins <pedrogmartins7@gmail.com>, 2014
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
 # Régis Millet <kulgar@ct2c.fr>, 2015
@@ -65,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-08-25 15:05+0000\n"
-"PO-Revision-Date: 2016-08-17 16:23+0000\n"
+"POT-Creation-Date: 2016-09-01 11:27+0000\n"
+"PO-Revision-Date: 2016-09-03 15:54+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -477,7 +478,7 @@ msgstr "%s ajouté avec succès."
 #: wiki/plugins/attachments/views.py:51 wiki/plugins/attachments/views.py:111
 #, python-format
 msgid "Your file could not be saved: %s"
-msgstr "Votre fichier ne peut pas être sauvegardé: %s"
+msgstr "Votre fichier ne peut pas être sauvegardé : %s"
 
 #: wiki/plugins/attachments/views.py:53 wiki/plugins/attachments/views.py:115
 msgid ""
@@ -523,12 +524,12 @@ msgstr "Pièces jointes"
 #: wiki/plugins/attachments/wiki_plugin.py:36
 #, python-format
 msgid "A file was changed: %s"
-msgstr "Un fichier a été modifié: %s"
+msgstr "Un fichier a été modifié : %s"
 
 #: wiki/plugins/attachments/wiki_plugin.py:36
 #, python-format
 msgid "A file was deleted: %s"
-msgstr "Un fichier a été supprimé: %s"
+msgstr "Un fichier a été supprimé : %s"
 
 #: wiki/plugins/help/wiki_plugin.py:13
 msgid "Help"
@@ -556,7 +557,7 @@ msgstr "images"
 #: wiki/plugins/images/models.py:45
 #, python-format
 msgid "Image: %s"
-msgstr "Image: %s"
+msgstr "Image : %s"
 
 #: wiki/plugins/images/models.py:45
 msgid "Current revision not set!!"
