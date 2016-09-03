@@ -3674,7 +3674,7 @@ msgstr "Dates importantes du cours"
 
 #: lms/templates/courseware/info.html:106
 msgid "Course Handouts"
-msgstr "Documents de cours"
+msgstr "Documents du cours"
 
 #: lms/templates/courseware/news.html:5
 msgid "News - MITx 6.002x"
