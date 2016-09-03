@@ -687,7 +687,7 @@ msgstr "Le nombre de devoirs de ce type qui seont ignorés. Les scores des devoi
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
-msgstr "Documents de cours"
+msgstr "Documents du cours"
 
 #: cms/templates/js/course_info_handouts.underscore:9
 msgid "You have no handouts defined"
