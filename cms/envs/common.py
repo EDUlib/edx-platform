@@ -571,7 +571,7 @@ STATICFILES_DIRS = [
 
 # Locale/Internationalization
 TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'fr'  # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES_BIDI = lms.envs.common.LANGUAGES_BIDI
 
 LANGUAGE_COOKIE = lms.envs.common.LANGUAGE_COOKIE
@@ -1192,7 +1192,7 @@ MAX_ASSET_UPLOAD_FILE_SIZE_URL = ""
 ENTRANCE_EXAM_MIN_SCORE_PCT = 50
 
 ### Default language for a new course
-DEFAULT_COURSE_LANGUAGE = "en"
+DEFAULT_COURSE_LANGUAGE = "fr"
 
 # Specify XBlocks that should be treated as advanced problems. Each entry is a
 # dict:
