@@ -10535,3 +10535,7 @@ msgstr "Utiliser la transcription courante"
 #: common/static/common/templates/discussion/discussion-home.underscore
 msgid "Use the Discussion Topics menu to find specific topics."
 msgstr "Utiliser le menu des sujets de discussions pour trouver des sujets spécifiques."
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "By: Staff"
+msgstr "Par : Équipe pédagogique"
