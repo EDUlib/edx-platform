@@ -47,3 +47,7 @@ msgid "This email message was automatically sent by {site_name} because "
 msgstr "Ce message vous a été envoyé automatiquement par {site_name} en "
 "raison du fait que quelqu'un a tenté de créer un compte sur {platform_name} en utilisant "
 "cette adresse courriel."
+
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Search all posts"
+msgstr "Rechercher…"
