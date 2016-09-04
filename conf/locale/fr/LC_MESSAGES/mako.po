@@ -4316,7 +4316,7 @@ msgstr "Filtre : "
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html:12
 msgid "Show all"
-msgstr "Tout montrer"
+msgstr "Tout afficher"
 
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html:14
