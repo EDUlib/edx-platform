@@ -1931,7 +1931,7 @@ msgstr "Nous avons eu quelques problèmes pour ré-ouvrir ce fil de discussion. 
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:271
 msgid "Load more"
-msgstr "Charger plus"
+msgstr "Afficher plus"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:286
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:317
@@ -1988,12 +1988,12 @@ msgstr "Le fil de discussion sélectionné a été effacé. Veuillez choisir un 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:235
 #: common/static/common/js/discussion/views/discussion_thread_view.js:270
 msgid "We had some trouble loading responses. Please reload the page."
-msgstr "Nous avons quelques problèmes pour charger les réponses. Veuillez recharger la page."
+msgstr "Nous avons quelques problèmes pour afficher les réponses. Veuillez recharger la page."
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:237
 #: common/static/common/js/discussion/views/discussion_thread_view.js:275
 msgid "We had some trouble loading more responses. Please try again."
-msgstr "Nous avons quelques problèmes pour charger davantage de réponses. Veuillez essayer de nouveau. "
+msgstr "Nous avons quelques problèmes pour afficher plus de réponses. Veuillez essayer de nouveau. "
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:251
 msgid "%(numResponses)s other response"
@@ -2022,11 +2022,11 @@ msgstr[1] "Afficher les %(numResponses)s premières réponses"
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:269
 #: common/static/common/js/discussion/views/discussion_thread_view.js:324
 msgid "Load all responses"
-msgstr "Charger toutes les réponses"
+msgstr "Afficher toutes les réponses"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:272
 msgid "Load next %(numResponses)s responses"
-msgstr "Charger les %(numResponses)s prochaines réponses"
+msgstr "Afficher les %(numResponses)s prochaines réponses"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:421
 #: common/static/common/js/discussion/views/discussion_thread_view.js:477
