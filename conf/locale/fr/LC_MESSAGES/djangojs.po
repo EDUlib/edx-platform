@@ -2399,7 +2399,7 @@ msgstr ""
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:271
 #: common/static/common/templates/discussion/nav-load-more-link.underscore:3
 msgid "Load more"
-msgstr "Charger plus"
+msgstr "Afficher plus"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js:286
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:317
@@ -2464,14 +2464,14 @@ msgstr ""
 #: common/static/common/js/discussion/views/discussion_thread_view.js:270
 msgid "We had some trouble loading responses. Please reload the page."
 msgstr ""
-"Nous avons quelques problèmes pour charger les réponses. Veuillez recharger "
+"Nous avons quelques problèmes pour afficher les réponses. Veuillez recharger "
 "la page."
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:237
 #: common/static/common/js/discussion/views/discussion_thread_view.js:275
 msgid "We had some trouble loading more responses. Please try again."
 msgstr ""
-"Nous avons quelques problèmes pour charger davantage de réponses. Veuillez "
+"Nous avons quelques problèmes pour afficher plus de réponses. Veuillez "
 "essayer de nouveau. "
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:251
@@ -2501,11 +2501,11 @@ msgstr[1] "Afficher les %(numResponses)s premières réponses"
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:269
 #: common/static/common/js/discussion/views/discussion_thread_view.js:324
 msgid "Load all responses"
-msgstr "Charger toutes les réponses"
+msgstr "Afficher toutes les réponses"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:272
 msgid "Load next %(numResponses)s responses"
-msgstr "Charger les %(numResponses)s prochaines réponses"
+msgstr "Afficher les %(numResponses)s prochaines réponses"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js:421
 #: common/static/common/js/discussion/views/discussion_thread_view.js:477
@@ -8069,8 +8069,8 @@ msgstr "Mettre à jour maintenant"
 #, python-format
 msgid "Load next %(num_items)s result"
 msgid_plural "Load next %(num_items)s results"
-msgstr[0] "Charger le %(num_items)s prochain resultat"
-msgstr[1] "Charger les %(num_items)s prochains resultats"
+msgstr[0] "Afficher le %(num_items)s prochain résultat"
+msgstr[1] "Afficher les %(num_items)s prochains résultats"
 
 #: lms/templates/search/course_search_results.underscore:23
 #: lms/templates/search/dashboard_search_results.underscore:24
