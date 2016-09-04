@@ -429,7 +429,7 @@ msgstr "Plus"
 
 #: common/static/common/templates/discussion/nav-load-more-link.underscore:3
 msgid "Load more"
-msgstr "Charger plus"
+msgstr "Afficher plus"
 
 #: common/static/common/templates/discussion/new-post.underscore:9
 msgid "Visible To:"
@@ -1756,8 +1756,8 @@ msgstr "Résultats de la recherche"
 #, python-format
 msgid "Load next %(num_items)s result"
 msgid_plural "Load next %(num_items)s results"
-msgstr[0] "Charger le %(num_items)s prochain resultat"
-msgstr[1] "Charger les %(num_items)s prochains resultats"
+msgstr[0] "Afficher le %(num_items)s prochain résultat"
+msgstr[1] "Afficher les %(num_items)s prochains résultats"
 
 #: lms/templates/search/course_search_results.underscore:23
 #: lms/templates/search/dashboard_search_results.underscore:24
