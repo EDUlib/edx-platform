@@ -4909,7 +4909,7 @@ msgid ""
 "{platform_name}."
 msgstr ""
 "Cette page contient de l'information à propos des commandes que vous avez "
-"passés avec {platform_name}."
+"passées avec {platform_name}."
 
 #: lms/static/js/student_account/views/account_settings_fields.js:46
 msgid ""
@@ -5012,7 +5012,7 @@ msgstr "Ajouter une langue"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js:121
 msgid "About me"
-msgstr "A propos de moi"
+msgstr "À propos de moi"
 
 #: lms/static/js/student_profile/views/learner_profile_factory.js:122
 msgid ""
