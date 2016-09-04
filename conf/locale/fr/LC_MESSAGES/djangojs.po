@@ -10529,3 +10529,9 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:25
 msgid "Use Current Transcript"
 msgstr "Utiliser la transcription courante"
+
+#. Start of local translations for EDUlib
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Use the Discussion Topics menu to find specific topics."
+msgstr "Utiliser le menu des sujets de discussions pour trouver des sujets spécifiques."
