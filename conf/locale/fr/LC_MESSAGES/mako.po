@@ -4302,7 +4302,7 @@ msgstr "filtrer les sujets"
 
 #: lms/templates/discussion/_filter_dropdown.html:47
 msgid "All Discussions"
-msgstr "Tous les discussions"
+msgstr "Toutes les discussions"
 
 #: lms/templates/discussion/_filter_dropdown.html:52
 msgid "Posts I'm Following"
