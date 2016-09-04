@@ -15497,7 +15497,7 @@ msgstr "Filtre : "
 #. Translators: This is a menu option for showing all forum threads unfiltered
 #: lms/templates/discussion/_thread_list_template.html:12
 msgid "Show all"
-msgstr "Tout montrer"
+msgstr "Tout afficher"
 
 #. Translators: This is a menu option for showing only unread forum threads
 #: lms/templates/discussion/_thread_list_template.html:14
@@ -24130,3 +24130,7 @@ msgid "This email message was automatically sent by {site_name} because "
 msgstr "Ce message vous a été envoyé automatiquement par {site_name} en "
 "raison du fait que quelqu'un a tenté de créer un compte sur {platform_name} en utilisant "
 "cette adresse courriel."
+
+#: lms/templates/discussion/_thread_list_template.html
+msgid "Search all posts"
+msgstr "Rechercher…"
