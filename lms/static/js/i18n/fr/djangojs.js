@@ -308,6 +308,7 @@
     "Bulk Exceptions": "D\u00e9rogations en lot", 
     "Bullet list": "Liste \u00e0 puces", 
     "Bulleted List (Ctrl+U)": "List \u00e0 Puces (Ctrl+U)", 
+    "By: Staff": "Par : \u00c9quipe p\u00e9dagogique", 
     "Can we match the photo you took with the one on your ID?": "Pouvons-nous faire une comparaison de la photo prise avec la photo de votre pi\u00e8ce d'identification officielle?", 
     "Cancel": "Annuler", 
     "Cancel enrollment code": "Annuler le code d'inscription", 
