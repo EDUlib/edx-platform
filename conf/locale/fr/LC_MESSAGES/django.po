@@ -6015,8 +6015,7 @@ msgstr "Fin du cours"
 msgid ""
 "To earn a certificate, you must complete all requirements before this date."
 msgstr ""
-"Pour obtenir une attestation, vous devez compléter toutes les conditions "
-"avant cette date."
+"Pour obtenir une attestation, vous devez répondre aux exigences requises avant cette date."
 
 #: lms/djangoapps/courseware/date_summary.py:201
 msgid "After this date, course content will be archived."
