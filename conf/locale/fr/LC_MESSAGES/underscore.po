@@ -310,7 +310,7 @@ msgstr "OK"
 
 #: common/static/common/templates/discussion/discussion-home.underscore:3
 msgid "Discussion Home"
-msgstr "Page d'acceuil des discussions"
+msgstr "Page d'accueil des discussions"
 
 #: common/static/common/templates/discussion/discussion-home.underscore:12
 #, python-format
@@ -970,7 +970,7 @@ msgstr "Mes signets"
 
 #: lms/templates/bookmarks/bookmarks-list.underscore:14
 msgid "Bookmarked on"
-msgstr "Signet ajouté"
+msgstr "Signet ajouté le"
 
 #: lms/templates/bookmarks/bookmarks-list.underscore:18
 #: lms/templates/search/course_search_item.underscore:2

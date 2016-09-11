@@ -5020,7 +5020,7 @@ msgid ""
 "interests are, why you're taking courses, or what you hope to learn."
 msgstr ""
 "Parlez nous de vous : où habitez-vous, quels sont vos intérêts, pourquoi "
-"suivez-vous des cours ou ce que vous souhaitez apprendre."
+"suivez-vous des cours ou ce que vous souhaitez apprendre?"
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js:23
 msgid "Account Settings page."
@@ -6637,7 +6637,7 @@ msgstr "Effacer la recherche"
 
 #: common/static/common/templates/discussion/discussion-home.underscore:3
 msgid "Discussion Home"
-msgstr "Page d'acceuil des discussions"
+msgstr "Page d'accueil des discussions"
 
 #: common/static/common/templates/discussion/discussion-home.underscore:12
 #, python-format
@@ -7275,7 +7275,7 @@ msgstr "Mes signets"
 
 #: lms/templates/bookmarks/bookmarks-list.underscore:14
 msgid "Bookmarked on"
-msgstr "Signet ajouté"
+msgstr "Signet ajouté le"
 
 #: lms/templates/bookmarks/bookmarks-list.underscore:33
 msgid "You have not bookmarked any courseware pages yet."
