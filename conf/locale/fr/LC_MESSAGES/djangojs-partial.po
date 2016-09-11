@@ -4244,7 +4244,7 @@ msgstr "À propos de moi"
 msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
-msgstr "Parlez nous de vous : où habitez-vous, quels sont vos intérêts, pourquoi suivez-vous des cours ou ce que vous souhaitez apprendre."
+msgstr "Parlez nous de vous : où habitez-vous, quels sont vos intérêts, pourquoi suivez-vous des cours ou ce que vous souhaitez apprendre?"
 
 #: lms/static/js/student_profile/views/learner_profile_fields.js:23
 msgid "Account Settings page."
