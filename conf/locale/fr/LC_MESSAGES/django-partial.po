@@ -4421,7 +4421,7 @@ msgid ""
 "An {cert_type} certificate signifies that a learner has agreed to abide by "
 "the honor code established by {platform_name} and has completed all of the "
 "required tasks for this course under its guidelines."
-msgstr "Une attestation {cert_type} signifie que l'apprenant a accepté de respecter le code d'honneur établie par {platform_name} et a terminé toutes les tâches requises pour ce cours en vertu de ses lignes directrices."
+msgstr "Une attestation {cert_type} signifie que l'apprenant a accepté de respecter le code d'honneur établi par {platform_name} et a terminé toutes les tâches requises pour ce cours en vertu de ses lignes directrices."
 
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
@@ -4434,7 +4434,7 @@ msgid ""
 "required tasks for this course under its guidelines. A {cert_type} "
 "certificate also indicates that the identity of the learner has been checked"
 " and is valid."
-msgstr "Une attestation {cert_type} signifie que l'apprenant a accepté de respecter le code d'honneur établie par {platform_name} et a terminé toutes les tâches requises pour ce cours en vertu de ses lignes directrices. Une attestation {cert_type} indique aussi que l'identité de l'apprenant a été vérifiée et est valide."
+msgstr "Une attestation {cert_type} signifie que l'apprenant a accepté de respecter le code d'honneur établi par {platform_name} et a terminé toutes les tâches requises pour ce cours en vertu de ses lignes directrices. Une attestation {cert_type} indique aussi que l'identité de l'apprenant a été vérifiée et est valide."
 
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
@@ -4764,7 +4764,7 @@ msgstr "Wiki"
 #. alone.
 #: lms/djangoapps/course_wiki/views.py:77
 msgid "This is the wiki for **{organization}**'s _{course_name}_."
-msgstr "Ceci est le wiki pour le cours _{course_name}_ - **{organization}**."
+msgstr "Vous êtes sur le wiki du cours _{course_name}_, **{organization}**."
 
 #: lms/djangoapps/course_wiki/views.py:87
 msgid "Course page automatically created."
