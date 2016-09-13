@@ -3,7 +3,7 @@
 // ----------------------------
 // #CONFIG
 // ----------------------------
-$static-path: '..';
+$static-theme-path: '..';
 
 // ----------------------------
 // #COLORS
@@ -19,7 +19,7 @@ $m-blue: rgb(18, 85, 139);
 // ----------------------------
 
 // homepage, onboarding, and course discovery
-$homepage-bg-image: url('#{$static-path}/images/edulib-theme/nuages.jpg');
+$homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 
 //
 // ----------------------------
