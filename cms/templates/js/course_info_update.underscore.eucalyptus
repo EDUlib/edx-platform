@@ -27,7 +27,8 @@
             <button class="delete-button" name="<%= updateModel.cid %>"><span class="delete-icon"></span><%= gettext('Delete') %></button>
 		</div>
 		<h2>
-			<span class="calendar-icon"></span>
+			<span class="calendar-icon"></span><span class="date-display"><%=
+				updateModel.get('date') %></span>
 		</h2>
 		<div class="update-contents"><%= updateModel.get('content') %></div>
 	</div>
