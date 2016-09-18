@@ -15647,7 +15647,7 @@ msgstr "Cordialement, l'équipe de {course_name}"
 
 #: lms/templates/emails/activation_email.txt:3
 msgid "Thank you for creating an account with {platform_name}!"
-msgstr "Merci d'avoir créé un compre sur {platform_name}!"
+msgstr "Merci d'avoir créé un compte sur {platform_name}!"
 
 #: lms/templates/emails/activation_email.txt:7
 msgid ""
