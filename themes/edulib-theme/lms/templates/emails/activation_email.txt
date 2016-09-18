@@ -20,9 +20,9 @@ ${_("After you activate your account, you can take "
     "or other information."
   ).format(platform_name=settings.PLATFORM_NAME)}
 
-${_("If you need help, please use our web form at "
-    "{contact_us_url}, email {info_email_address}, "
-    "or write to {info_postal_address}."
+${_("If you need help, please "
+    "send an email to {info_email_address}, "
+    "or write to us at {info_postal_address}."
   ).format(
     contact_us_url="https://www.edx.org/contact-us",
     info_email_address=settings.CONTACT_EMAIL,
