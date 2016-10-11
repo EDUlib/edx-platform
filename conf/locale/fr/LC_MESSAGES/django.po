@@ -14374,8 +14374,7 @@ msgid ""
 "{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Facilement partageable : {b_end} Ajouter l'attestation à votre CV, "
-"ou poster la directement sur LinkedIn"
+"{b_start}Facilement partageable : {b_end} Ajouter l’attestation à votre curriculum vitae ou poster-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html:107
 #: lms/templates/course_modes/choose.html:115
@@ -14413,8 +14412,7 @@ msgid ""
 "{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr ""
-"{b_start}Facilement partageable : {b_end}Ajouter l'attestation à votre CV ou "
-"curriculum vitae, ou poster le directement sur les réseaux sociaux"
+"{b_start}Facilement partageable : {b_end} Ajouter l’attestation à votre curriculum vitae ou poster-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html:126
 #: themes/edx.org/lms/templates/course_modes/choose.html:126
@@ -14459,8 +14457,8 @@ msgid ""
 "{b_end}"
 msgstr ""
 "Suivre ce cours gratuitement et avoir un accès complet à tout le matériel, "
-"activités, tests et forums du cours. {b_start}Prendre note que ce parcours "
-"n'offre pas d'attestations aux apprenants qui aurant la note de passage."
+"activités, tests et forums du cours.  {b_start}Prendre note que ce parcours n'offre pas d'attestation "
+"aux apprenants qui auront la note de passage."
 "{b_end}"
 
 #: lms/templates/courseware/accordion.html:14
@@ -19452,7 +19450,7 @@ msgid ""
 "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr ""
-"{b_start}Supporter notre mission : {b_end} EdX, une organisation sans but "
+"{b_start}Supporter notre mission : {b_end} EDUlib, une organisation sans but "
 "lucratif, repose sur les attestations pour assurer le financement de "
 "l'éducation gratuite pour tous à l´échelle mondiale"
 
