@@ -1,0 +1,26 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Honor Code")}</%block>
+
+    
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <p style="text-align:right;"><a href="/honor">Fran&ccedil;ais</a></p>
+        
+        #####<h1>${_("Honor Code")}</h1>
+        <h1>Honor Code</h1>
+        
+        
+        <p>By registering with EDU<em>lib</em>, I agree:</p>
+        <ul>
+            <li>To have only one user account and not let anyone else use it;</li>
+            <li>To take the tests and exams myself, without the help of others;</li>
+            <li>To only submit my own work, which does not contain any material that is plagiarized, in whole or in part, and to properly cite my sources;</li>
+            <li>To never publicly disclose the answers to the questions used in the course tests and exams;</li>
+            <li>To respect the <a href="/tos_en">Terms of Service</a> set out in the section of the website of the same name, which deals with the rights and responsibilities of persons registered with EDU<em>lib</em>.</li>
+        </ul>
+    </section>
+</main>
+
