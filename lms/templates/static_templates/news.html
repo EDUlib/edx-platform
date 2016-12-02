@@ -1,30 +1,18 @@
-##### CODE EUCALYPTUS
-#####<%page expression_filter="h"/>
-#####<%! from django.utils.translation import ugettext as _ %>
-#####
-#####<%inherit file="../main.html" />
-#####
-#####<%block name="pagetitle">${_("In the Press")}</%block>
-#####
-#####<main id="main" aria-label="Content" tabindex="-1">
-#####    <section class="container about">
-#####        <h1>${_("In the Press")}</h1>
-#####        <p>${_("This page left intentionally blank. Feel free to add your own content.")}</p>
-#####    </section>
-#####</main>
-##### CODE EUCALYPTUS
+<%page expression_filter="h"/>
 <%! from django.utils.translation import ugettext as _ %>
 
 <%inherit file="../main.html" />
 
 <%block name="pagetitle">${_("In the Press")}</%block>
+    
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>${_("In the Press")}</h1>
 
-<section class="container about">
-    <h1>${_("In the Press")}</h1>
+        <h3 style="text-align:center;"><a href="http://edulib-nouvelles.blogspot.ca/">Cliquez ici pour accéder aux nouvelles</a></h3>
 
-    <h3 style="text-align:center;"><a href="http://edulib-nouvelles.blogspot.ca/">Cliquez ici pour accéder aux nouvelles</a></h3>
-
-    <script type="text/javascript">
-        window.location.href = 'http://edulib-nouvelles.blogspot.ca/';
-    </script>
-</section>
+        <script type="text/javascript">
+            window.location.href = 'http://edulib-nouvelles.blogspot.ca/';
+        </script>
+    </section>
+</main>
