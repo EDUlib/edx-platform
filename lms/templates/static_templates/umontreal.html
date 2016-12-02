@@ -25,7 +25,10 @@ logo_alt_text = "EDUlib Logo"
 
 <section class="container edulib">
 
-        <h1>Universit&eacute; de Montr&eacute;al</h1>
+        <h1><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" width="600" height="200" /></h1>
+    
+        <p><a href="/umontreal_en">English Version</a></p>
+    
         <p>L&rsquo;Universit&eacute; de Montr&eacute;al forme avec ses &eacute;coles affili&eacute;es, HEC Montr&eacute;al et Polytechnique Montr&eacute;al, le premier p&ocirc;le d&rsquo;enseignement et de recherche du Qu&eacute;bec, tant par le nombre d&rsquo;&eacute;tudiants que par l&rsquo;effectif professoral et le volume des activit&eacute;s de recherche. L&rsquo;UdeM se situe au deuxi&egrave;me rang des universit&eacute;s canadiennes pour le nombre d&rsquo;&eacute;tudiants inscrits. Les campus de l&rsquo;UdeM accueillent pr&egrave;s d&rsquo;un &eacute;tudiant universitaire qu&eacute;b&eacute;cois sur quatre, soit une population &eacute;tudiante de pr&egrave;s de <span style="white-space: nowrap;">60 000</span> personnes. Parmi les universit&eacute;s qu&eacute;b&eacute;coises, l&rsquo;UdeM est aussi le premier choix des &eacute;tudiants de l&rsquo;ext&eacute;rieur du pays, dont le nombre atteint presque <span style="white-space: nowrap;">7 000</span>. Elle emploie pr&egrave;s de <span style="white-space: nowrap;">9 000</span> personnes &agrave; temps plein, &agrave; temps partiel et &agrave; vacation, dont plus de <span style="white-space: nowrap;">4 500</span> professeurs, chercheurs, charg&eacute;s de cours, professeurs de clinique et charg&eacute;s de clinique, ce qui la situe parmi les plus grands employeurs de Montr&eacute;al.</p>
     
         <p>Le Times Higher Education inclut l&rsquo;Universit&eacute; de Montr&eacute;al dans son classement des meilleures universit&eacute;s de la plan&egrave;te. Le r&eacute;put&eacute; classement de l&rsquo;universit&eacute; chinoise Jiao Tong, quant &agrave; lui, situe l&rsquo;UdeM parmi les 150 meilleurs &eacute;tablissements universitaires du monde. Sur le plan de la recherche, l&rsquo;UdeM figure au quatri&egrave;me rang du classement canadien de l&rsquo;organisme Research Info$ource.</p>
@@ -43,7 +46,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>&Agrave; venir</h1>
+        <h1>${_("Coming Soon")}</h1>
     %endif
 
     <section class="courses-container">
@@ -73,7 +76,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>En cours</h1>
+        <h1>${_("In Progress")}</h1>
     %endif
 
     <section class="courses-container">
@@ -103,7 +106,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>Termin&eacute;s</h1>
+        <h1>${_("Completed")}</h1>
     %endif
 
     <section class="courses-container">
