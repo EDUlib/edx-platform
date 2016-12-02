@@ -41,7 +41,9 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
 
 .home>header .title .course-search .search-button {right: 0px !important;}
 
-div.info-wrapper section.updates article h2 {display: none !important;}
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article h2.date {display: none !important;}
+
+.home>header .title .course-search .search-button {right: 0px !important;}
 
 
 // ----------------------------
