@@ -1,0 +1,26 @@
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("Institutions")}</%block>
+
+<section class="container about">
+    <h1>${_("Institutions")}</h1>
+    
+    <p><a href="/institutions">Version fran&ccedil;aise</a></p>
+    
+    <h2>Founding Partners</h2>
+    
+    <ul class="member-list founder">
+        <li><a href="${marketing_link('UMONTREAL_EN')}"><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" /></a></li>
+
+        <li><a href="${marketing_link('HEC_EN')}"><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" /></a></li>
+
+        <li><a href="${marketing_link('POLYMTL_EN')}"><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" /></a></li>
+    </ul>
+    
+    <h2>Associated Members</h2>
+    <ul class="member-list associate">
+        <li><a href="${marketing_link('USHERBROOKE_EN')}"><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" /></a></li>
+    </ul>
+
+</section>
