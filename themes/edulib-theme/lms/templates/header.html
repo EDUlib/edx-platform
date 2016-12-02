@@ -76,12 +76,15 @@ site_status_msg = get_site_status_msg(course_id)
               % if not nav_hidden:
                 <%block name="navigation_global_links">
                   <li class="item nav-global-01">
-                    <a href="${marketing_link('FAQ')}">${_("FAQ")}</a>
+                    <a href="${marketing_link('ABOUT')}">${_("About")}</a>
                   </li>
                   <li class="item nav-global-02">
-                    <a href="${marketing_link('COURSES')}">${_("Courses")}</a>
+                    <a href="${marketing_link('FAQ')}">${_("FAQ")}</a>
                   </li>
                   <li class="item nav-global-03">
+                    <a href="${marketing_link('COURSES')}">${_("Courses")}</a>
+                  </li>
+                  <li class="item nav-global-04">
                     <a href="${marketing_link('INSTITUTIONS')}">${_("Institutions")}</a>
                   </li>
                 </%block>
