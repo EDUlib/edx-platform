@@ -6961,7 +6961,7 @@ msgstr "Ce message est visible par tous."
 #: common/static/common/templates/discussion/thread-type.underscore:5
 #: common/static/common/templates/discussion/thread-type.underscore:6
 msgid "Post type:"
-msgstr "Type de message : "
+msgstr "Type : "
 
 #: common/static/common/templates/discussion/thread-type.underscore:11
 msgid "Question"
@@ -6997,7 +6997,7 @@ msgstr "Replier la discussion"
 
 #: common/static/common/templates/discussion/topic.underscore:3
 msgid "Topic Area:"
-msgstr "Secteur thématique : "
+msgstr "Thème : "
 
 #: common/static/common/templates/discussion/topic.underscore:5
 msgid "Discussion topics; currently listing: "
