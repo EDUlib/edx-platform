@@ -1,0 +1,103 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("FAQ")}</%block>
+    
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>${_("FAQ")}</h1>
+        
+        <p><a href="/faq">Version fran&ccedil;aise</a></p>
+
+        <ul style="list-style-type:none; padding-left:0;">
+            <li><a href="#who">Who can take EDU<em>lib</em> courses?</a></li>
+            <li><a href="#courses">Are these real university courses?</a></li>
+            <li><a href="#certificate">Will I receive a certificate?</a></li>
+            <li><a href="#credits">If I pass the course, can I later get university credits from participating institutions?</a></li>
+            <li><a href="#registration">How do I register?</a></li>
+            <li><a href="#evaluation">How will I be evaluated?</a></li>
+            <li><a href="#contribution">Will I be able to contribute to the course?</a></li>
+            <li><a href="#anonymity">Will I be anonymous?</a></li>
+            <li><a href="#video">I'm having trouble playing the course videos. Why is that?</a></li>
+            <li><a href="#configuration">What configuration is required to be able to use EDU<em>lib</em>?</a></li>
+        </ul>
+
+
+        <h3><a name="who"></a>Who can take EDU<em>lib</em> courses?</h3>
+
+        <p>EDU<em>lib</em> courses are open to everyone. They cater to those wishing to improve their knowledge base.</p>
+
+
+        <h3><a name="courses"></a>Are these real university courses?</h3>
+
+        <p>Yes, these are real university courses. Although the courses are offered online, the subject matter and academic rigour remain the same as in the regular courses given by the participating institutions. So, registered users are expected to spend between three and six hours a week on homework for each course (watching videos, reading additional material, completing exercises and tests).</p>
+
+
+        <h3><a name="certificate"></a>Will I receive a certificate?</h3>
+
+        <p>Yes, a certificate is usually issued upon successful completion. It may be issued with or without a fee.</p>
+        
+        <p>The decision as to whether or not to issue a certificate is at the sole discretion of the institution and the professor in charge of the course. The requirements for obtaining a certificate are listed in the &ldquo;About&rdquo; section of the course website.</p>
+        
+        <p>All participants must complete the course work and pass the exams administered by the professor within the time allotted before they can obtain a certificate. The certificate is issued in PDF format with the first and last name you provided at the time of registration.</p>
+        
+
+        <h3><a name="credits"></a>If I pass the course, can I later get university credits from participating institutions?</h3>
+
+        <p>No, the courses completed with EDU<em>lib</em> are not admissible for academic credits. Participating institutions only give credits to students enrolled in their regular programmes.</p>
+
+
+        <h3><a name="registration"></a>How do I register?</h3>
+
+        <p>To access EDU<em>lib</em>, all you need to do is create an account and log in. You can then sign up for any course on the list of currently available options.</p>
+
+
+        <h3><a name="evaluation"></a>How will I be evaluated?</h3>
+
+        <p>Evaluations vary from one course to another; but, as a general rule, you will have to take a weekly quiz and pass a final exam.</p>
+
+
+        <h3><a name="contribution"></a>Will I be able to contribute to the course?</h3>
+
+        <p>A discussion forum is available for all courses. So, you will be able to share your thoughts and comments with fellow participants, while adhering to the code of conduct set out in the <a href="../tos#forums">Terms of Service</a>.</p>
+
+
+        <h3><a name="anonymity"></a>Will I be anonymous?</h3>
+
+        <p>No. Your postings will bear your user ID.</p>
+
+
+        <h3><a name="video"></a>I&rsquo;m having trouble playing the course videos. Why is that?</h3>
+
+        <p>You may be trying to view them somewhere that blocks access to YouTube videos; for example, in your school or workplace. If this is the case, try to watch them from your home or a public library.</p>
+
+        <p>It may also be that your Internet connection has insufficient bandwidth. That is why some courses offer a low-resolution version of the video that can be downloaded. If a low-resolution version is available, a download link appears below the video.</p>
+
+        <p>For additional help watching videos, please consult the <a href="https://support.google.com/youtube/topic/6077002?hl=en&ref_topic=3014746" onclick="window.open(this.href);return false;">YouTube Help Center</a>.</p>
+
+
+        <h3><a name="configuration"></a>What configuration is required to be able to use EDU<em>lib</em>?</h3>
+
+        <p>EDU<em>lib</em> works with most browsers and operating systems, including Microsoft Windows 10, macOS and Linux.</p>
+
+        <ul>
+            <li>Chrome et Firefox (latest versions)</li>
+            <li>Internet Explorer (versions 10 and 11) on Windows</li>
+            <li>Safari (latest version) on macOS</li>
+        </ul>
+
+        <p>Please note that to use EDU<em>lib</em>, it is best to configure your browser as follows:</p>
+
+        <ul>
+            <li>Update the browser to the latest version;</li>
+            <li>Accept cookies from the website;</li>
+            <li>Allow pop-ups;</li>
+            <li>Enable JavaScript;</li>
+            <li>Adjust your monitor resolution to at least 1024 x 768 pixels;</li>
+            <li>Install the latest free version of <a href="https://get.adobe.com/en/reader/" onclick="window.open(this.href);return false;">Adobe Reader</a>.</li>
+        </ul>
+
+
+    </section>
+</main>
