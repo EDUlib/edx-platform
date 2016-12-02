@@ -33,9 +33,10 @@ $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 
 html {background-color: transparent !important;}
 div.info-wrapper {background-color: #fff !important;}
-body.discussion {background-color: #fcfcfc !important;}
 
-div.info-wrapper section.updates article h2 {display: none !important;}
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article h2.date {display: none !important;}
+
+.home>header .title .course-search .search-button {right: 0px !important;}
 
 
 // ----------------------------
@@ -43,9 +44,7 @@ div.info-wrapper section.updates article h2 {display: none !important;}
 // ----------------------------
 
 
-div.wrapper-all-footer {width: 100%;}
-
-div.wrapper-footer {min-height: 55px;}
+footer#footer-edx-v3 {background-color: #fafafa !important;}
 
 footer#footer-edx-v3 .site-nav {display: inline-block;}
 
@@ -83,38 +82,6 @@ footer#footer-edx-v3 .external-links {width: 25% !important;}
 footer#footer-edx-v3 .external-links:last-child {float: right;}
 
 
-//-----------------
-//  Banniere ecoles affiliees
-//-----------------
-
-footer.partners-footer {
-    background-color: #fff;
-	margin: 0 auto;
-	padding: 20px 0;
-	width: 100%;
-	min-height: 50px;
-}
-
-body.view-in-course footer.partners-footer, body.discussion footer.partners-footer {
-    background-color: transparent;
-    margin-top: 40px;
-}
-
-body.view-in-course footer#footer-edx-v3 {margin-top: 0px !important;}
-
-footer.partners-footer ul {
-	text-align: center !important;
-}
-
-footer.partners-footer ul li {
-    display: inline-block;
-    width: 185px;
-}
-
-footer.partners-footer a, div.references a {
-	display: inline-block;
-}
-
 
 //-----------------
 //  Page d'accueil
@@ -151,6 +118,68 @@ section.home header .title hgroup {
 section.home header .title hgroup h1 {text-align: center;}
 
 
+
+//-----------------
+//  Pages Institutions
+//-----------------
+
+
+section.about ul.member-list {
+	text-align: center;
+    padding: 0;
+}
+
+section.about ul.member-list li, section.about ul.member-list a {
+    display: inline-block;
+    width: 300px;
+}
+
+section.about ul.member-list li {margin: 10px;}
+
+section.about ul.member-list a {
+    background-color: $gray-l6;
+    border: 1px solid $gray-l3;
+}
+
+section.about ul.member-list a:hover {
+    background-color: $blue-l5;
+    border-color: $blue-l3;
+}
+
+section.about ul.founder a {height: 200px;}
+
+section.about ul.founder a img {
+    width: 85%;
+    margin-top: 55px;
+}
+
+section.about ul.associate a {height: 135px;}
+
+section.about ul.associate a img {
+    width: 60%;
+    margin-top: 40px;
+}
+
+
+
+//-----------------
+//  Pages Contacts
+//-----------------
+
+
+section.about p.member-list a.institution {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+section.about p.member-list span {
+    display: inline-block;
+}
+
+
+
 //-----------------
 //  Pages d'information
 //-----------------
@@ -159,7 +188,10 @@ section.about p, section.about ul li, section.about ol li, section.about span, s
 
 section.about h1 {margin-top: 1em;}
 
-section.about h3, section.about h4 {margin: 2em 0 1em 0;}
+section.about h3, section.about h4 {
+    margin: 2em 0 1em 0;
+    font-weight: bold;
+}
 
 section.about ul, section.about ol {margin-top: 0.25em;}
 
