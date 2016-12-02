@@ -25,8 +25,12 @@ logo_alt_text = "EDUlib Logo"
 
 <section class="container edulib">
     
-        <h1>HEC Montr&eacute;al</h1>
+        <h1><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" width="600" height="200" /></h1>
+    
+        <p><a href="/hec_en">English Version</a></p>
+    
         <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">13 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 26 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">78 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
+    
         <p><a href="http://www.hec.ca" onclick="window.open(this.href);return false;">http://www.hec.ca</a></p>
 
 
@@ -40,7 +44,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>&Agrave; venir</h1>
+        <h1>${_("Coming Soon")}</h1>
     %endif
 
     <section class="courses-container">
@@ -70,7 +74,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>En cours</h1>
+        <h1>${_("In Progress")}</h1>
     %endif
 
     <section class="courses-container">
@@ -100,7 +104,7 @@ logo_alt_text = "EDUlib Logo"
     %>
 
     %if counter !=0 :
-        <h1>Termin&eacute;s</h1>
+        <h1>${_("Completed")}</h1>
     %endif
 
     <section class="courses-container">
