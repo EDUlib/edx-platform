@@ -67,7 +67,7 @@ from xmodule.modulestore.django import modulestore
                      </li>
                  %endif
             %endfor
-            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
                  % if ((course.has_started() and not course.has_ended() and (course.end_datetime_text() == "")) ) and course.catalog_visibility=="both":
                      <li class="courses-listing-item">
                          <%include file="course-edulib.html" args="course=course" />
