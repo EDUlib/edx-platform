@@ -784,7 +784,7 @@ msgstr "Sélectionnez l'icône Configuration pour une section ou une sous-sectio
 
 #: cms/templates/course_outline.html:208
 msgid "Learn more about grading policy settings"
-msgstr "Apprenez en plus sur les paramètres de politique de notation"
+msgstr "Apprenez-en plus sur les paramètres de politique de notation"
 
 #: cms/templates/course_outline.html:212
 msgid "Changing the content learners see"
@@ -814,7 +814,7 @@ msgstr "Pour cacher aux apprenants le contenu d'une sous-section après que la d
 
 #: cms/templates/course_outline.html:217
 msgid "Learn more about content visibility settings"
-msgstr "Apprenez en plus sur les paramètres de visibilité de contenu"
+msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
@@ -1116,7 +1116,7 @@ msgstr "Utilisez un logiciel de manipulation d'archives pour extraire les donné
 
 #: cms/templates/export.html:182
 msgid "Learn more about exporting a course"
-msgstr "Apprenez en plus sur l'export de cours"
+msgstr "Apprenez-en plus sur l'export de cours"
 
 #: cms/templates/export_git.html:9
 msgid "Export Course to Git"
