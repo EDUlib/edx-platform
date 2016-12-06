@@ -860,7 +860,7 @@
     "Last activity %(date)s": "Derni\u00e8re activit\u00e9 %(date)s", 
     "Last modified by": "Derni\u00e8re modification par", 
     "Last published %(last_published_date)s by %(publish_username)s": "Derni\u00e8re publication %(last_published_date)s par %(publish_username)s", 
-    "Learn more about {license_name}": "Apprenez en plus sur {license_name}", 
+    "Learn more about {license_name}": "Apprenez-en plus sur {license_name}", 
     "Learners are added to this cohort automatically.": "Les apprenants sont automatiquement ajout\u00e9s \u00e0 cette cohorte.", 
     "Learners are added to this cohort only when you provide their email addresses or usernames on this page.": "Les apprenants sont ajout\u00e9e \u00e0 cette cohorte lorsque vous ajoutez leurs adresses courriels ou noms d'utilisateurs dans cette page.", 
     "Learners do not see the subsection in the course outline. The subsection is not included in grade calculations.": "Les \u00e9tudiants ne voient pas cette sous-section dans le plan de cours. Cette sous-section n'est pas incluse dans l'\u00e9valuation des notes.", 
