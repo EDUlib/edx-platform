@@ -4145,7 +4145,7 @@ msgid ""
 "It's official. It's easily shareable. It's a proven motivator to complete "
 "the course. {line_break}{link_start}Learn more about the verified "
 "{cert_name_long}{link_end}."
-msgstr "C'est officiel. C'est facilement partageable. C'est un facteur de motivation afin de compléter le cours. {line_break}{link_start}Apprenez en plus au sujet d'une attestation{link_end}."
+msgstr "C'est officiel. C'est facilement partageable. C'est un facteur de motivation afin de compléter le cours. {line_break}{link_start}Apprenez-en plus au sujet d'une attestation{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:372
 msgid "Upgrade to Verified"
