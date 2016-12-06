@@ -9731,7 +9731,7 @@ msgstr "Type de licence"
 
 #: cms/templates/js/license-selector.underscore:18
 msgid "Learn more about {license_name}"
-msgstr "Apprenez en plus sur {license_name}"
+msgstr "Apprenez-en plus sur {license_name}"
 
 #: cms/templates/js/license-selector.underscore:34
 msgid "Options for {license_name}"
