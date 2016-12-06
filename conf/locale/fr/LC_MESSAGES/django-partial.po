@@ -4560,7 +4560,7 @@ msgstr "À propos de {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:208
 msgid "Learn more about {platform_name}"
-msgstr "Apprenez en plus à propos de {platform_name}"
+msgstr "Apprenez-en plus à propos de {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:210
 msgid "Learn with {platform_name}"
