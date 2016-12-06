@@ -5722,7 +5722,7 @@ msgstr "À propos de {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:208
 msgid "Learn more about {platform_name}"
-msgstr "Apprenez en plus à propos de {platform_name}"
+msgstr "Apprenez-en plus à propos de {platform_name}"
 
 #: lms/djangoapps/certificates/views/webview.py:210
 msgid "Learn with {platform_name}"
@@ -15291,7 +15291,7 @@ msgid ""
 "{cert_name_long}{link_end}."
 msgstr ""
 "C'est officiel. C'est facilement partageable. C'est un facteur de motivation "
-"afin de compléter le cours. {line_break}{link_start}Apprenez en plus au "
+"afin de compléter le cours. {line_break}{link_start}Apprenez-en plus au "
 "sujet d'une attestation{link_end}."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:372
@@ -20422,7 +20422,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:208
 msgid "Learn more about grading policy settings"
-msgstr "Apprenez en plus sur les paramètres de politique de notation"
+msgstr "Apprenez-en plus sur les paramètres de politique de notation"
 
 #: cms/templates/course_outline.html:212
 msgid "Changing the content learners see"
@@ -20464,7 +20464,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:217
 msgid "Learn more about content visibility settings"
-msgstr "Apprenez en plus sur les paramètres de visibilité de contenu"
+msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
@@ -20827,7 +20827,7 @@ msgstr ""
 
 #: cms/templates/export.html:182
 msgid "Learn more about exporting a course"
-msgstr "Apprenez en plus sur l'export de cours"
+msgstr "Apprenez-en plus sur l'export de cours"
 
 #: cms/templates/export_git.html:9
 msgid "Export Course to Git"
