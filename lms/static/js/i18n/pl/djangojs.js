@@ -1532,7 +1532,7 @@
     "This image is for decorative purposes only and does not require a description.": "Cette image est uniquement \u00e0 des fins d\u00e9coratives et ne n\u00e9cessite pas une description.", 
     "This is the Description of the Group Configuration": "Ceci est la description de la configuration du groupe", 
     "This is the Name of the Group Configuration": "Ceci est le nom de la configuration du groupe", 
-    "This is the name of the group": "Ceci et le nom du groupe", 
+    "This is the name of the group": "Ceci est le nom du groupe", 
     "This learner is currently sharing a limited profile.": "Cet apprenant partage actuellement un profil restreint.", 
     "This learner will be removed from the team, allowing another learner to take the available spot.": "Cet apprenant sera supprim\u00e9 de l'\u00e9quipe, permettant \u00e0 un nouvel apprenant de prendre la place vacante.", 
     "This link will open in a modal window": "Ce lien s'ouvrira dans une nouvelle fen\u00eatre contextuelle", 
