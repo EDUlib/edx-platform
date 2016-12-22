@@ -6428,7 +6428,7 @@ msgstr ""
 
 #: cms/static/js/views/utils/xblock_utils.js:92
 msgid "Deleting this %(xblock_type)s is permanent and cannot be undone."
-msgstr "Supprimer ce %(xblock_type)s est permanent et ne peut être défait."
+msgstr "Supprimer ce composant est permanent et ne peut être défait."
 
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid ""
@@ -6445,11 +6445,11 @@ msgstr "Supprimer ce %(xblock_type)s (et prérequis)?"
 #: cms/static/js/views/utils/xblock_utils.js:107
 #: cms/static/js/views/utils/xblock_utils.js:122
 msgid "Yes, delete this %(xblock_type)s"
-msgstr "Oui, supprimer ce %(xblock_type)s"
+msgstr "Oui, supprimer ce composant"
 
 #: cms/static/js/views/utils/xblock_utils.js:116
 msgid "Delete this %(xblock_type)s?"
-msgstr "Supprimer ce %(xblock_type)s?"
+msgstr "Supprimer ce composant?"
 
 #: cms/static/js/views/utils/xblock_utils.js:208
 msgid "section"
