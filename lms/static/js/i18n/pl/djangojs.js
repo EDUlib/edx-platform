@@ -772,7 +772,7 @@
     "Hide closed captions": "Masquer les sous-titres", 
     "Hide content after due date": "Cacher le contenu apr\u00e8s la date d'\u00e9ch\u00e9ance", 
     "Hide entire subsection": "Cacher toute la sous-section", 
-    "Hide from learners": "Cacher aux \u00e9tudiants.", 
+    "Hide from students": "Cacher aux \u00e9tudiants", 
     "Hide notes": "Masquer les notes", 
     "Hiding from Students": "Cacher aux \u00e9tudiants", 
     "High Definition": "Haute d\u00e9finition", 
