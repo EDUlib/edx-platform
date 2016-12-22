@@ -1047,8 +1047,8 @@ msgid "with %(section_or_subsection)s"
 msgstr "avec %(section_or_subsection)s"
 
 #: cms/templates/js/publish-xblock.underscore:84
-msgid "Staff and Learners"
-msgstr "Equipe pédagogique et apprenants"
+msgid "Staff and Students"
+msgstr "Equipe pédagogique et étudiants"
 
 #: cms/templates/js/publish-xblock.underscore:89
 msgid "Some content in this unit is visible only to particular content groups"
@@ -1057,7 +1057,7 @@ msgstr "Du contenu dans cette unité n'est visible que pour des groupes de conte
 #: cms/templates/js/publish-xblock.underscore:100
 #: cms/templates/js/staff-lock-editor.underscore:16
 msgid "Hide from learners"
-msgstr "Cacher des apprenants."
+msgstr "Cacher aux étudiants."
 
 #: cms/templates/js/publish-xblock.underscore:105
 msgid "Note: Do not hide graded assignments after they have been released."
