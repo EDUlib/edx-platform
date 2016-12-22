@@ -9247,7 +9247,7 @@ msgstr "ID du groupe de contenu"
 
 #: cms/templates/js/content-group-editor.underscore:18
 msgid "This is the name of the group"
-msgstr "Ceci et le nom du groupe"
+msgstr "Ceci est le nom du groupe"
 
 #: cms/templates/js/content-group-editor.underscore:25
 msgid "This content group is used in one or more units."
