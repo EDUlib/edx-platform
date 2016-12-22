@@ -23099,7 +23099,7 @@ msgstr ""
 
 #: cms/templates/visibility_editor.html:26
 msgid "Manage content groups"
-msgstr "Gérer les groupes de contenus"
+msgstr "Gérer les groupes de contenu"
 
 #. Translators: Any text between {screen_reader_start} and {screen_reader_end}
 #. is only read by screen readers and never shown in the browser.
