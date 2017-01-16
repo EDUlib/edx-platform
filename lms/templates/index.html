@@ -1,9 +1,11 @@
+<%page expression_filter="h"/>
 <%inherit file="main.html" />
 <%namespace name='static' file='static_content.html'/>
 <%!
 from django.utils.translation import ugettext as _
 from django.urls import reverse
 
+from openedx.core.djangolib.markup import HTML, Text
 %>
 
 ##### HAWTHORN <main id="main" aria-label="Content" tabindex="-1">
@@ -87,14 +89,7 @@ from django.urls import reverse
             % endif
       </div>
 
-      % if show_homepage_promo_video:
-        <a href="#video-modal" class="media" rel="leanModal">
-          <div class="hero">
-            <div class="play-intro"></div>
           </div>
-        </a>
-      % endif
-    </div>
 
   </header>
   
@@ -104,30 +99,19 @@ from django.urls import reverse
   <section class="courses-container">
     <section class="highlighted-courses">
 
-      % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-        <section class="courses">
-            <ul class="courses-listing">
-            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                 % if ((course.has_started() and not course.has_ended() and not (course.end_datetime_text() == "") ) or (not course.has_started())) and course.catalog_visibility=="both":
-                     <li class="courses-listing-item">
-                         <%include file="course-edulib.html" args="course=course" />
-                     </li>
-                 %endif
-            %endfor
-            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                 % if ((course.has_started() and not course.has_ended() and (course.end_datetime_text() == "")) ) and course.catalog_visibility=="both":
-                     <li class="courses-listing-item">
-                         <%include file="course-edulib.html" args="course=course" />
-                     </li>
-                 %endif
-            %endfor
-            </ul>
-        </section>
-      % endif
+      </header>
+      <%include file="${courses_list}" />
 
     </section>
+</main>
+
+% if show_homepage_promo_video:
+  <section id="video-modal" class="modal home-page-video-modal video-modal">
+    <div class="inner-wrapper">
+      <iframe title="YouTube Video" width="640" height="360" src="//www.youtube.com/embed/${homepage_promo_video_youtube_id}?showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
   </section>
-</section>
+% endif
 
 <%block name="js_extra">
    <script type="text/javascript">
