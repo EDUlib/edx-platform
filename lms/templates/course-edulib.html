@@ -22,13 +22,13 @@ from openedx.core.lib.courses import course_image_url
         <span class="course-code">${course.display_number_with_default | h}</span>
         <span class="course-title">${course.display_name_with_default}</span>
       </h2>
-      <div class="course-date" aria-hidden="true">${_("Starts")} : ${course.start}</div>
+      <div class="course-date" aria-hidden="true">${_("Starts")} : ${course.start.strftime('%Y-%m-%d')}</div>
     </div>
     <div class="sr">
       <ul>
       <li>${course.display_org_with_default | h}</li>
       <li>${course.display_number_with_default | h}</li>
-      <li>${_("Starts")} : <time itemprop="startDate" datetime="${course.start}">${course.start}</time></li>
+      <li>${_("Starts")} : <time itemprop="startDate" datetime="${course.start.strftime('%Y-%m-%d')}">${course.start.strftime('%Y-%m-%d')}</time></li>
     </ul>
     </div>
   </a>
