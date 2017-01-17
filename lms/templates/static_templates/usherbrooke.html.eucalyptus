@@ -9,7 +9,7 @@
 
 <%! from microsite_configuration import microsite %>
 
-<%block name="pagetitle">HEC Montr&eacute;al</%block>
+<%block name="pagetitle">Universit&eacute; de Sherbrooke</%block>
 
 <%
 platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
@@ -24,22 +24,28 @@ logo_alt_text = "EDUlib Logo"
 <section class="home">
 
 <section class="container edulib">
+        
+        <p style="text-align:right;"><a href="/usherbrooke_en">English</a></p>
+        
+        <h1><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" width="600" height="200" /></h1>
+        
+        <p>L&rsquo;Université de Sherbrooke est une université francophone et le coeur d&rsquo;un des trois pôles d&rsquo;enseignement et de recherche du Québec. Située à Sherbrooke, elle compte plus de 40 000 étudiantes et étudiants provenant de 88 pays, dont quelque 10 500 inscrits à l&rsquo;Université du troisième âge. Ses facultés de Droit, d&rsquo;Éducation, de Génie, des Lettres et sciences humaines, de Médecine et sciences de la santé, des Sciences de l&rsquo;activité physique et des Sciences, ainsi que son École de gestion, offrent plus de 390 formations aux trois cycles, dans la plupart des grandes filières.</p>
+        
+        <p>Elle compte trois campus, le Campus principal et le Campus de la santé à Sherbrooke, et le Campus de Longueuil en Montérégie.</p>
+        
+        <p>L&rsquo;Université de Sherbrooke est une pionnière de l&rsquo;enseignement coopératif. Elle est aujourd&rsquo;hui considérée comme le chef de file de cette méthode qui permet à plusieurs étudiants d&rsquo;ajouter à leurs connaissances théoriques une expérience pratique acquise en milieu de travail grâce aux stages rémunérés.</p>
+        
+        <p>La réputation d&rsquo;excellence de l&rsquo;Université de Sherbrooke s&rsquo;appuie également sur ses activités de recherche qui ont conduit à des découvertes majeures et qui connaissent une croissance fulgurante. De nombreux transferts technologiques sont effectués vers les entreprises afin de favoriser la commercialisation de technologies compétitives. L&rsquo;Université de Sherbrooke se démarque également par ses initiatives en matière d&rsquo;entrepreneuriat et d&rsquo;innovation ouverte en collaboration avec les milieux.</p>
     
-        <p style="text-align:right;"><a href="/hec_en">English</a></p>
+        <p><a href="http://www.usherbrooke.ca" onclick="window.open(this.href);return false;">http://www.usherbrooke.ca</a></p>
     
-        <h1><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" width="600" height="200" /></h1>
     
-        <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">13 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 26 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">78 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
-    
-        <p><a href="http://www.hec.ca" onclick="window.open(this.href);return false;">http://www.hec.ca</a></p>
-
-
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <% counter = 0 %>
     %endif
 
     <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-           if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if not course.has_started() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -52,7 +58,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    %if not course.has_started() and course.org.lower() == "hec" and not course.has_ended() and course.catalog_visibility == "both" :
+                    %if not course.has_started() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -69,7 +75,7 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
-           if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if course.has_started() and not course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -83,14 +89,14 @@ logo_alt_text = "EDUlib Logo"
            <ul class="courses-listing">
 
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="hec" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and not course.end_datetime_text()=="" and course.org.lower()=="usherbrooke" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="hec" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and course.end_datetime_text()=="" and course.org.lower()=="usherbrooke" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -108,7 +114,7 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-           if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -121,7 +127,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                    %if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+                    %if course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -131,7 +137,6 @@ logo_alt_text = "EDUlib Logo"
         </section>
     </section>
     </section>
-
 
 </section>
 </section>
