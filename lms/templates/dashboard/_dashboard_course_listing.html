@@ -105,17 +105,17 @@ from student.helpers import (
             else:
                 format = 'shortDate'
                 if course_overview.has_ended():
-                    container_string = _("Ended - {date}")
+                    container_string = ("Ended - {date}")
                     course_date = course_overview.end
                 elif course_overview.has_started():
-                    container_string = _("Started - {date}")
+                    container_string = ("Started - {date}")
                     course_date = course_overview.start
                 elif course_overview.starts_within(days=5):
-                    container_string = _("Starts - {date}")
+                    container_string = ("Starts - {date}")
                     course_date = course_overview.start
                     format = 'defaultFormat'
                 else: ## hasn't started yet
-                    container_string = _("Starts - {date}")
+                    container_string = ("Starts - {date}")
                     course_date = course_overview.start
                 endif
             endif
