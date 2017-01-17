@@ -107,7 +107,7 @@ data: |
         <optioninput options="('India','Spain','China','Bermuda')" correct="India"></optioninput>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>India became an independent nation on August 15, 1947.</p>
           </div>
         </solution>
@@ -125,7 +125,7 @@ data: |
         </choicegroup>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>According to September 2014 estimates:</p>
             <p>The population of Indonesia is approximately 250 million.</p>
             <p>The population of Brazil  is approximately 200 million.</p>
@@ -159,7 +159,7 @@ data: |
         <textline size="40"/>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>Nanjing Higher Normal Institute first admitted female students in 1920.</p>
           </div>
         </solution>
@@ -178,7 +178,7 @@ data: |
         <textline size="40" correct_answer="7"/>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>Any set of integers on the line \(y = 10 - x\) satisfy these constraints.</p>
           </div>
         </solution>
@@ -199,7 +199,7 @@ data: |
         <textline size="40" correct_answer="9"/>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>Any set of integers on the line \(y = 20 - x\) satisfy these constraints.</p>
             <p>To add an image to the solution, use an HTML "img" tag. Make sure to include alt text.</p>
             <img src="/static/images/placeholder-image.png" width="400" alt="Description of image"/>
@@ -219,7 +219,7 @@ data: |
         Africa"/>
         <solution>
           <div class="detailed-solution">
-            <p>Explication</p>
+            <p>Explanation</p>
             <p>Egypt is home to not only the Pyramids, Cairo, and Memphis, but also
             the Sphinx and the ancient Royal Library of Alexandria.</p>
           </div>
