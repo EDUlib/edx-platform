@@ -111,7 +111,7 @@ from util.course import get_link_for_about_page, get_encoded_course_sharing_utm_
             else:
                 format = 'shortDate'
                 if course_overview.has_ended():
-                    container_string = _("Ended - {date}")
+                    container_string = ("Ended - {date}")
                     course_date = course_overview.end
                 elif course_overview.has_started():
                     container_string = _("Started - {date}")
