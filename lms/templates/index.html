@@ -67,7 +67,7 @@ from xmodule.modulestore.django import modulestore
       <header>
         <div class="outer-wrapper">
           <div class="title">
-            <div class="heading-group">
+<!--            <div class="heading-group">
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
@@ -76,7 +76,14 @@ from xmodule.modulestore.django import modulestore
                   ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
                   <p>${_("It works! This is the default homepage for this Open edX instance.")}</p>
               % endif
-            </div>
+            </div> -->
+            <hgroup>
+              % if homepage_overlay_html:
+                ${homepage_overlay_html}
+              % else:
+                <h1>Notre expertise, vos compétences.</h1>
+              % endif
+            </hgroup>
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
               <div class="course-search">
                 <form method="get" action="/courses">
