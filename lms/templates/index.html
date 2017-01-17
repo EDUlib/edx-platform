@@ -8,6 +8,11 @@ from django.core.urlresolvers import reverse
 from openedx.core.djangolib.markup import HTML, Text
 %>
 
+<%!
+from microsite_configuration import microsite
+from xmodule.modulestore.django import modulestore
+%>
+
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
       <header>
@@ -48,7 +53,38 @@ from openedx.core.djangolib.markup import HTML, Text
         </div>
 
       </header>
-      <%include file="${courses_list}" />
+<!--      <%include file="${courses_list}" /> -->
+
+
+
+
+      <section class="courses-container">
+        <section class="highlighted-courses">
+          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+            <section class="courses">
+                <ul class="courses-listing">
+                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+                     %if ((course.has_started() and not course.has_ended() and (course.end is not None)) or (not course.has_started())) and course.catalog_visibility=="both":
+                         <li class="courses-listing-item">
+                             <%include file="course-edulib.html" args="course=course" />
+                         </li>
+                     %endif
+                %endfor
+                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                     % if ((course.has_started() and not course.has_ended() and not (course.end is not None))) and course.catalog_visibility=="both":
+                         <li class="courses-listing-item">
+                             <%include file="course-edulib.html" args="course=course" />
+                         </li>
+                     %endif
+                %endfor
+                </ul>
+            </section>
+          % endif
+        </section>
+      </section>
+
+
+
 
     </section>
 </main>
