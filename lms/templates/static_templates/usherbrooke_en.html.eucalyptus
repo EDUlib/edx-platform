@@ -9,7 +9,7 @@
 
 <%! from microsite_configuration import microsite %>
 
-<%block name="pagetitle">HEC Montr&eacute;al</%block>
+<%block name="pagetitle">Universit&eacute; de Sherbrooke</%block>
 
 <%
 platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
@@ -24,22 +24,28 @@ logo_alt_text = "EDUlib Logo"
 <section class="home">
 
 <section class="container edulib">
-    
-        <p style="text-align:right;"><a href="/hec_en">English</a></p>
-    
-        <h1><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" width="600" height="200" /></h1>
-    
-        <p>Reconnue pour son avant-gardisme, HEC Montr&eacute;al a &eacute;t&eacute; la premi&egrave;re en Am&eacute;rique du Nord &agrave; d&eacute;tenir les trois agr&eacute;ments internationaux les plus prestigieux du monde de l'enseignement de la gestion : AACSB International (&Eacute;tats-Unis), EQUIS (Europe) et AMBA (Royaume-Uni). L&rsquo;&Eacute;cole accueille plus de <span style="white-space: nowrap;">13 000</span> &eacute;tudiants dans l'un ou l'autre de ses programmes d'&eacute;tudes en gestion, du B.A.A. au Ph. D., et regroupe plus de 270 professeurs. Elle exerce son leadership en recherche gr&acirc;ce &agrave; une cinquantaine d'unit&eacute;s de recherche, incluant 26 chaires, m&egrave;ne des projets &agrave; travers le monde et se consacre &agrave; la formation des cadres et des dirigeants. Depuis sa fondation en 1907, l'&Eacute;cole a form&eacute; plus de <span style="white-space: nowrap;">78 000</span> dipl&ocirc;m&eacute;s dans de nombreux domaines de la gestion.</p>
-    
-        <p><a href="http://www.hec.ca" onclick="window.open(this.href);return false;">http://www.hec.ca</a></p>
 
-
+        <p style="text-align:right;"><a href="/usherbrooke">Fran&ccedil;ais</a></p>
+    
+        <h1><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" width="600" height="200" /></h1>
+                
+        <p>The Université de Sherbrooke is a French-speaking university and the heart of one Quebec&rsquo;s three research and teaching hubs. Located in Sherbrooke, it has a population of more than 40,000 students from 88 countries, including about 10,500 enrolled in the University of the Third Age. The University&rsquo;s faculties of Law, Education, Engineering, Humanities and Social Sciences, Medicine and Health Sciences, Physical Activity, and Science, as well as its School of Management, offer more than 390 undergraduate and graduate programs in most of the main areas of study.</p>
+        
+        <p>The University extends across three campuses: the Main Sherbrooke Campus and the Sherbrooke Health Campus, and the Longueuil Campus in Montérégie.</p>
+        
+        <p>The Université de Sherbrooke stands out as a pioneer in cooperative education. Today, the institution is considered the leader in this approach, which enables many students to round out their theoretical knowledge with practical experience acquired during paid internships in industry and businesses.</p>
+        
+        <p>The University&rsquo;s reputation for excellence also rests on research activities that have grown at a breathtaking pace and have led to major discoveries. In addition, the University has promoted the commercialization of competitive technologies through a significant amount of technology transfer. The Université de Sherbrooke also stands out for its entrepreneurship and open-innovation initiatives in cooperation with various communities.</p>
+    
+        <p><a href="https://www.usherbrooke.ca/accueil/english/overview/" onclick="window.open(this.href);return false;">https://www.usherbrooke.ca/accueil/english/overview/</a></p>
+    
+    
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <% counter = 0 %>
     %endif
 
     <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-           if not course.has_started() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if not course.has_started() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -52,7 +58,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    %if not course.has_started() and course.org.lower() == "hec" and not course.has_ended() and course.catalog_visibility == "both" :
+                    %if not course.has_started() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -69,7 +75,7 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
-           if course.has_started() and not course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if course.has_started() and not course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -83,14 +89,14 @@ logo_alt_text = "EDUlib Logo"
            <ul class="courses-listing">
 
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="hec" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and not course.end_datetime_text()=="" and course.org.lower()=="usherbrooke" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="hec" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and course.end_datetime_text()=="" and course.org.lower()=="usherbrooke" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -108,7 +114,7 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-           if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+           if course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -121,7 +127,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                    %if course.has_ended() and course.org.lower() == "hec" and course.catalog_visibility == "both" :
+                    %if course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -131,7 +137,6 @@ logo_alt_text = "EDUlib Logo"
         </section>
     </section>
     </section>
-
 
 </section>
 </section>
