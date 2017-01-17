@@ -1,0 +1,35 @@
+<%namespace name='static' file='static_content.html'/>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+from openedx.core.lib.courses import course_image_url
+%>
+<%page args="course" />
+<article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
+%if course.is_new:
+  <span class="status">${_("New")}</span>
+%endif
+  <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
+    <header class="course-image">
+      <div class="cover-image">
+        <img src="${course_image_url(course) | h}" alt="${course.display_name_with_default} ${course.display_number_with_default | h}" />
+        <div class="learn-more" aria-hidden=true>${_("LEARN MORE")}</div>
+      </div>
+    </header>
+    <div class="course-info" aria-hidden="true">
+      <h2 class="course-name">
+        <span class="course-organization">${course.display_org_with_default | h}</span>
+        <span class="course-code">${course.display_number_with_default | h}</span>
+        <span class="course-title">${course.display_name_with_default}</span>
+      </h2>
+      <div class="course-date" aria-hidden="true">${_("Starts")} : ${course.start_datetime_text()}</div>
+    </div>
+    <div class="sr">
+      <ul>
+      <li>${course.display_org_with_default | h}</li>
+      <li>${course.display_number_with_default | h}</li>
+      <li>${_("Starts")} : <time itemprop="startDate" datetime="${course.start_datetime_text()}">${course.start_datetime_text()}</time></li>
+    </ul>
+    </div>
+  </a>
+</article>
