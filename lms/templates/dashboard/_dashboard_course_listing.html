@@ -105,25 +105,24 @@ from student.helpers import (
             else:
                 format = 'shortDate'
                 if course_overview.has_ended():
-                    container_string = "Ended - {date}"
+                    container_string = _("Ended - {date}")
                     course_date = course_overview.end
                 elif course_overview.has_started():
-                    container_string = "Started - {date}"
+                    container_string = _("Started - {date}")
                     course_date = course_overview.start
                 elif course_overview.starts_within(days=5):
-                    container_string = "Starts - {date}"
+                    container_string = _("Starts - {date}")
                     course_date = course_overview.start
                     format = 'defaultFormat'
                 else: ## hasn't started yet
-                    container_string = "Starts - {date}"
+                    container_string = _("Starts - {date}")
                     course_date = course_overview.start
                 endif
             endif
           %>
 
                 % if isinstance(course_date, str):
-                    <!-- <span class="info-date-block" data-tooltip="Hi">${_(container_string).format(date=course_date)}</span> -->
-                    <span class="info-date-block" data-tooltip="Hi">${_("Ended - {date}")}.format(date=course_date)</span>
+                    <span class="info-date-block" data-tooltip="Hi">${_(container_string).format(date=course_date)}</span>
                 % elif course_date is not None:
                     <%
                         course_date_string = course_date.strftime('%Y-%m-%dT%H:%M:%S%z')
