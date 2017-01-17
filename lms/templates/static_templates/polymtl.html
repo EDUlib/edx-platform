@@ -52,7 +52,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    %if not course.has_started() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
+                    %if not course.has_started() and course.org.lower() == "polymtl" and not course.has_ended() and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -83,14 +83,14 @@ logo_alt_text = "EDUlib Logo"
            <ul class="courses-listing">
 
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
-                    % if course.has_started() and not course.has_ended() and not course.end_datetime_text()=="" and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and course.end_datetime_text()=="" and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
