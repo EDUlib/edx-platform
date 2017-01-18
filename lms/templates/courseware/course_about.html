@@ -232,8 +232,9 @@ from openedx.core.lib.courses import course_image_url
               % else:
                   <%
                      course_date_string = course_start_date.strftime('%Y-%m-%dT%H:%M:%S%z')
+                     course_date_string = course_start_date.strftime('%Y-%m-%d')
                   %>
-                  <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span>
+                  <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate">${course_date_string}</span>
               % endif
             </li>
           % endif
@@ -252,8 +253,9 @@ from openedx.core.lib.courses import course_image_url
                   % else:
                     <%
                         course_date_string = course_end_date.strftime('%Y-%m-%dT%H:%M:%S%z')
+                        course_date_string = course_end_date.strftime('%Y-%m-%d')
                     %>
-                    <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span>
+                    <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate">${course_date_string}</span>
                   % endif
             </li>
             % endif
