@@ -1,5 +1,5 @@
 # edX translation file
-# Copyright (C) 2016 edX
+# Copyright (C) 2017 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -36,7 +36,7 @@
 # Linda B.A <siria242@gmail.com>, 2016
 # madmarsu <madmarsu@gmail.com>, 2014
 # Maghjina <Maghjina@gmail.com>, 2014
-# mamby <mamby@live.com>, 2014
+# mamby, 2014
 # Manjari <mringuet@gmail.com>, 2014
 # Marco Morales, 2014
 # moocit-france <contact@moocit.fr>, 2015
@@ -66,9 +66,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-01 11:26+0000\n"
-"PO-Revision-Date: 2016-09-03 19:17+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2017-01-05 17:02+0000\n"
+"PO-Revision-Date: 2017-01-05 17:06+0000\n"
+"Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,13 +175,13 @@ msgstr "Fichiers & téléversements"
 #: cms/templates/library.html:57 cms/templates/manage_users.html:30
 #: cms/templates/manage_users.html:31 cms/templates/manage_users_lib.html:30
 #: cms/templates/manage_users_lib.html:31 cms/templates/textbooks.html:43
-#: cms/templates/textbooks.html:44 cms/templates/videos_index.html:45
-#: cms/templates/videos_index.html:46
+#: cms/templates/textbooks.html:44 cms/templates/videos_index.html:52
+#: cms/templates/videos_index.html:53
 msgid "Page Actions"
 msgstr "Actions de la Page"
 
 #: cms/templates/asset_index.html:47 cms/templates/asset_index.html:93
-#: cms/templates/videos_index.html:49
+#: cms/templates/videos_index.html:56
 msgid "Upload New File"
 msgstr "Téléverser un nouveau fichier"
 
@@ -312,10 +312,10 @@ msgstr "Émettre des attestations aux apprenants"
 
 #: cms/templates/certificates.html:95
 msgid ""
-"To begin issuing certificates, a course team member with the Admin role "
-"selects {em_start}Activate{em_end}. Course team members without the Admin "
-"role cannot edit or delete an activated certificate."
-msgstr "Pour commencer l'émission d'attestations, un membre de l'équipe du cours avec le rôle Admin doit sélectionner {em_start}Activez{em_end}. Les membres de l'équipe sans le rôle Admin ne peuvent éditer ou supprimer une attestation activée."
+"To begin issuing course certificates, a course team member with either the "
+"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
+"members with these roles can edit or delete an activated certificate."
+msgstr ""
 
 #: cms/templates/certificates.html:96
 msgid ""
@@ -330,8 +330,8 @@ msgstr "En savoir plus sur les attestations"
 
 #: cms/templates/certificates.html:108 cms/templates/certificates.html:109
 #: cms/templates/group_configurations.html:103
-#: cms/templates/group_configurations.html:104 cms/templates/settings.html:619
-#: cms/templates/settings.html:620 cms/templates/settings_advanced.html:101
+#: cms/templates/group_configurations.html:104 cms/templates/settings.html:622
+#: cms/templates/settings.html:623 cms/templates/settings_advanced.html:101
 #: cms/templates/settings_advanced.html:102
 #: cms/templates/settings_graders.html:158
 #: cms/templates/settings_graders.html:159
@@ -343,7 +343,7 @@ msgid "Details &amp; Schedule"
 msgstr "Dates &amp; Détails"
 
 #: cms/templates/certificates.html:112
-#: cms/templates/group_configurations.html:107 cms/templates/settings.html:622
+#: cms/templates/group_configurations.html:107 cms/templates/settings.html:625
 #: cms/templates/settings_advanced.html:105
 #: cms/templates/settings_graders.html:43 cms/templates/widgets/header.html:90
 msgid "Grading"
@@ -351,7 +351,7 @@ msgstr "Évaluation"
 
 #: cms/templates/certificates.html:113
 #: cms/templates/group_configurations.html:108
-#: cms/templates/manage_users.html:27 cms/templates/settings.html:623
+#: cms/templates/manage_users.html:27 cms/templates/settings.html:626
 #: cms/templates/settings_advanced.html:106
 #: cms/templates/settings_graders.html:162
 #: cms/templates/widgets/header.html:93
@@ -359,7 +359,7 @@ msgid "Course Team"
 msgstr "Équipe pédagogique"
 
 #: cms/templates/certificates.html:114
-#: cms/templates/group_configurations.html:109 cms/templates/settings.html:625
+#: cms/templates/group_configurations.html:109 cms/templates/settings.html:628
 #: cms/templates/settings_advanced.html:13
 #: cms/templates/settings_advanced.html:38
 #: cms/templates/settings_graders.html:164
@@ -369,7 +369,7 @@ msgstr "Paramètres avancés"
 
 #: cms/templates/certificates.html:115
 #: cms/templates/group_configurations.html:15
-#: cms/templates/group_configurations.html:43 cms/templates/settings.html:624
+#: cms/templates/group_configurations.html:43 cms/templates/settings.html:627
 #: cms/templates/settings_advanced.html:107
 #: cms/templates/settings_graders.html:163
 #: cms/templates/widgets/header.html:96
@@ -2431,8 +2431,8 @@ msgid "Last day students can enroll."
 msgstr "Dernier jour où les étudiants peuvent s'inscrire"
 
 #: cms/templates/settings.html:241
-msgid "Contact your edX Partner Manager to update these settings."
-msgstr "Contactez votre directeur chez votre partenaire edX afin de mette à jour ces paramètres."
+msgid "Contact your edX partner manager to update these settings."
+msgstr "Contactez votre directeur chez votre partenaire edX afin de mettre à jour ces paramètres."
 
 #: cms/templates/settings.html:247
 msgid "Enrollment End Time"
@@ -2525,24 +2525,28 @@ msgid "Course Overview"
 msgstr "Présentation du cours"
 
 #: cms/templates/settings.html:337
+msgid "HTML Code Editor"
+msgstr "Éditeur de code HTML"
+
+#: cms/templates/settings.html:340
 msgid ""
 "Introductions, prerequisites, FAQs that are used on {a_link_start}your "
 "course summary page{a_link_end} (formatted in HTML)"
 msgstr "Introductions, pré-requis, FAQs qui sont utilisés sur {a_link_start}votre page sommaire du cours{a_link_end} (formatté en HTML)"
 
-#: cms/templates/settings.html:345 cms/templates/settings.html:349
-#: cms/templates/settings.html:361
+#: cms/templates/settings.html:348 cms/templates/settings.html:352
+#: cms/templates/settings.html:364
 msgid "Course Card Image"
 msgstr "Image du cours"
 
-#: cms/templates/settings.html:353 cms/templates/settings.html:387
-#: cms/templates/settings.html:420
+#: cms/templates/settings.html:356 cms/templates/settings.html:390
+#: cms/templates/settings.html:423
 msgid ""
 "You can manage this image along with all of your other {a_link_start}files "
 "and uploads{a_link_end}"
 msgstr "Vous pouvez gérer cette image ainsi que tous vos autres {a_link_start}fichiers et téléversements{a_link_end}"
 
-#: cms/templates/settings.html:363
+#: cms/templates/settings.html:366
 msgid ""
 "Your course currently does not have an image. Please upload one (JPEG or PNG"
 " format, and minimum suggested dimensions are 375px wide by 200px tall)"
@@ -2550,26 +2554,26 @@ msgstr "Votre cours n'a pas encore d'image. Veuillez en téléverser une (format
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course image
-#: cms/templates/settings.html:370
+#: cms/templates/settings.html:373
 msgid "Your course image URL"
 msgstr "Votre URL de l'image de cours"
 
-#: cms/templates/settings.html:371
+#: cms/templates/settings.html:374
 msgid ""
 "Please provide a valid path and name to your course image (Note: only JPEG "
 "or PNG format supported)"
 msgstr "Veuillez fournir un chemin et un nom valides à l'illustration de votre cours (attention : seuls les formats JPEG et PNG sont supportés)"
 
-#: cms/templates/settings.html:373
+#: cms/templates/settings.html:376
 msgid "Upload Course Card Image"
 msgstr "Téléverser l'image de votre carte de cours"
 
-#: cms/templates/settings.html:379 cms/templates/settings.html:383
-#: cms/templates/settings.html:395
+#: cms/templates/settings.html:382 cms/templates/settings.html:386
+#: cms/templates/settings.html:398
 msgid "Course Banner Image"
 msgstr "Image de la bannière du cours"
 
-#: cms/templates/settings.html:397
+#: cms/templates/settings.html:400
 msgid ""
 "Your course currently does not have an image. Please upload one (JPEG or PNG"
 " format, and minimum suggested dimensions are 1440px wide by 400px tall)"
@@ -2577,29 +2581,29 @@ msgstr "Votre cours n'a présentement pas d'image. S'il vous plaît téléverser
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course banner image
-#: cms/templates/settings.html:404
+#: cms/templates/settings.html:407
 msgid "Your banner image URL"
 msgstr "Le URL de l'image de votre bannière"
 
-#: cms/templates/settings.html:405
+#: cms/templates/settings.html:408
 msgid ""
 "Please provide a valid path and name to your banner image (Note: only JPEG "
 "or PNG format supported)"
 msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre bannière (Note : seuls les formats JPEG ou PNG sont supportés)"
 
-#: cms/templates/settings.html:407
+#: cms/templates/settings.html:410
 msgid "Upload Course Banner Image"
 msgstr "Téléverser l'image de la bannière du cours"
 
-#: cms/templates/settings.html:412
+#: cms/templates/settings.html:415
 msgid "Course Video Thumbnail Image"
 msgstr "Image de la vignette de la vidéo du cours"
 
-#: cms/templates/settings.html:416 cms/templates/settings.html:428
+#: cms/templates/settings.html:419 cms/templates/settings.html:431
 msgid "Video Thumbnail Image"
 msgstr "Image de vignette vidéo"
 
-#: cms/templates/settings.html:430
+#: cms/templates/settings.html:433
 msgid ""
 "Your course currently does not have a video thumbnail image. Please upload "
 "one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
@@ -2608,141 +2612,141 @@ msgstr "Votre cours n'a présentement pas d'image de vignette vidéo. S'il vous 
 
 #. Translators: This is the placeholder text for a field that requests the URL
 #. for a course video thumbnail image
-#: cms/templates/settings.html:437
+#: cms/templates/settings.html:440
 msgid "Your video thumbnail image URL"
 msgstr "Le URL de l'image de votre vignette vidéo"
 
-#: cms/templates/settings.html:438
+#: cms/templates/settings.html:441
 msgid ""
 "Please provide a valid path and name to your video thumbnail image (Note: "
 "only JPEG or PNG format supported)"
 msgstr "S'il vous plaît fournir un chemin valide et un nom pour l'image de votre vignette vidéo (Note : seuls les formats JPEG ou PNG sont supportés)"
 
-#: cms/templates/settings.html:440
+#: cms/templates/settings.html:443
 msgid "Upload Video Thumbnail Image"
 msgstr "Téléverser une image de vignette vidéo"
 
-#: cms/templates/settings.html:447 cms/templates/settings.html:450
+#: cms/templates/settings.html:450 cms/templates/settings.html:453
 msgid "Course Introduction Video"
 msgstr "Vidéo de présentation du cours"
 
-#: cms/templates/settings.html:453
+#: cms/templates/settings.html:456
 msgid "Delete Current Video"
 msgstr "Supprimer la vidéo en cours"
 
 #. Translators: This is the placeholder text for a field that requests a
 #. YouTube video ID for a course video
-#: cms/templates/settings.html:459
+#: cms/templates/settings.html:462
 msgid "your YouTube video's ID"
 msgstr "ID de votre vidéo YouTube"
 
-#: cms/templates/settings.html:460
+#: cms/templates/settings.html:463
 msgid "Enter your YouTube video's ID (along with any restriction parameters)"
 msgstr "Entrer l'ID de votre vidéo Youtube (avec les paramètres de restriction)"
 
-#: cms/templates/settings.html:471
+#: cms/templates/settings.html:474
 msgid "Learning Outcomes"
 msgstr "Résultats d'apprentissage"
 
-#: cms/templates/settings.html:472
+#: cms/templates/settings.html:475
 msgid "Add the learning outcomes for this course"
 msgstr "AJouter les résultats d'apprentissage pour ce cours"
 
-#: cms/templates/settings.html:479
+#: cms/templates/settings.html:482
 msgid "Add Learning Outcome"
 msgstr "Ajouter un résultat d'apprentissage"
 
-#: cms/templates/settings.html:487
+#: cms/templates/settings.html:490
 msgid "Instructors"
 msgstr "Enseignants"
 
-#: cms/templates/settings.html:488
+#: cms/templates/settings.html:491
 msgid "Add details about the instructors for this course"
 msgstr "Ajouter des détails à propos des enseignants de ce cours"
 
-#: cms/templates/settings.html:495
+#: cms/templates/settings.html:498
 msgid "Add Instructor"
 msgstr "Ajouter un enseignant"
 
-#: cms/templates/settings.html:507
+#: cms/templates/settings.html:510
 msgid "Expectations of the students taking this course"
 msgstr "Attentes envers les étudiants suivant ce cours"
 
-#: cms/templates/settings.html:513
+#: cms/templates/settings.html:516
 msgid "Hours of Effort per Week"
 msgstr "Heure(s) de travail par semaine"
 
-#: cms/templates/settings.html:515
+#: cms/templates/settings.html:518
 msgid "Time spent on all course work"
 msgstr "Temps consacré à l'ensemble du cours"
 
-#: cms/templates/settings.html:520
+#: cms/templates/settings.html:523
 msgid "Prerequisite Course"
 msgstr "Cours préalable"
 
-#: cms/templates/settings.html:522
+#: cms/templates/settings.html:525
 msgid "None"
 msgstr "Aucun"
 
-#: cms/templates/settings.html:527
+#: cms/templates/settings.html:530
 msgid "Course that students must complete before beginning this course"
 msgstr "Cours que les étudiants doivent compléter avant de commencer ce cours"
 
-#: cms/templates/settings.html:528
+#: cms/templates/settings.html:531
 msgid "set pre-requisite course"
 msgstr "définir un cours préalable"
 
-#: cms/templates/settings.html:533
+#: cms/templates/settings.html:536
 msgid "Entrance Exam"
 msgstr "Examen d'entrée"
 
-#: cms/templates/settings.html:537
+#: cms/templates/settings.html:540
 msgid "Require students to pass an exam before beginning the course."
 msgstr "Demande que les étudiants passent un examen avant le début du cours."
 
-#: cms/templates/settings.html:541
+#: cms/templates/settings.html:544
 msgid ""
 "You can now view and author your course entrance exam from the "
 "{link_start}Course Outline{link_end}."
 msgstr "Vous pouvez maintenant voir et éditer votre examen d'entrée au cours à partir du{link_start}plan de cours{link_end}."
 
-#: cms/templates/settings.html:545
+#: cms/templates/settings.html:548
 msgid "Grade Requirements"
 msgstr "Note requise"
 
-#: cms/templates/settings.html:546
+#: cms/templates/settings.html:549
 msgid " %"
 msgstr "%"
 
-#: cms/templates/settings.html:547
+#: cms/templates/settings.html:550
 msgid ""
 "The score student must meet in order to successfully complete the entrance "
 "exam. "
 msgstr "La note de passage que les étudiants doivent obtenir afin de compléter avec succès l'examen d'entrée. "
 
-#: cms/templates/settings.html:562
+#: cms/templates/settings.html:565
 msgid "Course Pacing"
 msgstr "Rythme du cours"
 
-#: cms/templates/settings.html:563
+#: cms/templates/settings.html:566
 msgid "Set the pacing for this course"
 msgstr "Définir le rythme de ce cours"
 
-#: cms/templates/settings.html:571
+#: cms/templates/settings.html:574
 msgid ""
 "Instructor-paced courses progress at the pace that the course author sets. "
 "You can configure release dates for course content and due dates for "
 "assignments."
 msgstr "Les cours au rythme de l'instructeur progressent selon le rythme déterminé par l'instructeur. Vous pouvez configurer des dates de disponibilité pour le contenu du cours et des dates de remise pour les travaux."
 
-#: cms/templates/settings.html:576
+#: cms/templates/settings.html:579
 msgid ""
 "Self-paced courses do not have release dates for course content or due dates"
 " for assignments. Learners can complete course material at any time before "
 "the course end date."
 msgstr "Les cours à votre rythme n'ont pas de date de disponibilité pour le contenu de cours ou de date de remise  pour les travaux. Les apprenants peuvent compléter le contenu du cours n'importe quand avant la date de fin du cours."
 
-#: cms/templates/settings.html:588
+#: cms/templates/settings.html:591
 msgid "Course Content License"
 msgstr "Licence pour le contenu du cours"
 
@@ -2752,21 +2756,21 @@ msgstr "Licence pour le contenu du cours"
 #. license with their own.
 #. In the form, the license selector for course content is described using the
 #. following string:
-#: cms/templates/settings.html:592
+#: cms/templates/settings.html:595
 msgid "Select the default license for course content"
 msgstr "Sélectionner la licence par défaut pour le contenu des cours"
 
-#: cms/templates/settings.html:606
+#: cms/templates/settings.html:609
 msgid "How are these settings used?"
 msgstr "Comment ces paramètres sont-ils utilisés ?"
 
-#: cms/templates/settings.html:607
+#: cms/templates/settings.html:610
 msgid ""
 "Your course's schedule determines when students can enroll in and begin a "
 "course."
 msgstr "La planification de votre cours détermine quand les étudiants peuvent s’inscrire et débuter le cours."
 
-#: cms/templates/settings.html:609
+#: cms/templates/settings.html:612
 msgid ""
 "Other information from this page appears on the About page for your course. "
 "This information includes the course overview, course image, introduction "
@@ -2958,49 +2962,49 @@ msgstr "Si votre manuel n'a pas de chapitres individuels, vous pouvez envoyer le
 msgid "Learn more about textbooks"
 msgstr "En savoir plus à propos des manuels"
 
-#: cms/templates/videos_index.html:8 cms/templates/videos_index.html:42
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:49
 #: cms/templates/widgets/header.html:72
 msgid "Video Uploads"
 msgstr "Téléversements des vidéos"
 
-#: cms/templates/videos_index.html:62
+#: cms/templates/videos_index.html:69
 msgid "Why upload video files?"
 msgstr "Pourquoi téléverser des fichiers vidéos?"
 
-#: cms/templates/videos_index.html:63
+#: cms/templates/videos_index.html:70
 msgid ""
 "For a video to play on different devices, it needs to be available in "
-"multiple formats. After you upload an original video file in .mp4 or .mov "
+"multiple formats. After you upload an original video file in {file_formats} "
 "format on this page, an automated process creates those additional formats "
 "and stores them for you."
-msgstr "Pour qu'un vidéo puisser jouer sur différents appareils, il doit être disponibles en plusieurs formats. Après avoir téléversé le fichier original en format .mp4 ou .mov sur cette page, un processus automatisé crée les formats additionnels et les sauvegarde pour vous."
+msgstr ""
 
-#: cms/templates/videos_index.html:64
+#: cms/templates/videos_index.html:73
 msgid "Maximum Video File Size"
 msgstr "Taille maximum du fichier vidéo"
 
-#: cms/templates/videos_index.html:65
+#: cms/templates/videos_index.html:74
 msgid ""
-"The maximum size for each video file that you upload is 5 GB. The upload "
-"process fails for larger files."
-msgstr "La taille maximum pour chaque fichier vidéo téléversé est de 5 GB. Le processus de téléversement échoue pour de plus gros fichiers."
+"The maximum size for each video file that you upload is {em_start}5 "
+"GB{em_end}. The upload process fails for larger files."
+msgstr ""
 
-#: cms/templates/videos_index.html:66
+#: cms/templates/videos_index.html:78
 msgid "Monitoring files as they upload"
 msgstr "Suivre le téléversements des fichiers"
 
-#: cms/templates/videos_index.html:67
+#: cms/templates/videos_index.html:79
 msgid ""
 "Each video file that you upload needs to reach the video processing servers "
 "successfully before additional work can begin. You can monitor the progress "
 "of files as they upload, and try again if the upload fails."
 msgstr "Chaque fichier vidéo que vous téléverser a besoin d'accéder avec succès aux serveurs de traitement vidéo avant que ne puisse commencer des travaux supplémentaires. Vous pouvez suivre le progrès des fichiers pendant le téléversement, et essayer de nouveau s'il échoue."
 
-#: cms/templates/videos_index.html:68
+#: cms/templates/videos_index.html:80
 msgid "Managing uploaded files"
 msgstr "Gestion des fichiers téléversés"
 
-#: cms/templates/videos_index.html:69
+#: cms/templates/videos_index.html:81
 msgid ""
 "After a file uploads successfully, automated processing begins. The file is "
 "then listed under Previous Uploads as {em_start}In Progress{em_end}. You can"
@@ -3009,26 +3013,26 @@ msgid ""
 " external video hosting sites to complete."
 msgstr "Après qu'un fichier ait été téléversé avec succès, le traitement automatisé débute. Le fichier est alors énuméré sous Téléversements Précédents comme {em_start}En Progrès{em_end}. Vous pouvez ajouter le vidéo à votre cours aussitôt qu'il a un identifiant de vidéo unique et le statut {em_start}Prêt{em_end}. Attendre 24 heures pour que se termine le traitement des fichiers sur le site externe d'hébergement de vidéos."
 
-#: cms/templates/videos_index.html:70
+#: cms/templates/videos_index.html:85
 msgid ""
 "If something goes wrong, the {em_start}Failed{em_end} status message "
 "appears. Check for problems in your original file and upload a replacement."
 msgstr "Si quelque chose va mal, le statut {em_start}Échoué{em_end} apparait. Vérifiez les problèmes dans votre fichier d'origine et téléverser un remplacement."
 
-#: cms/templates/videos_index.html:71
+#: cms/templates/videos_index.html:89
 msgid "How do I get the videos into my course?"
 msgstr "Comment puis-je ajouter des vidéos dans mon cours?"
 
-#: cms/templates/videos_index.html:72
+#: cms/templates/videos_index.html:90
 msgid ""
-"When status for a file is {em_start}Ready{em_end}, you can add that video to"
-" a component in your course. Copy the unique video ID. In another browser "
-"window, on the Course Outline page, create or locate a video component to "
-"play this video. Edit the video component to paste the ID into the Advanced "
-"{em_start}Video ID{em_end} field. The video can play in the LMS as soon as "
-"its status is {em_start}Ready{em_end}, although processing may not be "
-"complete for all encodings and all video hosting sites."
-msgstr "Quand le statut d'un fichier est {em_start}Prêt{em_end}, vous pouvez ajouter ce vidéo dans un composant de votre cours. Copier l'identifiant unique du vidéo. Dans un autre fenêtre du navigateur, sur la page du plan de cours, créer ou trouver un composant vidéo pour faire jouer ce vidéo. Éditer le composant vidéo afin d'y coller l'identifiant dans le champ avancé {em_start}Video ID{em_end}. Le vidéo peut s'exécuter dans le LMS dès que son statut est {em_start}Prêt{em_end}, même si le traitement n'est pas encore complet pour tous les encodages et tous les sites d'hébergement de vidéos."
+"When the status for a file is {em_start}Ready{em_end}, you can add that "
+"video to a component in your course. Copy the unique video ID. In another "
+"browser window, on the Course Outline page, create or locate a video "
+"component to play this video. Edit the video component to paste the ID into "
+"the Advanced {em_start}Video ID{em_end} field. The video can play in the LMS"
+" as soon as its status is {em_start}Ready{em_end}, although processing may "
+"not be complete for all encodings and all video hosting sites."
+msgstr ""
 
 #: cms/templates/visibility_editor.html:19
 msgid "No content groups exist"
@@ -3043,7 +3047,7 @@ msgstr "Utilisez les groupes de contenu afin de donner à des groupes d'étudian
 
 #: cms/templates/visibility_editor.html:26
 msgid "Manage content groups"
-msgstr "Gérer les groupes de contenu"
+msgstr "Gérer les groupes de contenus"
 
 #. Translators: Any text between {screen_reader_start} and {screen_reader_end}
 #. is only read by screen readers and never shown in the browser.
