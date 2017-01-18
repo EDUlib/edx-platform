@@ -1,5 +1,5 @@
 # edX translation file
-# Copyright (C) 2016 edX
+# Copyright (C) 2017 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -41,7 +41,7 @@
 # Linda B.A <siria242@gmail.com>, 2016
 # madmarsu <madmarsu@gmail.com>, 2014
 # Maghjina <Maghjina@gmail.com>, 2014
-# mamby <mamby@live.com>, 2014
+# mamby, 2014
 # Manjari <mringuet@gmail.com>, 2014
 # Marco Morales, 2014
 # Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
@@ -84,9 +84,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-01 11:26+0000\n"
-"PO-Revision-Date: 2016-09-03 19:07+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2017-01-05 17:02+0000\n"
+"PO-Revision-Date: 2017-01-05 17:07+0000\n"
+"Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,9 +137,13 @@ msgstr "Glisser déposer ou cliquer ici pour importer des fichiers vidéo."
 msgid "Active Uploads"
 msgstr "Téléchargement Actifs"
 
-#: cms/templates/js/active-video-upload.underscore:3
-msgid "status"
-msgstr "statut"
+#: cms/templates/js/active-video-upload.underscore:8
+msgid "Read More"
+msgstr ""
+
+#: cms/templates/js/active-video-upload.underscore:9
+msgid "details about the failure"
+msgstr ""
 
 #: cms/templates/js/add-xblock-component-button.underscore:7
 msgid "Add Component:"
@@ -309,13 +313,6 @@ msgid ""
 " ensure the certificate will print correctly on one page."
 msgstr "Il est fortement recommandé de n'inclure que quatre sigantaires ou moins. Si vous incluez des signataires additionnels, obtenez un aperçu de l'attestation dans Print View afin de vous assurez que l'attestation va s'imprimer correctement sur une page."
 
-#: cms/templates/js/certificate-editor.underscore:5
-#: cms/templates/js/content-group-editor.underscore:4
-#: cms/templates/js/edit-textbook.underscore:5
-#: cms/templates/js/group-configuration-editor.underscore:4
-msgid "error.message"
-msgstr "message.d'erreur"
-
 #: cms/templates/js/certificate-editor.underscore:11
 msgid "Certificate Information"
 msgstr "Information de l'attestation"
@@ -367,11 +364,11 @@ msgstr "Choisir le mode"
 msgid "Preview Certificate"
 msgstr "Prévisualiser l'attestation"
 
-#: cms/templates/js/certificate-web-preview.underscore:14
+#: cms/templates/js/certificate-web-preview.underscore:13
 msgid "Activate"
 msgstr "Activer"
 
-#: cms/templates/js/certificate-web-preview.underscore:16
+#: cms/templates/js/certificate-web-preview.underscore:15
 msgid "Deactivate"
 msgstr "Désactiver"
 
@@ -580,47 +577,52 @@ msgstr "Publier"
 msgid "Configure"
 msgstr "Configurer"
 
-#: cms/templates/js/course-outline.underscore:125
-#: cms/templates/js/course-outline.underscore:127
+#: cms/templates/js/course-outline.underscore:117
+#: cms/templates/js/course-outline.underscore:119
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: cms/templates/js/course-outline.underscore:133
+#: cms/templates/js/course-outline.underscore:135
 msgid "Drag to reorder"
 msgstr "Glissez pour modifier l'ordre"
 
-#: cms/templates/js/course-outline.underscore:145
+#: cms/templates/js/course-outline.underscore:153
 msgid "Release Status:"
 msgstr "Statut de la diffusion : "
 
-#: cms/templates/js/course-outline.underscore:150
+#: cms/templates/js/course-outline.underscore:158
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
 msgstr "Diffusé : "
 
-#: cms/templates/js/course-outline.underscore:153
+#: cms/templates/js/course-outline.underscore:161
 #: cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
 msgstr "Programmé : "
 
-#: cms/templates/js/course-outline.underscore:169
-#: cms/templates/js/course-outline.underscore:183
+#: cms/templates/js/course-outline.underscore:177
+#: cms/templates/js/course-outline.underscore:191
 msgid "Graded as:"
 msgstr "Noté comme : "
 
-#: cms/templates/js/course-outline.underscore:176
-#: cms/templates/js/course-outline.underscore:187
+#: cms/templates/js/course-outline.underscore:184
+#: cms/templates/js/course-outline.underscore:195
 msgid "Due:"
 msgstr "Date d'échéance : "
 
-#: cms/templates/js/course-outline.underscore:196
+#: cms/templates/js/course-outline.underscore:204
 msgid "Subsection is hidden after due date"
 msgstr "Sous-section cachée après la date d'échéance"
 
-#: cms/templates/js/course-outline.underscore:213
+#: cms/templates/js/course-outline.underscore:221
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "Vous n'avez pas encore ajouté de contenu à ce cours."
 
-#: cms/templates/js/course-outline.underscore:217
-#: cms/templates/js/course-outline.underscore:238
+#: cms/templates/js/course-outline.underscore:225
+#: cms/templates/js/course-outline.underscore:246
 #: cms/templates/js/xblock-outline.underscore:61
 #: cms/templates/js/xblock-outline.underscore:77
 #, python-format
@@ -728,6 +730,10 @@ msgstr "Effacer la date limite d'évaluation :"
 msgid "Chapter Name"
 msgstr "Nom du chapitre"
 
+#: cms/templates/js/edit-chapter.underscore:4
+msgid "Chapter {order}"
+msgstr "Chapître {order}"
+
 #: cms/templates/js/edit-chapter.underscore:5
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr "Veuillez fournir le titre/nom du chapitre qui sera utilisé pendant la navigation."
@@ -735,6 +741,10 @@ msgstr "Veuillez fournir le titre/nom du chapitre qui sera utilisé pendant la n
 #: cms/templates/js/edit-chapter.underscore:9
 msgid "Chapter Asset"
 msgstr "Ressource associée au chapitre"
+
+#: cms/templates/js/edit-chapter.underscore:10
+msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
+msgstr "path/to/introductionToCookieBaking-CH{order}.pdf"
 
 #: cms/templates/js/edit-chapter.underscore:11
 msgid "upload a PDF file or provide the path to a Studio asset file"
@@ -932,6 +942,10 @@ msgstr "Effacer"
 msgid "Clear Value"
 msgstr "Effacer la valeur"
 
+#: cms/templates/js/metadata-editor.underscore:8
+msgid "Component Location ID"
+msgstr "ID de l'emplacement du composant"
+
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Replace"
@@ -971,6 +985,14 @@ msgstr "Durée"
 msgid "Video ID"
 msgstr "ID du vidéo"
 
+#: cms/templates/js/previous-video-upload.underscore:9
+msgid "Remove this video"
+msgstr "Supprimer ce vidéo"
+
+#: cms/templates/js/previous-video-upload.underscore:11
+msgid "Remove {video_name} video"
+msgstr "Supprimer le vidéo {video_name} "
+
 #: cms/templates/js/publish-history.underscore:2
 msgid "Never published"
 msgstr "Jamais publié"
@@ -980,11 +1002,6 @@ msgstr "Jamais publié"
 #, python-format
 msgid "Last published %(last_published_date)s by %(publish_username)s"
 msgstr "Dernière publication %(last_published_date)s par %(publish_username)s"
-
-#: cms/templates/js/publish-history.underscore:5
-#: cms/templates/js/staff-lock-editor.underscore:25
-msgid "message"
-msgstr "message"
 
 #: cms/templates/js/publish-history.underscore:10
 #: cms/templates/js/publish-xblock.underscore:40
@@ -1047,8 +1064,8 @@ msgid "with %(section_or_subsection)s"
 msgstr "avec %(section_or_subsection)s"
 
 #: cms/templates/js/publish-xblock.underscore:84
-msgid "Staff and Students"
-msgstr "Equipe pédagogique et étudiants"
+msgid "Staff and Learners"
+msgstr "Equipe pédagogique et apprenants"
 
 #: cms/templates/js/publish-xblock.underscore:89
 msgid "Some content in this unit is visible only to particular content groups"
@@ -1056,8 +1073,8 @@ msgstr "Du contenu dans cette unité n'est visible que pour des groupes de conte
 
 #: cms/templates/js/publish-xblock.underscore:100
 #: cms/templates/js/staff-lock-editor.underscore:16
-msgid "Hide from students"
-msgstr "Cacher aux étudiants"
+msgid "Hide from learners"
+msgstr "Cacher des apprenants."
 
 #: cms/templates/js/publish-xblock.underscore:105
 msgid "Note: Do not hide graded assignments after they have been released."
@@ -1310,10 +1327,6 @@ msgstr "Modifier le nom"
 #, python-format
 msgid "Edit %(display_name)s (required)"
 msgstr "Modifier %(display_name)s (requis)"
-
-#: cms/templates/js/xblock-string-field-editor.underscore:10
-msgid "formLabel"
-msgstr "Étiquette du formulaire"
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:3
 msgid ""
