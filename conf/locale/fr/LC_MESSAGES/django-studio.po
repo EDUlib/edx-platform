@@ -1,5 +1,5 @@
 # edX translation file.
-# Copyright (C) 2016 EdX
+# Copyright (C) 2017 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -36,7 +36,7 @@
 # Linda B.A <siria242@gmail.com>, 2016
 # madmarsu <madmarsu@gmail.com>, 2014
 # Maghjina <Maghjina@gmail.com>, 2014
-# mamby <mamby@live.com>, 2014
+# mamby, 2014
 # Manjari <mringuet@gmail.com>, 2014
 # Marco Morales, 2014
 # moocit-france <contact@moocit.fr>, 2015
@@ -66,9 +66,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2016-09-01 11:26+0000\n"
-"PO-Revision-Date: 2016-09-03 15:46+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2017-01-05 17:02+0000\n"
+"PO-Revision-Date: 2017-01-05 17:07+0000\n"
+"Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,7 +77,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: cms/djangoapps/contentstore/course_group_config.py:59
-#: cms/djangoapps/contentstore/views/certificates.py:110
+#: cms/djangoapps/contentstore/views/certificates.py:135
 msgid "invalid JSON"
 msgstr "JSON invalide"
 
@@ -170,31 +170,31 @@ msgid ""
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
 msgstr "Prenez le cours choisi et tentez de l'exporter vers un dépôt git. Le répertoire de cours doit déjà être un dépôt git. Utilisation : git_export <course_loc> <git_url>"
 
-#: cms/djangoapps/contentstore/utils.py:370
+#: cms/djangoapps/contentstore/utils.py:386
 msgid "Deleted group"
 msgstr "Groupe supprimé"
 
-#: cms/djangoapps/contentstore/views/assets.py:245
+#: cms/djangoapps/contentstore/views/assets.py:242
 msgid ""
 "File {filename} exceeds maximum size of {size_mb} MB. Please follow the "
 "instructions here to upload a file elsewhere and link to it instead: "
 "{faq_url}"
 msgstr "Le fichier {filename} dépasse la taille maximale de {size_mb} MB. Veuillez suivre les instructions suivantes pour téléverser un fichier ailleurs et créer un lien à la place : {faq_url}"
 
-#: cms/djangoapps/contentstore/views/assets.py:296
+#: cms/djangoapps/contentstore/views/assets.py:293
 msgid "Upload completed"
 msgstr "Téléversement terminé"
 
-#: cms/djangoapps/contentstore/views/certificates.py:133
+#: cms/djangoapps/contentstore/views/certificates.py:158
 msgid "must have name of the certificate"
 msgstr "doit avoir le nom de l'attestation"
 
-#: cms/djangoapps/contentstore/views/certificates.py:200
+#: cms/djangoapps/contentstore/views/certificates.py:225
 msgid "Certificate dict {0} missing value key '{1}'"
 msgstr "Clé de valeur manquante '{1}' pour le dict {0} de l'attestation"
 
-#: cms/djangoapps/contentstore/views/certificates.py:308
-#: cms/djangoapps/contentstore/views/certificates.py:346
+#: cms/djangoapps/contentstore/views/certificates.py:330
+#: cms/djangoapps/contentstore/views/certificates.py:368
 msgid "PermissionDenied: Failed in authenticating {user}"
 msgstr "Permission refusée : authentification infructueuse pour {user}"
 
@@ -314,29 +314,29 @@ msgstr "Donnée invalide"
 msgid "Invalid data ({details})"
 msgstr "Donnée invalide ({details})"
 
-#: cms/djangoapps/contentstore/views/item.py:653
+#: cms/djangoapps/contentstore/views/item.py:664
 msgid "Duplicate of {0}"
 msgstr "Duplication de {0}"
 
-#: cms/djangoapps/contentstore/views/item.py:655
+#: cms/djangoapps/contentstore/views/item.py:666
 msgid "Duplicate of '{0}'"
 msgstr "Duplication de '{0}'"
 
 #. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
 #. in many languages. This is used to avoid Transifex's misinterpreting of
 #. '% o'. The percent sign is also translatable as a standalone string.
-#: cms/djangoapps/contentstore/views/item.py:954
+#: cms/djangoapps/contentstore/views/item.py:966
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
 msgstr "Les étudiants doivent obtenir {score}{pct_sign} ou plus afin d'accéder au matériel de cours."
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/views/item.py:958
+#: cms/djangoapps/contentstore/views/item.py:970
 msgid "%"
 msgstr "%"
 
-#: cms/djangoapps/contentstore/views/item.py:1238
+#: cms/djangoapps/contentstore/views/item.py:1250
 msgid "{section_or_subsection} \"{display_name}\""
 msgstr "{section_or_subsection} \"{display_name}\""
 
@@ -378,13 +378,13 @@ msgstr "Permissions insuffisantes"
 msgid "Could not find user by email address '{email}'."
 msgstr "Impossible de trouver un utilisateur avec l'adresse courriel '{email}'."
 
-#: cms/djangoapps/contentstore/views/user.py:153
-msgid "User {email} has registered but has not yet activated his/her account."
-msgstr "L'utilisateur {email} s'est enregistré mais n'a pas encore activé son compte."
-
-#: cms/djangoapps/contentstore/views/user.py:166
+#: cms/djangoapps/contentstore/views/user.py:159
 msgid "No `role` specified."
 msgstr "Aucun `role` spécifié."
+
+#: cms/djangoapps/contentstore/views/user.py:164
+msgid "User {email} has registered but has not yet activated his/her account."
+msgstr "L'utilisateur {email} s'est enregistré mais n'a pas encore activé son compte."
 
 #: cms/djangoapps/contentstore/views/user.py:185
 msgid "Invalid `role` specified."
@@ -395,69 +395,86 @@ msgid "You may not remove the last Admin. Add another Admin first."
 msgstr "Vous ne pouvez pas supprimer le dernier administrateur. Créez-en un autre afin de supprimer celui-ci."
 
 #. Translators: This is the status of an active video upload
-#: cms/djangoapps/contentstore/views/videos.py:40
+#: cms/djangoapps/contentstore/views/videos.py:62
 msgid "Uploading"
 msgstr "Téléversement en cours"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
-#: cms/djangoapps/contentstore/views/videos.py:42
+#: cms/djangoapps/contentstore/views/videos.py:64
 msgid "In Progress"
 msgstr "En cours"
 
 #. Translators: This is the status for a video that the servers have
 #. successfully processed
-#: cms/djangoapps/contentstore/views/videos.py:44
+#: cms/djangoapps/contentstore/views/videos.py:66
 msgid "Ready"
 msgstr "Prêt"
 
+#. Translators: This is the status for a video that is uploaded completely
+#: cms/djangoapps/contentstore/views/videos.py:68
+msgid "Uploaded"
+msgstr ""
+
 #. Translators: This is the status for a video that the servers have failed to
 #. process
-#: cms/djangoapps/contentstore/views/videos.py:46
+#: cms/djangoapps/contentstore/views/videos.py:70
 msgid "Failed"
 msgstr "Échec"
 
+#. Translators: This is the status for a video that is cancelled during upload
+#. by user
+#: cms/djangoapps/contentstore/views/videos.py:72
+msgid "Cancelled"
+msgstr "Annulée"
+
 #. Translators: This is the status for a video which has failed
 #. due to being flagged as a duplicate by an external or internal CMS
-#: cms/djangoapps/contentstore/views/videos.py:49
+#: cms/djangoapps/contentstore/views/videos.py:75
 msgid "Failed Duplicate"
 msgstr "Echec de Duplicata"
 
+#. Translators: This is the status for a video which has duplicate token for
+#. youtube
+#: cms/djangoapps/contentstore/views/videos.py:77
+msgid "YouTube Duplicate"
+msgstr ""
+
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
-#: cms/djangoapps/contentstore/views/videos.py:52
+#: cms/djangoapps/contentstore/views/videos.py:80
 msgid "Invalid Token"
 msgstr "Jeton invalide"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
-#: cms/djangoapps/contentstore/views/videos.py:54
+#: cms/djangoapps/contentstore/views/videos.py:82
 msgid "Imported"
 msgstr "Importé"
 
 #. Translators: This is the status for a video that is in an unknown state
-#: cms/djangoapps/contentstore/views/videos.py:56
+#: cms/djangoapps/contentstore/views/videos.py:84
 msgid "Unknown"
 msgstr "Inconnu"
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
 #. (e.g. desktop, mobile high quality, mobile low quality)
-#: cms/djangoapps/contentstore/views/videos.py:129
+#: cms/djangoapps/contentstore/views/videos.py:170
 msgid "{profile_name} URL"
 msgstr "{profile_name} URL"
 
-#: cms/djangoapps/contentstore/views/videos.py:135
+#: cms/djangoapps/contentstore/views/videos.py:176
 msgid "Duration"
 msgstr "Durée"
 
-#: cms/djangoapps/contentstore/views/videos.py:136
+#: cms/djangoapps/contentstore/views/videos.py:177
 msgid "Date Added"
 msgstr "Date ajoutée"
 
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
-#: cms/djangoapps/contentstore/views/videos.py:174
+#: cms/djangoapps/contentstore/views/videos.py:215
 msgid "{course}_video_urls"
 msgstr "{course}_video_urls"
 
@@ -527,7 +544,7 @@ msgstr "La publication forcée d'un cours n'est pas supportée avec les vieux co
 msgid "Course is already in published state."
 msgstr "Le cours est déjà dans cet état de publication."
 
-#: cms/djangoapps/models/settings/course_metadata.py:163
+#: cms/djangoapps/models/settings/course_metadata.py:160
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "Format incorrect pour le champ  '{name}'. {detailed_message}"
 
