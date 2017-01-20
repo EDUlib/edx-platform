@@ -29,6 +29,7 @@
 # Julien Colmonts <julien.colmonts@student.uclouvain.be>, 2014
 # Julien Rolland <julien.rolland33@gmail.com>, 2013
 # Justine Seran, 2015
+# Keivan Farzaneh <keivan.farzaneh@edulib.org>, 2017
 # Kévin SEVERIN <kevin.severin@laposte.net>, 2015
 # Laetitia Pfaender <l.pfaender@learning-tribes.com>, 2016
 # laurentFUN <laurent.at.fun@gmail.com>, 2014
@@ -67,8 +68,8 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-05 17:04+0000\n"
-"Last-Translator: Ned Batchelder <ned@edx.org>\n"
+"PO-Revision-Date: 2017-01-20 21:07+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -397,7 +398,7 @@ msgstr "Pour vous inscrire, vous devez accepter le code d'honneur."
 
 #: common/djangoapps/student/forms.py:196
 msgid "You must consent to data sharing to register."
-msgstr ""
+msgstr "Vous devez consentir au partage des données pour vous inscrire."
 
 #: common/djangoapps/student/forms.py:209
 msgid "You are missing one or more required fields"
@@ -1223,13 +1224,13 @@ msgid ""
 "I agree to allow {platform_name} to share data about my enrollment, "
 "completion and performance in all {platform_name} courses and programs where"
 " my enrollment is sponsored by {ec_name}."
-msgstr ""
+msgstr "J'accepte d'autoriser {platform_name} à partager des données sur mon inscription, l'achèvement et les performances de tous les cours et programmes de {platform_name} où mon inscription est sponsorisée par {ec_name}."
 
 #: common/djangoapps/util/enterprise_helpers.py:95
 msgid ""
 "To link your account with {ec_name}, you are required to consent to data "
 "sharing."
-msgstr ""
+msgstr "Pour lier votre compte avec {ec_name}, vous devez consentir au partage des données."
 
 #: common/djangoapps/util/file.py:61
 msgid "The file must end with the extension '{file_types}'."
@@ -1438,7 +1439,7 @@ msgstr "Editeur de {programming_language}"
 
 #: common/lib/capa/capa/inputtypes.py:804
 msgid "Press ESC then TAB or click outside of the code editor to exit"
-msgstr ""
+msgstr "Appuyez sur ÉCHAP puis TAB ou cliquez à l'extérieur de l'éditeur de code pour quitter"
 
 #: common/lib/capa/capa/inputtypes.py:830
 msgid ""
@@ -1878,7 +1879,7 @@ msgstr "Dictionnaire avec les réponses de l'étudiant"
 
 #: common/lib/xmodule/xmodule/capa_base.py:171
 msgid "Whether or not the answers have been saved since last submit"
-msgstr ""
+msgstr "Si les réponses ont été enregistrées ou non depuis la dernière soumission"
 
 #: common/lib/xmodule/xmodule/capa_base.py:173
 msgid "Whether the student has answered the problem"
@@ -1947,7 +1948,7 @@ msgstr "Soumettre"
 
 #: common/lib/xmodule/xmodule/capa_base.py:430
 msgid "Submitting"
-msgstr ""
+msgstr "Soumission"
 
 #: common/lib/xmodule/xmodule/capa_base.py:552
 msgid "Warning: The problem has been reset to its initial state!"
@@ -1973,7 +1974,7 @@ msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
 #: common/lib/xmodule/xmodule/capa_base.py:613
 msgid ""
 "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li>"
-msgstr ""
+msgstr "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li>"
 
 #. Translators: e.g. "Hint 1 of 3: " meaning we are showing the first of three
 #. hints.
@@ -1985,25 +1986,25 @@ msgstr "Indice ({hint_num} de {hints_count}) : "
 #: common/lib/xmodule/xmodule/capa_base.py:687
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
-msgstr ""
+msgstr "Vos réponses ont déjà été enregistrées. Cliquez sur '{button_name}' pour les noter."
 
 #: common/lib/xmodule/xmodule/capa_base.py:760
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Incorrect ({progress} point)"
+msgstr[1] "Incorrect ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:769
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Correct ({progress} point)"
+msgstr[1] "Correct ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:778
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Partiellement correct ({progress} point)"
+msgstr[1] "Partiellement correct ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py:783
 msgid "Partially Correct"
@@ -2018,7 +2019,7 @@ msgstr "Problème fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py:1124
 msgid "Problem must be reset before it can be submitted again."
-msgstr ""
+msgstr "Le problème doit être réinitialisé avant qu'il puisse être soumis de nouveau."
 
 #: common/lib/xmodule/xmodule/capa_base.py:1133
 msgid "You must wait at least {wait} seconds between submissions."
@@ -2081,11 +2082,11 @@ msgstr "Vos réponses ont été enregistrées, mais n’ont pas encore été not
 #. longer attempt to solve the problem.
 #: common/lib/xmodule/xmodule/capa_base.py:1556
 msgid "You cannot select Reset for a problem that is closed."
-msgstr ""
+msgstr "Vous ne pouvez pas sélectionner Réinitialiser pour un problème fermé."
 
 #: common/lib/xmodule/xmodule/capa_base.py:1565
 msgid "You must submit an answer before you can select Reset."
-msgstr ""
+msgstr "Vous devez soumettre une réponse avant de pouvoir sélectionner Reset."
 
 #: common/lib/xmodule/xmodule/capa_module.py:82
 msgid ""
@@ -2105,11 +2106,11 @@ msgstr "Conditionnel"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:36
 msgid "List of urls of children that are references to external modules"
-msgstr ""
+msgstr "Liste des URL enfants qui sont des références à des modules externes"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:41
 msgid "Source Components"
-msgstr ""
+msgstr "Composants source"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:42
 msgid ""
@@ -2117,17 +2118,17 @@ msgid ""
 "determine whether a learner is shown the content of this conditional module."
 " Copy the component location ID of a component from its Settings dialog in "
 "Studio."
-msgstr ""
+msgstr "Les ID d'emplacement des composants source utilisés pour déterminer si un apprenant peut voir le contenu de ce module conditionnel. Copiez l'ID d'emplacement d'un composant depuis sa boîte de dialogue Paramètres dans Studio."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:49
 msgid "Conditional Attribute"
-msgstr ""
+msgstr "Attribut conditionnel"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:50
 msgid ""
 "The attribute of the source components that determines whether a learner is "
 "shown the content of this conditional module."
-msgstr ""
+msgstr "L'attribut du composant source qui détermine si un apprenant peut voir le contenu de ce module conditionnel."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:59
 msgid "Conditional Value"
@@ -2137,7 +2138,7 @@ msgstr "Valeur conditionnelle"
 msgid ""
 "The value that the conditional attribute of the source components must match"
 " before a learner is shown the content of this conditional module."
-msgstr ""
+msgstr "La valeur à laquelle l'attribut conditionnel des composants source doit correspondre avant qu'un apprenant puisse voir le contenu de ce module conditionnel."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:67
 msgid "Blocked Content Message"
@@ -2149,15 +2150,15 @@ msgid ""
 "show the content of this conditional module. Include {link} in the text of "
 "your message to give learners a direct link to required units. For example, "
 "'You must complete {link} before you can access this unit'."
-msgstr ""
+msgstr "Le message qui est montré aux apprenants lorsque les conditions ne sont pas toutes remplies pour montrer le contenu de ce module conditionnel. Incluez {link} dans le texte de votre message pour donner aux apprenants un lien direct vers les unités requises. Par exemple, 'Vous devez remplir {link} avant d'accéder à cette unité'."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:72
 msgid "You must complete {link} before you can access this unit."
-msgstr ""
+msgstr "Vous devez compléter {link} avant de pouvoir accéder à cette unité."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:353
 msgid "This component has no source components configured yet."
-msgstr ""
+msgstr "Ce composant n'a pas encore de composants source configurés."
 
 #: common/lib/xmodule/xmodule/conditional_module.py:355
 msgid "Configure list of sources"
@@ -2841,7 +2842,7 @@ msgid ""
 "proctored exams without proctoring. If this value is false, all learners "
 "must take the exam with proctoring. This setting only applies if proctored "
 "exams are enabled for the course."
-msgstr ""
+msgstr "Entrez true ou false. Si la valeur est true, les apprenants peuvent choisir de passer des examens surveillés sans surveillance. Si la valeur est false, tous les apprenants doivent passer l'examen avec surveillance. Ce paramètre s'applique uniquement si les examens surveillés sont activés pour le cours."
 
 #: common/lib/xmodule/xmodule/course_module.py:756
 msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
@@ -2862,7 +2863,7 @@ msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course. Regardless of this setting, timed exams are enabled if Enable "
 "Proctored Exams is set to true."
-msgstr ""
+msgstr "Entrez true ou false. Si la valeur est true, les examens minutés sont activés dans votre cours. Indépendamment de ce paramètre, les examens minutés sont activés si l'option Activer les examens surveillés est définie sur true."
 
 #: common/lib/xmodule/xmodule/course_module.py:775
 msgid "Minimum Grade for Credit"
@@ -2981,7 +2982,7 @@ msgstr "Cacher la page aux étudiants"
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
-msgstr ""
+msgstr "Si vous choisissez cette option, seuls les membres de l'équipe du cours avec le rôle Staff ou Admin pourront voir cette page."
 
 #: common/lib/xmodule/xmodule/html_module.py:383
 msgid "HTML for the additional pages"
@@ -3793,8 +3794,8 @@ msgstr "De base"
 msgid "There is no transcript file associated with the {lang} language."
 msgid_plural ""
 "There are no transcript files associated with the {lang} languages."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il n'y a aucun fichier de transcription associé avec la langue {lang}."
+msgstr[1] "Il n'y a aucun fichier de transcription associé avec les langues {lang}."
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py:691
 msgid ""
@@ -4988,7 +4989,7 @@ msgstr "Attestation non disponible"
 msgid ""
 "You have not received a certificate because you do not have a current "
 "{platform_name} verified identity."
-msgstr ""
+msgstr "Vous n'avez pas reçu une attestation car votre identité n'a pas été vérifiée avec {platform_name}."
 
 #: lms/djangoapps/courseware/views/views.py:864
 msgid "Congratulations, you qualified for a certificate!"
@@ -5634,7 +5635,7 @@ msgstr "Mode d'inscription"
 
 #: lms/djangoapps/instructor/views/api.py:1235
 msgid "Verification Status"
-msgstr ""
+msgstr "Statut de la vérification"
 
 #: lms/djangoapps/instructor/views/api.py:1241
 msgid "Cohort"
@@ -7824,7 +7825,7 @@ msgstr "Autoriser"
 #: lms/templates/oauth2_provider/authorize.html:24
 msgid ""
 "The above application requests the following permissions from your account:"
-msgstr ""
+msgstr "L'application ci-dessus demande les permissions suivantes à partir de votre compte:"
 
 #: lms/templates/oauth2_provider/authorize.html:30
 msgid ""
