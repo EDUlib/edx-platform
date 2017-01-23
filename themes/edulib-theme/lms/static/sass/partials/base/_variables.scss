@@ -31,10 +31,13 @@ $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 //  Correctifs
 //-----------------
 
-html {background-color: transparent !important;}
+
+html {background: transparent !important;}
+body {background: #fcfcfc !important;}
+
 div.info-wrapper {background-color: #fff !important;}
 
-div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article h2.date {display: none !important;}
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date {display: none !important;}
 
 .home>header .title .course-search .search-button {right: 0px !important;}
 
@@ -42,9 +45,6 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
 // ----------------------------
 // Pied de page
 // ----------------------------
-
-
-footer#footer-edx-v3 {background-color: #fafafa !important;}
 
 footer#footer-edx-v3 .site-nav {display: inline-block;}
 
