@@ -32,13 +32,6 @@
 % endif
 
 <%block name="pagetitle">${_("Courses")}</%block>
-<%
-  platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
-  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
-  if self.stanford_theme_enabled():
-    course_index_overlay_text = _("Explore free courses from {university_name}.").format(university_name="Stanford University")
-    logo_file = static.url('themes/stanford/images/seal.png')
-    logo_alt_text = "Stanford Seal Logo"
 
 <main id="main" aria-label="Content" tabindex="-1">
 
