@@ -85,9 +85,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-20 15:45+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-03 18:48+0000\n"
+"PO-Revision-Date: 2017-02-10 18:35+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,7 +107,6 @@ msgstr ""
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
 #: cms/templates/js/xblock-string-field-editor.underscore:14
-#: cms/templates/js/programs/program_creator_form.underscore:64
 #: common/static/common/templates/discussion/new-post.underscore:5
 #: common/static/common/templates/discussion/new-post.underscore:68
 #: common/static/common/templates/discussion/response-comment-edit.underscore:8
@@ -123,8 +122,6 @@ msgstr "Annuler"
 #: cms/templates/js/course-instructor-details.underscore:3
 #: cms/templates/js/previous-video-upload-list.underscore:11
 #: cms/templates/js/signatory-details.underscore:13
-#: cms/templates/js/programs/program_creator_form.underscore:30
-#: cms/templates/js/programs/program_details.underscore:6
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:20
 msgid "Name"
 msgstr "Nom"
@@ -136,7 +133,6 @@ msgstr "Type"
 
 #: cms/templates/js/asset-library.underscore:57
 #: cms/templates/js/basic-modal.underscore:15
-#: cms/templates/js/programs/confirm_modal.underscore:14
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
 msgid "Actions"
 msgstr "Actions"
@@ -395,13 +391,13 @@ msgid "All Groups"
 msgstr "Tous les groupes"
 
 #: common/static/common/templates/discussion/new-post.underscore:36
-#: common/static/common/templates/discussion/thread-edit.underscore:8
-msgid "Add a clear and descriptive title to encourage participation."
-msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation."
+msgid ""
+"Add a clear and descriptive title to encourage participation. (Required)"
+msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation. (Requis)"
 
 #: common/static/common/templates/discussion/new-post.underscore:45
-msgid "Your question or idea"
-msgstr "Votre question ou idée"
+msgid "Your question or idea (required)"
+msgstr "Votre question ou idée (requis)"
 
 #: common/static/common/templates/discussion/new-post.underscore:51
 msgid "follow this post"
@@ -417,7 +413,7 @@ msgstr "poster anonymement à des camarades de classe"
 
 #: common/static/common/templates/discussion/new-post.underscore:67
 #: common/static/common/templates/discussion/thread-response.underscore:18
-#: common/static/common/templates/discussion/thread.underscore:29
+#: common/static/common/templates/discussion/thread.underscore:31
 #: lms/templates/verify_student/incourse_reverify.underscore:47
 msgid "Submit"
 msgstr "Soumettre"
@@ -428,14 +424,12 @@ msgid "…"
 msgstr "…"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:4
-#: common/static/common/templates/discussion/thread-list-item.underscore:55
-msgid "Community TA"
-msgstr "Assistant d'enseignement de la communauté"
+msgid "(Community TA)"
+msgstr "(Assistant d'enseignement de la communauté)"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:6
-#: common/static/common/templates/discussion/thread-list-item.underscore:48
-msgid "Staff"
-msgstr "Équipe pédagogique"
+msgid "(Staff)"
+msgstr "(Équipe pédagogique)"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:9
 #: common/static/common/templates/discussion/profile-thread.underscore:9
@@ -443,7 +437,7 @@ msgid "anonymous"
 msgstr "anonyme"
 
 #: common/static/common/templates/discussion/profile-thread.underscore:14
-#: common/static/common/templates/discussion/thread.underscore:21
+#: common/static/common/templates/discussion/thread.underscore:23
 msgid "This thread is closed."
 msgstr "Ce fil est fermé."
 
@@ -474,6 +468,10 @@ msgstr "Reporté"
 msgid "Editing post"
 msgstr "Editer le message"
 
+#: common/static/common/templates/discussion/thread-edit.underscore:8
+msgid "Add a clear and descriptive title to encourage participation."
+msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation."
+
 #: common/static/common/templates/discussion/thread-edit.underscore:14
 msgid "Edit your post below."
 msgstr "Modifiez votre post ci-dessous."
@@ -502,6 +500,14 @@ msgstr "Épinglé"
 #: common/static/common/templates/discussion/thread-list-item.underscore:41
 msgid "Following"
 msgstr "Suivi"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:48
+msgid "Staff"
+msgstr "Équipe pédagogique"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:55
+msgid "Community TA"
+msgstr "Assistant d'enseignement de la communauté"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:82
 msgid "{unread_comments_count} new"
@@ -590,8 +596,8 @@ msgstr "Type de message"
 #: common/static/common/templates/discussion/thread-type.underscore:8
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
-"conversations."
-msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les discussions partagent des idées et démarrent des conversations."
+"conversations. (Required)"
+msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les discussions partagent des idées et démarrent des conversations. (Requis)"
 
 #: common/static/common/templates/discussion/thread-type.underscore:17
 msgid "Question"
@@ -601,11 +607,11 @@ msgstr "Question"
 msgid "Discussion"
 msgstr "Discussion"
 
-#: common/static/common/templates/discussion/thread.underscore:13
+#: common/static/common/templates/discussion/thread.underscore:14
 msgid "Add a Response"
 msgstr "Ajouter une réponse"
 
-#: common/static/common/templates/discussion/thread.underscore:25
+#: common/static/common/templates/discussion/thread.underscore:27
 msgid "Add a response:"
 msgstr "Ajouter une réponse : "
 
@@ -614,8 +620,8 @@ msgid "Topic area"
 msgstr "Secteur thématique"
 
 #: common/static/common/templates/discussion/topic.underscore:7
-msgid "Add your post to a relevant topic to help others find it."
-msgstr "Ajouter votre message à un sujet pertinent afin d'aider les autres à le trouver."
+msgid "Add your post to a relevant topic to help others find it. (Required)"
+msgstr "Ajoutez votre message à un sujet pertinent afin d'aider les autres à le trouver. (Requis)"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
 msgid "Discussion Home"

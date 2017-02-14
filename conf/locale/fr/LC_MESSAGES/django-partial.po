@@ -67,8 +67,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-20 21:07+0000\n"
+"POT-Creation-Date: 2017-02-03 18:48+0000\n"
+"PO-Revision-Date: 2017-02-10 18:35+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -213,7 +213,7 @@ msgstr "Cours"
 
 #: common/djangoapps/course_modes/models.py:45
 #: common/lib/xmodule/xmodule/annotatable_module.py:41
-#: common/lib/xmodule/xmodule/capa_base.py:94
+#: common/lib/xmodule/xmodule/capa_base.py:95
 #: common/lib/xmodule/xmodule/conditional_module.py:29
 #: common/lib/xmodule/xmodule/html_module.py:40
 #: common/lib/xmodule/xmodule/html_module.py:366
@@ -224,6 +224,7 @@ msgstr "Cours"
 #: common/lib/xmodule/xmodule/textannotation_module.py:36
 #: common/lib/xmodule/xmodule/videoannotation_module.py:36
 #: common/lib/xmodule/xmodule/word_cloud_module.py:40
+#: common/lib/xmodule/xmodule/x_module.py:264
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py:41
 msgid "Display Name"
 msgstr "Nom d'affichage"
@@ -409,7 +410,7 @@ msgid "Username and password fields cannot match"
 msgstr "Le nom d'utilisateur et le mot de passe ne peuvent pas être identiques "
 
 #: common/djangoapps/student/forms.py:237
-#: common/djangoapps/student/views.py:2262
+#: common/djangoapps/student/views.py:2264
 msgid "Password: "
 msgstr "Mot de passe : "
 
@@ -570,211 +571,211 @@ msgstr "Aucune éducation formelle"
 msgid "Other education"
 msgstr "Autre"
 
-#: common/djangoapps/student/models.py:1995
+#: common/djangoapps/student/models.py:1998
 msgid "{platform_name} Honor Code Certificate for {course_name}"
 msgstr "Attestation sur le code d'honneur {platform_name} pour {course_name}"
 
-#: common/djangoapps/student/models.py:1996
+#: common/djangoapps/student/models.py:1999
 msgid "{platform_name} Verified Certificate for {course_name}"
 msgstr "Attestation {platform_name} pour {course_name}"
 
-#: common/djangoapps/student/models.py:1997
-#: common/djangoapps/student/models.py:1999
+#: common/djangoapps/student/models.py:2000
+#: common/djangoapps/student/models.py:2002
 msgid "{platform_name} Professional Certificate for {course_name}"
 msgstr "Attestation professionnelle {platform_name} pour {course_name}"
 
-#: common/djangoapps/student/models.py:2005
+#: common/djangoapps/student/models.py:2008
 msgid ""
 "The company identifier for the LinkedIn Add-to-Profile button e.g "
 "0_0dPSPyS070e0HsE9HNz_13_d11_"
 msgstr "L'identifiantr de l'entreprise pour le bouton Ajouter-au-profil de LinkedIn i.e. 0_0dPSPyS070e0HsE9HNz_13_d11_"
 
-#: common/djangoapps/student/models.py:2018
+#: common/djangoapps/student/models.py:2021
 msgid ""
 "Short identifier for the LinkedIn partner used in the tracking code.  "
 "(Example: 'edx')  If no value is provided, tracking codes will not be sent "
 "to LinkedIn."
 msgstr "Identifiant court pour le partenaire LinkedIn utilisé dans le code de suivi.  (Exemple : 'edx')  Si aucune valeur est fournie, les codes de suivi ne seront pas envoyés à LinkedIn."
 
-#: common/djangoapps/student/models.py:2067
+#: common/djangoapps/student/models.py:2070
 msgid "{platform_name} Certificate for {course_name}"
 msgstr "Attestation {platform_name} pour {course_name}"
 
-#: common/djangoapps/student/models.py:2165
-#: common/djangoapps/student/models.py:2194
+#: common/djangoapps/student/models.py:2168
+#: common/djangoapps/student/models.py:2197
 msgid "The ISO 639-1 language code for this language."
 msgstr "Le code linguistique ISO 639-1 pour cette langue."
 
-#: common/djangoapps/student/models.py:2205
+#: common/djangoapps/student/models.py:2208
 msgid "Namespace of enrollment attribute"
 msgstr "Espace de nommage de l'attribut d'inscription"
 
-#: common/djangoapps/student/models.py:2209
+#: common/djangoapps/student/models.py:2212
 msgid "Name of the enrollment attribute"
 msgstr "Nom de l'attribut d'inscription"
 
-#: common/djangoapps/student/models.py:2213
+#: common/djangoapps/student/models.py:2216
 msgid "Value of the enrollment attribute"
 msgstr "Valeur de l'attribut d'inscription"
 
-#: common/djangoapps/student/models.py:2284
+#: common/djangoapps/student/models.py:2287
 msgid ""
 "The window of time after enrolling during which users can be granted a "
 "refund, represented in microseconds. The default is 14 days."
 msgstr "La fenêtre après l'inscription pendant laquelle les utilisateurs peuvent demander un remboursement, représenté en microsecondes. Le défaut est 14 jours."
 
-#: common/djangoapps/student/models.py:2306
+#: common/djangoapps/student/models.py:2309
 msgid "Name of the UTM cookie"
 msgstr "Nom du cookie UTM"
 
-#: common/djangoapps/student/models.py:2311
+#: common/djangoapps/student/models.py:2314
 msgid "Name of the affiliate cookie"
 msgstr "Nom du cookie de la filiale"
 
-#: common/djangoapps/student/models.py:2332
+#: common/djangoapps/student/models.py:2335
 msgid "Name of this user attribute."
 msgstr "Nom de l'attribut utilisateur."
 
-#: common/djangoapps/student/models.py:2333
+#: common/djangoapps/student/models.py:2336
 msgid "Value of this user attribute."
 msgstr "Valeur de l'attribut utilisateur."
 
-#: common/djangoapps/student/views.py:749
+#: common/djangoapps/student/views.py:751
 msgid "The course you are looking for does not start until {date}."
 msgstr "Le cours que vous regardez ne commence pas avant {date}."
 
-#: common/djangoapps/student/views.py:753
+#: common/djangoapps/student/views.py:755
 msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr "Le cours que vous regardez est fermé aux inscriptions depuis {date}."
 
-#: common/djangoapps/student/views.py:1079
+#: common/djangoapps/student/views.py:1081
 msgid "Course id not specified"
 msgstr "L'identifiant du cours n'est pas spécifié"
 
-#: common/djangoapps/student/views.py:1090
+#: common/djangoapps/student/views.py:1092
 #: lms/djangoapps/support/views/refund.py:62
 msgid "Invalid course id"
 msgstr "Identifiant de cours invalide"
 
-#: common/djangoapps/student/views.py:1101
+#: common/djangoapps/student/views.py:1103
 msgid "Course id is invalid"
 msgstr "L'identifiant du cours est invalide"
 
-#: common/djangoapps/student/views.py:1134
+#: common/djangoapps/student/views.py:1136
 msgid "Could not enroll"
 msgstr "Ne peux vous inscrire"
 
-#: common/djangoapps/student/views.py:1150
+#: common/djangoapps/student/views.py:1152
 msgid "You are not enrolled in this course"
 msgstr "Vous n'êtes pas inscrit dans ce cours"
 
-#: common/djangoapps/student/views.py:1154
+#: common/djangoapps/student/views.py:1156
 msgid "Your certificate prevents you from unenrolling from this course"
 msgstr "Votre attestation ne vous permet pas de vous désinscrire de ce cours"
 
-#: common/djangoapps/student/views.py:1159
+#: common/djangoapps/student/views.py:1161
 msgid "Enrollment action is invalid"
 msgstr "Action d'inscription invalide"
 
-#: common/djangoapps/student/views.py:1200
+#: common/djangoapps/student/views.py:1202
 msgid ""
 "You've successfully logged into your {provider_name} account, but this "
 "account isn't linked with an {platform_name} account yet."
 msgstr "Vous êtes connecté avec succès à votre compte {provider_name}, mais ce compte n'est pas encore lié avec un compte {platform_name}."
 
-#: common/djangoapps/student/views.py:1208
+#: common/djangoapps/student/views.py:1210
 msgid ""
 "Use your {platform_name} username and password to log into {platform_name} "
 "below, and then link your {platform_name} account with {provider_name} from "
 "your dashboard."
 msgstr "Utilisez votre nom d'utilisateur et mot de passe {platform_name} pour vous connecter sur {platform_name} ci-dessous, et ensuite liez votre compte {platform_name} avec {provider_name} à partir de votre tableau de bord."
 
-#: common/djangoapps/student/views.py:1216
+#: common/djangoapps/student/views.py:1218
 msgid ""
 "If you don't have an {platform_name} account yet, click "
 "<strong>Register</strong> at the top of the page."
 msgstr "Si vous n'avez pas encore un compte {platform_name}, cliquer <strong>Inscription</strong> au haut de la page."
 
-#: common/djangoapps/student/views.py:1230
+#: common/djangoapps/student/views.py:1232
 msgid "There was an error receiving your login information. Please email us."
 msgstr "Il y avait une erreur avec vos informations de connexion. S'il vous plaît écrivez-nous."
 
-#: common/djangoapps/student/views.py:1262
+#: common/djangoapps/student/views.py:1264
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
 msgstr "Ce compte a été temporairement bloqué en raison d'erreurs de connexions répétées. Essayez plus tard."
 
-#: common/djangoapps/student/views.py:1273
+#: common/djangoapps/student/views.py:1275
 msgid ""
 "Your password has expired due to password policy on this account. You must "
 "reset your password before you can log in again. Please click the \"Forgot "
 "Password\" link on this page to reset your password before logging in again."
 msgstr "Votre mot de passe a expiré en raison de la politique de mot de passe sur ce compte. Vous devez réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau. S'il vous plaît cliquer le lien \"Oublié votre mot de passe\" sur cette page afin réinitialiser votre mot de passe avant de pouvoir vous connecter de nouveau."
 
-#: common/djangoapps/student/views.py:1290
+#: common/djangoapps/student/views.py:1292
 msgid "Too many failed login attempts. Try again later."
 msgstr "Trop de tentatives d'accès refusées. Essayer plus tard."
 
-#: common/djangoapps/student/views.py:1308
+#: common/djangoapps/student/views.py:1310
 msgid "Email or password is incorrect."
 msgstr "Adresse courriel ou mot de passe incorrect."
 
-#: common/djangoapps/student/views.py:1383
+#: common/djangoapps/student/views.py:1385
 msgid ""
 "Before you sign in, you need to activate your account. We have sent you an "
 "email message with instructions for activating your account."
 msgstr "Avant de vous connecter, vous devez activer votre compte. Nous vous avons envoyé un courriel avec des instructions pour activer votre compte."
 
-#: common/djangoapps/student/views.py:1465
+#: common/djangoapps/student/views.py:1467
 msgid "Please enter a username"
 msgstr "Entrer un nom d'utilisateur"
 
-#: common/djangoapps/student/views.py:1470
+#: common/djangoapps/student/views.py:1472
 msgid "Please choose an option"
 msgstr "Choisir une option"
 
-#: common/djangoapps/student/views.py:1477
+#: common/djangoapps/student/views.py:1479
 msgid "User with username {} does not exist"
 msgstr "L'utilisateur avec le nom d'utilisateur {} n'existe pas"
 
-#: common/djangoapps/student/views.py:1485
+#: common/djangoapps/student/views.py:1487
 msgid "Successfully disabled {}'s account"
 msgstr "Compte {} désactivé avec succès"
 
-#: common/djangoapps/student/views.py:1489
+#: common/djangoapps/student/views.py:1491
 msgid "Successfully reenabled {}'s account"
 msgstr "Compte {} réactivé avec succès"
 
-#: common/djangoapps/student/views.py:1492
+#: common/djangoapps/student/views.py:1494
 msgid "Unexpected account status"
 msgstr "Statut de compte innatendu"
 
-#: common/djangoapps/student/views.py:1575
+#: common/djangoapps/student/views.py:1577
 msgid "An account with the Public Username '{username}' already exists."
 msgstr "Un compte avec le même nom d'utilisateur '{username}' existe déjà."
 
-#: common/djangoapps/student/views.py:1580
+#: common/djangoapps/student/views.py:1582
 msgid "An account with the Email '{email}' already exists."
 msgstr "Un compte avec l'adresse '{email}' existe déjà."
 
-#: common/djangoapps/student/views.py:1724
+#: common/djangoapps/student/views.py:1726
 msgid "An access_token is required when passing value ({}) for provider."
 msgstr "Un jeton d'accès est requis quand  la valeur ({}) est passée au le fournisseur"
 
-#: common/djangoapps/student/views.py:1735
+#: common/djangoapps/student/views.py:1737
 msgid "The provided access_token is already associated with another user."
 msgstr "Le jeton d'accès fourni est déjà associé à un autre utilisateur."
 
-#: common/djangoapps/student/views.py:1737
+#: common/djangoapps/student/views.py:1739
 msgid "The provided access_token is not valid."
 msgstr "Le jeton d'accès fourni n'est pas valide."
 
-#: common/djangoapps/student/views.py:2182
+#: common/djangoapps/student/views.py:2184
 msgid "Unknown error. Please e-mail us to let us know how it happened."
 msgstr "Erreur inconnue. S'il vous plaît nous écrire afin de nous laisser savoir comment cela est arrivé."
 
-#: common/djangoapps/student/views.py:2273
+#: common/djangoapps/student/views.py:2275
 msgid ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct password before reusing a previous password."
@@ -784,7 +785,7 @@ msgid_plural ""
 msgstr[0] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num} mot de passe distinct avant de réutiliser un mot de passe précédemment utilisé."
 msgstr[1] "Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser {num} mot de passe distincts avant de réutiliser un mot de passe précédemment utilisé."
 
-#: common/djangoapps/student/views.py:2284
+#: common/djangoapps/student/views.py:2286
 msgid ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "day must elapse between password resets."
@@ -794,35 +795,35 @@ msgid_plural ""
 msgstr[0] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} jour doivent s'écouler entre les réinitialisations de mot de passe."
 msgstr[1] "Vous réinitialisez votre mot de passe trop souvent. En raison de politiques de sécurité, {num} jours doivent s'écouler entre les réinitialisations de mot de passe."
 
-#: common/djangoapps/student/views.py:2325
+#: common/djangoapps/student/views.py:2327
 msgid "Password reset unsuccessful"
 msgstr "Réinitialisation de mot de passe infructueuse"
 
-#: common/djangoapps/student/views.py:2344
+#: common/djangoapps/student/views.py:2346
 msgid "Error in resetting your password. Please try again."
 msgstr "Erreur lors de réinitialisation de votre mot de passe. Merci d’essayer à nouveau."
 
-#: common/djangoapps/student/views.py:2374
+#: common/djangoapps/student/views.py:2376
 msgid "No inactive user with this e-mail exists"
 msgstr "Aucun utilisateur inactif avec ce courriel n'existe"
 
-#: common/djangoapps/student/views.py:2398
+#: common/djangoapps/student/views.py:2400
 msgid "Unable to send reactivation email"
 msgstr "Impossible d'envoyer le courriel de réactivation"
 
-#: common/djangoapps/student/views.py:2412
+#: common/djangoapps/student/views.py:2414
 msgid "Valid e-mail address required."
 msgstr "Adresse courriel valide nécessaire."
 
-#: common/djangoapps/student/views.py:2415
+#: common/djangoapps/student/views.py:2417
 msgid "Old email is the same as the new email."
 msgstr "L'ancien courriel est le même que le nouveau courriel."
 
-#: common/djangoapps/student/views.py:2418
+#: common/djangoapps/student/views.py:2420
 msgid "An account with this e-mail already exists."
 msgstr "Un compte avec cette adresse courriel existe déjà."
 
-#: common/djangoapps/student/views.py:2461
+#: common/djangoapps/student/views.py:2463
 msgid "Unable to send email activation link. Please try again later."
 msgstr "Impossible d'envoyer le lien d'activation par courriel. Essayez plus tard."
 
@@ -1346,12 +1347,12 @@ msgid "Cannot rescore problems with possible file submissions"
 msgstr "Ne peut renoter les problèmes avec possiblement des soumissions de fichiers"
 
 #: common/lib/capa/capa/capa_problem.py:528
-#: common/lib/xmodule/xmodule/capa_base.py:765
+#: common/lib/xmodule/xmodule/capa_base.py:766
 msgid "Incorrect"
 msgstr "Incorrect"
 
 #: common/lib/capa/capa/capa_problem.py:533
-#: common/lib/xmodule/xmodule/capa_base.py:774
+#: common/lib/xmodule/xmodule/capa_base.py:775
 msgid "Correct"
 msgstr "Correct"
 
@@ -1401,88 +1402,88 @@ msgstr "Cette réponse est en traitement."
 msgid "Not yet answered."
 msgstr "Pas encore de réponse."
 
-#: common/lib/capa/capa/inputtypes.py:442
+#: common/lib/capa/capa/inputtypes.py:449
 msgid "Select an option"
 msgstr "Sélectionnez une option"
 
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
-#: common/lib/capa/capa/inputtypes.py:491
+#: common/lib/capa/capa/inputtypes.py:498
 msgid "ChoiceGroup: unexpected tag {tag_name}"
 msgstr "ChoiceGroup : étiquette inattendue {tag_name}"
 
-#: common/lib/capa/capa/inputtypes.py:503
-#: common/lib/capa/capa/inputtypes.py:1713
+#: common/lib/capa/capa/inputtypes.py:510
+#: common/lib/capa/capa/inputtypes.py:1720
 msgid "Answer received."
 msgstr "Réponse reçue."
 
 #. Translators: '<choice>' and '<compoundhint>' are tag names and should not
 #. be translated.
-#: common/lib/capa/capa/inputtypes.py:533
+#: common/lib/capa/capa/inputtypes.py:540
 msgid "Expected a <choice> or <compoundhint> tag; got {given_tag} instead"
 msgstr "Attendait une étiquette <choice> ou <compoundhint>; a reçu une étiquette {given_tag} au lieu"
 
-#: common/lib/capa/capa/inputtypes.py:716
+#: common/lib/capa/capa/inputtypes.py:723
 msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr "Vos fichiers ont été soumis. Aussitôt que votre soumission est notée, ce message sera remplacé par les commentaires de l'évaluateur."
 
-#: common/lib/capa/capa/inputtypes.py:788
+#: common/lib/capa/capa/inputtypes.py:795
 msgid ""
 "Your answer has been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
 msgstr "Votre réponse a été soumise. Aussitôt que votre soumission est notée, ce message sera remplacé par les commentaires de l'évaluateur."
 
-#: common/lib/capa/capa/inputtypes.py:801
+#: common/lib/capa/capa/inputtypes.py:808
 msgid "{programming_language} editor"
 msgstr "Editeur de {programming_language}"
 
-#: common/lib/capa/capa/inputtypes.py:804
+#: common/lib/capa/capa/inputtypes.py:811
 msgid "Press ESC then TAB or click outside of the code editor to exit"
 msgstr "Appuyez sur ÉCHAP puis TAB ou cliquez à l'extérieur de l'éditeur de code pour quitter"
 
-#: common/lib/capa/capa/inputtypes.py:830
+#: common/lib/capa/capa/inputtypes.py:837
 msgid ""
 "Submitted. As soon as a response is returned, this message will be replaced "
 "by that feedback."
 msgstr "Soumis. Aussitôt qu'une réponse est retournée, ce message sera remplacé par les commentaires."
 
-#: common/lib/capa/capa/inputtypes.py:857
+#: common/lib/capa/capa/inputtypes.py:864
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
 msgstr "Aucune réponse de Xqueue à l'intérieur de {xqueue_timeout} secondes. Interrompu."
 
-#: common/lib/capa/capa/inputtypes.py:922
+#: common/lib/capa/capa/inputtypes.py:929
 msgid "Error running code."
 msgstr "Erreur d'exécution de code."
 
-#: common/lib/capa/capa/inputtypes.py:963
+#: common/lib/capa/capa/inputtypes.py:970
 msgid "Cannot connect to the queue"
 msgstr "Ne peut se connecter à la queue"
 
-#: common/lib/capa/capa/inputtypes.py:1193
-#: common/lib/capa/capa/inputtypes.py:1278
+#: common/lib/capa/capa/inputtypes.py:1200
+#: common/lib/capa/capa/inputtypes.py:1285
 msgid "No formula specified."
 msgstr "Aucune formule spécifiée"
 
-#: common/lib/capa/capa/inputtypes.py:1199
+#: common/lib/capa/capa/inputtypes.py:1206
 msgid "Couldn't parse formula: {error_msg}"
 msgstr "Impossible d'analyser la formule : {error_msg}"
 
-#: common/lib/capa/capa/inputtypes.py:1204
-#: common/lib/capa/capa/inputtypes.py:1296
+#: common/lib/capa/capa/inputtypes.py:1211
+#: common/lib/capa/capa/inputtypes.py:1303
 msgid "Error while rendering preview"
 msgstr "Erreur pendant le rendu de l'aperçu"
 
-#: common/lib/capa/capa/inputtypes.py:1289
+#: common/lib/capa/capa/inputtypes.py:1296
 msgid "Sorry, couldn't parse formula"
 msgstr "Désolé, nous ne pouvons analyser la formule"
 
-#: common/lib/capa/capa/inputtypes.py:1691
+#: common/lib/capa/capa/inputtypes.py:1698
 msgid "{input_type}: unexpected tag {tag_name}"
 msgstr "{input_type} : étiquette inattendue {tag_name}"
 
 #. Translators: a "tag" is an XML element, such as "<b>" in HTML
-#: common/lib/capa/capa/inputtypes.py:1776
+#: common/lib/capa/capa/inputtypes.py:1783
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
 msgstr "Attendions une étiquette {expected_tag}; avons reçu {given_tag} au lieu"
 
@@ -1737,202 +1738,205 @@ msgid "XML data for the annotation"
 msgstr "Données XML pour l'annotation"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py:42
+#: common/lib/xmodule/xmodule/capa_base.py:96
+#: common/lib/xmodule/xmodule/conditional_module.py:30
+#: common/lib/xmodule/xmodule/html_module.py:41
 #: common/lib/xmodule/xmodule/html_module.py:332
+#: common/lib/xmodule/xmodule/html_module.py:367
 #: common/lib/xmodule/xmodule/imageannotation_module.py:48
 #: common/lib/xmodule/xmodule/library_content_module.py:63
+#: common/lib/xmodule/xmodule/library_root_xblock.py:28
+#: common/lib/xmodule/xmodule/poll_module.py:32
 #: common/lib/xmodule/xmodule/textannotation_module.py:37
+#: common/lib/xmodule/xmodule/video_module/video_xfields.py:17
 #: common/lib/xmodule/xmodule/videoannotation_module.py:37
-msgid "Display name for this module"
-msgstr "Afficher le nom de ce module"
+#: common/lib/xmodule/xmodule/word_cloud_module.py:41
+#: common/lib/xmodule/xmodule/x_module.py:265
+#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py:42
+msgid "The display name for this component."
+msgstr "Le nom d'affichage de ce composant"
 
 #: common/lib/xmodule/xmodule/annotatable_module.py:44
 msgid "Annotation"
 msgstr "Annotation"
 
-#: common/lib/xmodule/xmodule/capa_base.py:95
-#: common/lib/xmodule/xmodule/conditional_module.py:30
-#: common/lib/xmodule/xmodule/html_module.py:41
-#: common/lib/xmodule/xmodule/html_module.py:367
-msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr "Ce nom apparaît dans la navigation horizontale au haut de la page."
-
-#: common/lib/xmodule/xmodule/capa_base.py:99
+#: common/lib/xmodule/xmodule/capa_base.py:100
 msgid "Blank Advanced Problem"
 msgstr "Problème avancé vide"
 
-#: common/lib/xmodule/xmodule/capa_base.py:102
+#: common/lib/xmodule/xmodule/capa_base.py:103
 msgid "Number of attempts taken by the student on this problem"
 msgstr "Nombre de tentatives de l'étudiant sur ce problème"
 
-#: common/lib/xmodule/xmodule/capa_base.py:106
+#: common/lib/xmodule/xmodule/capa_base.py:107
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:135
 msgid "Maximum Attempts"
 msgstr "Nombre de tentatives maximum"
 
-#: common/lib/xmodule/xmodule/capa_base.py:107
+#: common/lib/xmodule/xmodule/capa_base.py:108
 msgid ""
 "Defines the number of times a student can try to answer this problem. If the"
 " value is not set, infinite attempts are allowed."
 msgstr "Définit le nombre de fois où un étudiant peut tenter de répondre à ce problème. Si cette valeur n'est pas définie, un nombre infini de tentatives est permis."
 
-#: common/lib/xmodule/xmodule/capa_base.py:111
+#: common/lib/xmodule/xmodule/capa_base.py:112
 msgid "Date that this problem is due by"
 msgstr "Date à laquelle ce problème doit être remis"
 
-#: common/lib/xmodule/xmodule/capa_base.py:113
+#: common/lib/xmodule/xmodule/capa_base.py:114
 msgid "Amount of time after the due date that submissions will be accepted"
 msgstr "Laps de temps après la date d'échéance où les soumissions seront acceptées"
 
-#: common/lib/xmodule/xmodule/capa_base.py:117
+#: common/lib/xmodule/xmodule/capa_base.py:118
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:92
 msgid "Show Answer"
 msgstr "Afficher la réponse"
 
-#: common/lib/xmodule/xmodule/capa_base.py:118
+#: common/lib/xmodule/xmodule/capa_base.py:119
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
 msgstr "Définit quand afficher la réponse au problème. Une valeur de défaut peut être définie dans les paramètres avancés."
 
-#: common/lib/xmodule/xmodule/capa_base.py:123
-#: common/lib/xmodule/xmodule/capa_base.py:155
+#: common/lib/xmodule/xmodule/capa_base.py:124
+#: common/lib/xmodule/xmodule/capa_base.py:156
 msgid "Always"
 msgstr "Toujours"
 
-#: common/lib/xmodule/xmodule/capa_base.py:124
+#: common/lib/xmodule/xmodule/capa_base.py:125
 msgid "Answered"
 msgstr "Répondu"
 
-#: common/lib/xmodule/xmodule/capa_base.py:125
+#: common/lib/xmodule/xmodule/capa_base.py:126
 msgid "Attempted"
 msgstr "Tenté"
 
-#: common/lib/xmodule/xmodule/capa_base.py:126
+#: common/lib/xmodule/xmodule/capa_base.py:127
 msgid "Closed"
 msgstr "Fermé"
 
-#: common/lib/xmodule/xmodule/capa_base.py:127
+#: common/lib/xmodule/xmodule/capa_base.py:128
 msgid "Finished"
 msgstr "Terminé"
 
-#: common/lib/xmodule/xmodule/capa_base.py:128
+#: common/lib/xmodule/xmodule/capa_base.py:129
 msgid "Correct or Past Due"
 msgstr "Correct ou en retard"
 
-#: common/lib/xmodule/xmodule/capa_base.py:129
+#: common/lib/xmodule/xmodule/capa_base.py:130
 msgid "Past Due"
 msgstr "En retard"
 
-#: common/lib/xmodule/xmodule/capa_base.py:130
-#: common/lib/xmodule/xmodule/capa_base.py:157
+#: common/lib/xmodule/xmodule/capa_base.py:131
+#: common/lib/xmodule/xmodule/capa_base.py:158
 msgid "Never"
 msgstr "Jamais"
 
-#: common/lib/xmodule/xmodule/capa_base.py:133
+#: common/lib/xmodule/xmodule/capa_base.py:134
 msgid "Whether to force the save button to appear on the page"
 msgstr "Forcer ou non le bouton sauvegarder à apparaître sur la page"
 
-#: common/lib/xmodule/xmodule/capa_base.py:140
+#: common/lib/xmodule/xmodule/capa_base.py:141
 msgid "Show Reset Button"
 msgstr "Afficher le bouton de réinitialisation"
 
-#: common/lib/xmodule/xmodule/capa_base.py:141
+#: common/lib/xmodule/xmodule/capa_base.py:142
 msgid ""
 "Determines whether a 'Reset' button is shown so the user may reset their "
 "answer. A default value can be set in Advanced Settings."
 msgstr "Détermine si le bouton 'Réinitialisation' est affiché à l'utilisateur pour qu'il puisse réinitialiser sa réponse. Une valeur de défaut peut être définie dans les paramètres avancés."
 
-#: common/lib/xmodule/xmodule/capa_base.py:147
+#: common/lib/xmodule/xmodule/capa_base.py:148
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:104
 msgid "Randomization"
 msgstr "Aléatoire"
 
-#: common/lib/xmodule/xmodule/capa_base.py:149
+#: common/lib/xmodule/xmodule/capa_base.py:150
 msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
 msgstr "Définit le moment de rendre aléatoire les variables spécifiées dans le script Python associé. Pour les problèmes qui n'utilisent pas de valeurs aléatoires, indiquer \"Jamais\". "
 
-#: common/lib/xmodule/xmodule/capa_base.py:156
+#: common/lib/xmodule/xmodule/capa_base.py:157
 msgid "On Reset"
 msgstr "Sur réinitialisation"
 
-#: common/lib/xmodule/xmodule/capa_base.py:158
+#: common/lib/xmodule/xmodule/capa_base.py:159
 msgid "Per Student"
 msgstr "Par étudiant"
 
-#: common/lib/xmodule/xmodule/capa_base.py:162
+#: common/lib/xmodule/xmodule/capa_base.py:163
 msgid "XML data for the problem"
 msgstr "données XML pour le problème"
 
-#: common/lib/xmodule/xmodule/capa_base.py:167
+#: common/lib/xmodule/xmodule/capa_base.py:168
 msgid "Dictionary with the correctness of current student answers"
 msgstr "Dictionaire avec l'exactitude des réponses de l'étudiant"
 
-#: common/lib/xmodule/xmodule/capa_base.py:169
+#: common/lib/xmodule/xmodule/capa_base.py:170
 msgid "Dictionary for maintaining the state of inputtypes"
 msgstr "Dictionnaire pour maintenir le statut de inputtypes"
 
-#: common/lib/xmodule/xmodule/capa_base.py:170
+#: common/lib/xmodule/xmodule/capa_base.py:171
 msgid "Dictionary with the current student responses"
 msgstr "Dictionnaire avec les réponses de l'étudiant"
 
-#: common/lib/xmodule/xmodule/capa_base.py:171
+#: common/lib/xmodule/xmodule/capa_base.py:172
 msgid "Whether or not the answers have been saved since last submit"
 msgstr "Si les réponses ont été enregistrées ou non depuis la dernière soumission"
 
-#: common/lib/xmodule/xmodule/capa_base.py:173
+#: common/lib/xmodule/xmodule/capa_base.py:174
 msgid "Whether the student has answered the problem"
 msgstr "Si l'étudiant a répondu au problème"
 
-#: common/lib/xmodule/xmodule/capa_base.py:174
+#: common/lib/xmodule/xmodule/capa_base.py:175
 msgid "Random seed for this student"
 msgstr "Suite aléatoire pour cet étudiant"
 
-#: common/lib/xmodule/xmodule/capa_base.py:175
+#: common/lib/xmodule/xmodule/capa_base.py:176
 msgid "Last submission time"
 msgstr "Dernière soumission"
 
-#: common/lib/xmodule/xmodule/capa_base.py:177
+#: common/lib/xmodule/xmodule/capa_base.py:178
 msgid "Timer Between Attempts"
 msgstr "Laps de temps entre les tentatives"
 
-#: common/lib/xmodule/xmodule/capa_base.py:178
+#: common/lib/xmodule/xmodule/capa_base.py:179
 msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr "Nombre de secondes que l'étudiant doit attendre entre chaque soumission pour un problème avec des tentatives multiples."
 
-#: common/lib/xmodule/xmodule/capa_base.py:182
+#: common/lib/xmodule/xmodule/capa_base.py:183
 msgid "Problem Weight"
 msgstr "Poids du problème"
 
-#: common/lib/xmodule/xmodule/capa_base.py:183
+#: common/lib/xmodule/xmodule/capa_base.py:184
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set,"
 " each response field in the problem is worth one point."
 msgstr "Définit le nombre de points que chaque problème vaut. Si la valeur n'est pas définie, chaque champ de réponse dans le problème vaut un point."
 
-#: common/lib/xmodule/xmodule/capa_base.py:188
+#: common/lib/xmodule/xmodule/capa_base.py:189
 msgid "Markdown source of this module"
 msgstr "Source markdown de ce module"
 
-#: common/lib/xmodule/xmodule/capa_base.py:190
+#: common/lib/xmodule/xmodule/capa_base.py:191
 msgid ""
 "Source code for LaTeX and Word problems. This feature is not well-supported."
 msgstr "Code source pour les problèmes LaTeX et Word. Cette fonctionnalité n'est pas bien pris en charge."
 
-#: common/lib/xmodule/xmodule/capa_base.py:194
+#: common/lib/xmodule/xmodule/capa_base.py:195
 #: common/lib/xmodule/xmodule/html_module.py:53
 msgid "Enable LaTeX templates?"
 msgstr "Activé les gabarits LaTeX?"
 
-#: common/lib/xmodule/xmodule/capa_base.py:199
+#: common/lib/xmodule/xmodule/capa_base.py:200
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:140
 msgid "Matlab API key"
 msgstr "Clé d'API Matlab"
 
-#: common/lib/xmodule/xmodule/capa_base.py:200
+#: common/lib/xmodule/xmodule/capa_base.py:201
 msgid ""
 "Enter the API key provided by MathWorks for accessing the MATLAB Hosted "
 "Service. This key is granted for exclusive use by this course for the "
@@ -1942,27 +1946,27 @@ msgid ""
 "contact moocsupport@mathworks.com"
 msgstr "Entrer la clé API fournie par MathWorks pour accéder au service hébergé de the MATLAB. Cette clé est permise pour une utilisation exclusive dans ce cours pour une durée spécifique. Ne partagez pas cette clé AI avec d'autres cours. Prévenez immédiatement MathWorks si vous croyez que la clé est compromise. Pour obtenir une clé pour votre cours ou pour signaler un problème, s'il vous plaît contacter moocsupport@mathworks.com"
 
-#: common/lib/xmodule/xmodule/capa_base.py:417
+#: common/lib/xmodule/xmodule/capa_base.py:418
 msgid "Submit"
 msgstr "Soumettre"
 
-#: common/lib/xmodule/xmodule/capa_base.py:430
+#: common/lib/xmodule/xmodule/capa_base.py:431
 msgid "Submitting"
 msgstr "Soumission"
 
-#: common/lib/xmodule/xmodule/capa_base.py:552
+#: common/lib/xmodule/xmodule/capa_base.py:553
 msgid "Warning: The problem has been reset to its initial state!"
 msgstr "Avertissement : ce problème a été réinitialisé à son statut initial!"
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
-#: common/lib/xmodule/xmodule/capa_base.py:556
+#: common/lib/xmodule/xmodule/capa_base.py:557
 msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr "Le statut du problème  a été corrumpu par une soumission invalide. La soumission était composée de : "
 
-#: common/lib/xmodule/xmodule/capa_base.py:563
+#: common/lib/xmodule/xmodule/capa_base.py:564
 msgid "If this error persists, please contact the course staff."
 msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
 
@@ -1971,7 +1975,7 @@ msgstr "Si cette erreur persiste, contacer l'équipe pédagogique du cours."
 #. is a header for this hint, and {hint_text} is the text of the hint itself.
 #. This string is being passed to translation only for possible reordering of
 #. the placeholders.
-#: common/lib/xmodule/xmodule/capa_base.py:613
+#: common/lib/xmodule/xmodule/capa_base.py:614
 msgid ""
 "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li>"
 msgstr "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li>"
@@ -1979,76 +1983,76 @@ msgstr "{previous_hints}<li><strong>{hint_number_prefix}</strong>{hint_text}</li
 #. Translators: e.g. "Hint 1 of 3: " meaning we are showing the first of three
 #. hints.
 #. This text is shown in bold before the accompanying hint text.
-#: common/lib/xmodule/xmodule/capa_base.py:617
+#: common/lib/xmodule/xmodule/capa_base.py:618
 msgid "Hint ({hint_num} of {hints_count}): "
 msgstr "Indice ({hint_num} de {hints_count}) : "
 
-#: common/lib/xmodule/xmodule/capa_base.py:687
+#: common/lib/xmodule/xmodule/capa_base.py:688
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
 msgstr "Vos réponses ont déjà été enregistrées. Cliquez sur '{button_name}' pour les noter."
 
-#: common/lib/xmodule/xmodule/capa_base.py:760
+#: common/lib/xmodule/xmodule/capa_base.py:761
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
 msgstr[0] "Incorrect ({progress} point)"
 msgstr[1] "Incorrect ({progress} points)"
 
-#: common/lib/xmodule/xmodule/capa_base.py:769
+#: common/lib/xmodule/xmodule/capa_base.py:770
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
 msgstr[0] "Correct ({progress} point)"
 msgstr[1] "Correct ({progress} points)"
 
-#: common/lib/xmodule/xmodule/capa_base.py:778
+#: common/lib/xmodule/xmodule/capa_base.py:779
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
 msgstr[0] "Partiellement correct ({progress} point)"
 msgstr[1] "Partiellement correct ({progress} points)"
 
-#: common/lib/xmodule/xmodule/capa_base.py:783
+#: common/lib/xmodule/xmodule/capa_base.py:784
 msgid "Partially Correct"
 msgstr "Partiellement correct"
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: common/lib/xmodule/xmodule/capa_base.py:1116
-#: common/lib/xmodule/xmodule/capa_base.py:1501
+#: common/lib/xmodule/xmodule/capa_base.py:1128
+#: common/lib/xmodule/xmodule/capa_base.py:1513
 msgid "Problem is closed."
 msgstr "Problème fermé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1124
+#: common/lib/xmodule/xmodule/capa_base.py:1136
 msgid "Problem must be reset before it can be submitted again."
 msgstr "Le problème doit être réinitialisé avant qu'il puisse être soumis de nouveau."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1133
+#: common/lib/xmodule/xmodule/capa_base.py:1145
 msgid "You must wait at least {wait} seconds between submissions."
 msgstr "Vous devez attendre au minimum {wait} secondes entre les soumissions."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1142
+#: common/lib/xmodule/xmodule/capa_base.py:1154
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
 msgstr "Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il reste  {remaining_secs} secondes."
 
 #. Translators: {msg} will be replaced with a problem's error message.
-#: common/lib/xmodule/xmodule/capa_base.py:1177
+#: common/lib/xmodule/xmodule/capa_base.py:1189
 msgid "Error: {msg}"
 msgstr "Erreur : {msg}"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1294
+#: common/lib/xmodule/xmodule/capa_base.py:1306
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
 msgstr[0] "{num_hour} heure"
 msgstr[1] "{num_hour} heures"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1299
+#: common/lib/xmodule/xmodule/capa_base.py:1311
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
 msgstr[0] "{num_minute} minute"
 msgstr[1] "{num_minute} minutes"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1305
+#: common/lib/xmodule/xmodule/capa_base.py:1317
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
 msgstr[0] "{num_second} seconde"
@@ -2056,23 +2060,23 @@ msgstr[1] "{num_second} secondes"
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
-#: common/lib/xmodule/xmodule/capa_base.py:1420
+#: common/lib/xmodule/xmodule/capa_base.py:1432
 msgid "Problem's definition does not support rescoring."
 msgstr "La définition du problème ne supporte pas une nouvelle notation."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1426
+#: common/lib/xmodule/xmodule/capa_base.py:1438
 msgid "Problem must be answered before it can be graded again."
 msgstr "Le problème doit être répondu avant d'être noté de nouveau."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1512
+#: common/lib/xmodule/xmodule/capa_base.py:1524
 msgid "Problem needs to be reset prior to save."
 msgstr "Le problème doit être réinitialisé avant d'être sauvegardé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1521
+#: common/lib/xmodule/xmodule/capa_base.py:1533
 msgid "Your answers have been saved."
 msgstr "Vos réponses ont été sauvegardées."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1524
+#: common/lib/xmodule/xmodule/capa_base.py:1536
 msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
 "them."
@@ -2080,11 +2084,11 @@ msgstr "Vos réponses ont été enregistrées, mais n’ont pas encore été not
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: common/lib/xmodule/xmodule/capa_base.py:1556
+#: common/lib/xmodule/xmodule/capa_base.py:1568
 msgid "You cannot select Reset for a problem that is closed."
 msgstr "Vous ne pouvez pas sélectionner Réinitialiser pour un problème fermé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1565
+#: common/lib/xmodule/xmodule/capa_base.py:1577
 msgid "You must submit an answer before you can select Reset."
 msgstr "Vous devez soumettre une réponse avant de pouvoir sélectionner Reset."
 
@@ -2142,7 +2146,7 @@ msgstr "La valeur à laquelle l'attribut conditionnel des composants source doit
 
 #: common/lib/xmodule/xmodule/conditional_module.py:67
 msgid "Blocked Content Message"
-msgstr ""
+msgstr "Contenu de message bloqué"
 
 #: common/lib/xmodule/xmodule/conditional_module.py:68
 msgid ""
@@ -2212,14 +2216,14 @@ msgstr "Le prix affiché aux étudiants pour l'inscription à ce cours. Si le pr
 
 #: common/lib/xmodule/xmodule/course_module.py:200
 msgid "Course Advertised Start"
-msgstr ""
+msgstr "Date annoncée de début de cours"
 
 #: common/lib/xmodule/xmodule/course_module.py:202
 msgid ""
 "Enter the text that you want to use as the advertised starting time frame "
 "for the course, such as \"Winter 2018\". If you enter null for this value, "
 "the start date that you have set for this course is used."
-msgstr ""
+msgstr "Entrez le texte que vous souhaitez utiliser en tant que date annoncée pour le début du cours, tel que \"Hiver 2018\". Si vous entrez null pour cette valeur, la date de début que vous avez définie pour ce cours sera utilisée."
 
 #: common/lib/xmodule/xmodule/course_module.py:209
 msgid "Pre-Requisite Courses"
@@ -3186,10 +3190,6 @@ msgstr "Bibliothèque non valide"
 msgid "No Library Selected"
 msgstr "Aucune bibliothèque choisie"
 
-#: common/lib/xmodule/xmodule/library_root_xblock.py:28
-msgid "Enter the name of the library as it should appear in Studio."
-msgstr "Entrer le nom de la bibliothèque tel qu'il devrait apparaitre dans Studio."
-
 #: common/lib/xmodule/xmodule/library_root_xblock.py:30
 msgid "Library Display Name"
 msgstr "Nom d'affichage de la bibliothèque"
@@ -3200,9 +3200,9 @@ msgstr "Entrer les noms des composants avancés à utiliser dans votre biblioth�
 
 #: common/lib/xmodule/xmodule/lti_module.py:112
 msgid ""
-"Enter the name that students see for this component.  Analytics reports may "
-"also use the display name to identify this component."
-msgstr "Entrer le nom que les étudiants voient pour ce composant. Les rapports d'analytiques pourraient aussi utiliser ce nom d'affichage pour identifier ce composant."
+"The display name for this component. Analytics reports may also use the "
+"display name to identify this component."
+msgstr "Le nom d'affichage de ce composant. Les rapports analytiques pourraient aussi utiliser ce nom d'affichage pour identifier ce composant."
 
 #: common/lib/xmodule/xmodule/lti_module.py:119
 msgid "LTI ID"
@@ -3550,6 +3550,26 @@ msgid ""
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr "Entrer vrai (true) ou faux (false). Si vrai, les soumissions de réponses aux modules des problèmes seront prises en compte dans l'algorithme de notation de l'examen d'entrée."
 
+#: common/lib/xmodule/xmodule/poll_module.py:37
+msgid "Whether this student has voted on the poll"
+msgstr "Si l'étudiant a voté dans le sondage"
+
+#: common/lib/xmodule/xmodule/poll_module.py:42
+msgid "Student answer"
+msgstr "Réponse de l'étudiant"
+
+#: common/lib/xmodule/xmodule/poll_module.py:47
+msgid "Poll answers from all students"
+msgstr "Les réponses aux sondages de tous les étudiants"
+
+#: common/lib/xmodule/xmodule/poll_module.py:53
+msgid "Poll answers from xml"
+msgstr "Réponses au sondage du xml"
+
+#: common/lib/xmodule/xmodule/poll_module.py:59
+msgid "Poll question"
+msgstr "Question du sondage"
+
 #: common/lib/xmodule/xmodule/seq_module.py:46
 msgid "Enter the date by which problems are due."
 msgstr "Entrer la date à laquelle les problèmes doivent être remis."
@@ -3622,21 +3642,21 @@ msgid ""
 "Practice exams are not verified."
 msgstr "Ce paramètre indique si cet examen est pour fins de test seulement. Les examens de pratique ne sont pas vérifiés."
 
-#: common/lib/xmodule/xmodule/seq_module.py:241
+#: common/lib/xmodule/xmodule/seq_module.py:240
 msgid "This exam is hidden from the learner."
 msgstr "Cet examen est caché de l'apprenant."
 
-#: common/lib/xmodule/xmodule/seq_module.py:251
-msgid "subsection"
-msgstr "sous-section"
-
-#: common/lib/xmodule/xmodule/seq_module.py:256
+#: common/lib/xmodule/xmodule/seq_module.py:252
 msgid ""
-"Because the due date has passed, this {subsection_format} is hidden from the"
-" learner."
-msgstr "Parce que la date d'échéance est passée, cette {subsection_format} est cachée pour l'apprenant."
+"Because the course has ended, this assignment is hidden from the learner."
+msgstr "Puisque le cours est terminé, le devoir est caché pour l'apprenant"
 
-#: common/lib/xmodule/xmodule/seq_module.py:280
+#: common/lib/xmodule/xmodule/seq_module.py:254
+msgid ""
+"Because the due date has passed, this assignment is hidden from the learner."
+msgstr "Puisque la date d'échéance est passée, ce devoir est caché pour l'apprenant."
+
+#: common/lib/xmodule/xmodule/seq_module.py:276
 msgid ""
 "This subsection is unlocked for learners when they meet the prerequisite "
 "requirements."
@@ -3651,10 +3671,8 @@ msgid "Not Selected"
 msgstr "Non sélectionné"
 
 #: common/lib/xmodule/xmodule/split_test_module.py:61
-msgid ""
-"This name is used for organizing your course content, but is not shown to "
-"students."
-msgstr "Ce nom est utilisé afin d'organiser votre contenu de cours, mais il n'est pas montré aux étudiants."
+msgid "The display name for this component. (Not shown to learners)"
+msgstr "Le nom d'affichage de ce composant. (Masqué aux apprenants)"
 
 #: common/lib/xmodule/xmodule/split_test_module.py:63
 msgid "Content Experiment"
@@ -3778,7 +3796,7 @@ msgstr "Quelque chose s'est mal passé avec les transcriptions SubRip pendant l'
 msgid "Something wrong with SubRip transcripts file during parsing."
 msgstr "Quelque chose s'est mal passé avec les transcriptions SubRip pendant l'analyse."
 
-#: common/lib/xmodule/xmodule/video_module/transcripts_utils.py:425
+#: common/lib/xmodule/xmodule/video_module/transcripts_utils.py:423
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
 msgstr "{exception_message} : Impossible de téléverser les transcriptions : {user_filename}"
 
@@ -3806,12 +3824,6 @@ msgstr "Le URL pour votre vidéo. Cela peut être un URL YouTube ou un lien vers
 #: common/lib/xmodule/xmodule/video_module/video_module.py:692
 msgid "Default Video URL"
 msgstr "URL de défaut du vidéo"
-
-#: common/lib/xmodule/xmodule/video_module/video_xfields.py:17
-msgid ""
-"The name students see. This name appears in the course ribbon and as a "
-"header for the video."
-msgstr "Le nom que les étudiants voient. Ce nom apparait dans le ruban de cours et comme une entiete pour le vidéo."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py:18
 msgid "Component Display Name"
@@ -4057,10 +4069,6 @@ msgstr "URL de l'image du poster"
 msgid "Poster URL"
 msgstr "URL du poster"
 
-#: common/lib/xmodule/xmodule/word_cloud_module.py:41
-msgid "The label for this word cloud on the course page."
-msgstr "L'étiquette de ce nuage de mots-clés sur la page de cours."
-
 #: common/lib/xmodule/xmodule/word_cloud_module.py:46
 msgid "Instructions"
 msgstr "Instructions"
@@ -4199,7 +4207,7 @@ msgstr "Propulsé par Open edX"
 
 #: lms/djangoapps/branding/api.py:177
 msgid "{platform_name} for Business"
-msgstr ""
+msgstr "{platform_name} pour affaires"
 
 #: lms/djangoapps/branding/api.py:178
 msgid "Blog"
@@ -4708,14 +4716,14 @@ msgstr "Chemin vers la page de cours hébergé par le service de commerce élect
 
 #: lms/djangoapps/commerce/models.py:31
 #: openedx/core/djangoapps/catalog/models.py:21
-#: openedx/core/djangoapps/credentials/models.py:43
+#: openedx/core/djangoapps/credentials/models.py:45
 #: openedx/core/djangoapps/credit/models.py:722
 #: openedx/core/djangoapps/programs/models.py:52
 msgid "Cache Time To Live"
 msgstr "Time To Live de la Cache"
 
 #: lms/djangoapps/commerce/models.py:34
-#: openedx/core/djangoapps/credentials/models.py:46
+#: openedx/core/djangoapps/credentials/models.py:48
 #: openedx/core/djangoapps/credit/models.py:725
 #: openedx/core/djangoapps/programs/models.py:55
 msgid ""
@@ -4727,13 +4735,17 @@ msgstr "Indiqués en secondes. Active la mise en cache en réglant à une valeur
 msgid "Path to order receipt page."
 msgstr "Chemin vers la page de reçu de la commande"
 
-#: lms/djangoapps/commerce/signals.py:198
+#: lms/djangoapps/commerce/models.py:44
+msgid "Automatically approve valid refund requests, without manual processing"
+msgstr "Approuver automatiquement les demandes de remboursement valides, sans traitement manuel"
+
+#: lms/djangoapps/commerce/signals.py:197
 msgid ""
 "A refund request has been initiated for {username} ({email}). To process "
 "this request, please visit the link(s) below."
 msgstr "Une demande de remboursement a été initiée pour {username} ({email}). Afin de traiter cette demande, svp visiter le ou les liens ci-dessous."
 
-#: lms/djangoapps/commerce/signals.py:221
+#: lms/djangoapps/commerce/signals.py:220
 #: lms/djangoapps/shoppingcart/models.py:1911
 msgid "[Refund] User-Requested Refund"
 msgstr "[Remboursement] Remboursement demandé par l'utilisateur"
@@ -5422,6 +5434,12 @@ msgid ""
 "e.g. https://courses.edx.org."
 msgstr "Schème facultatif pour le url lms + hôte utilisé pour construire les urls pour la bibliothèque de contenu, par exemple https://courses.edx.org."
 
+#: lms/djangoapps/email_marketing/models.py:136
+msgid ""
+"Number of seconds to delay the sending of User Welcome email after user has "
+"been activated"
+msgstr "Nombre de secondes pour retarder l'envoi du courriel de bienvenue après l'activation de l'utilisateur"
+
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:33
 msgid "{platform_name} Staff"
 msgstr "Équipe pédagogique {platform_name}"
@@ -5586,7 +5604,7 @@ msgstr "ID utilisateur"
 #. Translators: This label appears above a field on the password reset
 #. form meant to hold the user's email address.
 #: lms/djangoapps/instructor/views/api.py:1226
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:639
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:644
 #: openedx/core/djangoapps/user_api/views.py:72
 #: openedx/core/djangoapps/user_api/views.py:372
 #: openedx/core/djangoapps/user_api/views.py:919
@@ -6064,60 +6082,60 @@ msgstr "Pour mieux comprendre les inscriptions et la participation des étudiant
 msgid "E-Commerce"
 msgstr "Commerce électronique"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:299
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:300
 msgid "Special Exams"
 msgstr "Examens spéciaux"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:347
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:348
 #: lms/djangoapps/support/views/index.py:14
 msgid "Certificates"
 msgstr "Attestations"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:396
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:397
 msgid "Please Enter the numeric value for the course price"
 msgstr "S'il vous plaît entrez une valeur numérique comme prix du cours"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:405
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:406
 msgid "CourseMode with the mode slug({mode_slug}) DoesNotExist"
 msgstr "CourseMode avec le slug mode ({mode_slug}) n'existe pas"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:417
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:418
 msgid "CourseMode price updated successfully"
 msgstr "Prix du CourseMode mis à jour avec succès"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:426
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:427
 msgid "Course Info"
 msgstr "Infos du cours"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:445
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:446
 msgid "Enrollment data is now available in {dashboard_link}."
 msgstr "Les données d'inscription sont maintenant disponibles au lien {dashboard_link}."
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:472
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:473
 msgid "Membership"
 msgstr "Inscription"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:494
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:495
 msgid "Cohorts"
 msgstr "Cohortes"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:528
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:529
 msgid "Student Admin"
 msgstr "Admin Étudiant"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:556
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:557
 msgid "Extensions"
 msgstr "Extensions"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:578
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:579
 msgid "Data Download"
 msgstr "Téléchargement des données"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:671
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:677
 msgid "Analytics"
 msgstr "Analytiques"
 
-#: lms/djangoapps/instructor/views/instructor_dashboard.py:683
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:689
 msgid "Metrics"
 msgstr "Métriques"
 
@@ -7711,89 +7729,89 @@ msgstr "Photos de vérification reçues"
 
 #. Translators: This is the website name of www.facebook.com.  Please
 #. translate this the way that Facebook advertises in your language.
-#: lms/envs/common.py:2259
+#: lms/envs/common.py:2274
 msgid "Facebook"
 msgstr "Facebook"
 
-#: lms/envs/common.py:2261
+#: lms/envs/common.py:2276
 msgid "Like {platform_name} on Facebook"
 msgstr "Like {platform_name} sur Facebook"
 
 #. Translators: This is the website name of www.twitter.com.  Please
 #. translate this the way that Twitter advertises in your language.
-#: lms/envs/common.py:2266
+#: lms/envs/common.py:2281
 msgid "Twitter"
 msgstr "Twitter"
 
-#: lms/envs/common.py:2268
+#: lms/envs/common.py:2283
 msgid "Follow {platform_name} on Twitter"
 msgstr "Suivre {platform_name} sur Twitter"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
-#: lms/envs/common.py:2273
+#: lms/envs/common.py:2288
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: lms/envs/common.py:2275
+#: lms/envs/common.py:2290
 msgid "Follow {platform_name} on LinkedIn"
 msgstr "Suivre {platform_name} sur LinkedIn"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
-#: lms/envs/common.py:2280
+#: lms/envs/common.py:2295
 msgid "Google+"
 msgstr "Google+"
 
-#: lms/envs/common.py:2282
+#: lms/envs/common.py:2297
 msgid "Follow {platform_name} on Google+"
 msgstr "Suivre {platform_name} sur Google+"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
-#: lms/envs/common.py:2287
+#: lms/envs/common.py:2302
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #. Translators: This is the website name of www.meetup.com.  Please
 #. translate this the way that MeetUp advertises in your language.
-#: lms/envs/common.py:2293
+#: lms/envs/common.py:2308
 msgid "Meetup"
 msgstr "Meetup"
 
 #. Translators: This is the website name of www.reddit.com.  Please
 #. translate this the way that Reddit advertises in your language.
-#: lms/envs/common.py:2299
+#: lms/envs/common.py:2314
 msgid "Reddit"
 msgstr "Reddit"
 
-#: lms/envs/common.py:2301
+#: lms/envs/common.py:2316
 msgid "Subscribe to the {platform_name} subreddit"
 msgstr "S'inscrire au subreddit {platform_name}"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
-#: lms/envs/common.py:2306
+#: lms/envs/common.py:2321
 msgid "VK"
 msgstr "VK"
 
 #. Translators: This is the website name of http://www.weibo.com.  Please
 #. translate this the way that Weibo advertises in your language.
-#: lms/envs/common.py:2312
+#: lms/envs/common.py:2327
 msgid "Weibo"
 msgstr "Weibo"
 
 #. Translators: This is the website name of www.youtube.com.  Please
 #. translate this the way that YouTube advertises in your language.
-#: lms/envs/common.py:2318
+#: lms/envs/common.py:2333
 msgid "Youtube"
 msgstr "Youtube"
 
-#: lms/envs/common.py:2320
+#: lms/envs/common.py:2335
 msgid "Subscribe to the {platform_name} YouTube channel"
 msgstr "S'inscrire au canal YouTube de {platform_name}"
 
-#: lms/envs/common.py:2712
+#: lms/envs/common.py:2727
 msgid "Kosovo"
 msgstr "Kosovo"
 
@@ -7832,7 +7850,7 @@ msgid ""
 "Please click the 'Allow' button to grant these permissions to the above "
 "application. Otherwise, to withhold these permissions, please click the "
 "'Cancel' button."
-msgstr ""
+msgstr "S'il vous plaît, cliquez sur le bouton 'Permettre' afin d'accorder ces autorisations à l'application ci-dessus. Sinon, pour refuser ces autorisations, cliquez sur le bouton 'Annuler'."
 
 #: lms/templates/oauth2_provider/authorize.html:38
 msgid "Cancel"
@@ -7939,7 +7957,7 @@ msgstr "Vous allez supprimer un article. Veuillez confirmer."
 msgid "Edit"
 msgstr "Éditer"
 
-#: lms/templates/wiki/edit.html:29 lms/templates/wiki/edit.html.py:61
+#: lms/templates/wiki/edit.html:29 lms/templates/wiki/edit.html.py:62
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
@@ -7963,7 +7981,7 @@ msgstr "Aperçu du wiki"
 msgid "window open"
 msgstr "fenêtre ouverte"
 
-#: lms/templates/wiki/edit.html:66
+#: lms/templates/wiki/edit.html:67
 msgid "Back to editor"
 msgstr "Retour à l'éditeur"
 
@@ -8381,7 +8399,7 @@ msgstr "Indiqué en secondes. Active la mise en cache des réponses API en régl
 msgid ""
 "Username created for Course Catalog Integration, e.g. "
 "lms_catalog_service_user."
-msgstr ""
+msgstr "Nom d'utilisateur créé pour l'intégration au catalogue de cours, ex: lms_catalog_service_user."
 
 #: openedx/core/djangoapps/cors_csrf/models.py:16
 msgid ""
@@ -8389,15 +8407,15 @@ msgid ""
 "  Please list each domain on its own line."
 msgstr "Liste des domaines qui sont autorisés à faire des demandes inter-domaines sur ce site. S'il vous plaît énumérer chaque domaine sur sa propre ligne."
 
-#: openedx/core/djangoapps/course_groups/cohorts.py:89
+#: openedx/core/djangoapps/course_groups/cohorts.py:90
 msgid "Default Group"
 msgstr "Groupe par défaut"
 
-#: openedx/core/djangoapps/course_groups/cohorts.py:317
+#: openedx/core/djangoapps/course_groups/cohorts.py:329
 msgid "You cannot create two cohorts with the same name"
 msgstr "Vous ne pouvez créer deux cohortes avec le même nom"
 
-#: openedx/core/djangoapps/course_groups/cohorts.py:434
+#: openedx/core/djangoapps/course_groups/cohorts.py:446
 msgid ""
 "There must be one cohort to which students can automatically be assigned."
 msgstr "Il doit exister une cohorte à laquelle les étudiants peuvent être automatiquement assignés."
@@ -8413,29 +8431,29 @@ msgid ""
 "platform is http://edx.org, the platform key is \"edx\"."
 msgstr "La clé de plateforme associe les widgets CourseTalk avec votre plateforme. Généralement, il s'agit du nom de domaine de votre plateforme. Par exemple, si votre plateforme est http:/edulib.org, la clé de plateforme est \"edulib\"."
 
-#: openedx/core/djangoapps/credentials/models.py:25
+#: openedx/core/djangoapps/credentials/models.py:27
 #: openedx/core/djangoapps/programs/models.py:22
 msgid "Internal Service URL"
 msgstr "URL du service interne"
 
-#: openedx/core/djangoapps/credentials/models.py:26
+#: openedx/core/djangoapps/credentials/models.py:28
 #: openedx/core/djangoapps/programs/models.py:23
 msgid "Public Service URL"
 msgstr "URL du service public"
 
-#: openedx/core/djangoapps/credentials/models.py:29
+#: openedx/core/djangoapps/credentials/models.py:31
 msgid "Enable Learner Issuance"
 msgstr "Activer la délivrance d'apprenant"
 
-#: openedx/core/djangoapps/credentials/models.py:32
+#: openedx/core/djangoapps/credentials/models.py:34
 msgid "Enable issuance of credentials via Credential Service."
 msgstr "Activer la délivrance des crédentiels via le service de crédentiels."
 
-#: openedx/core/djangoapps/credentials/models.py:36
+#: openedx/core/djangoapps/credentials/models.py:38
 msgid "Enable Authoring of Credential in Studio"
 msgstr "Activer la création de crédentiels dans Studio"
 
-#: openedx/core/djangoapps/credentials/models.py:39
+#: openedx/core/djangoapps/credentials/models.py:41
 msgid "Enable authoring of Credential Service credentials in Studio."
 msgstr "Activer la création de crédentiels dans Studio."
 
@@ -8756,7 +8774,7 @@ msgstr "La valeur '{preference_value}' n'est pas une sélection de fuseau horair
 msgid "Save failed for user preference '{key}' with value '{value}'."
 msgstr "Échec de la sauvegarde de la préférence de l'utilisateur '{key}' avec la valeur '{value}'."
 
-#: openedx/core/djangoapps/user_api/preferences/views.py:111
+#: openedx/core/djangoapps/user_api/preferences/views.py:110
 msgid "No data provided for user preference update"
 msgstr "Aucune données fournies pour la mise à jour des préférences de l'utilisateur"
 
@@ -8943,10 +8961,6 @@ msgstr "%(min_score)s n'est pas un pourcentage de notation valide"
 #: openedx/core/lib/gating/api.py:175
 msgid "Gating milestone for {usage_key}"
 msgstr "Jalon de contrôle pour {usage_key}"
-
-#: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py:42
-msgid "Display name for this component"
-msgstr "Afficher le nom pour ce composant"
 
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion.py:47
 msgid "Category"
