@@ -2221,7 +2221,6 @@ def password_reset(request):
     })
 
 
-
 def uidb36_to_uidb64(uidb36):
     """
     Needed to support old password reset URLs that use base36-encoded user IDs
@@ -2290,6 +2289,7 @@ def validate_password(user, password):
 
     return is_password_valid, err_msg
 
+
 def password_reset_confirm_wrapper(request, uidb36=None, token=None):
     """
     A wrapper around django.contrib.auth.views.password_reset_confirm.
@@ -2329,24 +2329,12 @@ def password_reset_confirm_wrapper(request, uidb36=None, token=None):
                 request, 'registration/password_reset_confirm.html', context
             )
 
-        is_password_valid, password_err_msg = validate_password(user, password)
-        if not is_password_valid:
-            # We have a password reset attempt which violates some security
-            # policy. Use the existing Django template to communicate that
-            # back to the user.
-            context = {
-                'validlink': False,
-                'form': None,
-                'title': _('Password reset unsuccessful'),
-                'err_msg': password_err_msg,
-            }
-            context.update(platform_name)
-            return TemplateResponse(
-                request, 'registration/password_reset_confirm.html', context
-            )
-
         # remember what the old password hash is before we call down
         old_password_hash = user.password
+
+        response = password_reset_confirm(
+            request, uidb64=uidb64, token=token, extra_context=platform_name
+        )
 
         # If password reset was unsuccessful a template response is returned (status_code 200).
         # Check if form is invalid then show an error to the user.
@@ -2357,14 +2345,6 @@ def password_reset_confirm_wrapper(request, uidb36=None, token=None):
 
         # get the updated user
         updated_user = User.objects.get(id=uid_int)
-
-        # get the updated user
-        updated_user = User.objects.get(id=uid_int)
-
-        # did the password hash change, if so record it in the PasswordHistory
-        if updated_user.password != old_password_hash:
-            entry = PasswordHistory()
-            entry.create(updated_user)
 
         # did the password hash change, if so record it in the PasswordHistory
         if updated_user.password != old_password_hash:
