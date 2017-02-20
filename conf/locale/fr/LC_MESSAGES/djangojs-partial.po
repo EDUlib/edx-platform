@@ -31,7 +31,7 @@
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2017
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Régis Behmo <transifex.stuff@behmo.com>, 2016
@@ -55,9 +55,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:03+0000\n"
-"PO-Revision-Date: 2017-01-20 18:35+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-03 18:49+0000\n"
+"PO-Revision-Date: 2017-02-14 17:55+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,7 +69,7 @@ msgstr ""
 #: cms/static/js/certificates/views/signatory_details.js:70
 #: cms/static/js/models/section.js:27 cms/static/js/utils/drag_and_drop.js:296
 #: cms/static/js/views/asset.js:82 cms/static/js/views/container.js:42
-#: cms/static/js/views/course_info_handout.js:58
+#: cms/static/js/views/course_info_handout.js:62
 #: cms/static/js/views/course_info_update.js:172
 #: cms/static/js/views/edit_textbook.js:63
 #: cms/static/js/views/list_item_editor.js:38
@@ -94,9 +94,7 @@ msgstr "Supprimer"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/certificates/views/signatory_editor.js:162
-#: cms/static/js/factories/export.js:50
-#: cms/static/js/programs/views/program_details_view.js:145
-#: cms/static/js/views/asset.js:70
+#: cms/static/js/factories/export.js:50 cms/static/js/views/asset.js:70
 #: cms/static/js/views/course_info_update.js:271
 #: cms/static/js/views/manage_users_and_roles.js:32
 #: cms/static/js/views/modals/base_modal.js:118
@@ -176,7 +174,7 @@ msgstr "Sauvegarder"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: cms/static/js/views/modals/course_outline_modals.js:850
+#: cms/static/js/views/modals/course_outline_modals.js:853
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:114
 msgid "Advanced"
 msgstr "Avancé"
@@ -197,10 +195,10 @@ msgstr "Vos modifications ont été sauvegardées."
 #. error,
 #. e.g. "Error: required field is missing".
 #: cms/static/js/views/xblock_validation.js:54
-#: common/static/common/js/discussion/utils.js:187
-#: common/static/common/js/discussion/utils.js:224
-#: common/static/common/js/discussion/views/discussion_inline_view.js:187
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:317
+#: common/static/common/js/discussion/utils.js:188
+#: common/static/common/js/discussion/utils.js:225
+#: common/static/common/js/discussion/views/discussion_inline_view.js:190
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:320
 #: common/static/common/js/discussion/views/discussion_thread_view.js:254
 #: common/static/common/js/discussion/views/discussion_thread_view.js:259
 #: common/static/common/js/discussion/views/discussion_thread_view.js:264
@@ -264,7 +262,7 @@ msgstr "Répondre à l'annotation"
 
 #. Translators: %(num_points)s is the number of points possible (examples: 1,
 #. 3, 10).;
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:226
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:223
 msgid "%(num_points)s point possible (graded)"
 msgid_plural "%(num_points)s points possible (graded)"
 msgstr[0] "%(num_points)s point possible (noté)"
@@ -272,7 +270,7 @@ msgstr[1] "%(num_points)s points possibles (noté)"
 
 #. Translators: %(num_points)s is the number of points possible (examples: 1,
 #. 3, 10).;
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:232
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:229
 msgid "%(num_points)s point possible (ungraded)"
 msgid_plural "%(num_points)s points possible (ungraded)"
 msgstr[0] "%(num_points)s point possible (pas noté)"
@@ -282,7 +280,7 @@ msgstr[1] "%(num_points)s points possibles (pas noté)"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:243
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:240
 msgid "%(earned)s/%(possible)s point (graded)"
 msgid_plural "%(earned)s/%(possible)s points (graded)"
 msgstr[0] "%(earned)s/%(possible)s point (noté)"
@@ -292,60 +290,60 @@ msgstr[1] "%(earned)s/%(possible)s points (noté)"
 #. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
 #. points will always be at least 1. We pluralize based on the total number of
 #. points (example: 0/1 point; 1/2 points);
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:250
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:247
 msgid "%(earned)s/%(possible)s point (ungraded)"
 msgid_plural "%(earned)s/%(possible)s points (ungraded)"
 msgstr[0] "%(earned)s/%(possible)s point (pas noté)"
 msgstr[1] "%(earned)s/%(possible)s points (pas noté)"
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:321
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:318
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr "Le processus de note est toujours en cours. Rafraississez la page pour voir les mises-à-jour."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:428
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:425
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "Impossible de noter votre réponse. La soumission a été interrompue."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:492
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:489
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
 "file uploads."
 msgstr "Soumission interrompue! Désolé, votre navigateur ne prend pas en charge les téléversements de fichiers. Si possible, veuillez utiliser Chrome ou Safari qui ont été vérifiés comme pouvant prendre en charge les téléversements de fichiers."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:518
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:515
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Vous avez soumis {filename}; seuls les fichiers {allowedFiles} sont permis."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:531
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:528
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "Votre fichier {filename} est trop lourd (taille maximale: {maxSize} Mo)."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:546
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:543
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Vous n'avez pas soumis les fichiers requis: {requiredFiles}."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:556
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:553
 msgid "You did not select any files to submit."
 msgstr "Vous n'avez sélectionné aucun fichier à soumettre."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:637
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:634
 msgid "{label}: {status}"
 msgstr "{label} : {status}"
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:668
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:665
 msgid "This problem has been reset."
 msgstr "Ce problème a été réinitialisé."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:742
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:730
 msgid ""
 "Answers to this problem are now shown. Navigate through the problem to "
 "review it with answers inline."
 msgstr "Les réponses à ce problème sont maintenant affichées. Parcourez le problème pour le réviser avec des réponses intégrées."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:971
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:959
 msgid "unsubmitted"
 msgstr "non soumis"
 
@@ -451,7 +449,7 @@ msgstr "Couleur du fond"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:164
-#: lms/static/js/Markdown.Editor.js:1860
+#: lms/static/js/Markdown.Editor.js:1868
 msgid "Blockquote"
 msgstr "Citation"
 
@@ -1596,13 +1594,13 @@ msgstr "Si vous utilisez l'éditeur avancé, ce problème sera converti en XML e
 msgid "Explanation"
 msgstr "Explication"
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:245
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:314
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr "Erreur de séquence! Impossible de se rendre à %(tab_name)s dans le module SequenceModule en cours. Veuillez contacter les responsables du cours."
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:316
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:404
 #: lms/static/js/bookmarks/views/bookmark_button.js:11
 msgid "Bookmarked"
 msgstr "Ajouté aux favoris"
@@ -1858,24 +1856,24 @@ msgstr "Affiche {firstIndex} sur {numItems} au total"
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
 msgstr "Affiche {firstIndex}-{lastIndex} sur {numItems} au total"
 
-#: common/static/common/js/discussion/utils.js:131
+#: common/static/common/js/discussion/utils.js:132
 msgid "Loading content"
 msgstr "Chargement du contenu"
 
-#: common/static/common/js/discussion/utils.js:188
+#: common/static/common/js/discussion/utils.js:189
 msgid "Your request could not be processed. Refresh the page and try again."
 msgstr "Votre demande n'a pas pu être traitée. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/utils.js:458
-#: common/static/common/js/discussion/utils.js:482
+#: common/static/common/js/discussion/utils.js:459
+#: common/static/common/js/discussion/utils.js:483
 msgid "…"
 msgstr "…"
 
-#: common/static/common/js/discussion/utils.js:495
+#: common/static/common/js/discussion/utils.js:496
 msgid "Some images in this post have been omitted"
 msgstr "Quelques images dans ce message ont été omises"
 
-#: common/static/common/js/discussion/utils.js:501
+#: common/static/common/js/discussion/utils.js:502
 msgid "image omitted"
 msgstr "image omise"
 
@@ -1954,16 +1952,16 @@ msgstr "Ce message n'a pas pu être verrouillé. Rechargez la page pour réessay
 msgid "This post could not be reopened. Refresh the page and try again."
 msgstr "Ce message n'a pas pu être déverrouillé. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/views/discussion_inline_view.js:179
-#: common/static/common/js/discussion/views/discussion_inline_view.js:216
+#: common/static/common/js/discussion/views/discussion_inline_view.js:182
+#: common/static/common/js/discussion/views/discussion_inline_view.js:220
 msgid "Hide Discussion"
 msgstr "Masquer la discussion"
 
-#: common/static/common/js/discussion/views/discussion_inline_view.js:188
+#: common/static/common/js/discussion/views/discussion_inline_view.js:191
 msgid "This discussion could not be loaded. Refresh the page and try again."
 msgstr "Cette discussion n'a pas pu être chargée. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/views/discussion_inline_view.js:198
+#: common/static/common/js/discussion/views/discussion_inline_view.js:202
 msgid "Show Discussion"
 msgstr "Afficher la discussion"
 
@@ -1971,27 +1969,27 @@ msgstr "Afficher la discussion"
 msgid "Loading more threads"
 msgstr "Chargement de plus de messages"
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:318
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:321
 msgid "Additional posts could not be loaded. Refresh the page and try again."
 msgstr "Les messages supplémentaires n'ont pas pu être chargés. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:373
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:382
 msgid "Current conversation"
 msgstr "Discussion actuelle"
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:489
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:498
 msgid "Loading posts list"
 msgstr "Chargement de la liste des messages"
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:507
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:516
 msgid "No results found for {original_query}. "
 msgstr "Aucun résultat trouvé pour {original_query}."
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:526
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:535
 msgid "No posts matched your query."
 msgstr "Aucun message ne correspond à votre requête."
 
-#: common/static/common/js/discussion/views/discussion_thread_list_view.js:561
+#: common/static/common/js/discussion/views/discussion_thread_list_view.js:570
 msgid "Show posts by {username}."
 msgstr "Afficher les messages par {username}."
 
@@ -2014,31 +2012,31 @@ msgid_plural "{numResponses} other responses"
 msgstr[0] "{numResponses} autre réponse"
 msgstr[1] "{numResponses} autres réponses"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:285
+#: common/static/common/js/discussion/views/discussion_thread_view.js:288
 msgid "{numResponses} response"
 msgid_plural "{numResponses} responses"
 msgstr[0] "{numResponses} réponse"
 msgstr[1] "{numResponses} réponses"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:296
+#: common/static/common/js/discussion/views/discussion_thread_view.js:300
 msgid "Showing all responses"
 msgstr "Afficher toutes les réponses"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:301
+#: common/static/common/js/discussion/views/discussion_thread_view.js:305
 msgid "Showing first response"
 msgid_plural "Showing first {numResponses} responses"
 msgstr[0] "Affichage de la première réponse"
 msgstr[1] "Affichage des premières {numResponses} réponses"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:314
+#: common/static/common/js/discussion/views/discussion_thread_view.js:318
 msgid "Load all responses"
 msgstr "Afficher toutes les réponses"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:317
+#: common/static/common/js/discussion/views/discussion_thread_view.js:321
 msgid "Load next {numResponses} responses"
 msgstr "Télécharger les {numResponses} réponses suivantes"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:467
+#: common/static/common/js/discussion/views/discussion_thread_view.js:473
 msgid "Are you sure you want to delete this post?"
 msgstr "Voulez-vous vraiment supprimer ce message ?"
 
@@ -2934,49 +2932,49 @@ msgid ""
 msgstr "Les utilisateurs suivants n'étant pas inscrits au cours, ils n’ont pas pu être désinscrits : "
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:72
-#: lms/static/js/instructor_dashboard/send_email.js:66
+#: lms/static/js/instructor_dashboard/send_email.js:67
 msgid "Your message must have a subject."
 msgstr "Votre message doit contenir un sujet."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:74
-#: lms/static/js/instructor_dashboard/send_email.js:68
+#: lms/static/js/instructor_dashboard/send_email.js:69
 msgid "Your message cannot be blank."
 msgstr "Votre message ne peut pas être vide."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:76
-#: lms/static/js/instructor_dashboard/send_email.js:71
+#: lms/static/js/instructor_dashboard/send_email.js:72
 msgid "Your message must have at least one target."
 msgstr "Votre message doit avoir au moins un destinataire."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:80
-#: lms/static/js/instructor_dashboard/send_email.js:76
+#: lms/static/js/instructor_dashboard/send_email.js:77
 msgid ""
 "There are invalid keywords in your email. Check the following keywords and "
 "try again."
 msgstr "Il y a des mots-clés invalides dans votre courriel. Vérifiez les mots-clés suivants et essayez à nouveau."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:87
-#: lms/static/js/instructor_dashboard/send_email.js:83
+#: lms/static/js/instructor_dashboard/send_email.js:84
 msgid "Yourself"
 msgstr "Vous-même"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:89
-#: lms/static/js/instructor_dashboard/send_email.js:85
+#: lms/static/js/instructor_dashboard/send_email.js:86
 msgid "Everyone who has staff privileges in this course"
 msgstr "Quiconque a les droits d'enseignant dans ce cours"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:91
-#: lms/static/js/instructor_dashboard/send_email.js:87
+#: lms/static/js/instructor_dashboard/send_email.js:88
 msgid "All learners who are enrolled in this course"
 msgstr "Tous les apprenants qui sont inscrits dans ce cours"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:93
-#: lms/static/js/instructor_dashboard/send_email.js:89
+#: lms/static/js/instructor_dashboard/send_email.js:90
 msgid "All learners in the {cohort_name} cohort"
 msgstr "Tous les apprenants dans la cohorte {cohort_name}"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:96
-#: lms/static/js/instructor_dashboard/send_email.js:93
+#: lms/static/js/instructor_dashboard/send_email.js:97
 msgid ""
 "Your email message was successfully queued for sending. In courses with a "
 "large number of learners, email messages to learners might take up to an "
@@ -2984,41 +2982,41 @@ msgid ""
 msgstr "votre message a été placé dans la queue d'envoi avec succès. Dans les cours avec un grand nombre d'apprenants, les messages courriels destinés aux apprenants peuvent prendre jusqu'à une heure pour être envoyés."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:97
-#: lms/static/js/instructor_dashboard/send_email.js:95
+#: lms/static/js/instructor_dashboard/send_email.js:99
 msgid ""
 "You are sending an email message with the subject {subject} to the following"
 " recipients."
 msgstr "Vous envoyez un message courriel avec le sujet {subject} aux destinaires suivants."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:102
-#: lms/static/js/instructor_dashboard/send_email.js:100
+#: lms/static/js/instructor_dashboard/send_email.js:104
 msgid "Is this OK?"
 msgstr "Est-ce correct ?"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:120
-#: lms/static/js/instructor_dashboard/send_email.js:118
+#: lms/static/js/instructor_dashboard/send_email.js:122
 msgid "Error sending email."
 msgstr "Erreur lors de l’envoi du courriel."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:140
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:163
-#: lms/static/js/instructor_dashboard/send_email.js:138
-#: lms/static/js/instructor_dashboard/send_email.js:166
+#: lms/static/js/instructor_dashboard/send_email.js:142
+#: lms/static/js/instructor_dashboard/send_email.js:170
 msgid "There is no email history for this course."
 msgstr "Il n'y a pas d'historique de courriel pour ce cours"
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:147
-#: lms/static/js/instructor_dashboard/send_email.js:147
+#: lms/static/js/instructor_dashboard/send_email.js:151
 msgid "There was an error obtaining email task history for this course."
 msgstr "Une erreur est survenue lors de l'obtention de l'historique des tâches de courriel pour ce cours."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:170
-#: lms/static/js/instructor_dashboard/send_email.js:175
+#: lms/static/js/instructor_dashboard/send_email.js:179
 msgid "There was an error obtaining email content history for this course."
 msgstr "Il y a eu une erreur lors de l'obtention de l'historique du contenu des courriels pour ce cours."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js:192
-#: lms/static/js/instructor_dashboard/send_email.js:198
+#: lms/static/js/instructor_dashboard/send_email.js:206
 msgid "Send to:"
 msgstr "Envoyez à : "
 
@@ -3439,79 +3437,79 @@ msgid_plural "%(errorCount)s errors found in form."
 msgstr[0] "%(errorCount)s erreur trouvé dans le formulaire."
 msgstr[1] "%(errorCount)s erreurs trouvées dans le formulaire."
 
-#: lms/static/js/Markdown.Editor.js:1463
+#: lms/static/js/Markdown.Editor.js:1471
 msgid "Bold (Ctrl+B)"
 msgstr "Gras (Ctrl+B)"
 
-#: lms/static/js/Markdown.Editor.js:1464
+#: lms/static/js/Markdown.Editor.js:1472
 msgid "Italic (Ctrl+I)"
 msgstr "Italique (Ctrl+I)"
 
-#: lms/static/js/Markdown.Editor.js:1466
+#: lms/static/js/Markdown.Editor.js:1474
 msgid "Hyperlink (Ctrl+L)"
 msgstr "Lien (Ctrl+L)"
 
-#: lms/static/js/Markdown.Editor.js:1469
+#: lms/static/js/Markdown.Editor.js:1477
 msgid "Blockquote (Ctrl+Q)"
 msgstr "Citation (Ctrl+Q)"
 
-#: lms/static/js/Markdown.Editor.js:1470
+#: lms/static/js/Markdown.Editor.js:1478
 msgid "Code Sample (Ctrl+K)"
 msgstr "Code (Ctrl+K)"
 
-#: lms/static/js/Markdown.Editor.js:1471
+#: lms/static/js/Markdown.Editor.js:1479
 msgid "Image (Ctrl+G)"
 msgstr "Image (Ctrl+G)"
 
-#: lms/static/js/Markdown.Editor.js:1475
+#: lms/static/js/Markdown.Editor.js:1483
 msgid "Numbered List (Ctrl+O)"
 msgstr "Liste numérotée (Ctrl+O)"
 
-#: lms/static/js/Markdown.Editor.js:1478
+#: lms/static/js/Markdown.Editor.js:1486
 msgid "Bulleted List (Ctrl+U)"
 msgstr "List à Puces (Ctrl+U)"
 
-#: lms/static/js/Markdown.Editor.js:1481
+#: lms/static/js/Markdown.Editor.js:1489
 msgid "Heading (Ctrl+H)"
 msgstr "Titre (Ctrl+H)"
 
-#: lms/static/js/Markdown.Editor.js:1482
+#: lms/static/js/Markdown.Editor.js:1490
 msgid "Horizontal Rule (Ctrl+R)"
 msgstr "Ligne Horizontale (Ctrl+R)"
 
-#: lms/static/js/Markdown.Editor.js:1484
+#: lms/static/js/Markdown.Editor.js:1492
 msgid "Undo (Ctrl+Z)"
 msgstr "Annuler (Ctrl+Z)"
 
-#: lms/static/js/Markdown.Editor.js:1488
+#: lms/static/js/Markdown.Editor.js:1496
 msgid "Redo (Ctrl+Y)"
 msgstr "Refaire (Ctrl+Y)"
 
-#: lms/static/js/Markdown.Editor.js:1489
+#: lms/static/js/Markdown.Editor.js:1497
 msgid "Redo (Ctrl+Shift+Z)"
 msgstr "Refaire (Ctrl+Maj+Z)"
 
-#: lms/static/js/Markdown.Editor.js:1555
+#: lms/static/js/Markdown.Editor.js:1563
 msgid "strong text"
 msgstr "texte en gras"
 
-#: lms/static/js/Markdown.Editor.js:1559
+#: lms/static/js/Markdown.Editor.js:1567
 msgid "emphasized text"
 msgstr "texte en italique"
 
-#: lms/static/js/Markdown.Editor.js:1756
+#: lms/static/js/Markdown.Editor.js:1764
 msgid "enter link description here"
 msgstr "saisir une description du lien ici"
 
-#: lms/static/js/Markdown.Editor.js:2014 lms/static/js/Markdown.Editor.js:2037
+#: lms/static/js/Markdown.Editor.js:2022 lms/static/js/Markdown.Editor.js:2045
 msgid "enter code here"
 msgstr "saisir du code ici"
 
-#: lms/static/js/Markdown.Editor.js:2128
+#: lms/static/js/Markdown.Editor.js:2136
 msgid "List item"
 msgstr "Élément"
 
-#: lms/static/js/Markdown.Editor.js:2158
+#: lms/static/js/Markdown.Editor.js:2166
 msgid "Heading"
 msgstr "Titre"
 
@@ -3966,6 +3964,10 @@ msgstr "Restaurer le code d'inscription"
 msgid "Mark enrollment code as unused"
 msgstr "Marquer le code d'inscription comme non utilisé"
 
+#: lms/static/js/instructor_dashboard/send_email.js:93
+msgid "All learners in the {track_name} track"
+msgstr "Tous les apprenants dans le mode {track_name}"
+
 #: lms/static/js/instructor_dashboard/student_admin.js:77
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
@@ -4033,7 +4035,7 @@ msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>' for student "
 "'<%- student_id %>'. Make sure that the the problem and student identifiers "
 "are complete and correct."
-msgstr "Erreur dans le recalcul du score du problème '<%= problem_id %>' pour l'étudiant '<%= student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
+msgstr "Erreur dans le recalcul du score du problème '<%- problem_id %>' pour l'étudiant '<%- student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:503
 msgid ""
@@ -4049,13 +4051,13 @@ msgstr "Recalculer le score du problème '<%= problem_id %>' pour tous les étud
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
-msgstr "Démarrage de la tâche consistant à réinitialiser les tentatives pour le problème '<%= problem_id %>' pour tous les étudiants effectuée avec succès. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
+msgstr "Démarrage de la tâche consistant à réinitialiser les tentatives pour le problème '<%- problem_id %>' pour tous les étudiants effectuée avec succès. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:544
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
-msgstr "Erreur dans le recalcul des scores du problème '<%= problem_id %>'. Vérifiez que l'identifiant du problème est complet et correct."
+msgstr "Erreur dans le recalcul des scores du problème '<%- problem_id %>'. Vérifiez que l'identifiant du problème est complet et correct."
 
 #: lms/static/js/search/base/views/search_results_view.js:62
 #, c-format
@@ -4166,7 +4168,7 @@ msgid ""
 "address is associated with your {platform_name} account, we will send a "
 "message with password reset instructions to this email "
 "address.{paragraphEnd}"
-msgstr "{paragraphStart}Vous avez entré {boldStart}{email}{boldEnd}. Si cette adresse email est associée à votre compte {platform_name}, nous vous enverrons un message avec les instructions pour réinitialiser votre mot de passe à cette même adresse email.{paragraphEnd}"
+msgstr "{paragraphStart}Vous avez entré {boldStart}{email}{boldEnd}. Si cette adresse courriel est associée à votre compte {platform_name}, nous vous enverrons un message avec les instructions pour réinitialiser votre mot de passe à cette même adresse courriel.{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js:144
 msgid ""
