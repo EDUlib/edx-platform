@@ -85,9 +85,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-20 15:45+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-23 18:56+0000\n"
+"PO-Revision-Date: 2017-02-23 19:07+0000\n"
+"Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,9 +107,8 @@ msgstr ""
 #: cms/templates/js/section-name-edit.underscore:4
 #: cms/templates/js/signatory-actions.underscore:4
 #: cms/templates/js/xblock-string-field-editor.underscore:14
-#: cms/templates/js/programs/program_creator_form.underscore:64
 #: common/static/common/templates/discussion/new-post.underscore:5
-#: common/static/common/templates/discussion/new-post.underscore:68
+#: common/static/common/templates/discussion/new-post.underscore:70
 #: common/static/common/templates/discussion/response-comment-edit.underscore:8
 #: common/static/common/templates/discussion/thread-edit.underscore:18
 #: common/static/common/templates/discussion/thread-response-edit.underscore:8
@@ -123,8 +122,6 @@ msgstr "Annuler"
 #: cms/templates/js/course-instructor-details.underscore:3
 #: cms/templates/js/previous-video-upload-list.underscore:11
 #: cms/templates/js/signatory-details.underscore:13
-#: cms/templates/js/programs/program_creator_form.underscore:30
-#: cms/templates/js/programs/program_details.underscore:6
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:20
 msgid "Name"
 msgstr "Nom"
@@ -136,7 +133,6 @@ msgstr "Type"
 
 #: cms/templates/js/asset-library.underscore:57
 #: cms/templates/js/basic-modal.underscore:15
-#: cms/templates/js/programs/confirm_modal.underscore:14
 #: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:6
 msgid "Actions"
 msgstr "Actions"
@@ -396,28 +392,29 @@ msgstr "Tous les groupes"
 
 #: common/static/common/templates/discussion/new-post.underscore:36
 #: common/static/common/templates/discussion/thread-edit.underscore:8
-msgid "Add a clear and descriptive title to encourage participation."
-msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation."
+msgid ""
+"Add a clear and descriptive title to encourage participation. (Required)"
+msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation. (Requis)"
 
 #: common/static/common/templates/discussion/new-post.underscore:45
-msgid "Your question or idea"
-msgstr "Votre question ou idée"
+msgid "Your question or idea (required)"
+msgstr "Votre question ou idée (requis)"
 
-#: common/static/common/templates/discussion/new-post.underscore:51
+#: common/static/common/templates/discussion/new-post.underscore:52
 msgid "follow this post"
 msgstr "suivre ce message"
 
-#: common/static/common/templates/discussion/new-post.underscore:56
+#: common/static/common/templates/discussion/new-post.underscore:58
 msgid "post anonymously"
 msgstr "poster anonymement"
 
-#: common/static/common/templates/discussion/new-post.underscore:62
+#: common/static/common/templates/discussion/new-post.underscore:64
 msgid "post anonymously to classmates"
 msgstr "poster anonymement à des camarades de classe"
 
-#: common/static/common/templates/discussion/new-post.underscore:67
+#: common/static/common/templates/discussion/new-post.underscore:69
 #: common/static/common/templates/discussion/thread-response.underscore:18
-#: common/static/common/templates/discussion/thread.underscore:29
+#: common/static/common/templates/discussion/thread.underscore:31
 #: lms/templates/verify_student/incourse_reverify.underscore:47
 msgid "Submit"
 msgstr "Soumettre"
@@ -428,14 +425,12 @@ msgid "…"
 msgstr "…"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:4
-#: common/static/common/templates/discussion/thread-list-item.underscore:55
-msgid "Community TA"
-msgstr "Assistant d'enseignement de la communauté"
+msgid "(Community TA)"
+msgstr "(Assistant d'enseignement de la communauté)"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:6
-#: common/static/common/templates/discussion/thread-list-item.underscore:48
-msgid "Staff"
-msgstr "Équipe pédagogique"
+msgid "(Staff)"
+msgstr "(Équipe pédagogique)"
 
 #: common/static/common/templates/discussion/post-user-display.underscore:9
 #: common/static/common/templates/discussion/profile-thread.underscore:9
@@ -443,7 +438,7 @@ msgid "anonymous"
 msgstr "anonyme"
 
 #: common/static/common/templates/discussion/profile-thread.underscore:14
-#: common/static/common/templates/discussion/thread.underscore:21
+#: common/static/common/templates/discussion/thread.underscore:23
 msgid "This thread is closed."
 msgstr "Ce fil est fermé."
 
@@ -502,6 +497,14 @@ msgstr "Épinglé"
 #: common/static/common/templates/discussion/thread-list-item.underscore:41
 msgid "Following"
 msgstr "Suivi"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:48
+msgid "Staff"
+msgstr "Équipe pédagogique"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore:55
+msgid "Community TA"
+msgstr "Assistant d'enseignement de la communauté"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore:82
 msgid "{unread_comments_count} new"
@@ -590,32 +593,32 @@ msgstr "Type de message"
 #: common/static/common/templates/discussion/thread-type.underscore:8
 msgid ""
 "Questions raise issues that need answers. Discussions share ideas and start "
-"conversations."
-msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les discussions partagent des idées et démarrent des conversations."
+"conversations. (Required)"
+msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les discussions partagent des idées et démarrent des conversations. (Requis)"
 
-#: common/static/common/templates/discussion/thread-type.underscore:17
+#: common/static/common/templates/discussion/thread-type.underscore:18
 msgid "Question"
 msgstr "Question"
 
-#: common/static/common/templates/discussion/thread-type.underscore:23
+#: common/static/common/templates/discussion/thread-type.underscore:26
 msgid "Discussion"
 msgstr "Discussion"
 
-#: common/static/common/templates/discussion/thread.underscore:13
+#: common/static/common/templates/discussion/thread.underscore:14
 msgid "Add a Response"
 msgstr "Ajouter une réponse"
 
-#: common/static/common/templates/discussion/thread.underscore:25
+#: common/static/common/templates/discussion/thread.underscore:27
 msgid "Add a response:"
 msgstr "Ajouter une réponse : "
 
-#: common/static/common/templates/discussion/topic.underscore:4
+#: common/static/common/templates/discussion/topic.underscore:3
 msgid "Topic area"
 msgstr "Secteur thématique"
 
-#: common/static/common/templates/discussion/topic.underscore:7
-msgid "Add your post to a relevant topic to help others find it."
-msgstr "Ajouter votre message à un sujet pertinent afin d'aider les autres à le trouver."
+#: common/static/common/templates/discussion/topic.underscore:6
+msgid "Add your post to a relevant topic to help others find it. (Required)"
+msgstr "Ajoutez votre message à un sujet pertinent afin d'aider les autres à le trouver. (Requis)"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:3
 msgid "Discussion Home"
@@ -1600,8 +1603,8 @@ msgid "View Archived Course"
 msgstr "Voir cours archivé"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:14
-msgid "not enrolled"
-msgstr "non inscrit"
+msgid "Not Enrolled"
+msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:18
 msgid "Please select a course date"
@@ -1826,12 +1829,12 @@ msgstr "Se connecter avec %(providerName)s"
 msgid "Use my institution/campus credentials"
 msgstr "Utiliser mes informations institution/campus"
 
-#: lms/templates/student_account/login.underscore:59
+#: lms/templates/student_account/login.underscore:60
 #, python-format
 msgid "New to %(platformName)s?"
 msgstr "Nouveau sur %(platformName)s?"
 
-#: lms/templates/student_account/login.underscore:62
+#: lms/templates/student_account/login.underscore:63
 msgid "Create an account"
 msgstr "Créer un compte"
 

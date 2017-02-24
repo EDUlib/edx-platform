@@ -85,9 +85,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-20 15:37+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-23 18:56+0000\n"
+"PO-Revision-Date: 2017-02-10 18:20+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -284,7 +284,6 @@ msgstr "Détails de l'attestation"
 
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
-#: cms/templates/js/programs/course_details.underscore:36
 msgid "Course Title"
 msgstr "Titre du cours"
 
@@ -353,7 +352,6 @@ msgstr "(Ajouter un signataire à l'attestation)"
 #: cms/templates/js/certificate-editor.underscore:46
 #: cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/group-configuration-editor.underscore:45
-#: cms/templates/js/programs/program_creator_form.underscore:63
 msgid "Create"
 msgstr "Créer"
 
@@ -427,33 +425,43 @@ msgstr "Afficher toute la sous-section"
 msgid "Learners see the published subsection and can access its content."
 msgstr "Les étudiants peuvent voir la sous-section publiée et accéder à son contenu. "
 
-#: cms/templates/js/content-visibility-editor.underscore:15
+#: cms/templates/js/content-visibility-editor.underscore:16
+msgid "Hide content after course end date"
+msgstr "Cacher le contenu après la date d'échéance du cours"
+
+#: cms/templates/js/content-visibility-editor.underscore:18
 msgid "Hide content after due date"
 msgstr "Cacher le contenu après la date d'échéance"
 
-#: cms/templates/js/content-visibility-editor.underscore:17
+#: cms/templates/js/content-visibility-editor.underscore:23
+msgid ""
+"After the course\\'s end date has passed, learners can no longer access "
+"subsection content. The subsection remains included in grade calculations."
+msgstr "Après la date d'échéance du cours, les apprenants ne pourront plus accéder au contenu de la sous-section. Celle-ci reste incluse dans l'évaluation des notes."
+
+#: cms/templates/js/content-visibility-editor.underscore:25
 msgid ""
 "After the subsection\\'s due date has passed, learners can no longer access "
 "its content. The subsection remains included in grade calculations."
 msgstr "Après la date d'échéance de la sous-section, les étudiants ne pourront plus accéder son contenu. La sous-section reste incluse dans l'évaluation des notes."
 
-#: cms/templates/js/content-visibility-editor.underscore:22
+#: cms/templates/js/content-visibility-editor.underscore:32
 msgid "Hide entire subsection"
 msgstr "Cacher toute la sous-section"
 
-#: cms/templates/js/content-visibility-editor.underscore:25
+#: cms/templates/js/content-visibility-editor.underscore:35
 msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
 msgstr "Les étudiants ne voient pas cette sous-section dans le plan de cours. Cette sous-section n'est pas incluse dans l'évaluation des notes."
 
-#: cms/templates/js/content-visibility-editor.underscore:32
+#: cms/templates/js/content-visibility-editor.underscore:42
 #, python-format
 msgid ""
-"If you select an option other than \"%(hide_label)s\", after the subsection "
-"release date has passed, published units in this subsection will become "
-"available to learners unless units are explicitly hidden."
-msgstr "Si vous sélectionnez une option autre que \"%(hide_label)s\", après que la date de sortie de la sous-section soit échue, les unités publiées dans cette sous-section deviendront disponibles aux apprenants à moins que certaines unités soit explicitement cachées."
+"If you select an option other than \"%(hide_label)s\", published units in "
+"this subsection become available to learners unless they are explicitly "
+"hidden."
+msgstr "Si vous sélectionnez une option autre que \"%(hide_label)s\", les unités publiées dans cette sous-section deviendront disponibles aux apprenants à moins que certaines unités soit explicitement cachées."
 
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
@@ -473,7 +481,6 @@ msgstr "S'il vous plaît ajouter le titre de l'enseignant"
 
 #: cms/templates/js/course-instructor-details.underscore:15
 #: cms/templates/js/signatory-details.underscore:21
-#: cms/templates/js/programs/program_creator_form.underscore:17
 msgid "Organization"
 msgstr "Organisation"
 
@@ -569,7 +576,6 @@ msgstr "Nom d'affichage"
 #: cms/templates/js/course-outline.underscore:101
 #: cms/templates/js/course-outline.underscore:103
 #: cms/templates/js/publish-xblock.underscore:113
-#: cms/templates/js/programs/program_details.underscore:47
 msgid "Publish"
 msgstr "Publier"
 
@@ -613,17 +619,21 @@ msgstr "Noté comme : "
 msgid "Due:"
 msgstr "Date d'échéance : "
 
-#: cms/templates/js/course-outline.underscore:204
+#: cms/templates/js/course-outline.underscore:206
+msgid "Subsection is hidden after course end date"
+msgstr "Sous-section cachée après la date d'échéance du cours"
+
+#: cms/templates/js/course-outline.underscore:208
 msgid "Subsection is hidden after due date"
 msgstr "Sous-section cachée après la date d'échéance"
 
-#: cms/templates/js/course-outline.underscore:221
+#: cms/templates/js/course-outline.underscore:226
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "Vous n'avez pas encore ajouté de contenu à ce cours."
 
-#: cms/templates/js/course-outline.underscore:225
-#: cms/templates/js/course-outline.underscore:246
+#: cms/templates/js/course-outline.underscore:230
+#: cms/templates/js/course-outline.underscore:251
 #: cms/templates/js/xblock-outline.underscore:61
 #: cms/templates/js/xblock-outline.underscore:77
 #, python-format
@@ -1340,144 +1350,6 @@ msgid ""
 "The published branch version, {published}, was reset to the draft branch "
 "version, {draft}."
 msgstr "La version de la branche publiée, {published}, a été réinitialisée à la branche de la version du brouillon, {draft}."
-
-#: cms/templates/js/programs/course_details.underscore:5
-msgid "Delete course"
-msgstr "Effacer le cours"
-
-#: cms/templates/js/programs/course_details.underscore:8
-#, python-format
-msgid "Remove %(name)s from the program"
-msgstr "Supprimer %(name)s du programme"
-
-#: cms/templates/js/programs/course_details.underscore:19
-msgid "Add another run"
-msgstr "Ajouter une nouvelle instance"
-
-#: cms/templates/js/programs/course_details.underscore:26
-msgid "Course Code"
-msgstr "Code de cours"
-
-#: cms/templates/js/programs/course_details.underscore:32
-msgid ""
-"The unique number that identifies your course within your organization, e.g."
-" CS101."
-msgstr "L'identifiant unique qui identifie votre cours dans votre organisation, i.e. MKT-101."
-
-#: cms/templates/js/programs/course_details.underscore:42
-msgid ""
-"The title entered here will override the title set for the individual run of"
-" the course. It will be displayed on the XSeries progress page and in "
-"marketing presentations."
-msgstr "Le titre entré ici écrasera le titre pour l'instance individuelle de ce cours. Il sera affiché sur la page de progrès des XSeries et dans les présentations marketing."
-
-#: cms/templates/js/programs/course_details.underscore:45
-msgid "Save Course"
-msgstr "Sauvegarder le cours"
-
-#: cms/templates/js/programs/course_run.underscore:4
-#, python-format
-msgid "Run %(key)s"
-msgstr "Instance %(key)s"
-
-#: cms/templates/js/programs/course_run.underscore:9
-msgid "Delete course run"
-msgstr "Effacer l'instance de cours"
-
-#: cms/templates/js/programs/course_run.underscore:12
-#, python-format
-msgid "Remove run %(key)s from the program"
-msgstr "Supprimer l'instance %(key)s du programme"
-
-#: cms/templates/js/programs/course_run.underscore:19
-#, python-format
-msgid "Start Date: %(date)s"
-msgstr "Date de début : %(date)s"
-
-#: cms/templates/js/programs/course_run.underscore:24
-#, python-format
-msgid "Mode: %(mode)s"
-msgstr "Mode : %(mode)s"
-
-#: cms/templates/js/programs/course_run.underscore:30
-msgid "Please select a Course Run"
-msgstr "S'il vous plaît sélectionner une instance de cours"
-
-#: cms/templates/js/programs/program_creator_form.underscore:1
-msgid "Create a New Program"
-msgstr "Créez un nouveau programme"
-
-#: cms/templates/js/programs/program_creator_form.underscore:5
-msgid "Program type"
-msgstr "Type de programme"
-
-#: cms/templates/js/programs/program_creator_form.underscore:7
-msgid "Select a type"
-msgstr "Sélectionnez un type"
-
-#: cms/templates/js/programs/program_creator_form.underscore:8
-msgid "XSeries"
-msgstr "XSeries"
-
-#: cms/templates/js/programs/program_creator_form.underscore:9
-msgid "MicroMasters"
-msgstr "MicroMaîtrise"
-
-#: cms/templates/js/programs/program_creator_form.underscore:19
-msgid "Select an organization"
-msgstr "Sélectionner une organisation"
-
-#: cms/templates/js/programs/program_creator_form.underscore:36
-msgid "The public display name of the program."
-msgstr "Le nom d'affichage public du programme."
-
-#: cms/templates/js/programs/program_creator_form.underscore:41
-#: cms/templates/js/programs/program_details.underscore:19
-msgid "Subtitle"
-msgstr "Sous-titre"
-
-#: cms/templates/js/programs/program_creator_form.underscore:47
-msgid ""
-"A short description of the program, including concepts covered and expected "
-"outcomes (255 character limit)."
-msgstr "Une brève description du programme, incluant les concepts couverts et les résultats attendus (limite de 255 caractères)"
-
-#: cms/templates/js/programs/program_creator_form.underscore:52
-#: cms/templates/js/programs/program_details.underscore:32
-msgid "Marketing Slug"
-msgstr "Identifiant de marketing"
-
-#: cms/templates/js/programs/program_creator_form.underscore:58
-msgid "Slug used to generate links to the marketing site."
-msgstr "Identifiant utilisé pour générer des liens vers le site de marketing."
-
-#: cms/templates/js/programs/program_details.underscore:8
-msgid "Edit the program title"
-msgstr "Modifier le titre du programme"
-
-#: cms/templates/js/programs/program_details.underscore:10
-msgid "Edit the program\\'s name."
-msgstr "Modifier le nom du programme."
-
-#: cms/templates/js/programs/program_details.underscore:21
-msgid "Edit the program subtitle"
-msgstr "Modifier le sous-titre du programme"
-
-#: cms/templates/js/programs/program_details.underscore:23
-msgid "Edit the program\\'s subtitle."
-msgstr "Modifier le sous-titre du programme"
-
-#: cms/templates/js/programs/program_details.underscore:34
-msgid "Edit the program marketing slug"
-msgstr "Modifier l'identifiant marketing du programme"
-
-#: cms/templates/js/programs/program_details.underscore:36
-msgid "Edit the program\\'s marketing slug."
-msgstr "Modifier l'identifiant marketing du programme"
-
-#: cms/templates/js/programs/program_details.underscore:58
-msgid "Add a course"
-msgstr "Ajouter un cours"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
 msgid "Add URLs for additional versions"
