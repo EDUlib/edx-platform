@@ -67,9 +67,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:02+0000\n"
-"PO-Revision-Date: 2017-01-20 15:43+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-23 18:57+0000\n"
+"PO-Revision-Date: 2017-01-25 18:52+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,6 +112,7 @@ msgid "(Unnamed)"
 msgstr "(Sans nom)"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:37
+#, python-brace-format
 msgid ""
 "GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
 "configure a different path with GIT_REPO_EXPORT_DIR"
@@ -176,6 +177,7 @@ msgid "Deleted group"
 msgstr "Groupe supprimé"
 
 #: cms/djangoapps/contentstore/views/assets.py:242
+#, python-brace-format
 msgid ""
 "File {filename} exceeds maximum size of {size_mb} MB. Please follow the "
 "instructions here to upload a file elsewhere and link to it instead: "
@@ -191,15 +193,18 @@ msgid "must have name of the certificate"
 msgstr "doit avoir le nom de l'attestation"
 
 #: cms/djangoapps/contentstore/views/certificates.py:225
+#, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
 msgstr "Clé de valeur manquante '{1}' pour le dict {0} de l'attestation"
 
 #: cms/djangoapps/contentstore/views/certificates.py:330
 #: cms/djangoapps/contentstore/views/certificates.py:368
+#, python-brace-format
 msgid "PermissionDenied: Failed in authenticating {user}"
 msgstr "Permission refusée : authentification infructueuse pour {user}"
 
 #: cms/djangoapps/contentstore/views/component.py:240
+#, python-brace-format
 msgid "{platform_name} Support Levels:"
 msgstr "Niveaux de support {platform_name} : "
 
@@ -215,63 +220,64 @@ msgstr "Vidéo"
 msgid "Blank"
 msgstr "Vide"
 
-#: cms/djangoapps/contentstore/views/course.py:333
+#: cms/djangoapps/contentstore/views/course.py:331
 msgid "Course has been successfully reindexed."
 msgstr "Cours réindexé avec succès."
 
-#: cms/djangoapps/contentstore/views/course.py:595
+#: cms/djangoapps/contentstore/views/course.py:584
 msgid "Unscheduled"
 msgstr "Non programmé"
 
-#: cms/djangoapps/contentstore/views/course.py:737
+#: cms/djangoapps/contentstore/views/course.py:726
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
 msgstr "Les caractères spéciaux ne sont pas autorisés dans l'organisation, le numéro du cours, et l'exécution du cours."
 
-#: cms/djangoapps/contentstore/views/course.py:761
+#: cms/djangoapps/contentstore/views/course.py:750
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
 msgstr "Il existe déjà un cours avec la même organisation et ce numérode cours. Changer soit l'organisation ou le numéro de cours pour être unique."
 
-#: cms/djangoapps/contentstore/views/course.py:766
-#: cms/djangoapps/contentstore/views/course.py:769
+#: cms/djangoapps/contentstore/views/course.py:755
+#: cms/djangoapps/contentstore/views/course.py:758
 msgid ""
 "Please change either the organization or course number so that it is unique."
 msgstr "Merci de changer l'organisme ou le numéro du Cours pour qu'il soit unique."
 
-#: cms/djangoapps/contentstore/views/course.py:774
+#: cms/djangoapps/contentstore/views/course.py:763
+#, python-brace-format
 msgid ""
 "Unable to create course '{name}'.\n"
 "\n"
 "{err}"
 msgstr "Impossible de créer le cours '{name}'\n\n{err}"
 
-#: cms/djangoapps/contentstore/views/course.py:787
+#: cms/djangoapps/contentstore/views/course.py:776
 msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add"
 " it to the system"
 msgstr "Vous devez lier ce cours à une organisation afin de continuer. L'organisation que vous avez choisi n'existe pas dans le système, vous devrez l'ajouter au système"
 
-#: cms/djangoapps/contentstore/views/course.py:1067
+#: cms/djangoapps/contentstore/views/course.py:1056
 msgid "Invalid prerequisite course key"
 msgstr "Id du cours prérequis invalide"
 
-#: cms/djangoapps/contentstore/views/course.py:1250
+#: cms/djangoapps/contentstore/views/course.py:1239
 msgid "An error occurred while trying to save your tabs"
 msgstr "Une erreur s'est produite pendant la sauvegarde de vos onglets"
 
-#: cms/djangoapps/contentstore/views/course.py:1251
+#: cms/djangoapps/contentstore/views/course.py:1240
 msgid "Tabs Exception"
 msgstr "Onglets de dérogation"
 
-#: cms/djangoapps/contentstore/views/course.py:1475
+#: cms/djangoapps/contentstore/views/course.py:1464
 msgid "This group configuration is in use and cannot be deleted."
 msgstr "Cette configuration de groupe est utilisée et ne peut pas être supprimée."
 
-#: cms/djangoapps/contentstore/views/course.py:1489
+#: cms/djangoapps/contentstore/views/course.py:1478
 msgid "This content group is in use and cannot be deleted."
 msgstr "Ce groupe de contenu est utilisé et ne peut pas être supprimé."
 
@@ -304,6 +310,7 @@ msgid "File upload corrupted. Please try again"
 msgstr "Téléversement corrompu du fichier. S'il vous plaît essayer à nouveau"
 
 #: cms/djangoapps/contentstore/views/import_export.py:267
+#, python-brace-format
 msgid "Could not find the {0} file in the package."
 msgstr "Ne peux trouver le ficher {0} dans le package."
 
@@ -312,14 +319,17 @@ msgid "Invalid data"
 msgstr "Donnée invalide"
 
 #: cms/djangoapps/contentstore/views/item.py:535
+#, python-brace-format
 msgid "Invalid data ({details})"
 msgstr "Donnée invalide ({details})"
 
 #: cms/djangoapps/contentstore/views/item.py:664
+#, python-brace-format
 msgid "Duplicate of {0}"
 msgstr "Duplication de {0}"
 
 #: cms/djangoapps/contentstore/views/item.py:666
+#, python-brace-format
 msgid "Duplicate of '{0}'"
 msgstr "Duplication de '{0}'"
 
@@ -327,6 +337,7 @@ msgstr "Duplication de '{0}'"
 #. in many languages. This is used to avoid Transifex's misinterpreting of
 #. '% o'. The percent sign is also translatable as a standalone string.
 #: cms/djangoapps/contentstore/views/item.py:966
+#, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
 msgstr "Les étudiants doivent obtenir {score}{pct_sign} ou plus afin d'accéder au matériel de cours."
@@ -337,22 +348,25 @@ msgstr "Les étudiants doivent obtenir {score}{pct_sign} ou plus afin d'accéder
 msgid "%"
 msgstr "%"
 
-#: cms/djangoapps/contentstore/views/item.py:1250
+#: cms/djangoapps/contentstore/views/item.py:1251
+#, python-brace-format
 msgid "{section_or_subsection} \"{display_name}\""
 msgstr "{section_or_subsection} \"{display_name}\""
 
-#: cms/djangoapps/contentstore/views/library.py:136
+#: cms/djangoapps/contentstore/views/library.py:157
+#, python-brace-format
 msgid "Unable to create library - missing required field '{field}'"
 msgstr "Impossible de créer la bibliothèque - le champ '{field}' est manquant"
 
-#: cms/djangoapps/contentstore/views/library.py:141
+#: cms/djangoapps/contentstore/views/library.py:162
+#, python-brace-format
 msgid ""
 "Unable to create library '{name}'.\n"
 "\n"
 "{err}"
 msgstr "Impossible de créer la bibliothèque nommée '{name}'.\n\n{err}"
 
-#: cms/djangoapps/contentstore/views/library.py:147
+#: cms/djangoapps/contentstore/views/library.py:168
 msgid ""
 "There is already a library defined with the same organization and library "
 "code. Please change your library code so that it is unique within your "
@@ -376,6 +390,7 @@ msgid "Insufficient permissions"
 msgstr "Permissions insuffisantes"
 
 #: cms/djangoapps/contentstore/views/user.py:120
+#, python-brace-format
 msgid "Could not find user by email address '{email}'."
 msgstr "Impossible de trouver un utilisateur avec l'adresse courriel '{email}'."
 
@@ -384,6 +399,7 @@ msgid "No `role` specified."
 msgstr "Aucun `role` spécifié."
 
 #: cms/djangoapps/contentstore/views/user.py:164
+#, python-brace-format
 msgid "User {email} has registered but has not yet activated his/her account."
 msgstr "L'utilisateur {email} s'est enregistré mais n'a pas encore activé son compte."
 
@@ -462,6 +478,7 @@ msgstr "Inconnu"
 #. containing URLs for video encodings for the named profile
 #. (e.g. desktop, mobile high quality, mobile low quality)
 #: cms/djangoapps/contentstore/views/videos.py:170
+#, python-brace-format
 msgid "{profile_name} URL"
 msgstr "{profile_name} URL"
 
@@ -476,6 +493,7 @@ msgstr "Date ajoutée"
 #. Translators: This is the suggested filename when downloading the URL
 #. listing for videos uploaded through Studio
 #: cms/djangoapps/contentstore/views/videos.py:215
+#, python-brace-format
 msgid "{course}_video_urls"
 msgstr "{course}_video_urls"
 
@@ -546,6 +564,7 @@ msgid "Course is already in published state."
 msgstr "Le cours est déjà dans cet état de publication."
 
 #: cms/djangoapps/models/settings/course_metadata.py:160
+#, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "Format incorrect pour le champ  '{name}'. {detailed_message}"
 
