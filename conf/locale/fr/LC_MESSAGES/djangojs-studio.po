@@ -55,9 +55,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-01-05 17:03+0000\n"
-"PO-Revision-Date: 2017-01-20 15:41+0000\n"
-"Last-Translator: Keivan Farzaneh <keivan.farzaneh@edulib.org>\n"
+"POT-Creation-Date: 2017-02-23 18:57+0000\n"
+"PO-Revision-Date: 2017-02-23 19:06+0000\n"
+"Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgid "Image must be in PNG format."
 msgstr "L'image doit être en format PNG."
 
 #: cms/static/js/collections/group.js:42
-#, c-format
+#, javascript-format
 msgid "Group %s"
 msgstr "Groupe %s"
 
@@ -449,105 +449,6 @@ msgstr "ou"
 msgid "This component has validation issues."
 msgstr "Ce composant a des problèmes de validation."
 
-#: cms/static/js/programs/models/course_model.js:26
-msgid "Course Code"
-msgstr "Code de cours"
-
-#: cms/static/js/programs/models/course_model.js:27
-msgid "Course Title"
-msgstr "Titre du cours"
-
-#: cms/static/js/programs/models/program_model.js:51
-msgid "Please select a valid organization."
-msgstr "S'il vous plaît sélectionnez une organisation valide."
-
-#: cms/static/js/programs/utils/validation_config.js:18
-msgid "{0} is required"
-msgstr "{0} est obligatoire"
-
-#: cms/static/js/programs/utils/validation_config.js:19
-msgid "{0} must be accepted"
-msgstr "{0} doit être accepté"
-
-#: cms/static/js/programs/utils/validation_config.js:20
-msgid "{0} must be greater than or equal to {1}"
-msgstr "{0} doit être plus grand ou égal à {1}"
-
-#: cms/static/js/programs/utils/validation_config.js:21
-msgid "{0} must be less than or equal to {1}"
-msgstr "{0} doit être inférieur ou égal à {1}"
-
-#: cms/static/js/programs/utils/validation_config.js:22
-msgid "{0} must be between {1} and {2}"
-msgstr "{0} doit être entre {1} et {2}"
-
-#: cms/static/js/programs/utils/validation_config.js:23
-msgid "{0} must be {1} characters"
-msgstr "{0} doit être {1} caractères"
-
-#: cms/static/js/programs/utils/validation_config.js:24
-msgid "{0} must be at least {1} characters"
-msgstr "{0} doit être d'au moins {1} caractères"
-
-#: cms/static/js/programs/utils/validation_config.js:25
-msgid "{0} must be at most {1} characters"
-msgstr "{0} doit être d'au plus {1} caractères"
-
-#: cms/static/js/programs/utils/validation_config.js:26
-msgid "{0} must be between {1} and {2} characters"
-msgstr "{0} doit être entre {1} et {2} caractères"
-
-#: cms/static/js/programs/utils/validation_config.js:27
-msgid "{0} must be one of: {1}"
-msgstr "{0} doit être l'un de : {1}"
-
-#: cms/static/js/programs/utils/validation_config.js:28
-msgid "{0} must be the same as {1}"
-msgstr "{0} doit être identique à {1}"
-
-#: cms/static/js/programs/utils/validation_config.js:29
-msgid "{0} must only contain digits"
-msgstr "{0} doit seulement contenir des chiffres"
-
-#: cms/static/js/programs/utils/validation_config.js:30
-msgid "{0} must be a number"
-msgstr "{0} doit être un nombre"
-
-#: cms/static/js/programs/utils/validation_config.js:31
-msgid "{0} must be a valid email"
-msgstr "{0} doit être une adresse courriel valide"
-
-#: cms/static/js/programs/utils/validation_config.js:32
-msgid "{0} must be a valid url"
-msgstr "{0} doit être un URL valide"
-
-#: cms/static/js/programs/utils/validation_config.js:33
-msgid "{0} is invalid"
-msgstr "{0} est invalide"
-
-#: cms/static/js/programs/views/program_details_view.js:139
-msgid "confirm"
-msgstr "confirmer"
-
-#: cms/static/js/programs/views/program_details_view.js:140
-msgid "Publish this program?"
-msgstr "Publier ce programme?"
-
-#: cms/static/js/programs/views/program_details_view.js:142
-msgid ""
-"After you publish this program, you cannot add or remove course codes or "
-"remove course runs."
-msgstr "Après la publication de ce programme, vous ne pouvez ajouter ou supprimer des codes de cours or supprimer des instances de cours."
-
-#: cms/static/js/programs/views/program_details_view.js:146
-#: cms/static/js/views/modals/course_outline_modals.js:215
-msgid "Publish"
-msgstr "Publier"
-
-#: cms/static/js/programs/views/program_details_view.js:199
-msgid "Marketing Slug is required."
-msgstr "L'identifiant marketing est obligatoire."
-
 #: cms/static/js/views/active_video_upload.js:41
 #: cms/static/js/views/assets.js:210
 msgid "Your file could not be uploaded"
@@ -567,8 +468,10 @@ msgid "Upload failed for video {fileName}"
 msgstr "Téléversement échoué pour la vidéo {fileName}"
 
 #: cms/static/js/views/active_video_upload_list.js:321
-msgid "{filename} is not in a supported file format. "
-msgstr "{fileName} n'est pas dans un format de fichier pris en charge."
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr ""
 
 #: cms/static/js/views/active_video_upload_list.js:328
 msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
@@ -619,11 +522,11 @@ msgstr "Veuillez suivre les instructions présentées ici pour téléverser un f
 msgid "Max file size exceeded"
 msgstr "Taille maximale de fichier dépassée"
 
-#: cms/static/js/views/assets.js:335 cms/static/js/views/assets.js.c:349
+#: cms/static/js/views/assets.js:335 cms/static/js/views/assets.js:349
 msgid "Upload New File"
 msgstr "Téléverser un nouveau fichier"
 
-#: cms/static/js/views/assets.js:340 cms/static/js/views/assets.js.c:354
+#: cms/static/js/views/assets.js:340 cms/static/js/views/assets.js:354
 msgid "Load Another File"
 msgstr "Envoyer un autre fichier"
 
@@ -859,7 +762,11 @@ msgstr "Publier {display_name}"
 msgid "Publish all unpublished changes for this {item}?"
 msgstr "Publier toutes les modifications non publiées pour cet {item}?"
 
-#: cms/static/js/views/modals/course_outline_modals.js:845
+#: cms/static/js/views/modals/course_outline_modals.js:215
+msgid "Publish"
+msgstr "Publier"
+
+#: cms/static/js/views/modals/course_outline_modals.js:848
 msgid "Basic"
 msgstr "Basique"
 
@@ -1231,6 +1138,6 @@ msgstr "Nouveau {component_type}"
 msgid "Warning"
 msgstr "Attention"
 
-#: cms/static/js/xblock_asides/structured_tags.js:19
+#: cms/static/js/xblock_asides/structured_tags.js:21
 msgid "Updating Tags"
 msgstr "Mise à jour des étiquettes"
