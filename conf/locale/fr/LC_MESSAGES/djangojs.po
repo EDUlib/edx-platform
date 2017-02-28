@@ -1901,13 +1901,8 @@ msgstr "Espace Vertical"
 #: lms/templates/bookmarks/bookmarks-list.underscore:18
 #: lms/templates/search/course_search_item.underscore:2
 #: lms/templates/search/dashboard_search_item.underscore:2
-#, fuzzy
 msgid "View"
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Voir\n"
-"#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#\n"
-"Consulter"
+msgstr "Consulter"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
