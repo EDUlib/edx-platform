@@ -1676,6 +1676,7 @@
     "Video speed: ": "Vitesse vid\u00e9o : ", 
     "Video transcript": "Transcription vid\u00e9o", 
     "VideoPlayer: Element corresponding to the given selector was not found.": "Lecteur vid\u00e9o : l'\u00e9l\u00e9ment correspondant au s\u00e9lecteur donn\u00e9 n'a pas \u00e9t\u00e9 trouv\u00e9. ", 
+    "View": "Consulter", 
     "View %(span_start)s %(team_name)s %(span_end)s": "Voir %(span_start)s %(team_name)s %(span_end)s", 
     "View Archived Course": "Voir cours archiv\u00e9", 
     "View Certificate": "Voir votre attestation", 
