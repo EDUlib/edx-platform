@@ -1501,7 +1501,7 @@ msgstr "Espace Vertical"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:1094
 msgid "View"
-msgstr "Voir"
+msgstr "Consulter"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
