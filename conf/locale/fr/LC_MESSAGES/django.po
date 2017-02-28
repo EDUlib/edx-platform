@@ -17336,7 +17336,7 @@ msgstr "Information d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:14
 msgid "Number of enrollees (admins, staff, and students) by track"
-msgstr "Nombre d'inscrits (admins, staff, and students) par mode"
+msgstr "Nombre d'inscrits (admins, équipe pédagogique, et étudiants) par mode"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:25
 msgid "Professional"
