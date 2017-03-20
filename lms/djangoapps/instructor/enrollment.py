@@ -118,7 +118,7 @@ def enroll_email(course_id, student_email, auto_enroll=False, email_students=Fal
     """
 
     # For EDUlib
-    language = 'fr'
+    #####language = 'fr'
     # For EDUlib
 
     previous_state = EmailEnrollmentState(course_id, student_email)
