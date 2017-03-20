@@ -173,7 +173,7 @@ def unenroll_email(course_id, student_email, email_students=False, email_params=
     """
 
     # For EDUlib
-    language = 'fr'
+    #####language = 'fr'
     # For EDUlib
 
     previous_state = EmailEnrollmentState(course_id, student_email)
@@ -435,7 +435,7 @@ def send_mail_to_student(student, param_dict, language=None):
     """
 
     # For EDUlib
-    language = 'fr'
+    #####language = 'fr'
     # For EDUlib
 
     # add some helpers and microconfig subsitutions
