@@ -4863,7 +4863,7 @@ msgstr "Vous avez été inscrit à {course_name} sur {site_name} par un membre d
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:17
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt:14
 msgid "This email was automatically sent from {site_name} to {full_name}"
-msgstr "Cet courriel a été envoyé automatiquement de {site_name} à {full_name}"
+msgstr "Ce courriel a été envoyé automatiquement de {site_name} à {full_name}"
 
 #: lms/templates/emails/enroll_email_enrolledsubject.txt:3
 msgid "You have been enrolled in {course_name}"
