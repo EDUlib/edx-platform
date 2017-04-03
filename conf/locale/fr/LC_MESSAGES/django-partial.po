@@ -2092,7 +2092,7 @@ msgstr "Vous devez attendre au minimum {wait} secondes entre les soumissions."
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
-msgstr "Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il reste  {remaining_secs} secondes."
+msgstr "Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il reste  {remaining_secs}."
 
 #. Translators: {msg} will be replaced with a problem's error message.
 #: common/lib/xmodule/xmodule/capa_base.py:1189
@@ -2154,7 +2154,7 @@ msgstr "Vous ne pouvez pas sélectionner Réinitialiser pour un problème fermé
 
 #: common/lib/xmodule/xmodule/capa_base.py:1577
 msgid "You must submit an answer before you can select Reset."
-msgstr "Vous devez soumettre une réponse avant de pouvoir sélectionner Reset."
+msgstr "Vous devez soumettre une réponse avant de pouvoir sélectionner Réinitialiser."
 
 #: common/lib/xmodule/xmodule/capa_module.py:82
 msgid ""
