@@ -1435,8 +1435,8 @@ msgstr "Vous n'avez pas de note."
 #: lms/templates/problem.html:35
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] "Vous avez utilisé {num_used} essai sur {num_total}"
-msgstr[1] "Vous avez utilisé {num_used} essais sur {num_total}"
+msgstr[0] "Vous avez utilisé {num_used} de {num_total} tentative"
+msgstr[1] "Vous avez utilisé {num_used} de {num_total} tentatives"
 
 #: lms/templates/problem.html:37
 msgid ""
