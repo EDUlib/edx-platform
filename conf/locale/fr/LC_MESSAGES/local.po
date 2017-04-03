@@ -55,3 +55,15 @@ msgstr "Rechercher…"
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enter the names of the advanced components to use in your course."
 msgstr "Entrer les noms des modules avancés à utiliser dans votre cours."
+
+#. Translators: This is a menu option for showing only unread forum threads
+#: lms/templates/discussion/_thread_list_template.html:13
+msgid "Unread"
+msgstr "Non lu"
+
+#. Translators: This is a menu option for showing only unanswered forum
+#. question threads
+#: lms/templates/discussion/_thread_list_template.html:16
+msgid "Unanswered"
+msgstr "Sans réponse"
+
