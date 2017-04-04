@@ -2618,8 +2618,7 @@ msgstr "Indice ({hint_num} de {hints_count}) : "
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
 msgstr ""
-"Vos réponses ont déjà été enregistrées. Cliquez sur '{button_name}' pour les "
-"noter."
+"Vos réponses ont déjà été enregistrées. Cliquez sur '{button_name}' pour les noter."
 
 #: common/lib/xmodule/xmodule/capa_base.py:761
 #, python-brace-format
