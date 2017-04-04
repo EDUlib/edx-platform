@@ -653,6 +653,11 @@ class CapaMixin(CapaFields):
         encapsulate (bool): if True (the default) embed the html in a problem <div>
         submit_notification (bool): True if the submit notification should be added
         """
+
+        ##### missing from edX code added by EDUlib #####
+        _ = self.runtime.service(self, "i18n").ugettext
+        ##### missing from edX code added by EDUlib #####
+
         try:
             html = self.lcp.get_html()
 
@@ -683,7 +688,7 @@ class CapaMixin(CapaFields):
 
         save_message = None
         if self.has_saved_answers:
-            save_message=_("Your answers were previously saved. Click '{button_name}' to grade them.").format(button_name=self.submit_button_name())
+            save_message = _("Your answers were previously saved. Click '{button_name}' to grade them.").format(button_name=self.submit_button_name())
 
         context = {
             'problem': content,
@@ -1518,9 +1523,7 @@ class CapaMixin(CapaFields):
         self.track_function_unmask('save_problem_success', event_info)
         msg = _("Your answers have been saved.")
         if not self.max_attempts == 0:
-            msg = _(
-                "Your answers have been saved but not graded. Click '{button_name}' to grade them."
-            ).format(button_name=self.submit_button_name())
+            msg = _("Your answers have been saved but not graded. Click '{button_name}' to grade them.").format(button_name=self.submit_button_name())
         return {
             'success': True,
             'msg': msg,
