@@ -1,30 +1,3 @@
-##### EUCALYPTUS CODE
-#####<%page expression_filter="h"/>
-#####<%namespace name='static' file='../static_content.html'/>
-#####<%!
-#####from django.utils.translation import ugettext as _
-#####from openedx.core.djangolib.markup import HTML, Text
-#####%>
-#####<%inherit file="../main.html" />
-#####
-#####<main id="main" aria-label="Content" tabindex="-1">
-#####    <section class="outside-app">
-#####      <h1>
-#####        ${Text(_(u"There has been a 500 error on the {platform_name} servers")).format(
-#####            platform_name=HTML("<em>{platform_name}</em>").format(platform_name=Text(static.get_platform_name()))
-#####        )}
-#####      </h1>
-#####      <p>
-#####        ${Text(_('Please wait a few seconds and then reload the page. If the problem persists, please email us at {email}.')).format(
-#####            email=HTML('<a href="mailto:{email}">{email}</a>').format(
-#####                email=Text(static.get_tech_support_email_address())
-#####            )
-#####        )}
-#####      </p>
-#####    </section>
-#####</main>
-##### EUCALYPTUS CODE
-##### DOGWOOD CODE
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
@@ -64,7 +37,7 @@
         <h1>Nous &eacute;prouvons quelques difficult&eacute;es&#8230;</h1>
         <h1>(✖╭╮✖)</h1>
         <h2>Erreur du serveur</h2>
-        <p>Nous avons &eacute;t&eacute; avis&eacute;s de cette erreur. Si cette erreur persiste, veuillez nous contacter &agrave; l&#8217;adresse <a href="mailto:operation@edulib.org">operation@edulib.org</a>.</p>
+        <p>Nous avons &eacute;t&eacute; avis&eacute;s de cette erreur. Si cette erreur persiste, veuillez nous contacter &agrave; l&#8217;adresse <a href="mailto:support@edulib.org">support@edulib.org</a>.</p>
       </div>
     </body>
 </html>
