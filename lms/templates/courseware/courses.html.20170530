@@ -42,7 +42,7 @@
             <% counter = 0 %>
         %endif
 
-        <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+        <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                if not course.has_started() and course.catalog_visibility == "both" :
                   counter += 1
         %>
@@ -55,7 +55,7 @@
         <section class="highlighted-courses">
             <section class="courses">
                <ul class="courses-listing">
-                   %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                   %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                         %if not course.has_started() and course.catalog_visibility == "both" :
                             <li class="courses-listing-item">
                                 <%include file="../course-edulib.html" args="course=course" />
@@ -71,7 +71,7 @@
             <% counter = 0 %>
         %endif
 
-        <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
+        <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
                if course.has_started() and not course.has_ended() and course.catalog_visibility == "both" :
                   counter += 1
         %>
@@ -85,7 +85,7 @@
             <section class="courses">
                <ul class="courses-listing">
 
-                   %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                   %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                         %if course.has_started() and not course.has_ended() and (course.end is not None) and course.catalog_visibility=="both":
                             <li class="courses-listing-item">
                                 <%include file="../course-edulib.html" args="course=course" />
