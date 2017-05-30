@@ -70,7 +70,7 @@ from xmodule.modulestore.django import modulestore
           % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
             <section class="courses">
                 <ul class="courses-listing">
-                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
                      %if ((course.has_started() and not course.has_ended() and (course.end is not None)) or (not course.has_started())) and course.catalog_visibility=="both":
                          <li class="courses-listing-item">
                              <%include file="course-edulib.html" args="course=course" />
