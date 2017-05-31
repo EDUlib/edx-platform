@@ -44,7 +44,7 @@ logo_alt_text = "EDUlib Logo"
         <% counter = 0 %>
     %endif
 
-    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
            if not course.has_started() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
@@ -57,7 +57,7 @@ logo_alt_text = "EDUlib Logo"
     <section class="highlighted-courses">
         <section class="courses">
            <ul class="courses-listing">
-               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
                     %if not course.has_started() and course.org.lower() == "usherbrooke" and not course.has_ended() and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
@@ -74,7 +74,7 @@ logo_alt_text = "EDUlib Logo"
         <% counter = 0 %>
     %endif
 
-    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
            if course.has_started() and not course.has_ended() and course.org.lower() == "usherbrooke" and course.catalog_visibility == "both" :
               counter += 1
     %>
@@ -88,7 +88,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
 
-               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
                     % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="usherbrooke" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
