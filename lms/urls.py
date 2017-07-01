@@ -174,6 +174,11 @@ urlpatterns += [
 ]
 
 
+urlpatterns += (
+    url(r'^openassessment/fileupload/', include('openassessment.fileupload.urls')),
+)
+
+
 # sysadmin dashboard, to see what courses are loaded, to delete & load courses
 if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD'):
     urlpatterns += [
