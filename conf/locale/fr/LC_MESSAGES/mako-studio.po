@@ -46,14 +46,14 @@
 # Pedro Guimarães Martins <pedrogmartins7@gmail.com>, 2014
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2017
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
 # Régis Millet <kulgar@ct2c.fr>, 2015
 # Richard Moch <richard.moch@gmail.com>, 2014,2016
 # SALHI Aissam <ais.salhy@gmail.com>, 2014
 # Sarina Canelake <sarina@edx.org>, 2014
-# Sebastien Vigneau <sebastien.vigneau@gmail.com>, 2015
+# Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
 # Thomas Fradet <t.fradet8@gmail.com>, 2015
@@ -67,8 +67,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-23 18:56+0000\n"
-"PO-Revision-Date: 2017-02-23 19:07+0000\n"
+"POT-Creation-Date: 2017-07-20 11:53+0000\n"
+"PO-Revision-Date: 2017-07-20 12:11+0000\n"
 "Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -165,98 +165,86 @@ msgstr "Si vous avez toujours des problèmes, contactez le support {platform_nam
 msgid "Files & Uploads"
 msgstr "Fichiers & téléversements"
 
-#: cms/templates/asset_index.html:43 cms/templates/asset_index.html:44
-#: cms/templates/container.html:76 cms/templates/container.html:77
-#: cms/templates/course-create-rerun.html:32
-#: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:44
-#: cms/templates/course_info.html:45 cms/templates/course_outline.html:120
-#: cms/templates/course_outline.html:121 cms/templates/edit-tabs.html:37
-#: cms/templates/edit-tabs.html:38 cms/templates/index.html:26
-#: cms/templates/index.html:27 cms/templates/library.html:56
-#: cms/templates/library.html:57 cms/templates/manage_users.html:30
-#: cms/templates/manage_users.html:31 cms/templates/manage_users_lib.html:30
-#: cms/templates/manage_users_lib.html:31 cms/templates/textbooks.html:43
-#: cms/templates/textbooks.html:44 cms/templates/videos_index.html:52
-#: cms/templates/videos_index.html:53
-msgid "Page Actions"
-msgstr "Actions de la Page"
-
-#: cms/templates/asset_index.html:47 cms/templates/asset_index.html:93
-#: cms/templates/videos_index.html:56
+#: cms/templates/asset_index.html:46 cms/templates/asset_index.html:92
+#: cms/templates/videos_index.html:59
 msgid "Upload New File"
 msgstr "Téléverser un nouveau fichier"
 
-#: cms/templates/asset_index.html:65
+#: cms/templates/asset_index.html:62
+msgid "Help adding Files and Uploads"
+msgstr ""
+
+#: cms/templates/asset_index.html:64
 msgid "Adding Files for Your Course"
 msgstr "Ajout de fichiers à votre cours"
 
-#: cms/templates/asset_index.html:67
+#: cms/templates/asset_index.html:66
 msgid ""
 "To add files to use in your course, click {em_start}Upload New File{em_end}."
 " Then follow the prompts to upload a file from your computer."
 msgstr "Pour ajouter des fichiers à votre cours, cliquer {em_start}Téléverser un nouveau fichier{em_end}. Ensuite suivre les instructions pour téléverser un fichier à partir de votre ordinateur."
 
-#: cms/templates/asset_index.html:69
+#: cms/templates/asset_index.html:68
 msgid ""
 "{em_start}Caution{em_end}: {platform_name} recommends that you limit the "
 "file size to {em_start}10 MB{em_end}. In addition, do not upload video or "
 "audio files. You should use a third party service to host multimedia files."
 msgstr "{em_start}Attention{em_end} : {platform_name} recommande de limiter la taille du fichier à {em_start}10 MB{em_end}. Ne pas importer des fichiers vidéo ou audio, vous devez utiliser un service tiers pour héberger vos fichiers multimédias."
 
-#: cms/templates/asset_index.html:71
+#: cms/templates/asset_index.html:70
 msgid ""
 "The course image, textbook chapters, and files that appear on your Course "
 "Handouts sidebar also appear in this list."
 msgstr "L'image du cours, le texte des chapitres, et les fichiers qui apparaissent dans la colonne des Documents de cours apparaitront aussi dans cette liste."
 
-#: cms/templates/asset_index.html:74
+#: cms/templates/asset_index.html:73
 msgid "Using File URLs"
 msgstr "Utiliser les URL de fichiers"
 
-#: cms/templates/asset_index.html:76
+#: cms/templates/asset_index.html:75
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
 "image from a component, a course update, or a course handout."
 msgstr "Utilisez la valeur de {em_start}l'URL {studio_name}{em_end} pour créer un lien depuis le fichier ou l'image d'un composant, une mise à jour du cours, ou le syllabus."
 
-#: cms/templates/asset_index.html:78
+#: cms/templates/asset_index.html:77
 msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
 msgstr "Utilisez la valeur du {em_start}URL Web{em_end} afin de faire référence à un fichier ou une image uniquement à l'extérieur de votre cours. {em_start}Note : {em_end} Si vous verrouillez un fichier, le URL Web ne fonctionnera plus pour l'accès externe à un fichier."
 
-#: cms/templates/asset_index.html:80
+#: cms/templates/asset_index.html:79
 msgid ""
 "To copy a URL, double click the value in the URL column, then copy the "
 "selected text."
 msgstr "Pour copier une URL, double cliquer sur la valeur dans la colonne URL, puis copiez le texte sélectionné."
 
-#: cms/templates/asset_index.html:83
+#: cms/templates/asset_index.html:82
 msgid "Learn more about managing files"
 msgstr "En savoir plus à propos de la gestion de fichiers"
 
-#: cms/templates/asset_index.html:91
+#: cms/templates/asset_index.html:90
 msgid "close"
 msgstr "fermer"
 
-#: cms/templates/asset_index.html:94
+#: cms/templates/asset_index.html:93
 msgid "Max per-file size: {max_filesize}MB"
 msgstr "Taille maximale de fichier : {max_filesize}MB"
 
-#: cms/templates/asset_index.html:100
+#: cms/templates/asset_index.html:99
 msgid "URL:"
 msgstr "URL : "
 
-#: cms/templates/asset_index.html:105
+#: cms/templates/asset_index.html:104
 msgid "Choose File"
 msgstr "Choisir le fichier"
 
-#: cms/templates/asset_index.html:121
+#: cms/templates/asset_index.html:120
 msgid "Your file has been deleted."
 msgstr "Votre fichier a été supprimé."
 
-#: cms/templates/asset_index.html:126
+#: cms/templates/asset_index.html:125
 msgid "close alert"
 msgstr "fermez l'alerte"
 
@@ -265,7 +253,7 @@ msgid "Course Certificates"
 msgstr "Attestations de cours"
 
 #: cms/templates/certificates.html:54 cms/templates/certificates.html:64
-#: cms/templates/certificates.html:87 cms/templates/export.html:137
+#: cms/templates/certificates.html:87 cms/templates/export.html:217
 #: cms/templates/widgets/header.html:103
 msgid "Certificates"
 msgstr "Attestations"
@@ -330,8 +318,8 @@ msgid "Learn more about certificates"
 msgstr "En savoir plus sur les attestations"
 
 #: cms/templates/certificates.html:108 cms/templates/certificates.html:109
-#: cms/templates/group_configurations.html:103
-#: cms/templates/group_configurations.html:104 cms/templates/settings.html:622
+#: cms/templates/group_configurations.html:121
+#: cms/templates/group_configurations.html:122 cms/templates/settings.html:622
 #: cms/templates/settings.html:623 cms/templates/settings_advanced.html:101
 #: cms/templates/settings_advanced.html:102
 #: cms/templates/settings_graders.html:158
@@ -344,14 +332,14 @@ msgid "Details &amp; Schedule"
 msgstr "Dates &amp; Détails"
 
 #: cms/templates/certificates.html:112
-#: cms/templates/group_configurations.html:107 cms/templates/settings.html:625
+#: cms/templates/group_configurations.html:125 cms/templates/settings.html:625
 #: cms/templates/settings_advanced.html:105
 #: cms/templates/settings_graders.html:43 cms/templates/widgets/header.html:90
 msgid "Grading"
 msgstr "Évaluation"
 
 #: cms/templates/certificates.html:113
-#: cms/templates/group_configurations.html:108
+#: cms/templates/group_configurations.html:126
 #: cms/templates/manage_users.html:27 cms/templates/settings.html:626
 #: cms/templates/settings_advanced.html:106
 #: cms/templates/settings_graders.html:162
@@ -360,7 +348,7 @@ msgid "Course Team"
 msgstr "Équipe pédagogique"
 
 #: cms/templates/certificates.html:114
-#: cms/templates/group_configurations.html:109 cms/templates/settings.html:628
+#: cms/templates/group_configurations.html:127 cms/templates/settings.html:628
 #: cms/templates/settings_advanced.html:13
 #: cms/templates/settings_advanced.html:38
 #: cms/templates/settings_graders.html:164
@@ -369,16 +357,16 @@ msgid "Advanced Settings"
 msgstr "Paramètres avancés"
 
 #: cms/templates/certificates.html:115
-#: cms/templates/group_configurations.html:15
-#: cms/templates/group_configurations.html:43 cms/templates/settings.html:627
+#: cms/templates/group_configurations.html:16
+#: cms/templates/group_configurations.html:45 cms/templates/settings.html:627
 #: cms/templates/settings_advanced.html:107
 #: cms/templates/settings_graders.html:163
 #: cms/templates/widgets/header.html:96
 msgid "Group Configurations"
 msgstr "Configuration des groupes"
 
-#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:87
-#: cms/templates/studio_xblock_wrapper.html:89
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:93
+#: cms/templates/studio_xblock_wrapper.html:95
 msgid "Duplicate"
 msgstr "Dupliquer"
 
@@ -386,108 +374,130 @@ msgstr "Dupliquer"
 msgid "Duplicate this component"
 msgstr "Dupliquer ce composant"
 
-#: cms/templates/component.html:23 cms/templates/studio_xblock_wrapper.html:97
-#: cms/templates/studio_xblock_wrapper.html:99
+#: cms/templates/component.html:23 cms/templates/component.html:28
+#: cms/templates/studio_xblock_wrapper.html:101
+#: cms/templates/studio_xblock_wrapper.html:106
+msgid "Move"
+msgstr "Déplacer"
+
+#: cms/templates/component.html:32
+#: cms/templates/studio_xblock_wrapper.html:114
+#: cms/templates/studio_xblock_wrapper.html:116
 msgid "Delete"
 msgstr "Supprimer"
 
-#: cms/templates/component.html:25
+#: cms/templates/component.html:34
 msgid "Delete this component"
 msgstr "Supprimer ce composant"
 
-#: cms/templates/component.html:30 cms/templates/edit-tabs.html:117
+#: cms/templates/component.html:39 cms/templates/edit-tabs.html:117
 #: cms/templates/edit-tabs.html:118
-#: cms/templates/studio_xblock_wrapper.html:105
+#: cms/templates/studio_xblock_wrapper.html:122
 msgid "Drag to reorder"
 msgstr "Glissez pour modifier l'ordre"
 
-#: cms/templates/container.html:71 cms/templates/library.html:51
+#: cms/templates/container.html:72 cms/templates/library.html:51
 msgid "Display Name"
 msgstr "Nom d'affichage"
 
-#: cms/templates/container.html:81
+#: cms/templates/container.html:79 cms/templates/container.html:80
+#: cms/templates/course-create-rerun.html:32
+#: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:44
+#: cms/templates/course_info.html:45 cms/templates/course_outline.html:120
+#: cms/templates/course_outline.html:121 cms/templates/edit-tabs.html:37
+#: cms/templates/edit-tabs.html:38 cms/templates/index.html:26
+#: cms/templates/index.html:27 cms/templates/library.html:56
+#: cms/templates/library.html:57 cms/templates/manage_users.html:30
+#: cms/templates/manage_users.html:31 cms/templates/manage_users_lib.html:30
+#: cms/templates/manage_users_lib.html:31 cms/templates/textbooks.html:43
+#: cms/templates/textbooks.html:44 cms/templates/videos_index.html:55
+#: cms/templates/videos_index.html:56
+msgid "Page Actions"
+msgstr "Actions de la Page"
+
+#: cms/templates/container.html:84
 msgid "Open the courseware in the LMS"
 msgstr "Ouvrir le cours dans le LMS"
 
-#: cms/templates/container.html:82
+#: cms/templates/container.html:85
 msgid "View Live Version"
 msgstr "Aperçu réel"
 
-#: cms/templates/container.html:86
+#: cms/templates/container.html:89
 msgid "Preview the courseware in the LMS"
 msgstr "Prévisualiser le cours dans le LMS"
 
-#: cms/templates/container.html:87
+#: cms/templates/container.html:90
 msgid "Preview"
 msgstr "Aperçu"
 
-#: cms/templates/container.html:118
+#: cms/templates/container.html:121
 msgid "Adding components"
 msgstr "Ajout de composants"
 
-#: cms/templates/container.html:119
+#: cms/templates/container.html:122
 msgid ""
 "Select a component type under {strong_start}Add New Component{strong_end}. "
 "Then select a template."
 msgstr "Sélectionner un type de composant sous {strong_start}Ajouter un composant{strong_end}. Ensuite sélectionner un gabarit."
 
-#: cms/templates/container.html:123
+#: cms/templates/container.html:126
 msgid ""
 "The new component is added at the bottom of the page or group. You can then "
 "edit and move the component."
 msgstr "Le nouveau composant est ajouté au bas de la page ou du groupe. Vous pouvez alors éditer et déplacer le composant."
 
-#: cms/templates/container.html:124
+#: cms/templates/container.html:127
 msgid "Editing components"
 msgstr "Edition des composants"
 
-#: cms/templates/container.html:125
+#: cms/templates/container.html:128
 msgid ""
 "Click the {strong_start}Edit{strong_end} icon in a component to edit its "
 "content."
 msgstr "Cliquer l'icone {strong_start}Editer{strong_end} du composant pour éditer son contenu."
 
-#: cms/templates/container.html:129
+#: cms/templates/container.html:132
 msgid "Reorganizing components"
 msgstr "Réorganisation des composants"
 
-#: cms/templates/container.html:130
+#: cms/templates/container.html:133
 msgid "Drag components to new locations within this component."
 msgstr "Glisser des composants dans de nouveaux emplacements avec ce composant."
 
-#: cms/templates/container.html:131
+#: cms/templates/container.html:134
 msgid "For content experiments, you can drag components to other groups."
 msgstr "Pour les tests de contenu, vous pouvez faire glisser des composants dans d'autres groupes."
 
-#: cms/templates/container.html:132
+#: cms/templates/container.html:135
 msgid "Working with content experiments"
 msgstr "Travailler avec les tests de contenu"
 
-#: cms/templates/container.html:133
+#: cms/templates/container.html:136
 msgid ""
 "Confirm that you have properly configured content in each of your experiment"
 " groups."
 msgstr "Confirmer que vous avez correctement configuré contenu dans chacun de votre groupe de test."
 
-#: cms/templates/container.html:136
+#: cms/templates/container.html:139
 msgid "Learn more about component containers"
 msgstr "En savoir plus sur les conteneurs de composants"
 
-#: cms/templates/container.html:142
+#: cms/templates/container.html:145
 msgid "Unit Location"
 msgstr "Position de l'unité"
 
-#: cms/templates/container.html:144
+#: cms/templates/container.html:147
 msgid "Location ID"
 msgstr "ID de l'emplacement"
 
-#: cms/templates/container.html:147
+#: cms/templates/container.html:150
 msgid ""
 "To create a link to this unit from an HTML component in this course, enter "
 "\"/jump_to_id/<location ID>\" as the URL value."
 msgstr "Pour créer un lien vers cette unité depuis un composant HTML dans le cours, entrez  \"/jump_to_id/<location ID>\" comme valeur URL."
 
-#: cms/templates/container.html:151
+#: cms/templates/container.html:154
 msgid "Location in Course Outline"
 msgstr "Emplacement dans le plan de cours"
 
@@ -498,6 +508,13 @@ msgstr "Créer une nouvelle session du cours : "
 #: cms/templates/course-create-rerun.html:29
 msgid "Create a re-run of a course"
 msgstr "Créer une nouvelle session d'un cours"
+
+#: cms/templates/course-create-rerun.html:36
+#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:120
+#: cms/templates/index.html:180 cms/templates/manage_users.html:67
+#: cms/templates/manage_users_lib.html:67
+msgid "Cancel"
+msgstr "Annuler"
 
 #: cms/templates/course-create-rerun.html:42
 msgid "You are creating a re-run from:"
@@ -644,7 +661,7 @@ msgid ""
 msgstr "Utilisez les mises à jours des cours pour prévenir les étudiants des dates importantes comme les examens, pour mettre en évidence des discussions particulières dans les forums, pour annoncer des changements dans l'horaire et pour répondre aux questions des étudiants. Vous pouvez ajouter ou éditer les mises à jour en HTML."
 
 #: cms/templates/course_outline.html:13 cms/templates/course_outline.html:117
-#: cms/templates/course_outline.html:183
+#: cms/templates/course_outline.html:186
 msgid "Course Outline"
 msgstr "Plan du cours"
 
@@ -661,7 +678,7 @@ msgid ""
 "and seed the discussions and wiki."
 msgstr "Aucun contenu de cours n'est présentement visible, et aucun n'apprenant n'est inscrit. Assurez-vous d'examiner et de réinitialiser toutes les dates, y compris la date de début du cours; mettre en place l'équipe de cours; examiner les mises à jour de cours et autres actifs de matériel daté; et aminer les discussions et wiki."
 
-#: cms/templates/course_outline.html:52 cms/templates/index.html:280
+#: cms/templates/course_outline.html:52 cms/templates/index.html:299
 msgid "Dismiss"
 msgstr "Rejeter"
 
@@ -726,7 +743,7 @@ msgid "Click to open the courseware in the LMS in a new tab"
 msgstr "Cliquer pour ouvrir le cours dans le LMS et un nouvel onglet"
 
 #: cms/templates/course_outline.html:143 cms/templates/edit-tabs.html:44
-#: cms/templates/index.html:328
+#: cms/templates/index.html:347
 msgid "View Live"
 msgstr "Aperçu réel"
 
@@ -746,58 +763,58 @@ msgstr "A votre rythme"
 msgid "Instructor-Paced"
 msgstr "Au rythme de l'instructeur"
 
-#: cms/templates/course_outline.html:193
+#: cms/templates/course_outline.html:196
 msgid "Creating your course organization"
 msgstr "Création de votre structure de cours"
 
-#: cms/templates/course_outline.html:194
+#: cms/templates/course_outline.html:197
 msgid "You add sections, subsections, and units directly in the outline."
 msgstr "Vous ajoutez sections, sous-sections et unités directement dans le plan."
 
-#: cms/templates/course_outline.html:195
+#: cms/templates/course_outline.html:198
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
 msgstr "Créez une section, puis ajoutez sous-sections et unités. Ouvrez une unité pour ajouter des composants de cours."
 
-#: cms/templates/course_outline.html:198
+#: cms/templates/course_outline.html:201
 msgid "Reorganizing your course"
 msgstr "Réorganisation de votre cours"
 
-#: cms/templates/course_outline.html:199
+#: cms/templates/course_outline.html:202
 msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr "Faites glisser les sections, sous-sections et unités à de nouveaux emplacements dans le plan."
 
-#: cms/templates/course_outline.html:201
+#: cms/templates/course_outline.html:204
 msgid "Learn more about the course outline"
 msgstr "En savoir plus à propos de l'aperçu du cours"
 
-#: cms/templates/course_outline.html:205
+#: cms/templates/course_outline.html:208
 msgid "Setting release dates and grading policies"
 msgstr "Fixer les dates de publication et les politiques de notation"
 
-#: cms/templates/course_outline.html:206
+#: cms/templates/course_outline.html:209
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr "Sélectionnez l'icône Configuration pour une section ou une sous-section pour définir sa date de publication. Lorsque vous configurez une sous-section, vous pouvez également définir le type de devoir et la date d'échéance."
 
-#: cms/templates/course_outline.html:208
+#: cms/templates/course_outline.html:211
 msgid "Learn more about grading policy settings"
 msgstr "Apprenez-en plus sur les paramètres de politique de notation"
 
-#: cms/templates/course_outline.html:212
+#: cms/templates/course_outline.html:215
 msgid "Changing the content learners see"
 msgstr "Modifier le contenu que les apprenants peuvent voir"
 
-#: cms/templates/course_outline.html:213
+#: cms/templates/course_outline.html:216
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection,"
 " or unit."
 msgstr "Pour publier une ébauche de contenu, sélectionnez l'icône Publier pour une section, une sous-section, ou une unité."
 
-#: cms/templates/course_outline.html:214
+#: cms/templates/course_outline.html:217
 msgid ""
 "To make a section, subsection, or unit unavailable to learners, select the "
 "Configure icon for that level, then select the appropriate "
@@ -805,7 +822,7 @@ msgid ""
 "units are not included in grade calculations."
 msgstr "Afin de rendre une section, sous-section ou une unité non disponible aux apprenants, sélectionnez l'icône de configuration pour ce niveau, ensuite sélectionnez l'option {em_start}Cacher{em_end} appropriée. Les notes pour les sections, sous-sections et unités cachées continuent d'être incluses dans le calcul des notes."
 
-#: cms/templates/course_outline.html:215
+#: cms/templates/course_outline.html:218
 msgid ""
 "To hide the content of a subsection from learners after the subsection due "
 "date has passed, select the Configure icon for a subsection, then select "
@@ -813,14 +830,14 @@ msgid ""
 "remain included in grade calculations."
 msgstr "Pour cacher aux apprenants le contenu d'une sous-section après que la date d'échéance de la sous-section soit passée, sélectionnez l'icône de configuration pour une sous-section, ensuite sélectionnez  {em_start}Cacher le contenu après la date d'échéance{em_end}. Les notes pour la sous-section continuent d'être incluses dans le calcul des notes. "
 
-#: cms/templates/course_outline.html:217
+#: cms/templates/course_outline.html:220
 msgid "Learn more about content visibility settings"
 msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
 #. Translators: Pages refer to the tabs that appear in the top navigation of
 #. each course.
 #: cms/templates/edit-tabs.html:11 cms/templates/edit-tabs.html:34
-#: cms/templates/export.html:121 cms/templates/widgets/header.html:62
+#: cms/templates/export.html:201 cms/templates/widgets/header.html:62
 msgid "Pages"
 msgstr "Pages"
 
@@ -944,26 +961,26 @@ msgstr "Nous sommes désolés. Il y a eu un problème avec le serveur lors l'ex�
 msgid "Back to dashboard"
 msgstr "Retour au tableau de bord"
 
-#: cms/templates/export.html:22 cms/templates/export.html:50
+#: cms/templates/export.html:22 cms/templates/export.html:46
 msgid "Library Export"
 msgstr "Export de la bibliothèque"
 
-#: cms/templates/export.html:24 cms/templates/export.html:52
+#: cms/templates/export.html:24 cms/templates/export.html:48
 msgid "Course Export"
 msgstr "Export du cours"
 
-#: cms/templates/export.html:47 cms/templates/export_git.html:16
-#: cms/templates/import.html:30 cms/templates/widgets/header.html:112
+#: cms/templates/export.html:43 cms/templates/export_git.html:16
+#: cms/templates/import.html:32 cms/templates/widgets/header.html:112
 #: cms/templates/widgets/header.html:166
 msgid "Tools"
 msgstr "Outils"
 
-#: cms/templates/export.html:64
+#: cms/templates/export.html:60
 msgid "About Exporting Libraries"
 msgstr "À propos de l'export des bibliothèques"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html:67
+#: cms/templates/export.html:63
 msgid ""
 "You can export libraries and edit them outside of {studio_name}. The "
 "exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
@@ -971,12 +988,12 @@ msgid ""
 " libraries that you've exported."
 msgstr "Vous pouvez exporter les bibliothèques et les éditer à l'extérieur de {studio_name}. Le fichier exporté est un fichier .tar.gz (donc, un fichier .tar compressé avec GNU Zip) contenant la structure et le contenue de la bibliothèque. Vous pouvez aussi réimporter les bibliothèques que vous avez exportées."
 
-#: cms/templates/export.html:72
+#: cms/templates/export.html:68
 msgid "About Exporting Courses"
 msgstr "À propos de l'export des cours"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html:75
+#: cms/templates/export.html:71
 msgid ""
 "You can export courses and edit them outside of {studio_name}. The exported "
 "file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
@@ -984,7 +1001,7 @@ msgid ""
 "that you've exported."
 msgstr "Vous pouvez exporter des cours et les éditer à l'extérieur de {studio_name}. Le fichier exporté est en format .tar.gz (i.e. un fichier .tar compressé avec GNU Zip) contenant la structure et le contenu du cours. Vous pouvez aussi ré-importer des cours que vous avez exporté."
 
-#: cms/templates/export.html:78
+#: cms/templates/export.html:74
 msgid ""
 "{em_start}Caution:{em_end} When you export a course, information such as "
 "MATLAB API keys, LTI passports, annotation secret token strings, and "
@@ -993,72 +1010,126 @@ msgid ""
 "information."
 msgstr "{em_start}Avertissement : {em_end} Quand vous exportez un cours, les informations telles que les clés API de MATLAB, les passeports LTI, les chaines de caractères d'annotations, et les URLs de stockage d'annotations sont aussi inclus dans les données exportées. Si vous partagez vos fichiers exportés, vous pourriez aussi partager de informations sensibles et des informations sur vos licences de logiciels. "
 
-#: cms/templates/export.html:89
+#: cms/templates/export.html:85
 msgid "Export My Library Content"
 msgstr "Exporter le contenu de ma bibliothèque"
 
-#: cms/templates/export.html:91
+#: cms/templates/export.html:87
 msgid "Export My Course Content"
 msgstr "Exporter le contenu de mon cours"
 
-#: cms/templates/export.html:100
+#: cms/templates/export.html:96
 msgid "Export Library Content"
 msgstr "Exporter le contenu de la bibliothèque"
 
-#: cms/templates/export.html:102
+#: cms/templates/export.html:98
 msgid "Export Course Content"
 msgstr "Exporter le contenu du cours"
 
-#: cms/templates/export.html:112
+#: cms/templates/export.html:108
+msgid "Library Export Status"
+msgstr "État d'exportation de la bibliothèque"
+
+#: cms/templates/export.html:110
+msgid "Course Export Status"
+msgstr "État d'exportation du cours"
+
+#: cms/templates/export.html:122
+msgid "Preparing"
+msgstr "Préparation"
+
+#: cms/templates/export.html:126
+msgid "Preparing to start the export"
+msgstr "Préparation du début de l'exportation"
+
+#: cms/templates/export.html:137
+msgid "Exporting"
+msgstr "Exportation"
+
+#: cms/templates/export.html:138
+msgid ""
+"Creating the export data files (You can now leave this page safely, but "
+"avoid making drastic changes to content until this export is complete)"
+msgstr "Création des fichiers d'exportation (Vous pouvez désormais quitter cette page en toute sécurité, mais évitez de faire des changements drastiques au contenu jusqu'à ce que l'exportation soit complétée)"
+
+#: cms/templates/export.html:149
+msgid "Compressing"
+msgstr "Compression"
+
+#: cms/templates/export.html:150
+msgid "Compressing the exported data and preparing it for download"
+msgstr "Compression des données exportées et préparation du téléchargement"
+
+#: cms/templates/export.html:161 cms/templates/import.html:175
+msgid "Success"
+msgstr "Opération réussie"
+
+#: cms/templates/export.html:166
+msgid "Your exported library can now be downloaded"
+msgstr "Votre bibliothèque exportée peut maintenant être téléchargée"
+
+#: cms/templates/export.html:168
+msgid "Your exported course can now be downloaded"
+msgstr "Votre cours exporté peut maintenant être téléchargé"
+
+#: cms/templates/export.html:176
+msgid "Download Exported Library"
+msgstr "Télécharger la bibliothèque exportée"
+
+#: cms/templates/export.html:178
+msgid "Download Exported Course"
+msgstr "Télécharger le cours exporté"
+
+#: cms/templates/export.html:192
 msgid "Data {em_start}exported with{em_end} your course:"
 msgstr "Données {em_start}exportées avec{em_end} votre cours : "
 
-#: cms/templates/export.html:117
+#: cms/templates/export.html:197
 msgid ""
 "Values from Advanced Settings, including MATLAB API keys and LTI passports"
 msgstr "Les valeurs des Paramètres Avancés, incluant les clés API de MATLAB et les passeports LTI"
 
-#: cms/templates/export.html:118
+#: cms/templates/export.html:198
 msgid "Course Content (all Sections, Sub-sections, and Units)"
 msgstr "Contenu du cours (toutes les sections, sous-sections et unités)"
 
-#: cms/templates/export.html:119
+#: cms/templates/export.html:199
 msgid "Course Structure"
 msgstr "Structure du cours"
 
-#: cms/templates/export.html:120
+#: cms/templates/export.html:200
 msgid "Individual Problems"
 msgstr "Problèmes individuels"
 
-#: cms/templates/export.html:122
+#: cms/templates/export.html:202
 msgid "Course Assets"
 msgstr "Activités du Cours"
 
-#: cms/templates/export.html:123
+#: cms/templates/export.html:203
 msgid "Course Settings"
 msgstr "Paramètres du cours"
 
-#: cms/templates/export.html:129
+#: cms/templates/export.html:209
 msgid "Data {em_start}not exported{em_end} with your course:"
 msgstr "Données {em_start}non exportées{em_end} de ce cours : "
 
-#: cms/templates/export.html:134
+#: cms/templates/export.html:214
 msgid "User Data"
 msgstr "Données utilisateur"
 
-#: cms/templates/export.html:135
+#: cms/templates/export.html:215
 msgid "Course Team Data"
 msgstr "Données sur l’équipe pédagogique"
 
-#: cms/templates/export.html:136
+#: cms/templates/export.html:216
 msgid "Forum/discussion Data"
 msgstr "Données du forum et discussions"
 
-#: cms/templates/export.html:146
+#: cms/templates/export.html:226
 msgid "Why export a library?"
 msgstr "Pourquoi exporter une bibliothèque ?"
 
-#: cms/templates/export.html:147
+#: cms/templates/export.html:227
 msgid ""
 "You may want to edit the XML in your library directly, outside of "
 "{studio_name}. You may want to create a backup copy of your library. Or, you"
@@ -1066,27 +1137,27 @@ msgid ""
 "another library instance and customize."
 msgstr "Vous voulez peut-être éditer à l'extérieur de {studio_name} le contenu de votre fichier XML. Vous voulez peut-être créer une copie de sauvegarde de votre cours. Ou, vous voulez peut-être créer une copie de votre cours que vous pourrez plus tard importer et personnaliser dans une instance d'un autre cours."
 
-#: cms/templates/export.html:153 cms/templates/export.html:177
+#: cms/templates/export.html:233 cms/templates/export.html:257
 msgid "Opening the downloaded file"
 msgstr "Ouverture du fichier téléchargé"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html:155
+#: cms/templates/export.html:235
 msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the library.xml file, as well as subfolders that contain "
 "library content."
 msgstr "Utilisez un logiciel de manipulation d'archives pour extraire les données du fichier .tar.gz. Les données extraites contiennent le fichier library.xml ainsi que les sous dossiers qui contiennent le contenu du cours."
 
-#: cms/templates/export.html:158
+#: cms/templates/export.html:238
 msgid "Learn more about exporting a library"
 msgstr "Apprenez-en plus sur l'export de cours"
 
-#: cms/templates/export.html:164
+#: cms/templates/export.html:244
 msgid "Why export a course?"
 msgstr "Pourquoi exporter un cours ?"
 
-#: cms/templates/export.html:165
+#: cms/templates/export.html:245
 msgid ""
 "You may want to edit the XML in your course directly, outside of "
 "{studio_name}. You may want to create a backup copy of your course. Or, you "
@@ -1094,11 +1165,11 @@ msgid ""
 "another course instance and customize."
 msgstr "Vous pouvez vouloir modifier le XML de votre cours directement, en dehors de {studio_name}. Vous pouvez aussi vouloir créer une sauvegarde de votre cours. Ou vous pouvez aussi vouloir créer une copie de votre cours que vous pourrez importer par la suite dans une autre instance et la personnaliser."
 
-#: cms/templates/export.html:171
+#: cms/templates/export.html:251
 msgid "What content is exported?"
 msgstr "Quelles sont les données exportées ?"
 
-#: cms/templates/export.html:173
+#: cms/templates/export.html:253
 msgid ""
 "The course content and structure (including sections, subsections, and "
 "units) are exported. Values from Advanced Settings, including MATLAB API "
@@ -1108,14 +1179,14 @@ msgid ""
 msgstr "Le contenu du cours et sa structure (sections, sous-sections et unités) sont exportés. Les valeurs des paramètres avancés, y compris les clés d'API MATLAB et les passeports LTI, sont aussi exportés. Les autres données, étudiants, information d'évaluation, forum de discussion, paramètres du cours et de l'équipe ne sont pas exportées."
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
-#: cms/templates/export.html:179
+#: cms/templates/export.html:259
 msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the course.xml file, as well as subfolders that contain course"
 " content."
 msgstr "Utilisez un logiciel de manipulation d'archives pour extraire les données du fichier .tar.gz. Les données extraites contiennent le fichier course.xml ainsi que les sous dossiers qui contiennent le contenu du cours."
 
-#: cms/templates/export.html:182
+#: cms/templates/export.html:262
 msgid "Learn more about exporting a course"
 msgstr "Apprenez-en plus sur l'export de cours"
 
@@ -1168,38 +1239,67 @@ msgstr "Votre cours : "
 msgid "Course git url:"
 msgstr "url git du cours : "
 
-#: cms/templates/group_configurations.html:52
-#: cms/templates/group_configurations.html:78
-#: cms/templates/visibility_editor.html:71
-msgid "Content Groups"
-msgstr "Groupes de contenu"
-
-#: cms/templates/group_configurations.html:60
-#: cms/templates/group_configurations.html:88
+#: cms/templates/group_configurations.html:66
+#: cms/templates/group_configurations.html:105
 msgid "Experiment Group Configurations"
 msgstr "Configuration des groupes"
 
-#: cms/templates/group_configurations.html:64
+#: cms/templates/group_configurations.html:70
 msgid "This module is disabled at the moment."
 msgstr "Ce module est désactivé pour le moment."
 
-#: cms/templates/group_configurations.html:79
+#: cms/templates/group_configurations.html:85
+msgid "Enrollment Track Groups"
+msgstr "Groupes de parcours d'inscription"
+
+#: cms/templates/group_configurations.html:86
+msgid ""
+"Enrollment track groups allow you to offer different course content to "
+"learners in each enrollment track. Learners enrolled in each enrollment "
+"track in your course are automatically included in the corresponding "
+"enrollment track group."
+msgstr "Les groupes de parcours d'inscription vous permettent d'offrir du contenu différent aux apprenants dans chaque parcours d'inscription. Les apprenants inscrits à chacun des parcours d'inscription de votre cours sont automatiquement inclus dans le groupe de parcours d'inscription correspondant."
+
+#: cms/templates/group_configurations.html:87
+msgid ""
+"On unit pages in the course outline, you can restrict access to components "
+"to learners based on their enrollment track."
+msgstr ""
+
+#: cms/templates/group_configurations.html:88
+msgid ""
+"You cannot edit enrollment track groups, but you can expand each group to "
+"view details of the course content that is designated for learners in the "
+"group."
+msgstr "Vous ne pouvez pas modifier les groupes de parcours d'inscription, mais vous pouvez étendre chaque groupe pour afficher les détails du contenu du cours qui sont désignés pour les apprenants du groupe."
+
+#: cms/templates/group_configurations.html:89
+#: cms/templates/group_configurations.html:99
+#: cms/templates/group_configurations.html:108
+msgid "Learn More"
+msgstr "En savoir plus"
+
+#: cms/templates/group_configurations.html:95
+msgid "Content Groups"
+msgstr "Groupes de contenu"
+
+#: cms/templates/group_configurations.html:96
 msgid ""
 "If you have cohorts enabled in your course, you can use content groups to "
 "create cohort-specific courseware. In other words, you can customize the "
 "content that particular cohorts see in your course."
 msgstr "Si vous avez activé les cohortes pour le cours, vous pouvez utiliser les groupes de contenu pour créer des modules de cours spécifiques à des cohortes. En d'autres termes, vous pouvez personnaliser le contenu que certaines cohortes peuvent voir dans le cours."
 
-#: cms/templates/group_configurations.html:80
+#: cms/templates/group_configurations.html:97
 msgid ""
 "Each content group that you create can be associated with one or more "
-"cohorts. In addition to course content that is intended for all students, "
-"you can designate some content as visible only to specified content groups. "
-"Only learners in the cohorts that are associated with the specified content "
-"groups see the additional content."
-msgstr "Chaque groupe de contenu que vous créer peut être associé à une ou plusieurs cohortes. En plus du contenu de cours qui est prévu pour tous les étudiants, vous pouvez désigner une partie du contenu visible uniquement à des groupes de contenu spécifiques.Seuls les apprenants dans les cohortes qui sont associées à des groupes de contenu spécifiques verront ce contenu additionnel."
+"cohorts. In addition to making course content available to all learners, you"
+" can restrict access to some content to learners in specific content groups."
+" Only learners in the cohorts that are associated with the specified content"
+" groups see the additional content."
+msgstr "Chaque groupe de contenu que vous créez peut être associé à une cohorte ou plus. En plus de rendre le contenu du cours disponible à tous les apprenants, vous pouvez restreindre l'accès à certains contenus à des apprenants se trouvant dans des groupes de contenu spécifiques. Seuls les apprenants dans les cohortes associées avec les groupes de contenu spécifiés peuvent voir le contenu additionnel."
 
-#: cms/templates/group_configurations.html:81
+#: cms/templates/group_configurations.html:98
 msgid ""
 "Click {em_start}New content group{em_end} to add a new content group. To "
 "edit the name of a content group, hover over its box and click "
@@ -1208,16 +1308,16 @@ msgid ""
 "delete icon."
 msgstr "Cliquer {em_start}Nouveau groupe de contenu{em_end} pour ajouter un nouveau groupe de contenu. Pour éditer le nom du groupe de contenu, passez au-dessus de sa boîte et cliquer{em_start}Éditer{em_end}. Vous pouvez supprimer un groupe de contenu uniquement s'il n'est pas utilisé par une unité. Pour supprimer un groupe de contenu, passez au-dessus de sa boite et cliquer l'icône supprimer."
 
-#: cms/templates/group_configurations.html:89
+#: cms/templates/group_configurations.html:106
 msgid ""
 "Use experiment group configurations if you are conducting content "
 "experiments, also known as A/B testing, in your course. Experiment group "
-"configurations define how many groups of students are in a content "
+"configurations define how many groups of learners are in a content "
 "experiment. When you create a content experiment for a course, you select "
 "the group configuration to use."
-msgstr "Utilisez les configurations de groupe de test de contenu si vous faites des tests, aussi connu sous test A/B, dans votre cours. Les configurations de test de contenu définissent combien de groupes d'étudiants sont dans un test de contenu. Quand vous créez un test de contenu pour un cours, vous sélectionnes la configuration de groupe à essayer."
+msgstr ""
 
-#: cms/templates/group_configurations.html:90
+#: cms/templates/group_configurations.html:107
 msgid ""
 "Click {em_start}New Group Configuration{em_end} to add a new configuration. "
 "To edit a configuration, hover over its box and click "
@@ -1226,7 +1326,7 @@ msgid ""
 "and click the delete icon."
 msgstr "Cliquer {em_start}Nouvelle configuration de groupe{em_end} pour ajouter une nouvelle configuration. Pour éditer une configuration, passez au-dessus de sa boite et cliquer {em_start}Éditer{em_end}. Vous pouvez supprimer une configuration de groupe uniquement si elle n'est pas utilisée. Pour supprimer une configuration, passez au-dessus de sa boite et cliquer l'icône supprimer."
 
-#: cms/templates/group_configurations.html:106
+#: cms/templates/group_configurations.html:124
 #: cms/templates/settings_advanced.html:104
 msgid "Details & Schedule"
 msgstr "Détails & Horaire"
@@ -1442,15 +1542,15 @@ msgid ""
 "to fix the error."
 msgstr "Les étudiants ne seront pas en mesure d'accéder à ce composant. Modifiez votre composant pour corriger l'erreur."
 
-#: cms/templates/import.html:19 cms/templates/import.html:33
+#: cms/templates/import.html:21 cms/templates/import.html:35
 msgid "Library Import"
 msgstr "Importer une bibliothèque"
 
-#: cms/templates/import.html:21 cms/templates/import.html:35
+#: cms/templates/import.html:23 cms/templates/import.html:37
 msgid "Course Import"
 msgstr "Import de Cours"
 
-#: cms/templates/import.html:47
+#: cms/templates/import.html:49
 msgid ""
 "Be sure you want to import a library before continuing. The contents of the "
 "imported library will replace the contents of the existing library. "
@@ -1459,14 +1559,14 @@ msgid ""
 "copy of it."
 msgstr "Soyez certain que vous voulez importer une bibliothèque avant de continuer. Le contenu de la bibliothèque importée remplacera le contenu de la bibliothèque existante. {em_start}Vous ne pouvez annuler un import de bibliothèques{em_end}. Avant de procéder, nous recommandons que vous exportiez la bibliothèque existante, de façon à ce que vous ayez une copie de sauvegarde de celle-ci."
 
-#: cms/templates/import.html:48
+#: cms/templates/import.html:50
 msgid ""
 "The library that you import must be in a .tar.gz file (that is, a .tar file "
 "compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
 " It may also contain other files."
 msgstr "La bibliothèque que vous importez doit être un fichier au format .tar.gz (c-à-d. un fichier .tar compressé au format GNU Zip). Ce fichier .tar.gz doit contenir un fichier library.xml. Il peut également contenir d'autres fichiers."
 
-#: cms/templates/import.html:49
+#: cms/templates/import.html:51
 msgid ""
 "The import process has five stages. During the first two stages, you must "
 "stay on this page. You can leave this page after the Unpacking stage has "
@@ -1474,7 +1574,7 @@ msgid ""
 "your library until the import operation has completed."
 msgstr "Le processus d'importation comprend cinq étapes. Durant les deux premières étapes, vous devez rester sur cette page. Vous pouvez quitter cette page dès que l'étape de décompression est achevée. Cependant, nous vous recommandons de ne pas faire de modifications importantes à votre bibliothèque avant que l'opération d'importation ne soit complètement terminée."
 
-#: cms/templates/import.html:51
+#: cms/templates/import.html:53
 msgid ""
 "Be sure you want to import a course before continuing. The contents of the "
 "imported course will replace the contents of the existing course. "
@@ -1483,14 +1583,14 @@ msgid ""
 " of it."
 msgstr "Soyez certain que vous voulez importer un cours avant de continuer. Le contenu du cours importé remplacera le contenu du cours existant. {em_start}Vous ne pouvez annuler un import de cours{em_end}. Avant de procéder, nous recommandons que vous exportiez le cours existant, de façon à ce que vous ayez une copie de sauvegarde de celui-ci."
 
-#: cms/templates/import.html:52
+#: cms/templates/import.html:54
 msgid ""
 "The course that you import must be in a .tar.gz file (that is, a .tar file "
 "compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
 "It may also contain other files."
 msgstr "Le cours que vous importez doit être un fichier au format .tar.gz (c-à-d. un fichier .tar compressé au format GNU Zip). Ce fichier .tar.gz doit contenir un fichier course.xml. Il peut également contenir d'autres fichiers."
 
-#: cms/templates/import.html:53
+#: cms/templates/import.html:55
 msgid ""
 "The import process has five stages. During the first two stages, you must "
 "stay on this page. You can leave this page after the Unpacking stage has "
@@ -1498,121 +1598,117 @@ msgid ""
 "your course until the import operation has completed."
 msgstr "Le processus d'importation comprend cinq étapes. Durant les deux premières étapes, vous devez rester sur cette page. Vous pouvez quitter cette page dès que l'étape de décompression est achevée. Cependant, nous vous recommandons de ne pas faire de modifications importantes à votre cours avant que l'opération d'importation ne soit complètement terminée."
 
-#: cms/templates/import.html:63
+#: cms/templates/import.html:65
 msgid "Select a .tar.gz File to Replace Your Library Content"
 msgstr "Sélectionner un fichier .tar.gz afin de remplacer le contenu de votre bibliothèque"
 
-#: cms/templates/import.html:65
+#: cms/templates/import.html:67
 msgid "Select a .tar.gz File to Replace Your Course Content"
 msgstr "Sélectionnez un fichier .tar.gz pour remplacer le contenu de votre cours"
 
-#: cms/templates/import.html:73
+#: cms/templates/import.html:75
 msgid "Choose a File to Import"
 msgstr "Choisisser un fichier à importer"
 
-#: cms/templates/import.html:78
+#: cms/templates/import.html:80
 msgid "File Chosen:"
 msgstr "Fichier choisi : "
 
-#: cms/templates/import.html:86
+#: cms/templates/import.html:88
 msgid "Replace my library with the selected file"
 msgstr "Remplacer ma bibliothèque par le fichier sélectionné"
 
-#: cms/templates/import.html:88
+#: cms/templates/import.html:90
 msgid "Replace my course with the selected file"
 msgstr "Remplacer mon cours par le fichier sélectionné"
 
-#: cms/templates/import.html:96
+#: cms/templates/import.html:98
 msgid "Library Import Status"
 msgstr "Statut de l’import de la bibliothèque"
 
-#: cms/templates/import.html:98
+#: cms/templates/import.html:100
 msgid "Course Import Status"
 msgstr "Statut de l’import du cours"
 
-#: cms/templates/import.html:110
+#: cms/templates/import.html:112
 msgid "Uploading"
 msgstr "Téléversement en cours"
 
-#: cms/templates/import.html:114
+#: cms/templates/import.html:116
 msgid "Transferring your file to our servers"
 msgstr "Transfert de votre fichier vers nos serveurs en cours"
 
-#: cms/templates/import.html:125
+#: cms/templates/import.html:127
 msgid "Unpacking"
 msgstr "Décompression"
 
-#: cms/templates/import.html:126
+#: cms/templates/import.html:128
 msgid ""
 "Expanding and preparing folder/file structure (You can now leave this page "
 "safely, but avoid making drastic changes to content until this import is "
 "complete)"
 msgstr "Expansion et préparation de la structure dossier/fichier (Vous pouvez maintenant quitter cette page en toute sécurité, mais évitez de faire des modifications cruciales au contenu avant que cette importation ne soit terminée)."
 
-#: cms/templates/import.html:138
+#: cms/templates/import.html:140
 msgid "Verifying"
 msgstr "Vérification en cours"
 
-#: cms/templates/import.html:139
+#: cms/templates/import.html:141
 msgid "Reviewing semantics, syntax, and required data"
 msgstr "Contrôle de la sémantique, de la syntaxe et des données requises"
 
-#: cms/templates/import.html:152
+#: cms/templates/import.html:154
 msgid "Updating Library"
 msgstr "Mise à jour de la bibliothèque"
 
-#: cms/templates/import.html:154
+#: cms/templates/import.html:156
 msgid "Updating Course"
 msgstr "Mise à jour du cours en cours"
 
-#: cms/templates/import.html:159
+#: cms/templates/import.html:161
 msgid ""
 "Integrating your imported content into this library. This process might take"
 " longer with larger libraries."
 msgstr "Intégration de votre contenu importé dans cette bibliothèque. Ce processus peut prendre plus de temps avec les plus grosses bibliothèques."
 
-#: cms/templates/import.html:161
+#: cms/templates/import.html:163
 msgid ""
 "Integrating your imported content into this course. This process might take "
 "longer with larger courses."
 msgstr "Intégration de votre contenu importé dans ce cours. Ce processus peut prendre plus de temps avec les plus gros cours."
 
-#: cms/templates/import.html:173
-msgid "Success"
-msgstr "Opération réussie"
-
-#: cms/templates/import.html:178
+#: cms/templates/import.html:180
 msgid "Your imported content has now been integrated into this library"
 msgstr "Votre contenu importé est maintenant intégré dans cette bibliothèque"
 
-#: cms/templates/import.html:180
+#: cms/templates/import.html:182
 msgid "Your imported content has now been integrated into this course"
 msgstr "Votre contenu importé a été incorporé à ce cours"
 
-#: cms/templates/import.html:188
+#: cms/templates/import.html:190
 msgid "View Updated Library"
 msgstr "Voir la bibliothèque mise à jour"
 
-#: cms/templates/import.html:190
+#: cms/templates/import.html:192
 msgid "View Updated Outline"
 msgstr "Visualiser le plan mis à jour"
 
-#: cms/templates/import.html:205
+#: cms/templates/import.html:207
 msgid "Why import a library?"
 msgstr "Pourquoi importer une bibliothèque ?"
 
-#: cms/templates/import.html:206
+#: cms/templates/import.html:208
 msgid ""
 "You might want to update an existing library to a new version, or replace an"
 " existing library entirely. You might also have developed a library outside "
 "of {studio_name}."
 msgstr "Vous pourriez vouloir mettre à jour une bibliothèque existante à une nouvelle version ou remplacer entièrement une bibliothèque existante. Vous pourriez aussi vouloir développer une bibliothèque à l'extérieur de {studio_name}."
 
-#: cms/templates/import.html:210
+#: cms/templates/import.html:212
 msgid "Note: Library content is not automatically updated in courses"
 msgstr "Prendre note : le contenu des bibliothèques n'est pas automatiquement mis à jour dans les cours"
 
-#: cms/templates/import.html:211
+#: cms/templates/import.html:213
 msgid ""
 "If you change and import a library that is referenced by randomized content "
 "blocks in one or more courses, those courses do not automatically use the "
@@ -1620,26 +1716,26 @@ msgid ""
 "bring them up to date with the latest library content."
 msgstr "Si vous changez et importez une bibliothèque qui est référencée par des blocs de contenus aléatoires dans un ou plusieurs cours, ces cours n'utilisent pas automatiquement le contenu mis à jour. Vous devez manuellement rafraichir les blocs de contenus aléatoires afin de les mettre à jour avec le contenu le plus récent de la bibliothèque."
 
-#: cms/templates/import.html:214
+#: cms/templates/import.html:216
 msgid "Learn more about importing a library"
 msgstr "En savoir plus sur l'importation d'une bibliothèque"
 
-#: cms/templates/import.html:220
+#: cms/templates/import.html:222
 msgid "Why import a course?"
 msgstr "Pourquoi importer un cours ?"
 
-#: cms/templates/import.html:221
+#: cms/templates/import.html:223
 msgid ""
 "You may want to run a new version of an existing course, or replace an "
 "existing course altogether. Or, you may have developed a course outside "
 "{studio_name}."
 msgstr "Vous pourriez avoir envie d'exécuter une nouvelle version d'un cours existant, ou de remplacer entièrement un cours existant. Vous pourriez aussi vouloir développer un cours à l'extérieur de {studio_name}."
 
-#: cms/templates/import.html:225
+#: cms/templates/import.html:227
 msgid "What content is imported?"
 msgstr "Quelle sont les données importées ?"
 
-#: cms/templates/import.html:226
+#: cms/templates/import.html:228
 msgid ""
 "Only the course content and structure (including sections, subsections, and "
 "units) are imported. Other data, including student data, grading "
@@ -1647,11 +1743,11 @@ msgid ""
 "information, remains the same as it was in the existing course."
 msgstr "Seuls la structure et le contenu (incluant les sections, sous-sections, et unités) du cours sont importés. Les autres données, dont les informations des étudiants, les notes, les discussions du forum, les paramètres du cours, et les informations sur l'équipe pédagogique, restent identiques à celles du cours existant."
 
-#: cms/templates/import.html:230
+#: cms/templates/import.html:232
 msgid "Warning: Importing while a course is running"
 msgstr "Attention : Importation alors qu'un cours est en cours d'exécution."
 
-#: cms/templates/import.html:231
+#: cms/templates/import.html:233
 msgid ""
 "If you perform an import while your course is running, and you change the "
 "URL names (or url_name nodes) of any Problem components, the student data "
@@ -1659,7 +1755,7 @@ msgid ""
 "students' problem scores."
 msgstr "Si vous faites une importation pendant qu'un cours est en train de s'exécuter, et que vous changez les noms d'URL (ou les noeuds url_name) de n'importe quels composants de problème, les données des étudiants associées à ces composantes peuvent être perdues. Ces données incluent les points des étudiants pour le problème."
 
-#: cms/templates/import.html:234
+#: cms/templates/import.html:236
 msgid "Learn more about importing a course"
 msgstr "En savoir plus sur l'importation d'un cours"
 
@@ -1776,16 +1872,28 @@ msgid ""
 "allowed.{strong_end} This cannot be changed."
 msgstr "Le code unique qui identifie votre bibiothèque. {strong_start}Note : Ceci fait partie du URL de votre bibliothèque, aucun espace ou caractères spéciaux ne sont permis.{strong_end}Ne peux être modifié."
 
-#: cms/templates/index.html:189
+#: cms/templates/index.html:188
+msgid "Organization and Library Settings"
+msgstr "Paramètres d'organisation et de la bibliothèque"
+
+#: cms/templates/index.html:192
+msgid "Show all courses in organization:"
+msgstr "Afficher tous les cours dans l'organisation :"
+
+#: cms/templates/index.html:194
+msgid "For example, MITx"
+msgstr "Par exemple, MITx"
+
+#: cms/templates/index.html:208
 msgid "Courses Being Processed"
 msgstr "Cours en cours de traitement"
 
-#: cms/templates/index.html:209 cms/templates/index.html:255
-#: cms/templates/index.html:316
+#: cms/templates/index.html:228 cms/templates/index.html:274
+#: cms/templates/index.html:335
 msgid "Course Run:"
 msgstr "Cours dispensé : "
 
-#: cms/templates/index.html:215
+#: cms/templates/index.html:234
 msgid "This course run is currently being created."
 msgstr "Création de cette session de cours..."
 
@@ -1794,11 +1902,11 @@ msgstr "Création de cette session de cours..."
 #. requested to re-run an existing course, and the system is currently
 #. in the process of duplicating and configuring the existing course
 #. so that it can be re-run.
-#: cms/templates/index.html:223
+#: cms/templates/index.html:242
 msgid "Configuring as re-run"
 msgstr "Configuré comme relancé"
 
-#: cms/templates/index.html:229
+#: cms/templates/index.html:248
 msgid ""
 "The new course will be added to your course list in 5-10 minutes. Return to "
 "this page or {link_start}refresh it{link_end} to update the course list. The"
@@ -1809,52 +1917,52 @@ msgstr "Le nouveau cours va être ajouté à votre liste de cours dans 5-10 minu
 #. When a course admin indicates that a course should be re-run, the system
 #. needs to process the request and prepare the new course. The status of
 #. the process will follow this text.
-#: cms/templates/index.html:265
+#: cms/templates/index.html:284
 msgid "This re-run processing status:"
 msgstr "Statut du traitement de relancement : "
 
-#: cms/templates/index.html:268
+#: cms/templates/index.html:287
 msgid "Configuration Error"
 msgstr "Erreur de configuration"
 
-#: cms/templates/index.html:274
+#: cms/templates/index.html:293
 msgid ""
 "A system error occurred while your course was being processed. Please go to "
 "the original course to try the re-run again, or contact your PM for "
 "assistance."
 msgstr "Une erreur système s'est produite pendant le traitement de votre cours . Veuillez s'il vous plaît aller au cours original pour essayer de le relancer, ou contactez votre Gestionnaire de Projet pour obtenir une assistance."
 
-#: cms/templates/index.html:295
+#: cms/templates/index.html:314
 msgid "Libraries"
 msgstr "Bibliothèques"
 
-#: cms/templates/index.html:324
+#: cms/templates/index.html:343
 msgid "Re-run Course"
 msgstr "Relancer le cours"
 
-#: cms/templates/index.html:340
+#: cms/templates/index.html:359
 msgid "Are you staff on an existing {studio_name} course?"
 msgstr "Êtes vous membre d'une équipe pédagogique d'un cours {studio_name}  ?"
 
-#: cms/templates/index.html:342
+#: cms/templates/index.html:361
 msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
 msgstr "Le créateur du cours doit vous donner accès au cours. Contacter le créateur ou l'administateur du cours que vous aidez à créer."
 
-#: cms/templates/index.html:350 cms/templates/index.html:358
+#: cms/templates/index.html:369 cms/templates/index.html:377
 msgid "Create Your First Course"
 msgstr "Créer votre premier cours"
 
-#: cms/templates/index.html:352
+#: cms/templates/index.html:371
 msgid "Your new course is just a click away!"
 msgstr "Votre nouveau cours en un clic !"
 
-#: cms/templates/index.html:371
+#: cms/templates/index.html:390
 msgid "Becoming a Course Creator in {studio_name}"
 msgstr "Devenir un créateur de cours dans {studio_name}"
 
-#: cms/templates/index.html:376
+#: cms/templates/index.html:395
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected"
 " guests. Courses for which you are a team member appear above for you to "
@@ -1863,20 +1971,20 @@ msgid ""
 "during the work week."
 msgstr "{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, tant que les privilège de créateur de cours sont permis par {platform_name}. Notre équipe évaluera votre demande et vous donnera une rétroaction à l'intérieur de 24 heures pendant la semaine de travail."
 
-#: cms/templates/index.html:381 cms/templates/index.html:406
-#: cms/templates/index.html:434
+#: cms/templates/index.html:400 cms/templates/index.html:425
+#: cms/templates/index.html:453
 msgid "Your Course Creator Request Status:"
 msgstr "Statut de votre requête de création de cours : "
 
-#: cms/templates/index.html:385
+#: cms/templates/index.html:404
 msgid "Request the Ability to Create Courses"
 msgstr "Demander la permission de créer des cours"
 
-#: cms/templates/index.html:395 cms/templates/index.html:423
+#: cms/templates/index.html:414 cms/templates/index.html:442
 msgid "Your Course Creator Request Status"
 msgstr "Statut de votre requête de création de cours"
 
-#: cms/templates/index.html:400
+#: cms/templates/index.html:419
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected"
 " guests. Courses for which you are a team member appear above for you to "
@@ -1884,21 +1992,21 @@ msgid ""
 "team is has completed evaluating your request."
 msgstr "{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, tant que les privilège de créateur de cours sont permis par {platform_name}. Notre équipe a complété l'évaluation de votre demande."
 
-#: cms/templates/index.html:409 cms/templates/index.html:437
+#: cms/templates/index.html:428 cms/templates/index.html:456
 msgid "Your Course Creator request is:"
 msgstr "Votre requête de création de cours est : "
 
-#: cms/templates/index.html:412
+#: cms/templates/index.html:431
 msgid "Denied"
 msgstr "Refusé"
 
-#: cms/templates/index.html:413
+#: cms/templates/index.html:432
 msgid ""
 "Your request did not meet the criteria/guidelines specified by "
 "{platform_name} Staff."
 msgstr "Votre requête ne satisfait pas les critères/directives spécifiées par l'équipe {platform_name}."
 
-#: cms/templates/index.html:428
+#: cms/templates/index.html:447
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected"
 " guests. Courses for which you are a team member appear above for you to "
@@ -1906,45 +2014,45 @@ msgid ""
 "team is currently  evaluating your request."
 msgstr "{studio_name} est une solution hébergée pour nos partenaires du xConsortium et des invités sélectionnés. Les cours pour lesquels vous êtes un membre de l'équipe apparaissent ci-haut pour édition, tant que les privilège de créateur de cours sont permis par {platform_name}. Notre équipe évalue présentement votre demande."
 
-#: cms/templates/index.html:440
+#: cms/templates/index.html:459
 msgid "Pending"
 msgstr "En attente"
 
-#: cms/templates/index.html:442
+#: cms/templates/index.html:461
 msgid ""
 "Your request is currently being reviewed by {platform_name} staff and should"
 " be updated shortly."
 msgstr "Votre demande est en cours de révision par l'équipe {platform_name} et devrait être mise à jour prochainement."
 
-#: cms/templates/index.html:468
+#: cms/templates/index.html:487
 msgid "(Read-only)"
 msgstr "(Lecture-seule)"
 
-#: cms/templates/index.html:481
+#: cms/templates/index.html:500
 msgid "Were you expecting to see a particular library here?"
 msgstr "Vous attendiez-vous à voir une bibliothèque particulière ici?"
 
-#: cms/templates/index.html:483
+#: cms/templates/index.html:502
 msgid ""
 "The library creator must give you access to the library. Contact the library"
 " creator or administrator for the library you are helping to author."
 msgstr "Le créateur de la bibliothèque doit vous donner accès à la bibliothèque. Contactez le créateur ou l'administrateur de la bibliothèque que vous contribuez à créer."
 
-#: cms/templates/index.html:490 cms/templates/index.html:498
+#: cms/templates/index.html:509 cms/templates/index.html:517
 msgid "Create Your First Library"
 msgstr "Créer votre première bibliothèque"
 
-#: cms/templates/index.html:492
+#: cms/templates/index.html:511
 msgid ""
 "Libraries hold a pool of components that can be re-used across multiple "
 "courses. Create your first library with the click of a button!"
 msgstr "Les Bibliothèques contiennent des composants pouvant être utilisés au sein de plusieurs cours. Créer votre première Bibliothèque!"
 
-#: cms/templates/index.html:509
+#: cms/templates/index.html:528
 msgid "New to {studio_name}?"
 msgstr "Nouveau sur {studio_name}?"
 
-#: cms/templates/index.html:510
+#: cms/templates/index.html:529
 msgid ""
 "Click Help in the upper-right corner to get more information about the "
 "{studio_name} page you are viewing. You can also use the links at the bottom"
@@ -1952,53 +2060,53 @@ msgid ""
 "{studio_name} resources."
 msgstr "Cliquer Aide dans le coin supérieur droit afin d'obtenir plus d'information sur la page {studio_name} que vous visualisez. Vous pouvez aussi utiliser les liens au bas de la page afin d'accéder à notre documentation continuellement mise-à-jour et autres ressources {studio_name}."
 
-#: cms/templates/index.html:515
+#: cms/templates/index.html:534
 msgid "Getting Started with {studio_name}"
 msgstr "Démarrer avec {studio_name} (en anglais)"
 
-#: cms/templates/index.html:522 cms/templates/index.html:534
-#: cms/templates/index.html:540
+#: cms/templates/index.html:541 cms/templates/index.html:553
+#: cms/templates/index.html:559
 msgid "Can I create courses in {studio_name}?"
 msgstr "Puis je créer des cours dans {studio_name}?"
 
-#: cms/templates/index.html:523
+#: cms/templates/index.html:542
 msgid ""
 "In order to create courses in {studio_name}, you must {link_start}contact "
 "{platform_name} staff to help you create a course{link_end}."
 msgstr "Pour créer des cours dans {studio_name}, vous devez {link_start}contacter l'équipe {platform_name} pour vous aider à créer un cours{link_end}."
 
-#: cms/templates/index.html:535
+#: cms/templates/index.html:554
 msgid ""
 "In order to create courses in {studio_name}, you must have course creator "
 "privileges to create your own course."
 msgstr "Pour créer des cours dans {studio_name}, vous devez disposer des droits de créateur de cours."
 
-#: cms/templates/index.html:541
+#: cms/templates/index.html:560
 msgid ""
 "Your request to author courses in {studio_name} has been denied. Please "
 "{link_start}contact {platform_name} Staff with further questions{link_end}."
 msgstr "Votre demande pour obtenir les droits de création de cours dans {studio_name} a été refusée. S'il vous plaît {link_start}contacter l'équipe pédagogique de {platform_name} avec vos questions{link_end}."
 
-#: cms/templates/index.html:558
+#: cms/templates/index.html:577
 msgid "Thanks for signing up, {name}!"
 msgstr "Merci pour votre inscription, {name}!"
 
-#: cms/templates/index.html:563
+#: cms/templates/index.html:582
 msgid "We need to verify your email address"
 msgstr "Nous devons vérifier votre adresse courriel"
 
-#: cms/templates/index.html:565
+#: cms/templates/index.html:584
 msgid ""
 "Almost there! In order to complete your sign up we need you to verify your "
 "email address ({email}). An activation message and next steps should be "
 "waiting for you there."
 msgstr "On y est presque ! Afin de finaliser votre inscription, nous devons vérifier votre adresse courriel ({email}). Un message d'activation et la suite de la procédure vous attendent dans votre messagerie."
 
-#: cms/templates/index.html:573
+#: cms/templates/index.html:592
 msgid "Need help?"
 msgstr "Besoin d'aide ?"
 
-#: cms/templates/index.html:574
+#: cms/templates/index.html:593
 msgid ""
 "Please check your Junk or Spam folders in case our email isn't in your "
 "INBOX. Still can't find the verification email? Request help via the link "
@@ -2441,8 +2549,9 @@ msgstr "Langue du cours"
 #: cms/templates/settings.html:287
 msgid ""
 "Identify the course language here. This is used to assist users find courses"
-" that are taught in a specific language."
-msgstr "Identifier la langue du cours ici. Cela est utilisé pour aider les utilisateurs à trouver des cours qui sont enseignées dans une langue spécifique."
+" that are taught in a specific language. It is also used to localize the "
+"'From:' field in bulk emails."
+msgstr "Identifiez la langue du cours ici. Cela est utilisé pour aider les utilisateurs à trouver des cours qui sont enseignés dans une langue spécifique. C'est aussi utilisé pour localiser le champ 'De:' dans les courriels de masse."
 
 #: cms/templates/settings.html:296
 msgid "Introducing Your Course"
@@ -2630,10 +2739,6 @@ msgstr "AJouter les résultats d'apprentissage pour ce cours"
 #: cms/templates/settings.html:482
 msgid "Add Learning Outcome"
 msgstr "Ajouter un résultat d'apprentissage"
-
-#: cms/templates/settings.html:490
-msgid "Instructors"
-msgstr "Enseignants"
 
 #: cms/templates/settings.html:491
 msgid "Add details about the instructors for this course"
@@ -2884,20 +2989,20 @@ msgid ""
 "worth."
 msgstr "Vous pouvez aussi créer des types de tâches , comme des devoirs, des laboratoires, des quiz, des examens et préciser la valeur des points pour chacune de ces tâches."
 
-#: cms/templates/studio_xblock_wrapper.html:59
-#: cms/templates/studio_xblock_wrapper.html:61
+#: cms/templates/studio_xblock_wrapper.html:60
+#: cms/templates/studio_xblock_wrapper.html:62
 msgid "Expand or Collapse"
 msgstr "Déplier ou Replier"
 
-#: cms/templates/studio_xblock_wrapper.html:79
-msgid "Visibility Settings"
-msgstr "Réglages de visibilité"
+#: cms/templates/studio_xblock_wrapper.html:85
+msgid "Access Settings"
+msgstr "Paramètres d'accès"
 
-#: cms/templates/studio_xblock_wrapper.html:81
-msgid "Visibility"
-msgstr "Visibilité"
+#: cms/templates/studio_xblock_wrapper.html:87
+msgid "Set Access"
+msgstr "Définir l'accès"
 
-#: cms/templates/studio_xblock_wrapper.html:123
+#: cms/templates/studio_xblock_wrapper.html:140
 msgid "This block contains multiple components."
 msgstr "Ce block contient des composants multiples."
 
@@ -2937,16 +3042,16 @@ msgstr "Si votre manuel n'a pas de chapitres individuels, vous pouvez envoyer le
 msgid "Learn more about textbooks"
 msgstr "En savoir plus à propos des manuels"
 
-#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:49
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:52
 #: cms/templates/widgets/header.html:72
 msgid "Video Uploads"
 msgstr "Téléversements des vidéos"
 
-#: cms/templates/videos_index.html:69
+#: cms/templates/videos_index.html:72
 msgid "Why upload video files?"
 msgstr "Pourquoi téléverser des fichiers vidéos?"
 
-#: cms/templates/videos_index.html:70
+#: cms/templates/videos_index.html:73
 msgid ""
 "For a video to play on different devices, it needs to be available in "
 "multiple formats. After you upload an original video file in {file_formats} "
@@ -2954,32 +3059,32 @@ msgid ""
 "and stores them for you."
 msgstr "Pour qu'une vidéo puisse jouer sur différents appareils, elle doit être disponible en plusieurs formats. Après avoir téléversé le fichier original en format {file_formats} sur cette page, un processus automatisé crée les formats additionnels et les sauvegarde pour vous."
 
-#: cms/templates/videos_index.html:73
+#: cms/templates/videos_index.html:76
 msgid "Maximum Video File Size"
 msgstr "Taille maximum du fichier vidéo"
 
-#: cms/templates/videos_index.html:74
+#: cms/templates/videos_index.html:77
 msgid ""
 "The maximum size for each video file that you upload is {em_start}5 "
 "GB{em_end}. The upload process fails for larger files."
 msgstr "La taille maximum pour chaque fichier vidéo téléversé est de {em_start}5 Go{em_end}. Le processus de téléversement échoue pour de plus gros fichiers."
 
-#: cms/templates/videos_index.html:78
+#: cms/templates/videos_index.html:81
 msgid "Monitoring files as they upload"
 msgstr "Suivre le téléversements des fichiers"
 
-#: cms/templates/videos_index.html:79
+#: cms/templates/videos_index.html:82
 msgid ""
 "Each video file that you upload needs to reach the video processing servers "
 "successfully before additional work can begin. You can monitor the progress "
 "of files as they upload, and try again if the upload fails."
 msgstr "Chaque fichier vidéo que vous téléverser a besoin d'accéder avec succès aux serveurs de traitement vidéo avant que ne puisse commencer des travaux supplémentaires. Vous pouvez suivre le progrès des fichiers pendant le téléversement, et essayer de nouveau s'il échoue."
 
-#: cms/templates/videos_index.html:80
+#: cms/templates/videos_index.html:83
 msgid "Managing uploaded files"
 msgstr "Gestion des fichiers téléversés"
 
-#: cms/templates/videos_index.html:81
+#: cms/templates/videos_index.html:84
 msgid ""
 "After a file uploads successfully, automated processing begins. The file is "
 "then listed under Previous Uploads as {em_start}In Progress{em_end}. You can"
@@ -2988,17 +3093,17 @@ msgid ""
 " external video hosting sites to complete."
 msgstr "Après qu'un fichier ait été téléversé avec succès, le traitement automatisé débute. Le fichier est alors énuméré sous Téléversements Précédents comme {em_start}En Progrès{em_end}. Vous pouvez ajouter le vidéo à votre cours aussitôt qu'il a un identifiant de vidéo unique et le statut {em_start}Prêt{em_end}. Attendre 24 heures pour que se termine le traitement des fichiers sur le site externe d'hébergement de vidéos."
 
-#: cms/templates/videos_index.html:85
+#: cms/templates/videos_index.html:88
 msgid ""
 "If something goes wrong, the {em_start}Failed{em_end} status message "
 "appears. Check for problems in your original file and upload a replacement."
 msgstr "Si quelque chose va mal, le statut {em_start}Échoué{em_end} apparait. Vérifiez les problèmes dans votre fichier d'origine et téléverser un remplacement."
 
-#: cms/templates/videos_index.html:89
+#: cms/templates/videos_index.html:92
 msgid "How do I get the videos into my course?"
 msgstr "Comment puis-je ajouter des vidéos dans mon cours?"
 
-#: cms/templates/videos_index.html:90
+#: cms/templates/videos_index.html:93
 msgid ""
 "When the status for a file is {em_start}Ready{em_end}, you can add that "
 "video to a component in your course. Copy the unique video ID. In another "
@@ -3010,66 +3115,70 @@ msgid ""
 msgstr "Quand le statut d'un fichier est {em_start}Prêt{em_end}, vous pouvez ajouter cette vidéo dans un composant de votre cours. Copiez l'identifiant unique de la vidéo. Dans une autre fenêtre du navigateur, sur la page du plan de cours, créez ou trouvez un composant vidéo pour faire jouer cette vidéo. Éditez le composant vidéo afin d'y coller l'identifiant dans le champ avancé {em_start}Video ID{em_end}. Le vidéo peut s'exécuter dans le LMS dès que son statut est {em_start}Prêt{em_end}, même si le traitement n'est pas encore complet pour tous les encodages et tous les sites d'hébergement de vidéos."
 
 #: cms/templates/visibility_editor.html:19
-msgid "No content groups exist"
-msgstr "Il n'existe aucun groupe de contenu"
+#: cms/templates/visibility_editor.html:57
+msgid "Access is not restricted"
+msgstr "L'accès n'est pas restreint"
 
-#: cms/templates/visibility_editor.html:22
+#: cms/templates/visibility_editor.html:21
 msgid ""
-"Use content groups to give groups of students access to a specific set of "
-"course content. Create one or more content groups, and make specific "
-"components visible to them."
-msgstr "Utilisez les groupes de contenu afin de donner à des groupes d'étudiants accès à du contenu de cours spécifique. Créer un ou plusieurs groupes de contenu, et créer des composants spécifiques visibles pour ceux-ci."
+"Access to this component is not restricted, but visibility might be affected"
+" by inherited settings."
+msgstr "L'accès à ce composant n'est pas restreint, mais la visibilité peut être affectée par les paramètres hérités."
 
-#: cms/templates/visibility_editor.html:26
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"You can restrict access to this component to learners in specific enrollment"
+" tracks or content groups."
+msgstr "Vous pouvez restreindre l'accès à ce composant à des apprenants dans des parcours d'inscription ou des groupes de contenu spécifiques."
+
+#: cms/templates/visibility_editor.html:25
+msgid ""
+"You can restrict access to this component to learners in specific content "
+"groups."
+msgstr "Vous pouvez restreindre l'accès à ce composant à des apprenants dans des groupes de contenu spécifiques."
+
+#: cms/templates/visibility_editor.html:30
 msgid "Manage content groups"
 msgstr "Gérer les groupes de contenus"
 
 #. Translators: Any text between {screen_reader_start} and {screen_reader_end}
 #. is only read by screen readers and never shown in the browser.
-#: cms/templates/visibility_editor.html:34
+#: cms/templates/visibility_editor.html:38
 msgid ""
-"{screen_reader_start}Warning:{screen_reader_end} The Unit this component is "
-"contained in is hidden from students. Visibility settings here will be "
-"trumped by this."
-msgstr "{screen_reader_start}Avertissement : {screen_reader_end} L'unité de ce composant est contenu est caché des étudiants. Les paramètres de visibilité vont être remplacés par cela."
+"{screen_reader_start}Warning:{screen_reader_end} The unit that contains this"
+" component is hidden from learners. The unit setting overrides the component"
+" access settings defined here."
+msgstr "{screen_reader_start}Avertissement :{screen_reader_end} L'unité qui contient ce composant est cachée aux apprenants. Le réglage de l'unité remplace les paramètres d'accès aux composants définis ici."
 
-#: cms/templates/visibility_editor.html:50
-msgid "Make visible to:"
-msgstr "Rendre visible pour : "
+#: cms/templates/visibility_editor.html:62
+msgid "Access is restricted to:"
+msgstr "L'accès est restreint à :"
 
-#: cms/templates/visibility_editor.html:58
-msgid "All Students and Staff"
-msgstr "Tous les étudiants et l'équipe de cours"
+#: cms/templates/visibility_editor.html:68
+msgid "Restrict access to:"
+msgstr "Restreindre l'accès à :"
 
-#: cms/templates/visibility_editor.html:63
-msgid "Specific Content Groups"
-msgstr "Groupes de contenu spécifiques"
+#: cms/templates/visibility_editor.html:72
+msgid "Select a group type"
+msgstr "Sélectionnez un type de groupe"
 
-#: cms/templates/visibility_editor.html:85
-msgid "Deleted Content Group"
-msgstr "Groupe de contenu effacé"
+#: cms/templates/visibility_editor.html:74
+msgid "All Learners and Staff"
+msgstr "Tous les apprenants et membres de l'équipe pédagogique"
 
-#: cms/templates/visibility_editor.html:86
+#: cms/templates/visibility_editor.html:88
+msgid "Select one or more groups:"
+msgstr "Sélectionnez un groupe ou plus :"
+
+#: cms/templates/visibility_editor.html:100
+msgid "Deleted Group"
+msgstr "Groupe supprimé"
+
+#: cms/templates/visibility_editor.html:101
 msgid ""
-"Content group no longer exists. Please choose another or allow access to All"
-" Students and staff"
-msgstr "Le groupe de contenu n'existe plus. S'il vous plaît choisir un autre groupe ou autoriser l'accès à tous les étudiants et membres de l'équipe"
-
-#: cms/templates/visibility_editor.html:98
-#: cms/templates/visibility_editor.html:109
-msgid "Verification Checkpoint"
-msgstr "Point de contrôle de vérification"
-
-#: cms/templates/visibility_editor.html:113
-msgid "Verification checkpoint to complete"
-msgstr "Point de contrôle de vérification à compléter"
-
-#: cms/templates/visibility_editor.html:126
-msgid ""
-"Learners who require verification must pass the selected checkpoint to see "
-"the content in this component. Learners who do not require verification see "
-"this content by default."
-msgstr "Les apprenants qui ont besoin d'une vérification doivent passer le point de contrôle afin de voir le contenu de ce composant. Les apprenants qui n'ont pas besoin de vérification voient ce contenu par défaut."
+"This group no longer exists. Choose another group or do not restrict access "
+"to this component."
+msgstr "Ce groupe n'existe plus. Choisissez un autre groupe ou ne restreignez pas l'accès à ce composant."
 
 #: cms/templates/emails/activation_email.txt:3
 msgid ""
@@ -3125,6 +3234,22 @@ msgstr "Vos droits de création de cours pour {studio_name} ont été révoqués
 msgid "Your course creator status for {studio_name}"
 msgstr "Votre statut de créateur de cours pour {studio_name}"
 
+#: cms/templates/emails/user_task_complete_email.txt:5
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Use "
+"this URL to view task details or download any files created: {detail_url}"
+msgstr "Votre tâche {task_name} a été complétée avec le statut '{task_status}'. Utilisez ce URL pour afficher les détails de la tâche ou télécharger les fichiers créés: {detail_url}"
+
+#: cms/templates/emails/user_task_complete_email.txt:9
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Sign in"
+" to view the details of your task or download any files created."
+msgstr "Votre tâche {task_name} a été complétée avec le statut '{task_status}'. Connectez-vous pour afficher les détails de votre tâche ou télécharger les fichiers créés."
+
+#: cms/templates/emails/user_task_complete_email_subject.txt:2
+msgid "{platform_name} {studio_name}: Task Status Update"
+msgstr "{platform_name} {studio_name}: Mise à jour de la tâche"
+
 #: cms/templates/maintenance/_force_publish_course.html:12
 msgid "Required data to force publish course."
 msgstr "Données obligatoires pour forcer la publication de cours."
@@ -3146,6 +3271,37 @@ msgstr "Réinitialiser les valeurs"
 msgid "Maintenance Dashboard"
 msgstr "Tableau de bord de maintenance"
 
+#: cms/templates/registration/activation_complete.html:20
+msgid "Thanks for activating your account."
+msgstr "Merci d'avoir activé votre compte."
+
+#: cms/templates/registration/activation_complete.html:22
+msgid "This account has already been activated."
+msgstr "Ce compte a déjà été activé."
+
+#: cms/templates/registration/activation_complete.html:26
+msgid "Visit your {link_start}dashboard{link_end} to see your courses."
+msgstr "Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
+
+#: cms/templates/registration/activation_complete.html:28
+msgid "You can now {link_start}sign in{link_end}."
+msgstr "Vous pouvez maintenant vous {link_start}connecter{link_end}."
+
+#: cms/templates/registration/activation_invalid.html:14
+msgid "Activation Invalid"
+msgstr "Activation invalide"
+
+#: cms/templates/registration/activation_invalid.html:17
+msgid ""
+"Something went wrong. Email programs sometimes split URLs into two lines, so"
+" make sure the URL you're using is formatted correctly. If you still have "
+"issues, send us an email message at {email_start}{email}{email_end}."
+msgstr "Quelque-chose s'est mal passé. Les programmes de courriel divisent parfois les URLs sur deux lignes, alors assurez vous que le URL que vous utilisez est formatté correctement. Si vous avez encore des problèmes, envoyez nous un courriel à {email_start}{email}{email_end}."
+
+#: cms/templates/registration/activation_invalid.html:25
+msgid "Return to the {link_start}home page{link_end}."
+msgstr "Retour à la {link_start}page d'accueil{link_start}."
+
 #: cms/templates/registration/reg_complete.html:3
 msgid ""
 "We've sent an email message to {email} with instructions for activating your"
@@ -3154,7 +3310,7 @@ msgstr "Nous avons envoyé un message courriel à {email} avec des instructions 
 
 #. Translators: 'EdX', 'edX', 'Studio', and 'Open edX' are trademarks of 'edX
 #. Inc.'. Please do not translate any of these trademarks and company names.
-#: cms/templates/widgets/footer.html:37
+#: cms/templates/widgets/footer.html:40
 msgid ""
 "EdX, Open edX, Studio, and the edX and Open edX logos are registered "
 "trademarks or trademarks of {link_start}edX Inc.{link_end}"
