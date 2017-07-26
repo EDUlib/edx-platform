@@ -5,7 +5,7 @@
 # Translators:
 # Alexandre Armougom <aav974@hotmail.fr>, 2016
 # anaseha <anaselhadjamor@gmail.com>, 2014
-# Assyass Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
+# ASSYASS Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
 # Axel Billot <axelbillot@gmail.com>, 2015
 # bekairi tahar <tahar48omar@gmail.com>, 2014
 # Bertrand Marron <bertrand.marron@gmail.com>, 2014
@@ -67,8 +67,8 @@
 # samuel <samuelecin@gmail.com>, 2014
 # Sarina Canelake <sarina@edx.org>, 2014
 # Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
-# Sebastien Vigneau <sebastien.vigneau@gmail.com>, 2015
-# Serge Bibauw <inyarr@gmail.com>, 2016
+# Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
+# Serge Bibauw <sbibauw@gmail.com>, 2016
 # SLOG90 <slog90@gmail.com>, 2014
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
 # Tahar <taharbrahmi@hotmail.fr>, 2015
@@ -85,8 +85,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-02-23 18:56+0000\n"
-"PO-Revision-Date: 2017-02-23 19:07+0000\n"
+"POT-Creation-Date: 2017-07-20 11:53+0000\n"
+"PO-Revision-Date: 2017-07-20 12:05+0000\n"
 "Last-Translator: Ned Batchelder <ned@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -107,32 +107,31 @@ msgstr "Page non trouvée"
 
 #: cms/templates/asset_index.html:39 cms/templates/course_info.html:40
 #: cms/templates/course_outline.html:116 cms/templates/edit-tabs.html:32
-#: cms/templates/textbooks.html:39 cms/templates/videos_index.html:48
+#: cms/templates/textbooks.html:39 cms/templates/videos_index.html:51
 #: cms/templates/widgets/header.html:50 lms/templates/static_htmlbook.html:121
 #: lms/templates/static_pdfbook.html:35 lms/templates/staticbook.html:79
 msgid "Content"
 msgstr "Contenu"
 
-#: cms/templates/asset_index.html:59 cms/templates/certificates.html:79
-#: cms/templates/container.html:112 cms/templates/course_outline.html:188
-#: cms/templates/group_configurations.html:54
-#: cms/templates/group_configurations.html:69 cms/templates/library.html:84
+#: cms/templates/asset_index.html:58 cms/templates/certificates.html:79
+#: cms/templates/container.html:115 cms/templates/course_outline.html:191
+#: cms/templates/group_configurations.html:59
+#: cms/templates/group_configurations.html:75 cms/templates/library.html:84
 #: cms/templates/manage_users.html:75 cms/templates/manage_users_lib.html:75
 #: lms/templates/courseware/courses.html:47
 #: lms/templates/edxnotes/edxnotes.html:64
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:193
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:207
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html:155
-#: lms/templates/student_profile/learner_profile.html:20
 msgid "Loading"
 msgstr "Chargement en cours"
 
-#: cms/templates/base.html:57 lms/templates/main.html:132
+#: cms/templates/base.html:57 lms/templates/main.html:137
 msgid "Skip to main content"
 msgstr "Passer au contenu de cette vue"
 
 #: cms/templates/certificates.html:53
-#: cms/templates/group_configurations.html:42
+#: cms/templates/group_configurations.html:44
 #: cms/templates/manage_users.html:26 cms/templates/manage_users_lib.html:26
 #: cms/templates/settings.html:49 cms/templates/settings_advanced.html:37
 #: cms/templates/settings_graders.html:42 cms/templates/widgets/header.html:81
@@ -141,20 +140,12 @@ msgstr "Passer au contenu de cette vue"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: cms/templates/component.html:13 cms/templates/container.html:94
-#: cms/templates/studio_xblock_wrapper.html:74
+#: cms/templates/component.html:13 cms/templates/container.html:97
+#: cms/templates/studio_xblock_wrapper.html:80
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:193
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr "Éditer"
-
-#: cms/templates/course-create-rerun.html:36
-#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:120
-#: cms/templates/index.html:180 cms/templates/manage_users.html:67
-#: cms/templates/manage_users_lib.html:67
-#: lms/templates/modal/accessible_confirm.html:27
-msgid "Cancel"
-msgstr "Annuler"
 
 #: cms/templates/course-create-rerun.html:76 cms/templates/index.html:69
 #: lms/templates/shoppingcart/receipt.html:71
@@ -163,7 +154,7 @@ msgstr "Nom du cours"
 
 #: cms/templates/course-create-rerun.html:95 cms/templates/index.html:89
 #: cms/templates/settings.html:73
-#: lms/templates/courseware/course_about.html:224
+#: lms/templates/courseware/course_about.html:221
 msgid "Course Number"
 msgstr "Numéro du cours"
 
@@ -178,35 +169,40 @@ msgstr "Section"
 msgid "Course Start Date:"
 msgstr "Date de début du cours : "
 
-#: cms/templates/group_configurations.html:82
-#: cms/templates/group_configurations.html:91
-#: lms/templates/courseware/info.html:94
-msgid "Learn More"
-msgstr "En savoir plus"
-
 #: cms/templates/html_error.html:18 lms/templates/module-error.html:20
 msgid "Error:"
 msgstr "Erreur : "
 
-#: cms/templates/index.html:202 cms/templates/index.html:248
-#: cms/templates/index.html:309 cms/templates/index.html:461
+#: cms/templates/index.html:199 lms/templates/help_modal.html:118
+#: lms/templates/manage_user_standing.html:36
+#: lms/templates/register-shib.html:188
+#: lms/templates/peer_grading/peer_grading_problem.html:57
+#: lms/templates/survey/survey.html:49
+#: themes/stanford-style/lms/templates/register-shib.html:182
+msgid "Submit"
+msgstr "Soumettre"
+
+#: cms/templates/index.html:221 cms/templates/index.html:267
+#: cms/templates/index.html:328 cms/templates/index.html:480
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:48
 msgid "Organization:"
 msgstr "Organisme : "
 
-#: cms/templates/index.html:205 cms/templates/index.html:251
-#: cms/templates/index.html:312 cms/templates/index.html:464
+#: cms/templates/index.html:224 cms/templates/index.html:270
+#: cms/templates/index.html:331 cms/templates/index.html:483
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:53
 msgid "Course Number:"
 msgstr "Numéro du cours : "
 
-#: cms/templates/index.html:294 lms/templates/navigation.html:91
-#: lms/templates/navigation.html:133 lms/templates/sysadmin_dashboard.html:59
+#: cms/templates/index.html:313 lms/templates/sysadmin_dashboard.html:59
 #: lms/templates/sysadmin_dashboard_gitlogs.html:116
 #: lms/templates/courseware/courses.html:31
-#: themes/edx.org/lms/templates/header.html:91
-#: themes/red-theme/lms/templates/header.html:80
-#: themes/red-theme/lms/templates/header.html:130
+#: lms/templates/navigation/navbar-authenticated.html:22
+#: lms/templates/navigation/navbar-not-authenticated.html:20
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:39
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:21
+#: themes/edx.org/lms/templates/header.html:93
+#: themes/edx.org/lms/templates/header.html:188
 msgid "Courses"
 msgstr "Cours"
 
@@ -316,12 +312,17 @@ msgstr "Date de début du cours"
 msgid "Course End Date"
 msgstr "Date de fin du cours"
 
+#: cms/templates/settings.html:490
+#: lms/templates/courseware/program_marketing.html:195
+msgid "Instructors"
+msgstr "Enseignants"
+
 #: cms/templates/settings.html:509
-#: lms/templates/courseware/course_about.html:294
+#: lms/templates/courseware/course_about.html:291
 msgid "Requirements"
 msgstr "Pré-requis"
 
-#: cms/templates/studio_xblock_wrapper.html:111
+#: cms/templates/studio_xblock_wrapper.html:128
 #: lms/templates/help_modal.html:293 lms/templates/help_modal.html:302
 #: lms/templates/module-error.html:18
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:164
@@ -329,7 +330,7 @@ msgid "Details"
 msgstr "Détails"
 
 #. Translators: this is a verb describing the action of viewing more details
-#: cms/templates/studio_xblock_wrapper.html:128
+#: cms/templates/studio_xblock_wrapper.html:145
 #: lms/templates/wiki/includes/article_menu.html:13
 msgid "View"
 msgstr "Voir"
@@ -352,73 +353,67 @@ msgstr "ID de cours"
 msgid "Reset"
 msgstr "Réinitialiser"
 
-#: cms/templates/registration/activation_complete.html:20
-#: lms/templates/registration/activation_complete.html:22
-msgid "Thanks for activating your account."
-msgstr "Merci d'avoir activé votre compte."
-
-#: cms/templates/registration/activation_complete.html:22
-#: lms/templates/registration/activation_complete.html:24
-msgid "This account has already been activated."
-msgstr "Ce compte a déjà été activé."
-
-#: cms/templates/registration/activation_complete.html:26
-#: lms/templates/registration/activation_complete.html:28
-msgid "Visit your {link_start}dashboard{link_end} to see your courses."
-msgstr "Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
-
-#: cms/templates/registration/activation_complete.html:28
-#: lms/templates/registration/activation_complete.html:31
-msgid "You can now {link_start}sign in{link_end}."
-msgstr "Vous pouvez maintenant vous {link_start}connecter{link_end}."
-
-#: cms/templates/widgets/footer.html:19
+#: cms/templates/widgets/footer.html:22
 #: lms/templates/static_templates/tos.html:5
 #: lms/templates/static_templates/tos.html:9
-#: themes/red-theme/lms/templates/footer.html:86
+#: themes/red-theme/lms/templates/footer.html:96
 #: themes/stanford-style/lms/templates/footer.html:18
 #: themes/stanford-style/lms/templates/static_templates/tos.html:7
 #: themes/stanford-style/lms/templates/static_templates/tos.html:10
 msgid "Terms of Service"
 msgstr "Conditions générales du service"
 
-#: cms/templates/widgets/footer.html:24
+#: cms/templates/widgets/footer.html:27
 #: lms/templates/static_templates/privacy.html:6
 #: lms/templates/static_templates/privacy.html:10
-#: themes/red-theme/lms/templates/footer.html:90
+#: themes/red-theme/lms/templates/footer.html:100
 #: themes/stanford-style/lms/templates/footer.html:19
 #: themes/stanford-style/lms/templates/static_templates/tos.html:14
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
+#: cms/templates/widgets/footer.html:35 lms/templates/footer.html:30
+#: lms/templates/footer.html:104 themes/edx.org/lms/templates/footer.html:39
+#: themes/red-theme/lms/templates/footer.html:76
+msgid "Legal"
+msgstr "Légal"
+
 #. Translators: 'Open edX' is a brand, please keep this untranslated. See
 #. http://openedx.org for more information.
-#: cms/templates/widgets/footer.html:45 cms/templates/widgets/footer.html:46
-#: themes/red-theme/lms/templates/footer.html:102
+#: cms/templates/widgets/footer.html:48 cms/templates/widgets/footer.html:49
+#: themes/red-theme/lms/templates/footer.html:112
 msgid "Powered by Open edX"
 msgstr "Propulsé par Open edX"
 
 #: cms/templates/widgets/header.html:46 cms/templates/widgets/header.html:50
 #: cms/templates/widgets/header.html:81 cms/templates/widgets/header.html:149
 #: lms/templates/help_modal.html:173
-#: lms/templates/courseware/courseware.html:142
+#: lms/templates/courseware/courseware.html:145
+#: lms/templates/courseware/courseware.html:159
 msgid "Course"
 msgstr "Cours"
 
-#: cms/templates/widgets/header.html:198 lms/templates/navigation.html:188
+#: cms/templates/widgets/header.html:198
+#: lms/templates/navigation/navigation.html:87
+#: lms/templates/widgets/footer-language-selector.html:23
 msgid "Choose Language"
 msgstr "Choisir la langue"
 
 #: cms/templates/widgets/header.html:214 cms/templates/widgets/header.html:227
-#: lms/templates/user_dropdown.html:37
+#: lms/templates/user_dropdown.html:30 lms/templates/user_dropdown.html:36
+#: lms/templates/user_dropdown.html:58
+#: themes/edx.org/lms/templates/header.html:120
+#: themes/edx.org/lms/templates/header.html:218
 msgid "Account"
 msgstr "Compte"
 
 #: cms/templates/widgets/header.html:218 cms/templates/widgets/header.html:231
-#: lms/templates/navigation.html:113
+#: lms/templates/navigation/navbar-authenticated.html:44
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:67
 #: lms/templates/static_templates/help.html:5
 #: lms/templates/static_templates/help.html:9
-#: themes/edx.org/lms/templates/header.html:109
+#: themes/edx.org/lms/templates/header.html:114
+#: themes/edx.org/lms/templates/header.html:206
 msgid "Help"
 msgstr "Aide"
 
@@ -480,53 +475,26 @@ msgstr "Nous contacter"
 
 #: cms/templates/widgets/user_dropdown.html:16
 #: cms/templates/widgets/user_dropdown.html:22
-#: lms/templates/user_dropdown.html:29 lms/templates/user_dropdown.html:33
+#: lms/templates/user_dropdown.html:27 lms/templates/user_dropdown.html:50
+#: lms/templates/user_dropdown.html:54
 msgid "Usermenu"
 msgstr "Menu de l'utilisateur"
 
 #: cms/templates/widgets/user_dropdown.html:19
-#: lms/templates/user_dropdown.html:31
+#: lms/templates/user_dropdown.html:52
 msgid "Usermenu dropdown"
 msgstr "Menu déroulant de l'utilisateur"
 
 #: cms/templates/widgets/user_dropdown.html:29
 #: cms/templates/widgets/user_dropdown.html:55
-#: lms/templates/user_dropdown.html:39 lms/templates/user_dropdown.html:61
-#: themes/red-theme/lms/templates/header.html:108
+#: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:37
+#: lms/templates/user_dropdown.html:60 lms/templates/user_dropdown.html:85
 msgid "Sign Out"
 msgstr "Se déconnecter"
 
 #: common/lib/capa/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Éditeur de code"
-
-#: common/templates/license.html:28
-msgid "All Rights Reserved"
-msgstr "Tous droits réservés"
-
-#: common/templates/license.html:33
-msgid "Attribution"
-msgstr "Attribution"
-
-#: common/templates/license.html:33
-msgid "Noncommercial"
-msgstr "Non commercial"
-
-#: common/templates/license.html:34
-msgid "No Derivatives"
-msgstr "Pas de travaux dérivés"
-
-#: common/templates/license.html:34
-msgid "Share Alike"
-msgstr "Partage à l'identique"
-
-#: common/templates/license.html:51
-msgid "Creative Commons licensed content, with terms as follow:"
-msgstr "Contenu sous licence Creative Commons, aveec les conditions suivantes : "
-
-#: common/templates/license.html:55
-msgid "Some Rights Reserved"
-msgstr "Quelques droits réservés"
 
 #: common/templates/emails/contact_us_feedback_email_body.txt:2
 msgid "Feedback Form"
@@ -560,26 +528,25 @@ msgstr "Information additionnelle :"
 msgid "Feedback from user"
 msgstr "Commentaires de l'utilisateur"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:20
-#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:20
-msgid "Discussion - {course_number}"
-msgstr "Discussion - {course_number}"
-
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:62
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:29
 msgid "Discussions"
 msgstr "Discussions"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:70
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:37
 msgid "Add a Post"
 msgstr "Ajouter un  message"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:79
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:50
 msgid "Discussion thread list"
 msgstr "Liste des discussions"
 
-#: lms/djangoapps/discussion/templates/discussion/discussion_board.html:85
+#: lms/djangoapps/discussion/templates/discussion/discussion_board_fragment.html:56
 msgid "New topic form"
 msgstr "Nouveau sujet "
+
+#: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:20
+msgid "Discussion - {course_number}"
+msgstr "Discussion - {course_number}"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:59
 msgid "Discussion"
@@ -601,11 +568,11 @@ msgid_plural "%s comments"
 msgstr[0] "%s commentaire"
 msgstr[1] "%s commentaires"
 
-#: lms/djangoapps/discussion/templates/discussion/maintenance.html:16
+#: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html:10
 msgid "Discussion unavailable"
 msgstr "Discussion non disponible"
 
-#: lms/djangoapps/discussion/templates/discussion/maintenance.html:22
+#: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html:16
 msgid ""
 "The discussions are currently undergoing maintenance. We'll have them back "
 "up shortly!"
@@ -634,11 +601,11 @@ msgstr "Discussion dirigée"
 msgid "Hide Annotations"
 msgstr "Cacher les annotations"
 
-#: lms/templates/bookmark_button.html:8 lms/templates/seq_module.html:38
+#: lms/templates/bookmark_button.html:13 lms/templates/seq_module.html:38
 msgid "Bookmarked"
 msgstr "Ajouté aux signets"
 
-#: lms/templates/bookmark_button.html:8
+#: lms/templates/bookmark_button.html:13
 msgid "Bookmark this page"
 msgstr "Marquer cette page"
 
@@ -663,65 +630,64 @@ msgstr "Commence : {date}"
 msgid "View all Courses"
 msgstr "Voir tous les cours"
 
-#: lms/templates/dashboard.html:21 lms/templates/user_dropdown.html:35
+#: lms/templates/dashboard.html:22 lms/templates/user_dropdown.html:28
+#: lms/templates/user_dropdown.html:34 lms/templates/user_dropdown.html:56
 #: themes/edx.org/lms/templates/dashboard.html:23
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: lms/templates/dashboard.html:82
-#: themes/edx.org/lms/templates/dashboard.html:84
-msgid "My Courses"
-msgstr "Mes cours"
-
-#: lms/templates/dashboard.html:108
-#: themes/edx.org/lms/templates/dashboard.html:110
+#: lms/templates/dashboard.html:125
+#: themes/edx.org/lms/templates/dashboard.html:124
 msgid "You are not enrolled in any courses yet."
 msgstr "Vous n'êtes inscrit à aucun cours."
 
-#: lms/templates/dashboard.html:112 lms/templates/navigation.html:85
-#: themes/edx.org/lms/templates/dashboard.html:114
+#: lms/templates/dashboard.html:129
+#: lms/templates/navigation/navbar-authenticated.html:16
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:32
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:32
+#: themes/edx.org/lms/templates/dashboard.html:128
 msgid "Explore courses"
 msgstr "Explorer les cours"
 
-#: lms/templates/dashboard.html:121
-#: themes/edx.org/lms/templates/dashboard.html:122
+#: lms/templates/dashboard.html:138
+#: themes/edx.org/lms/templates/dashboard.html:136
 msgid "Course-loading errors"
 msgstr "Erreurs de chargement du cours"
 
-#: lms/templates/dashboard.html:140
-#: themes/edx.org/lms/templates/dashboard.html:142
+#: lms/templates/dashboard.html:163
+#: themes/edx.org/lms/templates/dashboard.html:162
 msgid "Search Your Courses"
 msgstr "Effectuez une recherche dans vos cours"
 
-#: lms/templates/dashboard.html:143 lms/templates/index.html:33
+#: lms/templates/dashboard.html:166 lms/templates/index.html:33
 #: lms/templates/api_admin/catalogs/search.html:23
 #: lms/templates/courseware/courses.html:42
-#: lms/templates/courseware/courseware.html:130
+#: lms/templates/courseware/courseware.html:133
 #: lms/templates/edxnotes/edxnotes.html:39
-#: themes/edx.org/lms/templates/dashboard.html:145
+#: themes/edx.org/lms/templates/dashboard.html:165
 #: themes/stanford-style/lms/templates/index.html:26
 msgid "Search"
 msgstr "Recherche"
 
-#: lms/templates/dashboard.html:146
-#: lms/templates/courseware/courseware.html:131
-#: themes/edx.org/lms/templates/dashboard.html:148
+#: lms/templates/dashboard.html:169
+#: lms/templates/courseware/courseware.html:134
+#: themes/edx.org/lms/templates/dashboard.html:168
 msgid "Clear search"
 msgstr "Effacer la recherche"
 
-#: lms/templates/dashboard.html:160
-#: themes/edx.org/lms/templates/dashboard.html:178
+#: lms/templates/dashboard.html:184
+#: themes/edx.org/lms/templates/dashboard.html:199
 msgid "Account Status Info"
 msgstr "Information sur le statut du compte"
 
-#: lms/templates/dashboard.html:167
-#: themes/edx.org/lms/templates/dashboard.html:185
+#: lms/templates/dashboard.html:191
+#: themes/edx.org/lms/templates/dashboard.html:206
 msgid "Order History"
 msgstr "Historique des commandes"
 
 #. Translators: this is a control to allow users to exit out of this modal
 #. interface (a menu or piece of UI that takes the full focus of the screen)
-#: lms/templates/dashboard.html:188 lms/templates/dashboard.html:219
+#: lms/templates/dashboard.html:213 lms/templates/dashboard.html:244
 #: lms/templates/forgot_password_modal.html:14
 #: lms/templates/help_modal.html:28 lms/templates/signup_modal.html:17
 #: lms/templates/ccx/schedule.html:44
@@ -732,49 +698,48 @@ msgstr "Historique des commandes"
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html:60
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html:13
 #: lms/templates/modal/_modal-settings-language.html:13
-#: lms/templates/modal/accessible_confirm.html:8
-#: themes/edx.org/lms/templates/dashboard.html:205
-#: themes/edx.org/lms/templates/dashboard.html:236
+#: themes/edx.org/lms/templates/dashboard.html:227
+#: themes/edx.org/lms/templates/dashboard.html:258
 msgid "Close"
 msgstr "Fermer"
 
-#: lms/templates/dashboard.html:194
-#: themes/edx.org/lms/templates/dashboard.html:211
+#: lms/templates/dashboard.html:219
+#: themes/edx.org/lms/templates/dashboard.html:233
 msgid "Email Settings for {course_number}"
 msgstr "Paramètres de messagerie pour {course_number}"
 
 #. Translators: this text gives status on if the modal interface (a menu or
 #. piece of UI that takes the full focus of the screen) is open or not
-#: lms/templates/dashboard.html:197 lms/templates/dashboard.html:229
+#: lms/templates/dashboard.html:222 lms/templates/dashboard.html:254
 #: lms/templates/modal/_modal-settings-language.html:22
-#: themes/edx.org/lms/templates/dashboard.html:214
-#: themes/edx.org/lms/templates/dashboard.html:246
+#: themes/edx.org/lms/templates/dashboard.html:236
+#: themes/edx.org/lms/templates/dashboard.html:268
 msgid "window open"
 msgstr "fenêtre ouverte"
 
-#: lms/templates/dashboard.html:205
-#: themes/edx.org/lms/templates/dashboard.html:222
+#: lms/templates/dashboard.html:230
+#: themes/edx.org/lms/templates/dashboard.html:244
 msgid "Receive course emails"
 msgstr "Recevoir les courriels du cours"
 
-#: lms/templates/dashboard.html:207
-#: themes/edx.org/lms/templates/dashboard.html:224
+#: lms/templates/dashboard.html:232
+#: themes/edx.org/lms/templates/dashboard.html:246
 msgid "Save Settings"
 msgstr "Enregistrer les paramètres"
 
-#: lms/templates/dashboard.html:239 lms/templates/ccx/enrollment.html:57
-#: lms/templates/dashboard/_dashboard_course_listing.html:213
-#: lms/templates/dashboard/_dashboard_course_listing.html:219
-#: lms/templates/dashboard/_dashboard_course_listing.html:227
-#: lms/templates/dashboard/_dashboard_course_listing.html:233
-#: lms/templates/dashboard/_dashboard_course_listing.html:240
-#: lms/templates/dashboard/_dashboard_course_listing.html:245
-#: lms/templates/dashboard/_dashboard_course_listing.html:253
-#: lms/templates/dashboard/_dashboard_course_listing.html:259
-#: lms/templates/dashboard/_dashboard_course_listing.html:267
-#: lms/templates/dashboard/_dashboard_course_listing.html:273
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:81
-#: themes/edx.org/lms/templates/dashboard.html:256
+#: lms/templates/dashboard.html:264 lms/templates/ccx/enrollment.html:57
+#: lms/templates/dashboard/_dashboard_course_listing.html:228
+#: lms/templates/dashboard/_dashboard_course_listing.html:234
+#: lms/templates/dashboard/_dashboard_course_listing.html:242
+#: lms/templates/dashboard/_dashboard_course_listing.html:248
+#: lms/templates/dashboard/_dashboard_course_listing.html:255
+#: lms/templates/dashboard/_dashboard_course_listing.html:260
+#: lms/templates/dashboard/_dashboard_course_listing.html:268
+#: lms/templates/dashboard/_dashboard_course_listing.html:274
+#: lms/templates/dashboard/_dashboard_course_listing.html:282
+#: lms/templates/dashboard/_dashboard_course_listing.html:288
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:53
+#: themes/edx.org/lms/templates/dashboard.html:278
 msgid "Unenroll"
 msgstr "Se désinscrire"
 
@@ -796,12 +761,10 @@ msgid "Go back to the {link_start}home page{link_end}."
 msgstr "Retour à {link_start}l'accueil{link_end}"
 
 #: lms/templates/email_change_successful.html:10
-#: lms/templates/emails_change_successful.html:10
 msgid "E-mail change successful!"
 msgstr "Adresse courriel modifiée avec succès !"
 
 #: lms/templates/email_change_successful.html:13
-#: lms/templates/emails_change_successful.html:13
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr "Vous devez voir votre nouvelle adresse courriel sur votre {link_start}Tableau de bord{link_end}."
 
@@ -814,8 +777,8 @@ msgid "You should Register before trying to access the Unit"
 msgstr "Vous devez vous inscrire avant d'essayer d'accéder à l'unité"
 
 #: lms/templates/enroll_staff.html:33 lms/templates/ccx/enrollment.html:56
-#: lms/templates/courseware/course_about.html:333
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:80
+#: lms/templates/courseware/course_about.html:328
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:52
 msgid "Enroll"
 msgstr "S'inscrire"
 
@@ -855,21 +818,17 @@ msgstr "Debogage : "
 msgid "External Authentication failed"
 msgstr "Échec de l'authentification externe"
 
-#: lms/templates/footer.html:21 lms/templates/static_templates/about.html:5
+#: lms/templates/footer.html:17 lms/templates/footer.html:72
+#: lms/templates/static_templates/about.html:5
 #: lms/templates/static_templates/about.html:9
-#: themes/red-theme/lms/templates/footer.html:12
-#: themes/red-theme/lms/templates/footer.html:16
+#: themes/red-theme/lms/templates/footer.html:18
+#: themes/red-theme/lms/templates/footer.html:22
 #: themes/stanford-style/lms/templates/footer.html:15
 #: themes/stanford-style/lms/templates/static_templates/about.html:9
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
 msgstr "À propos"
-
-#: lms/templates/footer.html:49 themes/edx.org/lms/templates/footer.html:34
-#: themes/red-theme/lms/templates/footer.html:66
-msgid "Legal"
-msgstr "Légal"
 
 #: lms/templates/forgot_password_modal.html:8
 #: lms/templates/forgot_password_modal.html:20
@@ -982,15 +941,6 @@ msgid ""
 "details that will help us to troubleshoot, including error messages that you"
 " saw."
 msgstr "Décrivez ce que vous faisiez lorsque vous avez rencontré le problème. Inclure tous les détails qui nous aideront à résoudre les problèmes, y compris les messages d'erreur que vous avez vus."
-
-#: lms/templates/help_modal.html:118
-#: lms/templates/manage_user_standing.html:36
-#: lms/templates/register-shib.html:188
-#: lms/templates/peer_grading/peer_grading_problem.html:57
-#: lms/templates/survey/survey.html:49
-#: themes/stanford-style/lms/templates/register-shib.html:182
-msgid "Submit"
-msgstr "Soumettre"
 
 #: lms/templates/help_modal.html:126
 msgid "Thank You!"
@@ -1238,8 +1188,9 @@ msgstr "Se souvenir de moi"
 #: lms/templates/login.html:216 lms/templates/register-form.html:44
 #: lms/templates/course_modes/choose.html:147
 #: lms/templates/course_modes/choose.html:167
-#: themes/edx.org/lms/templates/course_modes/choose.html:148
-#: themes/edx.org/lms/templates/course_modes/choose.html:168
+#: themes/edx.org/lms/templates/course_modes/choose.html:173
+#: themes/edx.org/lms/templates/course_modes/choose.html:193
+#: themes/edx.org/lms/templates/course_modes/choose.html:197
 #: themes/stanford-style/lms/templates/register-form.html:44
 msgid "or"
 msgstr "ou"
@@ -1343,7 +1294,7 @@ msgstr "Il y a eu une erreur sur les serveurs de {platform_name}"
 
 #: lms/templates/module-error.html:10
 #: lms/templates/courseware/courseware-error.html:22
-#: lms/templates/courseware/error-message.html:5
+#: lms/templates/courseware/error-message.html:7
 msgid ""
 "We're sorry, this module is temporarily unavailable. Our staff is working to"
 " fix it as soon as possible. Please email us at {tech_support_email} to "
@@ -1354,75 +1305,6 @@ msgstr "Nous sommes désolés, ce module est temporairement indisponible. Notre 
 msgid "Raw data:"
 msgstr "Données brutes : "
 
-#: lms/templates/navigation.html:51
-#: themes/red-theme/lms/templates/header.html:41
-msgid "Global"
-msgstr "Mondial"
-
-#: lms/templates/navigation.html:62
-#: themes/edx.org/lms/templates/header.html:56
-#: themes/red-theme/lms/templates/header.html:45
-msgid "{platform_name} Home Page"
-msgstr "Page d'accueil {platform_name}"
-
-#: lms/templates/navigation.html:96
-#: lms/templates/learner_dashboard/programs.html:27
-#: themes/edx.org/lms/templates/header.html:96
-#: themes/red-theme/lms/templates/header.html:85
-msgid "Programs"
-msgstr "Programmes"
-
-#. Translators: This is short for "System administration".
-#: lms/templates/navigation.html:103
-#: themes/red-theme/lms/templates/header.html:74
-msgid "Sysadmin"
-msgstr "Administrateur système"
-
-#: lms/templates/navigation.html:119
-#: lms/templates/shoppingcart/shopping_cart.html:46
-#: themes/edx.org/lms/templates/header.html:115
-#: themes/red-theme/lms/templates/header.html:116
-msgid "Shopping Cart"
-msgstr "Panier"
-
-#: lms/templates/navigation.html:129
-#: themes/edx.org/lms/templates/header.html:78
-#: themes/red-theme/lms/templates/header.html:126
-msgid "How it Works"
-msgstr "Comment ça marche"
-
-#: lms/templates/navigation.html:137
-#: themes/red-theme/lms/templates/header.html:134
-msgid "Schools"
-msgstr "Écoles"
-
-#: lms/templates/navigation.html:146
-msgid "Explore Courses"
-msgstr "Explorer les cours"
-
-#: lms/templates/navigation.html:151 lms/templates/navigation.html:155
-#: lms/templates/register-form.html:267
-#: themes/edx.org/lms/templates/header.html:136
-#: themes/edx.org/lms/templates/header.html:140
-#: themes/stanford-style/lms/templates/register-form.html:264
-msgid "Register"
-msgstr "Inscription"
-
-#: lms/templates/navigation.html:167 lms/templates/navigation.html:169
-#: themes/edx.org/lms/templates/header.html:127
-#: themes/edx.org/lms/templates/header.html:129
-#: themes/red-theme/lms/templates/header.html:155
-#: themes/red-theme/lms/templates/header.html:157
-msgid "Sign in"
-msgstr "Connexion"
-
-#: lms/templates/navigation.html:208
-#: themes/edx.org/lms/templates/header.html:151
-msgid ""
-"{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
-"strongly recommend using {chrome_link} or {ff_link}."
-msgstr "{begin_strong}Avertissement:{end_strong}  Votre navigateur n'est pas complètement supporté. Nous recommandons vivement d'utiliser {chrome_link} ou {ff_link}."
-
 #: lms/templates/notes.html:64
 msgid "My Notes"
 msgstr "Mes Notes"
@@ -1432,17 +1314,54 @@ msgstr "Mes Notes"
 msgid "You do not have any notes."
 msgstr "Vous n'avez pas de note."
 
+#: lms/templates/preview_menu.html:29
+msgid "Course View"
+msgstr "Vue du cours"
+
+#: lms/templates/preview_menu.html:34
+msgid "View this course as:"
+msgstr "Voir ce cours comme : "
+
+#: lms/templates/preview_menu.html:36
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:155
+msgid "Staff"
+msgstr "Équipe pédagogique"
+
+#: lms/templates/preview_menu.html:37
+msgid "Learner"
+msgstr "Apprenant"
+
+#: lms/templates/preview_menu.html:38
+msgid "Specific learner"
+msgstr "Apprenant spécifique"
+
+#: lms/templates/preview_menu.html:43
+msgid "Learner in {content_group}"
+msgstr "Apprenant dans {content_group}"
+
+#: lms/templates/preview_menu.html:50
+msgid "Username or email:"
+msgstr "Nom d'utilisateur ou courriel : "
+
+#: lms/templates/preview_menu.html:53
+msgid "Set preview mode"
+msgstr "Définir le mode d'aperçu"
+
+#: lms/templates/preview_menu.html:60
+msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
+msgstr "Vous regardez maintenant le cours comme {i_start}{user_name}{i_end}."
+
 #: lms/templates/problem.html:35
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] "Vous avez utilisé {num_used} de {num_total} tentative"
-msgstr[1] "Vous avez utilisé {num_used} de {num_total} tentatives"
+msgstr[0] "Vous avez utilisé {num_used} sur {num_total} tentative"
+msgstr[1] "Vous avez utilisé {num_used} sur {num_total} tentatives"
 
 #: lms/templates/problem.html:37
 msgid ""
 "Some problems have options such as save, reset, hints, or show answer. These"
 " options follow the Submit button."
-msgstr ""
+msgstr "Certains problèmes ont des options telles que sauver, réinitialiser, astuces, ou montrer la réponse. Ces options suivent le bouton Soumettre."
 
 #: lms/templates/problem.html:43
 msgid "Hint"
@@ -1650,6 +1569,19 @@ msgstr "J'accepte les {link_start}conditions d'utilisation du Service{link_end}"
 #: themes/stanford-style/lms/templates/register-shib.html:168
 msgid "I agree to the {link_start}Honor Code{link_end}"
 msgstr "J'accepte la {link_start}charte utilisateur{link_end}"
+
+#: lms/templates/register-form.html:267
+#: lms/templates/navigation/navbar-not-authenticated.html:38
+#: lms/templates/navigation/navbar-not-authenticated.html:42
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:37
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:41
+#: themes/edx.org/lms/templates/header.html:135
+#: themes/edx.org/lms/templates/header.html:139
+#: themes/edx.org/lms/templates/header.html:232
+#: themes/edx.org/lms/templates/header.html:236
+#: themes/stanford-style/lms/templates/register-form.html:264
+msgid "Register"
+msgstr "Inscription"
 
 #: lms/templates/register-form.html:267 lms/templates/signup_modal.html:146
 #: themes/stanford-style/lms/templates/register-form.html:264
@@ -1873,8 +1805,8 @@ msgid "Add comment"
 msgstr "Ajouter un commentaire"
 
 #: lms/templates/staff_problem_info.html:59
-msgid "Staff Debug"
-msgstr "Débogage pour l'équipe pédagogique"
+msgid "Staff Debug:"
+msgstr ""
 
 #: lms/templates/staff_problem_info.html:64
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:172
@@ -1888,44 +1820,52 @@ msgstr "Actions"
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
-#: lms/templates/staff_problem_info.html:72
+#: lms/templates/staff_problem_info.html:71
+msgid "Score (for override only)"
+msgstr ""
+
+#: lms/templates/staff_problem_info.html:79
 msgid "Reset Learner's Attempts to Zero"
 msgstr "Réinitialiser les essais de l'étudiant à zéro"
 
-#: lms/templates/staff_problem_info.html:76
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:77
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:133
+#: lms/templates/staff_problem_info.html:83
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:94
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:150
 msgid "Delete Learner's State"
 msgstr "Supprimer le statut de l’étudiant"
 
-#: lms/templates/staff_problem_info.html:79
+#: lms/templates/staff_problem_info.html:86
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:67
 msgid "Rescore Learner's Submission"
 msgstr "Réévaluer la soumission d'un étudiant"
 
-#: lms/templates/staff_problem_info.html:81
+#: lms/templates/staff_problem_info.html:88
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:68
 msgid "Rescore Only If Score Improves"
 msgstr "Réévaluer seulement si le score s'améliore"
 
-#: lms/templates/staff_problem_info.html:93
-#: lms/templates/staff_problem_info.html:94
+#: lms/templates/staff_problem_info.html:92
+msgid "Override Score"
+msgstr ""
+
+#: lms/templates/staff_problem_info.html:104
+#: lms/templates/staff_problem_info.html:105
 msgid "Module Fields"
 msgstr "Champs Module"
 
-#: lms/templates/staff_problem_info.html:100
+#: lms/templates/staff_problem_info.html:111
 msgid "XML attributes"
 msgstr "attributs XML"
 
-#: lms/templates/staff_problem_info.html:116
+#: lms/templates/staff_problem_info.html:127
 msgid "Submission History Viewer"
 msgstr "Visionneuse d'historique de soumission"
 
-#: lms/templates/staff_problem_info.html:119
+#: lms/templates/staff_problem_info.html:130
 msgid "User:"
 msgstr "Utilisateur : "
 
-#: lms/templates/staff_problem_info.html:123
+#: lms/templates/staff_problem_info.html:134
 msgid "View History"
 msgstr "Afficher historique"
 
@@ -1945,10 +1885,12 @@ msgid "Page"
 msgstr "Page"
 
 #: lms/templates/staticbook.html:122
+#: lms/templates/courseware/program_marketing.html:354
 msgid "Previous page"
 msgstr "Page précédente"
 
 #: lms/templates/staticbook.html:125
+#: lms/templates/courseware/program_marketing.html:358
 msgid "Next page"
 msgstr "Page suivante"
 
@@ -2130,19 +2072,19 @@ msgid ""
 " not mean to do this, {undo_link_start}you can re-subscribe{link_end}."
 msgstr "Vous ne recevrez plus de notifications par courriel de {platform_name}. Cliquer {dashboard_link_start}ici{link_end} pour retourner à votre tableau de bord. Si vous avez effectué cette action par erreur, cliquer {undo_link_start}ici{link_end} pour les recevoir à nouveau."
 
-#: lms/templates/user_dropdown.html:20 lms/templates/user_dropdown.html:47
-#: themes/red-theme/lms/templates/header.html:95
+#: lms/templates/user_dropdown.html:19 lms/templates/user_dropdown.html:41
+#: lms/templates/user_dropdown.html:68
 msgid "Dashboard for:"
 msgstr "Tableau de bord pour :"
 
-#: lms/templates/user_dropdown.html:36
+#: lms/templates/user_dropdown.html:29 lms/templates/user_dropdown.html:35
+#: lms/templates/user_dropdown.html:57
 msgid "Profile"
 msgstr "Profil"
 
-#: lms/templates/user_dropdown.html:58
-#: themes/red-theme/lms/templates/header.html:102
-msgid "More options dropdown"
-msgstr "Liste déroulante d'options supplémentaires"
+#: lms/templates/user_dropdown.html:80
+msgid "More options"
+msgstr "Plus d'options"
 
 #: lms/templates/using.html:4
 msgid "Using the system"
@@ -2180,35 +2122,41 @@ msgstr "Jouer la vidéo"
 msgid "No playable video sources found."
 msgstr "Aucune source vidéo jouable trouvée"
 
-#: lms/templates/video.html:44
+#: lms/templates/video.html:30
+msgid ""
+"Your browser does not support this video format. Try using a different "
+"browser."
+msgstr "Votre navigateur ne supporte pas ce format de vidéo. Essayez d'utiliser un navigateur différent."
+
+#: lms/templates/video.html:47
 msgid "Downloads and transcripts"
 msgstr "Téléchargements et transcriptions"
 
-#: lms/templates/video.html:48
+#: lms/templates/video.html:51
 msgid "Video"
 msgstr "Vidéo"
 
-#: lms/templates/video.html:50
+#: lms/templates/video.html:53
 msgid "Download video file"
 msgstr "Télécharger le fichier vidéo"
 
-#: lms/templates/video.html:56
+#: lms/templates/video.html:59
 msgid "Transcripts"
 msgstr "Transcriptions"
 
-#: lms/templates/video.html:61
+#: lms/templates/video.html:64
 msgid "Download {file}"
 msgstr "Téléchargez {file}"
 
-#: lms/templates/video.html:67
+#: lms/templates/video.html:70
 msgid "Download transcript"
 msgstr "Télécharger la transcription"
 
-#: lms/templates/video.html:73
+#: lms/templates/video.html:76
 msgid "Handouts"
 msgstr "Documents"
 
-#: lms/templates/video.html:74
+#: lms/templates/video.html:77
 msgid "Download Handout"
 msgstr "Télécharger les documents pédagogiques"
 
@@ -2986,7 +2934,7 @@ msgstr "Règles de notation"
 
 #: lms/templates/ccx/coach_dashboard.html:71
 #: lms/templates/ccx/enrollment.html:7
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:37
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:8
 msgid "Batch Enrollment"
 msgstr "Inscription Automatique"
 
@@ -3000,38 +2948,40 @@ msgid "Please enter a valid CCX name."
 msgstr "S'il vus plaît entre un nom de CCX valide."
 
 #: lms/templates/ccx/enrollment.html:11 lms/templates/ccx/enrollment.html:16
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:41
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:117
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:12
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:89
 msgid "Email Addresses/Usernames"
 msgstr "Adresses courriels/nom d'utilisateurs"
 
 #: lms/templates/ccx/enrollment.html:13
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:39
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:115
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:10
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:87
 msgid ""
 "Enter email addresses and/or usernames separated by new lines or commas."
 msgstr "Entrer des adresses courriels et/ou des noms d'utilisateurs séparés par des retours à la ligne ou des virgules."
 
 #: lms/templates/ccx/enrollment.html:14
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:40
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:11
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
 msgstr "Vous ne recevrez pas de notification pour les courriels rejetés, donc soyez doublement attentif à l'orthographe."
 
 #: lms/templates/ccx/enrollment.html:21 lms/templates/ccx/enrollment.html:104
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:55
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:122
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:26
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:94
 msgid "Auto Enroll"
 msgstr "Inscription Automatique"
 
 #: lms/templates/ccx/enrollment.html:25 lms/templates/ccx/enrollment.html:108
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:30
 msgid ""
 "If this option is {em_start}checked{em_end}, users who have not yet "
 "registered for {platform_name} will be automatically enrolled."
 msgstr "Si cette option est {em_start}cochée{em_end}, les utilisateurs qui ne se sont pas encore inscrits dans {platform_name} seront automatiquement inscrits."
 
 #: lms/templates/ccx/enrollment.html:30 lms/templates/ccx/enrollment.html:113
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:31
 msgid ""
 "If this option is left {em_start}unchecked{em_end}, users who have not yet "
 "registered for {platform_name} will not be enrolled, but will be allowed to "
@@ -3039,17 +2989,19 @@ msgid ""
 msgstr "Si cette option est {em_start}décochée{em_end}, les utilisateurs qui ne se sont pas encore inscrits dans {platform_name} ne seront pas inscrits mais ils seront autorisés à s'inscrire dès qu'ils auront créé leur compte."
 
 #: lms/templates/ccx/enrollment.html:36
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:62
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:33
 msgid "Checking this box has no effect if 'Unenroll' is selected."
 msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 
 #: lms/templates/ccx/enrollment.html:43 lms/templates/ccx/enrollment.html:125
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:70
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:136
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:42
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:108
 msgid "Notify users by email"
 msgstr "Avertir les utilisateurs par courriels"
 
 #: lms/templates/ccx/enrollment.html:47 lms/templates/ccx/enrollment.html:129
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:46
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:112
 msgid ""
 "If this option is {em_start}checked{em_end}, users will receive an email "
 "notification."
@@ -3210,8 +3162,8 @@ msgstr "Poster sur Facebook"
 
 #: lms/templates/certificates/_accomplishment-banner.html:61
 #: lms/templates/certificates/_accomplishment-banner.html:63
-#: lms/templates/dashboard/_dashboard_course_listing.html:182
-#: lms/templates/dashboard/_dashboard_course_listing.html:188
+#: lms/templates/dashboard/_dashboard_course_listing.html:195
+#: lms/templates/dashboard/_dashboard_course_listing.html:201
 msgid "Share on Twitter"
 msgstr "Partager sur Twitter"
 
@@ -3328,18 +3280,13 @@ msgstr "Inscrit dans {course_name} | Choisisser votre parcours"
 msgid "Sorry, there was an error when trying to enroll you"
 msgstr "Désolé, une erreur s'est produite en tentant de vous inscrire."
 
-#: lms/templates/course_modes/choose.html:76
-#: themes/edx.org/lms/templates/course_modes/choose.html:76
-msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr "Félicitations! Vous êtes maintenant inscrit à {course_name}"
-
 #: lms/templates/course_modes/choose.html:89
-#: themes/edx.org/lms/templates/course_modes/choose.html:89
+#: themes/edx.org/lms/templates/course_modes/choose.html:114
 msgid "Pursue Academic Credit with a Verified Certificate"
 msgstr "Obtenir des crédits universitaires avec une attestation"
 
 #: lms/templates/course_modes/choose.html:92
-#: themes/edx.org/lms/templates/course_modes/choose.html:92
+#: themes/edx.org/lms/templates/course_modes/choose.html:117
 msgid ""
 "Become eligible for academic credit and highlight your new skills and "
 "knowledge with a verified certificate. Use this valuable credential to "
@@ -3349,27 +3296,27 @@ msgstr "Devenez éligible pour un crédit académique et faites ressortir vos no
 
 #: lms/templates/course_modes/choose.html:96
 #: lms/templates/course_modes/choose.html:122
-#: themes/edx.org/lms/templates/course_modes/choose.html:96
-#: themes/edx.org/lms/templates/course_modes/choose.html:122
+#: themes/edx.org/lms/templates/course_modes/choose.html:121
+#: themes/edx.org/lms/templates/course_modes/choose.html:147
 msgid "Benefits of a Verified Certificate"
 msgstr "Avantages d'une attestation"
 
 #: lms/templates/course_modes/choose.html:98
-#: themes/edx.org/lms/templates/course_modes/choose.html:98
+#: themes/edx.org/lms/templates/course_modes/choose.html:123
 msgid ""
 "{b_start}Eligible for credit:{b_end} Receive academic credit after "
 "successfully completing the course"
 msgstr "{b_start}Admissible pour crédit : {b_end} Recevez des crédits universitaires après avoir terminé le cours avec succès"
 
 #: lms/templates/course_modes/choose.html:99
-#: themes/edx.org/lms/templates/course_modes/choose.html:99
+#: themes/edx.org/lms/templates/course_modes/choose.html:124
 msgid ""
 "{b_start}Official:{b_end} Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr "{b_start}Officiel : {b_end} Recevez une attestation signée par l'instructeur avec le logo de l'institution"
 
 #: lms/templates/course_modes/choose.html:100
-#: themes/edx.org/lms/templates/course_modes/choose.html:100
+#: themes/edx.org/lms/templates/course_modes/choose.html:125
 msgid ""
 "{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
@@ -3378,14 +3325,14 @@ msgstr "{b_start}Facilement partageable : {b_end} Ajouter l’attestation à vot
 #: lms/templates/course_modes/choose.html:107
 #: lms/templates/course_modes/choose.html:115
 #: lms/templates/course_modes/choose.html:133
-#: themes/edx.org/lms/templates/course_modes/choose.html:107
-#: themes/edx.org/lms/templates/course_modes/choose.html:115
-#: themes/edx.org/lms/templates/course_modes/choose.html:134
+#: themes/edx.org/lms/templates/course_modes/choose.html:132
+#: themes/edx.org/lms/templates/course_modes/choose.html:140
+#: themes/edx.org/lms/templates/course_modes/choose.html:159
 msgid "Pursue a Verified Certificate"
 msgstr "Demander une attestation"
 
 #: lms/templates/course_modes/choose.html:118
-#: themes/edx.org/lms/templates/course_modes/choose.html:118
+#: themes/edx.org/lms/templates/course_modes/choose.html:143
 msgid ""
 "Highlight your new knowledge and skills with a verified certificate. Use "
 "this valuable credential to improve your job prospects and advance your "
@@ -3393,21 +3340,21 @@ msgid ""
 msgstr "Faites ressortir vos nouvelles connaissances et compétences avec une attestation. Utilisez cette attestation de compétences pour améliorer vos perspectives d'emploi et faire progresser votre carrière, ou mettre en évidence votre attestation lors de demandes d'admission."
 
 #: lms/templates/course_modes/choose.html:124
-#: themes/edx.org/lms/templates/course_modes/choose.html:124
+#: themes/edx.org/lms/templates/course_modes/choose.html:149
 msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr "{b_start}Officiel : {b_end}Recevoir une attestation signé par l'instructeur avec le logo de l'institution"
 
 #: lms/templates/course_modes/choose.html:125
-#: themes/edx.org/lms/templates/course_modes/choose.html:125
+#: themes/edx.org/lms/templates/course_modes/choose.html:150
 msgid ""
 "{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr "{b_start}Facilement partageable : {b_end}Ajouter l’attestation à votre curriculum vitae ou poster-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html:126
-#: themes/edx.org/lms/templates/course_modes/choose.html:126
+#: themes/edx.org/lms/templates/course_modes/choose.html:151
 msgid ""
 "{b_start}Motivating: {b_end}Give yourself an additional incentive to "
 "complete the course"
@@ -3416,28 +3363,28 @@ msgstr "{b_start}Motivant : {b_end}Donnez-vous une incitation supplémentaire po
 #: lms/templates/course_modes/choose.html:153
 #: lms/templates/course_modes/choose.html:161
 #: lms/templates/course_modes/choose.html:182
-#: themes/edx.org/lms/templates/course_modes/choose.html:154
-#: themes/edx.org/lms/templates/course_modes/choose.html:162
-#: themes/edx.org/lms/templates/course_modes/choose.html:183
+#: themes/edx.org/lms/templates/course_modes/choose.html:179
+#: themes/edx.org/lms/templates/course_modes/choose.html:187
+#: themes/edx.org/lms/templates/course_modes/choose.html:247
 msgid "Audit This Course"
 msgstr "Suivre ce Cours"
 
 #: lms/templates/course_modes/choose.html:155
-#: themes/edx.org/lms/templates/course_modes/choose.html:156
+#: themes/edx.org/lms/templates/course_modes/choose.html:181
 msgid ""
 "Audit this course for free and have complete access to all the course "
 "material, activities, tests, and forums."
 msgstr "Suivre ce cours gratuitement et avoir un accès complet à tout le matériel, activités, tests et forums du cours."
 
 #: lms/templates/course_modes/choose.html:173
-#: themes/edx.org/lms/templates/course_modes/choose.html:174
+#: themes/edx.org/lms/templates/course_modes/choose.html:238
 msgid "Audit This Course (No Certificate)"
 msgstr "Suivre ce cours (Sans Attestation)"
 
 #. Translators: b_start notes the beginning of a section of text bolded for
 #. emphasis, and b_end marks the end of the bolded text.
 #: lms/templates/course_modes/choose.html:176
-#: themes/edx.org/lms/templates/course_modes/choose.html:177
+#: themes/edx.org/lms/templates/course_modes/choose.html:241
 msgid ""
 "Audit this course for free and have complete access to all the course "
 "material, activities, tests, and forums.  {b_start}Please note that this "
@@ -3454,7 +3401,7 @@ msgid "{span_start}current section{span_end}"
 msgstr "{span_start}section en cours{span_end}"
 
 #: lms/templates/courseware/accordion.html:46
-#: lms/templates/courseware/progress.html:179
+#: lms/templates/courseware/progress.html:183
 msgid "due {date}"
 msgstr "Echéance le {date}"
 
@@ -3466,13 +3413,13 @@ msgstr "{section_format} à remettre le {{date}}"
 msgid "This content is graded"
 msgstr "Ce contenu est classé"
 
-#: lms/templates/courseware/course_about.html:38
-#: lms/templates/courseware/course_about.html:76
-#: lms/templates/courseware/course_about.html:95
+#: lms/templates/courseware/course_about.html:35
+#: lms/templates/courseware/course_about.html:73
+#: lms/templates/courseware/course_about.html:92
 msgid "An error occurred. Please try again later."
 msgstr "Une erreur s'est produite. Merci d'essayer de nouveau plus tard."
 
-#: lms/templates/courseware/course_about.html:60
+#: lms/templates/courseware/course_about.html:57
 msgid ""
 "The currently logged-in user account does not have permission to enroll in "
 "this course. You may need to {start_logout_tag}log out{end_tag} then try the"
@@ -3480,77 +3427,77 @@ msgid ""
 "for a possible solution."
 msgstr "Le compte de l'utilisateur présentement connecté n'a pas la permission de s'inscrire dans ce cours. Vous devez peut-être vous {start_logout_tag}déconneter{end_tag} et essayer le bouton d'inscription de nouveau. S'il vous plaît visiter la {start_help_tag}page d'aide{end_tag} pour une solution possible."
 
-#: lms/templates/courseware/course_about.html:128
+#: lms/templates/courseware/course_about.html:125
 msgid "You are enrolled in this course"
 msgstr "Vous êtes inscrit dans ce cours"
 
-#: lms/templates/courseware/course_about.html:131
-#: lms/templates/dashboard/_dashboard_course_listing.html:144
-#: lms/templates/dashboard/_dashboard_course_listing.html:146
-#: lms/templates/shoppingcart/registration_code_receipt.html:77
+#: lms/templates/courseware/course_about.html:128
+#: lms/templates/dashboard/_dashboard_course_listing.html:150
+#: lms/templates/dashboard/_dashboard_course_listing.html:152
+#: lms/templates/shoppingcart/registration_code_receipt.html:79
 msgid "View Course"
 msgstr "Voir le cours"
 
-#: lms/templates/courseware/course_about.html:137
+#: lms/templates/courseware/course_about.html:134
 msgid "This course is in your <a href=\"{cart_link}\">cart</a>."
 msgstr "Ce cours est dans votre <a href=\"{cart_link}\">panier</a>."
 
-#: lms/templates/courseware/course_about.html:141
+#: lms/templates/courseware/course_about.html:138
 msgid "Course is full"
 msgstr "Ce cours est complet"
 
-#: lms/templates/courseware/course_about.html:144
+#: lms/templates/courseware/course_about.html:141
 msgid "Enrollment in this course is by invitation only"
 msgstr "L'inscription à ce cours se fait sur invitation seulement"
 
-#: lms/templates/courseware/course_about.html:149
+#: lms/templates/courseware/course_about.html:146
 msgid "Enrollment is Closed"
 msgstr "Les inscriptions sont fermées"
 
-#: lms/templates/courseware/course_about.html:164
+#: lms/templates/courseware/course_about.html:161
 msgid "Add {course_name} to Cart <span>({price} USD)</span>"
 msgstr "Ajoutez {course_name} au panier <span>({price} CAD)</span>"
 
-#: lms/templates/courseware/course_about.html:180
+#: lms/templates/courseware/course_about.html:177
 msgid "Enroll in {course_name}"
 msgstr "S'inscrire à {course_name}"
 
-#: lms/templates/courseware/course_about.html:209
+#: lms/templates/courseware/course_about.html:206
 msgid "View About Page in studio"
 msgstr "Voir la page de présentation du cours dans Studio"
 
-#: lms/templates/courseware/course_about.html:231
+#: lms/templates/courseware/course_about.html:228
 msgid "Classes Start"
 msgstr "Début du cours"
 
-#: lms/templates/courseware/course_about.html:251
+#: lms/templates/courseware/course_about.html:248
 msgid "Classes End"
 msgstr "Fin des cours"
 
-#: lms/templates/courseware/course_about.html:264
+#: lms/templates/courseware/course_about.html:261
 msgid "Estimated Effort"
 msgstr "Effort estimé"
 
-#: lms/templates/courseware/course_about.html:272
+#: lms/templates/courseware/course_about.html:269
 msgid "Price"
 msgstr "Prix"
 
-#: lms/templates/courseware/course_about.html:281
+#: lms/templates/courseware/course_about.html:278
 msgid "Prerequisites"
 msgstr "Pré-requis"
 
-#: lms/templates/courseware/course_about.html:285
-#: lms/templates/dashboard/_dashboard_course_listing.html:429
+#: lms/templates/courseware/course_about.html:282
+#: lms/templates/dashboard/_dashboard_course_listing.html:444
 msgid ""
 "You must successfully complete {link_start}{prc_display}{link_end} before "
 "you begin this course."
 msgstr "Vous devez réussir {link_start}{prc_display}{link_end} avant de pouvoir démarrer ce cours."
 
-#: lms/templates/courseware/course_about.html:310
+#: lms/templates/courseware/course_about.html:305
 msgid "Additional Resources"
 msgstr "Ressources complémentaires"
 
-#: lms/templates/courseware/course_about.html:338
+#: lms/templates/courseware/course_about.html:333
 msgid "enroll"
 msgstr "S'inscrire"
 
@@ -3585,44 +3532,7 @@ msgstr "Ecrire un message Facebook pour dire que vous êtes inscrit dans ce cour
 msgid "Email someone to say you've enrolled in this course"
 msgstr "Ecrire un courriel à quelqu'un pour dire que vous êtes inscrit dans ce cours"
 
-#: lms/templates/courseware/course_navigation.html:43
-msgid "Course View"
-msgstr "Vue du cours"
-
-#: lms/templates/courseware/course_navigation.html:48
-msgid "View this course as:"
-msgstr "Voir ce cours comme : "
-
-#: lms/templates/courseware/course_navigation.html:50
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:183
-msgid "Staff"
-msgstr "Équipe pédagogique"
-
-#: lms/templates/courseware/course_navigation.html:51
-msgid "Student"
-msgstr "Étudiant"
-
-#: lms/templates/courseware/course_navigation.html:52
-msgid "Specific student"
-msgstr "Étudiant spécifique"
-
-#: lms/templates/courseware/course_navigation.html:56
-msgid "Student in {content_group}"
-msgstr "Étudiant dans {content_group}"
-
-#: lms/templates/courseware/course_navigation.html:62
-msgid "Username or email:"
-msgstr "Nom d'utilisateur ou courriel : "
-
-#: lms/templates/courseware/course_navigation.html:65
-msgid "Set preview mode"
-msgstr "Définir le mode d'aperçu"
-
-#: lms/templates/courseware/course_navigation.html:72
-msgid "You are now viewing the course as {i_start}{user_name}{i_end}."
-msgstr "Vous regardez maintenant le cours comme {i_start}{user_name}{i_end}."
-
-#: lms/templates/courseware/course_navigation.html:85
+#: lms/templates/courseware/course_navigation.html:32
 msgid "Course Material"
 msgstr "Matériel de cours"
 
@@ -3650,12 +3560,12 @@ msgid "Refine Your Search"
 msgstr "Affiner votre recherche"
 
 #: lms/templates/courseware/courseware-chromeless.html:12
-#: lms/templates/courseware/courseware.html:17
+#: lms/templates/courseware/courseware.html:21
 msgid "{course_number} Courseware"
 msgstr "Contenu du cours {course_number}"
 
 #: lms/templates/courseware/courseware-chromeless.html:80
-#: lms/templates/courseware/courseware.html:211
+#: lms/templates/courseware/courseware.html:244
 msgid "Course Utilities"
 msgstr "Utilitaires de cours"
 
@@ -3663,26 +3573,26 @@ msgstr "Utilitaires de cours"
 msgid "Courseware"
 msgstr "Cours"
 
-#: lms/templates/courseware/courseware.html:120
+#: lms/templates/courseware/courseware.html:123
 msgid "Bookmarks"
 msgstr "Signets"
 
-#: lms/templates/courseware/courseware.html:127
+#: lms/templates/courseware/courseware.html:130
 msgid "Course Search"
 msgstr "Chercher un cours"
 
-#: lms/templates/courseware/courseware.html:146
+#: lms/templates/courseware/courseware.html:149
 msgid "No content has been added to this course"
 msgstr "Aucun contenu n'a été ajouté à ce cours"
 
-#: lms/templates/courseware/courseware.html:161
+#: lms/templates/courseware/courseware.html:193
 #, python-format
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
 "this                     exam. Your current score is {current_score}%."
-msgstr ""
+msgstr "Pour accéder au contenu de cours, vous devez obtenir un score de  {required_score}% ou plus à cet examen. Votre score actuel est de {current_score}%."
 
-#: lms/templates/courseware/courseware.html:179
+#: lms/templates/courseware/courseware.html:211
 msgid "Your score is {current_score}%. You have passed the entrance exam."
 msgstr "Votre score est de {current_score}%. Vous avez réussi l'examen d'entrée."
 
@@ -3714,63 +3624,47 @@ msgstr "de"
 msgid "next page"
 msgstr "page suivante"
 
-#: lms/templates/courseware/info.html:16
+#: lms/templates/courseware/info.html:17
 msgid "{course_number} Course Info"
 msgstr "Infos du cours {course_number}"
 
-#: lms/templates/courseware/info.html:27
+#: lms/templates/courseware/info.html:28
 msgid "You are not enrolled yet"
 msgstr "Vous n'êtes pas encore inscrit"
 
-#: lms/templates/courseware/info.html:30
+#: lms/templates/courseware/info.html:31
 msgid ""
-"You are not currently enrolled in this course. {link_start}Sign up "
+"You are not currently enrolled in this course. {link_start}Enroll "
 "now!{link_end}"
-msgstr "Vous n'êtes pas actuellement inscrit dans ce cours. {link_start}Inscrivez-vous maintenant!{link_end}"
+msgstr "Vous n'êtes actuellement pas inscrit dans ce cours. {link_start}Inscrivez-vous maintenant!{link_end}"
 
-#: lms/templates/courseware/info.html:63
+#: lms/templates/courseware/info.html:61
 msgid "Welcome to {org}'s {course_name}!"
 msgstr "Bienvenue dans le cours {course_name} - {org}!"
 
-#: lms/templates/courseware/info.html:69
+#: lms/templates/courseware/info.html:67
 msgid "Resume Course"
 msgstr "Poursuivre le cours"
 
-#: lms/templates/courseware/info.html:79
+#: lms/templates/courseware/info.html:77
 msgid "View Updates in Studio"
 msgstr "Voir les mises à jour dans Studio"
 
-#: lms/templates/courseware/info.html:92
-msgid "Give yourself an additional incentive to complete"
-msgstr ""
-
-#: lms/templates/courseware/info.html:93
-msgid "Earn a verified certificate."
-msgstr ""
-
-#: lms/templates/courseware/info.html:98
-msgid "Upgrade Now"
-msgstr "Mettre à jour maintenant"
-
+#: lms/templates/courseware/info.html:82
 #: lms/templates/courseware/info.html:104
-#: lms/templates/courseware/info.html:151
 msgid "Course Updates and News"
 msgstr "Infos et actualités"
 
-#: lms/templates/courseware/info.html:115
-#: lms/templates/courseware/info.html:154
+#: lms/templates/courseware/info.html:86
+#: lms/templates/courseware/info.html:107
 msgid "Handout Navigation"
 msgstr "Navigation des documents pédagogiques"
 
-#: lms/templates/courseware/info.html:118
-msgid "Important Course Dates"
-msgstr "Dates importantes du cours"
+#: lms/templates/courseware/info.html:88
+msgid "Course Tools"
+msgstr "Outils du cours"
 
-#: lms/templates/courseware/info.html:126
-msgid "Today is {date}"
-msgstr "Nous sommes le {date} UTC"
-
-#: lms/templates/courseware/info.html:155
+#: lms/templates/courseware/info.html:108
 msgid "Course Handouts"
 msgstr "Documents du cours"
 
@@ -3782,102 +3676,248 @@ msgstr "Actualités - MITx 6.002x"
 msgid "Updates to Discussion Posts You Follow"
 msgstr "Mises à jour des sujets de discussion que vous suivez"
 
+#: lms/templates/courseware/program_marketing.html:70
+msgid "Purchase the Program"
+msgstr "Acheter le programme"
+
+#: lms/templates/courseware/program_marketing.html:74
+msgid "Start Learning"
+msgstr "Démarrer l'apprentissage"
+
+#: lms/templates/courseware/program_marketing.html:81
+msgid "View Program Trailer"
+msgstr "Voir la bande-annonce du programme"
+
+#: lms/templates/courseware/program_marketing.html:86
+msgid "Play"
+msgstr "Lecture"
+
+#: lms/templates/courseware/program_marketing.html:101
+msgid "Number of Courses"
+msgstr "Nombre de cours"
+
+#: lms/templates/courseware/program_marketing.html:104
+msgid "{number_of_courses} courses in program"
+msgstr "{number_of_courses} cours dans le programme"
+
+#: lms/templates/courseware/program_marketing.html:112
+msgid "Average Length"
+msgstr "Durée moyenne"
+
+#: lms/templates/courseware/program_marketing.html:115
+msgid "{weeks_to_complete} weeks per course"
+msgstr "{weeks_to_complete} semaines par cours"
+
+#: lms/templates/courseware/program_marketing.html:123
+msgid "Effort"
+msgstr "Effort"
+
+#: lms/templates/courseware/program_marketing.html:126
+msgid ""
+"{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per "
+"course"
+msgstr "{min_hours_effort_per_week}-{max_hours_effort_per_week} heures par semaine, par cours"
+
+#: lms/templates/courseware/program_marketing.html:135
+msgid "Price (USD)"
+msgstr "Prix (USD)"
+
+#: lms/templates/courseware/program_marketing.html:139
+msgid "Original Price"
+msgstr "Prix original"
+
+#: lms/templates/courseware/program_marketing.html:140
+msgid "${oldPrice}"
+msgstr "${oldPrice}"
+
+#: lms/templates/courseware/program_marketing.html:144
+msgid "Discounted Price"
+msgstr "Prix réduit"
+
+#: lms/templates/courseware/program_marketing.html:145
+msgid "${newPrice}{htmlEnd} for entire program"
+msgstr "${newPrice}{htmlEnd} pour le programme entier"
+
+#: lms/templates/courseware/program_marketing.html:150
+msgid "You save ${discount_value} {currency}"
+msgstr "Vous économisez ${discount_value} {currency}"
+
+#: lms/templates/courseware/program_marketing.html:158
+msgid "${full_program_price} for entire program"
+msgstr "${full_program_price} pour le programme entier"
+
+#: lms/templates/courseware/program_marketing.html:167
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: lms/templates/courseware/program_marketing.html:174
+msgid "Job Outlook"
+msgstr "Perspectives d'emploi"
+
+#: lms/templates/courseware/program_marketing.html:185
+msgid "What You'll Learn"
+msgstr "Ce que vous apprendrez"
+
+#: lms/templates/courseware/program_marketing.html:230
+#: lms/templates/courseware/program_marketing.html:325
+msgid "{position} at {organization}"
+msgstr "{position} à {organization}"
+
+#: lms/templates/courseware/program_marketing.html:256
+#: lms/templates/static_templates/faq.html:5
+#: lms/templates/static_templates/faq.html:9
+#: themes/red-theme/lms/templates/footer.html:41
+msgid "FAQ"
+msgstr "FAQ"
+
+#: lms/templates/courseware/program_marketing.html:275
+#: lms/templates/courseware/program_marketing.html:368
+msgid "Endorser Image"
+msgstr "Image de l'endosseur"
+
+#: lms/templates/courseware/program_marketing.html:290
+msgid "Meet the Instructors"
+msgstr "Rencontrez les enseignants"
+
+#. Translators: Pagination range contains ordinal numbers of the first and the
+#. last instructor
+#. whose information is shown on the current page.
+#: lms/templates/courseware/program_marketing.html:344
+msgid "{pagination_range} of {number_of_instructors}"
+msgstr "{pagination_range} de {number_of_instructors}"
+
+#: lms/templates/courseware/program_marketing.html:390
+msgid "Courses in the {program_type}"
+msgstr "Cours dans le {program_type}"
+
+#: lms/templates/courseware/program_marketing.html:405
+msgid "Starts {course_start_datetime}"
+msgstr "Débute {course_start_datetime}"
+
+#: lms/templates/courseware/program_marketing.html:411
+msgid "Instructor - Paced"
+msgstr "Au rythme de l'enseignant"
+
+#: lms/templates/courseware/program_marketing.html:413
+msgid "Self - Paced"
+msgstr "À votre rythme"
+
+#: lms/templates/courseware/program_marketing.html:441
+msgid "YouTube Video"
+msgstr "Vidéo YouTube"
+
 #: lms/templates/courseware/progress.html:24
 msgid "{course_number} Progress"
 msgstr "Progression {course_number}"
 
-#: lms/templates/courseware/progress.html:48
+#: lms/templates/courseware/progress.html:52
 msgid "View Grading in studio"
 msgstr "Voir la notation dans Studio"
 
-#: lms/templates/courseware/progress.html:52
+#: lms/templates/courseware/progress.html:56
 msgid "Course Progress for Student '{username}' ({email})"
 msgstr "Progression pour {username} ({email})"
 
-#: lms/templates/courseware/progress.html:68
+#: lms/templates/courseware/progress.html:72
 msgid "View Certificate"
 msgstr "Voir votre attestation"
 
-#: lms/templates/courseware/progress.html:68
-#: lms/templates/courseware/progress.html:70
+#: lms/templates/courseware/progress.html:72
+#: lms/templates/courseware/progress.html:74
 msgid "Opens in a new browser window"
 msgstr "Ouvrira dans une nouvelle fenêtre du navigateur"
 
-#: lms/templates/courseware/progress.html:70
+#: lms/templates/courseware/progress.html:74
 msgid "Download Your Certificate"
 msgstr "Télécharger votre attestation"
 
-#: lms/templates/courseware/progress.html:72
+#: lms/templates/courseware/progress.html:76
 msgid "Request Certificate"
 msgstr "Demander une attestation"
 
-#: lms/templates/courseware/progress.html:87
+#: lms/templates/courseware/progress.html:91
 msgid "Requirements for Course Credit"
 msgstr "Exigences pour les crédits de cours"
 
-#: lms/templates/courseware/progress.html:90
+#: lms/templates/courseware/progress.html:94
 msgid "{student_name}, you are no longer eligible for credit in this course."
 msgstr "{student_name}, vous n'êtes plus admissible pour les crédits de ce cours."
 
-#: lms/templates/courseware/progress.html:93
+#: lms/templates/courseware/progress.html:97
 msgid ""
 "{student_name}, you have met the requirements for credit in this course. "
 "{a_start}Go to your dashboard{a_end} to purchase course credit."
 msgstr "{student_name}, vous avez rempli les exigences pour les crédits de ce cours. {a_start}Allez dans votre tableau de bord{a_end} pour acheter des crédits de cours."
 
-#: lms/templates/courseware/progress.html:100
+#: lms/templates/courseware/progress.html:104
 msgid "{student_name}, you have not yet met the requirements for credit."
 msgstr "{student_name}, vous n'avez pas encore rempli les exigences pour les crédits de cours."
 
-#: lms/templates/courseware/progress.html:105
+#: lms/templates/courseware/progress.html:109
 msgid "Information about course credit requirements"
 msgstr "Information au sujet des exigences de crédits de cours"
 
-#: lms/templates/courseware/progress.html:112
+#: lms/templates/courseware/progress.html:116
 msgid "display_name"
 msgstr "nom d'affichage"
 
-#: lms/templates/courseware/progress.html:120
+#: lms/templates/courseware/progress.html:124
 msgid "Verification Submitted"
 msgstr "Vérification soumise"
 
-#: lms/templates/courseware/progress.html:123
+#: lms/templates/courseware/progress.html:127
 msgid "Verification Failed"
 msgstr "Vérification échouée"
 
-#: lms/templates/courseware/progress.html:126
+#: lms/templates/courseware/progress.html:130
 msgid "Verification Declined"
 msgstr "Vérification refusée"
 
-#: lms/templates/courseware/progress.html:129
+#: lms/templates/courseware/progress.html:133
 msgid "Completed by {date}"
 msgstr "Complété en date du {date}"
 
-#: lms/templates/courseware/progress.html:132
+#: lms/templates/courseware/progress.html:136
 msgid "Upcoming"
 msgstr "Prochainement"
 
-#: lms/templates/courseware/progress.html:140
+#: lms/templates/courseware/progress.html:144
 msgid "Less"
 msgstr "Moins"
 
-#: lms/templates/courseware/progress.html:148
+#: lms/templates/courseware/progress.html:152
 msgid "Details for each chapter"
 msgstr "Détails pour chaque chapitre"
 
-#: lms/templates/courseware/progress.html:166
+#: lms/templates/courseware/progress.html:170
 msgid "{earned} of {total} possible points"
 msgstr "{earned} sur un {total} de points possible"
 
-#: lms/templates/courseware/progress.html:184
+#: lms/templates/courseware/progress.html:189
 msgid "Problem Scores: "
 msgstr "Score aux exercices : "
 
-#: lms/templates/courseware/progress.html:184
+#: lms/templates/courseware/progress.html:189
 msgid "Practice Scores: "
 msgstr "Scores d'entrainement : "
 
-#: lms/templates/courseware/progress.html:190
+#: lms/templates/courseware/progress.html:198
+msgid "Problem scores are hidden until the due date."
+msgstr "Les scores des problèmes sont cachés jusqu'à la date d'échéance."
+
+#: lms/templates/courseware/progress.html:200
+msgid "Practice scores are hidden until the due date."
+msgstr "Les scores des pratiques sont cachés jusqu'à la date d'échéance."
+
+#: lms/templates/courseware/progress.html:204
+msgid "Problem scores are hidden."
+msgstr "Les scores des problèmes sont cachés."
+
+#: lms/templates/courseware/progress.html:206
+msgid "Practice scores are hidden."
+msgstr "Les scores des pratiques sont cachés."
+
+#: lms/templates/courseware/progress.html:212
 msgid "No problem scores in this section"
 msgstr "Pas d'exercice noté dans cette section"
 
@@ -3947,6 +3987,7 @@ msgid ""
 msgstr "Nous espérons que vous avez apprécié le cours, et nous espérons vous voir à l'avenir dans d'autres cours {platform_name}!"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:74
+#: lms/templates/emails/activation_email.txt:14
 #: lms/templates/emails/order_confirmation_email.txt:17
 msgid "The {platform_name} Team"
 msgstr "L'équipe de  {platform_name}"
@@ -4058,206 +4099,210 @@ msgid ""
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
 msgstr "Comme nous ne disposions pas de jeu valide de photos de vérification de votre part lorsque votre attestation a été générée, nous n'avons pas pu vous octroyer une attestation. Une attestation sur l'honneur vous a été octroyée en remplacement."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:59
+#: lms/templates/dashboard/_dashboard_course_listing.html:65
 msgid "Course details"
 msgstr "Détails du cours"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:64
+#: lms/templates/dashboard/_dashboard_course_listing.html:70
 msgid "{course_number} {course_name} Home Page"
 msgstr "{course_number} {course_name} Accueil"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:68
-#: lms/templates/dashboard/_dashboard_course_listing.html:73
+#: lms/templates/dashboard/_dashboard_course_listing.html:74
+#: lms/templates/dashboard/_dashboard_course_listing.html:79
 msgid "{course_number} {course_name} Cover Image"
 msgstr "{course_number} {course_name} Image de couverture"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:78
+#: lms/templates/dashboard/_dashboard_course_listing.html:84
 msgid "Enrolled as: "
 msgstr "Inscrit en tant que : "
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:103
+#: lms/templates/dashboard/_dashboard_course_listing.html:109
 msgid "Coming Soon"
 msgstr "Bientôt"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:108
+#: lms/templates/dashboard/_dashboard_course_listing.html:114
 msgid "Ended - {date}"
 msgstr "Terminé - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:111
+#: lms/templates/dashboard/_dashboard_course_listing.html:117
 msgid "Started - {date}"
 msgstr "Commencé - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:114
-#: lms/templates/dashboard/_dashboard_course_listing.html:118
+#: lms/templates/dashboard/_dashboard_course_listing.html:120
+#: lms/templates/dashboard/_dashboard_course_listing.html:124
 msgid "Starts - {date}"
 msgstr "Commence - {date}"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:138
-#: lms/templates/dashboard/_dashboard_course_listing.html:140
+#: lms/templates/dashboard/_dashboard_course_listing.html:144
+#: lms/templates/dashboard/_dashboard_course_listing.html:146
 msgid "View Archived Course"
 msgstr "Voir le cours"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:165
-#: lms/templates/dashboard/_dashboard_course_listing.html:171
+#: lms/templates/dashboard/_dashboard_course_listing.html:169
+msgid "I'm taking {course_name} online with edX.org. Check it out!"
+msgstr "Je suis le cours en ligne {course_name} avec edX.org. Allez voir !"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:174
+#: lms/templates/dashboard/_dashboard_course_listing.html:180
 msgid "Share on Facebook"
 msgstr "Partager sur Facebook"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:173
+#: lms/templates/dashboard/_dashboard_course_listing.html:183
 msgid "Facebook"
 msgstr "Facebook"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:178
-msgid "I'm learning on {platform_name}:"
-msgstr "J'apprends sur {platform_name} : "
-
 #: lms/templates/dashboard/_dashboard_course_listing.html:190
+msgid "I'm taking {course_name} online with @edxonline. Check it out!"
+msgstr "Je suis le cours en ligne {course_name} avec @edxonline. Allez voir !"
+
+#: lms/templates/dashboard/_dashboard_course_listing.html:204
 msgid "Twitter"
 msgstr "Twitter"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:198
+#: lms/templates/dashboard/_dashboard_course_listing.html:213
 msgid "Course options for"
 msgstr "Options de cours pour"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:205
+#: lms/templates/dashboard/_dashboard_course_listing.html:220
 msgid "Available Actions"
 msgstr "Actions disponibles"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:211
-#: lms/templates/dashboard/_dashboard_course_listing.html:217
-#: lms/templates/dashboard/_dashboard_course_listing.html:225
-#: lms/templates/dashboard/_dashboard_course_listing.html:231
+#: lms/templates/dashboard/_dashboard_course_listing.html:226
+#: lms/templates/dashboard/_dashboard_course_listing.html:232
+#: lms/templates/dashboard/_dashboard_course_listing.html:240
+#: lms/templates/dashboard/_dashboard_course_listing.html:246
 #, python-format
 msgid ""
 "Are you sure you want to unenroll from the purchased course %(course_name)s "
 "(%(course_number)s)?"
 msgstr "Êtes-vous certain que vous voulez vous désinscrire du cours acheté %(course_name)s (%(course_number)s)?"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:212
-#: lms/templates/dashboard/_dashboard_course_listing.html:218
-#: lms/templates/dashboard/_dashboard_course_listing.html:252
-#: lms/templates/dashboard/_dashboard_course_listing.html:258
+#: lms/templates/dashboard/_dashboard_course_listing.html:227
+#: lms/templates/dashboard/_dashboard_course_listing.html:233
+#: lms/templates/dashboard/_dashboard_course_listing.html:267
+#: lms/templates/dashboard/_dashboard_course_listing.html:273
 msgid "You will be refunded the amount you paid."
 msgstr "Le montant payé vous sera remboursé."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:226
-#: lms/templates/dashboard/_dashboard_course_listing.html:232
+#: lms/templates/dashboard/_dashboard_course_listing.html:241
+#: lms/templates/dashboard/_dashboard_course_listing.html:247
 msgid "You will not be refunded the amount you paid."
 msgstr "Le montant payé ne vous sera pas remboursé."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:239
-#: lms/templates/dashboard/_dashboard_course_listing.html:244
+#: lms/templates/dashboard/_dashboard_course_listing.html:254
+#: lms/templates/dashboard/_dashboard_course_listing.html:259
 #, python-format
 msgid ""
 "Are you sure you want to unenroll from %(course_name)s (%(course_number)s)?"
 msgstr "Êtes-vous certain de vouloir vous désinscrire de %(course_name)s (%(course_number)s)?"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:251
-#: lms/templates/dashboard/_dashboard_course_listing.html:257
-#: lms/templates/dashboard/_dashboard_course_listing.html:265
-#: lms/templates/dashboard/_dashboard_course_listing.html:271
+#: lms/templates/dashboard/_dashboard_course_listing.html:266
+#: lms/templates/dashboard/_dashboard_course_listing.html:272
+#: lms/templates/dashboard/_dashboard_course_listing.html:280
+#: lms/templates/dashboard/_dashboard_course_listing.html:286
 #, python-format
 msgid ""
 "Are you sure you want to unenroll from the verified %(cert_name_long)s track"
 " of %(course_name)s (%(course_number)s)?"
 msgstr "Êtes-vous certain de vouloir vous désinscrire de cette %(cert_name_long)s pour %(course_name)s (%(course_number)s)?"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:266
-#: lms/templates/dashboard/_dashboard_course_listing.html:272
+#: lms/templates/dashboard/_dashboard_course_listing.html:281
+#: lms/templates/dashboard/_dashboard_course_listing.html:287
 msgid ""
 "The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr "La date limite de remboursement pour ce cours est passée, de sorte que vous ne recevrez pas de remboursement."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:282
-#: lms/templates/dashboard/_dashboard_course_listing.html:284
+#: lms/templates/dashboard/_dashboard_course_listing.html:297
+#: lms/templates/dashboard/_dashboard_course_listing.html:299
 msgid "Email Settings"
 msgstr "Paramètres de messagerie"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:299
+#: lms/templates/dashboard/_dashboard_course_listing.html:314
 msgid "Related Programs"
 msgstr "Programmes connexes"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:324
+#: lms/templates/dashboard/_dashboard_course_listing.html:339
 msgid "Verification not yet complete."
 msgstr "Vérification pas encore terminée."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:325
+#: lms/templates/dashboard/_dashboard_course_listing.html:340
 msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
 msgstr[0] "Il ne vous reste plus que {days} jour pour vérifier ce cours."
 msgstr[1] "Il ne vous reste plus que {days} jours pour vérifier ce cours."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:331
+#: lms/templates/dashboard/_dashboard_course_listing.html:346
 msgid "Almost there!"
 msgstr "Vous y êtes presque!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:332
+#: lms/templates/dashboard/_dashboard_course_listing.html:347
 msgid "You still need to verify for this course."
 msgstr "Vous devez encore effectuer la vérification de votre identité pour ce cours."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:336
+#: lms/templates/dashboard/_dashboard_course_listing.html:351
 msgid "Verify Now"
 msgstr "Vérifier maintenant"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:339
+#: lms/templates/dashboard/_dashboard_course_listing.html:354
 msgid "You have submitted your verification information."
 msgstr "Vous avez soumis vos informations de vérification."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:340
+#: lms/templates/dashboard/_dashboard_course_listing.html:355
 msgid ""
 "You will see a message on your dashboard when the verification process is "
 "complete (usually within 1-2 days)."
 msgstr "Vous verrez un message sur votre tableau de bord lorsque le processus de vérification sera complété (normalement entre 1-2 jours)."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:342
+#: lms/templates/dashboard/_dashboard_course_listing.html:357
 msgid "Your current verification will expire soon!"
 msgstr "Votre vérification expire bientôt!"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:343
+#: lms/templates/dashboard/_dashboard_course_listing.html:358
 msgid ""
 "You have submitted your reverification information. You will see a message "
 "on your dashboard when the verification process is complete (usually within "
 "1-2 days)."
 msgstr "Vous avez déjà soumis vos informations de revérification. Vous verrez un message sur votre tableau de bord lorsque le processus de vérification sera complété (normalement entre 1-2 jours)."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:345
+#: lms/templates/dashboard/_dashboard_course_listing.html:360
 msgid "You have successfully verified your ID with edX"
 msgstr "Vous avez vérifié avec succès votre identité avec EDUlib"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:347
+#: lms/templates/dashboard/_dashboard_course_listing.html:362
 msgid "Your current verification is effective until {date}."
 msgstr "Votre vérification est valable jusqu'au {date}."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:350
+#: lms/templates/dashboard/_dashboard_course_listing.html:365
 msgid "Your current verification will expire soon."
 msgstr "Votre vérification expire bientôt!"
 
 #. Translators: start_link and end_link will be replaced with HTML tags;
 #. please do not translate these.
-#: lms/templates/dashboard/_dashboard_course_listing.html:353
+#: lms/templates/dashboard/_dashboard_course_listing.html:368
 msgid ""
 "Your current verification will expire in {days} days. {start_link}Re-verify "
 "your identity now{end_link} using a webcam and a government-issued photo ID."
 msgstr "Votre vérification actuelle expirera dans {days} jours. {start_link}Revérifiez votre identité maintenant{end_link} en prenant une photo de votre visage avec votre caméra et une photo d'une pièce d'identification officielle émise par le gouvernement."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:369
+#: lms/templates/dashboard/_dashboard_course_listing.html:384
 msgid ""
 "Pursue a {cert_name_long} to highlight the knowledge and skills you gain in "
 "this course."
 msgstr "Obtenez une attestation afin de mettre en valeur les connaissances et les compétences acquises dans ce cours."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:371
+#: lms/templates/dashboard/_dashboard_course_listing.html:386
 msgid ""
 "It's official. It's easily shareable. It's a proven motivator to complete "
 "the course. {line_break}{link_start}Learn more about the verified "
 "{cert_name_long}{link_end}."
 msgstr "C'est officiel. C'est facilement partageable. C'est un facteur de motivation afin de compléter le cours. {line_break}{link_start}Apprenez-en plus au sujet d'une {cert_name_long}{link_end}."
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:391
+#: lms/templates/dashboard/_dashboard_course_listing.html:406
 msgid "Upgrade to Verified"
 msgstr "Demander une attestation"
 
-#: lms/templates/dashboard/_dashboard_course_listing.html:402
+#: lms/templates/dashboard/_dashboard_course_listing.html:417
 msgid ""
 "You can no longer access this course because payment has not yet been "
 "received. You can {contact_link_start}contact the account "
@@ -4341,30 +4386,46 @@ msgid ""
 "one year after submission."
 msgstr "Votre vérification EDUlib a été approuvée. Votre statut de vérification est valable pour un an suite à sa soumission."
 
-#: lms/templates/dashboard/_dashboard_status_verification.html:17
+#: lms/templates/dashboard/_dashboard_status_verification.html:15
 msgid "Current Verification Status: Pending"
 msgstr "État de la vérification : En Attente"
 
-#: lms/templates/dashboard/_dashboard_status_verification.html:18
+#: lms/templates/dashboard/_dashboard_status_verification.html:16
 msgid ""
 "Your edX ID verification is pending. Your verification information has been "
 "submitted and will be reviewed shortly."
 msgstr "Votre vérification EDUlib est en attente. Vos photos de vérification ont été soumises et seront examinées bientôt."
 
-#: lms/templates/dashboard/_dashboard_status_verification.html:24
+#: lms/templates/dashboard/_dashboard_status_verification.html:20
+msgid "Current Verification Status: Denied"
+msgstr "État de la vérification : Rejetée"
+
+#: lms/templates/dashboard/_dashboard_status_verification.html:22
+msgid ""
+"Your verification submission was not accepted. To receive a verified "
+"certificate, you must submit a new photo of yourself and your government-"
+"issued photo ID before the verification deadline for your course."
+msgstr "Votre vérification n'a pas été acceptée. Pour recevoir une attestation, vous devez soumettre une photo de vous-même et une photo d'une pièce d'identité avant la fin du cours."
+
+#: lms/templates/dashboard/_dashboard_status_verification.html:26
+msgid "Your verification was denied for the following reasons:"
+msgstr "Votre vérification a été rejetée pour les raisons suivantes :"
+
+#: lms/templates/dashboard/_dashboard_status_verification.html:35
+#: lms/templates/dashboard/_dashboard_status_verification.html:43
+msgid "Resubmit Verification"
+msgstr "Renvoyer la vérification"
+
+#: lms/templates/dashboard/_dashboard_status_verification.html:40
 msgid "Current Verification Status: Expired"
 msgstr "État de la vérification : Expirée"
 
-#: lms/templates/dashboard/_dashboard_status_verification.html:25
+#: lms/templates/dashboard/_dashboard_status_verification.html:41
 msgid ""
 "Your verification has expired. To receive a verified certificate, you must "
 "submit a new photo of yourself and your government-issued photo ID before "
 "the verification deadline for your course."
 msgstr "Votre vérification a expirée. Afin de recevoir une attestation, vous devez soumettre une photo de vous-même et une photo d'une pièce d'identité avant la fin du cours."
-
-#: lms/templates/dashboard/_dashboard_status_verification.html:27
-msgid "Resubmit Verification"
-msgstr "Renvoyer la vérification"
 
 #: lms/templates/dashboard/_dashboard_third_party_error.html:7
 msgid "Could Not Link Accounts"
@@ -4391,7 +4452,7 @@ msgstr "Résultats : "
 msgid "Topic:"
 msgstr "Sujet : "
 
-#: lms/templates/discussion/_discussion_inline.html:21
+#: lms/templates/discussion/_discussion_inline.html:25
 msgid "Show Discussion"
 msgstr "Afficher la discussion"
 
@@ -4403,23 +4464,23 @@ msgstr "Pour voir les forums de discusssions en direct, cliquer sur Aperçu ou V
 msgid "Discussion ID: {discussion_id}"
 msgstr "ID de discussion : {discussion_id}"
 
-#: lms/templates/discussion/_filter_dropdown.html:41
+#: lms/templates/discussion/_filter_dropdown.html:43
 msgid "Discussion topics list"
 msgstr "Liste des sujets de discussions"
 
-#: lms/templates/discussion/_filter_dropdown.html:44
+#: lms/templates/discussion/_filter_dropdown.html:46
 msgid "Filter Topics"
 msgstr "Filtrer les sujets"
 
-#: lms/templates/discussion/_filter_dropdown.html:45
+#: lms/templates/discussion/_filter_dropdown.html:47
 msgid "filter topics"
 msgstr "filtrer les sujets"
 
-#: lms/templates/discussion/_filter_dropdown.html:51
+#: lms/templates/discussion/_filter_dropdown.html:53
 msgid "All Discussions"
 msgstr "Toutes les discussions"
 
-#: lms/templates/discussion/_filter_dropdown.html:55
+#: lms/templates/discussion/_filter_dropdown.html:57
 msgid "Posts I'm Following"
 msgstr "Messages suivis"
 
@@ -4450,14 +4511,14 @@ msgstr "Messages sans réponse"
 msgid "Flagged"
 msgstr "Marqué"
 
-#. Translators: This labels a cohort menu in forum navigation
+#. Translators: This labels a group menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:26
-msgid "Cohort:"
-msgstr "Cohorte : "
+msgid "Group:"
+msgstr "Groupe :"
 
 #: lms/templates/discussion/_thread_list_template.html:28
-msgid "in all cohorts"
-msgstr "dans toutes les cohortes"
+msgid "in all groups"
+msgstr "dans tous les groupes"
 
 #. Translators: This labels a sort menu in forum navigation
 #: lms/templates/discussion/_thread_list_template.html:37
@@ -4563,29 +4624,32 @@ msgstr "Il est recommandé de changer de mot de passe."
 msgid "Sincerely yours,The {course_name} Team"
 msgstr "Cordialement, l'équipe de {course_name}"
 
-#: lms/templates/emails/activation_email.txt:3
-msgid "Thank you for creating an account with {platform_name}!"
-msgstr "Merci d'avoir créé un compre sur {platform_name}!"
-
-#: lms/templates/emails/activation_email.txt:7
+#: lms/templates/emails/activation_email.txt:2
 msgid ""
-"There's just one more step before you can enroll in a course: you need to "
-"activate your {platform_name} account. To activate your account, click the "
-"following link. If that doesn't work, copy and paste the link into your "
-"browser's address bar."
-msgstr "Il ne reste qu'une étape avant que vous puissiez vous inscrire dans un cours : vous devez activer votre compte {platform_name}. Pour activer votre compte, cliquer sur le lien suivant. Si ça ne fonctionne pas, copier et coller le lien dans la barre d'adresse de votre navigateur."
+"You're almost there! Use the link to activate your account to access "
+"engaging, high-quality {platform_name} courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr "Vous y êtes presque! Utilisez le lien pour activer votre compte et accéder à des cours attrayants et d haute qualité sur {platform_name}. Notez que vous ne pourrez pas vous reconnecter à votre compte avant de l'avoir activé."
 
-#: lms/templates/emails/activation_email.txt:19
+#: lms/templates/emails/activation_email.txt:12
+msgid "Enjoy learning with {platform_name}."
+msgstr "Profitez de votre apprentissage avec {platform_name}."
+
+#: lms/templates/emails/activation_email.txt:16
 msgid ""
-"If you didn't create an account, you don't need to do anything; you won't "
-"receive any more email from us. If you need assistance, please do not reply "
-"to this email message. Check the help section of the {platform_name} "
-"website."
-msgstr "si vous n'avez pas créé un compte, vous n'avez rien à faire; vous ne recevrez plus de courriels de notre part. Si vous avez besoin d'aide, s'il vous plaît ne répondez pas à ce courriel. Consultez la section d'aide du site web de {platform_name}."
+"If you need help, please use our web form at {support_url} or email "
+"{support_email}."
+msgstr "Si vous avez besoin d'aide, veuillez utiliser notre formulaire Web au {support_url} ou notre adresse courriel {support_email}."
 
-#: lms/templates/emails/activation_email_subject.txt:4
-msgid "Activate Your {platform_name} Account"
-msgstr "Activez votre compte sur {platform_name}"
+#: lms/templates/emails/activation_email.txt:20
+msgid ""
+"This email message was automatically sent by {lms_url} because someone "
+"attempted to create an account on {platform_name} using this email address."
+msgstr "Ce courriel a été automatiquement envoyé par {lms_url} parce que quelqu'un a tenté de créer un compte sur {platform_name} en utilisant cette adresse courriel."
+
+#: lms/templates/emails/activation_email_subject.txt:2
+msgid "Action Required: Activate your {platform_name} account"
+msgstr "Action requise : Activez votre compte {platform_name}"
 
 #: lms/templates/emails/add_beta_tester_email_message.txt:3
 #: lms/templates/emails/enroll_email_enrolledmessage.txt:3
@@ -4777,20 +4841,22 @@ msgstr "(5) Le matériel de cours ne sera pas disponible avant la date de début
 msgid "<p>Sincerely,</p><p>[[Your Signature]]</p>"
 msgstr "<p>Cordialement,</p><p>[[Your Signature]]</p>"
 
-#: lms/templates/emails/confirm_email_change.txt:4
+#: lms/templates/emails/confirm_email_change.txt:5
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us immediately. Contact information is listed at:"
 msgstr "Ce message confirme que vous avez modifié l'adresse courriel associée avec {platform_name} depuis {old_email} vers {new_email}. Si vous n'avez pas demandé ce changement, merci de nous contacter immédiatement. Les informations de contact se trouvent sur : "
 
-#: lms/templates/emails/confirm_email_change.txt:20
+#: lms/templates/emails/confirm_email_change.txt:25
+#: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:8
 msgid ""
 "We keep a log of old e-mails, so if this request was unintentional, we can "
 "investigate."
 msgstr "Nous gardons les traces des anciens courriels. Ainsi, si votre demande était intentionnelle, nous pouvons investiguer. "
 
 #: lms/templates/emails/email_change.txt:3
+#: themes/stanford-style/lms/templates/emails/email_change.txt:2
 msgid ""
 "We received a request to change the e-mail associated with your "
 "{platform_name} account from {old_email} to {new_email}. If this is correct,"
@@ -5321,7 +5387,7 @@ msgstr "Quand vous êtes prêt à générer les attestations pour ce cours, cliq
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:116
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:138
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:100
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:192
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:209
 msgid "Pending Tasks"
 msgstr "Tâches en attente"
 
@@ -5329,7 +5395,7 @@ msgstr "Tâches en attente"
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:124
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:118
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html:140
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:194
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:211
 msgid "The status for any active tasks appears in a table below."
 msgstr "L'état des tâches actives apparaît dans la table ci-dessous."
 
@@ -6205,12 +6271,12 @@ msgid ""
 "{link_start}{analytics_dashboard_name}{link_end}."
 msgstr "Pour les analytiques de votre cours, allez à {link_start}{analytics_dashboard_name}{link_end}."
 
-#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:24
-#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:92
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:25
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:105
 msgid "Instructor Dashboard"
 msgstr "Tableau de bord enseignant"
 
-#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:95
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:108
 msgid "View Course in Studio"
 msgstr "Voir le cours dans Studio"
 
@@ -6232,50 +6298,30 @@ msgstr "Code d'inscription"
 msgid "Find Enrollment Code"
 msgstr "Trouver un code d'inscription"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:46
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:17
 msgid ""
 "Enter the reason why the students are to be manually enrolled or unenrolled."
 msgstr "Entrer la raison pour laquelle les étudiants seront inscrits ou désinscrits manuellement."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:47
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:18
 msgid ""
 "This cannot be left blank and will be recorded and presented in Enrollment "
 "Reports."
 msgstr "Cela ne peut être vide et sera enregistré et présenté dans le rapport d'inscription."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:48
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:19
 msgid "Therefore, please give enough detail to account for this action."
 msgstr "Par conséquent, s'il vous plaît donner suffisamment de détails pour rendre compte de cette action."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:49
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:20
 msgid "Reason"
 msgstr "Raison"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:59
-msgid ""
-"If this option is <em>checked</em>, users who have not yet registered for "
-"{platform_name} will be automatically enrolled."
-msgstr "Si cette option est <em>cochée</em>, les utilisateurs qui ne se sont pas encore inscrits dans {platform_name} seront automatiquement ajoutés. "
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:60
-msgid ""
-"If this option is left <em>unchecked</em>, users who have not yet registered"
-" for {platform_name} will not be enrolled, but will be allowed to enroll "
-"once they make an account."
-msgstr "Si cette option <em>n'est pas cochée</em>, les utilisateurs qui ne se sont pas encore inscrits dans {platform_name} ne seront pas ajoutés mais ils seront autorisés à s'inscrire dès qu'ils auront créé leur compte. "
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:74
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:140
-msgid ""
-"If this option is <em>checked</em>, users will receive an email "
-"notification."
-msgstr "Si cette option est <em>cochée</em>, les utilisateurs recevront une notification par e-mail."
-
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:91
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:63
 msgid "Register/Enroll Students"
 msgstr "Inscrire/Enregistrer des étudiants "
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:92
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:64
 msgid ""
 "To register and enroll a list of users in this course, choose a CSV file "
 "that contains the following columns in this exact order: email, username, "
@@ -6283,67 +6329,67 @@ msgid ""
 " headers, footers, or blank lines."
 msgstr "Pour enregistrer et inscrire une liste d'utilisateurs dans ce cours, choisissez un fichier csv qui contient les colonnes suivantes dans le même ordre : courriel, nom d'utilisateur, nom, et pays. Ne saisissez qu'un seul utilisateur par ligne et ne mettez pas d'en-têtes, pied de page ou de lignes vides. "
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:95
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:67
 msgid "Upload a CSV for bulk enrollment"
 msgstr "Importer CSV pour inscription en lot"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:102
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:74
 msgid "Upload CSV"
 msgstr "Importer CSV"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:113
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:85
 msgid "Batch Beta Tester Addition"
 msgstr "Ajout de bêta-testeurs"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:116
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:88
 msgid ""
 "Note: Users must have an activated {platform_name} account before they can "
 "be enrolled as beta testers."
 msgstr "Note : Les utilisateurs doivent avoir activé leur compte {platform_name} avant de pouvoir être ajouté en bêta-testeur."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:126
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:98
 msgid ""
-"If this option is <em>checked</em>, users who have not enrolled in your "
-"course will be automatically enrolled."
-msgstr "Si cette option est <em>cochée</em>, les nouveaux étudiants seront automatiquement inscrits."
+"If this option is {em_start}checked{em_end}, users who have not enrolled in "
+"your course will be automatically enrolled."
+msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:128
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:100
 msgid "Checking this box has no effect if 'Remove beta testers' is selected."
 msgstr "Cocher cette case n'a pas d'effet si \"Supprimer les bêta-testeurs\" est sélectionné. "
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:146
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:118
 msgid "Add beta testers"
 msgstr "Ajouter des bêta-testeurs"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:147
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:119
 msgid "Remove beta testers"
 msgstr "Supprimer des bêta-testeurs"
 
 #. Translators: an "Administration List" is a list, such as Course Staff, that
 #. users can be added to.
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:158
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:130
 msgid "Course Team Management"
 msgstr "Gestion de l'équipe du cours"
 
 #. Translators: an "Administrator Group" is a group, such as Course Staff,
 #. that
 #. users can be added to.
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:164
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:136
 msgid "Select a course team role:"
 msgstr "Sélectionner un rôle : "
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:166
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:138
 msgid "Getting available lists..."
 msgstr "Obtention des listes disponibles"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:174
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:146
 msgid ""
 "Staff cannot modify these lists. To manage course team membership, a course "
 "Admin must give you the Admin role to add Staff or Beta Testers, or the "
 "Discussion Admin role to add discussion moderators and TAs."
 msgstr "L'équipe pédagogique ne peut modifier ces listes. Pour vous permettre de gérer l'adhésion à l'équipe du cours, un administrateur du cours doit vous assigner le rôle Admin pour ajouter des béta testeurs ou des membres de l'équipe pédagogique, ou le rôle de Discussion Admin role pour ajouter des modérateurs de de discussions ou des assistants d'enseignement."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:185
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:157
 msgid ""
 "Course team members with the Staff role help you manage your course. Staff "
 "can enroll and unenroll learners, as well as modify their grades and access "
@@ -6351,15 +6397,15 @@ msgid ""
 "Insights. You can only give course team roles to enrolled users."
 msgstr "Les membres de l'équipe avec le rôle équipe pédagogique aident à la gestion du cours. L'équipe pédagogique peut inscrire et désinscrire des participants, ainsi que modifier les notes aux exercices et accéder à l'ensemble des données du cours. L'équipe pédagogique a également accès au cours dans Studio. Vous ne pouvez affecter des rôles que pour les utilisateurs inscrits au cours."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:191
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:163
 msgid "Add Staff"
 msgstr "Ajouter à l'équipe pédagogique"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:197
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:169
 msgid "Admin"
 msgstr "Admin"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:199
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:171
 msgid ""
 "Course team members with the Admin role help you manage your course. They "
 "can do all of the tasks that Staff can do, and can also add and remove the "
@@ -6368,88 +6414,106 @@ msgid ""
 "enrolled users."
 msgstr "Les membres de l'équipe avec le rôle Admin aident à la gestion du cours. Ils peuvent également effectuer toutes les actions comme l'équipe pédagogique, mais aussi ajouter ou supprimer des membres Admin, gérer les rôles de modérations des forums, l'ajout de bêta-testeurs. Vous ne pouvez affecter des rôles que pour les utilisateurs inscrits au cours."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:206
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:178
 msgid "Add Admin"
 msgstr "Ajouter un Admin"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:212
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:184
 msgid "Beta Testers"
 msgstr "Bêta-testeurs"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:214
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:186
 msgid ""
 "Beta Testers can see course content before other learners. They can make "
 "sure that the content works, but have no additional privileges. You can only"
 " give course team roles to enrolled users."
 msgstr "Les Bêta-testeurs peuvent voir le contenu du cours avant les autres participants. Ils peuvent ainsi s'assurer que le contenu fonctionne, mais ne disposent pas de permissions supplémentaires. Vous ne pouvez affecter de rôle uniquement à des utilisateurs inscrits."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:219
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:191
 msgid "Add Beta Tester"
 msgstr "Ajouter un Bêta-testeur"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:224
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:196
 msgid "Discussion Admins"
 msgstr "Administrateurs de discussion"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:226
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:198
 msgid ""
 "Discussion Admins can edit or delete any post, clear misuse flags, close and"
-" re-open threads, endorse responses, and see posts from all cohorts. Their "
+" re-open threads, endorse responses, and see posts from all groups. Their "
 "posts are marked as 'staff'. They can also add and remove the discussion "
-"moderation roles to manage course team membership. You can only give course "
-"team roles to enrolled users."
-msgstr "Les Administrateurs de discussions peuvent modifier et supprimer tous les post, les dénonciations abusives, fermer et réouvrir des sujets, indiquer des réponses et voir les posts de toutes les cohortes. Leur posts sont marqués comme 'Équipe pédagogique'. Ils peuvent aussi modifier les rôles de modérations des utilisateurs. Vous pouvez donner un rôle d'équipe uniquement à des utilisateurs inscrits au cours."
+"moderation roles to manage course team membership. Only enrolled users can "
+"be added as Discussion Admins."
+msgstr "Les Administrateurs de discussions peuvent modifier et supprimer tous les messages, les dénonciations abusives, fermer et ré-ouvrir des sujets, indiquer des réponses et voir les messages de tous les groupes. Leurs messages sont marqués comme 'Équipe pédagogique'. Ils peuvent aussi modifier les rôles de modération des utilisateurs. Vous pouvez donner un rôle d'Administrateur de discussions uniquement à des utilisateurs inscrits au cours."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:233
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:205
 msgid "Add Discussion Admin"
 msgstr "Ajouter un Administrateur de discussion"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:240
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:212
 msgid "Discussion Moderators"
 msgstr "Modérateurs de discussion"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:242
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:214
 msgid ""
 "Discussion Moderators can edit or delete any post, clear misuse flags, close"
-" and re-open threads, endorse responses, and see posts from all cohorts. "
+" and re-open threads, endorse responses, and see posts from all groups. "
 "Their posts are marked as 'staff'. They cannot manage course team membership"
-" by adding or removing discussion moderation roles. You can only give course"
-" team roles to enrolled users."
-msgstr "Les Modérateurs de discussions peuvent modifier et supprimer tous les post, les dénonciations abusives, fermer et réouvrir des sujets, indiquer des réponses et voir les posts de toutes les cohortes. Leur posts sont marqués comme 'Équipe pédagogique'. Ils ne peuvent pas modifier les rôles de modérations des utilisateurs. Vous pouvez donner un rôle d'équipe uniquement à des utilisateurs inscrits au cours."
+" by adding or removing discussion moderation roles. Only enrolled users can "
+"be added as Discussion Moderators."
+msgstr "Les Modérateurs de discussions peuvent modifier et supprimer tous les messages, les dénonciations abusives, fermer et ré-ouvrir des sujets, indiquer des réponses et voir les messages de tous les groupes. Leurs messages sont marqués comme 'Équipe pédagogique'. Ils ne peuvent pas modifier les rôles de modération des utilisateurs. Vous pouvez donner un rôle de Modérateur de discussions uniquement à des utilisateurs inscrits au cours."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:249
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:221
 msgid "Add Moderator"
 msgstr "Ajouter un Modérateur"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:254
-msgid "Discussion Community TAs"
-msgstr "Assistants"
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:226
+msgid "Group Community TA"
+msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:256
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:228
 msgid ""
-"Community TA's are members of the community whom you deem particularly "
-"helpful on the discussion boards. They can edit or delete any post, clear "
-"misuse flags, close and re-open threads, endorse responses, and see posts "
-"from all cohorts. Their posts are marked as 'Community TA'. You can only "
-"give course team roles to enrolled users."
-msgstr "Les assistants peuvent modifier et supprimer tous les post, les dénonciations abusives, fermer et réouvrir des sujets, indiquer des réponses et voir les posts de toutes les cohortes. Leur posts sont marqués comme 'Assistants'. Ils ne peuvent pas modifier les rôles de modérations des utilisateurs. Vous pouvez donner un rôle d'équipe uniquement à des utilisateurs inscrits au cours."
+"Group Community TAs are members of the community who help course teams "
+"moderate discussions. Group Community TAs see only posts by learners in "
+"their assigned group. They can edit or delete posts, clear flags, close and "
+"re-open threads, and endorse responses, but only for posts by learners in "
+"their group. Their posts are marked as 'Community TA'. Only enrolled "
+"learners can be added as Group Community TAs."
+msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:263
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:235
+msgid "Add Group Community TA"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:240
+msgid "Community TA"
+msgstr "Assistant d'enseignement de la communauté"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:242
+msgid ""
+"Community TAs are members of the community who help course teams moderate "
+"discussions. They can see posts by all learners, and can edit or delete "
+"posts, clear flags, close or re-open threads, and endorse responses. Their "
+"posts are marked as 'Community TA'. Only enrolled learners can be added as "
+"Community TAs."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:248
 msgid "Add Community TA"
 msgstr "Ajouter un assistant d'enseignement"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:270
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:255
 msgid "CCX Coaches"
 msgstr "Coaches CCX"
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:272
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:257
 msgid ""
 "CCX Coaches are able to create their own Custom Courses based on this "
 "course, which they can use to provide personalized instruction to their own "
 "students based in this course material."
 msgstr "Les coaches CCX peuvent créer leur propre cours personnalisés basés sur ce cours, qu'ils peuvent utiliser afin de fournir des instructions personnalisés à leurs propres étudiants et basés sur le matériel de ce cours."
 
-#: lms/templates/instructor/instructor_dashboard_2/membership.html:277
+#: lms/templates/instructor/instructor_dashboard_2/membership.html:262
 msgid "Add CCX Coach"
 msgstr "Ajouter un coach CCX"
 
@@ -6675,13 +6739,13 @@ msgstr "Vous les notes et la progression d'un apprenant spécifique"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:21
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:40
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:97
-msgid "Learner's {platform_name} email address or username *"
-msgstr "L'adresse courriel ou le nom d'utilisateur de l'apprenant sur {platform_name} *"
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:114
+msgid "Learner's {platform_name} email address or username"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:24
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:43
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:100
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:117
 msgid "Learner email address or username"
 msgstr "L'adresse courriel ou le nom d'utilisateur de l'apprenant"
 
@@ -6694,23 +6758,23 @@ msgid "Adjust a learner's grade for a specific problem"
 msgstr "Ajuster la note d'un apprenant pour un problème spécifique"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:48
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:159
-msgid "Location of problem in course *"
-msgstr "Emplacement du problème dans le cours *"
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
+msgid "Location of problem in course"
+msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:49
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:177
 msgid "Example"
 msgstr "Exemple"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:52
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:163
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:180
 msgid "Problem location"
 msgstr "Localisation de l'exercice"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:55
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:103
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:166
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:120
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:183
 msgid "Attempts"
 msgstr "Tentatives"
 
@@ -6720,14 +6784,14 @@ msgid ""
 msgstr "Permettre à un apprenant ayant utilisé toutes ses tentatives de travailler à nouveau sur un problème"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:58
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:106
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:169
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:123
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:186
 msgid "Reset Attempts to Zero"
 msgstr "Réinitialiser les tentatives à zéro"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:63
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:116
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:133
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:189
 msgid "Rescore"
 msgstr "Réévaluer"
 
@@ -6738,114 +6802,149 @@ msgid ""
 "improves in the learner's favor."
 msgstr "Pour le problème spécifié, réévaluer les réponses de l'apprenant. L'option 'Réévaluer seulement si le score augmente' se met à jour si le nombre de points de l'apprenant augmente en sa faveur."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:74
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
+msgid "Score Override"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:76
+msgid "For the specified problem, override the learner's score."
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:79
+msgid ""
+"New score for problem, out of the total points available for the problem"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:82
+msgid "Score"
+msgstr "Note"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
+msgid "Override Learner's Score"
+msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:91
 msgid "Problem History"
 msgstr "Historique de l'exercice"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:75
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:92
 msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
 msgstr "Pour le problème spécifié, supprimer indéfiniment et complètement les réponses et les points de l'apprenant de la base de données."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:82
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:138
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:181
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:99
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:155
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:198
 msgid "Task Status"
 msgstr "État de la tâche"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:83
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:100
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and problem."
 msgstr "Afficher l'état des tâches de réévaluation que vous avez soumises pour cet apprenant et ce problème."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:85
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:143
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:184
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:102
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:160
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:201
 msgid "Show Task Status"
 msgstr "Voir l'état de la tâche"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:93
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:110
 msgid "Adjust a learner's entrance exam results"
 msgstr "Ajuster les résultats de l'examen d'entrée d'un apprenant"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:104
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:121
 msgid "Allow the learner to take the exam again."
 msgstr "Permettre à l'étudiant de faire l'examen de nouveau."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:109
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:126
 msgid "Allow Skip"
 msgstr "Permettre d'outrepasser"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:110
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:127
 msgid "Waive the requirement for the learner to take the exam."
 msgstr "Renoncer aux exigences afin de permettre à l'étudiant de faire l'examen."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:112
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:129
 msgid "Let Learner Skip Entrance Exam"
 msgstr "Laisser l'étudiant outrepasser l'examen d'entrée"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:118
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:135
 msgid ""
 "Rescore any responses that have been submitted. The 'Rescore All Problems "
 "Only If Score Improves' option updates the learner's scores only if it "
 "improves in the learner's favor."
 msgstr "Réévaluer toutes les réponses ayant été soumises. L'option 'Réévaluer seulement si le score augmente' se met à jour si le nombre de points de l'apprenant augmente en sa faveur."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:122
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:139
 msgid "Rescore All Problems"
 msgstr "Renoter tous les problèmes"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:123
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:140
 msgid "Rescore All Problems Only If Score Improves"
 msgstr "Réévaluer tous les problèmes seulement si le nombre de points augmente"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:128
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:145
 msgid "Entrance Exam History"
 msgstr "Historique de l'examen d'entrée"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:130
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:147
 msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
 msgstr "Pour la totalité de l'examen d'entrée, supprimer indéfiniment et complètement les réponses et les points de l'apprenant de la base de données."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:140
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:157
 msgid ""
 "Show the status for the rescoring tasks that you submitted for this learner "
 "and entrance exam."
 msgstr "Afficher l'état des tâches de réévaluation que vous avez soumises pour cet apprenant et cet examen d'entrée."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:155
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:172
 msgid "Adjust all enrolled learners' grades for a specific problem"
 msgstr "Ajuster les notes de tous les apprenants inscrits pour un problème spécifique"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:167
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:184
 msgid "Allows all learners to work on the problem again."
 msgstr "Permettre aux étudiants de travailler sur le problème de nouveau."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:173
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:190
 msgid ""
 "Rescore submitted responses. The 'Rescore Only If Scores Improve' option "
 "updates a learner's score only if it improves in the learner's favor."
 msgstr "Réévaluer les réponses soumises. L'option 'Réévaluer seulement si le score augmente' se met à jour si le nombre de points de l'apprenant augmente en sa faveur."
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:176
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:193
 msgid "Rescore All Learners' Submissions"
 msgstr "Réévaluer toutes les soumissions des étudiants"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:177
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:194
 msgid "Rescore Only If Scores Improve"
 msgstr "Réévaluer seulement si le score s'améliore"
 
-#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:182
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html:199
 msgid "Show the status for the tasks that you submitted for this problem."
 msgstr "Afficher l'état des tâches que vous avez soumises pour ce problème."
 
-#: lms/templates/learner_dashboard/program_details.html:24
+#: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:7
+#: lms/templates/learner_dashboard/_dashboard_navigation_courses.html:10
+#: themes/edx.org/lms/templates/dashboard.html:98
+msgid "My Courses"
+msgstr "Mes cours"
+
+#: lms/templates/learner_dashboard/program_details.html:26
 msgid "Program Details"
 msgstr "Détails du programme"
+
+#: lms/templates/learner_dashboard/programs.html:25
+#: lms/templates/navigation/navbar-authenticated.html:27
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:44
+#: themes/edx.org/lms/templates/header.html:98
+#: themes/edx.org/lms/templates/header.html:193
+msgid "Programs"
+msgstr "Programmes"
 
 #: lms/templates/modal/_modal-settings-language.html:19
 msgid "Change Preferred Language"
@@ -6865,23 +6964,64 @@ msgid ""
 "translator!{link_end}"
 msgstr "Vous ne trouvez pas votre langue préférée ? {link_start}Proposez-vous comme traducteur volontaire !{link_end}"
 
-#: lms/templates/modal/accessible_confirm.html:14
-msgid "Confirm"
-msgstr "Confirmer"
+#. Translators: This is short for "System administration".
+#: lms/templates/navigation/navbar-authenticated.html:34
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:52
+msgid "Sysadmin"
+msgstr "Administrateur système"
 
-#. Translators: this text gives status on if the modal interface (a menu or
-#. piece of UI that takes the full focus of the screen) is open or not
-#: lms/templates/modal/accessible_confirm.html:17
-msgid "modal open"
-msgstr "ouverture modale "
+#: lms/templates/navigation/navbar-authenticated.html:50
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:60
+#: lms/templates/shoppingcart/shopping_cart.html:46
+#: themes/edx.org/lms/templates/header.html:108
+#: themes/edx.org/lms/templates/header.html:212
+msgid "Shopping Cart"
+msgstr "Panier"
 
-#: lms/templates/modal/accessible_confirm.html:26
-msgid "OK"
-msgstr "OK"
+#: lms/templates/navigation/navbar-logo-header.html:18
+#: lms/templates/navigation/bootstrap/navbar-logo-header.html:15
+#: themes/edx.org/lms/templates/header.html:63
+#: themes/edx.org/lms/templates/header.html:153
+msgid "{platform_name} Home Page"
+msgstr "Page d'accueil {platform_name}"
 
-#: lms/templates/modal/accessible_confirm.html:30
-msgid "open"
-msgstr "ouvrir"
+#: lms/templates/navigation/navbar-not-authenticated.html:16
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:17
+#: themes/edx.org/lms/templates/header.html:81
+#: themes/edx.org/lms/templates/header.html:175
+msgid "How it Works"
+msgstr "Comment ça marche"
+
+#: lms/templates/navigation/navbar-not-authenticated.html:24
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:25
+msgid "Schools"
+msgstr "Écoles"
+
+#: lms/templates/navigation/navbar-not-authenticated.html:33
+msgid "Explore Courses"
+msgstr "Explorer les cours"
+
+#: lms/templates/navigation/navbar-not-authenticated.html:54
+#: lms/templates/navigation/navbar-not-authenticated.html:56
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:51
+#: lms/templates/navigation/bootstrap/navbar-not-authenticated.html:55
+#: themes/edx.org/lms/templates/header.html:126
+#: themes/edx.org/lms/templates/header.html:128
+#: themes/edx.org/lms/templates/header.html:223
+#: themes/edx.org/lms/templates/header.html:225
+msgid "Sign in"
+msgstr "Connexion"
+
+#: lms/templates/navigation/navigation.html:68
+msgid "Global"
+msgstr "Mondial"
+
+#: lms/templates/navigation/navigation.html:108
+#: themes/edx.org/lms/templates/header.html:248
+msgid ""
+"{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
+"strongly recommend using {chrome_link} or {ff_link}."
+msgstr "{begin_strong}Avertissement:{end_strong}  Votre navigateur n'est pas complètement supporté. Nous recommandons vivement d'utiliser {chrome_link} ou {ff_link}."
 
 #: lms/templates/peer_grading/peer_grading.html:3
 msgid ""
@@ -7076,6 +7216,21 @@ msgstr "Pour voir si vous êtes membre de l'équipe pédagogique"
 msgid "Manage your data: {permission}"
 msgstr "Gérer vos données: {permission}"
 
+#: lms/templates/registration/account_activation_sidebar_notice.html:8
+msgid "Account Activation Info"
+msgstr "Information sur l'activation du compte"
+
+#: lms/templates/registration/account_activation_sidebar_notice.html:16
+msgid "Activate your account!"
+msgstr "Activez votre compte!"
+
+#: lms/templates/registration/account_activation_sidebar_notice.html:18
+msgid ""
+"Check your {email_start}{email}{email_end} inbox for an account activation "
+"link from {platform_name}. If you need help, contact "
+"{link_start}{platform_name} Support{link_end}."
+msgstr "Vérifiez votre boîte de réception {email_start}{email}{email_end} pour un lien d'activation de votre compte de la part de {platform_name}. Si vous avez besoin d'aide, contactez le {link_start}{platform_name} support{link_end}."
+
 #: lms/templates/registration/activate_account_notice.html:9
 msgid "You're almost there!"
 msgstr "Vous y êtes presque!"
@@ -7087,29 +7242,6 @@ msgid ""
 "{email_start}{email}{email_end} with instructions for activating your "
 "account. If you don't receive this message, check your spam folder."
 msgstr "Il reste encore une étape : avant de s'inscrire dans un cours, vous devez activer votre compte. Nous avons envoyé un message courriel à {email_start}{email}{email_end} avec des instructions pour activer votre compte. Si vous n'avez pas reçu ce message, vérifier votre dossier de pourriel."
-
-#: lms/templates/registration/activation_complete.html:14
-msgid "Account Activated"
-msgstr "Compte activé"
-
-#: lms/templates/registration/activation_complete.html:16
-msgid "Account already active"
-msgstr "Compte déjà activé"
-
-#: lms/templates/registration/activation_invalid.html:13
-msgid "Activation Invalid"
-msgstr "Activation invalide"
-
-#: lms/templates/registration/activation_invalid.html:16
-msgid ""
-"Something went wrong. Email programs sometimes split URLs into two lines, so"
-" make sure the URL you're using is formatted correctly. If you still have "
-"issues, send us an email message at {email_start}{email}{email_end}."
-msgstr "Quelque-chose s'est mal passé. Les programmes de courriel divisent parfois les URLs sur deux lignes, alors assurez vous que le URL que vous utilisez est formatté correctement. Si vous avez encore des problèmes, envoyez nous un courriel à {email_start}{email}{email_end}."
-
-#: lms/templates/registration/activation_invalid.html:24
-msgid "Return to the {link_start}home page{link_end}."
-msgstr "Retour à la {link_start}page d'accueil{link_start}."
 
 #: lms/templates/registration/password_reset_complete.html:13
 msgid "Your Password Reset is Complete"
@@ -7444,31 +7576,31 @@ msgstr "Étudiants"
 msgid "Note: items with strikethough like <del>this</del> have been refunded."
 msgstr "Note : Les éléments barrés comme <del>celui-ci</del> ont été remboursés."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:8
+#: lms/templates/shoppingcart/registration_code_receipt.html:10
 #: lms/templates/shoppingcart/registration_code_redemption.html:8
 msgid "Confirm Enrollment"
 msgstr "Confirmer l'inscription"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:15
+#: lms/templates/shoppingcart/registration_code_receipt.html:17
 #: lms/templates/shoppingcart/registration_code_redemption.html:15
 msgid "{site_name} -  Confirm Enrollment"
 msgstr "{site_name} - Confirmer l'inscription"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:21
+#: lms/templates/shoppingcart/registration_code_receipt.html:23
 #: lms/templates/shoppingcart/registration_code_redemption.html:21
 msgid "{course_number} {course_title} Cover Image"
 msgstr "Image de couverture de {course_number} {course_title}"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:28
+#: lms/templates/shoppingcart/registration_code_receipt.html:30
 #: lms/templates/shoppingcart/registration_code_redemption.html:28
 msgid "Confirm your enrollment for: {span_start}course dates{span_end}"
 msgstr "Confirmez votre inscription pour : {span_start}date du cours{span_end}"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:36
+#: lms/templates/shoppingcart/registration_code_receipt.html:38
 msgid "{course_name}"
 msgstr "{course_name}"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:43
+#: lms/templates/shoppingcart/registration_code_receipt.html:45
 #: lms/templates/shoppingcart/registration_code_redemption.html:43
 msgid ""
 "You've clicked a link for an enrollment code that has already been used. "
@@ -7476,34 +7608,34 @@ msgid ""
 "in the course, or contact your company's administrator."
 msgstr "Vous avez cliqué un lien pour un code d'inscription qui a déjà été utilisé. Vérifiez votre {link_start}tableau de bord{link_end} afin de voir si vous êtes inscrits dans ce cours, ou contacter votre gestionnaire d'entreprise."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:51
+#: lms/templates/shoppingcart/registration_code_receipt.html:53
 #: lms/templates/shoppingcart/registration_code_redemption.html:53
 msgid ""
 "You have successfully enrolled in {course_name}. This course has now been "
 "added to your dashboard."
 msgstr "Votre inscription à {course_name} s'est déroulée avec succès. Ce cours est à présent disponible dans votre tableau de bord."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:54
+#: lms/templates/shoppingcart/registration_code_receipt.html:56
 #: lms/templates/shoppingcart/registration_code_redemption.html:60
 msgid ""
 "You're already enrolled for this course. Visit your "
 "{link_start}dashboard{link_end} to see the course."
 msgstr "Vous êtes déjà inscrit à ce cours. Visiter votre {link_start}tableau de bord{link_end} pour voir ce cours."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:61
+#: lms/templates/shoppingcart/registration_code_receipt.html:63
 msgid "The course you are enrolling for is full."
 msgstr "Le cours auquel vous vous inscrivez est déjà plein."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:63
+#: lms/templates/shoppingcart/registration_code_receipt.html:65
 msgid "The course you are enrolling for is closed."
 msgstr "Le cours auquel vous vous inscrivez est fermé."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:65
+#: lms/templates/shoppingcart/registration_code_receipt.html:67
 #: lms/templates/shoppingcart/registration_code_redemption.html:68
 msgid "There was an error processing your redeem code."
 msgstr "Il y a eu une erreur lors du traitement de votre code de compensation"
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:67
+#: lms/templates/shoppingcart/registration_code_receipt.html:69
 #: lms/templates/shoppingcart/registration_code_redemption.html:70
 msgid ""
 "You're about to activate an enrollment code for {course_name} by "
@@ -7511,7 +7643,7 @@ msgid ""
 "activate this code if you're its intended recipient."
 msgstr "Vous êtes sur le point d'activer un code d'inscription pour {course_name} par {site_name}. Ce code ne peut être utilisé qu'une seule fois, alors n'activer ce code uniquement son destinataire."
 
-#: lms/templates/shoppingcart/registration_code_receipt.html:82
+#: lms/templates/shoppingcart/registration_code_receipt.html:84
 #: lms/templates/shoppingcart/registration_code_redemption.html:91
 msgid "Activate Course Enrollment"
 msgstr "Activer l'inscription au cours"
@@ -7646,7 +7778,7 @@ msgstr "Blog"
 
 #: lms/templates/static_templates/contact.html:5
 #: lms/templates/static_templates/contact.html:9
-#: themes/red-theme/lms/templates/footer.html:40
+#: themes/red-theme/lms/templates/footer.html:46
 #: themes/stanford-style/lms/templates/footer.html:17
 #: themes/stanford-style/lms/templates/static_templates/about.html:43
 msgid "Contact"
@@ -7663,13 +7795,7 @@ msgid ""
 "course from a country or region currently subject to U.S. economic and trade"
 " sanctions.Unfortunately, because {platform_name} is required to comply with"
 " export controls,we cannot allow you to access this course at this time."
-msgstr ""
-
-#: lms/templates/static_templates/faq.html:5
-#: lms/templates/static_templates/faq.html:9
-#: themes/red-theme/lms/templates/footer.html:35
-msgid "FAQ"
-msgstr "FAQ"
+msgstr "Notre système indique que vous essayez d'accéder à ce cours {platform_name} d'un pays ou d'une région actuellement soumis aux sanctions économiques et commerciales américaines. Malheureusement, parce que {platform_name} est tenu de respecter les contrôles à l'exportation, nous ne pouvons pas vous permettre d'accéder à ce cours en ce moment."
 
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:9
@@ -7680,7 +7806,7 @@ msgstr "Code d'honneur"
 
 #: lms/templates/static_templates/jobs.html:5
 #: lms/templates/static_templates/jobs.html:9
-#: themes/red-theme/lms/templates/footer.html:22
+#: themes/red-theme/lms/templates/footer.html:28
 msgid "Jobs"
 msgstr "Recrutement"
 
@@ -7722,7 +7848,6 @@ msgid "Currently the {platform_name} servers are overloaded"
 msgstr "Les serveurs de {platform_name} sont actuellement surchargés"
 
 #: lms/templates/student_account/account_settings.html:19
-#: themes/red-theme/lms/templates/header.html:105
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
@@ -7734,43 +7859,9 @@ msgstr "Veuillez patienter"
 msgid "Please wait"
 msgstr "Veuillez patienter"
 
-#: lms/templates/student_account/login_and_register.html:10
+#: lms/templates/student_account/login_and_register.html:12
 msgid "Sign in or Register"
 msgstr "Se connecter ou s'inscrire"
-
-#: lms/templates/student_profile/learner_profile.html:12
-msgid "Learner Profile"
-msgstr "Profil de l'apprenant"
-
-#. Translators: this section lists all the third-party authentication
-#. providers
-#. (for example, Google and LinkedIn) the user can link with or unlink from
-#. their edX account.
-#: lms/templates/student_profile/third_party_auth.html:10
-msgid "Connected Accounts"
-msgstr "Comptes connectés"
-
-#: lms/templates/student_profile/third_party_auth.html:18
-msgid "Linked"
-msgstr "Lié"
-
-#: lms/templates/student_profile/third_party_auth.html:20
-msgid "Not Linked"
-msgstr "Non lié"
-
-#. Translators: clicking on this removes the link between a user's edX account
-#. and their account with an external authentication provider (like Google or
-#. LinkedIn).
-#: lms/templates/student_profile/third_party_auth.html:34
-msgid "Unlink"
-msgstr "Dissocier"
-
-#. Translators: clicking on this creates a link between a user's edX account
-#. and their account with an external authentication provider (like Google or
-#. LinkedIn).
-#: lms/templates/student_profile/third_party_auth.html:39
-msgid "Link"
-msgstr "Lier"
 
 #: lms/templates/support/certificates.html:19
 #: lms/templates/support/index.html:11 lms/templates/support/index.html:16
@@ -7960,6 +8051,20 @@ msgstr "Vous ne pouvez vérifier votre identité présentement."
 msgid "Return to Your Dashboard"
 msgstr "Retour à votre tableau de bord"
 
+#: lms/templates/widgets/cookie-consent.html:20
+msgid ""
+"This website uses cookies to ensure you get the best experience on our "
+"website."
+msgstr "Ce site web utilise des cookies pour vous assurer d'obtenir la meilleure expérience sur notre site web."
+
+#: lms/templates/widgets/cookie-consent.html:21
+msgid "Got it!"
+msgstr "Je l'ai!"
+
+#: lms/templates/widgets/cookie-consent.html:22
+msgid "Learn more"
+msgstr "En savoir plus"
+
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
 #: lms/templates/wiki/includes/article_menu.html:32
@@ -7993,73 +8098,74 @@ msgstr "Accéder au support d'aide de l'équipe sur le portail des partenaires a
 msgid "edX Partner Portal"
 msgstr "Portail des partenaires edX"
 
-#: themes/edx.org/lms/templates/dashboard.html:164
+#: themes/edx.org/lms/templates/dashboard.html:184
 msgid ""
 "Browse recently launched courses and see what's new in your favorite "
 "subjects."
 msgstr "Découvrir les cours récemment lancés, ainsi que les nouveautés dans vos disciplines préférées."
 
-#: themes/edx.org/lms/templates/dashboard.html:169
+#: themes/edx.org/lms/templates/dashboard.html:189
 msgid "Explore New Courses"
 msgstr "Explorer les cours"
 
-#: themes/edx.org/lms/templates/footer.html:12
+#: themes/edx.org/lms/templates/footer.html:13
 msgid "Page Footer"
 msgstr "Bas de page"
 
-#: themes/edx.org/lms/templates/footer.html:20
-#: themes/edx.org/lms/templates/footer.html:29
+#: themes/edx.org/lms/templates/footer.html:21
+#: themes/edx.org/lms/templates/footer.html:30
 msgid "About edX"
 msgstr "À propos d'EDUlib"
 
-#: themes/edx.org/lms/templates/footer.html:39
+#: themes/edx.org/lms/templates/footer.html:25
+msgid "edX Home Page"
+msgstr "Page d'accueil d'edX"
+
+#: themes/edx.org/lms/templates/footer.html:55
 msgid ""
-"© 2012-{year} edX Inc.  All rights reserved except where noted.  EdX, Open "
-"edX and the edX and Open EdX logos are registered trademarks or trademarks "
+"© 2012–{year} edX Inc.  All rights reserved except where noted.  EdX, Open "
+"edX and the edX and Open edX logos are registered trademarks or trademarks "
 "of edX Inc."
 msgstr ""
 
-#: themes/edx.org/lms/templates/header.html:81
-#: themes/red-theme/lms/templates/header.html:68
+#: themes/edx.org/lms/templates/header.html:56
+#: themes/edx.org/lms/templates/header.html:170
+msgid "Main"
+msgstr "Principal"
+
+#: themes/edx.org/lms/templates/header.html:84
+#: themes/edx.org/lms/templates/header.html:178
 msgid "Find Courses"
 msgstr "Trouver un cours"
 
-#: themes/edx.org/lms/templates/header.html:84
+#: themes/edx.org/lms/templates/header.html:87
+#: themes/edx.org/lms/templates/header.html:181
 msgid "Schools & Partners"
 msgstr "Écoles et Partenaires"
 
-#: themes/edx.org/lms/templates/course_modes/choose.html:127
+#: themes/edx.org/lms/templates/course_modes/choose.html:152
 msgid ""
 "{b_start}Support our Mission: {b_end} EdX, a non-profit, relies on verified "
 "certificates to help fund free education for everyone globally"
 msgstr "{b_start}Supporter notre mission : {b_end} EDUlib, une organisation sans but lucratif, repose sur les attestations pour assurer le financement de l'éducation gratuite pour tous à l´échelle mondiale"
 
-#: themes/red-theme/lms/templates/footer.html:29
+#: themes/red-theme/lms/templates/footer.html:35
 msgid "News"
 msgstr "Nouvelles"
 
 #. Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'.
 #. Please do not translate any of these trademarks and company names.
-#: themes/red-theme/lms/templates/footer.html:61
+#: themes/red-theme/lms/templates/footer.html:71
 msgid ""
 "EdX, Open edX, and the edX and Open edX logos are registered trademarks or "
 "trademarks of {link_start}edX Inc.{link_end}"
 msgstr "EdX, Open edX, ainsi que les logos edX et Open edX sont des marques déposées ou marques de {link_start}edX Inc.{link_end}"
 
-#: themes/red-theme/lms/templates/footer.html:75
+#: themes/red-theme/lms/templates/footer.html:85
 msgid ""
 "{tos_link_start}Terms of Service{tos_link_end} and {honor_link_start}Honor "
 "Code{honor_link_end}"
 msgstr "{tos_link_start}Conditions d'utilisation{tos_link_end} et {honor_link_start}Code sur l'Honneur{honor_link_end}"
-
-#: themes/red-theme/lms/templates/header.html:106
-msgid "My Profile"
-msgstr "Mon profil"
-
-#: themes/red-theme/lms/templates/header.html:141
-#: themes/red-theme/lms/templates/header.html:145
-msgid "Register Now"
-msgstr "Inscription"
 
 #: themes/stanford-style/lms/templates/footer.html:16
 #: themes/stanford-style/lms/templates/static_templates/about.html:42
@@ -8072,7 +8178,7 @@ msgstr "Carrière"
 msgid "Copyright"
 msgstr "Droits d'auteur"
 
-#: themes/stanford-style/lms/templates/footer.html:31
+#: themes/stanford-style/lms/templates/footer.html:36
 msgid "Copyright {year}. All rights reserved."
 msgstr "Droits d'auteur {year}. Tous droits réservés."
 
@@ -8097,6 +8203,39 @@ msgid ""
 "Once registered, most questions can be answered in the course specific "
 "discussion forums or through the FAQs."
 msgstr "Une fois inscrit, la plupart des réponses aux questions se trouvent dans les forums de discussions spécifiques au cours ou dans les FAQs."
+
+#: themes/stanford-style/lms/templates/emails/activation_email.txt:2
+msgid "Thank you for signing up for {platform_name}."
+msgstr "Merci de vous être inscrit sur {platform_name}."
+
+#: themes/stanford-style/lms/templates/emails/activation_email.txt:4
+msgid ""
+"Change your life and start learning today by activating your {platform_name}"
+" account. Click on the link below or copy and paste it into your browser's "
+"address bar."
+msgstr "Changez votre vie et commencez à apprendre dès aujourd'hui en activant votre compte {platform_name}. Cliquez sur le lien ci-dessous ou copiez-collez-le dans la barre d'adresse de votre navigateur."
+
+#: themes/stanford-style/lms/templates/emails/activation_email.txt:16
+#: themes/stanford-style/lms/templates/emails/email_change.txt:13
+msgid ""
+"If you didn't request this, you don't need to do anything; you won't receive"
+" any more email from us. Please do not reply to this e-mail; if you require "
+"assistance, check the about section of the {platform_name} Courses web site."
+msgstr "Si vous n'avez pas demandé ceci, ne faites rien. Vous ne recevrez pas d'autre courriel de notre part. Merci de ne pas répondre à ce courriel. Si vous cherchez de l'aide, consultez la section d'aide du site {platform_name}."
+
+#: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:2
+msgid ""
+"This is to confirm that you changed the e-mail associated with "
+"{platform_name} from {old_email} to {new_email}. If you did not make this "
+"request, please contact us at"
+msgstr "Ce message confirme que vous avez modifié l'adresse courriel associée avec {platform_name} depuis {old_email} vers {new_email}. Si vous n'avez pas demandé ce changement, merci de nous contacter immédiatement au"
+
+#: themes/stanford-style/lms/templates/emails/reject_name_change.txt:5
+msgid ""
+"We are sorry. Our course staff did not approve your request to change your "
+"name from {old_name} to {new_name}. If you need further assistance, please "
+"e-mail the tech support at {email}"
+msgstr "Nous sommes désolés. L'équipe pédagogique n'a pas approuvé votre demande de changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, vous pouvez contacter l'équipe pédagogique à {email}."
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:12
 msgid "Put your Terms of Service here!"
