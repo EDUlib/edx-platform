@@ -43,7 +43,7 @@
             </a>
           % endif
           
-          #####&copy; ${settings.COPYRIGHT_YEAR} <img class="footer-logo" alt="${static.get_platform_name()}" src="${footer['logo_image']}" />.&nbsp;
+          &copy; ${settings.COPYRIGHT_YEAR} <img class="footer-logo" alt="${static.get_platform_name()}" src="${footer['logo_image']}" />.&nbsp;
 
           ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
             ## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
