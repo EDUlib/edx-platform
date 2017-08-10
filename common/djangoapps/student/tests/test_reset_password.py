@@ -192,7 +192,6 @@ class ResetPasswordTests(EventTestMixin, CacheIsolationTestCase):
 
                 reset_msg = "you requested a password reset for your user account at {}"
                 reset_msg = reset_msg.format(site_name)
-
                 self.assertIn(reset_msg, msg)
 
                 sign_off = "The {} Team".format(platform_name)
