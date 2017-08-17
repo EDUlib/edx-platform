@@ -64,7 +64,7 @@
             },
 
             totalCountMsg: function() {
-                var fmt = ngettext('{total_results} machin', '{total_results} résultats', this.collection.totalCount);
+                var fmt = ngettext('{total_results} résultat', '{total_results} résultats', this.collection.totalCount);
                 return StringUtils.interpolate(fmt, {
                     total_results: this.collection.totalCount
                 });
