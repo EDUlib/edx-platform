@@ -1,0 +1,136 @@
+<%! from xmodule.modulestore.django import modulestore %>
+
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from django.core.urlresolvers import reverse %>
+
+<%inherit file="../main.html"/>
+<%namespace name='static' file='../static_content.html'/>
+
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi</%block>
+
+<%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
+
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
+default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
+
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
+logo_alt_text = "EDUlib Logo"
+%>
+
+<section class="home">
+
+<section class="container edulib">
+
+        <p style="text-align:right;"><a href="/uqac">Fran&ccedil;ais</a></p>
+    
+        <h1><img src="/static/images/edulib-theme/institutions/uqac.png" alt="Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi" width="600" height="200" /></h1>
+                
+        <p>Founded in 1969, Université du Québec à Chicoutimi is part of the largest university network in Canada, that of Université du Québec. It is located in the heart of the Saguenay-Lac-Saint-Jean, a French region renowned for the beauty of its fjord, and has four university centres and a digital school. Building on the success of its 53,000 graduates, UQAC annually welcomes 7000 students, of which 1000 are from some fifty countries worldwide.</p>
+    
+        <p><a href="http://www.uqac.ca/traduction/index.php?langue=english" onclick="window.open(this.href);return false;">http://www.uqac.ca/traduction/index.php?langue=english</a></p>
+    
+    
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+
+    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+           if not course.has_started() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+
+    %if counter !=0 :
+        <h1>${_("Coming Soon")}</h1>
+    %endif
+
+    <section class="courses-container">
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                    %if not course.has_started() and course.org.lower() == "uqac" and not course.has_ended() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course-edulib.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+    </section>
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
+           if course.has_started() and not course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+
+    %if counter !=0 :
+        <h1>${_("In Progress")}</h1>
+    %endif
+
+    <section class="courses-container">
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="uqac" and course.catalog_visibility=="both":
+                        <li class="courses-listing-item">
+                            <%include file="../course-edulib.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="uqac" and course.catalog_visibility=="both":
+                        <li class="courses-listing-item">
+                            <%include file="../course-edulib.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+
+           </ul>
+        </section>
+    </section>
+    </section>
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter  = 0  %>
+    %endif
+
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+           if course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+
+    %if counter !=0 :
+        <h1>${_("Completed")}</h1>
+    %endif
+
+    <section class="courses-container">
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                    %if course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course-edulib.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
+    </section>
+
+</section>
+</section>
