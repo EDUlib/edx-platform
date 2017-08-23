@@ -33,7 +33,6 @@
                     this.loadingMessageView = options.loadingMessageView;
                     this.errorMessageView = options.errorMessageView;
                     this.langCode = $(this.el).data('langCode');
-                    /* window.alert(this.langCode); */
                     this.pagingHeaderView = new PagingHeaderView({collection: this.collection});
                     this.pagingFooterView = new PagingFooterView({collection: this.collection});
                     this.listenTo(this.collection, 'page_changed', this.render);
@@ -92,9 +91,7 @@
                  * @param {String} isoDate - ISO 8601 formatted date string.
                  */
                 humanFriendlyDate: function(isoDate) {
-                    /* window.alert(this.langCode); */
-                    /* moment.locale(this.langCode); */
-                    moment.locale('fr');
+                    moment.locale(this.langCode);
                     return moment(isoDate).format('LL');
                 },
 
