@@ -945,7 +945,13 @@ msgid_plural ""
 "You are re-using a password that you have used recently. You must have {num}"
 " distinct passwords before reusing a previous password."
 msgstr[0] ""
+"Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser "
+"{num} mot de passe distinct avant de réutiliser un mot de passe précédemment"
+" utilisé."
 msgstr[1] ""
+"Vous réutilisez un mot de passe utilisé précédemment. Vous devez utiliser "
+"{num} mots de passe distincts avant de réutiliser un mot de passe "
+"précédemment utilisé."
 
 #: common/djangoapps/student/views.py
 #, python-brace-format
@@ -956,7 +962,13 @@ msgid_plural ""
 "You are resetting passwords too frequently. Due to security policies, {num} "
 "days must elapse between password resets."
 msgstr[0] ""
+"Vous réinitialisez votre mot de passe trop souvent. En raison de politiques "
+"de sécurité, {num} jour doit s'écouler entre les réinitialisations de mot de"
+" passe."
 msgstr[1] ""
+"Vous réinitialisez votre mot de passe trop souvent. En raison de politiques "
+"de sécurité, {num} jours doivent s'écouler entre les réinitialisations de "
+"mot de passe."
 
 #: common/djangoapps/student/views.py
 msgid "Password reset unsuccessful"
@@ -1452,7 +1464,10 @@ msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
 msgstr[0] ""
+"Le fichier doit se terminer avec l'extension suivante : '{file_types}'."
 msgstr[1] ""
+"Le fichier doit se terminer avec une des extensions suivantes : "
+"'{file_types}'."
 
 #: common/djangoapps/util/file.py
 #, python-brace-format
@@ -2360,22 +2375,22 @@ msgstr ""
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Incorrect ({progress} point)"
+msgstr[1] "Incorrect ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Correct ({progress} point)"
+msgstr[1] "Correct ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Partiellement correct ({progress} point)"
+msgstr[1] "Partiellement correct ({progress} points)"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Partially Correct"
@@ -2415,22 +2430,22 @@ msgstr ""
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_hour} heure"
+msgstr[1] "{num_hour} heures"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_minute} minute"
+msgstr[1] "{num_minute} minutes"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_second} seconde"
+msgstr[1] "{num_second} secondes"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Problem needs to be reset prior to save."
@@ -3795,14 +3810,16 @@ msgstr "Choisir un autre type de problème."
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
 msgstr[0] ""
+"La bibliothèque spécifiée est configurée pour récupérer {count} problème,"
 msgstr[1] ""
+"La bibliothèque spécifiée est configurée pour récupérer {count} problèmes,"
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mais il n'y a que {actual} problème correspondant."
+msgstr[1] "mais il n'y a que {actual} problèmes correspondants."
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Edit the library configuration."
@@ -4618,7 +4635,9 @@ msgid "There is no transcript file associated with the {lang} language."
 msgid_plural ""
 "There are no transcript files associated with the {lang} languages."
 msgstr[0] ""
+"Il n'y a aucun fichier de transcription associé avec la langue {lang}."
 msgstr[1] ""
+"Il n'y a aucun fichier de transcription associé avec les langues {lang}."
 
 #: common/lib/xmodule/xmodule/video_module/video_module.py
 msgid ""
@@ -7447,15 +7466,15 @@ msgstr "0 envoyé"
 #, python-brace-format
 msgid "{num_emails} sent"
 msgid_plural "{num_emails} sent"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_emails} envoyé"
+msgstr[1] "{num_emails} envoyés"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
 #, python-brace-format
 msgid "{num_emails} failed"
 msgid_plural "{num_emails} failed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{num_emails} échoué"
+msgstr[1] "{num_emails} échoués"
 
 #: lms/djangoapps/instructor/views/instructor_task_helpers.py
 msgid "Complete"
@@ -10875,6 +10894,8 @@ msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise_customer_name}."
 msgstr ""
+"Si vous avez des préoccupations concernant le partage de vos données, "
+"contactez votre administrateur à {enterprise_customer_name}."
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
@@ -10882,6 +10903,9 @@ msgid ""
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise_customer_name} at {contact_info}."
 msgstr ""
+"Si vous avez des préoccupations concernant le partage de vos données, "
+"contactez votre administrateur à {enterprise_customer_name} à "
+"{contact_info}."
 
 #: openedx/features/enterprise_support/api.py
 #, python-brace-format
@@ -11852,16 +11876,16 @@ msgstr "Discussion - {course_number}"
 #, python-format
 msgid "%s discussion started"
 msgid_plural "%s discussions started"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s discussion commencée"
+msgstr[1] "%s discussions commencées"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html
 #: lms/templates/discussion/_user_profile.html
 #, python-format
 msgid "%s comment"
 msgid_plural "%s comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s commentaire"
+msgstr[1] "%s commentaires"
 
 #: lms/djangoapps/discussion/templates/discussion/maintenance_fragment.html
 msgid "Discussion unavailable"
@@ -12329,7 +12353,13 @@ msgid_plural ""
 "student will be assigned {max_count} components drawn randomly from this "
 "list."
 msgstr[0] ""
+"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
+"Chaque étudiant se verra assigné {max_count} composant tiré aléatoirement de"
+" cette liste."
 msgstr[1] ""
+"Affiche tout le contenu correspondant à être ajouté dans {display_name}. "
+"Chaque étudiant se verra assigné {max_count} composants tirés aléatoirement "
+"de cette liste."
 
 #: lms/templates/login-sidebar.html
 msgid "Helpful Information"
@@ -12583,8 +12613,8 @@ msgstr "Vous regardez maintenant le cours comme {i_start}{user_name}{i_end}."
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
 msgid_plural "You have used {num_used} of {num_total} attempts"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous avez utilisé {num_used} sur {num_total} tentative"
+msgstr[1] "Vous avez utilisé {num_used} sur {num_total} tentatives"
 
 #: lms/templates/problem.html
 msgid ""
@@ -15499,7 +15529,11 @@ msgstr "Vérification pas encore terminée."
 msgid "You only have {days} day left to verify for this course."
 msgid_plural "You only have {days} days left to verify for this course."
 msgstr[0] ""
+"Il ne vous reste plus que {days} jour pour faire vérifier votre identité "
+"pour ce cours."
 msgstr[1] ""
+"Il ne vous reste plus que {days} jours pour faire vérifier votre identité "
+"pour ce cours."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Almost there!"
@@ -19103,7 +19137,11 @@ msgid_plural ""
 "You have successfully purchased <b>{number} course registration codes</b> "
 "for {course_names}."
 msgstr[0] ""
+"Vous avez acheté avec succès <b>{number} code d'inscription de cours</b> "
+"pour {course_names}."
 msgstr[1] ""
+"Vous avez acheté avec succès <b>{number} codes d'inscription de cours</b> "
+"pour {course_names}."
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "The following receipt has been emailed to {receipient_emails}"
@@ -19303,7 +19341,11 @@ msgid ""
 msgid_plural ""
 "{course_names} have been removed because the enrollment period has closed."
 msgstr[0] ""
+"{course_names} ont été supprimé parce que la période d'inscription est "
+"terminée."
 msgstr[1] ""
+"{course_names} ont été supprimés parce que la période d'inscription est "
+"terminée."
 
 #: lms/templates/shoppingcart/shopping_cart.html
 msgid "Cover Image"
@@ -19843,7 +19885,7 @@ msgstr "Ce cours n'a pas encore débuté et sera lancé le {launch_date_html}."
 
 #: openedx/features/course_experience/templates/course_experience/course-reviews-fragment.html
 msgid "Course Reviews"
-msgstr ""
+msgstr "Commentaires sur le cours"
 
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html
 msgid "This course does not have any updates."
