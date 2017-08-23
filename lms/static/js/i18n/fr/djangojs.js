@@ -34,11 +34,87 @@
     "%(comments_count)s %(span_sr_open)scomments %(span_close)s": "%(comments_count)s %(span_sr_open)s commentaires %(span_close)s", 
     "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s unread comments)%(span_close)s": "%(comments_count)s %(span_sr_open)scommentaires (%(unread_comments_count)s commentaires non lus)%(span_close)s", 
     "%(download_link_start)sDownload this image (right-click or option-click, save as)%(link_end)s and then %(upload_link_start)supload%(link_end)s it to your backpack.</li>": "%(download_link_start)sT\u00e9l\u00e9charger cette image (clique-droite ou clique-option, sauvegarder comme%(link_end)s et ensuite %(upload_link_start)st\u00e9l\u00e9verser%(link_end)s l\u00e0 dans votre backpack.</li>", 
+    "%(earned)s/%(possible)s point (graded)": [
+      "%(earned)s/%(possible)s point (not\u00e9)", 
+      "%(earned)s/%(possible)s points (not\u00e9)"
+    ], 
+    "%(earned)s/%(possible)s point (ungraded)": [
+      "%(earned)s/%(possible)s point (pas not\u00e9)", 
+      "%(earned)s/%(possible)s points (pas not\u00e9)"
+    ], 
+    "%(errorCount)s error found in form.": [
+      "%(errorCount)s erreur trouv\u00e9e dans le formulaire.", 
+      "%(errorCount)s erreurs trouv\u00e9es dans le formulaire."
+    ], 
     "%(field)s can only contain up to %(count)d characters.": "Les %(field)s ne peuvent pas d\u00e9passer %(count)d caract\u00e8res.", 
     "%(field)s must have at least %(count)d characters.": "Les %(field)s doivent avoir au moins %(count)d caract\u00e8res.", 
+    "%(memberCount)s / %(maxMemberCount)s Member": [
+      "%(memberCount)s / %(maxMemberCount)s Membre", 
+      "%(memberCount)s / %(maxMemberCount)s Membres"
+    ], 
     "%(new_item_message)s": "%(new_item_message)s", 
+    "%(num_points)s point possible (graded)": [
+      "%(num_points)s point possible (not\u00e9)", 
+      "%(num_points)s points possibles (not\u00e9)"
+    ], 
+    "%(num_points)s point possible (graded, results hidden)": [
+      "%(num_points)s point possible (not\u00e9, r\u00e9sultats cach\u00e9s)", 
+      "%(num_points)s points possibles (not\u00e9, r\u00e9sultats cach\u00e9s)"
+    ], 
+    "%(num_points)s point possible (ungraded)": [
+      "%(num_points)s point possible (pas not\u00e9)", 
+      "%(num_points)s points possibles (pas not\u00e9)"
+    ], 
+    "%(num_points)s point possible (ungraded, results hidden)": [
+      "%(num_points)s point possible (pas not\u00e9, r\u00e9sultats cach\u00e9s)", 
+      "%(num_points)s points possibles (pas not\u00e9, r\u00e9sultats cach\u00e9s)"
+    ], 
+    "%(num_questions)s question": [
+      "%(num_questions)s question", 
+      "%(num_questions)s questions"
+    ], 
+    "%(num_students)s student": [
+      "%(num_students)s \u00e9tudiant", 
+      "%(num_students)s \u00e9tudiants"
+    ], 
+    "%(num_students)s student opened Subsection": [
+      "%(num_students)s \u00e9tudiant a ouvert la sous-section", 
+      "%(num_students)s \u00e9tudiants ont ouvert la sous-section"
+    ], 
     "%(programName)s Home Page.": "Page d'accueil %(programName)s", 
+    "%(team_count)s Team": [
+      "%(team_count)s \u00c9quipe", 
+      "%(team_count)s \u00c9quipes"
+    ], 
     "%(type)s Component Template Menu": "Gabarit de menu du composant %(type)s", 
+    "%(value)s hour": [
+      "%(value)s heure", 
+      "%(value)s heures"
+    ], 
+    "%(value)s minute": [
+      "%(value)s minute", 
+      "%(value)s minutes"
+    ], 
+    "%(value)s second": [
+      "%(value)s seconde", 
+      "%(value)s secondes"
+    ], 
+    "%d day": [
+      "%d jour", 
+      "%d jours"
+    ], 
+    "%d minute": [
+      "%d minute", 
+      "%d minutes"
+    ], 
+    "%d month": [
+      "%d mois", 
+      "%d mois"
+    ], 
+    "%d year": [
+      "%d an", 
+      "%d ans"
+    ], 
     "%s ago": "il y a %s ", 
     "%s from now": "depuis %s ", 
     "(Add signatories for a certificate)": "(Ajouter un signataire \u00e0 l'attestation)", 
@@ -46,6 +122,10 @@
     "(Community TA)": "(Assistant d'enseignement de la communaut\u00e9)", 
     "(Required Field)": "(Champ requis)", 
     "(Staff)": "(\u00c9quipe p\u00e9dagogique)", 
+    "(contains %(student_count)s student)": [
+      "(contient %(student_count)s \u00e9tudiant)", 
+      "(contient %(student_count)s \u00e9tudiants)"
+    ], 
     "(optional)": "(optionnel)", 
     "- Sortable": "- Triable", 
     ": video upload complete.": ": t\u00e9l\u00e9versement vid\u00e9o termin\u00e9.", 
@@ -276,6 +356,14 @@
     "Chapter name is required": "Le nom du chapitre est requis", 
     "Chapter {order}": "Chap\u00eetre {order}", 
     "Check Your Email": "V\u00e9rifiez votre courriel", 
+    "Check the box to remove %(count)s flag.": [
+      "Cochez la case pour supprimer %(count)s drapeau.", 
+      "Cochez la case pour supprimer %(count)s drapeaux."
+    ], 
+    "Check the box to remove %(totalFlags)s flag.": [
+      "Cochez la case pour supprimer %(totalFlags)s drapeau.", 
+      "Cochez la case pour supprimer %(totalFlags)s drapeaux."
+    ], 
     "Check the box to remove all flags.": "Cochez la case pour supprimer tous les drapeaux.", 
     "Check the highlighted fields below and try again.": "V\u00e9rifiez les champs en surbrillance ci-dessous et r\u00e9essayez.", 
     "Check this box to receive an email digest once a day notifying you about new, unread activity from posts you are following.": "Cochez cette case pour recevoir quotidiennement un courriel vous informant au sujet de nouvelles activit\u00e9s dans les messages que vous suivez.", 
@@ -344,6 +432,10 @@
     "Congratulations! You are now verified on %(platformName)s!": "F\u00e9licitations! Votre identit\u00e9 est maintenant v\u00e9rifi\u00e9 sur %(platformName)s!", 
     "Constrain proportions": "Contraindre les dimensions", 
     "Contains staff only content": "Contient du contenu r\u00e9serv\u00e9 aux membres de l'\u00e9quipe p\u00e9dagogique", 
+    "Contains {count} group": [
+      "Contient {count} groupe", 
+      "Contient {count} groupes"
+    ], 
     "Content Group ID": "ID du groupe de contenu", 
     "Content Group Name": "Nom du groupe de contenu", 
     "Content-Specific Discussion Topics": "Sujets de discussion sp\u00e9cifiques", 
@@ -365,6 +457,10 @@
     "Country": "Pays", 
     "Country of residence": "Pays de r\u00e9sidence", 
     "Country or Region": "Pays ou r\u00e9gion", 
+    "Course": [
+      "Cours", 
+      "Cours"
+    ], 
     "Course Credit Requirements": "Exigences en mati\u00e8re de cr\u00e9dits de cours", 
     "Course End": "Fin du cours", 
     "Course Handouts": "Documents du cours", 
@@ -824,6 +920,10 @@
     "Load all responses": "Afficher toutes les r\u00e9ponses", 
     "Load more": "Afficher plus", 
     "Load next {numResponses} responses": "T\u00e9l\u00e9charger les {numResponses} r\u00e9ponses suivantes", 
+    "Load next {num_items} result": [
+      "Afficher le {num_items} prochain r\u00e9sultat", 
+      "Afficher les {num_items} prochains r\u00e9sultats"
+    ], 
     "Loading": "Chargement", 
     "Loading content": "Chargement du contenu", 
     "Loading data...": "Chargement des donn\u00e9es...", 
@@ -1196,6 +1296,10 @@
     "Short explanation": "Br\u00e8ve explication", 
     "Show All": "Voir tout", 
     "Show Annotations": "Afficher les annotations", 
+    "Show Comment (%(num_comments)s)": [
+      "Afficher (%(num_comments)s) commentaire", 
+      "Afficher (%(num_comments)s) commentaires"
+    ], 
     "Show Deprecated Settings": "Afficher les param\u00e8tres obsol\u00e8tes", 
     "Show Discussion": "Afficher la discussion", 
     "Show Previews": "Montrer les aper\u00e7us", 
@@ -1207,6 +1311,10 @@
     "Show notes": "Afficher les notes", 
     "Show posts by {username}.": "Afficher les messages par {username}.", 
     "Showing all responses": "Afficher toutes les r\u00e9ponses", 
+    "Showing first response": [
+      "Affichage de la premi\u00e8re r\u00e9ponse", 
+      "Affichage des premi\u00e8res {numResponses} r\u00e9ponses"
+    ], 
     "Showing results for \"{searchString}\"": "Affichage des r\u00e9sultats pour \"{searchString}\"", 
     "Showing {currentItemRange} out of {totalItemsCount}, filtered by {assetType}, sorted by {sortName} ascending": "Afficher {currentItemRange} sur {totalItemsCount}, filtr\u00e9 par {assetType}, tri\u00e9 par {sortName} ascendant", 
     "Showing {currentItemRange} out of {totalItemsCount}, filtered by {assetType}, sorted by {sortName} descending": "Afficher {currentItemRange} sur {totalItemsCount}, filtr\u00e9 par {assetType}, tri\u00e9 par {sortName} descendant", 
@@ -1406,6 +1514,10 @@
     "There was an error obtaining email content history for this course.": "Il y a eu une erreur lors de l'obtention de l'historique du contenu des courriels pour ce cours.", 
     "There was an error obtaining email task history for this course.": "Une erreur est survenue lors de l'obtention de l'historique des t\u00e2ches de courriel pour ce cours.", 
     "There was an error retrieving preview results for this catalog. Please check that your query is correct and try again.": "Il y a eu une erreur lors de la r\u00e9cup\u00e9ration de l'aper\u00e7u des r\u00e9sultats pour ce catalogue. Veuillez v\u00e9rifier que votre requ\u00eate est correcte et essayer de nouveau.", 
+    "There was an error when trying to add learners:": [
+      "Une erreur est survenue en tentant d'ajouter les apprenants :", 
+      "{numErrors} apprenants n'ont pas pu \u00eatre ajout\u00e9s \u00e0 cette cohorte :"
+    ], 
     "There was an error while importing the new course to our database.": "Une erreur est survenue pendant l'importation du nouveau cours dans notre base de donn\u00e9es.", 
     "There was an error while importing the new library to our database.": "Une erreur a eu lieu pendant l'importation de la nouvelle biblioth\u00e8que.", 
     "There was an error while unpacking the file.": "Une erreur est survenue pendant la d\u00e9compression du fichier.", 
@@ -1426,6 +1538,10 @@
     "This Group Configuration is not in use. Start by adding a content experiment to any Unit via the {linkStart}Course Outline{linkEnd}.": "Cette configuration de groupe n'est pas utilis\u00e9e. Commencer par ajouter un contenu d'exp\u00e9rience \u00e0 une unit\u00e9 via le {linkStart}Plan de cours{linkEnd}.", 
     "This Group Configuration is used in:": "Cette configuration de groupe est utilis\u00e9e dans : ", 
     "This action cannot be undone.": "Cette action ne peut pas \u00eatre annul\u00e9e.", 
+    "This annotation has %(count)s flag.": [
+      "Cette annotation a %(count)s drapeau.", 
+      "Cette annotation a %(count)s drapeaux."
+    ], 
     "This browser cannot play .mp4, .ogg, or .webm files.": "Ce navigateur ne peut pas lire les fichiers .mp4, .ogg, ou .webm", 
     "This catalog's courses:": "Les cours de ce catalogue : ", 
     "This certificate has already been activated and is live. Are you sure you want to continue editing?": "Cette attestation a d\u00e9j\u00e0 \u00e9t\u00e9 activ\u00e9e et est en ligne. \u00cates-vous certain que vousd\u00e9sirez continuer \u00e0 l'\u00e9diter?", 
@@ -1593,6 +1709,10 @@
     "Use your webcam to take a photo of your ID. We will match this photo with the photo of your face and the name on your account.": "Utilisez votre cam\u00e9ra afin de prendre une photo de votre pi\u00e8ce d'identit\u00e9. Nous comparerons cette photo avec la photo de votre visage et le nom sur votre profil.", 
     "Use your webcam to take a photo of your face. We will match this photo with the photo on your ID.": "Utilisez votre cam\u00e9ra afin de prendre une photo de votre visage. Nous ferons une comparaison avec la photo de votre pi\u00e8ce d'identification officielle.", 
     "Used": "Utilis\u00e9", 
+    "Used in {count} unit": [
+      "Utilis\u00e9 dans {count} unit\u00e9", 
+      "Utilis\u00e9 dans {count} unit\u00e9s"
+    ], 
     "User": "Utilisateur", 
     "User Email": "Courriel de l'utilisateur", 
     "Username": "Nom d'utilisateur", 
@@ -1634,6 +1754,10 @@
     "View all errors": "Voir toutes les erreurs", 
     "View child items": "Voir les \u00e9l\u00e9ments enfants", 
     "View discussion": "Voir la discussion", 
+    "Viewing %s course": [
+      "Affichage d'%s cours", 
+      "Affichage de %s cours"
+    ], 
     "Visibility": "Visibilit\u00e9", 
     "Visible to": "Visible pour", 
     "Visible to Staff Only": "Visible par l'\u00e9quipe p\u00e9dagogique seulement", 
@@ -1784,6 +1908,10 @@
     "Zoom Out": "R\u00e9duire", 
     "[no tags]": "[aucun tag]", 
     "a day": "un jour", 
+    "about %d hour": [
+      "environ %d heure", 
+      "environ %d heures"
+    ], 
     "about a minute": "environ une minute", 
     "about a month": "environ un mois", 
     "about a year": "environ un an", 
@@ -1850,6 +1978,10 @@
     "team count": "total \u00e9quipe", 
     "text_word_{uniqueId}": "text_word_{uniqueId}", 
     "text_word_{uniqueId} title_word_{uniqueId}": "text_word_{uniqueId} title_word_{uniqueId}", 
+    "there is currently {numVotes} vote": [
+      "il y a actuellement {numVotes} vote", 
+      "il y a actuellement {numVotes} votes"
+    ], 
     "timed": "minut\u00e9", 
     "title_word_{uniqueId}": "title_word_{uniqueId}", 
     "toggle chapter %(displayName)s": "basculer chapitre %(displayName)s", 
@@ -1870,6 +2002,34 @@
     "{filename} is not in a supported file format. Supported file formats are {supportedFileFormats}.": "{filename} n'est pas dans un format de fichier pris en charge. Les formats de fichiers pris en charge sont {supportedFileFormats}.", 
     "{hours}:{minutes} (current UTC time)": "{hours}:{minutes} (Heure actuelle UTC )", 
     "{label}: {status}": "{label} : {status}", 
+    "{numMoved} learner was moved from {prevCohort}": [
+      "{numMoved} apprenant a \u00e9t\u00e9 d\u00e9plac\u00e9 depuis {prevCohort}", 
+      "{numMoved} apprenants ont \u00e9t\u00e9 d\u00e9plac\u00e9s depuis {prevCohort}"
+    ], 
+    "{numPreassigned} learner was pre-assigned for this cohort. This learner will automatically be added to the cohort when they enroll in the course.": [
+      "{numPreassigned} apprenant a \u00e9t\u00e9 pr\u00e9-assign\u00e9 \u00e0 cette cohorte. Cet apprenant sera automatiquement ajout\u00e9 \u00e0 la cohorte lorsqu'il s'inscrira au cours.", 
+      "{numPreassigned} apprenants ont \u00e9t\u00e9 pr\u00e9-assign\u00e9s \u00e0 cette cohorte. Ces apprenants seront automatiquement ajout\u00e9s \u00e0 la cohorte lorsqu'ils s'inscriront au cours."
+    ], 
+    "{numPresent} learner was already in the cohort": [
+      "{numPresent} apprenant \u00e9tait d\u00e9j\u00e0 dans la cohorte", 
+      "{numPresent} apprenants \u00e9taient d\u00e9j\u00e0 dans la cohorte"
+    ], 
+    "{numResponses} other response": [
+      "{numResponses} autre r\u00e9ponse", 
+      "{numResponses} autres r\u00e9ponses"
+    ], 
+    "{numResponses} response": [
+      "{numResponses} r\u00e9ponse", 
+      "{numResponses} r\u00e9ponses"
+    ], 
+    "{numUsersAdded} learner has been added to this cohort. ": [
+      "{numUsersAdded} apprenant a \u00e9t\u00e9 ajout\u00e9 \u00e0 cette cohorte.", 
+      "{numUsersAdded} apprenants ont \u00e9t\u00e9 ajout\u00e9s \u00e0 cette cohorte."
+    ], 
+    "{numVotes} Vote": [
+      "{numVotes} Vote", 
+      "{numVotes} Votes"
+    ], 
     "{organization}\\'s logo": "logo {organization}", 
     "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email address is associated with your {platform_name} account, we will send a message with password reset instructions to this email address.{paragraphEnd}{paragraphStart}If you do not receive a password reset message, verify that you entered the correct email address, or check your spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}": "{paragraphStart}Vous avez entr\u00e9 {boldStart}{email}{boldEnd}. Si cette adresse courriel est associ\u00e9e \u00e0 votre compte {platform_name}, nous vous enverrons un message avec les instructions pour r\u00e9initialiser votre mot de passe \u00e0 cette m\u00eame adresse courriel.{paragraphEnd}{paragraphStart}Si vous ne recevez pas un courriel de r\u00e9initialisation, v\u00e9rifiez que vous avez entr\u00e9 votre adresse courriel correctement ou v\u00e9rifiez votre dossier de pourriel.{paragraphEnd}{paragraphStart}Si vous avez besoin d'aide, {anchorStart}contacter le support technique{anchorEnd}.{paragraphEnd}", 
     "{platform_name} learners can see my:": "Les utilisateurs de {platform_name} peuvent voir mon : ", 
@@ -1877,6 +2037,10 @@
     "{screen_reader_start}Warning:{screen_reader_end} The previously selected content group was deleted. Select another content group.": "{screen_reader_start}Avertissement : {screen_reader_end} Le groupe de contenu s\u00e9lectionn\u00e9 pr\u00e9c\u00e9demment a \u00e9t\u00e9 supprim\u00e9. S\u00e9lectionnez un autre groupe de contenu.", 
     "{start_strong}{total}{end_strong} words submitted in total.": "{start_strong}{total}{end_strong} mots soumis au total.", 
     "{totalItems} total": "{totalItems} total", 
+    "{total_results} result": [
+      "{total_results} r\u00e9sultat", 
+      "{total_results} r\u00e9sultats"
+    ], 
     "{type} Progress": "{type} Progression", 
     "{unread_comments_count} new": "{unread_comments_count} nouveaux", 
     "\u2026": "\u2026"
