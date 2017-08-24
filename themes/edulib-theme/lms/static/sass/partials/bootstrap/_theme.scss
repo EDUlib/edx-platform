@@ -1,0 +1,21 @@
+// Ajouts SASS EDUlib
+
+// Couleurs du theme
+//
+// Note: define colors needed by your theme first
+$blue: rgb(18, 85, 139) !default;
+$blue1: rgb(18, 85, 139);
+$blue2: rgb(89, 187, 240);
+$m-blue: rgb(18, 85, 139);
+$brand-primary: $blue;
+
+// Polices du theme
+
+
+
+
+
+
+
+// Initialisation du theme bootstrap Open edX
+@import 'edx-bootstrap/sass/open-edx/theme';
