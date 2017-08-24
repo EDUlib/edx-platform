@@ -31,109 +31,61 @@ $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 //  Correctifs
 //-----------------
 
-html {background: none !important;}
+
+html {background: transparent !important;}
 body {background: #fcfcfc !important;}
-.window-wrap {background: none !important;}
+
+div.info-wrapper {background-color: #fff !important;}
 
 div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date {display: none !important;}
 
-
-
+.home>header .title .course-search .search-button {right: 0px !important;}
 
 
 // ----------------------------
 // Pied de page
 // ----------------------------
 
-div.wrapper-footer nav.nav-colophon, div.wrapper-footer nav.nav-legal {
+footer#footer-edx-v3 .site-nav {display: inline-block;}
+
+footer#footer-edx-v3 .legal-notices {
     display: inline-block;
+    margin: 0 0 0 20px !important;
 }
 
-div.wrapper-footer nav li {display: inline;}
-
-div.wrapper-footer {
-    box-shadow: none !important;
-    background: none !important;
-}
-
-div.wrapper-footer footer {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-}
-
-
-
-div.wrapper-footer .nav-colophon a, div.wrapper-footer .nav-legal a {
-    font-size: 0.9em;
-    margin-right: 20px;
-}
-
-div.wrapper-footer .copyright {
+footer#footer-edx-v3 .copyright {
     font-size: 0.7em;
     color: #acacac;
     margin-top: 10px;
 }
 
-.copyright img.footer-logo {
-    width: 40px;
-    margin: -2px 0 0 0;
-}
-
-div.wrapper-footer a.openedx-link {
-    margin-right: 50px;
+footer#footer-edx-v3 .openedx-link {
+    margin: 0 0 0 10px !important;
     display: inline-block;
     float: right;
 }
 
-div.wrapper-footer .colophon {
-    width: 75%;
-    float: left;
-    padding-bottom: 20px;
+footer#footer-edx-v3 .openedx-link img {width: 140px !important;}
+
+footer#footer-edx-v3 .footer-logo {
+    height: 24px !important;
+    width: 47px !important;
+    margin: 0 !important;
+    display: inline !important;
+    float: none !important;
 }
 
+footer#footer-edx-v3 .site-details {width: 70% !important;}
 
-div.wrapper-footer .social-media-links {
-    float: right;
-    margin: 0;
-    padding: 0 !important;
-    list-style: none;
-    text-indent: 0;
-}
+footer#footer-edx-v3 .external-links {width: 25% !important;}
 
-div.wrapper-footer .social-media-links .list-item {
-    display: inline-block;
-    font-size: 2em;
-    margin-left: 10px;
-}
+footer#footer-edx-v3 .external-links:last-child {float: right;}
 
-
-
-div.wrapper-footer a.sm-link {
-    /*float: left;
-    margin: 0 0 10px 10px;
-        margin-left: 10px;
-    line-height: 41.44px;
-    width: 35px;
-    font-size: 28px;
-    height: 30px;
-    line-height: 1;
-    position: relative;
-    display: inline;
-    background: none;
-    text-align: left;
-    */
-}
 
 
 //-----------------
 //  Page d'accueil
 //-----------------
-
-.header-global .nav-global li.nav-global-05, .header-global .nav-global div.nav-global-05 {
-    margin-left: 350px;
-}
 
 
 //  Redimensionnement de la bannière d'accueil
@@ -158,13 +110,19 @@ section.home header .title {
     transition: none;
 }
 
+section.home header .title hgroup {
+    text-align: center;
+    display: block;
+}
 
+section.home header .title hgroup h1 {text-align: center;}
 
 
 
 //-----------------
 //  Pages Institutions
 //-----------------
+
 
 section.about ul.member-list {
 	text-align: center;
@@ -204,10 +162,10 @@ section.about ul.associate a img {
 
 
 
-
 //-----------------
 //  Pages Contacts
 //-----------------
+
 
 section.about p.member-list a.institution {
     display: inline-block;
@@ -219,6 +177,7 @@ section.about p.member-list a.institution {
 section.about p.member-list span {
     display: inline-block;
 }
+
 
 
 //-----------------
@@ -245,16 +204,9 @@ section.about ol ul {list-style-type: circle;}
 //  Pages de cours
 //-----------------
 
-.header-global.slim .course-header {
-    width: 65%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
+.course-info header.course-profile {
+    margin-top: -70px;
+    padding-top: 70px;
 }
 
-
-.header-global.slim .wrapper-header .list-inline.nav-global {
-    display: none;
-}
-
-
+.course-info header.course-profile .intro-inner-wrapper .media .hero {max-height: 200px;}

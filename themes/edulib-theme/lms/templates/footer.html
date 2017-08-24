@@ -1,62 +1,81 @@
 ## mako
 <%!
-  from django.utils.translation import ugettext as _
-  from branding.api import get_footer
+from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext as _
+from django.conf import settings
+from branding.api import get_footer
+
+from datetime import datetime
+import pytz
+
+from openedx.core.djangoapps.lang_pref.api import footer_language_selector_is_enabled
 %>
 <% footer = get_footer(is_secure=is_secure) %>
 <%namespace name='static' file='static_content.html'/>
 
-## Pied-de-page EDUlib
-<div class="wrapper-all-footer">    
+<div class="wrapper wrapper-footer">
+  <footer>
     
-## WARNING: These files are specific to edx.org and are not used in installations outside of that domain. Open edX users will want to use the file "footer.html" for any changes or overrides.
-<footer id="footer-edx-v3" role="contentinfo" aria-label="${_('Page Footer')}"
-  ## When rendering the footer through the branding API,
-  ## the direction may not be set on the parent element,
-  ## so we set it here.
-  % if bidi:
-    dir=${bidi}
-  % endif
->
-    <h2 class="sr footer-about-title">${_("About edX")}</h2>
-    <div class="footer-content-wrapper">
+    
+    <div class="colophon">
+      <nav class="nav-colophon" aria-label="${_('About')}">
+      <ol>
+          <li class="nav-colophon-01">
+            <a id="about" href="${marketing_link('ABOUT')}">${_("About")}</a>
+          </li>
+          <li class="nav-colophon-02">
+            <a id="news" href="${marketing_link('NEWS')}">${_("News")}</a>
+          </li>
+          <li class="nav-colophon-03">
+            <a id="contact" href="${marketing_link('CONTACT')}">${_("Contact")}</a>
+          </li>
+      </ol>
+      </nav>
+        
+      <nav class="nav-legal" aria-label="${_('Legal')}">
+        <ul>
+          <li class="nav-legal-01">
+            <a href="${marketing_link('TOS')}">${_("Terms of Service")}</a>
+          </li>
+          <li class="nav-legal-02">
+            <a href="${marketing_link('PRIVACY')}">${_("Privacy Policy")}</a>
+          </li>
+          <li class="nav-legal-03">
+            <a href="${marketing_link('HONOR')}">${_("Honor Code")}</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="site-details">
-          <nav class="site-nav" aria-label="${_('About edX')}">
-              % for link in footer["navigation_links"]:
-              <a href="${link['url']}">${link['title']}</a>
-              % endfor
-          </nav>
-          <nav class="legal-notices" aria-label="${_('Legal')}">
-              % for link in footer["legal_links"]:
-              <a href="${link['url']}">${link['title']}</a>
-              % endfor
-          </nav>
+      % if context.get('include_language_selector', footer_language_selector_is_enabled()):
+          <%include file="${static.get_template_path('widgets/footer-language-selector.html')}"/>
+      % endif
+
+      
+
+      <p class="copyright">
+        <a class="openedx-link" href="http://openedx.org/">
+          ## standard powered-by logo
+          ## Translators: 'Open edX' is a brand, please keep this untranslated. See http://openedx.org for more information.
+          <img src="${static.url('images/edx-openedx-logo-tag.png')}" alt="${_('Powered by Open edX')}" width="140" />
+        </a>
           
-          <p class="copyright">
-          ## The OpenEdX link may be hidden when this view is served
-          ## through an API to partner sites (such as marketing sites or blogs),
-          ## which are not technically powered by OpenEdX.
-          % if not hide_openedx_link:
-            <a class="openedx-link" href="${footer['openedx_link']['url']}" title="${footer['openedx_link']['title']}">
-              <img src="${static.url('images/edx-openedx-logo-tag.png')}" alt="${_('Powered by Open edX')}" width="140" />
-            </a>
-          % endif
+          &copy; ${datetime.now(pytz.timezone(settings.TIME_ZONE)).year}&nbsp;
           
-          #####&copy; ${settings.COPYRIGHT_YEAR} <img class="footer-logo" alt="${static.get_platform_name()}" src="${footer['logo_image']}" />.&nbsp;
-
-          ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-            ## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
-            ${_("EdX, Open edX, and the edX and Open edX logos are registered trademarks or trademarks of {link_start}edX Inc.{link_end}").format(
-                link_start=u"<a href='https://www.edx.org/'>",
-                link_end=u"</a>"
-            )}
-          </p>
-
-          
-      </div>
-
-      <div class="external-links">
+          <a href="/"><img class="footer-logo" alt="${static.get_platform_name()}" src="${static.url('images/logo.png')}"></a>. &nbsp;
+        
+        ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
+      
+        ## Translators: 'EdX', 'edX', and 'Open edX' are trademarks of 'edX Inc.'. Please do not translate any of these trademarks and company names.
+        ${_("EdX, Open edX, and the edX and Open edX logos are registered trademarks or trademarks of {link_start}edX Inc.{link_end}").format(
+            link_start=u"<a href='https://www.edx.org/'>",
+            link_end=u"</a>"
+        )}
+      </p>
+        
+      
+    </div>
+    
+    <div class="external-links">
         <ul class="social-media-links">
             % for link in footer['social_links']:
             <li class="list-item">
@@ -66,42 +85,7 @@
                 </a>
             </li>
             % endfor
-        </ul>
-
-        <ul class="mobile-app-links">
-            % for link in footer['mobile_links']:
-            <li class="list-item">
-                <a href="${link['url']}" class="app-link external">
-                    <img alt="${link['title']}" src="${link['image']}">
-                </a>
-            </li>
-            % endfor
-        </ul>
-      </div>
+        </ul>    
     </div>
-</footer>
-
-## Fin du pied-de-page EDUlib
+  </footer>
 </div>
-
-
-% if include_dependencies:
-  <%static:js group='base_vendor'/>
-  <%static:css group='style-vendor'/>
-  <%include file="widgets/segment-io.html" />
-  <%include file="widgets/segment-io-footer.html" />
-% endif
-% if bidi == 'rtl':
-<%static:css group='style-lms-footer-edx-rtl'/>
-% else:
-<%static:css group='style-lms-footer-edx'/>
-% endif
-
-% if footer_css_urls:
-  % for url in footer_css_urls:
-    <link rel="stylesheet" type="text/css" href="${url}"></link>
-  % endfor
-% endif
-% if footer_js_url:
-  <script type="text/javascript" src="${footer_js_url}"></script>
-% endif
