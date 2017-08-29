@@ -39,6 +39,23 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
 
 
 
+//-----------------
+//  Entête
+//-----------------
+
+.header-global .nav-global li.nav-global-05, .header-global .nav-global div.nav-global-05 {
+    margin-left: 15em;
+}
+
+
+.header-global .nav-courseware {
+    margin-left: 10px;
+}
+
+.header-global .user {
+    margin: 5px 0px 0px 5px !important;
+}
+
 
 
 // ----------------------------
@@ -109,31 +126,9 @@ div.wrapper-footer .social-media-links .list-item {
 }
 
 
-
-div.wrapper-footer a.sm-link {
-    /*float: left;
-    margin: 0 0 10px 10px;
-        margin-left: 10px;
-    line-height: 41.44px;
-    width: 35px;
-    font-size: 28px;
-    height: 30px;
-    line-height: 1;
-    position: relative;
-    display: inline;
-    background: none;
-    text-align: left;
-    */
-}
-
-
 //-----------------
 //  Page d'accueil
 //-----------------
-
-.header-global .nav-global li.nav-global-05, .header-global .nav-global div.nav-global-05 {
-    margin-left: 350px;
-}
 
 
 //  Redimensionnement de la bannière d'accueil
@@ -160,7 +155,42 @@ section.home header .title {
 
 
 
+//-----------------
+//  Boîtes de cours
+//-----------------
 
+.courses-container .courses .course .course-info .course-organization, .courses-container .courses .course .course-info .course-title {
+    overflow: hidden;
+}
+
+.courses-container .courses .course .course-info .course-organization {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.courses-container .courses .course .course-info .course-title {    
+    line-height: 1.4em !important;
+    height: 4.2em !important;
+    margin: 5px 0 !important;
+}
+
+
+//-----------------
+//  Pages À propos
+//-----------------
+
+.course-info .course-sidebar .important-dates li .icon {
+    margin: 0px 10px 0 0 !important;
+}
+
+.course-info .course-sidebar .important-dates li .important-dates-item-title {
+    width: 40%;
+}
+
+.course-info .course-sidebar .important-dates li .important-dates-item-text {
+    text-align: right;
+    width: 50%;
+}
 
 //-----------------
 //  Pages Institutions
