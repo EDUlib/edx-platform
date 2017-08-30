@@ -52,8 +52,22 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
     margin-left: 10px;
 }
 
-.header-global .user {
-    margin: 5px 0px 0px 5px !important;
+
+
+.header-global .user:last-child {
+    margin: 10px 10px 0 0 !important;
+    float: right;
+    list-style: none;
+    list-style-image: none;
+}
+
+.header-global .user .settings-language-form {
+    margin: 0 !important;
+}
+
+.header-global .user .settings-language-form select.language-selector {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 7em;
 }
 
 
@@ -282,7 +296,7 @@ section.about ol ul {list-style-type: circle;}
 //-----------------
 
 .header-global.slim .course-header {
-    width: 60%;
+    width: 50%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -292,5 +306,7 @@ section.about ol ul {list-style-type: circle;}
 .header-global.slim .wrapper-header .list-inline.nav-global {
     display: none;
 }
+
+
 
 
