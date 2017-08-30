@@ -67,3 +67,6 @@ msgstr "Non lu"
 msgid "Unanswered"
 msgstr "Sans réponse"
 
+#: lms/templates/problem.html
+msgid "Answers are displayed within the problem"
+msgstr "Les réponses sont affichées dans le problème"
