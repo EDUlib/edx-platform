@@ -192,6 +192,12 @@ section.home header .title {
     width: 50%;
 }
 
+.course-info header.course-profile {
+    min-height: 280px;
+    height: auto !important;
+    padding: 75px 0 !important;
+}
+
 //-----------------
 //  Pages Institutions
 //-----------------
@@ -276,7 +282,7 @@ section.about ol ul {list-style-type: circle;}
 //-----------------
 
 .header-global.slim .course-header {
-    width: 65%;
+    width: 60%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
