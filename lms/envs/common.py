@@ -3173,6 +3173,7 @@ HELP_TOKENS_BOOKS = {
 # These configuration settings are specific to the Enterprise service and you should
 # not find references to them within the edx-platform project.
 
+ENABLE_ENTERPRISE_INTEGRATION = True
 ENTERPRISE_ENROLLMENT_API_URL = LMS_ROOT_URL + "/api/enrollment/v1/"
 ENTERPRISE_PUBLIC_ENROLLMENT_API_URL = ENTERPRISE_ENROLLMENT_API_URL
 ENTERPRISE_COURSE_ENROLLMENT_AUDIT_MODES = ['audit', 'honor']
