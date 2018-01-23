@@ -3345,7 +3345,7 @@ msgstr "{b_start}Officiel : {b_end} Recevez une attestation signée par l'instru
 msgid ""
 "{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
-msgstr "{b_start}Facilement partageable : {b_end} Ajouter l’attestation à votre curriculum vitae ou poster-la directement sur les réseaux sociaux"
+msgstr "{b_start}Facilement partageable : {b_end} Ajouter l’attestation à votre curriculum vitae ou postez-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html:107
 #: lms/templates/course_modes/choose.html:115
@@ -3369,21 +3369,21 @@ msgstr "Faites ressortir vos nouvelles connaissances et compétences avec une at
 msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
-msgstr "{b_start}Officiel : {b_end}Recevoir une attestation signé par l'instructeur avec le logo de l'institution"
+msgstr "{b_start}Officiel : {b_end}Recevoir une attestation signée par l'instructeur avec le logo de l'institution"
 
 #: lms/templates/course_modes/choose.html:125
 #: themes/edx.org/lms/templates/course_modes/choose.html:162
 msgid ""
 "{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
-msgstr "{b_start}Facilement partageable : {b_end}Ajouter l’attestation à votre curriculum vitae ou poster-la directement sur les réseaux sociaux"
+msgstr "{b_start}Facilement partageable : {b_end}Ajouter l’attestation à votre curriculum vitae ou postez-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html:126
 #: themes/edx.org/lms/templates/course_modes/choose.html:163
 msgid ""
 "{b_start}Motivating: {b_end}Give yourself an additional incentive to "
 "complete the course"
-msgstr "{b_start}Motivant : {b_end}Donnez-vous une incitation supplémentaire pour compléter le cours"
+msgstr "{b_start}Motivant : {b_end}Se donner une incitation supplémentaire pour compléter le cours"
 
 #: lms/templates/course_modes/choose.html:153
 #: lms/templates/course_modes/choose.html:161
