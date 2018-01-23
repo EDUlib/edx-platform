@@ -5941,7 +5941,7 @@ msgid ""
 "You are still eligible to upgrade to a Verified Certificate! Pursue it to "
 "highlight the knowledge and skills you gain in this course."
 msgstr ""
-"Vous êtes encore admissible à une mise à jour à une attestation! Obtenez là "
+"Vous êtes encore admissible à une mise à jour à une attestation! Obtenez-la "
 "pour mettre en évidence les connaissances et les compétences que vous aurez "
 "obtenu dans ce cours."
 
@@ -14594,7 +14594,7 @@ msgid ""
 "or post it directly on LinkedIn"
 msgstr ""
 "{b_start}Facilement partageable : {b_end} Ajouter l’attestation à votre "
-"curriculum vitae ou poster-la directement sur les réseaux sociaux"
+"curriculum vitae ou postez-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
@@ -14619,7 +14619,7 @@ msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
-"{b_start}Officiel : {b_end}Recevoir une attestation signé par l'instructeur "
+"{b_start}Officiel : {b_end}Recevoir une attestation signée par l'instructeur "
 "avec le logo de l'institution"
 
 #: lms/templates/course_modes/choose.html
@@ -14629,7 +14629,7 @@ msgid ""
 "or post it directly on LinkedIn"
 msgstr ""
 "{b_start}Facilement partageable : {b_end}Ajouter l’attestation à votre "
-"curriculum vitae ou poster-la directement sur les réseaux sociaux"
+"curriculum vitae ou postez-la directement sur les réseaux sociaux"
 
 #: lms/templates/course_modes/choose.html
 #: themes/edx.org/lms/templates/course_modes/choose.html
@@ -14637,7 +14637,7 @@ msgid ""
 "{b_start}Motivating: {b_end}Give yourself an additional incentive to "
 "complete the course"
 msgstr ""
-"{b_start}Motivant : {b_end}Donnez-vous une incitation supplémentaire pour "
+"{b_start}Motivant : {b_end}Se donner une incitation supplémentaire pour "
 "compléter le cours"
 
 #: lms/templates/course_modes/choose.html
