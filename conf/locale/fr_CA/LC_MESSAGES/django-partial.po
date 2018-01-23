@@ -5182,7 +5182,7 @@ msgstr "Date limite de mise à niveau de la vérification"
 msgid ""
 "You are still eligible to upgrade to a Verified Certificate! Pursue it to "
 "highlight the knowledge and skills you gain in this course."
-msgstr "Vous êtes encore admissible à une mise à jour à une attestation! Obtenez là pour mettre en évidence les connaissances et les compétences que vous aurez obtenu dans ce cours."
+msgstr "Vous êtes encore admissible à une mise à jour à une attestation! Obtenez-la pour mettre en évidence les connaissances et les compétences que vous aurez obtenu dans ce cours."
 
 #: lms/djangoapps/courseware/date_summary.py:211
 msgid "Upgrade to Verified Certificate"
