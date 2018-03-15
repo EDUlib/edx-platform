@@ -300,8 +300,6 @@ class TestPasswordHistory(LoginEnrollmentTestCase):
                 'new_password2': 'foo',
             }, follow=True)
 
-
-
             self.assertIn(success_msg, resp.content)
 
     @patch.dict("django.conf.settings.FEATURES", {'ENFORCE_PASSWORD_POLICY': True})
