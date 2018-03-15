@@ -2258,7 +2258,6 @@ INSTALLED_APPS = [
 
     'sorl.thumbnail',
 
-##### EUCALYPTUS CODE
     # Credentials support
     'openedx.core.djangoapps.credentials',
 
@@ -2403,6 +2402,15 @@ SOCIAL_MEDIA_FOOTER_NAMES = [
     "twitter",
     "google_plus"
 ]
+#SOCIAL_MEDIA_FOOTER_NAMES = [
+#    "facebook",
+#    "twitter",
+#    "youtube",
+#    "linkedin",
+#    "google_plus",
+#    "reddit",
+#]
+
 
 # JWT Settings
 JWT_AUTH = {
