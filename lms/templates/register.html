@@ -110,13 +110,11 @@ import calendar
 <section class="register container">
   <section role="main" class="content">
     <form role="form" id="register-form" method="post" data-remote="true" action="/create_account" novalidate>
-##### CODE EUCALYPTUS
 <%
   # allow for theming override on the registration form
   registration_form = static.get_template_path('register-form.html')
 %>
       <%include file="${registration_form}" />
-##### CODE EUCALYPTUS
     </form>
   </section>
 
