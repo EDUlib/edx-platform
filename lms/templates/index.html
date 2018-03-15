@@ -65,23 +65,13 @@ from openedx.core.djangolib.markup import HTML, Text
       <header>
         <div class="outer-wrapper">
           <div class="title">
-<!--            <div class="heading-group">
-              % if homepage_overlay_html:
-                ${homepage_overlay_html | n, decode.utf8}
-              % else:
-                  ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <h1>${Text(_(u"Welcome to the Open edX{registered_trademark} platform!")).format(registered_trademark=HTML("<sup style='font-size: 65%'>&reg;</sup>"))}</h1>
-                  ## Translators: 'Open edX' is a registered trademark, please keep this untranslated. See http://open.edx.org for more information.
-                  <p>${_("It works! This is the default homepage for this Open edX instance.")}</p>
-              % endif
-            </div> -->
-            <hgroup>
+            <div class="heading-group">
               % if homepage_overlay_html:
                 ${homepage_overlay_html}
               % else:
                 <h1>Notre expertise, vos compétences.</h1>
               % endif
-            </hgroup>
+            </div>
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
               <div class="course-search">
                 <form method="get" action="/courses">
@@ -94,22 +84,12 @@ from openedx.core.djangolib.markup import HTML, Text
                 </form>
               </div>
             % endif
-
           </div>
-
-  </header>
-  
-
           <%include file="index_promo_video.html" />
         </div>
-  <section class="courses-container">
-    <section class="highlighted-courses">
-
       </header>
+
 <!--      <%include file="${courses_list}" /> -->
-
-
-
 
       <section class="courses-container">
         <section class="highlighted-courses">
@@ -135,11 +115,8 @@ from openedx.core.djangolib.markup import HTML, Text
           % endif
         </section>
       </section>
-
-
-
-
     </section>
+  </section>
 </main>
 
 % if show_homepage_promo_video:
