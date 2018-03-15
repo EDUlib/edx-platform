@@ -2405,6 +2405,15 @@ SOCIAL_MEDIA_FOOTER_NAMES = [
     "twitter",
     "google_plus"
 ]
+#SOCIAL_MEDIA_FOOTER_NAMES = [
+#    "facebook",
+#    "twitter",
+#    "youtube",
+#    "linkedin",
+#    "google_plus",
+#    "reddit",
+#]
+
 
 # The footer URLs dictionary maps social footer names
 # to URLs defined in configuration.
