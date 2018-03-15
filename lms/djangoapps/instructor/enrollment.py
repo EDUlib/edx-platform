@@ -138,10 +138,6 @@ def enroll_email(course_id, student_email, auto_enroll=False, email_students=Fal
         representing state before and after the action.
     """
 
-    # For EDUlib
-    #####language = 'fr'
-    # For EDUlib
-
     previous_state = EmailEnrollmentState(course_id, student_email)
     enrollment_obj = None
     if previous_state.user:
@@ -193,10 +189,6 @@ def unenroll_email(course_id, student_email, email_students=False, email_params=
     returns two EmailEnrollmentState's
         representing state before and after the action.
     """
-
-    # For EDUlib
-    #####language = 'fr'
-    # For EDUlib
 
     previous_state = EmailEnrollmentState(course_id, student_email)
     if previous_state.enrollment:
