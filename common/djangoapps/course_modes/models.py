@@ -158,10 +158,6 @@ class CourseMode(models.Model):
 
     # Modes utilized for audit/free enrollments
     AUDIT_MODES = [AUDIT, HONOR]
-####### FICUS
-#######    DEFAULT_MODE = Mode(AUDIT, _('Audit'), 0, '', 'cad', None, None, None, None)
-#######    DEFAULT_MODE_SLUG = AUDIT
-####### FICUS
 
     # Modes that allow a student to pursue a verified certificate
     VERIFIED_MODES = [VERIFIED, PROFESSIONAL]
@@ -184,7 +180,6 @@ class CourseMode(models.Model):
     # use "honor"
     DEFAULT_SHOPPINGCART_MODE_SLUG = HONOR
     DEFAULT_SHOPPINGCART_MODE = Mode(HONOR, _('Honor'), 0, '', 'cad', None, None, None, None)
-#####OLD CODE DOGWOOD    DEFAULT_SHOPPINGCART_MODE = Mode(HONOR, _('Honor'), 0, '', 'cad', None, None, None)
 
     CACHE_NAMESPACE = u"course_modes.CourseMode.cache."
 
