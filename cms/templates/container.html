@@ -62,12 +62,7 @@ from openedx.core.djangolib.markup import HTML, Text
                     ancestor_url = xblock_studio_url(ancestor)
                     %>
                     % if ancestor_url:
-########## CODE EUCALYPTUS
-##########                        <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default}</a>
-########## CODE EUCALYPTUS
-########## CODE DOGWOOD
                         <a href="${ancestor_url}" class="navigation-item navigation-link navigation-parent">${ancestor.display_name_with_default | h}</a>
-########## CODE DOGWOOD
                     % else:
                         <span class="navigation-item navigation-parent">${ancestor.display_name_with_default}</span>
                     % endif
@@ -124,7 +119,6 @@ from openedx.core.djangolib.markup import HTML, Text
                 % if xblock.category == 'split_test':
                     <div class="bit">
                         <h3 class="title-3">${_("Adding components")}</h3>
-<<<<<<< eb152335972c72afc1bd2b9b1f5d62041fb3675e
                         <p>${Text(_("Select a component type under {strong_start}Add New Component{strong_end}. Then select a template.")).format(
                                     strong_start=HTML('<strong>'),
                                     strong_end=HTML("</strong>"),
@@ -135,12 +129,6 @@ from openedx.core.djangolib.markup import HTML, Text
                                     strong_start=HTML('<strong>'),
                                     strong_end=HTML("</strong>"),
                             )}</p>
-=======
-                        <p>${_("Select a component type under {em_start}Add New Component{em_end}. Then select a template.").format(em_start='<strong>', em_end="</strong>") | h}</p>
-                        <p>${_("The new component is added at the bottom of the page or group. You can then edit and move the component.")}</p>
-                        <h3 class="title-3">${_("Editing components")}</h3>
-                        <p>${_("Click the {em_start}Edit{em_end} icon in a component to edit its content.").format(em_start='<strong>', em_end="</strong>") | h}</p>
->>>>>>> Subject: [PATCH 1/2] Add template escaping in forums, progress page and course
                         <h3 class="title-3">${_("Reorganizing components")}</h3>
                         <p>${_("Drag components to new locations within this component.")}</p>
                         <p>${_("For content experiments, you can drag components to other groups.")}</p>
