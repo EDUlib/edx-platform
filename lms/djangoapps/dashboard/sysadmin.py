@@ -344,22 +344,10 @@ class Courses(SysadminDashboardView):
         info = ['', '', '']
 
         # Try the data dir, then try to find it in the git import dir
-##### EUCALYPTUS
-#####        if not gdir.exists():
-#####            git_repo_dir = getattr(settings, 'GIT_REPO_DIR', git_import.DEFAULT_GIT_REPO_DIR)
-#####            gdir = path(git_repo_dir / cdir)
-#####            if not gdir.exists():
-#####                return info
-##### EUCALYPTUS
-
-##### DOGWOOD
         if not gdir.exists():
-##### FICUS            git_repo_dir = getattr(settings, 'GIT_REPO_DIR', git_import.DEFAULT_GIT_REPO_DIR)
-##### FICUS            gdir = path(git_repo_dir) / cdir
             gdir = path(git_import.DEFAULT_GIT_REPO_DIR) / cdir
             if not gdir.exists():
                 return info
-##### DOGWOOD
 
         cmd = ['git', 'log', '-1',
                '--format=format:{ "commit": "%H", "author": "%an %ae", "date": "%ad"}', ]
@@ -430,7 +418,7 @@ class Courses(SysadminDashboardView):
             color = 'blue'
 
         msg = u"<h4 style='color:{0}'>{1}</h4>".format(color, msg_header)
-        msg += u'<pre>{0}</pre>'.format(escape(ret))
+        msg += u"<pre>{0}</pre>".format(escape(ret))
         return msg
 
     def make_datatable(self):
