@@ -22,7 +22,6 @@
 
     var i, specHelpers, testFiles;
 
-
     requirejs.config({
         baseUrl: '/base/',
         paths: {
