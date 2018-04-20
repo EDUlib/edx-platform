@@ -8,6 +8,11 @@ from django.core.urlresolvers import reverse
 from openedx.core.djangolib.markup import HTML, Text
 %>
 
+<%!
+from microsite_configuration import microsite
+from xmodule.modulestore.django import modulestore
+%>
+
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
       <header>
