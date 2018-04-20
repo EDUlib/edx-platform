@@ -229,15 +229,18 @@ class TodaysDate(DateSummary):
 
     @property
     def title(self):
-##### FICUS        return 'current_datetime'
+##### HAWTHORN        return 'current_datetime'
+        return 'current_datetime'
 
-        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
-        #return _(u'Today is {date}').format(
-            #date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
-        #)
-        return _(u'Today is {date}').format(
-            date=localized
-        )
+##### EDULIB
+#####        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
+#####        #return _(u'Today is {date}').format(
+#####            #date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
+#####        #)
+#####        return _(u'Today is {date}').format(
+#####            date=localized
+#####        )
+##### EDULIB
       
 
 class CourseStartDate(DateSummary):
