@@ -1,5 +1,5 @@
 # edX translation file
-# Copyright (C) 2017 edX
+# Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -56,7 +56,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -85,8 +85,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-08-01 18:55+0000\n"
-"PO-Revision-Date: 2017-08-07 04:03+0000\n"
+"POT-Creation-Date: 2018-04-22 20:42+0000\n"
+"PO-Revision-Date: 2018-03-14 14:06+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -130,11 +130,7 @@ msgstr "Utilisé comme Pré-requis"
 msgid "Make this subsection available as a prerequisite to other content"
 msgstr "Faire de cette sous-section un pré-requis pour les autres contenus "
 
-#: cms/templates/js/active-video-upload-list.underscore:3
-msgid "Drag and drop or click here to upload video files."
-msgstr "Glisser déposer ou cliquer ici pour importer des fichiers vidéo."
-
-#: cms/templates/js/active-video-upload-list.underscore:8
+#: cms/templates/js/active-video-upload-list.underscore:14
 msgid "Active Uploads"
 msgstr "Téléchargement Actifs"
 
@@ -466,6 +462,18 @@ msgid ""
 "hidden."
 msgstr "Si vous sélectionnez une option autre que \"%(hide_label)s\", les unités publiées dans cette sous-section deviendront disponibles aux apprenants à moins que certaines unités soit explicitement cachées."
 
+#: cms/templates/js/course-highlights-enable.underscore:3
+msgid "Weekly Highlight Emails"
+msgstr "Courriels hebdomadaires des faits saillants"
+
+#: cms/templates/js/course-highlights-enable.underscore:7
+msgid "Enabled"
+msgstr "Activé"
+
+#: cms/templates/js/course-highlights-enable.underscore:9
+msgid "Enable Now"
+msgstr "Activer maintenant"
+
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
 msgstr "Nom de l'enseignant"
@@ -622,31 +630,36 @@ msgstr "Diffusé : "
 msgid "Scheduled:"
 msgstr "Programmé : "
 
-#: cms/templates/js/course-outline.underscore:206
-#: cms/templates/js/course-outline.underscore:220
+#: cms/templates/js/course-outline.underscore:208
+#: cms/templates/js/highlights-editor.underscore:2
+msgid "Section Highlights"
+msgstr "Faits saillants de la section"
+
+#: cms/templates/js/course-outline.underscore:215
+#: cms/templates/js/course-outline.underscore:229
 msgid "Graded as:"
 msgstr "Noté comme : "
 
-#: cms/templates/js/course-outline.underscore:213
-#: cms/templates/js/course-outline.underscore:224
+#: cms/templates/js/course-outline.underscore:222
+#: cms/templates/js/course-outline.underscore:233
 msgid "Due:"
 msgstr "Date d'échéance : "
 
-#: cms/templates/js/course-outline.underscore:235
+#: cms/templates/js/course-outline.underscore:244
 msgid "Subsection is hidden after course end date"
 msgstr "Sous-section cachée après la date d'échéance du cours"
 
-#: cms/templates/js/course-outline.underscore:237
+#: cms/templates/js/course-outline.underscore:246
 msgid "Subsection is hidden after due date"
 msgstr "Sous-section cachée après la date d'échéance"
 
-#: cms/templates/js/course-outline.underscore:259
+#: cms/templates/js/course-outline.underscore:268
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "Vous n'avez pas encore ajouté de contenu à ce cours."
 
-#: cms/templates/js/course-outline.underscore:263
-#: cms/templates/js/course-outline.underscore:284
+#: cms/templates/js/course-outline.underscore:272
+#: cms/templates/js/course-outline.underscore:293
 #: cms/templates/js/xblock-outline.underscore:61
 #: cms/templates/js/xblock-outline.underscore:77
 #, python-format
@@ -660,6 +673,88 @@ msgstr "Résultat d'apprentissage"
 #: cms/templates/js/course-settings-learning-fields.underscore:3
 msgid "Add a learning outcome here"
 msgstr "Ajouter ici un résultat d'apprentissage"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:2
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:2
+#: cms/templates/js/publish-xblock.underscore:126
+msgid "Discard Changes"
+msgstr "Supprimer les changements"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
+msgid "Press discard changes to discard your changes."
+msgstr "Appuyez sur annuler les modifications pour annuler vos modifications."
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
+msgid "Update Settings"
+msgstr "Mettre à jour les paramètres"
+
+#: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
+msgid "Press update settings to update the information for your organization."
+msgstr "Appuyez sur mise à jour des paramètres pour mettre à jour les informations pour votre organisation."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
+msgid "Press discard changes to discard changes."
+msgstr "Appuyez sur annuler les modifications pour annuler les modifications."
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
+msgid "Press update settings to update course video settings"
+msgstr "Appuyez sur mise à jour des paramètres pour mettre à jour les paramètres vidéo de cours"
+
+#: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+#: cms/templates/js/course-video-settings.underscore:7
+msgid "Press close to hide course video settings"
+msgstr "Appuyez sur fermer pour masquer les paramètres de la vidéo du cours"
+
+#: cms/templates/js/course-video-settings.underscore:13
+msgid "Course Video Settings"
+msgstr "Paramètres de vidéo de cours"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Délai de transcription"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:8
+msgid "Transcript Fidelity"
+msgstr "Fidélité de la transcription"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:13
+msgid "Video Source Language"
+msgstr "Langue de la source vidéo"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:18
+msgid "Transcript Languages"
+msgstr "Langues de transcription"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+#: cms/templates/js/metadata-dict-entry.underscore:6
+#: cms/templates/js/metadata-list-entry.underscore:9
+#: cms/templates/js/video/metadata-translations-entry.underscore:6
+msgid "Add"
+msgstr "Ajouter"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:25
+msgid "Press Add to language"
+msgstr "Appuyez sur Ajouter à la langue"
+
+#: cms/templates/js/course-video-transcript-provider-empty.underscore:1
+msgid "Automated Transcripts"
+msgstr "Transcriptions automatisées"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:1
+msgid "Transcript Provider"
+msgstr "Fournisseur de transcription"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:5
+msgid "Change"
+msgstr "Modifier"
+
+#: cms/templates/js/course-video-transcript-provider-selected.underscore:6
+msgid "Press change to change selected transcript provider."
+msgstr "Appuyez sur modifier pour modifier le fournisseur de transcription sélectionné."
 
 #: cms/templates/js/course_grade_policy.underscore:3
 msgid "Assignment Type Name"
@@ -896,6 +991,27 @@ msgstr "Cette configuration est actuellement utilisé dans des tests de contenu.
 msgid "delete group"
 msgstr "supprimer un groupe"
 
+#: cms/templates/js/highlights-editor.underscore:7
+msgid ""
+"This feature is currently in testing. Course teams can enter highlights, but"
+" learners will not receive email messages."
+msgstr "Cette fonctionnalité est actuellement en cours de test. Les équipes de cours peuvent entrer les faits saillants, mais les apprenants ne recevront pas de courriels."
+
+#: cms/templates/js/highlights-editor.underscore:11
+msgid ""
+"Enter 3-5 highlights to include in the email message that learners receive "
+"for this section (250 character limit)."
+msgstr "Entrez 3-5 faits saillants à inclure dans le courriel que les apprenants reçoivent pour cette section (limite de 250 caractères)."
+
+#: cms/templates/js/highlights-editor.underscore:42
+#: cms/templates/js/highlights-editor.underscore:55
+msgid "Highlight {highlight_index}"
+msgstr "Fait saillant {highlight_index}"
+
+#: cms/templates/js/highlights-editor.underscore:61
+msgid "A highlight to look forward to this week."
+msgstr "Un point fort à attendre cette semaine."
+
 #: cms/templates/js/license-selector.underscore:3
 msgid "License Type"
 msgstr "Type de licence"
@@ -945,12 +1061,6 @@ msgstr "%(new_item_message)s"
 msgid "New %(item_type)s"
 msgstr "Nouvel %(item_type)s"
 
-#: cms/templates/js/metadata-dict-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:9
-#: cms/templates/js/video/metadata-translations-entry.underscore:6
-msgid "Add"
-msgstr "Ajouter"
-
 #: cms/templates/js/metadata-dict-entry.underscore:9
 #: cms/templates/js/metadata-file-uploader-entry.underscore:5
 #: cms/templates/js/metadata-list-entry.underscore:12
@@ -976,6 +1086,7 @@ msgid "Component Location ID"
 msgstr "ID de l'emplacement du composant"
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
+#: cms/templates/js/video-transcripts.underscore:37
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Replace"
 msgstr "Remplacer"
@@ -986,6 +1097,7 @@ msgid "Upload"
 msgstr "Téléversez"
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:2
+#: cms/templates/js/video-transcripts.underscore:34
 #: cms/templates/js/video/metadata-translations-item.underscore:8
 msgid "Download"
 msgstr "Télécharger"
@@ -1040,11 +1152,15 @@ msgstr "Miniature"
 msgid "Video ID"
 msgstr "ID du vidéo"
 
-#: cms/templates/js/previous-video-upload.underscore:12
+#: cms/templates/js/previous-video-upload-list.underscore:18
+msgid "Transcripts"
+msgstr "Transcriptions"
+
+#: cms/templates/js/previous-video-upload.underscore:15
 msgid "Remove this video"
 msgstr "Supprimer ce vidéo"
 
-#: cms/templates/js/previous-video-upload.underscore:14
+#: cms/templates/js/previous-video-upload.underscore:17
 msgid "Remove {video_name} video"
 msgstr "Supprimer le vidéo {video_name} "
 
@@ -1136,10 +1252,6 @@ msgstr "Cacher des apprenants."
 #: cms/templates/js/publish-xblock.underscore:113
 msgid "Note: Do not hide graded assignments after they have been released."
 msgstr "Note : Ne pas cacher les travaux notés après qu'ils aient été publiés."
-
-#: cms/templates/js/publish-xblock.underscore:126
-msgid "Discard Changes"
-msgstr "Supprimer les changements"
 
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
@@ -1393,12 +1505,47 @@ msgstr "Choisissez une période de temps pour l'examen. Si c'est plus de 24 heur
 msgid "Review Rules"
 msgstr "Réviser les règles"
 
-#: cms/templates/js/timed-examination-preference-editor.underscore:45
+#: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid ""
-"Specify any additional rules or rule exceptions that the proctoring review "
-"team should enforce when reviewing the videos. For example, you could "
-"specify that calculators are allowed."
-msgstr "Indiquer toutes règles additionnelles or règles de dérogation que l'équipe de révision d'examens surveillés doit imposer lors de la révision des vidéos. Par exemple, vous pourriez indiquer que les calculatrices sont permises."
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam, along with the {linkStart}general "
+"proctored exam rules{linkEnd}."
+msgstr "Indiquez les règles ou règles de dérogation que l'équipe de révision d'examens surveillés doit imposer lors de la révision des vidéos. Par exemple, vous pouvez spécifier que les calculatrices sont autorisées. Ces règles spécifiées sont visibles pour les apprenants avant que les apprenants ne commencent l'examen, ainsi qu'avec {linkStart}règles générales d'examen surveillé{linkEnd}."
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:53
+msgid "General Proctored Exam Rules"
+msgstr "Règles générales d'examen surveillé"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:58
+msgid ""
+"Specify any rules or rule exceptions that the proctoring review team should "
+"enforce when reviewing the videos. For example, you could specify that "
+"calculators are allowed. These specified rules are visible to learners "
+"before the learners start the exam."
+msgstr "Indiquez les règles ou règles de dérogation que l'équipe de révision d'examens surveillés doit imposer lors de la révision des vidéos. Par exemple, vous pouvez spécifier que les calculatrices sont autorisées. Ces règles spécifiées sont visibles pour les apprenants avant que les apprenants ne commencent l'examen."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:3
+msgid "Account"
+msgstr "Compte"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:5
+msgid ""
+"This action updates the {provider} information for your entire organization."
+msgstr "Cette action met à jour les informations de {fournisseur} pour l'ensemble de votre organisation."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:7
+msgid "Enter the account information for your organization."
+msgstr "Entrez les informations de compte pour votre organisation."
+
+#: cms/templates/js/transcript-organization-credentials.underscore:11
+msgid "API Key"
+msgstr "Clé d'API"
+
+#: cms/templates/js/transcript-organization-credentials.underscore:22
+msgid "API Secret"
+msgstr "Secret d'API"
 
 #: cms/templates/js/unit-access-editor.underscore:8
 msgid "Unit Access"
@@ -1460,6 +1607,22 @@ msgid ""
 "Recommended image resolution is {imageResolution}, maximum image file size "
 "should be {maxFileSize} and format must be one of {supportedImageFormats}."
 msgstr "La résolution d'image recommandée est {imageResolution}, la taille maximale du fichier image doit être de {maxFileSize} et le format doit être l'un des suivants : {supportedImageFormats}."
+
+#: cms/templates/js/video-transcript-upload-status.underscore:4
+msgid "Read more"
+msgstr "Lire plus"
+
+#: cms/templates/js/video-transcripts.underscore:7
+msgid "Show transcripts ({totalTranscripts})"
+msgstr "Afficher les transcriptions ({totalTranscripts})"
+
+#: cms/templates/js/video-transcripts.underscore:12
+msgid "No transcript uploaded."
+msgstr "Aucune transcription téléchargée."
+
+#: cms/templates/js/video-transcripts.underscore:19
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
 #: cms/templates/js/xblock-access-editor.underscore:3
 msgid "Set Access"
