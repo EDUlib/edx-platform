@@ -27,6 +27,11 @@ from opaque_keys import InvalidKeyError
 from opaque_keys.edx.keys import CourseKey
 from opaque_keys.edx.locator import CourseLocator
 
+##### from EDUlib
+from util.date_utils import strftime_localized
+#### modification from edulib
+
+
 from course_modes.models import CourseMode
 from courseware.courses import get_course_by_id
 from edxmako.shortcuts import render_to_response
@@ -950,7 +955,10 @@ def _show_receipt_html(request, order):
         'currency': settings.PAID_COURSE_REGISTRATION_CURRENCY[0],
         'total_registration_codes': total_registration_codes,
         'reg_code_info_list': reg_code_info_list,
-        'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        ##### from EDUlib
+        ##### 'order_purchase_date': order.purchase_time.strftime("%B %d, %Y"),
+        'order_purchase_date': strftime_localized(order.purchase_time, "%d %B %Y"),
+        ##### from EDUlib
     }
 
     # We want to have the ability to override the default receipt page when

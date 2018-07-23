@@ -19,6 +19,7 @@ Common traits:
 
 import datetime
 import json
+##### import warnings
 
 import dateutil
 
@@ -71,7 +72,8 @@ CELERY_RESULT_BACKEND = 'djcelery.backends.cache:CacheBackend'
 
 # When the broker is behind an ELB, use a heartbeat to refresh the
 # connection and to detect if it has been dropped.
-BROKER_HEARTBEAT = 60.0
+##### BROKER_HEARTBEAT = 60.0
+BROKER_HEARTBEAT = 0
 BROKER_HEARTBEAT_CHECKRATE = 2
 
 # Each worker should only fetch one message at a time
@@ -99,6 +101,17 @@ CELERY_QUEUES = {
 }
 
 CELERY_ROUTES = "{}celery.Router".format(QUEUE_VARIANT)
+
+##### from EDUlib #####
+##### # If we're a worker on the high_mem queue, set ourselves to die after processing
+##### # one request to avoid having memory leaks take down the worker server. This env
+##### # var is set in /etc/init/edx-workers.conf -- this should probably be replaced
+##### # with some celery API call to see what queue we started listening to, but I
+##### # don't know what that call is or if it's active at this point in the code.
+##### if os.environ.get('QUEUE') == 'high_mem':
+#####     CELERYD_MAX_TASKS_PER_CHILD = 1
+##### from EDUlib #####
+
 CELERYBEAT_SCHEDULE = {}  # For scheduling tasks, entries can be added to this dict
 
 ########################## NON-SECURE ENV CONFIG ##############################
@@ -195,6 +208,9 @@ if ENV_TOKENS.get('SESSION_COOKIE_NAME', None):
     # NOTE, there's a bug in Django (http://bugs.python.org/issue18012) which necessitates this being a str()
     SESSION_COOKIE_NAME = str(ENV_TOKENS.get('SESSION_COOKIE_NAME'))
 
+##### BOOK_URL = ENV_TOKENS['BOOK_URL']
+##### LOG_DIR = ENV_TOKENS['LOG_DIR']
+
 CACHES = ENV_TOKENS['CACHES']
 # Cache used for location mapping -- called many times with the same key/value
 # in a given request.
@@ -251,6 +267,8 @@ BULK_EMAIL_ROUTING_KEY_SMALL_JOBS = ENV_TOKENS.get('BULK_EMAIL_ROUTING_KEY_SMALL
 
 # Queue to use for expiring old entitlements
 ENTITLEMENTS_EXPIRATION_ROUTING_KEY = ENV_TOKENS.get('ENTITLEMENTS_EXPIRATION_ROUTING_KEY', LOW_PRIORITY_QUEUE)
+##### # Queue to use for updating persistent grades
+##### RECALCULATE_GRADES_ROUTING_KEY = ENV_TOKENS.get('RECALCULATE_GRADES_ROUTING_KEY', LOW_PRIORITY_QUEUE)
 
 # Message expiry time in seconds
 CELERY_EVENT_QUEUE_TTL = ENV_TOKENS.get('CELERY_EVENT_QUEUE_TTL', None)
@@ -570,6 +588,18 @@ if 'DATADOG_API' in AUTH_TOKENS:
 ANALYTICS_API_KEY = AUTH_TOKENS.get("ANALYTICS_API_KEY", ANALYTICS_API_KEY)
 ANALYTICS_API_URL = ENV_TOKENS.get("ANALYTICS_API_URL", ANALYTICS_API_URL)
 
+##### # Analytics dashboard server
+##### ANALYTICS_SERVER_URL = ENV_TOKENS.get("ANALYTICS_SERVER_URL")
+##### ANALYTICS_API_KEY = AUTH_TOKENS.get("ANALYTICS_API_KEY", "")
+##### 
+##### # Analytics data source
+##### ANALYTICS_DATA_URL = ENV_TOKENS.get("ANALYTICS_DATA_URL", ANALYTICS_DATA_URL)
+##### ANALYTICS_DATA_TOKEN = AUTH_TOKENS.get("ANALYTICS_DATA_TOKEN", ANALYTICS_DATA_TOKEN)
+##### 
+##### # Analytics Dashboard
+##### ANALYTICS_DASHBOARD_URL = ENV_TOKENS.get("ANALYTICS_DASHBOARD_URL", ANALYTICS_DASHBOARD_URL)
+##### ANALYTICS_DASHBOARD_NAME = ENV_TOKENS.get("ANALYTICS_DASHBOARD_NAME", PLATFORM_NAME + " Insights")
+
 # Mailchimp New User List
 MAILCHIMP_NEW_USER_LIST_ID = ENV_TOKENS.get("MAILCHIMP_NEW_USER_LIST_ID")
 
@@ -665,6 +695,7 @@ TIME_ZONE_DISPLAYED_FOR_DEADLINES = ENV_TOKENS.get("TIME_ZONE_DISPLAYED_FOR_DEAD
 
 ##### X-Frame-Options response header settings #####
 X_FRAME_OPTIONS = ENV_TOKENS.get('X_FRAME_OPTIONS', X_FRAME_OPTIONS)
+#####X_FRAME_OPTIONS = ENV_TOKENS.get('X_FRAME_OPTIONS', X_FRAME_OPTIONS)
 
 ##### Third-party auth options ################################################
 if FEATURES.get('ENABLE_THIRD_PARTY_AUTH'):
@@ -673,6 +704,7 @@ if FEATURES.get('ENABLE_THIRD_PARTY_AUTH'):
         'social_core.backends.linkedin.LinkedinOAuth2',
         'social_core.backends.facebook.FacebookOAuth2',
         'social_core.backends.azuread.AzureADOAuth2',
+        'social_core.backends.twitter.TwitterOAuth',
         'third_party_auth.saml.SAMLAuthBackend',
         'third_party_auth.lti.LTIAuthBackend',
     ])
@@ -809,6 +841,10 @@ VIDEO_IMAGE_SETTINGS = ENV_TOKENS.get('VIDEO_IMAGE_SETTINGS', VIDEO_IMAGE_SETTIN
 ##### VIDEO TRANSCRIPTS STORAGE #####
 VIDEO_TRANSCRIPTS_SETTINGS = ENV_TOKENS.get('VIDEO_TRANSCRIPTS_SETTINGS', VIDEO_TRANSCRIPTS_SETTINGS)
 
+##### ##### CDN EXPERIMENT/MONITORING FLAGS #####
+##### CDN_VIDEO_URLS = ENV_TOKENS.get('CDN_VIDEO_URLS', CDN_VIDEO_URLS)
+##### ONLOAD_BEACON_SAMPLE_RATE = ENV_TOKENS.get('ONLOAD_BEACON_SAMPLE_RATE', ONLOAD_BEACON_SAMPLE_RATE)
+
 ##### ECOMMERCE API CONFIGURATION SETTINGS #####
 ECOMMERCE_PUBLIC_URL_ROOT = ENV_TOKENS.get('ECOMMERCE_PUBLIC_URL_ROOT', ECOMMERCE_PUBLIC_URL_ROOT)
 ECOMMERCE_API_URL = ENV_TOKENS.get('ECOMMERCE_API_URL', ECOMMERCE_API_URL)
@@ -821,9 +857,13 @@ ECOMMERCE_SERVICE_WORKER_USERNAME = ENV_TOKENS.get(
     ECOMMERCE_SERVICE_WORKER_USERNAME
 )
 
+##### CREDENTIALS_INTERNAL_SERVICE_URL = ENV_TOKENS.get('CREDENTIALS_INTERNAL_SERVICE_URL', CREDENTIALS_INTERNAL_SERVICE_URL)
+##### CREDENTIALS_PUBLIC_SERVICE_URL = ENV_TOKENS.get('CREDENTIALS_PUBLIC_SERVICE_URL', CREDENTIALS_PUBLIC_SERVICE_URL)
+
 ##### Custom Courses for EdX #####
 if FEATURES.get('CUSTOM_COURSES_EDX'):
     INSTALLED_APPS += ['lms.djangoapps.ccx', 'openedx.core.djangoapps.ccxcon.apps.CCXConnectorConfig']
+#####    INSTALLED_APPS += ('lms.djangoapps.ccx', 'openedx.core.djangoapps.ccxcon')
     MODULESTORE_FIELD_OVERRIDE_PROVIDERS += (
         'lms.djangoapps.ccx.overrides.CustomCoursesForEdxOverrideProvider',
     )
@@ -871,6 +911,8 @@ CREDIT_PROVIDER_SECRET_KEYS = AUTH_TOKENS.get("CREDIT_PROVIDER_SECRET_KEYS", {})
 if FEATURES.get('ENABLE_LTI_PROVIDER'):
     INSTALLED_APPS.append('lti_provider.apps.LtiProviderConfig')
     AUTHENTICATION_BACKENDS.append('lti_provider.users.LtiBackend')
+#####    INSTALLED_APPS += ('lti_provider',)
+#####    AUTHENTICATION_BACKENDS += ('lti_provider.users.LtiBackend', )
 
 LTI_USER_EMAIL_DOMAIN = ENV_TOKENS.get('LTI_USER_EMAIL_DOMAIN', 'lti.example.com')
 
@@ -909,6 +951,9 @@ MICROSITE_DATABASE_TEMPLATE_CACHE_TTL = ENV_TOKENS.get(
     "MICROSITE_DATABASE_TEMPLATE_CACHE_TTL", MICROSITE_DATABASE_TEMPLATE_CACHE_TTL
 )
 
+##### # Course Content Bookmarks Settings
+##### MAX_BOOKMARKS_PER_COURSE = ENV_TOKENS.get('MAX_BOOKMARKS_PER_COURSE', MAX_BOOKMARKS_PER_COURSE)
+
 # Offset for pk of courseware.StudentModuleHistoryExtended
 STUDENTMODULEHISTORYEXTENDED_OFFSET = ENV_TOKENS.get(
     'STUDENTMODULEHISTORYEXTENDED_OFFSET', STUDENTMODULEHISTORYEXTENDED_OFFSET
@@ -925,6 +970,7 @@ CREDENTIALS_GENERATION_ROUTING_KEY = ENV_TOKENS.get('CREDENTIALS_GENERATION_ROUT
 # The extended StudentModule history table
 if FEATURES.get('ENABLE_CSMH_EXTENDED'):
     INSTALLED_APPS.append('coursewarehistoryextended')
+#####    INSTALLED_APPS += ('coursewarehistoryextended',)
 
 API_ACCESS_MANAGER_EMAIL = ENV_TOKENS.get('API_ACCESS_MANAGER_EMAIL')
 API_ACCESS_FROM_EMAIL = ENV_TOKENS.get('API_ACCESS_FROM_EMAIL')
@@ -945,16 +991,21 @@ HELP_TOKENS_BOOKS = ENV_TOKENS.get('HELP_TOKENS_BOOKS', HELP_TOKENS_BOOKS)
 # These configuration settings are specific to the Enterprise service and you should
 # not find references to them within the edx-platform project.
 
+##### # Determines whether the Enterprise service is used
+##### ENABLE_ENTERPRISE_INTEGRATION = ENV_TOKENS.get('ENABLE_ENTERPRISE_INTEGRATION', True)
+
 # Publicly-accessible enrollment URL, for use on the client side.
 ENTERPRISE_PUBLIC_ENROLLMENT_API_URL = ENV_TOKENS.get(
     'ENTERPRISE_PUBLIC_ENROLLMENT_API_URL',
     (LMS_ROOT_URL or '') + LMS_ENROLLMENT_API_PATH
+#####    (LMS_ROOT_URL or '') + '/api/enrollment/v1/'
 )
 
 # Enrollment URL used on the server-side.
 ENTERPRISE_ENROLLMENT_API_URL = ENV_TOKENS.get(
     'ENTERPRISE_ENROLLMENT_API_URL',
     (LMS_INTERNAL_ROOT_URL or '') + LMS_ENROLLMENT_API_PATH
+#####    ENTERPRISE_ENROLLMENT_API_URL
 )
 
 # Enterprise logo image size limit in KB's
@@ -992,6 +1043,8 @@ ENTERPRISE_REPORTING_SECRET = AUTH_TOKENS.get(
 DEFAULT_ENTERPRISE_API_URL = None
 if LMS_INTERNAL_ROOT_URL is not None:
     DEFAULT_ENTERPRISE_API_URL = LMS_INTERNAL_ROOT_URL + '/enterprise/api/v1/'
+##### if LMS_ROOT_URL is not None:
+#####     DEFAULT_ENTERPRISE_API_URL = LMS_ROOT_URL + '/enterprise/api/v1/'
 ENTERPRISE_API_URL = ENV_TOKENS.get('ENTERPRISE_API_URL', DEFAULT_ENTERPRISE_API_URL)
 
 DEFAULT_ENTERPRISE_CONSENT_API_URL = None

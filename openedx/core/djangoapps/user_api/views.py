@@ -1,4 +1,6 @@
 """HTTP end-points for the User API. """
+# -*- coding: utf-8 -*-
+import copy
 
 from django.contrib.auth.models import User
 from django.core.exceptions import NON_FIELD_ERRORS, PermissionDenied, ValidationError

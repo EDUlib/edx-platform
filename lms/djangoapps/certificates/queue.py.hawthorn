@@ -102,7 +102,6 @@ class XQueueCertInterface(object):
         self.whitelist = CertificateWhitelist.objects.all()
         self.restricted = UserProfile.objects.filter(allow_certificate=False)
         self.use_https = True
-        #####self.use_https = False
 
     def regen_cert(self, student, course_id, course=None, forced_grade=None, template_file=None, generate_pdf=True):
         """(Re-)Make certificate for a particular student in a particular course
@@ -273,7 +272,6 @@ class XQueueCertInterface(object):
         enrollment_mode, __ = CourseEnrollment.enrollment_mode_for_user(student, course_id)
         mode_is_verified = enrollment_mode in GeneratedCertificate.VERIFIED_CERTS_MODES
         user_is_verified = IDVerificationService.user_is_verified(student)
-        ##### user_is_verified = SoftwareSecurePhotoVerification.user_is_verified(student)
         cert_mode = enrollment_mode
         is_eligible_for_certificate = is_whitelisted or CourseMode.is_eligible_for_certificate(enrollment_mode)
         unverified = False
@@ -491,11 +489,7 @@ class XQueueCertInterface(object):
             example_cert (ExampleCertificate)
 
         """
-
-        course = modulestore().get_course(example_cert.course_key, depth=0)
-
         contents = {
-            'course_name': course.display_name or unicode(example_cert.course_key),
             'action': 'create',
             'course_id': unicode(example_cert.course_key),
             'name': example_cert.full_name,

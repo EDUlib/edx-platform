@@ -201,6 +201,16 @@
                             },
                             {
                                 placeholder: '',
+                                name: 'consent',
+                                label: 'Consent',
+                                defaultValue: '',
+                                type: 'textarea',
+                                required: false,
+                                instructions: "Dans le cadre de l'initiative EDUlib (ou FUN), des équipes de chercheurs vont recueillir et analyser les traces informatiques des activités de tous les participants, dans le but de produire des connaissances scientifiques et d'améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées, par une équipe de l'Université de Montréal sous la supervision du Pr. Poellhuber, par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible.",
+                                restrictions: {}
+                            },
+                            {
+                                placeholder: '',
                                 name: 'honor_code',
                                 label: 'I agree to the Terms of Service and Honor Code',
                                 defaultValue: '',

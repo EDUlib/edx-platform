@@ -688,6 +688,11 @@ class CapaMixin(ScorableXBlockMixin, CapaFields):
         encapsulate (bool): if True (the default) embed the html in a problem <div>
         submit_notification (bool): True if the submit notification should be added
         """
+
+        ##### missing from edX code added by EDUlib #####
+        _ = self.runtime.service(self, "i18n").ugettext
+        ##### missing from edX code added by EDUlib #####
+
         try:
             html = self.lcp.get_html()
 

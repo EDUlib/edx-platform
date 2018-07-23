@@ -16,12 +16,9 @@ from django.utils.translation import get_language, to_locale, ugettext_lazy
 from django.utils.translation import ugettext as _
 from lazy import lazy
 from pytz import utc
-##### from pytz import timezone, utc
 
 from course_modes.models import CourseMode, get_cosmetic_verified_display_price
-##### from course_modes.models import CourseMode
 from lms.djangoapps.commerce.utils import EcommerceService
-##### from lms.djangoapps.verify_student.models import SoftwareSecurePhotoVerification, VerificationDeadline
 from lms.djangoapps.verify_student.models import VerificationDeadline
 from lms.djangoapps.verify_student.services import IDVerificationService
 from openedx.core.djangoapps.certificates.api import can_show_certificate_available_date_field
@@ -31,10 +28,6 @@ from student.models import CourseEnrollment
 
 from .context_processor import user_timezone_locale_prefs
 
-##### from EDUlib #####
-from util.date_utils import strftime_localized
-import pytz
-##### from EDUlib #####
 
 class DateSummary(object):
     """Base class for all date summary blocks."""
@@ -98,15 +91,6 @@ class DateSummary(object):
         """The text of the link."""
         return ''
 
-#####    @property
-#####    def time_zone(self):
-#####        """
-#####        The time zone in which to display -- defaults to UTC
-#####        """
-#####        return timezone(
-#####            self.user.preferences.model.get_value(self.user, "time_zone", "UTC")
-#####        )
-
     def __init__(self, course, user, course_id=None):
         self.course = course
         self.user = user
@@ -122,7 +106,6 @@ class DateSummary(object):
             return ''
         locale = to_locale(get_language())
         delta = self.date - self.current_time
-        ##### delta = self.date - datetime.now(utc)
         try:
             relative_date = format_timedelta(delta, locale=locale)
         # Babel doesn't have translations for Esperanto, so we get
@@ -138,12 +121,9 @@ class DateSummary(object):
         # and if today were December 5th, 2020, 'relative' would be "1
         # month".
         date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
-        ##### localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
-
         return date_format.format(
             relative=relative_date,
             absolute='{date}',
-            ##### absolute=localized,
         )
 
     @property
@@ -156,7 +136,6 @@ class DateSummary(object):
         """
         if self.date is not None:
             return self.current_time.date() <= self.date.date()
-            ##### return datetime.now(utc) <= self.date
         return False
 
     def deadline_has_passed(self):
@@ -165,7 +144,6 @@ class DateSummary(object):
         Returns False otherwise.
         """
         deadline = self.date
-        ##### return deadline is not None and deadline <= datetime.now(utc)
         return deadline is not None and deadline <= self.current_time
 
     @property
@@ -236,21 +214,12 @@ class TodaysDate(DateSummary):
 
     @property
     def date(self):
-        ##### return datetime.now(utc)
         return self.current_time
 
     @property
     def title(self):
         return 'current_datetime'
 
-#####        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
-#####        #return _(u'Today is {date}').format(
-#####           #date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
-#####        #)
-#####        return _(u'Today is {date}').format(
-#####            date=localized
-#####        )
-      
 
 class CourseStartDate(DateSummary):
     """
@@ -306,7 +275,6 @@ class CourseEndDate(DateSummary):
 
     @property
     def description(self):
-        ##### if datetime.now(utc) <= self.date:
         if self.current_time <= self.date:
             mode, is_active = CourseEnrollment.enrollment_mode_for_user(self.user, self.course_id)
             if is_active and CourseMode.is_eligible_for_certificate(mode):
@@ -480,22 +448,10 @@ class VerifiedUpgradeDeadlineDate(DateSummary):
     Verified track.
     """
     css_class = 'verified-upgrade-deadline'
-    ##### title = ugettext_lazy('Verification Upgrade Deadline')
-    ##### description = ugettext_lazy(
-    #####     'You are still eligible to upgrade to a Verified Certificate! '
-    #####     'Pursue it to highlight the knowledge and skills you gain in this course.'
-    ##### )
     link_text = ugettext_lazy('Upgrade to Verified Certificate')
 
     @property
     def link(self):
-        ##### ecommerce_service = EcommerceService()
-        ##### if ecommerce_service.is_enabled(self.user):
-        #####     course_mode = CourseMode.objects.get(
-        #####         course_id=self.course_id, mode_slug=CourseMode.VERIFIED
-        #####     )
-        #####     return ecommerce_service.get_checkout_page_url(course_mode.sku)
-        ##### return reverse('verify_student_upgrade_and_verify', args=(self.course_id,))
         return verified_upgrade_deadline_link(self.user, self.course, self.course_id)
 
     @cached_property
@@ -515,14 +471,6 @@ class VerifiedUpgradeDeadlineDate(DateSummary):
             return False
 
         return verified_upgrade_link_is_valid(self.enrollment)
-        ##### enrollment_mode, is_active = CourseEnrollment.enrollment_mode_for_user(self.user, self.course_id)
-        ##### 
-        ##### # Return `true` if user is not enrolled in course
-        ##### if enrollment_mode is None and is_active is None:
-        #####     return True
-        #####
-        ##### # Show the summary if user enrollment is in which allow user to upsell
-        ##### return is_active and enrollment_mode in CourseMode.UPSELL_TO_VERIFIED_MODES
 
     @lazy
     def date(self):
@@ -607,13 +555,6 @@ class VerifiedUpgradeDeadlineDate(DateSummary):
                 ),
                 title=Text(upgrade_message)
             )
-        ##### try:
-        #####     verified_mode = CourseMode.objects.get(
-        #####         course_id=self.course_id, mode_slug=CourseMode.VERIFIED
-        #####     )
-        #####     return verified_mode.expiration_datetime
-        ##### except CourseMode.DoesNotExist:
-        #####     return None
 
 
 class VerificationDeadlineDate(DateSummary):
@@ -688,7 +629,6 @@ class VerificationDeadlineDate(DateSummary):
         """Return the verification status for this user."""
         verification_status = IDVerificationService.user_status(self.user)
         return verification_status['status']
-        ##### return SoftwareSecurePhotoVerification.user_status(self.user)[0]
 
     def must_retry(self):
         """Return True if the user must re-submit verification, False otherwise."""

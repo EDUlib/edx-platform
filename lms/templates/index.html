@@ -6,6 +6,9 @@ from django.utils.translation import ugettext as _
 from django.urls import reverse
 
 from openedx.core.djangolib.markup import HTML, Text
+
+from microsite_configuration import microsite
+from xmodule.modulestore.django import modulestore
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
@@ -13,13 +16,13 @@ from openedx.core.djangolib.markup import HTML, Text
       <header>
         <div class="outer-wrapper">
           <div class="title">
-            <div class="heading-group">
+<!--            <div class="heading-group">
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
                 <%include file="index_overlay.html" />
               % endif
-            </div>
+            </div> -->
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
               <div class="course-search">
                 <form method="get" action="/courses">
@@ -39,7 +42,33 @@ from openedx.core.djangolib.markup import HTML, Text
         </div>
 
       </header>
-      <%include file="${courses_list}" />
+
+<!--      <%include file="${courses_list}" /> -->
+
+      <section class="courses-container">
+        <section class="highlighted-courses">
+          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+            <section class="courses">
+                <ul class="courses-listing">
+                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                     %if ((course.has_started() and not course.has_ended() and (course.end is not None)) or (not course.has_started())) and course.catalog_visibility=="both":
+                         <li class="courses-listing-item">
+                             <%include file="course-edulib.html" args="course=course" />
+                         </li>
+                     %endif
+                %endfor
+                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                     % if ((course.has_started() and not course.has_ended() and not (course.end is not None))) and course.catalog_visibility=="both":
+                         <li class="courses-listing-item">
+                             <%include file="course-edulib.html" args="course=course" />
+                         </li>
+                     %endif
+                %endfor
+                </ul>
+            </section>
+          % endif
+        </section>
+      </section>
 
     </section>
 </main>

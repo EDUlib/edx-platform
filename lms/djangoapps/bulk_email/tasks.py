@@ -417,6 +417,13 @@ def _get_source_address(course_id, course_title, course_language, truncate=True)
     if len(escaped_encoded_from_addr) >= 320 and truncate:
         from_addr = format_address(course_name)
 
+    ##### from EDUlib
+    from_addr = u'EDUlib - "{0}" <{1}>'.format(
+        course_title_no_quotes,
+        settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
+    )
+    ##### from EDUlib
+
     return from_addr
 
 

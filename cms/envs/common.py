@@ -168,6 +168,10 @@ SECRET_KEY = 'dev key'
 STUDIO_NAME = _("Your Platform Studio")
 STUDIO_SHORT_NAME = _("Studio")
 FEATURES = {
+
+    'DISABLE_COURSE_CREATION': True,
+    'USE_DJANGO_PIPELINE': True,
+
     'GITHUB_PUSH': False,
 
     # for consistency in user-experience, keep the value of the following 3 settings
@@ -243,19 +247,19 @@ FEATURES = {
     'ENABLE_CONTENT_LIBRARIES': True,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Prerequisite courses feature flag
-    'ENABLE_PREREQUISITE_COURSES': False,
+    'ENABLE_PREREQUISITE_COURSES': True,
 
     # Toggle course entrance exams feature
-    'ENTRANCE_EXAMS': False,
+    'ENTRANCE_EXAMS': True,
 
     # Toggle platform-wide course licensing
     'LICENSING': False,
 
     # Enable the courseware search functionality
-    'ENABLE_COURSEWARE_INDEX': False,
+    'ENABLE_COURSEWARE_INDEX': True,
 
     # Enable content libraries search functionality
     'ENABLE_LIBRARY_INDEX': False,
@@ -282,7 +286,7 @@ FEATURES = {
     'ENABLE_CREDIT_ELIGIBILITY': ENABLE_CREDIT_ELIGIBILITY,
 
     # Special Exams, aka Timed and Proctored Exams
-    'ENABLE_SPECIAL_EXAMS': False,
+    'ENABLE_SPECIAL_EXAMS': True,
 
     'ORGANIZATIONS_APP': False,
 
@@ -654,7 +658,7 @@ STATICFILES_DIRS = [
 
 # Locale/Internationalization
 TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'fr'  # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES_BIDI = lms.envs.common.LANGUAGES_BIDI
 
 LANGUAGE_COOKIE = lms.envs.common.LANGUAGE_COOKIE
@@ -1319,7 +1323,7 @@ MAX_ASSET_UPLOAD_FILE_SIZE_URL = ""
 ENTRANCE_EXAM_MIN_SCORE_PCT = 50
 
 ### Default language for a new course
-DEFAULT_COURSE_LANGUAGE = "en"
+DEFAULT_COURSE_LANGUAGE = "fr"
 
 # Specify XBlocks that should be treated as advanced problems. Each entry is a
 # dict:
