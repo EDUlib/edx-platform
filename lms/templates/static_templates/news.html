@@ -4,14 +4,15 @@
 <%inherit file="../main.html" />
 
 <%block name="pagetitle">${_("In the Press")}</%block>
-
+    
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
-        <h1>
-            <%block name="pageheader">${page_header or _("In the Press")}</%block>
-        </h1>
-        <p>
-            <%block name="pagecontent">${page_content or _("This page left intentionally blank. Feel free to add your own content.")}</%block>
-        </p>
+        <h1>${_("In the Press")}</h1>
+
+        <h3 style="text-align:center;"><a href="http://edulib-nouvelles.blogspot.ca/">Cliquez ici pour accéder aux nouvelles</a></h3>
+
+        <script type="text/javascript">
+            window.location.href = 'http://edulib-nouvelles.blogspot.ca/';
+        </script>
     </section>
 </main>
