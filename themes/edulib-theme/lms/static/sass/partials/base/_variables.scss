@@ -1,0 +1,312 @@
+@import 'lms/static/sass/partials/base/variables';
+
+// ----------------------------
+// #CONFIG
+// ----------------------------
+$static-theme-path: '..';
+
+// ----------------------------
+// #COLORS
+// ----------------------------
+$blue: rgb(18, 85, 139);
+$blue1: rgb(18, 85, 139);
+$blue2: rgb(89, 187, 240);
+$m-blue: rgb(18, 85, 139);
+
+
+// ----------------------------
+// #APPLICATIONS
+// ----------------------------
+
+// homepage, onboarding, and course discovery
+$homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
+
+//
+// ----------------------------
+// #MODIFICATIONS EDULIB
+// ----------------------------
+//
+
+//-----------------
+//  Correctifs
+//-----------------
+
+html {background: none !important;}
+body {background: #fcfcfc !important;}
+.window-wrap {background: none !important;}
+
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date {display: none !important;}
+
+
+
+//-----------------
+//  Entête
+//-----------------
+
+.header-global .nav-global li.nav-global-05, .header-global .nav-global div.nav-global-05 {
+    margin-left: 15em;
+}
+
+
+.header-global .nav-courseware {
+    margin-left: 10px;
+}
+
+
+
+.header-global .user:last-child {
+    margin: 10px 10px 0 0 !important;
+    float: right;
+    list-style: none;
+    list-style-image: none;
+}
+
+.header-global .user .settings-language-form {
+    margin: 0 !important;
+}
+
+.header-global .user .settings-language-form select.language-selector {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 7em;
+}
+
+
+
+// ----------------------------
+// Pied de page
+// ----------------------------
+
+div.wrapper-footer nav.nav-colophon, div.wrapper-footer nav.nav-legal {
+    display: inline-block;
+}
+
+div.wrapper-footer nav li {display: inline;}
+
+div.wrapper-footer {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+div.wrapper-footer footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+
+div.wrapper-footer .nav-colophon a, div.wrapper-footer .nav-legal a {
+    font-size: 0.9em;
+    margin-right: 20px;
+}
+
+div.wrapper-footer .copyright {
+    font-size: 0.7em;
+    color: #acacac;
+    margin-top: 10px;
+}
+
+.copyright img.footer-logo {
+    width: 40px;
+    margin: -2px 0 0 0;
+}
+
+div.wrapper-footer a.openedx-link {
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+div.wrapper-footer .colophon {
+    width: 75%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+
+div.wrapper-footer .social-media-links {
+    float: right;
+    margin: 0;
+    padding: 0 !important;
+    list-style: none;
+    text-indent: 0;
+}
+
+div.wrapper-footer .social-media-links .list-item {
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+
+//-----------------
+//  Page d'accueil
+//-----------------
+
+
+//  Redimensionnement de la bannière d'accueil
+section.home header .outer-wrapper {
+    padding: 50px;
+    
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+section.home header .title {
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0 0 0;
+    
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+
+
+//-----------------
+//  Boîtes de cours
+//-----------------
+
+.courses-container .courses .course .course-info .course-organization, .courses-container .courses .course .course-info .course-title {
+    overflow: hidden;
+}
+
+.courses-container .courses .course .course-info .course-organization {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.courses-container .courses .course .course-info .course-title {    
+    line-height: 1.4em !important;
+    height: 4.2em !important;
+    margin: 5px 0 !important;
+}
+
+
+//-----------------
+//  Pages À propos
+//-----------------
+
+.course-info .course-sidebar .important-dates li .icon {
+    margin: 0px 10px 0 0 !important;
+}
+
+.course-info .course-sidebar .important-dates li .important-dates-item-title {
+    width: 40%;
+}
+
+.course-info .course-sidebar .important-dates li .important-dates-item-text {
+    text-align: right;
+    width: 50%;
+}
+
+.course-info header.course-profile {
+    min-height: 280px;
+    height: auto !important;
+    padding: 75px 0 !important;
+}
+
+//-----------------
+//  Pages Institutions
+//-----------------
+
+section.about ul.member-list {
+	text-align: center;
+    padding: 0;
+}
+
+section.about ul.member-list li, section.about ul.member-list a {
+    display: inline-block;
+    width: 300px;
+}
+
+section.about ul.member-list li {margin: 10px;}
+
+section.about ul.member-list a {
+    background-color: $gray-l6;
+    border: 1px solid $gray-l3;
+}
+
+section.about ul.member-list a:hover {
+    background-color: $blue-l5;
+    border-color: $blue-l3;
+}
+
+section.about ul.founder a {height: 200px;}
+
+section.about ul.founder a img {
+    width: 85%;
+    margin-top: 55px;
+}
+
+section.about ul.associate a {height: 135px;}
+
+section.about ul.associate a img {
+    width: 60%;
+    margin-top: 40px;
+}
+
+
+
+
+//-----------------
+//  Pages Contacts
+//-----------------
+
+section.about p.member-list a.institution {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+section.about p.member-list span {
+    display: inline-block;
+}
+
+
+//-----------------
+//  Pages d'information
+//-----------------
+
+section.about p, section.about ul li, section.about ol li, section.about span, section.edulib p {font: normal 1em/1.6em $serif;}
+
+section.about h1 {margin-top: 1em;}
+
+section.about h3, section.about h4 {
+    margin: 2em 0 1em 0;
+    font-weight: bold;
+}
+
+section.about ul, section.about ol {margin-top: 0.25em;}
+
+section.about ul {list-style-type: disc;}
+section.about ol {list-style-type: decimal;}
+section.about ol ul {list-style-type: circle;}
+
+
+//-----------------
+//  Pages de cours
+//-----------------
+
+.header-global.slim .course-header {
+    width: 50%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.header-global.slim .wrapper-header .list-inline.nav-global {
+    display: none;
+}
+
+
+
+

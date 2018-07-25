@@ -1,0 +1,8 @@
+## mako
+<!--
+To override this page, add a navigation.html file in the following
+location: {your_theme}/lms/templates/navigation/navigation.html
+-->
+<%page expression_filter="h" args="online_help_token"/>
+<%namespace name='static' file='static_content.html'/>
+<%include file="${static.get_template_path(relative_path='navigation/navigation.html')}"  args="online_help_token=online_help_token"  />
