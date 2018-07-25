@@ -1,0 +1,35 @@
+msgcat djangojs-partial.po djangojs-studio.po underscore.po underscore-studio.po -o djangojs.po
+msgcat django-partial.po django-studio.po mako.po mako-studio.po wiki.po -o django.po
+cat local.po >> django.po
+cat localjs.po >> djangojs.po
+
+sudo mkdir /edx/app/edxapp/log/
+sudo touch /edx/app/edxapp/log/edx.log
+sudo chown edxapp.edxapp /edx/app/edxapp/log/edx.log
+sudo chmod 600 /edx/app/edxapp/log/edx.log
+sudo touch /edx/app/edxapp/log/tracking.log
+sudo chown edxapp.edxapp /edx/app/edxapp/log/tracking.log
+sudo chmod 600 /edx/app/edxapp/log/tracking.log
+
+cd /edx/app/edxapp/edx-platform
+sudo /edx/app/edxapp/venvs/edxapp/bin/django-admin.py compilemessages
+
+sudo -H -u edxapp bash
+cd
+source venvs/edxapp/bin/activate
+cd /edx/app/edxapp/edx-platform
+python manage.py lms compilejsi18n
+python manage.py cms compilejsi18n
+deactivate
+exit
+
+sudo -H -u edxapp bash
+	source /edx/app/edxapp/edxapp_env
+	cd /edx/app/edxapp/edx-platform
+	paver update_assets --settings=aws
+	exit
+
+sudo /edx/bin/supervisorctl restart lms:
+sudo /edx/bin/supervisorctl restart cms:
+sudo /edx/bin/supervisorctl restart edxapp_worker:
+
