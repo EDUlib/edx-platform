@@ -10246,10 +10246,9 @@ msgid ""
 " next to assignments on a learner's Progress page."
 msgstr ""
 
-#. PM-03
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
-msgstr "Poids de la Note Totale" 
+msgstr ""
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid ""
@@ -10327,10 +10326,9 @@ msgstr ""
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr ""
 
-#. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
-msgstr "Ressource du chapitre"
+msgstr ""
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "path/to/introductionToCookieBaking-CH{order}.pdf"
