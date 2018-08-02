@@ -85,9 +85,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-04-22 20:42+0000\n"
-"PO-Revision-Date: 2018-03-13 13:50+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"POT-Creation-Date: 2018-07-23 07:21+0000\n"
+"PO-Revision-Date: 2018-07-10 19:31+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -171,7 +171,7 @@ msgstr "Éditer"
 #: cms/templates/js/partition-group-details.underscore:36
 #: cms/templates/js/show-textbook.underscore:43
 #: cms/templates/js/signatory-editor.underscore:5
-#: cms/templates/js/video-transcripts.underscore:39
+#: cms/templates/js/video-transcripts.underscore:41
 #: cms/templates/js/xblock-outline.underscore:31
 #: cms/templates/js/xblock-outline.underscore:33
 #: common/static/common/templates/discussion/forum-action-delete.underscore:3
@@ -247,12 +247,7 @@ msgstr "Précédent"
 msgid "Next"
 msgstr "Suivant"
 
-#: cms/templates/js/previous-video-upload-list.underscore:20
-#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
-msgid "Status"
-msgstr "Statut"
-
-#: cms/templates/js/previous-video-upload-list.underscore:21
+#: cms/templates/js/previous-video-upload-list.underscore:19
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:24
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:32
 #: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore:25
@@ -736,6 +731,10 @@ msgstr "Aucun résultat"
 msgid "Course Key"
 msgstr "Clé de cours"
 
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
+msgid "Status"
+msgstr "Statut"
+
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
 msgid "Download URL"
 msgstr "URL de téléchargement"
@@ -842,13 +841,17 @@ msgstr "Raison"
 msgid "Last modified by"
 msgstr "Dernière modification par"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:44
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:30
+msgid "Active"
+msgstr "Actif"
+
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore:45
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:46
 #: lms/templates/ccx/schedule.underscore:42
 msgid "N/A"
 msgstr "S/O"
 
-#: lms/djangoapps/support/static/support/templates/enrollment.underscore:52
+#: lms/djangoapps/support/static/support/templates/enrollment.underscore:54
 msgid "Change Enrollment"
 msgstr "Modifier l'inscription"
 
@@ -1776,6 +1779,10 @@ msgstr "Votre attestation pour {program}"
 msgid "Open the certificate you earned for the %(title)s program."
 msgstr "Consultez l'attestation que vous avez obtenu pour le programme %(title)s."
 
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:13
+msgid "View Program Record"
+msgstr "Voir le dossier du programme"
+
 #: lms/templates/learner_dashboard/program_details_view.underscore:6
 msgid "Congratulations!"
 msgstr "Félicitations!"
@@ -1855,7 +1862,7 @@ msgstr "Réinitialiser le mot de passe"
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: lms/templates/student_account/account_settings_section.underscore:23
+#: lms/templates/student_account/account_settings_section.underscore:27
 msgid "An error occurred. Please reload the page."
 msgstr "Une erreur est survenue. Merci de rafraîchir la page."
 
@@ -1864,7 +1871,7 @@ msgid "Forgot password?"
 msgstr "Mot de passe oublié?"
 
 #: lms/templates/student_account/hinted_login.underscore:4
-#: lms/templates/student_account/login.underscore:42
+#: lms/templates/student_account/login.underscore:43
 msgid "Sign in"
 msgstr "Se connecter"
 
@@ -1917,63 +1924,63 @@ msgstr "Est-ce votre première fois ici?"
 msgid "Create an Account."
 msgstr "Créer un compte."
 
-#: lms/templates/student_account/login.underscore:13
+#: lms/templates/student_account/login.underscore:14
 msgid "Sign in to continue learning as {email}"
 msgstr "Connectez-vous pour continuer à apprendre en tant que {email}"
 
-#: lms/templates/student_account/login.underscore:15
+#: lms/templates/student_account/login.underscore:16
 msgid "Sign in to continue learning"
 msgstr "Connectez-vous pour continuer à apprendre"
 
-#: lms/templates/student_account/login.underscore:18
+#: lms/templates/student_account/login.underscore:19
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr "Vous avez déjà un compte EDUlib avec votre adresse courriel {enterprise_name}."
 
-#: lms/templates/student_account/login.underscore:20
+#: lms/templates/student_account/login.underscore:21
 msgid ""
 "Going forward, your account information will be updated and maintained by "
 "{enterprise_name}."
 msgstr "À partir de maintenant, les informations de votre compte seront mises à jour et gérées par {enterprise_name}."
 
-#: lms/templates/student_account/login.underscore:22
+#: lms/templates/student_account/login.underscore:23
 msgid ""
 "You can view your information or unlink from {enterprise_name} anytime in "
 "your Account Settings."
 msgstr "Vous pouvez voir vos informations ou vous dissocier de {enterprise_name} à n'importe quel moment depuis les paramètres de votre compte."
 
-#: lms/templates/student_account/login.underscore:24
+#: lms/templates/student_account/login.underscore:25
 msgid "To continue learning with this account, sign in below."
 msgstr "Pour continuer à apprendre avec ce compte, connectez-vous ci-dessous."
 
-#: lms/templates/student_account/login.underscore:26
+#: lms/templates/student_account/login.underscore:27
 msgid "Sign In"
 msgstr "Connexion"
 
-#: lms/templates/student_account/login.underscore:33
+#: lms/templates/student_account/login.underscore:34
 msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
 msgstr "Connectez-vous avec votre courriel et mot de passe, ou utiliser l'un des fournisseurs ci-dessous."
 
-#: lms/templates/student_account/login.underscore:35
+#: lms/templates/student_account/login.underscore:36
 msgid "Sign in here using your email address and password."
 msgstr "Connectez-vous ici avec votre adresse courriel et mot de passe."
 
-#: lms/templates/student_account/login.underscore:37
+#: lms/templates/student_account/login.underscore:38
 msgid "If you do not yet have an account, use the button below to register."
 msgstr "Si vous n'avez pas encore de compte, utilisez le bouton ci-dessous pour vous inscrire."
 
-#: lms/templates/student_account/login.underscore:48
+#: lms/templates/student_account/login.underscore:49
 msgid "or sign in with"
 msgstr "ou se connecter avec"
 
-#: lms/templates/student_account/login.underscore:61
+#: lms/templates/student_account/login.underscore:62
 #, python-format
 msgid "Sign in with %(providerName)s"
 msgstr "Se connecter avec %(providerName)s"
 
-#: lms/templates/student_account/login.underscore:68
+#: lms/templates/student_account/login.underscore:69
 #: lms/templates/student_account/register.underscore:38
 msgid "Use my institution/campus credentials"
 msgstr "Utiliser mes informations institution/campus"

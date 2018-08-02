@@ -66,8 +66,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-04-22 20:42+0000\n"
-"PO-Revision-Date: 2018-03-14 16:13+0000\n"
+"POT-Creation-Date: 2018-07-23 07:21+0000\n"
+"PO-Revision-Date: 2018-07-24 22:14+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: wiki/admin.py:72 wiki/models/article.py:26
+#: wiki/admin.py:72 wiki/models/article.py:27
 msgid "created"
 msgstr "créé"
 
@@ -260,95 +260,95 @@ msgstr "Filtrer"
 msgid "Settings for plugin"
 msgstr "Paramètres pour le plugin"
 
-#: wiki/models/article.py:21 wiki/models/pluginbase.py:158
+#: wiki/models/article.py:22 wiki/models/pluginbase.py:158
 #: wiki/plugins/attachments/models.py:19
 msgid "current revision"
 msgstr "révision actuelle"
 
-#: wiki/models/article.py:23
+#: wiki/models/article.py:24
 msgid ""
 "The revision being displayed for this article. If you need to do a roll-"
 "back, simply change the value of this field."
 msgstr "La révision a été affichée pour cet article. Si vous voulez faire un retour en arrière, changez simplement la valeur de ce champ."
 
-#: wiki/models/article.py:27
+#: wiki/models/article.py:28
 msgid "modified"
 msgstr "modifié"
 
-#: wiki/models/article.py:28
+#: wiki/models/article.py:29
 msgid "Article properties last modified"
 msgstr "Dernière modification des propriétés de l'article"
 
-#: wiki/models/article.py:30
+#: wiki/models/article.py:31
 msgid "owner"
 msgstr "propriétaire"
 
-#: wiki/models/article.py:32
+#: wiki/models/article.py:33
 msgid ""
 "The owner of the article, usually the creator. The owner always has both "
 "read and write access."
 msgstr "Le propriétaire de l'article, généralement le créateur. Le propriétaire a toujours les droits d'accès en lecture et en écriture."
 
-#: wiki/models/article.py:34
+#: wiki/models/article.py:35
 msgid "group"
 msgstr "groupe"
 
-#: wiki/models/article.py:36
+#: wiki/models/article.py:37
 msgid ""
 "Like in a UNIX file system, permissions can be given to a user according to "
 "group membership. Groups are handled through the Django auth system."
 msgstr "A l'instar du système des fichiers d'UNIX, les permissions peuvent être données à un utilisateur selon son appartenance à un groupe. Les groupes sont gérés via le système d'authentification Django."
 
-#: wiki/models/article.py:38
+#: wiki/models/article.py:39
 msgid "group read access"
 msgstr "Groupe accès en lecture"
 
-#: wiki/models/article.py:39
+#: wiki/models/article.py:40
 msgid "group write access"
 msgstr "Groupe accès en écriture"
 
-#: wiki/models/article.py:40
+#: wiki/models/article.py:41
 msgid "others read access"
 msgstr "Autres accès en lecture"
 
-#: wiki/models/article.py:41
+#: wiki/models/article.py:42
 msgid "others write access"
 msgstr "Autres accès en écriture"
 
-#: wiki/models/article.py:169
+#: wiki/models/article.py:170
 #, python-format
 msgid "Article without content (%(id)d)"
 msgstr "Article sans contenu (%(id)d)"
 
-#: wiki/models/article.py:197
+#: wiki/models/article.py:198
 msgid "content type"
 msgstr "type de contenu"
 
-#: wiki/models/article.py:199
+#: wiki/models/article.py:200
 msgid "object ID"
 msgstr "ID de l'objet"
 
-#: wiki/models/article.py:205
+#: wiki/models/article.py:206
 msgid "Article for object"
 msgstr "Article pour l'objet"
 
-#: wiki/models/article.py:206
+#: wiki/models/article.py:207
 msgid "Articles for object"
 msgstr "Articles pour l'objet"
 
-#: wiki/models/article.py:214
+#: wiki/models/article.py:216
 msgid "revision number"
 msgstr "Numéro de révision"
 
-#: wiki/models/article.py:220
+#: wiki/models/article.py:222
 msgid "IP address"
 msgstr "Adresse IP"
 
-#: wiki/models/article.py:225
+#: wiki/models/article.py:229
 msgid "user"
 msgstr "utilisateur"
 
-#: wiki/models/article.py:236
+#: wiki/models/article.py:242
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:22
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:20
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:39
@@ -356,24 +356,24 @@ msgstr "utilisateur"
 msgid "deleted"
 msgstr "supprimé"
 
-#: wiki/models/article.py:237 wiki/templates/wiki/article.html:22
+#: wiki/models/article.py:243 wiki/templates/wiki/article.html:22
 #: wiki/templates/wiki/includes/revision_info.html:21
 msgid "locked"
 msgstr "verrouillé"
 
-#: wiki/models/article.py:255 wiki/models/pluginbase.py:38
+#: wiki/models/article.py:262 wiki/models/pluginbase.py:38
 msgid "article"
 msgstr "article"
 
-#: wiki/models/article.py:258
+#: wiki/models/article.py:265
 msgid "article contents"
 msgstr "contenu de l'article"
 
-#: wiki/models/article.py:262
+#: wiki/models/article.py:269
 msgid "article title"
 msgstr "titre de l'article"
 
-#: wiki/models/article.py:263
+#: wiki/models/article.py:270
 msgid ""
 "Each revision contains a title field that must be filled out, even if the "
 "title has not changed"
@@ -560,10 +560,10 @@ msgstr "Supprimer"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:13
 msgid ""
-"\n"
-"    The file may be referenced on other articles. Deleting it means that they will loose their references to this file. The following articles reference this file:\n"
-"    "
-msgstr "\n    Le fichier peut être référencé dans d'autres articles. Le supprimer signifie qu'il perdra ses références à ce fichier. Les articles suivants référencent ce fichier :\n    "
+"The file may be referenced on other articles. Deleting it means that they "
+"will loose their references to this file. The following articles reference "
+"this file:"
+msgstr "Le fichier peut être référencé dans d'autres articles. Le supprimer signifie qu'il perdra ses références à ce fichier. Les articles suivants référencent ce fichier : "
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:26
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:47
@@ -587,10 +587,9 @@ msgstr "Supprimer"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:40
 msgid ""
-"\n"
-"    You can remove a reference to a file, but it will retain its references on other articles.\n"
-"    "
-msgstr "\n    Vous pouvez supprimer une référence à un fichier, mais il conservera ses références dans les autres articles.\n    "
+"You can remove a reference to a file, but it will retain its references on "
+"other articles."
+msgstr "Vous pouvez supprimer une référence à un fichier, mais il conservera ses références dans les autres articles."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:51
 msgid "Remove reference"
@@ -711,10 +710,14 @@ msgstr "Recherche"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:13
 #, python-format
 msgid ""
-"\n"
-"  Replacing an attachment means adding a new file that will be used in its place. All references to the file will be replaced by the one you upload and the file will be downloaded as <strong>%(filename)s</strong>. Please note that this attachment is in use on other articles, you may distort contents. However, do not hestitate to take advantage of this and make replacements for the listed articles where necessary. This way of working is more efficient....\n"
-"  "
-msgstr "\n  Remplacer une pièce jointe signifie ajouter un nouveau fichier qui sera utilisé à sa place. Toutes les références au fichier seront remplacées par celle que vous téléversez et le fichier sera téléchargé comme <strong>%(filename)s</strong>. S'il vous plaît noter que cette pièce jointe est utilisée dans d'autres articles, vous pouvez en déformer le contenu. Cependant, n'hésitez pas à en profiter et à faire des remplacements pour les articles énumérés si nécessaire. Cette façon de travailler est plus efficace....\n  "
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>. Please note "
+"that this attachment is in use on other articles, you may distort contents. "
+"However, do not hestitate to take advantage of this and make replacements "
+"for the listed articles where necessary. This way of working is more "
+"efficient...."
+msgstr "Remplacer une pièce jointe signifie ajouter un nouveau fichier qui sera utilisé à sa place. Toutes les références au fichier seront remplacées par celle que vous téléversez et le fichier sera téléchargé comme <strong>%(filename)s</strong>. S'il vous plaît noter que cette pièce jointe est utilisée dans d'autres articles, vous pouvez en déformer le contenu. Cependant, n'hésitez pas à en profiter et à faire des remplacements pour les articles énumérés si nécessaire. Cette façon de travailler est plus efficace...."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:15
 msgid "Articles using"
@@ -723,10 +726,10 @@ msgstr "Articles utilisant"
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:24
 #, python-format
 msgid ""
-"\n"
-"  Replacing an attachment means adding a new file that will be used in its place. All references to the file will be replaced by the one you upload and the file will be downloaded as <strong>%(filename)s</strong>.\n"
-"  "
-msgstr "\n  Remplacer une pièce jointe signifie ajouter un nouveau fichier qui sera utilisé à sa place. Toutes les références au fichier seront remplacées par celle que vous téléversez et le fichier sera téléchargé comme <strong>%(filename)s</strong>.\n  "
+"Replacing an attachment means adding a new file that will be used in its "
+"place. All references to the file will be replaced by the one you upload and"
+" the file will be downloaded as <strong>%(filename)s</strong>."
+msgstr "Remplacer une pièce jointe signifie ajouter un nouveau fichier qui sera utilisé à sa place. Toutes les références au fichier seront remplacées par celle que vous téléversez et le fichier sera téléchargé comme <strong>%(filename)s</strong>."
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/replace.html:37
 #: wiki/plugins/images/templates/wiki/plugins/images/revision_add.html:24
@@ -977,7 +980,7 @@ msgid ""
 "this, possible values for align are left/center/right:"
 msgstr "Après le téléversement d'une image, il est attaché à cet article particulier et peut être utilisé ici seulement. D'autres utilisateurs peuvent remplacer l'image, mais les anciennes versions sont conservées. Vous voulez probablement montrer l'image avec une jolie légende. Pour ce faire, appuyez sur le bouton Insérer et remplissez les champs de légende et éventuellement choisir de faire flotter votre image à droite ou à gauche du contenu. Vous pouvez utiliser Markdown dans la légende. La syntaxe du code de Markdown pour les images ressemble à ceci, les valeurs possibles pour l'alignement sont à gauche / au centre / à droite :"
 
-#: wiki/plugins/links/wiki_plugin.py:20
+#: wiki/plugins/links/wiki_plugin.py:21
 msgid "Links"
 msgstr "Liens"
 
@@ -1161,11 +1164,8 @@ msgstr "matches,match"
 
 #: wiki/templates/wiki/dir.html:42
 #, python-format
-msgid ""
-"\n"
-"        %(cnt)s %(articles_plur)s in this level %(match_plur)s your search.\n"
-"      "
-msgstr "\n        %(cnt)s %(articles_plur)s à ce niveau %(match_plur)s pour votre recherche.\n      "
+msgid "%(cnt)s %(articles_plur)s in this level %(match_plur)s your search."
+msgstr "%(cnt)s %(articles_plur)s à ce niveau %(match_plur)s pour votre recherche."
 
 #: wiki/templates/wiki/dir.html:44
 msgid "is,are"
@@ -1173,11 +1173,8 @@ msgstr "est, sont"
 
 #: wiki/templates/wiki/dir.html:46
 #, python-format
-msgid ""
-"\n"
-"        There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level.\n"
-"      "
-msgstr "\n        Il y a %(articles_plur_verb)s %(cnt)s %(articles_plur)s à ce niveau.\n      "
+msgid "There %(articles_plur_verb)s %(cnt)s %(articles_plur)s in this level."
+msgstr "Il y a %(articles_plur_verb)s %(cnt)s %(articles_plur)s à ce niveau."
 
 #: wiki/templates/wiki/dir.html:56
 msgid "Last modified"
@@ -1342,10 +1339,9 @@ msgstr "Créer la racine"
 #: wiki/templates/wiki/includes/anonymous_blocked.html:8
 #, python-format
 msgid ""
-"\n"
-"  You need to <a href=\"%(login_url)s\">log in</a> or <a href=\"%(signup_url)s\">sign up</a> to use this function.\n"
-"  "
-msgstr "\nVous devez vous <a href=\"%(login_url)s\">connecter</a> ou vous <a href=\"%(signup_url)s\">inscrire</a> pour utiliser cette fonction."
+"You need to <a href=\"%(login_url)s\">log in</a> or <a "
+"href=\"%(signup_url)s\">sign up</a> to use this function."
+msgstr "Vous devez vous <a href=\"%(login_url)s\">connecter</a> ou vous <a href=\"%(signup_url)s\">inscrire</a> pour utiliser cette fonction."
 
 #: wiki/templates/wiki/includes/anonymous_blocked.html:10
 msgid "You need to log in og sign up to use this function."

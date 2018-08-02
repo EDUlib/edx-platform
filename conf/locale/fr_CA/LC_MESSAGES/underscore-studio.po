@@ -85,8 +85,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-04-22 20:42+0000\n"
-"PO-Revision-Date: 2018-03-14 14:06+0000\n"
+"POT-Creation-Date: 2018-07-23 07:21+0000\n"
+"PO-Revision-Date: 2018-07-10 19:32+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -102,9 +102,10 @@ msgstr "Limiter l'accès"
 
 #: cms/templates/js/access-editor.underscore:7
 msgid ""
-"Select a prerequisite subsection and enter a minimum score percentage to "
-"limit access to this subsection."
-msgstr "Sélectionner une sous-section pré-requise et entrer un score minimum en pourcentage pour limiter l'accès à cette sous-section."
+"Select a prerequisite subsection and enter a minimum score percentage and "
+"minimum completion percentage to limit access to this subsection. Allowed "
+"values are 0-100"
+msgstr "Sélectionnez une sous-section requise et entrez un pourcentage minimum de points et un pourcentage d'achèvement minimal pour limiter l'accès à cette sous-section. Les valeurs autorisées sont 0-100"
 
 #: cms/templates/js/access-editor.underscore:11
 msgid "Prerequisite:"
@@ -118,15 +119,24 @@ msgstr "Pas de pré-requis"
 msgid "Minimum Score:"
 msgstr "Score minimum : "
 
-#: cms/templates/js/access-editor.underscore:27
+#: cms/templates/js/access-editor.underscore:29
+msgid "Minimum Completion:"
+msgstr "Achèvement minimum :"
+
+#: cms/templates/js/access-editor.underscore:35
 msgid "The minimum score percentage must be a whole number between 0 and 100."
 msgstr "Le score minimum en pourcentage doit-être un nombre entier compris entre 0 et 100."
 
-#: cms/templates/js/access-editor.underscore:32
+#: cms/templates/js/access-editor.underscore:38
+msgid ""
+"The minimum completion percentage must be a whole number between 0 and 100."
+msgstr "Le pourcentage d'achèvement minimum doit être un nombre entier compris entre 0 et 100."
+
+#: cms/templates/js/access-editor.underscore:43
 msgid "Use as a Prerequisite"
 msgstr "Utilisé comme Pré-requis"
 
-#: cms/templates/js/access-editor.underscore:40
+#: cms/templates/js/access-editor.underscore:51
 msgid "Make this subsection available as a prerequisite to other content"
 msgstr "Faire de cette sous-section un pré-requis pour les autres contenus "
 
@@ -732,7 +742,7 @@ msgstr "Langues de transcription"
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
 #: cms/templates/js/metadata-dict-entry.underscore:6
 #: cms/templates/js/metadata-list-entry.underscore:9
-#: cms/templates/js/video/metadata-translations-entry.underscore:6
+#: cms/templates/js/video/metadata-translations-entry.underscore:7
 msgid "Add"
 msgstr "Ajouter"
 
@@ -1067,7 +1077,6 @@ msgstr "Nouvel %(item_type)s"
 #: cms/templates/js/metadata-number-entry.underscore:4
 #: cms/templates/js/metadata-option-entry.underscore:12
 #: cms/templates/js/metadata-string-entry.underscore:4
-#: cms/templates/js/video/metadata-translations-entry.underscore:9
 msgid "Clear"
 msgstr "Effacer"
 
@@ -1077,7 +1086,6 @@ msgstr "Effacer"
 #: cms/templates/js/metadata-number-entry.underscore:5
 #: cms/templates/js/metadata-option-entry.underscore:13
 #: cms/templates/js/metadata-string-entry.underscore:5
-#: cms/templates/js/video/metadata-translations-entry.underscore:11
 msgid "Clear Value"
 msgstr "Effacer la valeur"
 
@@ -1086,7 +1094,7 @@ msgid "Component Location ID"
 msgstr "ID de l'emplacement du composant"
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:1
-#: cms/templates/js/video-transcripts.underscore:37
+#: cms/templates/js/video-transcripts.underscore:39
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Replace"
 msgstr "Remplacer"
@@ -1097,7 +1105,7 @@ msgid "Upload"
 msgstr "Téléversez"
 
 #: cms/templates/js/metadata-file-uploader-item.underscore:2
-#: cms/templates/js/video-transcripts.underscore:34
+#: cms/templates/js/video-transcripts.underscore:36
 #: cms/templates/js/video/metadata-translations-item.underscore:8
 msgid "Download"
 msgstr "Télécharger"
@@ -1152,15 +1160,19 @@ msgstr "Miniature"
 msgid "Video ID"
 msgstr "ID du vidéo"
 
-#: cms/templates/js/previous-video-upload-list.underscore:18
+#: cms/templates/js/previous-video-upload-list.underscore:17
 msgid "Transcripts"
 msgstr "Transcriptions"
 
-#: cms/templates/js/previous-video-upload.underscore:15
+#: cms/templates/js/previous-video-upload-list.underscore:18
+msgid "Video Status"
+msgstr "Statut de la vidéo"
+
+#: cms/templates/js/previous-video-upload.underscore:13
 msgid "Remove this video"
 msgstr "Supprimer ce vidéo"
 
-#: cms/templates/js/previous-video-upload.underscore:17
+#: cms/templates/js/previous-video-upload.underscore:15
 msgid "Remove {video_name} video"
 msgstr "Supprimer le vidéo {video_name} "
 
@@ -1616,11 +1628,11 @@ msgstr "Lire plus"
 msgid "Show transcripts ({totalTranscripts})"
 msgstr "Afficher les transcriptions ({totalTranscripts})"
 
-#: cms/templates/js/video-transcripts.underscore:12
+#: cms/templates/js/video-transcripts.underscore:14
 msgid "No transcript uploaded."
 msgstr "Aucune transcription téléchargée."
 
-#: cms/templates/js/video-transcripts.underscore:19
+#: cms/templates/js/video-transcripts.underscore:21
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
