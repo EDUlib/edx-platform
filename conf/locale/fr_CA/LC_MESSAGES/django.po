@@ -22583,7 +22583,7 @@ msgstr "Ce cours ne dispose d'aucune mise à niveau."
 
 #: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
 msgid "Today is {date}"
-msgstr "Nous sommes le {date} UTC"
+msgstr "Nous sommes le {date}"
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
 msgid "Latest Update"
