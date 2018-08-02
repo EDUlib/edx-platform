@@ -28,10 +28,10 @@ from student.models import CourseEnrollment
 
 from .context_processor import user_timezone_locale_prefs
 
-#####EDULIB
+##### EDUlib code #####
 from util.date_utils import strftime_localized
 import pytz
-#####EDULIB
+##### EDUlib code #####
 
 class DateSummary(object):
     """Base class for all date summary blocks."""
@@ -125,16 +125,17 @@ class DateSummary(object):
         # and if today were December 5th, 2020, 'relative' would be "1
         # month".
         date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
-        #return date_format.format(
-        #    relative=relative_date,
-        #    absolute=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8'),
-        #)
-        #localized = strftime_localized(self.date.astimezone(self.time_zone), "DATE_TIME")
+        ###### EDUlib code #####
         localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
+        ###### EDUlib code #####
         return date_format.format(
             relative=relative_date,
-##### FICUS            absolute='{date}',
+            ##### Hawthorn code #####
+            ##### absolute='{date}',
+            ##### Hawthorn code #####
+            ##### EDUlib code #####
             absolute=localized,
+            ##### EDUlib code #####
         )
 
     @property
@@ -229,18 +230,15 @@ class TodaysDate(DateSummary):
 
     @property
     def title(self):
-##### HAWTHORN        return 'current_datetime'
-        return 'current_datetime'
-
-##### EDULIB
-#####        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
-#####        #return _(u'Today is {date}').format(
-#####            #date=self.date.astimezone(self.time_zone).strftime(self.date_format.encode('utf-8')).decode('utf-8')
-#####        #)
-#####        return _(u'Today is {date}').format(
-#####            date=localized
-#####        )
-##### EDULIB
+        ##### HAWTHORN code #####
+        #####return 'current_datetime'
+        ##### HAWTHORN code #####
+        ##### EDUlib   code #####
+        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
+        return _(u'Today is {date}').format(
+            date=localized
+        )
+        ##### EDUlib   code #####
       
 
 class CourseStartDate(DateSummary):
