@@ -124,8 +124,11 @@ class DateSummary(object):
         # 'absolute'. For example, 'absolute' might be "Jan 01, 2020",
         # and if today were December 5th, 2020, 'relative' would be "1
         # month".
-        date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
+        ##### Hawthorn code #####
+        ##### date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
+        ##### Hawthorn code #####
         ###### EDUlib code #####
+        date_format = _(u"{relative} ago - {absolute} UTC") if date_has_passed else _(u"in {relative} - {absolute} UTC")
         localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
         ###### EDUlib code #####
         return date_format.format(
@@ -235,7 +238,7 @@ class TodaysDate(DateSummary):
         ##### HAWTHORN code #####
         ##### EDUlib   code #####
         localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
-        return _(u'Today is {date}').format(date=localized)
+        return _(u'Today is {date} UTC').format(date=localized)
         ##### EDUlib   code #####
       
 
