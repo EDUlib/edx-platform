@@ -231,13 +231,11 @@ class TodaysDate(DateSummary):
     @property
     def title(self):
         ##### HAWTHORN code #####
-        #####return 'current_datetime'
+        ##### return 'current_datetime' #####
         ##### HAWTHORN code #####
         ##### EDUlib   code #####
-        localized = strftime_localized(datetime.now(pytz.UTC), "DATE_TIME")
-        return _(u'Today is {date}').format(
-            date=localized
-        )
+        localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
+        return _(u'Today is {date}').format(date=localized)
         ##### EDUlib   code #####
       
 
