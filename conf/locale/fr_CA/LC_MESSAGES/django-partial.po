@@ -5267,13 +5267,13 @@ msgstr "Demander une attestation"
 #. month".
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
-msgid "{relative} ago - {absolute} UTC"
-msgstr "{relative} depuis - {absolute} UTC"
+msgid "{relative} ago - {absolute}"
+msgstr "{relative} depuis - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
-msgid "in {relative} - {absolute} UTC"
-msgstr "dans {relative} - {absolute} UTC"
+msgid "in {relative} - {absolute}"
+msgstr "dans {relative} - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:229
 msgid "Course Starts"
