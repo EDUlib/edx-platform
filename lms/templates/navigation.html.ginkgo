@@ -3,9 +3,8 @@
 <%namespace name='static' file='static_content.html'/>
 <%namespace file='main.html' import="login_query"/>
 <%!
+from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext as _
-from django.urls import reverse
-from six import text_type
 
 from context_processors import doc_url
 from lms.djangoapps.ccx.overrides import get_current_ccx
@@ -149,7 +148,7 @@ site_status_msg = get_site_status_msg(course_id)
             %endif
             % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
               <li class="item nav-global-04">
-                <a class="btn-neutral" href="${reverse('course-specific-register', args=[text_type(course.id)])}">${_("Register")}</a>
+                <a class="btn-neutral" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register")}</a>
               </li>
             % else:
               <li class="item nav-global-04">
@@ -165,7 +164,7 @@ site_status_msg = get_site_status_msg(course_id)
           <li class="item nav-courseware-01">
             % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
               % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-                <a class="btn btn-login" href="${reverse('course-specific-login', args=[text_type(course.id)])}${login_query()}">${_("Sign in")}</a>
+                <a class="btn btn-login" href="${reverse('course-specific-login', args=[course.id.to_deprecated_string()])}${login_query()}">${_("Sign in")}</a>
               % else:
                 <a class="btn btn-login" href="/login${login_query()}">${_("Sign in")}</a>
               % endif
