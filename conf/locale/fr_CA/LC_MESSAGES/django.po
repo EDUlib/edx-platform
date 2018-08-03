@@ -6535,13 +6535,13 @@ msgstr "Demander une attestation"
 #. month".
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
-msgid "{relative} ago - {absolute} UTC"
-msgstr "{relative} depuis - {absolute} UTC"
+msgid "{relative} ago - {absolute}"
+msgstr "{relative} depuis - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
-msgid "in {relative} - {absolute} UTC"
-msgstr "dans {relative} - {absolute} UTC"
+msgid "in {relative} - {absolute}"
+msgstr "dans {relative} - {absolute}"
 
 #: lms/djangoapps/courseware/date_summary.py:229
 msgid "Course Starts"
@@ -22582,8 +22582,8 @@ msgid "This course does not have any updates."
 msgstr "Ce cours ne dispose d'aucune mise à niveau."
 
 #: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
-msgid "Today is {date} UTC"
-msgstr "Nous sommes le {date} UTC"
+msgid "Today is {date}"
+msgstr "Nous sommes le {date}"
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
 msgid "Latest Update"
@@ -27925,3 +27925,17 @@ msgstr "Sans réponse"
 #: lms/templates/problem.html
 msgid "Answers are displayed within the problem"
 msgstr "Les réponses sont affichées dans le problème"
+
+#: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
+msgid "Today is {date} UTC"
+msgstr "Nous sommes le {date} UTC"
+
+#: lms/djangoapps/courseware/date_summary.py:123
+#, python-brace-format
+msgid "{relative} ago - {absolute} UTC"
+msgstr "{relative} depuis - {absolute} UTC"
+
+#: lms/djangoapps/courseware/date_summary.py:123
+#, python-brace-format
+msgid "in {relative} - {absolute} UTC"
+msgstr "dans {relative} - {absolute} UTC"
