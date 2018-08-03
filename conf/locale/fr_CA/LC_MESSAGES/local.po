@@ -70,3 +70,17 @@ msgstr "Sans réponse"
 #: lms/templates/problem.html
 msgid "Answers are displayed within the problem"
 msgstr "Les réponses sont affichées dans le problème"
+
+#: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
+msgid "Today is {date} UTC"
+msgstr "Nous sommes le {date} UTC"
+
+#: lms/djangoapps/courseware/date_summary.py:123
+#, python-brace-format
+msgid "{relative} ago - {absolute} UTC"
+msgstr "{relative} depuis - {absolute} UTC"
+
+#: lms/djangoapps/courseware/date_summary.py:123
+#, python-brace-format
+msgid "in {relative} - {absolute} UTC"
+msgstr "dans {relative} - {absolute} UTC"
