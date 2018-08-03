@@ -9,7 +9,7 @@
 
 <%! from microsite_configuration import microsite %>
 
-<%block name="pagetitle">Universit&eacute; de Montr&eacute;al</%block>
+<%block name="pagetitle">Polytechnique Montr&eacute;al</%block>
 
 <%
 platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
@@ -23,24 +23,23 @@ logo_alt_text = "EDUlib Logo"
 
 <section class="home">
 
+<section class="container edulib">
+        
+        <p style="text-align:right;"><a href="/hec">Fran&ccedil;ais</a></p>
     
-        <p style="text-align:right;"><a href="/umontreal_en">English</a></p>
+        <h1><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" width="600" height="200" /></h1>
     
-        <h1><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" width="600" height="200" /></h1>
+        <p>Established in 1873, Polytechnique Montr&eacute;al is one of the most important engineering faculties and research institutions in Canada. Polytechnique ranks first in Quebec in terms of student body and the scope of its research activities. With more than <span style="white-space: nowrap;">44,300</span> graduates, Polytechnique Montr&eacute;al has educated nearly a quarter of the current members of the Quebec Order of Engineers. The institution offers more than 120 programs to some <span style="white-space: nowrap;">8,000</span> students taught by 255 professors. Its annual operating budget is over $200 million, including dedicated research resources of more than $70 million.</p>
     
-        <p>L&rsquo;Universit&eacute; de Montr&eacute;al forme avec ses &eacute;coles affili&eacute;es, HEC Montr&eacute;al et Polytechnique Montr&eacute;al, le premier p&ocirc;le d&rsquo;enseignement et de recherche du Qu&eacute;bec, tant par le nombre d&rsquo;&eacute;tudiants que par l&rsquo;effectif professoral et le volume des activit&eacute;s de recherche. L&rsquo;UdeM se situe au deuxi&egrave;me rang des universit&eacute;s canadiennes pour le nombre d&rsquo;&eacute;tudiants inscrits. Les campus de l&rsquo;UdeM accueillent pr&egrave;s d&rsquo;un &eacute;tudiant universitaire qu&eacute;b&eacute;cois sur quatre, soit une population &eacute;tudiante de pr&egrave;s de <span style="white-space: nowrap;">60 000</span> personnes. Parmi les universit&eacute;s qu&eacute;b&eacute;coises, l&rsquo;UdeM est aussi le premier choix des &eacute;tudiants de l&rsquo;ext&eacute;rieur du pays, dont le nombre atteint presque <span style="white-space: nowrap;">7 000</span>. Elle emploie pr&egrave;s de <span style="white-space: nowrap;">9 000</span> personnes &agrave; temps plein, &agrave; temps partiel et &agrave; vacation, dont plus de <span style="white-space: nowrap;">4 500</span> professeurs, chercheurs, charg&eacute;s de cours, professeurs de clinique et charg&eacute;s de clinique, ce qui la situe parmi les plus grands employeurs de Montr&eacute;al.</p>
+        <p><a href="http://www.polymtl.ca/en" onclick="window.open(this.href);return false;">http://www.polymtl.ca/en</a></p>
     
-        <p>Le Times Higher Education inclut l&rsquo;Universit&eacute; de Montr&eacute;al dans son classement des meilleures universit&eacute;s de la plan&egrave;te. Le r&eacute;put&eacute; classement de l&rsquo;universit&eacute; chinoise Jiao Tong, quant &agrave; lui, situe l&rsquo;UdeM parmi les 150 meilleurs &eacute;tablissements universitaires du monde. Sur le plan de la recherche, l&rsquo;UdeM figure au quatri&egrave;me rang du classement canadien de l&rsquo;organisme Research Info$ource.</p>
-    
-        <p><a href="http://www.umontreal.ca" onclick="window.open(this.href);return false;">http://www.umontreal.ca</a></p>
-    
-    
+
     %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <% counter = 0 %>
     %endif
 
     <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-           if not course.has_started() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+           if not course.has_started() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -53,7 +52,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    %if not course.has_started() and course.org.lower() == "umontreal" and not course.has_ended() and course.catalog_visibility == "both" :
+                    %if not course.has_started() and course.org.lower() == "polymtl" and not course.has_ended() and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -70,7 +69,7 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
-           if course.has_started() and not course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+           if course.has_started() and not course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
@@ -84,14 +83,14 @@ logo_alt_text = "EDUlib Logo"
            <ul class="courses-listing">
 
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
                     %endif
                %endfor
                %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
+                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -109,12 +108,12 @@ logo_alt_text = "EDUlib Logo"
     %endif
 
     <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-           if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+           if course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
               counter += 1
     %>
 
     %if counter !=0 :
-        <h1>${_("Completed")}</h1>
+         <h1>${_("Completed")}</h1>
     %endif
 
     <section class="courses-container">
@@ -122,7 +121,7 @@ logo_alt_text = "EDUlib Logo"
         <section class="courses">
            <ul class="courses-listing">
                %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                    %if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+                    %if course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
                         <li class="courses-listing-item">
                             <%include file="../course-edulib.html" args="course=course" />
                         </li>
@@ -133,4 +132,5 @@ logo_alt_text = "EDUlib Logo"
     </section>
     </section>
 
+</section>
 </section>
