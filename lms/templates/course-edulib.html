@@ -1,4 +1,3 @@
-<%def name="online_help_token()"><% return "course" %></%def>
 <%namespace name='static' file='static_content.html'/>
 <%!
 from django.utils.translation import ugettext as _
@@ -11,7 +10,7 @@ from openedx.core.lib.courses import course_image_url
   <a href="${reverse('about_course', args=[text_type(course.id)])}">
     <header class="course-image">
       <div class="cover-image">
-        <img src="${course.course_image_url}" alt="${course.display_name_with_default} ${course.display_number_with_default}" />
+        <img src="${course_image_url(course)}" alt="${course.display_name_with_default} ${course.display_number_with_default}" />
         <div class="learn-more" aria-hidden="true">${_("LEARN MORE")}</div>
       </div>
     </header>
@@ -28,9 +27,9 @@ from openedx.core.lib.courses import course_image_url
           course_date_string = ''
       %>
       % if course.advertised_start is not None:
-          <div class="course-date" aria-hidden="true">${_("Starts")}: ${course.advertised_start}</div>
+          <div class="course-date" aria-hidden="true">${course.advertised_start}</div>
       % else:
-          <div class="course-date localized_datetime" aria-hidden="true" data-format="shortDate" data-datetime="${course_date_string}" data-string="${_("Starts: {date}")}"></div>
+          <div class="course-date localized_datetime" aria-hidden="true" data-format="shortDate" data-datetime="course.start.strftime('%Y-%m-%d')" data-string="${_("Starts")}: ${course.start.strftime('%Y-%m-%d')}")}"></div>
       % endif
     </div>
     <div class="sr">
@@ -40,7 +39,7 @@ from openedx.core.lib.courses import course_image_url
         % if course.advertised_start is not None:
             <li>${_("Starts")}: <time itemprop="startDate">${course.advertised_start}</time></li>
         % else:
-            <li>${_("Starts")}: <time class="localized_datetime" itemprop="startDate" data-format="shortDate" data-datetime="${course_date_string}"></time></li>
+            <li>${_("Starts")}: <time itemprop="startDate" datetime="${course.start.strftime('%Y-%m-%d')}">${course.start.strftime('%Y-%m-%d')}</time></li>
         % endif
       </ul>
     </div>
