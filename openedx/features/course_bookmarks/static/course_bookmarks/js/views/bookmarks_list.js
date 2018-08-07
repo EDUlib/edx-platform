@@ -91,8 +91,7 @@
                  * @param {String} isoDate - ISO 8601 formatted date string.
                  */
                 humanFriendlyDate: function(isoDate) {
-                    /* moment.locale(this.langCode); */
-                    moment.locale('fr');
+                    moment.locale(this.langCode);
                     return moment(isoDate).format('LL');
                 },
 
