@@ -1,16 +1,16 @@
+<%page expression_filter="h"/>    
+    
 <%! from xmodule.modulestore.django import modulestore %>
-
 <%! from django.utils.translation import ugettext as _ %>
-
 <%! from django.core.urlresolvers import reverse %>
 
-<%inherit file="../main.html"/>
+<%inherit file="../main.html" />
 <%namespace name='static' file='../static_content.html'/>
 
 <%! from microsite_configuration import microsite %>
 
 <%block name="pagetitle">Universit&eacute; de Montr&eacute;al</%block>
-
+    
 <%
 platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
 
@@ -21,9 +21,8 @@ logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_
 logo_alt_text = "EDUlib Logo"
 %>
 
-<section class="home">
-
-        
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
         <p style="text-align:right;"><a href="/umontreal">Fran&ccedil;ais</a></p>
         
         <h1><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" width="600" height="200" /></h1>
@@ -33,104 +32,106 @@ logo_alt_text = "EDUlib Logo"
         <p>The Times Higher Education (THE) included Universit&eacute; de Montr&eacute;al on its list of top schools in the World University Rankings. Moreover, the Shanghai Academic Ranking of World Universities (ARWU) placed UdM among the top 150 best academic institutions in the world. With regard to research, UdM is ranked fourth in Canada according to Research Info$ource, Inc.</p>
     
         <p><a href="http://www.umontreal.ca/english/" onclick="window.open(this.href);return false;">http://www.umontreal.ca/english/</a></p>
-    
-    
-    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        
+    <section class="home">
+        %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <% counter = 0 %>
-    %endif
+        %endif
 
-    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-           if not course.has_started() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
-              counter += 1
-    %>
+        <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                   if not course.has_started() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+                      counter += 1
+        %>
 
-    %if counter !=0 :
-        <h1>${_("Coming Soon")}</h1>
-    %endif
+        %if counter !=0 :
+            <h1>${_("Coming Soon")}</h1>
+        %endif
 
-    <section class="courses-container">
-    <section class="highlighted-courses">
-        <section class="courses">
-           <ul class="courses-listing">
-               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    %if not course.has_started() and course.org.lower() == "umontreal" and not course.has_ended() and course.catalog_visibility == "both" :
-                        <li class="courses-listing-item">
-                            <%include file="../course-edulib.html" args="course=course" />
-                        </li>
-                    %endif
-               %endfor
-           </ul>
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                %if not course.has_started() and course.org.lower() == "umontreal" and not course.has_ended() and course.catalog_visibility == "both" :
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
+
+            %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+                <% counter = 0 %>
+            %endif
+
+            <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
+                   if course.has_started() and not course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+                      counter += 1
+            %>
+
+            %if counter !=0 :
+                <h1>${_("In Progress")}</h1>
+            %endif
+
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
+
+            %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+                <% counter  = 0  %>
+            %endif
+
+            <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                   if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+                      counter += 1
+            %>
+
+            %if counter !=0 :
+                <h1>${_("Completed")}</h1>
+            %endif
+
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+                           %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                                %if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
         </section>
     </section>
-    </section>
-
-
-    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-        <% counter = 0 %>
-    %endif
-
-    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
-           if course.has_started() and not course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
-              counter += 1
-    %>
-
-    %if counter !=0 :
-        <h1>${_("In Progress")}</h1>
-    %endif
-
-    <section class="courses-container">
-    <section class="highlighted-courses">
-        <section class="courses">
-           <ul class="courses-listing">
-
-               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
-                        <li class="courses-listing-item">
-                            <%include file="../course-edulib.html" args="course=course" />
-                        </li>
-                    %endif
-               %endfor
-               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                    % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="umontreal" and course.catalog_visibility=="both":
-                        <li class="courses-listing-item">
-                            <%include file="../course-edulib.html" args="course=course" />
-                        </li>
-                    %endif
-               %endfor
-
-           </ul>
-        </section>
-    </section>
-    </section>
-
-
-    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-        <% counter  = 0  %>
-    %endif
-
-    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-           if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
-              counter += 1
-    %>
-
-    %if counter !=0 :
-        <h1>${_("Completed")}</h1>
-    %endif
-
-    <section class="courses-container">
-    <section class="highlighted-courses">
-        <section class="courses">
-           <ul class="courses-listing">
-               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                    %if course.has_ended() and course.org.lower() == "umontreal" and course.catalog_visibility == "both" :
-                        <li class="courses-listing-item">
-                            <%include file="../course-edulib.html" args="course=course" />
-                        </li>
-                    %endif
-               %endfor
-           </ul>
-        </section>
-    </section>
-    </section>
-
-</section>
+</main>
