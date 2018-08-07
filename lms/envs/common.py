@@ -354,7 +354,7 @@ FEATURES = {
 
     # Enable footer banner for cookie consent.
     # See https://cookieconsent.insites.com/ for more.
-    'ENABLE_COOKIE_CONSENT': False,
+    'ENABLE_COOKIE_CONSENT': True,
 
     # Whether or not the dynamic EnrollmentTrackUserPartition should be registered.
     'ENABLE_ENROLLMENT_TRACK_USER_PARTITION': True,
