@@ -116,18 +116,9 @@ from six import string_types
       <section class="intro">
         <div class="heading-group">
           <h1>
-            ${course.display_name_with_default_escaped}
-            <!-- EDULIB -->
-            <!-- <button type="button">${course.display_org_with_default | h}</button> -->
-            <a href="#">${course.display_org_with_default | h}</a>
-            <!-- EDULIB -->
-            <!-- HAWTHORN --> 
-            <!-- ${course.display_name_with_default_escaped}<br /> -->
-            <!-- <span>${course.display_org_with_default | h}</span> -->
-            <!-- HAWTHORN --> 
+            <span>${course.display_org_with_default | h}</span><br />
+            <strong>${course.display_name_with_default_escaped}</strong>
           </h1>
-          <br />
-          <span>${course.display_org_with_default | h}</span>
         </div>
 
         <div class="main-cta">
@@ -253,7 +244,6 @@ from six import string_types
                      course_date_string = course_start_date.strftime('%Y-%m-%d')
                   %>
                   <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate">${course_date_string}</span>
-                  <!-- HAWTHORN                   <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span> -->
               % endif
             </li>
           % endif
@@ -274,7 +264,6 @@ from six import string_types
                         course_date_string = course_end_date.strftime('%Y-%m-%d')
                     %>
                     <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate">${course_date_string}</span>
-                    <!-- HAWTHORN <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span> -->
                   % endif
             </li>
             % endif
