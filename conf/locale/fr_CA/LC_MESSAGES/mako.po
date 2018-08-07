@@ -8338,7 +8338,7 @@ msgstr "Ce site web utilise des cookies pour vous assurer d'obtenir la meilleure
 
 #: lms/templates/widgets/cookie-consent.html:21
 msgid "Got it!"
-msgstr "Je l'ai!"
+msgstr "J'ai compris!"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
