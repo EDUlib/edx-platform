@@ -3,12 +3,13 @@
 <%inherit file="../main.html" />
 
 <%block name="pagetitle">${_("FAQ")}</%block>
-    
+
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("FAQ")}</%block>
+        </h1>
         <p style="text-align:right;"><a href="/faq">Fran&ccedil;ais</a></p>
-        
-        <h1>FAQ</h1>
         
         
         <ul style="list-style-type:none; padding-left:0;">
@@ -98,7 +99,5 @@
             <li>Adjust your monitor resolution to at least 1024 x 768 pixels;</li>
             <li>Install the latest free version of <a href="https://get.adobe.com/en/reader/" onclick="window.open(this.href);return false;">Adobe Reader</a>.</li>
         </ul>
-
-
     </section>
 </main>

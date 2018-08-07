@@ -6,12 +6,12 @@
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("Terms of Service")}</%block>
+        </h1>
+        
         <p style="text-align:right;"><a href="/tos">Fran&ccedil;ais</a></p>
-        
-        #####<h1>${_("Terms of Service")}</h1>
-        <h1>Terms of Service</h1>
 
-        
         <h3 style="text-align:right;">Updated November 17, 2016</h3>    
         
         <ul style="list-style-type:none; padding-left:0;">
@@ -28,7 +28,7 @@
             <li style="margin-left: 0.5em;"><a href="#payment">4.2 Payment for Certificates </a></li>
             <li style="margin-left: 0.5em;"><a href="#refund">4.3 Refund Policy</a></li>
             <li style="margin-left: 0.5em;"><a href="#verification">4.4 Identity Verification</a></li>
-            <li><a href="#commitment">5. EDU<em>lib</em>&rsquo;s Commitment</em></a></li>
+            <li><a href="#commitment">5. EDU<em>lib</em>&rsquo;s Commitment</a></li>
         </ul>
 
         <h3><a name="introduction"></a>1. Introduction</h3>
@@ -65,7 +65,7 @@
         <p>Within the EDU<em>lib</em> course framework, authorized research teams collect and analyze the digital footprints of user activity in order to generate new scientific knowledge and improve course content. The digital footprints to which researchers have access are anonymized using a computer process that ensures all personal data by which a user can be identified is removed and their identity is irreversibly altered</p>
 
 
-        <h3><a name="copyright"></a>3.3 Royalties and Copyright</h4>
+        <h3><a name="copyright"></a>3.3 Royalties and Copyright</h3>
 
         <p>The participating institutions hold the copyright of the presentations and materials to which you have access through EDU<em>lib</em> and by joining EDU<em>lib</em> and accessing the services it provides, you agree that you will NOT undertake any of the following activities:</p>
 
@@ -82,7 +82,7 @@
         <p>You also agree not to give access to the EDU<em>lib</em> site to individuals who are not registered for this service.</p>
 
 
-        <h3><a name="forums"></a>3.4. Homework and Discussion Forums</h4>
+        <h3><a name="forums"></a>3.4. Homework and Discussion Forums</h3>
 
         <p>By registering on EDU<em>lib</em>, you will be able to participate in the homework and discussion forums open to those enrolled in the course. By virtue of participating, you agree to comply with the following rules:</p>
 
@@ -107,7 +107,7 @@
         </ul>
 
 
-        <h3><a name="cookies"></a>3.5 Use of Cookies</h4>
+        <h3><a name="cookies"></a>3.5 Use of Cookies</h3>
 
         <p>Some information is gathered through cookies, small text files stored on your computer that collect information about you and can be consulted by our webmasters.</p>
 

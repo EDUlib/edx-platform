@@ -4,30 +4,12 @@
 
 <%block name="pagetitle">${_("Terms of Service")}</%block>
 
-<section class="container about">
-    <h1>${_("Terms of Service")}</h1>
-    
-    <h3 style="text-align:right;">Mise à jour le 6 mars 2016</h3>    
-    
-    <ul style="list-style-type:none; padding-left:0;">
-        <li><a href="#introduction">1. Introduction</a></li>
-        <li><a href="#objet">2. Objet</a></li>
-        <li><a href="#droits">3. Droits et obligations des personnes inscrites à EDU<em>lib</em></a></li>
-        <li><a href="#confidentialite">3.1 Politique de confidentialité</a></li>
-        <li><a href="#recherche">3.2 Traces anonymisées pour la recherche</a></li>
-        <li><a href="#copyright">3.3 Respect des droits d&rsquo;auteurs et Copyright</a></li>
-        <li><a href="#forums">3.4. Participation aux travaux et aux forums de discussion</a></li>
-        <li><a href="#cookies">3.5 Utilisation de fichiers témoins</a></li>
-        <li><a href="#attestations">4. Attestations</a></li>
-        <li><a href="#identite">4.1 Attestations et identité vérifiée</a></li>
-        <li><a href="#paiement">4.2 Paiement des attestations</a></li>
-        <li><a href="#verification">4.4 Vérification de l&rsquo;identité</a></li>
-        <li><a href="#engagement">5. Engagement d&rsquo;EDU<em>lib</em></a></li>
-    </ul>
-
-        <h3 style="text-align:right;">Updated November 17, 2016</h3>    
-
-        <p><a href="/cgs">Version fran&ccedil;aise</a></p>
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("Terms of Service")}</%block>
+        </h1>
+        <p style="text-align:right;"><a href="/tos_en">English</a></p>
         
         
         <h3 style="text-align:right;">Mise à jour le 17 novembre 2016</h3>    
@@ -85,7 +67,7 @@
         <p>Dans le cadre de l&rsquo;initiative EDU<em>lib</em>, des équipes de chercheurs autorisés vont recueillir et analyser les traces informatiques des activités de tous les participants dans le but de produire des connaissances scientifiques et d&rsquo;améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible.</p>
 
 
-        <h3><a name="copyright"></a>3.3 Respect des droits d&rsquo;auteurs et Copyright</h4>
+        <h4><a name="copyright"></a>3.3 Respect des droits d&rsquo;auteurs et Copyright</h4>
 
         <p>Les institutions participantes sont le titulaire du droit d&rsquo;auteur sur les présentations et le matériel pédagogique auxquels vous aurez accès par l&rsquo;entremise d&rsquo;EDU<em>lib</em> et en vous inscrivant à EDU<em>lib</em>, et en accédant aux services fournis par EDU<em>lib</em>, vous acceptez ce qui suit :</p>
 
@@ -101,7 +83,7 @@
         <p>Vous acceptez également de ne pas donner accès au site EDU<em>lib</em> à des personnes qui ne sont pas inscrites à ce service.</p>
 
 
-        <h3><a name="forums"></a>3.4. Participation aux travaux et aux forums de discussion</h4>
+        <h4><a name="forums"></a>3.4. Participation aux travaux et aux forums de discussion</h4>
 
         <p>En vous inscrivant à EDU<em>lib</em>, vous pourrez participer aux travaux et aux forums de discussion ouverts aux personnes inscrites au cours. Dans le cadre de cette participation, vous acceptez de respecter les règles suivantes :</p>
 
@@ -134,7 +116,7 @@
         </ul>
 
 
-        <h3><a name="cookies"></a>3.5 Utilisation de fichiers témoins</h4>
+        <h4><a name="cookies"></a>3.5 Utilisation de fichiers témoins</h4>
 
         <p>Certaines informations sont recueillies au moyen de fichiers témoins aussi appelés « <em>cookie</em> » (de petits fichiers texte placés dans votre ordinateur qui accumulent des informations vous concernant et qui peuvent être consultés par les gestionnaires du site).</p>
 

@@ -6,10 +6,10 @@
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("About")}</%block>
+        </h1>
         <p style="text-align:right;"><a href="/about">Fran&ccedil;ais</a></p>
-        
-        #####<h1>${_("About")}</h1>
-        <h1>About</h1>
         
         <p>EDU<em>lib</em> is the only francophone education consortium in North America. On the initiative of HEC Montréal, EDU<em>lib</em> is now a partnership between Université de Montréal, Polytechnique Montréal and HEC Montréal, which, since September 2014, has offered massive open online courses (MOOCs).</p>
                 
@@ -19,7 +19,5 @@
         
         <h2>Origin of the consortium</h2>
         <p>EDU<em>lib</em> was launched by HEC Montréal in October 2012. EDU<em>lib</em> is now a joint initiative of Université de Montréal and its two university affiliates, HEC Montréal and Polytechnique Montréal. The objective is to offer the greatest number of people first-rate French-language academic training in the different fields of expertise of the three partners. EDU<em>lib</em> courses are modeled on those offered face-to-face. They are given by the same professors and deliver content of university calibre. Course format and frequency may change, but the quality of our teaching remains the same.</p>
-        
-    
     </section>
 </main>
