@@ -8,16 +8,219 @@
 
 @import 'certificates';
 
-
 // Ensure the header matches the edx.org marketing site header
 .header-logo a {
   @include media-breakpoint-down(md) {
     margin-left: calc(50% - 30px) !important;
 
-    .logo{
+    .logo {
         margin-left: 0 !important;
         width: $header-logo-width;
         height: auto !important;
     }
   }
 }
+
+// ----------------------------
+// #CONFIG
+// ----------------------------
+$static-theme-path: '..';
+
+// ----------------------------
+// #COLORS
+// ----------------------------
+
+$edx-blue: rgb(0, 117, 180);
+
+$blue: rgb(18, 85, 139) !default;
+$blue1: rgb(18, 85, 139);
+$blue2: rgb(89, 187, 240);
+$m-blue: rgb(18, 85, 139);
+$brand-primary: $blue;
+
+
+
+// ----------------------------
+// #APPLICATIONS
+// ----------------------------
+
+// homepage, onboarding, and course discovery
+$homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
+
+.home > header {
+    margin-top: -20px;
+    background-image: $homepage-bg-image;
+}
+
+
+//
+// ----------------------------
+// #MODIFICATIONS EDULIB
+// ----------------------------
+//
+
+//-----------------
+//  Correctifs
+//-----------------
+
+
+
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date {display: none !important;}
+
+.mobile-nav-link a.btn, .mobile-nav-link a.btn:visited {
+    color: $edx-blue;
+}
+
+.mobile-nav-link a.btn:hover, .mobile-nav-link a.btn:focus, .mobile-nav-link a.btn:visited:hover, .mobile-nav-link a.btn:visited:focus {
+    color: #fff;
+}
+
+/*a:not(.btn), a:visited:not(.btn) {
+    color: $bleu;
+}
+
+a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
+    color: $bleu-fonce;
+}
+
+a.btn, .global-header .nav-links .secondary a.sign-in-btn {
+    background-color: $bleu;
+    border-color: $bleu;
+    color: #fff;
+}
+
+a.btn:hover, .global-header .nav-links .secondary a.sign-in-btn:hover {
+    background-color: #fff;
+    border-color: $bleu;
+    color: $bleu;
+}
+
+.global-header .nav-links .secondary a.register-btn {
+    background: #fff;
+    border-color: $bleu;
+    color: $bleu;
+}
+
+.global-header .nav-links .secondary a.register-btn:hover {
+    background-color: $bleu;
+    border-color: $bleu;
+    color: #fff;
+}
+
+*/
+
+
+
+
+
+
+//-----------------
+//  Entête
+//-----------------
+
+@media screen  and (min-width: 992px) {
+    .settings-language-form {
+        padding: 0 !important;
+        margin-top: 20px !important;
+        margin-right: 15px;
+        margin-bottom: 0 !important;
+    }
+}
+
+
+.global-header .header-logo .course-header {
+    font-size: 1rem;
+}
+
+.global-header .header-logo .course-header .provider {
+    display: block;
+    margin-bottom: 0.25rem;
+    text-align: left;
+}
+
+.global-header .header-logo .course-header .course-name {
+    display: inline;
+}
+
+
+/* https://getbootstrap.com/docs/4.0/components/forms/#custom-forms */
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #fff;
+    vertical-align: middle;
+    background: $edx-blue url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+    background-size: auto auto;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+// ----------------------------
+// Pied de page
+// ----------------------------
+
+
+//-----------------
+//  Page d'accueil
+//-----------------
+
+
+//-----------------
+//  Boîtes de cours
+//-----------------
+
+.courses-container .courses .course .course-image .cover-image {
+    text-align: center;
+}
+
+.courses-container .courses .course .course-image .cover-image img {
+    height: 100%;
+    width: auto;
+}
+
+.courses-container .courses .course .course-info .course-organization, .courses-container .courses .course .course-info .course-title {
+    overflow: hidden;
+}
+
+.courses-container .courses .course .course-info .course-organization {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+//-----------------
+//  Page À propos
+//-----------------
+
+.course-info header.course-profile {
+    background: $edx-blue;
+    background-image: $homepage-bg-image;
+    height: auto;
+    padding: 25px 0;
+}
+
+.course-info header.course-profile .intro-inner-wrapper {
+    background: rgba(255,255,255,0.85);
+    width: 95%;
+    max-width: inherit;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.course-info .course-sidebar .important-dates li .icon {
+    margin-top: 0px !important;
+}
+
+section.about h3, section.about h4, section.course-staff h3, section.course-staff h4 {
+    margin: 2em 0 1em 0 !important;
+}
+
+

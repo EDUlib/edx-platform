@@ -28,7 +28,7 @@
                 <div class="col-12 column-2-2 column-styles">
                 <div class="edx-footer-logo">
                     <a href="${marketing_link('ROOT')}">
-                        <img alt="${_('edX Home Page')}" src="${footer['logo_image']}">
+                        <img alt="${static.get_platform_name()}"  src="${footer['logo_image']}" width="93" height="47" />
                     </a>
                 </div>
 
@@ -46,7 +46,7 @@
                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 column-2-1 col-xs-12 first-div-border column-styles ">
                     <div class="row full-height">
                         <div class="ml-xl-0 col-lg-10 ml-lg-auto col-md-12 column-2-2 col-sm-10 full-height column-styles">
-                              <h2 class="heading">edX</h2>
+                              <h2 class="heading">${static.get_platform_name()}</h2>
                                   <ul class="list-unstyled clear-margins  ">
                                       % for link in footer["business_links"]:
                                       <li>
@@ -60,7 +60,7 @@
                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 second-div-border column-styles ">
                         <div class="row full-height">
                             <div class="col-lg-12 col-md-12 col-sm-10 column-2-2 full-height column-styles">
-                                  <h2 class="heading">Legal</h2>
+                                  <h2 class="heading">${_("Legal")}</h2>
                                     <ul class="list-unstyled clear-margins  ">
                                         % for link in footer["more_info_links"]:
                                         <li>
@@ -74,7 +74,7 @@
                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 column-2-1 third-div-border column-styles">
                       <div class="row full-height">
                         <div class="col-lg-12 col-md-12 col-sm-10 full-height column-2-2 column-styles">
-                              <h2 class="heading">Connect</h2>
+                              <h2 class="heading">${_("Connect")}</h2>
                               <ul class="list-unstyled clear-margins  ">
                                 % for link in footer["connect_links"]:
                                 <li>
