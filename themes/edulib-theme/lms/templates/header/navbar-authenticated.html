@@ -22,13 +22,16 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
     % if not course or disable_courseware_header:
       % if not nav_hidden:
         <div class="mobile-nav-item hidden-mobile nav-item">
-          <a href="${marketing_link('HOW_IT_WORKS')}">${_("How it Works")}</a>
+          <a href="${marketing_link('ABOUT')}">${_("About")}</a>
         </div>
         <div class="mobile-nav-item hidden-mobile nav-item">
-          <a href="${marketing_link('COURSES')}">${_("Find Courses")}</a>
+          <a href="${marketing_link('FAQ')}">${_("FAQ")}</a>
         </div>
         <div class="mobile-nav-item hidden-mobile nav-item">
-          <a href="${marketing_link('SCHOOLS')}">${_("Schools & Partners")}</a>
+          <a href="${marketing_link('INSTITUTIONS')}">${_("Institutions")}</a>
+        </div>
+        <div class="mobile-nav-item hidden-mobile nav-item">
+          <a href="${marketing_link('COURSES')}">${_("Courses")}</a>
         </div>
       % endif
       % if show_dashboard_tabs:
@@ -41,6 +44,13 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
           <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
             <a class="${'active ' if reverse('program_listing_view') in request.path else ''}tab-nav-link" href="${reverse('program_listing_view')}">
               ${_("Programs")}
+            </a>
+          </div>
+        % endif
+        % if show_journal_listing:
+          <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+            <a class="${'active ' if reverse('openedx.journals.dashboard') in request.path else ''}tab-nav-link" href="${reverse('openedx.journals.dashboard')}">
+              ${_("Journals")}
             </a>
           </div>
         % endif

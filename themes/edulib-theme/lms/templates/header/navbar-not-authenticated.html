@@ -18,6 +18,52 @@ from six import text_type
   allow_public_account_creation = static.get_value('ALLOW_PUBLIC_ACCOUNT_CREATION', settings.FEATURES.get('ALLOW_PUBLIC_ACCOUNT_CREATION'))
 %>
 <nav class="nav-links" aria-label='${_("Sign in")}'>
+  <div class="main">
+    % if not course or disable_courseware_header:
+      % if not nav_hidden:
+        <div class="mobile-nav-item hidden-mobile nav-item">
+          <a href="${marketing_link('ABOUT')}">${_("About")}</a>
+        </div>
+        <div class="mobile-nav-item hidden-mobile nav-item">
+          <a href="${marketing_link('FAQ')}">${_("FAQ")}</a>
+        </div>
+        <div class="mobile-nav-item hidden-mobile nav-item">
+          <a href="${marketing_link('INSTITUTIONS')}">${_("Institutions")}</a>
+        </div>
+        <div class="mobile-nav-item hidden-mobile nav-item">
+          <a href="${marketing_link('COURSES')}">${_("Courses")}</a>
+        </div>
+      % endif
+      % if show_dashboard_tabs:
+        <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+          <a class="${'active ' if reverse('dashboard') == request.path else ''}tab-nav-link" href="${reverse('dashboard')}">
+            ${_("Courses")}
+          </a>
+        </div>
+        % if show_program_listing:
+          <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+            <a class="${'active ' if reverse('program_listing_view') in request.path else ''}tab-nav-link" href="${reverse('program_listing_view')}">
+              ${_("Programs")}
+            </a>
+          </div>
+        % endif
+        % if show_journal_listing:
+          <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+            <a class="${'active ' if reverse('openedx.journals.dashboard') in request.path else ''}tab-nav-link" href="${reverse('openedx.journals.dashboard')}">
+              ${_("Journals")}
+            </a>
+          </div>
+        % endif
+        <div class="mobile-nav-item hidden-mobile nav-item nav-tab">
+          <a class="${'active ' if '/u/' in request.path  else ''}tab-nav-link" href="${reverse('learner_profile', args=[self.real_user.username])}">
+            ${_("Profile")}
+          </a>
+        </div>
+      % endif
+    % endif
+
+  </div>
+    
   <div class="secondary">
     <div>
       % if allows_login:
