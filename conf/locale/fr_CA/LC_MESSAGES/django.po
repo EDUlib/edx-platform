@@ -22380,7 +22380,7 @@ msgstr ""
 
 #: lms/templates/widgets/cookie-consent.html:21
 msgid "Got it!"
-msgstr "Je l'ai!"
+msgstr "J'ai compris!"
 
 #: lms/templates/widgets/cookie-consent.html:22
 msgid "Learn more"
