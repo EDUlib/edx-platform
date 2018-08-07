@@ -1,17 +1,15 @@
+<%page expression_filter="h"/>
 <%! from django.utils.translation import ugettext as _ %>
 <%inherit file="../main.html" />
 
 <%block name="pagetitle">${_("Contact")}</%block>
 
-<section class="container about">
-    
-    <p style="text-align:right;"><a href="/contact">Fran&ccedil;ais</a></p>
-        
-    <h1>${_("Contact")}</h1>
-    
-    <h3>Contact</h3>
-
-    <ul style="list-style-type:none; padding-left:0;">
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <h1>
+            <%block name="pageheader">${page_header or _("Contact")}</%block>
+        </h1>
+        <ul style="list-style-type:none; padding-left:0;">
         <li>For general information: <a href="mailto:info@edulib.org">info@edulib.org</a></li>
         <li>For technical questions unrelated to course content: <a href="mailto:support@edulib.org">support@edulib.org</a></li>
         <li>For inquiries related to billing: <a href="mailto:facturation@edulib.org">facturation@edulib.org</a></li>
@@ -21,7 +19,7 @@
     
     <p class="member-list">
         <a href="http://www.umontreal.ca" onclick="window.open(this.href);return false;" class="institution"><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" width="200" height="67" /></a> 
-        <span><a href="http://sse.umontreal.ca" onclick="window.open(this.href);return false;">Centre de p&eacute;dagogie universitaire</a><br />
+        <span><a href="http://sse.umontreal.ca" onclick="window.open(this.href);return false;">Services de soutien à l&rsquo;enseignement</a><br />
         3535, chemin Queen-Mary<br />
         Montréal (Québec) Canada<br />
         H3V 1H8</span>
@@ -67,7 +65,5 @@
         Chicoutimi (Québec) Canada<br />
         G7H 2B1</span> 
     </p>
-
-
-
-</section>
+    </section>
+</main>
