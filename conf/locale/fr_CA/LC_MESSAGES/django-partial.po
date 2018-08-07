@@ -9181,11 +9181,11 @@ msgstr "Téléchargez l'application Android sur le Google Play Store"
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:174
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
 msgid "Our mailing address is"
-msgstr "Notre adresse email est"
+msgstr "Notre adresse postale est "
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_head.html:7
 msgid "edX Email"
-msgstr "Email d'edX"
+msgstr "Courriel d'EDUlib"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html:6
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.txt:4
