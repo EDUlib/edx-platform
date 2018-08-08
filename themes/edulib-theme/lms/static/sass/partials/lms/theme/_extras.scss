@@ -47,10 +47,7 @@ $brand-primary: $blue;
 // homepage, onboarding, and course discovery
 $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 
-.home > header {
-    margin-top: -20px;
-    background-image: $homepage-bg-image;
-}
+
 
 
 //
@@ -65,7 +62,7 @@ $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 
 
 
-div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date {display: none !important;}
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date, .course-updates .all-updates .updates-article .date {display: none !important;}
 
 .mobile-nav-link a.btn, .mobile-nav-link a.btn:visited {
     color: $edx-blue;
@@ -75,39 +72,31 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
     color: #fff;
 }
 
-/*a:not(.btn), a:visited:not(.btn) {
-    color: $bleu;
+
+
+
+
+//-----------------
+//  Cookie
+//-----------------
+
+.cc-revoke, .cc-window {
+    font-family: inherit;
 }
 
-a:not(.btn):hover, a:not(.btn):focus, a:visited:not(.btn):hover, a:visited:not(.btn):focus {
-    color: $bleu-fonce;
-}
-
-a.btn, .global-header .nav-links .secondary a.sign-in-btn {
-    background-color: $bleu;
-    border-color: $bleu;
-    color: #fff;
-}
-
-a.btn:hover, .global-header .nav-links .secondary a.sign-in-btn:hover {
+.cc-theme-classic .cc-btn:last-child, .cc-theme-classic .cc-btn:last-child:visited {
+    color: $edx-blue;
     background-color: #fff;
-    border-color: $bleu;
-    color: $bleu;
+    border: 1px solid $edx-blue;
 }
 
-.global-header .nav-links .secondary a.register-btn {
-    background: #fff;
-    border-color: $bleu;
-    color: $bleu;
-}
-
-.global-header .nav-links .secondary a.register-btn:hover {
-    background-color: $bleu;
-    border-color: $bleu;
+.cc-theme-classic .cc-btn:last-child:hover, .cc-theme-classic .cc-btn:last-child:focus {
+    text-decoration: none;
     color: #fff;
+    background-color: $edx-blue;
+    border-color: #fff;
 }
 
-*/
 
 
 
@@ -126,22 +115,6 @@ a.btn:hover, .global-header .nav-links .secondary a.sign-in-btn:hover {
         margin-bottom: 0 !important;
     }
 }
-
-
-.global-header .header-logo .course-header {
-    font-size: 1rem;
-}
-
-.global-header .header-logo .course-header .provider {
-    display: block;
-    margin-bottom: 0.25rem;
-    text-align: left;
-}
-
-.global-header .header-logo .course-header .course-name {
-    display: inline;
-}
-
 
 /* https://getbootstrap.com/docs/4.0/components/forms/#custom-forms */
 .custom-select {
@@ -162,6 +135,28 @@ a.btn:hover, .global-header .nav-links .secondary a.sign-in-btn:hover {
     appearance: none;
 }
 
+.global-header .nav-links .secondary a.btn {
+    transition: all 0.1s linear 0s;
+}
+
+
+.global-header .header-logo .course-header {
+    font-size: 1rem;
+}
+
+.global-header .header-logo .course-header .provider {
+    display: block;
+    margin-bottom: 0.25rem;
+    text-align: left;
+}
+
+.global-header .header-logo .course-header .course-name {
+    display: inline;
+}
+
+
+
+
 
 // ----------------------------
 // Pied de page
@@ -172,6 +167,9 @@ a.btn:hover, .global-header .nav-links .secondary a.sign-in-btn:hover {
 //  Page d'accueil
 //-----------------
 
+.home > header {
+    background-image: $homepage-bg-image;
+}
 
 //-----------------
 //  Boîtes de cours
