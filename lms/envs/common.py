@@ -2318,8 +2318,8 @@ MKTG_URL_LINK_MAP = {
     'HONOR': 'honor',  # If your site does not have an honor code, simply delete this line.
     'PRIVACY': 'privacy',
     'PRESS': 'press',
-    'BLOG': 'blog',
-    'DONATE': 'donate',
+    #####'BLOG': 'blog',
+    #####'DONATE': 'donate',
     'SITEMAP.XML': 'sitemap_xml',
 
     # Verified Certificates
