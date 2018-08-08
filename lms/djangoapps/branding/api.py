@@ -180,11 +180,11 @@ def _footer_connect_links():
             "url": link_url,
         }
         for link_name, link_url, link_title in [
-            ("blog", marketing_link("BLOG"), _("Blog")),
+            #####("blog", marketing_link("BLOG"), _("Blog")),
             ("contact", _build_support_form_url(), _("Contact Us")),
             ("help-center", settings.SUPPORT_SITE_LINK, _("Help Center")),
             ("media_kit", marketing_link("MEDIA_KIT"), _("Media Kit")),
-            ("donate", marketing_link("DONATE"), _("Donate")),
+            #####("donate", marketing_link("DONATE"), _("Donate")),
         ]
         if link_url and link_url != "#"
     ]
