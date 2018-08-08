@@ -578,7 +578,7 @@ msgstr "Soumettre"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:14
 msgid "Sign in to {platform} so we can help you better."
-msgstr "Connectez-vous à {plateform} afin que nous puissions mieux vous aider."
+msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:37
 msgid ""
