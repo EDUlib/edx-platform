@@ -10,22 +10,42 @@
             <%block name="pageheader">${page_header or _("Institutions")}</%block>
         </h1>
         
-        <p style="text-align:right;"><a href="/institutions_en">English</a></p>
-        
-        <h2>Membres fondateurs et partenaires</h2>
+        <div lang="fr">
+            <h2>Membres fondateurs et partenaires</h2>
     
-        <ul class="member-list founder">
-            <li><a href="${marketing_link('UMONTREAL')}"><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" /></a></li>
+            <ul class="member-list founder">
+                <li><a href="${marketing_link('UMONTREAL')}"><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" /></a></li>
 
-            <li><a href="${marketing_link('HEC')}"><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" /></a></li>
+                <li><a href="${marketing_link('HEC')}"><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" /></a></li>
 
-            <li><a href="${marketing_link('POLYMTL')}"><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" /></a></li>
-        </ul>
+                <li><a href="${marketing_link('POLYMTL')}"><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" /></a></li>
+            </ul>
 
-        <h2>Membres associés</h2>
-        <ul class="member-list associate">
-            <li><a href="${marketing_link('USHERBROOKE')}"><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" /></a></li>
-            <li><a href="${marketing_link('UQAC')}"><img src="/static/images/edulib-theme/institutions/uqac.png" alt="Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi" /></a></li>
-        </ul>
+            <h2>Membres associés</h2>
+            <ul class="member-list associate">
+                <li><a href="${marketing_link('USHERBROOKE')}"><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" /></a></li>
+                <li><a href="${marketing_link('UQAC')}"><img src="/static/images/edulib-theme/institutions/uqac.png" alt="Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi" /></a></li>
+            </ul>
+        </div>
+
+        <div lang="en">
+            <h2>Founding Partners</h2>
+    
+            <ul class="member-list founder">
+                <li><a href="${marketing_link('UMONTREAL')}"><img src="/static/images/edulib-theme/institutions/umontreal.png" alt="Universit&eacute; de Montr&eacute;al" /></a></li>
+
+                <li><a href="${marketing_link('HEC')}"><img src="/static/images/edulib-theme/institutions/hec.png" alt="HEC Montr&eacute;al" /></a></li>
+
+                <li><a href="${marketing_link('POLYMTL')}"><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" /></a></li>
+            </ul>
+
+            <h2>Associated Members</h2>
+            <ul class="member-list associate">
+                <li><a href="${marketing_link('USHERBROOKE')}"><img src="/static/images/edulib-theme/institutions/usherbrooke.png" alt="Universit&eacute; de Sherbrooke" /></a></li>
+                <li><a href="${marketing_link('UQAC')}"><img src="/static/images/edulib-theme/institutions/uqac.png" alt="Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi" /></a></li>
+            </ul>
+        </div>
+        
+        
     </section>
 </main>
