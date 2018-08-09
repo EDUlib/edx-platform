@@ -33,10 +33,17 @@ $static-theme-path: '..';
 $edx-blue: rgb(0, 117, 180);
 
 $blue: rgb(18, 85, 139) !default;
-$blue1: rgb(18, 85, 139);
-$blue2: rgb(89, 187, 240);
-$m-blue: rgb(18, 85, 139);
+// $blue-1: rgb(18, 85, 139);
+// $blue-2: rgb(89, 187, 240);
+
+$blue-1: rgb(230, 242, 248);
+$blue-2: rgb(153, 201, 228);
+
+
 $brand-primary: $blue;
+
+$gray-1: rgb(248, 248, 248);
+$gray-2: rgb(200, 200, 200);
 
 
 
@@ -195,7 +202,7 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
 
 
 //-----------------
-//  Page À propos
+//  Pages À propos
 //-----------------
 
 .course-info header.course-profile {
@@ -222,3 +229,78 @@ section.about h3, section.about h4, section.course-staff h3, section.course-staf
 }
 
 
+//-----------------
+//  Pages d'information
+//-----------------
+
+section.about p, section.about ul li, section.about ol li {
+    font: normal 1em/1.6em Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+section.about h1 {margin-top: 1em;}
+
+section.about h3, section.about h4 {
+    margin: 2em 0 1em 0;
+    font-weight: bold;
+}
+
+section.about ul, section.about ol {margin-top: 0.25em;}
+
+section.about ul {list-style-type: disc;}
+section.about ol {list-style-type: decimal;}
+section.about ol ul {list-style-type: circle;}
+
+//-----------------
+//  Pages Institutions
+//-----------------
+
+section.about ul.member-list {
+	text-align: center;
+    padding: 0;
+}
+
+section.about ul.member-list li, section.about ul.member-list a {
+    display: inline-block;
+    width: 300px;
+}
+
+section.about ul.member-list li {margin: 10px;}
+
+section.about ul.member-list a {
+    background-color: $gray-1;
+    border: 1px solid $gray-2;
+}
+
+section.about ul.member-list a:hover {
+    background-color: $blue-1;
+    border-color: $blue-2;
+}
+
+section.about ul.founder a {height: 200px;}
+
+section.about ul.founder a img {
+    width: 85%;
+    margin-top: 55px;
+}
+
+section.about ul.associate a {height: 135px;}
+
+section.about ul.associate a img {
+    width: 60%;
+    margin-top: 40px;
+}
+
+//-----------------
+//  Pages Contacts
+//-----------------
+
+section.about p.member-list a.institution {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+section.about p.member-list span {
+    display: inline-block;
+}
