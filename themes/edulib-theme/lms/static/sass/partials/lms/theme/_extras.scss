@@ -233,6 +233,9 @@ section.about h3, section.about h4, section.course-staff h3, section.course-staf
 //  Pages d'information
 //-----------------
 
+body.lang_en section.about div:lang(fr) {display: none;}
+body.lang_fr section.about div:lang(en) {display: none;}
+
 section.about p, section.about ul li, section.about ol li {
     font: normal 1em/1.6em Georgia,Cambria,"Times New Roman",Times,serif;
 }
