@@ -10597,12 +10597,8 @@ msgstr "Vous vous êtes déconnecté."
 
 #: lms/templates/logout.html:10
 #, python-format
-msgid ""
-"If you are not redirected within 5 seconds, <a href=\"%(target)s\">click "
-"here to go to the home page</a>."
-msgstr ""
-"Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"%(target)s\">cliquer "
-"ici pour aller à la page d'accueil</a>."
+msgid "If you are not redirected within 5 seconds, <a href=\"%(target)s\">click here to go to the home page</a>."
+msgstr "Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"%(target)s\">cliquer ici pour aller à la page d'accueil</a>."
 
 #: lms/templates/main_django.html:32 cms/templates/base.html:83
 #: lms/templates/main.html:178
@@ -27939,3 +27935,9 @@ msgstr "{relative} depuis - {absolute} UTC"
 #, python-brace-format
 msgid "in {relative} - {absolute} UTC"
 msgstr "dans {relative} - {absolute} UTC"
+
+#: lms/templates/emails/activation_email.txt:16
+msgid ""
+"If you need help, please contact us by email at {support_email}."
+msgstr ""
+"Si vous avez besoin d'aide, veuillez nous contacter par courriel au {support_email}."

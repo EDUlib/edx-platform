@@ -84,3 +84,9 @@ msgstr "{relative} depuis - {absolute} UTC"
 #, python-brace-format
 msgid "in {relative} - {absolute} UTC"
 msgstr "dans {relative} - {absolute} UTC"
+
+#: lms/templates/emails/activation_email.txt:16
+msgid ""
+"If you need help, please contact us by email at {support_email}."
+msgstr ""
+"Si vous avez besoin d'aide, veuillez nous contacter par courriel au {support_email}."
