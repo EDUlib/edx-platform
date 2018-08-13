@@ -22,7 +22,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -78,16 +78,16 @@
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-07-21 17:28+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-08-12 20:43+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,7 +128,7 @@ msgid "Settings"
 msgstr "Paramètres"
 
 #: cms/templates/certificates.html:79 cms/templates/container.html:128
-#: cms/templates/course_outline.html:222
+#: cms/templates/course_outline.html:210
 #: cms/templates/group_configurations.html:59
 #: cms/templates/group_configurations.html:75 cms/templates/library.html:84
 #: cms/templates/manage_users.html:75 cms/templates/manage_users_lib.html:75
@@ -160,7 +160,7 @@ msgid "Course Number"
 msgstr "Numéro du cours"
 
 #: cms/templates/course_outline.html:13 cms/templates/course_outline.html:123
-#: cms/templates/course_outline.html:217
+#: cms/templates/course_outline.html:205
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:47
 msgid "Course Outline"
 msgstr "Plan de cours"
@@ -176,11 +176,6 @@ msgstr "Rejeter"
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html:43
 msgid "Section"
 msgstr "Section"
-
-#: cms/templates/course_outline.html:161 cms/templates/settings.html:218
-#: lms/templates/instructor/instructor_dashboard_2/executive_summary.html:35
-msgid "Course Start Date"
-msgstr "Date de début du cours"
 
 #: cms/templates/group_configurations.html:89
 #: cms/templates/group_configurations.html:99
@@ -330,6 +325,11 @@ msgstr "Nom d'utilisateur public"
 msgid "example: JaneDoe"
 msgstr "exemple : jdupont"
 
+#: cms/templates/settings.html:218
+#: lms/templates/instructor/instructor_dashboard_2/executive_summary.html:35
+msgid "Course Start Date"
+msgstr "Date de début du cours"
+
 #: cms/templates/settings.html:232
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html:39
 msgid "Course End Date"
@@ -437,13 +437,13 @@ msgid "Account"
 msgstr "Compte"
 
 #: cms/templates/widgets/header.html:226 cms/templates/widgets/header.html:239
-#: lms/templates/header/navbar-authenticated.html:71
-#: lms/templates/navigation/navbar-authenticated.html:55
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:78
+#: lms/templates/header/navbar-authenticated.html:78
+#: lms/templates/navigation/navbar-authenticated.html:62
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:85
 #: lms/templates/static_templates/help.html:5
 #: lms/templates/static_templates/help.html:10
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:66
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:68
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:73
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:75
 msgid "Help"
 msgstr "Aide"
 
@@ -682,6 +682,8 @@ msgid "You do not have access to this dependency module."
 msgstr "Vous n'avez pas accès à ce module de dépendance."
 
 #: lms/templates/course.html:14
+#: openedx/features/journals/templates/journals/bundle_card.html:31
+#: openedx/features/journals/templates/journals/journal_card.html:14
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
 
@@ -694,7 +696,7 @@ msgstr "Commence"
 msgid "Starts: {date}"
 msgstr "Commence : {date}"
 
-#: lms/templates/courses_list.html:22
+#: lms/templates/courses_list.html:36
 msgid "View all Courses"
 msgstr "Voir tous les cours"
 
@@ -3556,6 +3558,7 @@ msgstr "Vous êtes inscrit dans ce cours"
 #: lms/templates/dashboard/_dashboard_course_listing.html:190
 #: lms/templates/dashboard/_dashboard_course_listing.html:198
 #: lms/templates/shoppingcart/registration_code_receipt.html:80
+#: openedx/features/journals/templates/journals/bundle_about.html:125
 msgid "View Course"
 msgstr "Voir le cours"
 
@@ -3687,8 +3690,8 @@ msgstr "Montrer les mises à jour antérieures du cours"
 msgid "List of Courses"
 msgstr "Liste des cours"
 
-#: lms/templates/courseware/courses.html:70
-#: lms/templates/courseware/courses.html:71
+#: lms/templates/courseware/courses.html:84
+#: lms/templates/courseware/courses.html:85
 msgid "Refine Your Search"
 msgstr "Affiner votre recherche"
 
@@ -3827,6 +3830,7 @@ msgstr "Acheter le programme ("
 
 #: lms/templates/courseware/program_marketing.html:94
 #: lms/templates/courseware/program_marketing.html:254
+#: openedx/features/journals/templates/journals/bundle_about.html:50
 msgid "Original Price"
 msgstr "Prix original"
 
@@ -3837,6 +3841,7 @@ msgstr "${oldPrice}"
 
 #: lms/templates/courseware/program_marketing.html:98
 #: lms/templates/courseware/program_marketing.html:259
+#: openedx/features/journals/templates/journals/bundle_about.html:54
 msgid "Discounted Price"
 msgstr "Prix réduit"
 
@@ -3934,6 +3939,7 @@ msgid "Courses in the {}"
 msgstr "Cours dans le {}"
 
 #: lms/templates/courseware/program_marketing.html:324
+#: openedx/features/journals/templates/journals/bundle_about.html:120
 msgid "Starts on {}"
 msgstr "Commence le {}"
 
@@ -5539,30 +5545,37 @@ msgstr "{begin_strong}Avertissement:{end_strong}  Votre navigateur n'est pas com
 msgid "Programs"
 msgstr "Programmes"
 
-#: lms/templates/header/navbar-authenticated.html:46
+#: lms/templates/header/navbar-authenticated.html:47
+#: lms/templates/navigation/navbar-authenticated.html:35
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:52
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:50
+msgid "Journals"
+msgstr "Journaux"
+
+#: lms/templates/header/navbar-authenticated.html:53
 #: lms/templates/header/user_dropdown.html:39
-#: lms/templates/navigation/navbar-authenticated.html:38
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:55
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:49
+#: lms/templates/navigation/navbar-authenticated.html:45
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:62
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:56
 msgid "Profile"
 msgstr "Profil"
 
-#: lms/templates/header/navbar-authenticated.html:52
+#: lms/templates/header/navbar-authenticated.html:59
 msgid "Discover New"
 msgstr "Découvrir les nouveautés"
 
 #. Translators: This is short for "System administration".
-#: lms/templates/header/navbar-authenticated.html:58
-#: lms/templates/navigation/navbar-authenticated.html:45
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:63
+#: lms/templates/header/navbar-authenticated.html:65
+#: lms/templates/navigation/navbar-authenticated.html:52
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:70
 msgid "Sysadmin"
 msgstr "Administrateur système"
 
-#: lms/templates/header/navbar-authenticated.html:66
-#: lms/templates/navigation/navbar-authenticated.html:61
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:71
+#: lms/templates/header/navbar-authenticated.html:73
+#: lms/templates/navigation/navbar-authenticated.html:68
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:78
 #: lms/templates/shoppingcart/shopping_cart.html:46
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:60
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:67
 msgid "Shopping Cart"
 msgstr "Panier"
 
@@ -7267,6 +7280,10 @@ msgstr "Afficher l'état des tâches que vous avez soumises pour ce problème."
 msgid "My Courses"
 msgstr "Mes cours"
 
+#: lms/templates/learner_dashboard/_dashboard_navigation_journals.html:7
+msgid "My Journals"
+msgstr "Mes journaux"
+
 #: lms/templates/learner_dashboard/program_details.html:11
 msgid "Program Details"
 msgstr "Détails du programme"
@@ -8537,7 +8554,7 @@ msgstr "Ce cours ne dispose d'aucune mise à niveau."
 
 #: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
 msgid "Today is {date}"
-msgstr "Nous sommes le {date}"
+msgstr "Nous sommes le {date} UTC"
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
 msgid "Latest Update"
@@ -8547,6 +8564,78 @@ msgstr "Dernière mise à jour"
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:32
 msgid "Search Results"
 msgstr "Résultats de la recherche"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:48
+msgid "Purchase the Bundle ("
+msgstr "Acheter le paquet ("
+
+#: openedx/features/journals/templates/journals/bundle_about.html:96
+msgid "Courses included"
+msgstr "Cours inclus"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:134
+msgid "Journals included"
+msgstr "Journaux inclus"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:152
+msgid "{access_length} Day Access"
+msgstr "{access_length} jours d'accès"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:157
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:108
+msgid "View Journal"
+msgstr "Afficher le journal"
+
+#: openedx/features/journals/templates/journals/bundle_card.html:35
+msgid "Bundle"
+msgstr "Paquet"
+
+#: openedx/features/journals/templates/journals/journal_card.html:18
+msgid "Journal"
+msgstr "Journal"
+
+#: openedx/features/journals/templates/journals/journal_card.html:32
+msgid "{num_months} month"
+msgid_plural "{num_months} months"
+msgstr[0] "{num_months} mois"
+msgstr[1] "{num_months} mois"
+
+#: openedx/features/journals/templates/journals/journal_card.html:35
+msgid "unlimited"
+msgstr "illimité"
+
+#: openedx/features/journals/templates/journals/journal_card.html:37
+#: openedx/features/journals/templates/journals/journal_card.html:44
+msgid "Access Length"
+msgstr "Durée d'accès"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:12
+msgid "Journal Dashboard"
+msgstr "Tableau de bord du journal"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:71
+msgid "{journal_title} Cover Image"
+msgstr "Image de couverture de {journal_title} "
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:84
+msgid "Access Expired: {date}"
+msgstr "Accès expiré : {date}"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:88
+msgid "Access Expires: {date}"
+msgstr "Accès expire : {date}"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:99
+msgid "Renew Access"
+msgstr "Renouveler l'accès"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:125
+msgid "You have not purchased access to any journals yet."
+msgstr "Vous n'avez encore acheté aucun accès aux journaux."
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:127
+msgid "Explore journals and courses"
+msgstr "Explorez les journaux et les cours"
 
 #: openedx/features/learner_analytics/templates/learner_analytics/dashboard.html:35
 msgid "My Stats (Beta)"

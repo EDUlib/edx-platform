@@ -22,7 +22,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -78,15 +78,15 @@
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-07-10 19:31+0000\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-08-06 02:04+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -1780,8 +1780,28 @@ msgid "Open the certificate you earned for the %(title)s program."
 msgstr "Consultez l'attestation que vous avez obtenu pour le programme %(title)s."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:13
+msgid "Program Record"
+msgstr "Dossier du programme"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:16
+msgid ""
+"Once you complete one of the program requirements you have a program record."
+" This record is marked complete once you meet all program requirements. A "
+"program record can be used to continue your learning journey and demonstrate"
+" your learning to others."
+msgstr "Une fois que vous remplissez l'une des exigences du programme, vous avez un dossier de programme. Ce dossier est marqué comme terminé lorsque vous répondez à toutes les exigences du programme. Un dossier de programme peut être utilisé pour poursuivre votre parcours d'apprentissage et démontrer votre apprentissage aux autres."
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:20
 msgid "View Program Record"
 msgstr "Voir le dossier du programme"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
+msgid "Additional Learning Opportunities"
+msgstr "Possibilités d'apprentissage supplémentaires"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:41
+msgid "Learn More"
+msgstr "En savoir plus"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:6
 msgid "Congratulations!"
