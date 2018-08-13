@@ -1971,6 +1971,7 @@ msgstr ""
 #: lms/static/js/edxnotes/views/tabs/search_results.js:48
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:2
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:2
+#: lms/djangoapps/discussion/static/discussion/js/views/discussion_board_view.js
 msgid "Search Results"
 msgstr "Résultats de la recherche"
 

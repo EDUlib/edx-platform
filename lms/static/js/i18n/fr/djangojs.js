@@ -1398,7 +1398,7 @@
     "Sign in here using your email address and password.": "Connectez-vous ici avec votre adresse courriel et mot de passe.", 
     "Sign in to continue learning": "Connectez-vous pour continuer \u00e0 apprendre", 
     "Sign in to continue learning as {email}": "Connectez-vous pour continuer \u00e0 apprendre en tant que {email}", 
-    "Sign in to {platform} so we can help you better.": "Connectez-vous \u00e0 {plateform} afin que nous puissions mieux vous aider.", 
+    "Sign in to {platform} so we can help you better.": "Connectez-vous \u00e0 {platform} afin que nous puissions mieux vous aider.", 
     "Sign in using %(providerName)s": "Connectez vous en utilisant %(providerName)s", 
     "Sign in with %(providerName)s": "Se connecter avec %(providerName)s", 
     "Sign in with Institution/Campus Credentials": "Connectez vous avec les cr\u00e9dentiels d'institution ou de campus", 
