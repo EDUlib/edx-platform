@@ -90,3 +90,8 @@ msgid ""
 "If you need help, please contact us by email at {support_email}."
 msgstr ""
 "Si vous avez besoin d'aide, veuillez nous contacter par courriel au {support_email}."
+
+#: lms/templates/logout.html:10
+#, python-format
+msgid "If you are not redirected within 5 seconds, <a href=\"https://test-cours.edulib.org/\">click here to go to the home page</a>."
+msgstr "Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"https://test-cours.edulib.org/\">cliquer ici pour aller à la page d'accueil</a>."

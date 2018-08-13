@@ -18,7 +18,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -60,16 +60,16 @@
 # Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-06-21 18:46+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-07-26 08:16+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -669,74 +669,58 @@ msgstr "Cliquer pour ouvrir le cours dans le LMS et un nouvel onglet"
 msgid "View Live"
 msgstr "Aperçu réel"
 
-#: cms/templates/course_outline.html:166 cms/templates/course_outline.html:168
-msgid "Edit Start Date"
-msgstr "Modifier la date de début"
-
-#: cms/templates/course_outline.html:174 cms/templates/settings.html:186
-msgid "Course Pacing"
-msgstr "Rythme du cours"
-
-#: cms/templates/course_outline.html:177 cms/templates/settings.html:200
-msgid "Self-Paced"
-msgstr "A votre rythme"
-
-#: cms/templates/course_outline.html:179 cms/templates/settings.html:195
-msgid "Instructor-Paced"
-msgstr "Au rythme de l'instructeur"
-
-#: cms/templates/course_outline.html:227
+#: cms/templates/course_outline.html:215
 msgid "Creating your course organization"
 msgstr "Création de votre structure de cours"
 
-#: cms/templates/course_outline.html:228
+#: cms/templates/course_outline.html:216
 msgid "You add sections, subsections, and units directly in the outline."
 msgstr "Vous ajoutez sections, sous-sections et unités directement dans le plan."
 
-#: cms/templates/course_outline.html:229
+#: cms/templates/course_outline.html:217
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
 msgstr "Créez une section, puis ajoutez sous-sections et unités. Ouvrez une unité pour ajouter des composants de cours."
 
-#: cms/templates/course_outline.html:232
+#: cms/templates/course_outline.html:220
 msgid "Reorganizing your course"
 msgstr "Réorganisation de votre cours"
 
-#: cms/templates/course_outline.html:233
+#: cms/templates/course_outline.html:221
 msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr "Faites glisser les sections, sous-sections et unités à de nouveaux emplacements dans le plan."
 
-#: cms/templates/course_outline.html:235
+#: cms/templates/course_outline.html:223
 msgid "Learn more about the course outline"
 msgstr "En savoir plus à propos de l'aperçu du cours"
 
-#: cms/templates/course_outline.html:239
+#: cms/templates/course_outline.html:227
 msgid "Setting release dates and grading policies"
 msgstr "Fixer les dates de publication et les politiques de notation"
 
-#: cms/templates/course_outline.html:240
+#: cms/templates/course_outline.html:228
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr "Sélectionnez l'icône Configuration pour une section ou une sous-section pour définir sa date de publication. Lorsque vous configurez une sous-section, vous pouvez également définir le type de devoir et la date d'échéance."
 
-#: cms/templates/course_outline.html:242
+#: cms/templates/course_outline.html:230
 msgid "Learn more about grading policy settings"
 msgstr "Apprenez-en plus sur les paramètres de politique de notation"
 
-#: cms/templates/course_outline.html:246
+#: cms/templates/course_outline.html:234
 msgid "Changing the content learners see"
 msgstr "Modifier le contenu que les apprenants peuvent voir"
 
-#: cms/templates/course_outline.html:247
+#: cms/templates/course_outline.html:235
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection,"
 " or unit."
 msgstr "Pour publier une ébauche de contenu, sélectionnez l'icône Publier pour une section, une sous-section, ou une unité."
 
-#: cms/templates/course_outline.html:248
+#: cms/templates/course_outline.html:236
 msgid ""
 "To make a section, subsection, or unit unavailable to learners, select the "
 "Configure icon for that level, then select the appropriate "
@@ -744,7 +728,7 @@ msgid ""
 "units are not included in grade calculations."
 msgstr "Afin de rendre une section, sous-section ou une unité non disponible aux apprenants, sélectionnez l'icône de configuration pour ce niveau, ensuite sélectionnez l'option {em_start}Cacher{em_end} appropriée. Les notes pour les sections, sous-sections et unités cachées continuent d'être incluses dans le calcul des notes."
 
-#: cms/templates/course_outline.html:249
+#: cms/templates/course_outline.html:237
 msgid ""
 "To hide the content of a subsection from learners after the subsection due "
 "date has passed, select the Configure icon for a subsection, then select "
@@ -752,7 +736,7 @@ msgid ""
 "remain included in grade calculations."
 msgstr "Pour cacher aux apprenants le contenu d'une sous-section après que la date d'échéance de la sous-section soit passée, sélectionnez l'icône de configuration pour une sous-section, ensuite sélectionnez  {em_start}Cacher le contenu après la date d'échéance{em_end}. Les notes pour la sous-section continuent d'être incluses dans le calcul des notes. "
 
-#: cms/templates/course_outline.html:251
+#: cms/templates/course_outline.html:239
 msgid "Learn more about content visibility settings"
 msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
@@ -2395,9 +2379,17 @@ msgstr "Vérification d'identité"
 msgid "In-Course Reverification {number}"
 msgstr "Revérification {number} durant le cours"
 
+#: cms/templates/settings.html:186
+msgid "Course Pacing"
+msgstr "Rythme du cours"
+
 #: cms/templates/settings.html:187
 msgid "Set the pacing for this course"
 msgstr "Définir le rythme de ce cours"
+
+#: cms/templates/settings.html:195
+msgid "Instructor-Paced"
+msgstr "Au rythme de l'instructeur"
 
 #: cms/templates/settings.html:196
 msgid ""
@@ -2405,6 +2397,10 @@ msgid ""
 "You can configure release dates for course content and due dates for "
 "assignments."
 msgstr "Les cours au rythme de l'instructeur progressent selon le rythme déterminé par l'instructeur. Vous pouvez configurer des dates de disponibilité pour le contenu du cours et des dates de remise pour les travaux."
+
+#: cms/templates/settings.html:200
+msgid "Self-Paced"
+msgstr "A votre rythme"
 
 #: cms/templates/settings.html:201
 msgid ""

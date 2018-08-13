@@ -19,7 +19,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -61,7 +61,7 @@
 # Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
@@ -85,7 +85,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -127,7 +127,7 @@
 # Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
@@ -155,7 +155,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -211,7 +211,7 @@
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
@@ -235,7 +235,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -277,7 +277,7 @@
 # Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
@@ -301,7 +301,7 @@
 # fgerber <gerber.francois@gmail.com>, 2015
 # francoisedocq, 2014
 # Françoise Docq, 2014
-# Fredy Landry Ngono <lefredoo@yahoo.fr>, 2015
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
 # Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
 # Gilles Langevin <langevin.net@gmail.com>, 2013
 # INARES <contact@inares.org>, 2015
@@ -342,7 +342,7 @@
 # Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
 # Toreador <torrent_lover@hotmail.com>, 2014
 # Xavier Antoviaque <xavier@antoviaque.org>, 2014
-# yepelboin <yves.epelboin@impmc.upmc.fr>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 # ytabaa <ytabaa@uae.ac.ma>, 2014
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 #, fuzzy
@@ -351,9 +351,9 @@ msgstr ""
 "#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-07-23 07:22+0000\n"
-"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-08-06 01:56+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -364,8 +364,8 @@ msgstr ""
 "#-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-05-14 15:31+0000\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-07-27 06:08+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
@@ -377,9 +377,10 @@ msgstr ""
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-07-21 17:28+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-08-12 20:43+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx."
+"org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -391,9 +392,9 @@ msgstr ""
 "#-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
-"PO-Revision-Date: 2018-06-21 18:46+0000\n"
-"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"PO-Revision-Date: 2018-07-26 08:16+0000\n"
+"Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -405,7 +406,7 @@ msgstr ""
 "#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-07-23 07:21+0000\n"
+"POT-Creation-Date: 2018-08-12 20:42+0000\n"
 "PO-Revision-Date: 2018-07-24 22:14+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
@@ -747,7 +748,7 @@ msgstr ""
 msgid "Student"
 msgstr "Étudiant"
 
-#: common/djangoapps/student/admin.py:191
+#: common/djangoapps/student/admin.py:240
 msgid "User profile"
 msgstr "Profil utilisateur"
 
@@ -1098,44 +1099,44 @@ msgstr "Nom de l'attribut utilisateur."
 msgid "Value of this user attribute."
 msgstr "Valeur de l'attribut utilisateur."
 
-#: common/djangoapps/student/views/dashboard.py:170
+#: common/djangoapps/student/views/dashboard.py:171
 msgid " and "
 msgstr "et"
 
-#: common/djangoapps/student/views/dashboard.py:348
+#: common/djangoapps/student/views/dashboard.py:349
 msgid "Photos are mismatched"
 msgstr "Les photos ne correspondent pas"
 
-#: common/djangoapps/student/views/dashboard.py:349
+#: common/djangoapps/student/views/dashboard.py:350
 msgid "Name missing from ID photo"
 msgstr "Le nom est absent de la photo d'identité"
 
-#: common/djangoapps/student/views/dashboard.py:350
+#: common/djangoapps/student/views/dashboard.py:351
 msgid "ID photo not provided"
 msgstr "La photo d'identification n'a pas été fournie"
 
-#: common/djangoapps/student/views/dashboard.py:351
+#: common/djangoapps/student/views/dashboard.py:352
 msgid "ID is invalid"
 msgstr "La preuve d'identification est invalide"
 
-#: common/djangoapps/student/views/dashboard.py:352
+#: common/djangoapps/student/views/dashboard.py:353
 msgid "Learner photo is blurry"
 msgstr "La photo de l'apprenant est floue"
 
-#: common/djangoapps/student/views/dashboard.py:353
+#: common/djangoapps/student/views/dashboard.py:354
 msgid "Name on ID does not match name on account"
 msgstr ""
 "Le nom sur la preuve d'identité ne correspond pas au nom fourni sur le compte"
 
-#: common/djangoapps/student/views/dashboard.py:354
+#: common/djangoapps/student/views/dashboard.py:355
 msgid "Learner photo not provided"
 msgstr "La photo de l'apprenant n'a pas été fournie"
 
-#: common/djangoapps/student/views/dashboard.py:355
+#: common/djangoapps/student/views/dashboard.py:356
 msgid "ID photo is blurry"
 msgstr "La photo d'identification est floue"
 
-#: common/djangoapps/student/views/dashboard.py:617
+#: common/djangoapps/student/views/dashboard.py:618
 #, python-brace-format
 msgid ""
 "Check your {email_start}{email}{email_end} inbox for an account activation "
@@ -1147,12 +1148,12 @@ msgstr ""
 "avez besoin d'aide, contactez le {link_start}{platform_name} "
 "support{link_end}."
 
-#: common/djangoapps/student/views/dashboard.py:763
+#: common/djangoapps/student/views/dashboard.py:764
 #, python-brace-format
 msgid "The course you are looking for does not start until {date}."
 msgstr "Le cours que vous regardez ne commence pas avant {date}."
 
-#: common/djangoapps/student/views/dashboard.py:767
+#: common/djangoapps/student/views/dashboard.py:768
 #, python-brace-format
 msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr "Le cours que vous regardez est fermé aux inscriptions depuis {date}."
@@ -1254,84 +1255,84 @@ msgid "Account modification not allowed."
 msgstr "Modification du compte non permise."
 
 #: common/djangoapps/student/views/login.py:659
-#: common/djangoapps/student/views/management.py:939
+#: common/djangoapps/student/views/management.py:943
 #: openedx/core/djangoapps/user_api/accounts/api.py:317
 #: openedx/core/djangoapps/user_api/views.py:169
 msgid "Account creation not allowed."
 msgstr "Création de compte non permise."
 
-#: common/djangoapps/student/views/management.py:363
+#: common/djangoapps/student/views/management.py:367
 msgid "Course id not specified"
 msgstr "L'identifiant du cours n'est pas spécifié"
 
-#: common/djangoapps/student/views/management.py:374
+#: common/djangoapps/student/views/management.py:378
 msgid "Invalid course id"
 msgstr "Identifiant de cours invalide"
 
-#: common/djangoapps/student/views/management.py:389
+#: common/djangoapps/student/views/management.py:393
 msgid "Course id is invalid"
 msgstr "L'identifiant du cours est invalide"
 
-#: common/djangoapps/student/views/management.py:425
+#: common/djangoapps/student/views/management.py:429
 msgid "Could not enroll"
 msgstr "Ne peux vous inscrire"
 
-#: common/djangoapps/student/views/management.py:441
+#: common/djangoapps/student/views/management.py:445
 msgid "You are not enrolled in this course"
 msgstr "Vous n'êtes pas inscrit dans ce cours"
 
-#: common/djangoapps/student/views/management.py:445
+#: common/djangoapps/student/views/management.py:449
 msgid "Your certificate prevents you from unenrolling from this course"
 msgstr "Votre attestation ne vous permet pas de vous désinscrire de ce cours"
 
-#: common/djangoapps/student/views/management.py:451
+#: common/djangoapps/student/views/management.py:455
 msgid "Enrollment action is invalid"
 msgstr "Action d'inscription invalide"
 
-#: common/djangoapps/student/views/management.py:494
+#: common/djangoapps/student/views/management.py:498
 msgid "Please enter a username"
 msgstr "Entrer un nom d'utilisateur"
 
-#: common/djangoapps/student/views/management.py:499
+#: common/djangoapps/student/views/management.py:503
 msgid "Please choose an option"
 msgstr "Choisir une option"
 
-#: common/djangoapps/student/views/management.py:506
+#: common/djangoapps/student/views/management.py:510
 msgid "User with username {} does not exist"
 msgstr "L'utilisateur avec le nom d'utilisateur {} n'existe pas"
 
-#: common/djangoapps/student/views/management.py:514
+#: common/djangoapps/student/views/management.py:518
 msgid "Successfully disabled {}'s account"
 msgstr "Compte {} désactivé avec succès"
 
-#: common/djangoapps/student/views/management.py:518
+#: common/djangoapps/student/views/management.py:522
 msgid "Successfully reenabled {}'s account"
 msgstr "Compte {} réactivé avec succès"
 
-#: common/djangoapps/student/views/management.py:521
+#: common/djangoapps/student/views/management.py:525
 msgid "Unexpected account status"
 msgstr "Statut de compte innatendu"
 
-#: common/djangoapps/student/views/management.py:623
+#: common/djangoapps/student/views/management.py:627
 #, python-brace-format
 msgid "Registration using {provider} has timed out."
 msgstr "L'enregistrement à l'aide de {provider} a expiré."
 
-#: common/djangoapps/student/views/management.py:692
+#: common/djangoapps/student/views/management.py:696
 msgid "An access_token is required when passing value ({}) for provider."
 msgstr ""
 "Un jeton d'accès est requis quand  la valeur ({}) est passée au le "
 "fournisseur"
 
-#: common/djangoapps/student/views/management.py:703
+#: common/djangoapps/student/views/management.py:707
 msgid "The provided access_token is already associated with another user."
 msgstr "Le jeton d'accès fourni est déjà associé à un autre utilisateur."
 
-#: common/djangoapps/student/views/management.py:705
+#: common/djangoapps/student/views/management.py:709
 msgid "The provided access_token is not valid."
 msgstr "Le jeton d'accès fourni n'est pas valide."
 
-#: common/djangoapps/student/views/management.py:991
+#: common/djangoapps/student/views/management.py:995
 #, python-brace-format
 msgid ""
 "{html_start}Your account could not be activated{html_end}Something went "
@@ -1342,17 +1343,17 @@ msgstr ""
 "mal passé, SVP <a href=\"{support_url}\">contactez le support</a> pour "
 "résoudre ce problème."
 
-#: common/djangoapps/student/views/management.py:1004
+#: common/djangoapps/student/views/management.py:1008
 #, python-brace-format
 msgid "{html_start}This account has already been activated.{html_end}"
 msgstr "{html_start}Ce compte a déjà été activé.{html_end}"
 
-#: common/djangoapps/student/views/management.py:1023
+#: common/djangoapps/student/views/management.py:1027
 #, python-brace-format
 msgid "{html_start}Success{html_end} You have activated your account."
 msgstr "{html_start}Félicitations!{html_end} Vous avez activé votre compte."
 
-#: common/djangoapps/student/views/management.py:1028
+#: common/djangoapps/student/views/management.py:1032
 #, python-brace-format
 msgid ""
 "{html_start}Success! You have activated your account.{html_end}You will now "
@@ -1364,35 +1365,35 @@ msgstr ""
 "concernant les cours auxquels vous êtes inscrit. Connectez-vous pour "
 "continuer."
 
-#: common/djangoapps/student/views/management.py:1160
-#: common/djangoapps/student/views/management.py:1172
-#: common/djangoapps/student/views/management.py:1192
+#: common/djangoapps/student/views/management.py:1164
+#: common/djangoapps/student/views/management.py:1176
+#: common/djangoapps/student/views/management.py:1196
 msgid "Password reset unsuccessful"
 msgstr "Réinitialisation de mot de passe infructueuse"
 
-#: common/djangoapps/student/views/management.py:1161
+#: common/djangoapps/student/views/management.py:1165
 msgid "Error in resetting your password."
 msgstr "Erreur lors de la réinitialisation de votre mot de passe."
 
-#: common/djangoapps/student/views/management.py:1218
+#: common/djangoapps/student/views/management.py:1222
 msgid "Error in resetting your password. Please try again."
 msgstr ""
 "Erreur lors de réinitialisation de votre mot de passe. Merci d’essayer à "
 "nouveau."
 
-#: common/djangoapps/student/views/management.py:1250
+#: common/djangoapps/student/views/management.py:1254
 msgid "Valid e-mail address required."
 msgstr "Adresse courriel valide nécessaire."
 
-#: common/djangoapps/student/views/management.py:1253
+#: common/djangoapps/student/views/management.py:1257
 msgid "Old email is the same as the new email."
 msgstr "L'ancien courriel est le même que le nouveau courriel."
 
-#: common/djangoapps/student/views/management.py:1256
+#: common/djangoapps/student/views/management.py:1260
 msgid "An account with this e-mail already exists."
 msgstr "Un compte avec cette adresse courriel existe déjà."
 
-#: common/djangoapps/student/views/management.py:1299
+#: common/djangoapps/student/views/management.py:1303
 msgid "Unable to send email activation link. Please try again later."
 msgstr ""
 "Impossible d'envoyer le lien d'activation par courriel. Essayez plus tard."
@@ -1507,7 +1508,7 @@ msgid ""
 "synchronization."
 msgstr ""
 "Synchronisez les données de l'utilisateur reçues par le fournisseur "
-"d'identité avec le compte edX à chaque connexion SSO. L'utilisateur sera "
+"d'identité avec le compte EDUlib à chaque connexion SSO. L'utilisateur sera "
 "informé si l'adresse courriel associée à son compte est modifiée dans le "
 "cadre de cette synchronisation."
 
@@ -1899,7 +1900,7 @@ msgid "Course {course_id} requires {prerequisite_course_id}"
 msgstr "Le cours {course_id} nécessite {prerequisite_course_id}"
 
 #: common/djangoapps/util/milestones_helpers.py:63
-#: openedx/core/lib/gating/api.py:189
+#: openedx/core/lib/gating/api.py:190
 msgid "System defined milestone"
 msgstr "Jalon défini par le système"
 
@@ -2948,22 +2949,22 @@ msgstr "Réponse envoyée."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: common/lib/xmodule/xmodule/capa_base.py:1192
-#: common/lib/xmodule/xmodule/capa_base.py:1508
+#: common/lib/xmodule/xmodule/capa_base.py:1184
+#: common/lib/xmodule/xmodule/capa_base.py:1492
 msgid "Problem is closed."
 msgstr "Problème fermé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1200
+#: common/lib/xmodule/xmodule/capa_base.py:1192
 msgid "Problem must be reset before it can be submitted again."
 msgstr ""
 "Le problème doit être réinitialisé avant qu'il puisse être soumis de nouveau."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1209
+#: common/lib/xmodule/xmodule/capa_base.py:1201
 #, python-brace-format
 msgid "You must wait at least {wait} seconds between submissions."
 msgstr "Vous devez attendre au minimum {wait} secondes entre les soumissions."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1218
+#: common/lib/xmodule/xmodule/capa_base.py:1210
 #, python-brace-format
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
@@ -2972,36 +2973,36 @@ msgstr ""
 "Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il reste  "
 "{remaining_secs}."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1388
+#: common/lib/xmodule/xmodule/capa_base.py:1372
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
 msgstr[0] "{num_hour} heure"
 msgstr[1] "{num_hour} heures"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1393
+#: common/lib/xmodule/xmodule/capa_base.py:1377
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
 msgstr[0] "{num_minute} minute"
 msgstr[1] "{num_minute} minutes"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1399
+#: common/lib/xmodule/xmodule/capa_base.py:1383
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
 msgstr[0] "{num_second} seconde"
 msgstr[1] "{num_second} secondes"
 
-#: common/lib/xmodule/xmodule/capa_base.py:1519
+#: common/lib/xmodule/xmodule/capa_base.py:1503
 msgid "Problem needs to be reset prior to save."
 msgstr "Le problème doit être réinitialisé avant d'être sauvegardé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1529
+#: common/lib/xmodule/xmodule/capa_base.py:1513
 msgid "Your answers have been saved."
 msgstr "Vos réponses ont été sauvegardées."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1532
+#: common/lib/xmodule/xmodule/capa_base.py:1516
 #, python-brace-format
 msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
@@ -3012,22 +3013,22 @@ msgstr ""
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: common/lib/xmodule/xmodule/capa_base.py:1564
+#: common/lib/xmodule/xmodule/capa_base.py:1548
 msgid "You cannot select Reset for a problem that is closed."
 msgstr "Vous ne pouvez pas sélectionner Réinitialiser pour un problème fermé."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1573
+#: common/lib/xmodule/xmodule/capa_base.py:1557
 msgid "You must submit an answer before you can select Reset."
 msgstr ""
 "Vous devez soumettre une réponse avant de pouvoir sélectionner Réinitialiser."
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
-#: common/lib/xmodule/xmodule/capa_base.py:1628
+#: common/lib/xmodule/xmodule/capa_base.py:1612
 msgid "Problem's definition does not support rescoring."
 msgstr "La définition du problème ne supporte pas une nouvelle notation."
 
-#: common/lib/xmodule/xmodule/capa_base.py:1634
+#: common/lib/xmodule/xmodule/capa_base.py:1618
 msgid "Problem must be answered before it can be graded again."
 msgstr "Le problème doit être répondu avant d'être noté de nouveau."
 
@@ -3222,11 +3223,11 @@ msgstr "Clé de cours préalable si ce cours a un cours préalable"
 msgid "Grading policy definition for this class"
 msgstr "Définition de la politique d'évaluation pour cette classe"
 
-#: common/lib/xmodule/xmodule/course_module.py:269
+#: common/lib/xmodule/xmodule/course_module.py:236
 msgid "Show Calculator"
 msgstr "Affichez la calculatrice"
 
-#: common/lib/xmodule/xmodule/course_module.py:270
+#: common/lib/xmodule/xmodule/course_module.py:237
 msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
@@ -3234,34 +3235,34 @@ msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les étudiants peuvent voir la "
 "calculatrice dans le cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:275
+#: common/lib/xmodule/xmodule/course_module.py:242
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
 msgstr ""
 "Entrer le nom du cours comme il devrait apparaitre dans la liste de cours "
 "sur cours.edulib.org."
 
-#: common/lib/xmodule/xmodule/course_module.py:277
+#: common/lib/xmodule/xmodule/course_module.py:244
 msgid "Course Display Name"
 msgstr "Nom d'affichage du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:281
+#: common/lib/xmodule/xmodule/course_module.py:248
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:55
 msgid "Course Editor"
 msgstr "Éditeur de cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:282
+#: common/lib/xmodule/xmodule/course_module.py:249
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:56
 msgid ""
 "Enter the method by which this course is edited (\"XML\" or \"Studio\")."
 msgstr ""
 "Entrer la méthode par laquelle ce cours est édité (\"XML\" ou \"Studio\")."
 
-#: common/lib/xmodule/xmodule/course_module.py:289
+#: common/lib/xmodule/xmodule/course_module.py:256
 msgid "Course Survey URL"
 msgstr "URL du sondage du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:290
+#: common/lib/xmodule/xmodule/course_module.py:257
 msgid ""
 "Enter the URL for the end-of-course survey. If your course does not have a "
 "survey, enter null."
@@ -3269,11 +3270,11 @@ msgstr ""
 "Entrer le URL pour le sondage de fin de cours. Si le cours n'a pas de "
 "sondage, entrez null."
 
-#: common/lib/xmodule/xmodule/course_module.py:295
+#: common/lib/xmodule/xmodule/course_module.py:262
 msgid "Discussion Blackout Dates"
 msgstr "Dates de blackout des discussions"
 
-#: common/lib/xmodule/xmodule/course_module.py:297
+#: common/lib/xmodule/xmodule/course_module.py:264
 msgid ""
 "Enter pairs of dates between which students cannot post to discussion "
 "forums. Inside the provided brackets, enter an additional set of square "
@@ -3296,11 +3297,11 @@ msgstr ""
 "crochets: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
 "\"2015-10-08\"]] "
 
-#: common/lib/xmodule/xmodule/course_module.py:307
+#: common/lib/xmodule/xmodule/course_module.py:274
 msgid "Discussion Topic Mapping"
 msgstr "Mise en correspondance des sujets de discussions"
 
-#: common/lib/xmodule/xmodule/course_module.py:309
+#: common/lib/xmodule/xmodule/course_module.py:276
 msgid ""
 "Enter discussion categories in the following format: \"CategoryName\": {\"id"
 "\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. For example, one "
@@ -3323,11 +3324,11 @@ msgstr ""
 "\" à true. Par exemple, \"Lydian Mode\": {\"id\": \"i4x-UniversityX-MUS101-"
 "course-2015_T1\", \"default\": true}."
 
-#: common/lib/xmodule/xmodule/course_module.py:321
+#: common/lib/xmodule/xmodule/course_module.py:288
 msgid "Discussion Sorting Alphabetical"
 msgstr "Tri alphabétique des discussions"
 
-#: common/lib/xmodule/xmodule/course_module.py:324
+#: common/lib/xmodule/xmodule/course_module.py:291
 msgid ""
 "Enter true or false. If true, discussion categories and subcategories are "
 "sorted alphabetically. If false, they are sorted chronologically by creation "
@@ -3337,19 +3338,19 @@ msgstr ""
 "catégories de discussions sont triés alphabétiquement. Si faux, elles sont "
 "triées chronologiquement par .date et heure de création."
 
-#: common/lib/xmodule/xmodule/course_module.py:329
+#: common/lib/xmodule/xmodule/course_module.py:296
 msgid "Course Announcement Date"
 msgstr "Date d'annonce du cours "
 
-#: common/lib/xmodule/xmodule/course_module.py:330
+#: common/lib/xmodule/xmodule/course_module.py:297
 msgid "Enter the date to announce your course."
 msgstr "Entrer la date pour annoncer votre cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:334
+#: common/lib/xmodule/xmodule/course_module.py:301
 msgid "Cohort Configuration"
 msgstr "Configuration de cohorte"
 
-#: common/lib/xmodule/xmodule/course_module.py:336
+#: common/lib/xmodule/xmodule/course_module.py:303
 msgid ""
 "Enter policy keys and values to enable the cohort feature, define automated "
 "student assignment to groups, or identify any course-wide discussion topics "
@@ -3360,11 +3361,11 @@ msgstr ""
 "identifiez tout sujet de discussions globaux du cours qui seront considérés "
 "privés pour les membres de la cohorte."
 
-#: common/lib/xmodule/xmodule/course_module.py:342
+#: common/lib/xmodule/xmodule/course_module.py:309
 msgid "Course Is New"
 msgstr "Nouveau cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:344
+#: common/lib/xmodule/xmodule/course_module.py:311
 msgid ""
 "Enter true or false. If true, the course appears in the list of new courses "
 "on edx.org, and a New! badge temporarily appears next to the course image."
@@ -3373,60 +3374,60 @@ msgstr ""
 "des nouveaux cours sur edx.org, et un badge Nouveau! apparaît temporairement "
 "près de l'image du cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:350
+#: common/lib/xmodule/xmodule/course_module.py:317
 msgid "Mobile Course Available"
 msgstr "Cours mobile disponible"
 
-#: common/lib/xmodule/xmodule/course_module.py:351
+#: common/lib/xmodule/xmodule/course_module.py:318
 msgid ""
 "Enter true or false. If true, the course will be available to mobile devices."
 msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, le cours sera disponible sur "
 "les appareils mobiles."
 
-#: common/lib/xmodule/xmodule/course_module.py:356
+#: common/lib/xmodule/xmodule/course_module.py:323
 msgid "Video Upload Credentials"
 msgstr "Crédentiels de téléversement de vidéo"
 
-#: common/lib/xmodule/xmodule/course_module.py:357
+#: common/lib/xmodule/xmodule/course_module.py:324
 msgid ""
 "Enter the unique identifier for your course's video files provided by edX."
 msgstr ""
 "Entrer l'identifiant unique fourni par edX pour les fichiers vidéo de votre "
 "cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:361
+#: common/lib/xmodule/xmodule/course_module.py:328
 msgid "Course Not Graded"
 msgstr "Cours non évalué"
 
-#: common/lib/xmodule/xmodule/course_module.py:362
+#: common/lib/xmodule/xmodule/course_module.py:329
 msgid "Enter true or false. If true, the course will not be graded."
 msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, le cours ne sera pas évalué."
 
-#: common/lib/xmodule/xmodule/course_module.py:367
+#: common/lib/xmodule/xmodule/course_module.py:334
 msgid "Disable Progress Graph"
 msgstr "Désactiver les graphiques de progrès"
 
-#: common/lib/xmodule/xmodule/course_module.py:368
+#: common/lib/xmodule/xmodule/course_module.py:335
 msgid "Enter true or false. If true, students cannot view the progress graph."
 msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les étudiants ne pourront voir "
 "le graphique de progrès."
 
-#: common/lib/xmodule/xmodule/course_module.py:373
+#: common/lib/xmodule/xmodule/course_module.py:340
 msgid "PDF Textbooks"
 msgstr "Manuels PDF"
 
-#: common/lib/xmodule/xmodule/course_module.py:374
+#: common/lib/xmodule/xmodule/course_module.py:341
 msgid "List of dictionaries containing pdf_textbook configuration"
 msgstr "Liste des dictionnaires contenant les configurations pdf_textbook"
 
-#: common/lib/xmodule/xmodule/course_module.py:377
+#: common/lib/xmodule/xmodule/course_module.py:344
 msgid "HTML Textbooks"
 msgstr "Manuels HTML"
 
-#: common/lib/xmodule/xmodule/course_module.py:379
+#: common/lib/xmodule/xmodule/course_module.py:346
 msgid ""
 "For HTML textbooks that appear as separate tabs in the course, enter the "
 "name of the tab (usually the title of the book) as well as the URLs and "
@@ -3436,11 +3437,11 @@ msgstr ""
 "entrer le nom de l'onglet (habituellement le nom du manuel) ainsi que les "
 "URLs et titres de tous les chapîtres dans ce manuel."
 
-#: common/lib/xmodule/xmodule/course_module.py:385
+#: common/lib/xmodule/xmodule/course_module.py:352
 msgid "Remote Gradebook"
 msgstr "Bulletin de notes distant"
 
-#: common/lib/xmodule/xmodule/course_module.py:387
+#: common/lib/xmodule/xmodule/course_module.py:354
 msgid ""
 "Enter the remote gradebook mapping. Only use this setting when "
 "REMOTE_GRADEBOOK_URL has been specified."
@@ -3453,7 +3454,7 @@ msgstr ""
 #. a role created by a course Instructor to enable a person (the "Coach") to
 #. manage the custom course for
 #. his students.
-#: common/lib/xmodule/xmodule/course_module.py:396
+#: common/lib/xmodule/xmodule/course_module.py:363
 msgid "Enable CCX"
 msgstr "Activer CXX"
 
@@ -3462,7 +3463,7 @@ msgstr "Activer CXX"
 #. a role created by a course Instructor to enable a person (the "Coach") to
 #. manage the custom course for
 #. his students.
-#: common/lib/xmodule/xmodule/course_module.py:401
+#: common/lib/xmodule/xmodule/course_module.py:368
 msgid ""
 "Allow course instructors to assign CCX Coach roles, and allow coaches to "
 "manage Custom Courses on edX. When false, Custom Courses cannot be created, "
@@ -3475,11 +3476,11 @@ msgstr ""
 
 #. Translators: Custom Courses for edX (CCX) is an edX feature for re-using
 #. course content.
-#: common/lib/xmodule/xmodule/course_module.py:409
+#: common/lib/xmodule/xmodule/course_module.py:376
 msgid "CCX Connector URL"
 msgstr "URL du Connecteur CCX"
 
-#: common/lib/xmodule/xmodule/course_module.py:412
+#: common/lib/xmodule/xmodule/course_module.py:379
 msgid ""
 "URL for CCX Connector application for managing creation of CCXs. (optional). "
 "Ignored unless 'Enable CCX' is set to 'true'."
@@ -3487,11 +3488,11 @@ msgstr ""
 "URL de l'application Connecteur CCX pour gérer la création de CCXs. "
 "(optionel). Ignoré sauf si 'Activer CCX' est initialisé a 'vrai'."
 
-#: common/lib/xmodule/xmodule/course_module.py:418
+#: common/lib/xmodule/xmodule/course_module.py:385
 msgid "Allow Anonymous Discussion Posts"
 msgstr "Permettre les messages anonymes"
 
-#: common/lib/xmodule/xmodule/course_module.py:419
+#: common/lib/xmodule/xmodule/course_module.py:386
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
@@ -3499,11 +3500,11 @@ msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les étudiants pourront créer "
 "des messages de discussion qui sont anonymes pour tous les utilisateurs."
 
-#: common/lib/xmodule/xmodule/course_module.py:423
+#: common/lib/xmodule/xmodule/course_module.py:390
 msgid "Allow Anonymous Discussion Posts to Peers"
 msgstr "Permettre les messages anonymes aux pairs"
 
-#: common/lib/xmodule/xmodule/course_module.py:425
+#: common/lib/xmodule/xmodule/course_module.py:392
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to other students. This setting does not make posts anonymous to "
@@ -3513,20 +3514,20 @@ msgstr ""
 "des messages anonymes pour les autres étudiants. Ce paramètre ne rend pas "
 "les messages anonymes pour l'équipe pédagogique du cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:431
+#: common/lib/xmodule/xmodule/course_module.py:398
 #: common/lib/xmodule/xmodule/library_root_xblock.py:34
 msgid "Advanced Module List"
 msgstr "Liste des modules avancés"
 
-#: common/lib/xmodule/xmodule/course_module.py:432
+#: common/lib/xmodule/xmodule/course_module.py:399
 msgid "Enter the names of the advanced modules to use in your course."
 msgstr "Entrer les noms des modules avancés à utiliser dans votre cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:437
+#: common/lib/xmodule/xmodule/course_module.py:404
 msgid "Course Home Sidebar Name"
 msgstr "Nom de la barre latérale de la page d'accueil du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:439
+#: common/lib/xmodule/xmodule/course_module.py:406
 msgid ""
 "Enter the heading that you want students to see above your course handouts "
 "on the Course Home page. Your course handouts appear in the right panel of "
@@ -3536,13 +3537,13 @@ msgstr ""
 "documents du cours sur la page Information sur le cours. Vos documents du "
 "cours apparaissent dans le panneau de droite de la page."
 
-#: common/lib/xmodule/xmodule/course_module.py:443
+#: common/lib/xmodule/xmodule/course_module.py:410
 #: lms/templates/courseware/info.html:115
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:163
 msgid "Course Handouts"
 msgstr "Documents du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:446
+#: common/lib/xmodule/xmodule/course_module.py:413
 msgid ""
 "True if timezones should be shown on dates in the course. Deprecated in "
 "favor of due_date_display_format."
@@ -3550,11 +3551,11 @@ msgstr ""
 "Vrai si les fuseaux horaires doivent être affichés pour les dates dans le "
 "cours. Rendu obsolète en faveur de due_date_display_format."
 
-#: common/lib/xmodule/xmodule/course_module.py:452
+#: common/lib/xmodule/xmodule/course_module.py:419
 msgid "Due Date Display Format"
 msgstr "Format de la date de remise"
 
-#: common/lib/xmodule/xmodule/course_module.py:454
+#: common/lib/xmodule/xmodule/course_module.py:421
 msgid ""
 "Enter the format for due dates. The default is Mon DD, YYYY. Enter \"%m-%d-%Y"
 "\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for YYYY-MM-DD, "
@@ -3564,21 +3565,21 @@ msgstr ""
 "\"%m-%d-%Y\" pour MM-DD-YYYY, \"%d-%m-%Y\" pour DD-MM-YYYY, \"%Y-%m-%d\" "
 "pour YYYY-MM-DD, ou \"%Y-%d-%m\" pour YYYY-DD-MM."
 
-#: common/lib/xmodule/xmodule/course_module.py:460
+#: common/lib/xmodule/xmodule/course_module.py:427
 msgid "External Login Domain"
 msgstr "Domaine de connexion externe"
 
-#: common/lib/xmodule/xmodule/course_module.py:461
+#: common/lib/xmodule/xmodule/course_module.py:428
 msgid "Enter the external login method students can use for the course."
 msgstr ""
 "Entrer la méthode de connexion externe que les étudiants peuvent utiliser "
 "pour ce cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:465
+#: common/lib/xmodule/xmodule/course_module.py:432
 msgid "Certificates Downloadable Before End"
 msgstr "Attestations téléchargeables avant la fin"
 
-#: common/lib/xmodule/xmodule/course_module.py:467
+#: common/lib/xmodule/xmodule/course_module.py:434
 msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
@@ -3587,11 +3588,11 @@ msgstr ""
 "télécharger les attestations avant la fin du cours, s'ils ont rencontré les "
 "exigences de l'attestation."
 
-#: common/lib/xmodule/xmodule/course_module.py:476
+#: common/lib/xmodule/xmodule/course_module.py:443
 msgid "Certificates Display Behavior"
 msgstr "Comportement d'affichage des attestations"
 
-#: common/lib/xmodule/xmodule/course_module.py:478
+#: common/lib/xmodule/xmodule/course_module.py:445
 msgid ""
 "Enter end, early_with_info, or early_no_info. After certificate generation, "
 "students who passed see a link to their certificates on the dashboard and "
@@ -3613,11 +3614,11 @@ msgstr ""
 "passé le cours aussitôt que les attestations sont générées, entrez "
 "early_no_info."
 
-#: common/lib/xmodule/xmodule/course_module.py:489
+#: common/lib/xmodule/xmodule/course_module.py:456
 msgid "Course About Page Image"
 msgstr "Image de la page à propos du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:491
+#: common/lib/xmodule/xmodule/course_module.py:458
 msgid ""
 "Edit the name of the course image file. You must upload this file on the "
 "Files & Uploads page. You can also set the course image on the Settings & "
@@ -3627,13 +3628,13 @@ msgstr ""
 "fichier sur la page Fichiers et téléversements. Vous pouvez aussi définit "
 "l'image de cours sur la page Dates et détails."
 
-#: common/lib/xmodule/xmodule/course_module.py:499
+#: common/lib/xmodule/xmodule/course_module.py:466
 #: cms/templates/settings.html:418 cms/templates/settings.html:422
 #: cms/templates/settings.html:434
 msgid "Course Banner Image"
 msgstr "Image de la bannière du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:501
+#: common/lib/xmodule/xmodule/course_module.py:468
 msgid ""
 "Edit the name of the banner image file. You can set the banner image on the "
 "Settings & Details page."
@@ -3641,12 +3642,12 @@ msgstr ""
 "Éditer le nom du fichier de l'image de la bannière du cours. Vous pouvez "
 "initialiser l'image de la bannière sur la page Paramètres & Détails."
 
-#: common/lib/xmodule/xmodule/course_module.py:509
+#: common/lib/xmodule/xmodule/course_module.py:476
 #: cms/templates/settings.html:451
 msgid "Course Video Thumbnail Image"
 msgstr "Image de la vignette de la vidéo du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:511
+#: common/lib/xmodule/xmodule/course_module.py:478
 msgid ""
 "Edit the name of the video thumbnail image file. You can set the video "
 "thumbnail image on the Settings & Details page."
@@ -3654,11 +3655,11 @@ msgstr ""
 "Editer le nom du fichier de l'image vidéo miniature du cours. Vous pouvez "
 "régler l'image vidéo sur la page des Paramètres & Détails."
 
-#: common/lib/xmodule/xmodule/course_module.py:519
+#: common/lib/xmodule/xmodule/course_module.py:486
 msgid "Issue Open Badges"
 msgstr "Émettre des badges ouverts"
 
-#: common/lib/xmodule/xmodule/course_module.py:521
+#: common/lib/xmodule/xmodule/course_module.py:488
 msgid ""
 "Issue Open Badges badges for this course. Badges are generated when "
 "certificates are created."
@@ -3666,7 +3667,7 @@ msgstr ""
 "Émettre des badges ouverts pour ce cours. Les badges sont générés quand les "
 "attestations sont créées."
 
-#: common/lib/xmodule/xmodule/course_module.py:529
+#: common/lib/xmodule/xmodule/course_module.py:496
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the short name of the type of certificate that students receive "
@@ -3676,11 +3677,11 @@ msgstr ""
 "Entre guillemets, entrez le nom court du cours qui sera utilisé sur "
 "l'attestation que les étudiants recevront quand ils auront complété le cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:533
+#: common/lib/xmodule/xmodule/course_module.py:500
 msgid "Certificate Name (Short)"
 msgstr "Nom de l'attestation (Court)"
 
-#: common/lib/xmodule/xmodule/course_module.py:539
+#: common/lib/xmodule/xmodule/course_module.py:506
 msgid ""
 "Use this setting only when generating PDF certificates. Between quotation "
 "marks, enter the long name of the type of certificate that students receive "
@@ -3690,27 +3691,27 @@ msgstr ""
 "Entre guillemets, entrez le nom long du cours qui sera utilisé sur "
 "l'attestation que les étudiants recevront quand ils auront complété le cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:543
+#: common/lib/xmodule/xmodule/course_module.py:510
 msgid "Certificate Name (Long)"
 msgstr "Nom de l'attestation (Long)"
 
-#: common/lib/xmodule/xmodule/course_module.py:548
+#: common/lib/xmodule/xmodule/course_module.py:515
 msgid "Certificate Web/HTML View Enabled"
 msgstr "Attestations Web/HTML activées"
 
-#: common/lib/xmodule/xmodule/course_module.py:549
+#: common/lib/xmodule/xmodule/course_module.py:516
 msgid "If true, certificate Web/HTML views are enabled for the course."
 msgstr "Si vrai, les attestations Web/HTML sont activées pour ce cours."
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
-#: common/lib/xmodule/xmodule/course_module.py:556
+#: common/lib/xmodule/xmodule/course_module.py:523
 msgid "Certificate Web/HTML View Overrides"
 msgstr "Outrepassement de la vue d'attestation Web/HTML"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
-#: common/lib/xmodule/xmodule/course_module.py:558
+#: common/lib/xmodule/xmodule/course_module.py:525
 msgid ""
 "Enter course-specific overrides for the Web/HTML template parameters here "
 "(JSON format)"
@@ -3720,23 +3721,23 @@ msgstr ""
 
 #. Translators: This field is the container for course-specific certificate
 #. configuration values
-#: common/lib/xmodule/xmodule/course_module.py:565
+#: common/lib/xmodule/xmodule/course_module.py:532
 msgid "Certificate Configuration"
 msgstr "Configuration d'attestation"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
-#: common/lib/xmodule/xmodule/course_module.py:567
+#: common/lib/xmodule/xmodule/course_module.py:534
 msgid "Enter course-specific configuration information here (JSON format)"
 msgstr ""
 "Entrer les informations de configuration spécifique au cours ici (format "
 "JSON)"
 
-#: common/lib/xmodule/xmodule/course_module.py:581
+#: common/lib/xmodule/xmodule/course_module.py:548
 msgid "CSS Class for Course Reruns"
 msgstr "Classe CSS utilisée quand le cours est réédité"
 
-#: common/lib/xmodule/xmodule/course_module.py:582
+#: common/lib/xmodule/xmodule/course_module.py:549
 msgid ""
 "Allows courses to share the same css class across runs even if they have "
 "different numbers."
@@ -3744,29 +3745,29 @@ msgstr ""
 "Permet aux cours d'utiliser la même classe css au travers des différente "
 "relances même s'ils ont des numéros différents."
 
-#: common/lib/xmodule/xmodule/course_module.py:593
+#: common/lib/xmodule/xmodule/course_module.py:560
 msgid "Discussion Forum External Link"
 msgstr "Lien externe des forums de discussions"
 
-#: common/lib/xmodule/xmodule/course_module.py:594
+#: common/lib/xmodule/xmodule/course_module.py:561
 msgid "Allows specification of an external link to replace discussion forums."
 msgstr ""
 "Permet la définition d'un lien externe pour remplacer les forums de "
 "discussions."
 
-#: common/lib/xmodule/xmodule/course_module.py:603
+#: common/lib/xmodule/xmodule/course_module.py:570
 msgid "Hide Progress Tab"
 msgstr "Cacher l'onglet de progression"
 
-#: common/lib/xmodule/xmodule/course_module.py:604
+#: common/lib/xmodule/xmodule/course_module.py:571
 msgid "Allows hiding of the progress tab."
 msgstr "Permet de cacher l'onglet de progression."
 
-#: common/lib/xmodule/xmodule/course_module.py:610
+#: common/lib/xmodule/xmodule/course_module.py:577
 msgid "Course Organization Display String"
 msgstr "Chaîne d'affichage de l'organisation du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:612
+#: common/lib/xmodule/xmodule/course_module.py:579
 msgid ""
 "Enter the course organization that you want to appear in the course. This "
 "setting overrides the organization that you entered when you created the "
@@ -3778,11 +3779,11 @@ msgstr ""
 "créé le cours. Afin d'utiliser l'organisation que vous avez entré lors de la "
 "création du cours, entrez null."
 
-#: common/lib/xmodule/xmodule/course_module.py:620
+#: common/lib/xmodule/xmodule/course_module.py:587
 msgid "Course Number Display String"
 msgstr "Chaîne d'affichage du numéro de cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:622
+#: common/lib/xmodule/xmodule/course_module.py:589
 msgid ""
 "Enter the course number that you want to appear in the course. This setting "
 "overrides the course number that you entered when you created the course. To "
@@ -3794,11 +3795,11 @@ msgstr ""
 "créé le cours. Afin d'utiliser le numéro de cours que vous avez entré lors "
 "de la création du cours, entrez null."
 
-#: common/lib/xmodule/xmodule/course_module.py:631
+#: common/lib/xmodule/xmodule/course_module.py:598
 msgid "Course Maximum Student Enrollment"
 msgstr "Nombre d'inscriptions maximum pour le cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:633
+#: common/lib/xmodule/xmodule/course_module.py:600
 msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow "
 "an unlimited number of students, enter null."
@@ -3806,11 +3807,11 @@ msgstr ""
 "Entrer le nombre maximum qui peuvent s'inscrire au cours. Pour permettre un "
 "nombre illimité d'étudiants, entrez null."
 
-#: common/lib/xmodule/xmodule/course_module.py:640
+#: common/lib/xmodule/xmodule/course_module.py:607
 msgid "Allow Public Wiki Access"
 msgstr "Permettre l'accès public au Wiki"
 
-#: common/lib/xmodule/xmodule/course_module.py:642
+#: common/lib/xmodule/xmodule/course_module.py:609
 msgid ""
 "Enter true or false. If true, edX users can view the course wiki even if "
 "they're not enrolled in the course."
@@ -3818,29 +3819,29 @@ msgstr ""
 "Entrer vrai (true) ou faux (false). Si vrai, les utilisateurs edX verront le "
 "wiki du cours même si ils ne sont pas inscrits dans le cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:650
+#: common/lib/xmodule/xmodule/course_module.py:617
 msgid "Invitation Only"
 msgstr "Sur invitation seulement"
 
-#: common/lib/xmodule/xmodule/course_module.py:651
+#: common/lib/xmodule/xmodule/course_module.py:618
 msgid "Whether to restrict enrollment to invitation by the course staff."
 msgstr ""
 "Restreindre ou non l'inscription par invitation à l'équipe pédagogique du "
 "cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:657
+#: common/lib/xmodule/xmodule/course_module.py:624
 msgid "Pre-Course Survey Name"
 msgstr "Nom du sondage pré-cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:658
+#: common/lib/xmodule/xmodule/course_module.py:625
 msgid "Name of SurveyForm to display as a pre-course survey to the user."
 msgstr "Nom du SurveyForm à afficher comme sondage pré-cours à l'étudiant."
 
-#: common/lib/xmodule/xmodule/course_module.py:665
+#: common/lib/xmodule/xmodule/course_module.py:632
 msgid "Pre-Course Survey Required"
 msgstr "Sondage pré-cours nécessaire"
 
-#: common/lib/xmodule/xmodule/course_module.py:667
+#: common/lib/xmodule/xmodule/course_module.py:634
 msgid ""
 "Specify whether students must complete a survey before they can view your "
 "course content. If you set this value to true, you must add a name for the "
@@ -3851,11 +3852,11 @@ msgstr ""
 "valeur à vrai, vous devez ajouter un nom pour le sondage dans le paramètre "
 "nom du sondage plus haut."
 
-#: common/lib/xmodule/xmodule/course_module.py:676
+#: common/lib/xmodule/xmodule/course_module.py:643
 msgid "Course Visibility In Catalog"
 msgstr "Visibilité du cours dans le catalogue"
 
-#: common/lib/xmodule/xmodule/course_module.py:678
+#: common/lib/xmodule/xmodule/course_module.py:645
 msgid ""
 "Defines the access permissions for showing the course in the course catalog. "
 "This can be set to one of three values: 'both' (show in catalog and allow "
@@ -3869,11 +3870,11 @@ msgstr ""
 "'none' (ne pas afficher dans le catalogue et ne pas permettre l'accès à la "
 "page d'information du cours)."
 
-#: common/lib/xmodule/xmodule/course_module.py:685
+#: common/lib/xmodule/xmodule/course_module.py:652
 msgid "Both"
 msgstr "Les deux"
 
-#: common/lib/xmodule/xmodule/course_module.py:686
+#: common/lib/xmodule/xmodule/course_module.py:653
 #: lms/djangoapps/branding/api.py:207 lms/djangoapps/branding/api.py:263
 #: lms/templates/footer.html:17 lms/templates/footer.html:72
 #: lms/templates/static_templates/about.html:5
@@ -3887,16 +3888,16 @@ msgstr "Les deux"
 msgid "About"
 msgstr "À propos"
 
-#: common/lib/xmodule/xmodule/course_module.py:687
+#: common/lib/xmodule/xmodule/course_module.py:654
 #: cms/templates/settings.html:561
 msgid "None"
 msgstr "Aucun"
 
-#: common/lib/xmodule/xmodule/course_module.py:691
+#: common/lib/xmodule/xmodule/course_module.py:658
 msgid "Entrance Exam Enabled"
 msgstr "Examen d'entrée activé"
 
-#: common/lib/xmodule/xmodule/course_module.py:693
+#: common/lib/xmodule/xmodule/course_module.py:660
 msgid ""
 "Specify whether students must complete an entrance exam before they can view "
 "your course content. Note, you must enable Entrance Exams for this course "
@@ -3906,11 +3907,11 @@ msgstr ""
 "voir le contenu de votre cours. Note, vous devez activer les examens "
 "d'entrée pour ce cours afin que ce paramètre prenne effet."
 
-#: common/lib/xmodule/xmodule/course_module.py:704
+#: common/lib/xmodule/xmodule/course_module.py:671
 msgid "Entrance Exam Minimum Score (%)"
 msgstr "Note minimale (%) pour l'examen d'entrée"
 
-#: common/lib/xmodule/xmodule/course_module.py:706
+#: common/lib/xmodule/xmodule/course_module.py:673
 msgid ""
 "Specify a minimum percentage score for an entrance exam before students can "
 "view your course content. Note, you must enable Entrance Exams for this "
@@ -3921,19 +3922,19 @@ msgstr ""
 "vous devez activer les examens d'entrées pour ce cours afin que ce paramètre "
 "puisse prendre effet."
 
-#: common/lib/xmodule/xmodule/course_module.py:714
+#: common/lib/xmodule/xmodule/course_module.py:681
 msgid "Entrance Exam ID"
 msgstr "Identifiant de l'examen d'entrée"
 
-#: common/lib/xmodule/xmodule/course_module.py:715
+#: common/lib/xmodule/xmodule/course_module.py:682
 msgid "Content module identifier (location) of entrance exam."
 msgstr "Identifiant du module de contenu (emplacement) pour l'examen d'entrée."
 
-#: common/lib/xmodule/xmodule/course_module.py:721
+#: common/lib/xmodule/xmodule/course_module.py:688
 msgid "Social Media Sharing URL"
 msgstr "URL de partage sur les médias sociaux"
 
-#: common/lib/xmodule/xmodule/course_module.py:723
+#: common/lib/xmodule/xmodule/course_module.py:690
 msgid ""
 "If dashboard social sharing and custom course URLs are enabled, you can "
 "provide a URL (such as the URL to a course About page) that social media "
@@ -3946,20 +3947,20 @@ msgstr ""
 "Les URLs doivent être complets. Par exemple : http://www.edx.org/course/"
 "Introduction-to-MOOCs-ITM001"
 
-#: common/lib/xmodule/xmodule/course_module.py:731
+#: common/lib/xmodule/xmodule/course_module.py:698
 #: cms/templates/settings.html:304
 msgid "Course Language"
 msgstr "Langue du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:732
+#: common/lib/xmodule/xmodule/course_module.py:699
 msgid "Specify the language of your course."
 msgstr "Spécifier la langue de votre cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:738
+#: common/lib/xmodule/xmodule/course_module.py:705
 msgid "Teams Configuration"
 msgstr "Configuration d'équipes"
 
-#: common/lib/xmodule/xmodule/course_module.py:741
+#: common/lib/xmodule/xmodule/course_module.py:708
 #, python-brace-format
 msgid ""
 "Specify the maximum team size and topics for teams inside the provided set "
@@ -3981,11 +3982,11 @@ msgstr ""
 "les seuls caractères spéciaux supportés sont soulignement, trait d'union, et "
 "point."
 
-#: common/lib/xmodule/xmodule/course_module.py:761
+#: common/lib/xmodule/xmodule/course_module.py:728
 msgid "Enable Proctored Exams"
 msgstr "Activer les examens surveillés"
 
-#: common/lib/xmodule/xmodule/course_module.py:763
+#: common/lib/xmodule/xmodule/course_module.py:730
 msgid ""
 "Enter true or false. If this value is true, proctored exams are enabled in "
 "your course. Note that enabling proctored exams will also enable timed exams."
@@ -3994,11 +3995,11 @@ msgstr ""
 "surveillés seront activés dans votre cours. Veuillez noter qu'activer les "
 "examens surveillés va aussi activer les examens minutés."
 
-#: common/lib/xmodule/xmodule/course_module.py:771
+#: common/lib/xmodule/xmodule/course_module.py:738
 msgid "Allow Opting Out of Proctored Exams"
 msgstr "Autoriser l'exclusion des examens surveillés"
 
-#: common/lib/xmodule/xmodule/course_module.py:773
+#: common/lib/xmodule/xmodule/course_module.py:740
 msgid ""
 "Enter true or false. If this value is true, learners can choose to take "
 "proctored exams without proctoring. If this value is false, all learners "
@@ -4010,12 +4011,12 @@ msgstr ""
 "tous les apprenants doivent passer l'examen avec surveillance. Ce paramètre "
 "s'applique uniquement si les examens surveillés sont activés pour le cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:782
+#: common/lib/xmodule/xmodule/course_module.py:749
 msgid "Create Zendesk Tickets For Suspicious Proctored Exam Attempts"
 msgstr ""
 "Créer les tickets Zendesk pour les tentatives d'examens surveillés suspectes"
 
-#: common/lib/xmodule/xmodule/course_module.py:784
+#: common/lib/xmodule/xmodule/course_module.py:751
 msgid ""
 "Enter true or false. If this value is true, a Zendesk ticket will be created "
 "for suspicious attempts."
@@ -4023,11 +4024,11 @@ msgstr ""
 "Entrer vrai ou faux. Si cette valeur est vrai, un ticket Zendesk sera créé "
 "pour des tentives suspectes."
 
-#: common/lib/xmodule/xmodule/course_module.py:791
+#: common/lib/xmodule/xmodule/course_module.py:758
 msgid "Enable Timed Exams"
 msgstr "Activer les examens minutés"
 
-#: common/lib/xmodule/xmodule/course_module.py:793
+#: common/lib/xmodule/xmodule/course_module.py:760
 msgid ""
 "Enter true or false. If this value is true, timed exams are enabled in your "
 "course. Regardless of this setting, timed exams are enabled if Enable "
@@ -4038,11 +4039,11 @@ msgstr ""
 "minutés sont activés si l'option Activer les examens surveillés est définie "
 "sur true."
 
-#: common/lib/xmodule/xmodule/course_module.py:801
+#: common/lib/xmodule/xmodule/course_module.py:768
 msgid "Minimum Grade for Credit"
 msgstr "Note minimale pour les crédits"
 
-#: common/lib/xmodule/xmodule/course_module.py:803
+#: common/lib/xmodule/xmodule/course_module.py:770
 msgid ""
 "The minimum grade that a learner must earn to receive credit in the course, "
 "as a decimal between 0.0 and 1.0. For example, for 75%, enter 0.75."
@@ -4051,12 +4052,12 @@ msgstr ""
 "ce cours, exprimée comme une décimale entre 0.0 et 1.0. Par example, pour "
 "75%, entrez 0.75."
 
-#: common/lib/xmodule/xmodule/course_module.py:811
+#: common/lib/xmodule/xmodule/course_module.py:778
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:226
 msgid "Self Paced"
 msgstr "À votre rythme"
 
-#: common/lib/xmodule/xmodule/course_module.py:813
+#: common/lib/xmodule/xmodule/course_module.py:780
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py:228
 msgid ""
 "Set this to \"true\" to mark this course as self-paced. Self-paced courses "
@@ -4068,11 +4069,11 @@ msgstr ""
 "étudiants peuvent progresser dans le cours à n'importe quel rythme avant la "
 "fin du cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:822
+#: common/lib/xmodule/xmodule/course_module.py:789
 msgid "Bypass Course Home"
 msgstr "Outrepasser la page d'accueil du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:824
+#: common/lib/xmodule/xmodule/course_module.py:791
 msgid ""
 "Bypass the course home tab when students arrive from the dashboard, sending "
 "them directly to course content."
@@ -4080,11 +4081,11 @@ msgstr ""
 "Outrepasser l'onglet d'accueil du cours quand les étudiants arrivent du "
 "tablea de bord, en les envoyant directement au contenu du cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:833
+#: common/lib/xmodule/xmodule/course_module.py:800
 msgid "Enable Subsection Prerequisites"
 msgstr "Activer les pré-requis de la sous-section"
 
-#: common/lib/xmodule/xmodule/course_module.py:835
+#: common/lib/xmodule/xmodule/course_module.py:802
 msgid ""
 "Enter true or false. If this value is true, you can hide a subsection until "
 "learners earn a minimum score in another, prerequisite subsection."
@@ -4093,27 +4094,27 @@ msgstr ""
 "section jusqu'à ce que les apprenants obtiennent un score minimum dans une "
 "autre sous-section pré-requise."
 
-#: common/lib/xmodule/xmodule/course_module.py:844
+#: common/lib/xmodule/xmodule/course_module.py:811
 msgid "Course Learning Information"
 msgstr "Information sur l'apprentissage dans ce cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:845
+#: common/lib/xmodule/xmodule/course_module.py:812
 msgid "Specify what student can learn from the course."
 msgstr "Indiquer ce que les étudiants peuvent apprendre dans cours."
 
-#: common/lib/xmodule/xmodule/course_module.py:865
+#: common/lib/xmodule/xmodule/course_module.py:832
 msgid "Course Instructor"
 msgstr "Enseignant du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:866
+#: common/lib/xmodule/xmodule/course_module.py:833
 msgid "Enter the details for Course Instructor"
 msgstr "Saisir les détails sur l'enseignant du cours"
 
-#: common/lib/xmodule/xmodule/course_module.py:873
+#: common/lib/xmodule/xmodule/course_module.py:840
 msgid "Add Unsupported Problems and Tools"
 msgstr "Ajouter les exercices et outils non supportés"
 
-#: common/lib/xmodule/xmodule/course_module.py:875
+#: common/lib/xmodule/xmodule/course_module.py:842
 msgid ""
 "Enter true or false. If true, you can add unsupported problems and tools to "
 "your course in Studio. Unsupported problems and tools are not recommended "
@@ -4127,11 +4128,11 @@ msgstr ""
 "raison du non-respect de l'une ou plusieurs des exigences de base, tels que "
 "les tests, l'accessibilité, l'internationalisation et la documentation."
 
-#: common/lib/xmodule/xmodule/course_module.py:882
+#: common/lib/xmodule/xmodule/course_module.py:849
 msgid "Highlights Enabled for Messaging"
 msgstr "Mise en valeur activée pour l'envoi de messages"
 
-#: common/lib/xmodule/xmodule/course_module.py:884
+#: common/lib/xmodule/xmodule/course_module.py:851
 msgid ""
 "Enter true or false. If true, any highlights associated with content in the "
 "course will be messaged to learners at their scheduled time."
@@ -4139,7 +4140,30 @@ msgstr ""
 "Entrez true ou false. Si vous entrez true, les mises en valeur associées au "
 "contenu du cours seront envoyées aux apprenants à l'heure prévue."
 
-#: common/lib/xmodule/xmodule/course_module.py:941
+#: common/lib/xmodule/xmodule/course_module.py:857
+#: cms/templates/certificates.html:108 cms/templates/certificates.html:109
+#: cms/templates/group_configurations.html:121
+#: cms/templates/group_configurations.html:122 cms/templates/settings.html:631
+#: cms/templates/settings.html:632 cms/templates/settings_advanced.html:101
+#: cms/templates/settings_advanced.html:102
+#: cms/templates/settings_graders.html:158
+#: cms/templates/settings_graders.html:159
+msgid "Other Course Settings"
+msgstr "Autres paramètres de cours"
+
+#: common/lib/xmodule/xmodule/course_module.py:859
+msgid ""
+"Any additional information about the course that the platform needs or that "
+"allows integration with external systems such as CRM software. Enter a "
+"dictionary of values in JSON format, such as { \"my_custom_setting\": \"value"
+"\", \"other_setting\": \"value\" }"
+msgstr ""
+"Toute information supplémentaire sur le cours dont la plateforme a besoin ou "
+"qui permet l'intégration avec des systèmes externes tels qu'un logiciel CRM. "
+"Entrez un dictionnaire de valeurs au format JSON, tel que "
+"{\"my_custom_setting\": \"value\", \"other_setting\": \"value\"}"
+
+#: common/lib/xmodule/xmodule/course_module.py:917
 msgid "General"
 msgstr "Général"
 
@@ -5086,7 +5110,7 @@ msgid "Home"
 msgstr "Accueil"
 
 #: common/lib/xmodule/xmodule/tabs.py:473 lms/djangoapps/courseware/tabs.py:31
-#: lms/djangoapps/courseware/views/views.py:1634
+#: lms/djangoapps/courseware/views/views.py:1638
 #: lms/djangoapps/shoppingcart/reports.py:212
 #: lms/djangoapps/shoppingcart/reports.py:262
 #: openedx/features/course_experience/__init__.py:51
@@ -6370,13 +6394,13 @@ msgstr ""
 
 #: lms/djangoapps/commerce/models.py:31
 #: openedx/core/djangoapps/catalog/models.py:25
-#: openedx/core/djangoapps/credentials/models.py:56
+#: openedx/core/djangoapps/credentials/models.py:54
 #: openedx/core/djangoapps/credit/models.py:767
 msgid "Cache Time To Live"
 msgstr "Time To Live de la Cache"
 
 #: lms/djangoapps/commerce/models.py:34
-#: openedx/core/djangoapps/credentials/models.py:59
+#: openedx/core/djangoapps/credentials/models.py:57
 #: openedx/core/djangoapps/credit/models.py:770
 msgid ""
 "Specified in seconds. Enable caching by setting this to a value greater than "
@@ -6536,12 +6560,12 @@ msgstr "Demander une attestation"
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
 msgid "{relative} ago - {absolute}"
-msgstr "{relative} depuis - {absolute}"
+msgstr "{relative} depuis - {absolute} UTC"
 
 #: lms/djangoapps/courseware/date_summary.py:123
 #, python-brace-format
 msgid "in {relative} - {absolute}"
-msgstr "dans {relative} - {absolute}"
+msgstr "dans {relative} - {absolute} UTC"
 
 #: lms/djangoapps/courseware/date_summary.py:229
 msgid "Course Starts"
@@ -6792,23 +6816,23 @@ msgstr ""
 "{sign_in_link} ou {register_link}, et inscrivez-vous au cours."
 
 #: lms/djangoapps/courseware/views/index.py:171
-#: lms/djangoapps/courseware/views/views.py:530
+#: lms/djangoapps/courseware/views/views.py:533
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py:185
 msgid "sign in"
 msgstr "se connecter"
 
 #: lms/djangoapps/courseware/views/index.py:175
-#: lms/djangoapps/courseware/views/views.py:534
+#: lms/djangoapps/courseware/views/views.py:537
 #: openedx/core/lib/xblock_builtin/xblock_discussion/xblock_discussion/__init__.py:189
 #: openedx/features/course_experience/views/course_home_messages.py:121
 msgid "register"
 msgstr "inscription"
 
-#: lms/djangoapps/courseware/views/views.py:123
+#: lms/djangoapps/courseware/views/views.py:125
 msgid "Your enrollment: Audit track"
 msgstr "Parcours d'inscription : Audit"
 
-#: lms/djangoapps/courseware/views/views.py:124
+#: lms/djangoapps/courseware/views/views.py:126
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
@@ -6816,11 +6840,11 @@ msgstr ""
 "Vous êtes inscrit dans le parcours audit pour ce cours. Le parcours audit "
 "n'inclut pas d'attestation."
 
-#: lms/djangoapps/courseware/views/views.py:131
+#: lms/djangoapps/courseware/views/views.py:133
 msgid "Your enrollment: Honor track"
 msgstr "Parcours d'inscription : Sur l'honneur"
 
-#: lms/djangoapps/courseware/views/views.py:132
+#: lms/djangoapps/courseware/views/views.py:134
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
@@ -6828,11 +6852,11 @@ msgstr ""
 "Vous êtes inscrit dans le parcours sur l'honneur pour ce cours. Le parcours "
 "sur l'honneur n'inclut pas d'attestation."
 
-#: lms/djangoapps/courseware/views/views.py:139
+#: lms/djangoapps/courseware/views/views.py:141
 msgid "We're working on it..."
 msgstr "Nous travaillons là-dessus..."
 
-#: lms/djangoapps/courseware/views/views.py:141
+#: lms/djangoapps/courseware/views/views.py:143
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
@@ -6841,29 +6865,29 @@ msgstr ""
 "dans vos cours et un lien à l'attestation apparaîtra ici et sur votre "
 "tableau de bord lorsque celle-ci sera prête."
 
-#: lms/djangoapps/courseware/views/views.py:150
+#: lms/djangoapps/courseware/views/views.py:152
 msgid "Your certificate has been invalidated"
 msgstr "Votre attestation a été invalidée."
 
-#: lms/djangoapps/courseware/views/views.py:151
+#: lms/djangoapps/courseware/views/views.py:153
 msgid "Please contact your course team if you have any questions."
 msgstr ""
 "S'il vous plaît contacter votre équipe de cours si vous avez des questions."
 
-#: lms/djangoapps/courseware/views/views.py:158
+#: lms/djangoapps/courseware/views/views.py:160
 msgid "Congratulations, you qualified for a certificate!"
 msgstr "Félicitations, vous vous qualifier pour une attestation!"
 
-#: lms/djangoapps/courseware/views/views.py:159
-#: lms/djangoapps/courseware/views/views.py:180
+#: lms/djangoapps/courseware/views/views.py:161
+#: lms/djangoapps/courseware/views/views.py:182
 msgid "You've earned a certificate for this course."
 msgstr "Vous avez obtenu une attestation pour ce cours."
 
-#: lms/djangoapps/courseware/views/views.py:166
+#: lms/djangoapps/courseware/views/views.py:168
 msgid "Certificate unavailable"
 msgstr "Attestation non disponible"
 
-#: lms/djangoapps/courseware/views/views.py:168
+#: lms/djangoapps/courseware/views/views.py:170
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
@@ -6872,16 +6896,16 @@ msgstr ""
 "Vous n'avez pas reçu une attestation car votre identité n'a pas été vérifiée "
 "avec {platform_name}."
 
-#: lms/djangoapps/courseware/views/views.py:179
+#: lms/djangoapps/courseware/views/views.py:181
 msgid "Your certificate is available"
 msgstr "Votre attestation est disponible"
 
-#: lms/djangoapps/courseware/views/views.py:528
+#: lms/djangoapps/courseware/views/views.py:531
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr "Pour voir le contenu du cours, {sign_in_link} ou {register_link}."
 
-#: lms/djangoapps/courseware/views/views.py:543
+#: lms/djangoapps/courseware/views/views.py:546
 #, python-brace-format
 msgid ""
 "You must be enrolled in the course to see course "
@@ -6891,43 +6915,43 @@ msgstr ""
 "Vous devez être inscrit au cours pour en voir le contenu. {enroll_link_start}"
 "S'inscrire maintenant{enroll_link_end}."
 
-#: lms/djangoapps/courseware/views/views.py:555
+#: lms/djangoapps/courseware/views/views.py:558
 #: openedx/features/course_experience/views/course_home_messages.py:125
 msgid "You must be enrolled in the course to see course content."
 msgstr "Vous devez être inscrit dans le cours pour en voir le contenu."
 
-#: lms/djangoapps/courseware/views/views.py:1148
+#: lms/djangoapps/courseware/views/views.py:1151
 msgid "Invalid location."
 msgstr "Emplacement invalide."
 
-#: lms/djangoapps/courseware/views/views.py:1162
+#: lms/djangoapps/courseware/views/views.py:1165
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
 msgstr "L'utilisateur {username} n'a jamais accéder au problème {location}"
 
-#: lms/djangoapps/courseware/views/views.py:1371
+#: lms/djangoapps/courseware/views/views.py:1374
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr ""
 "Vous devez être connecté sur {platform_name} afin de créer une attestation."
 
-#: lms/djangoapps/courseware/views/views.py:1381
+#: lms/djangoapps/courseware/views/views.py:1384
 msgid "Course is not valid"
 msgstr "Cours invalide"
 
-#: lms/djangoapps/courseware/views/views.py:1385
+#: lms/djangoapps/courseware/views/views.py:1388
 msgid "Your certificate will be available when you pass the course."
 msgstr "Votre attestattion sera disponible quand vous aurez complété le cours."
 
-#: lms/djangoapps/courseware/views/views.py:1398
+#: lms/djangoapps/courseware/views/views.py:1401
 msgid "Certificate has already been created."
 msgstr "L'attestation a déjà été créée."
 
-#: lms/djangoapps/courseware/views/views.py:1400
+#: lms/djangoapps/courseware/views/views.py:1403
 msgid "Certificate is being created."
 msgstr "L'attestation est en cours de création."
 
-#: lms/djangoapps/courseware/views/views.py:1502
+#: lms/djangoapps/courseware/views/views.py:1506
 #, python-brace-format
 msgid ""
 "{platform_name} now offers financial assistance for learners who want to "
@@ -6951,18 +6975,18 @@ msgstr ""
 " Nous planifions utiliser cette information afin d'évaluer votre demande "
 "d'aide financière et développer notre programme d'assistance financière."
 
-#: lms/djangoapps/courseware/views/views.py:1515
+#: lms/djangoapps/courseware/views/views.py:1519
 msgid "Annual Household Income"
 msgstr "Revenu annuel du ménage"
 
-#: lms/djangoapps/courseware/views/views.py:1517
+#: lms/djangoapps/courseware/views/views.py:1521
 msgid ""
 "Tell us about your current financial situation. Why do you need assistance?"
 msgstr ""
 "Parlez-nous de votre situation financière actuelle. Pourquoi avez-vous "
 "besoin d'assistance?"
 
-#: lms/djangoapps/courseware/views/views.py:1520
+#: lms/djangoapps/courseware/views/views.py:1524
 msgid ""
 "Tell us about your learning or professional goals. How will a Verified "
 "Certificate in this course help you achieve these goals?"
@@ -6970,7 +6994,7 @@ msgstr ""
 "Parlez-nous de votre apprentissage ou buts professionnels. Comment une "
 "attestation dans ce cours vous permettra d'atteindre ces buts?"
 
-#: lms/djangoapps/courseware/views/views.py:1524
+#: lms/djangoapps/courseware/views/views.py:1528
 msgid ""
 "Tell us about your plans for this course. What steps will you take to help "
 "you complete the course work and receive a certificate?"
@@ -6979,11 +7003,11 @@ msgstr ""
 "afin de vous aider à compléter les travaux du cours et recevoir une "
 "attestation?"
 
-#: lms/djangoapps/courseware/views/views.py:1527
+#: lms/djangoapps/courseware/views/views.py:1531
 msgid "Use between 250 and 500 words or so in your response."
 msgstr "Utiliser entre 250 et 500 mots environ dans votre réponse."
 
-#: lms/djangoapps/courseware/views/views.py:1640
+#: lms/djangoapps/courseware/views/views.py:1644
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
@@ -6993,11 +7017,11 @@ msgstr ""
 "le cours n'apparaît pas dans la liste, assurez-vous que vous vous êtes "
 "inscrit dans le parcours audit de ce cours."
 
-#: lms/djangoapps/courseware/views/views.py:1653
+#: lms/djangoapps/courseware/views/views.py:1657
 msgid "Specify your annual household income in US Dollars."
 msgstr "Indiquer votre revenu annule en dollars CDN."
 
-#: lms/djangoapps/courseware/views/views.py:1698
+#: lms/djangoapps/courseware/views/views.py:1702
 msgid ""
 "I allow edX to use the information provided in this application (except for "
 "financial information) for edX marketing purposes."
@@ -7286,34 +7310,34 @@ msgstr "Voir la discussion"
 msgid "Response to %(thread_title)s"
 msgstr "Réponse à %(thread_title)s"
 
-#: lms/djangoapps/django_comment_client/base/views.py:252
-#: lms/djangoapps/django_comment_client/base/views.py:318
+#: lms/djangoapps/django_comment_client/base/views.py:253
+#: lms/djangoapps/django_comment_client/base/views.py:319
 msgid "Title can't be empty"
 msgstr "Un titre ne peut être vide"
 
-#: lms/djangoapps/django_comment_client/base/views.py:254
-#: lms/djangoapps/django_comment_client/base/views.py:320
-#: lms/djangoapps/django_comment_client/base/views.py:361
-#: lms/djangoapps/django_comment_client/base/views.py:440
+#: lms/djangoapps/django_comment_client/base/views.py:255
+#: lms/djangoapps/django_comment_client/base/views.py:321
+#: lms/djangoapps/django_comment_client/base/views.py:362
+#: lms/djangoapps/django_comment_client/base/views.py:441
 msgid "Body can't be empty"
 msgstr "Un corps ne peut être vide"
 
-#: lms/djangoapps/django_comment_client/base/views.py:337
+#: lms/djangoapps/django_comment_client/base/views.py:338
 msgid "Topic doesn't exist"
 msgstr "Le sujet n'existe pas"
 
-#: lms/djangoapps/django_comment_client/base/views.py:410
-#: lms/djangoapps/django_comment_client/base/views.py:498
+#: lms/djangoapps/django_comment_client/base/views.py:411
+#: lms/djangoapps/django_comment_client/base/views.py:499
 msgid "Comment level too deep"
 msgstr "Niveau de commentaire trop profond"
 
-#: lms/djangoapps/django_comment_client/base/views.py:772
+#: lms/djangoapps/django_comment_client/base/views.py:774
 msgid "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 "Erreur de téléversement de fichier. S'il vous plaît contacter "
 "l'administrateur du site. Merci."
 
-#: lms/djangoapps/django_comment_client/base/views.py:775
+#: lms/djangoapps/django_comment_client/base/views.py:777
 msgid "Good"
 msgstr "Bien"
 
@@ -9935,8 +9959,7 @@ msgstr "Université"
 msgid "Course Announce Date"
 msgstr "Date de l'annonce du cours"
 
-#: lms/djangoapps/shoppingcart/reports.py:214
-#: cms/templates/course_outline.html:161 cms/templates/settings.html:218
+#: lms/djangoapps/shoppingcart/reports.py:214 cms/templates/settings.html:218
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html:35
 msgid "Course Start Date"
 msgstr "Date de début du cours"
@@ -10067,7 +10090,7 @@ msgstr "succès"
 msgid "You do not have permission to view this page."
 msgstr "Vous n'avez pas la permission de voir cette page."
 
-#: lms/djangoapps/student_account/test/test_views.py:564
+#: lms/djangoapps/student_account/test/test_views.py:561
 #: openedx/features/enterprise_support/utils.py:146
 #, python-brace-format
 msgid ""
@@ -10441,135 +10464,135 @@ msgstr "Nom de la plateforme"
 msgid "Your Platform Description Here"
 msgstr "Description de la plateforme"
 
-#: lms/envs/common.py:503
+#: lms/envs/common.py:498
 msgid "Read access"
 msgstr "Accès en lecture"
 
-#: lms/envs/common.py:504
+#: lms/envs/common.py:499
 msgid "Write access"
 msgstr "Accès en écriture"
 
-#: lms/envs/common.py:505
+#: lms/envs/common.py:500
 msgid "Know your email address"
 msgstr "Connaissez votre adresse courriel"
 
-#: lms/envs/common.py:506
+#: lms/envs/common.py:501
 msgid "Know your name and username"
 msgstr "Connaissez votre nom et nom d'utilisateur"
 
-#: lms/envs/common.py:515
+#: lms/envs/common.py:510
 msgid "Retrieve your grades for your enrolled courses"
 msgstr "Récupérez vos notes pour les cours auxquels vous êtes inscrits"
 
-#: lms/envs/common.py:516
+#: lms/envs/common.py:511
 msgid "Retrieve your course certificates"
 msgstr "Récupérez vos attestations de cours"
 
-#: lms/envs/common.py:685
+#: lms/envs/common.py:680
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:19
 msgid "Audit"
 msgstr "Audit"
 
 #. Translators: This is the website name of www.facebook.com.  Please
 #. translate this the way that Facebook advertises in your language.
-#: lms/envs/common.py:2401
+#: lms/envs/common.py:2396
 msgid "Facebook"
 msgstr "Facebook"
 
-#: lms/envs/common.py:2403
+#: lms/envs/common.py:2398
 #, python-brace-format
 msgid "Like {platform_name} on Facebook"
 msgstr "Like {platform_name} sur Facebook"
 
 #. Translators: This is the website name of www.twitter.com.  Please
 #. translate this the way that Twitter advertises in your language.
-#: lms/envs/common.py:2408
+#: lms/envs/common.py:2403
 msgid "Twitter"
 msgstr "Twitter"
 
-#: lms/envs/common.py:2410
+#: lms/envs/common.py:2405
 #, python-brace-format
 msgid "Follow {platform_name} on Twitter"
 msgstr "Suivre {platform_name} sur Twitter"
 
 #. Translators: This is the website name of www.linkedin.com.  Please
 #. translate this the way that LinkedIn advertises in your language.
-#: lms/envs/common.py:2415
+#: lms/envs/common.py:2410
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: lms/envs/common.py:2417
+#: lms/envs/common.py:2412
 #, python-brace-format
 msgid "Follow {platform_name} on LinkedIn"
 msgstr "Suivre {platform_name} sur LinkedIn"
 
 #. Translators: This is the website name of plus.google.com.  Please
 #. translate this the way that Google+ advertises in your language.
-#: lms/envs/common.py:2422
+#: lms/envs/common.py:2417
 msgid "Google+"
 msgstr "Google+"
 
-#: lms/envs/common.py:2424
+#: lms/envs/common.py:2419
 #, python-brace-format
 msgid "Follow {platform_name} on Google+"
 msgstr "Suivre {platform_name} sur Google+"
 
 #. Translators: This is the website name of www.tumblr.com.  Please
 #. translate this the way that Tumblr advertises in your language.
-#: lms/envs/common.py:2429
+#: lms/envs/common.py:2424
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #. Translators: This is the website name of www.meetup.com.  Please
 #. translate this the way that MeetUp advertises in your language.
-#: lms/envs/common.py:2435
+#: lms/envs/common.py:2430
 msgid "Meetup"
 msgstr "Meetup"
 
 #. Translators: This is the website name of www.reddit.com.  Please
 #. translate this the way that Reddit advertises in your language.
-#: lms/envs/common.py:2441
+#: lms/envs/common.py:2436
 msgid "Reddit"
 msgstr "Reddit"
 
-#: lms/envs/common.py:2443
+#: lms/envs/common.py:2438
 #, python-brace-format
 msgid "Subscribe to the {platform_name} subreddit"
 msgstr "S'inscrire au subreddit {platform_name}"
 
 #. Translators: This is the website name of https://vk.com.  Please
 #. translate this the way that VK advertises in your language.
-#: lms/envs/common.py:2448
+#: lms/envs/common.py:2443
 msgid "VK"
 msgstr "VK"
 
 #. Translators: This is the website name of http://www.weibo.com.  Please
 #. translate this the way that Weibo advertises in your language.
-#: lms/envs/common.py:2454
+#: lms/envs/common.py:2449
 msgid "Weibo"
 msgstr "Weibo"
 
 #. Translators: This is the website name of www.youtube.com.  Please
 #. translate this the way that YouTube advertises in your language.
-#: lms/envs/common.py:2460
+#: lms/envs/common.py:2455
 msgid "Youtube"
 msgstr "Youtube"
 
-#: lms/envs/common.py:2462
+#: lms/envs/common.py:2457
 #, python-brace-format
 msgid "Subscribe to the {platform_name} YouTube channel"
 msgstr "S'inscrire au canal YouTube de {platform_name}"
 
-#: lms/envs/common.py:2922
+#: lms/envs/common.py:2918
 msgid "Kosovo"
 msgstr "Kosovo"
 
-#: lms/envs/common.py:3352
+#: lms/envs/common.py:3332
 #, python-brace-format
 msgid "Welcome to {platform_name}."
 msgstr "Bienvenue sur {platform_name}."
 
-#: lms/envs/common.py:3354
+#: lms/envs/common.py:3334
 #, python-brace-format
 msgid ""
 "You have left the {start_bold}{enterprise_name}{end_bold} website and are "
@@ -10597,8 +10620,12 @@ msgstr "Vous vous êtes déconnecté."
 
 #: lms/templates/logout.html:10
 #, python-format
-msgid "If you are not redirected within 5 seconds, <a href=\"%(target)s\">click here to go to the home page</a>."
-msgstr "Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"%(target)s\">cliquer ici pour aller à la page d'accueil</a>."
+msgid ""
+"If you are not redirected within 5 seconds, <a href=\"%(target)s\">click "
+"here to go to the home page</a>."
+msgstr ""
+"Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"%(target)s\">cliquer "
+"ici pour aller à la page d'accueil</a>."
 
 #: lms/templates/main_django.html:32 cms/templates/base.html:83
 #: lms/templates/main.html:178
@@ -11231,11 +11258,11 @@ msgstr "Téléchargez l'application Android sur le Google Play Store"
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:174
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
 msgid "Our mailing address is"
-msgstr "Notre adresse email est"
+msgstr "Notre adresse postale est "
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_head.html:7
 msgid "edX Email"
-msgstr "Email d'edX"
+msgstr "Courriel d'EDUlib"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html:6
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.txt:4
@@ -11468,27 +11495,27 @@ msgstr "Une cohorte avec le même nom existe déjà."
 msgid "Credentials"
 msgstr "Crédentiels"
 
-#: openedx/core/djangoapps/credentials/models.py:33
+#: openedx/core/djangoapps/credentials/models.py:31
 msgid "Internal Service URL"
 msgstr "URL du service interne"
 
-#: openedx/core/djangoapps/credentials/models.py:37
+#: openedx/core/djangoapps/credentials/models.py:35
 msgid "Public Service URL"
 msgstr "URL du service public"
 
-#: openedx/core/djangoapps/credentials/models.py:42
+#: openedx/core/djangoapps/credentials/models.py:40
 msgid "Enable Learner Issuance"
 msgstr "Activer la délivrance d'apprenant"
 
-#: openedx/core/djangoapps/credentials/models.py:45
+#: openedx/core/djangoapps/credentials/models.py:43
 msgid "Enable issuance of credentials via Credential Service."
 msgstr "Activer la délivrance des crédentiels via le service de crédentiels."
 
-#: openedx/core/djangoapps/credentials/models.py:49
+#: openedx/core/djangoapps/credentials/models.py:47
 msgid "Enable Authoring of Credential in Studio"
 msgstr "Activer la création de crédentiels dans Studio"
 
-#: openedx/core/djangoapps/credentials/models.py:52
+#: openedx/core/djangoapps/credentials/models.py:50
 msgid "Enable authoring of Credential Service credentials in Studio."
 msgstr "Activer la création de crédentiels dans Studio."
 
@@ -12599,12 +12626,12 @@ msgstr "Cette valeur n'est pas valide."
 msgid "This field is not editable"
 msgstr "Ce champ n'est pas modifiable"
 
-#: openedx/core/lib/gating/api.py:69
+#: openedx/core/lib/gating/api.py:70
 #, python-format
 msgid "%(min_score)s is not a valid grade percentage"
 msgstr "%(min_score)s n'est pas un pourcentage de notation valide"
 
-#: openedx/core/lib/gating/api.py:184
+#: openedx/core/lib/gating/api.py:185
 #, python-brace-format
 msgid "Gating milestone for {usage_key}"
 msgstr "Jalon de contrôle pour {usage_key}"
@@ -12754,7 +12781,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Continuer"
 
-#: openedx/features/learner_profile/views/learner_profile.py:57
+#: openedx/features/learner_profile/views/learner_profile.py:58
 #, python-brace-format
 msgid ""
 "Welcome to the new learner profile page. Your full profile now displays more "
@@ -13004,11 +13031,11 @@ msgstr "Vide"
 msgid "Course has been successfully reindexed."
 msgstr "Cours réindexé avec succès."
 
-#: cms/djangoapps/contentstore/views/course.py:628
-msgid "Unscheduled"
-msgstr "Non programmé"
+#: cms/djangoapps/contentstore/views/course.py:632
+msgid "Set Date"
+msgstr "Définir une date"
 
-#: cms/djangoapps/contentstore/views/course.py:791
+#: cms/djangoapps/contentstore/views/course.py:797
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
@@ -13016,7 +13043,7 @@ msgstr ""
 "Les caractères spéciaux ne sont pas autorisés dans l'organisation, le numéro "
 "du cours, et l'exécution du cours."
 
-#: cms/djangoapps/contentstore/views/course.py:827
+#: cms/djangoapps/contentstore/views/course.py:833
 msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
@@ -13024,14 +13051,14 @@ msgstr ""
 "Il existe déjà un cours avec la même organisation et ce numérode cours. "
 "Changer soit l'organisation ou le numéro de cours pour être unique."
 
-#: cms/djangoapps/contentstore/views/course.py:832
-#: cms/djangoapps/contentstore/views/course.py:835
+#: cms/djangoapps/contentstore/views/course.py:838
+#: cms/djangoapps/contentstore/views/course.py:841
 msgid ""
 "Please change either the organization or course number so that it is unique."
 msgstr ""
 "Merci de changer l'organisme ou le numéro du Cours pour qu'il soit unique."
 
-#: cms/djangoapps/contentstore/views/course.py:840
+#: cms/djangoapps/contentstore/views/course.py:846
 #, python-brace-format
 msgid ""
 "Unable to create course '{name}'.\n"
@@ -13042,7 +13069,7 @@ msgstr ""
 "\n"
 "{err}"
 
-#: cms/djangoapps/contentstore/views/course.py:853
+#: cms/djangoapps/contentstore/views/course.py:859
 msgid ""
 "You must link this course to an organization in order to continue. "
 "Organization you selected does not exist in the system, you will need to add "
@@ -13052,24 +13079,24 @@ msgstr ""
 "L'organisation que vous avez choisi n'existe pas dans le système, vous "
 "devrez l'ajouter au système"
 
-#: cms/djangoapps/contentstore/views/course.py:1128
+#: cms/djangoapps/contentstore/views/course.py:1134
 msgid "Invalid prerequisite course key"
 msgstr "Id du cours prérequis invalide"
 
-#: cms/djangoapps/contentstore/views/course.py:1315
+#: cms/djangoapps/contentstore/views/course.py:1321
 msgid "An error occurred while trying to save your tabs"
 msgstr "Une erreur s'est produite pendant la sauvegarde de vos onglets"
 
-#: cms/djangoapps/contentstore/views/course.py:1316
+#: cms/djangoapps/contentstore/views/course.py:1322
 msgid "Tabs Exception"
 msgstr "Onglets de dérogation"
 
-#: cms/djangoapps/contentstore/views/course.py:1540
+#: cms/djangoapps/contentstore/views/course.py:1546
 msgid "This group configuration is in use and cannot be deleted."
 msgstr ""
 "Cette configuration de groupe est utilisée et ne peut pas être supprimée."
 
-#: cms/djangoapps/contentstore/views/course.py:1554
+#: cms/djangoapps/contentstore/views/course.py:1560
 msgid "This content group is in use and cannot be deleted."
 msgstr "Ce groupe de contenu est utilisé et ne peut pas être supprimé."
 
@@ -13201,7 +13228,7 @@ msgstr ""
 "de bibliothèque. S'il vous plaît changer votre code de bibliothèque de sorte "
 "qu'il est unique au sein de votre organisation."
 
-#: cms/djangoapps/contentstore/views/preview.py:285
+#: cms/djangoapps/contentstore/views/preview.py:287
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
 msgstr "Accès restreint à : {list_of_groups}"
@@ -13532,16 +13559,16 @@ msgstr ""
 msgid "Course is already in published state."
 msgstr "Le cours est déjà dans cet état de publication."
 
-#: cms/djangoapps/models/settings/course_metadata.py:179
+#: cms/djangoapps/models/settings/course_metadata.py:183
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "Format incorrect pour le champ  '{name}'. {detailed_message}"
 
-#: cms/envs/common.py:168
+#: cms/envs/common.py:166
 msgid "Your Platform Studio"
 msgstr "Votre plateforme Studio"
 
-#: cms/envs/common.py:169
+#: cms/envs/common.py:167
 msgid "Studio"
 msgstr "Studio"
 
@@ -13583,7 +13610,7 @@ msgid "Settings"
 msgstr "Paramètres"
 
 #: cms/templates/certificates.html:79 cms/templates/container.html:128
-#: cms/templates/course_outline.html:222
+#: cms/templates/course_outline.html:210
 #: cms/templates/group_configurations.html:59
 #: cms/templates/group_configurations.html:75 cms/templates/library.html:84
 #: cms/templates/manage_users.html:75 cms/templates/manage_users_lib.html:75
@@ -13603,7 +13630,7 @@ msgid "Course Number"
 msgstr "Numéro du cours"
 
 #: cms/templates/course_outline.html:13 cms/templates/course_outline.html:123
-#: cms/templates/course_outline.html:217
+#: cms/templates/course_outline.html:205
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html:47
 msgid "Course Outline"
 msgstr "Plan de cours"
@@ -13764,13 +13791,13 @@ msgid "Account"
 msgstr "Compte"
 
 #: cms/templates/widgets/header.html:226 cms/templates/widgets/header.html:239
-#: lms/templates/header/navbar-authenticated.html:71
-#: lms/templates/navigation/navbar-authenticated.html:55
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:78
+#: lms/templates/header/navbar-authenticated.html:78
+#: lms/templates/navigation/navbar-authenticated.html:62
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:85
 #: lms/templates/static_templates/help.html:5
 #: lms/templates/static_templates/help.html:10
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:66
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:68
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:73
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:75
 #: wiki/plugins/help/wiki_plugin.py:12
 msgid "Help"
 msgstr "Aide"
@@ -13993,6 +14020,8 @@ msgid "You do not have access to this dependency module."
 msgstr "Vous n'avez pas accès à ce module de dépendance."
 
 #: lms/templates/course.html:14
+#: openedx/features/journals/templates/journals/bundle_card.html:31
+#: openedx/features/journals/templates/journals/journal_card.html:14
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
 
@@ -14005,7 +14034,7 @@ msgstr "Commence"
 msgid "Starts: {date}"
 msgstr "Commence : {date}"
 
-#: lms/templates/courses_list.html:22
+#: lms/templates/courses_list.html:36
 msgid "View all Courses"
 msgstr "Voir tous les cours"
 
@@ -17138,6 +17167,7 @@ msgstr "Vous êtes inscrit dans ce cours"
 #: lms/templates/dashboard/_dashboard_course_listing.html:190
 #: lms/templates/dashboard/_dashboard_course_listing.html:198
 #: lms/templates/shoppingcart/registration_code_receipt.html:80
+#: openedx/features/journals/templates/journals/bundle_about.html:125
 msgid "View Course"
 msgstr "Voir le cours"
 
@@ -17270,8 +17300,8 @@ msgstr "Montrer les mises à jour antérieures du cours"
 msgid "List of Courses"
 msgstr "Liste des cours"
 
-#: lms/templates/courseware/courses.html:70
-#: lms/templates/courseware/courses.html:71
+#: lms/templates/courseware/courses.html:84
+#: lms/templates/courseware/courses.html:85
 msgid "Refine Your Search"
 msgstr "Affiner votre recherche"
 
@@ -17395,6 +17425,7 @@ msgstr "Acheter le programme ("
 
 #: lms/templates/courseware/program_marketing.html:94
 #: lms/templates/courseware/program_marketing.html:254
+#: openedx/features/journals/templates/journals/bundle_about.html:50
 msgid "Original Price"
 msgstr "Prix original"
 
@@ -17405,6 +17436,7 @@ msgstr "${oldPrice}"
 
 #: lms/templates/courseware/program_marketing.html:98
 #: lms/templates/courseware/program_marketing.html:259
+#: openedx/features/journals/templates/journals/bundle_about.html:54
 msgid "Discounted Price"
 msgstr "Prix réduit"
 
@@ -17504,6 +17536,7 @@ msgid "Courses in the {}"
 msgstr "Cours dans le {}"
 
 #: lms/templates/courseware/program_marketing.html:324
+#: openedx/features/journals/templates/journals/bundle_about.html:120
 msgid "Starts on {}"
 msgstr "Commence le {}"
 
@@ -19362,30 +19395,37 @@ msgstr ""
 msgid "Programs"
 msgstr "Programmes"
 
-#: lms/templates/header/navbar-authenticated.html:46
+#: lms/templates/header/navbar-authenticated.html:47
+#: lms/templates/navigation/navbar-authenticated.html:35
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:52
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:50
+msgid "Journals"
+msgstr "Journaux"
+
+#: lms/templates/header/navbar-authenticated.html:53
 #: lms/templates/header/user_dropdown.html:39
-#: lms/templates/navigation/navbar-authenticated.html:38
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:55
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:49
+#: lms/templates/navigation/navbar-authenticated.html:45
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:62
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:56
 msgid "Profile"
 msgstr "Profil"
 
-#: lms/templates/header/navbar-authenticated.html:52
+#: lms/templates/header/navbar-authenticated.html:59
 msgid "Discover New"
 msgstr "Découvrir les nouveautés"
 
 #. Translators: This is short for "System administration".
-#: lms/templates/header/navbar-authenticated.html:58
-#: lms/templates/navigation/navbar-authenticated.html:45
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:63
+#: lms/templates/header/navbar-authenticated.html:65
+#: lms/templates/navigation/navbar-authenticated.html:52
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:70
 msgid "Sysadmin"
 msgstr "Administrateur système"
 
-#: lms/templates/header/navbar-authenticated.html:66
-#: lms/templates/navigation/navbar-authenticated.html:61
-#: lms/templates/navigation/bootstrap/navbar-authenticated.html:71
+#: lms/templates/header/navbar-authenticated.html:73
+#: lms/templates/navigation/navbar-authenticated.html:68
+#: lms/templates/navigation/bootstrap/navbar-authenticated.html:78
 #: lms/templates/shoppingcart/shopping_cart.html:46
-#: themes/edx.org/lms/templates/header/navbar-authenticated.html:60
+#: themes/edx.org/lms/templates/header/navbar-authenticated.html:67
 msgid "Shopping Cart"
 msgstr "Panier"
 
@@ -21266,6 +21306,10 @@ msgstr "Afficher l'état des tâches que vous avez soumises pour ce problème."
 msgid "My Courses"
 msgstr "Mes cours"
 
+#: lms/templates/learner_dashboard/_dashboard_navigation_journals.html:7
+msgid "My Journals"
+msgstr "Mes journaux"
+
 #: lms/templates/learner_dashboard/program_details.html:11
 msgid "Program Details"
 msgstr "Détails du programme"
@@ -22579,7 +22623,7 @@ msgstr "Ce cours ne dispose d'aucune mise à niveau."
 
 #: openedx/features/course_experience/templates/course_experience/dates-summary.html:9
 msgid "Today is {date}"
-msgstr "Nous sommes le {date}"
+msgstr "Nous sommes le {date} UTC"
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html:19
 msgid "Latest Update"
@@ -22589,6 +22633,78 @@ msgstr "Dernière mise à jour"
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html:32
 msgid "Search Results"
 msgstr "Résultats de la recherche"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:48
+msgid "Purchase the Bundle ("
+msgstr "Acheter le paquet ("
+
+#: openedx/features/journals/templates/journals/bundle_about.html:96
+msgid "Courses included"
+msgstr "Cours inclus"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:134
+msgid "Journals included"
+msgstr "Journaux inclus"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:152
+msgid "{access_length} Day Access"
+msgstr "{access_length} jours d'accès"
+
+#: openedx/features/journals/templates/journals/bundle_about.html:157
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:108
+msgid "View Journal"
+msgstr "Afficher le journal"
+
+#: openedx/features/journals/templates/journals/bundle_card.html:35
+msgid "Bundle"
+msgstr "Paquet"
+
+#: openedx/features/journals/templates/journals/journal_card.html:18
+msgid "Journal"
+msgstr "Journal"
+
+#: openedx/features/journals/templates/journals/journal_card.html:32
+msgid "{num_months} month"
+msgid_plural "{num_months} months"
+msgstr[0] "{num_months} mois"
+msgstr[1] "{num_months} mois"
+
+#: openedx/features/journals/templates/journals/journal_card.html:35
+msgid "unlimited"
+msgstr "illimité"
+
+#: openedx/features/journals/templates/journals/journal_card.html:37
+#: openedx/features/journals/templates/journals/journal_card.html:44
+msgid "Access Length"
+msgstr "Durée d'accès"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:12
+msgid "Journal Dashboard"
+msgstr "Tableau de bord du journal"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:71
+msgid "{journal_title} Cover Image"
+msgstr "Image de couverture de {journal_title} "
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:84
+msgid "Access Expired: {date}"
+msgstr "Accès expiré : {date}"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:88
+msgid "Access Expires: {date}"
+msgstr "Accès expire : {date}"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:99
+msgid "Renew Access"
+msgstr "Renouveler l'accès"
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:125
+msgid "You have not purchased access to any journals yet."
+msgstr "Vous n'avez encore acheté aucun accès aux journaux."
+
+#: openedx/features/journals/templates/journals/learner_dashboard/journal_dashboard.html:127
+msgid "Explore journals and courses"
+msgstr "Explorez les journaux et les cours"
 
 #: openedx/features/learner_analytics/templates/learner_analytics/dashboard.html:35
 msgid "My Stats (Beta)"
@@ -23100,16 +23216,6 @@ msgstr ""
 msgid "Learn more about certificates"
 msgstr "En savoir plus sur les attestations"
 
-#: cms/templates/certificates.html:108 cms/templates/certificates.html:109
-#: cms/templates/group_configurations.html:121
-#: cms/templates/group_configurations.html:122 cms/templates/settings.html:631
-#: cms/templates/settings.html:632 cms/templates/settings_advanced.html:101
-#: cms/templates/settings_advanced.html:102
-#: cms/templates/settings_graders.html:158
-#: cms/templates/settings_graders.html:159
-msgid "Other Course Settings"
-msgstr "Autres paramètres de cours"
-
 #: cms/templates/certificates.html:111 cms/templates/settings_graders.html:161
 msgid "Details &amp; Schedule"
 msgstr "Dates &amp; Détails"
@@ -23551,32 +23657,16 @@ msgstr "Cliquer pour ouvrir le cours dans le LMS et un nouvel onglet"
 msgid "View Live"
 msgstr "Aperçu réel"
 
-#: cms/templates/course_outline.html:166 cms/templates/course_outline.html:168
-msgid "Edit Start Date"
-msgstr "Modifier la date de début"
-
-#: cms/templates/course_outline.html:174 cms/templates/settings.html:186
-msgid "Course Pacing"
-msgstr "Rythme du cours"
-
-#: cms/templates/course_outline.html:177 cms/templates/settings.html:200
-msgid "Self-Paced"
-msgstr "A votre rythme"
-
-#: cms/templates/course_outline.html:179 cms/templates/settings.html:195
-msgid "Instructor-Paced"
-msgstr "Au rythme de l'instructeur"
-
-#: cms/templates/course_outline.html:227
+#: cms/templates/course_outline.html:215
 msgid "Creating your course organization"
 msgstr "Création de votre structure de cours"
 
-#: cms/templates/course_outline.html:228
+#: cms/templates/course_outline.html:216
 msgid "You add sections, subsections, and units directly in the outline."
 msgstr ""
 "Vous ajoutez sections, sous-sections et unités directement dans le plan."
 
-#: cms/templates/course_outline.html:229
+#: cms/templates/course_outline.html:217
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
@@ -23584,25 +23674,25 @@ msgstr ""
 "Créez une section, puis ajoutez sous-sections et unités. Ouvrez une unité "
 "pour ajouter des composants de cours."
 
-#: cms/templates/course_outline.html:232
+#: cms/templates/course_outline.html:220
 msgid "Reorganizing your course"
 msgstr "Réorganisation de votre cours"
 
-#: cms/templates/course_outline.html:233
+#: cms/templates/course_outline.html:221
 msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr ""
 "Faites glisser les sections, sous-sections et unités à de nouveaux "
 "emplacements dans le plan."
 
-#: cms/templates/course_outline.html:235
+#: cms/templates/course_outline.html:223
 msgid "Learn more about the course outline"
 msgstr "En savoir plus à propos de l'aperçu du cours"
 
-#: cms/templates/course_outline.html:239
+#: cms/templates/course_outline.html:227
 msgid "Setting release dates and grading policies"
 msgstr "Fixer les dates de publication et les politiques de notation"
 
-#: cms/templates/course_outline.html:240
+#: cms/templates/course_outline.html:228
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
@@ -23612,15 +23702,15 @@ msgstr ""
 "définir sa date de publication. Lorsque vous configurez une sous-section, "
 "vous pouvez également définir le type de devoir et la date d'échéance."
 
-#: cms/templates/course_outline.html:242
+#: cms/templates/course_outline.html:230
 msgid "Learn more about grading policy settings"
 msgstr "Apprenez-en plus sur les paramètres de politique de notation"
 
-#: cms/templates/course_outline.html:246
+#: cms/templates/course_outline.html:234
 msgid "Changing the content learners see"
 msgstr "Modifier le contenu que les apprenants peuvent voir"
 
-#: cms/templates/course_outline.html:247
+#: cms/templates/course_outline.html:235
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection, "
 "or unit."
@@ -23628,7 +23718,7 @@ msgstr ""
 "Pour publier une ébauche de contenu, sélectionnez l'icône Publier pour une "
 "section, une sous-section, ou une unité."
 
-#: cms/templates/course_outline.html:248
+#: cms/templates/course_outline.html:236
 msgid ""
 "To make a section, subsection, or unit unavailable to learners, select the "
 "Configure icon for that level, then select the appropriate {em_start}"
@@ -23641,7 +23731,7 @@ msgstr ""
 "les sections, sous-sections et unités cachées continuent d'être incluses "
 "dans le calcul des notes."
 
-#: cms/templates/course_outline.html:249
+#: cms/templates/course_outline.html:237
 msgid ""
 "To hide the content of a subsection from learners after the subsection due "
 "date has passed, select the Configure icon for a subsection, then select "
@@ -23654,7 +23744,7 @@ msgstr ""
 "le contenu après la date d'échéance{em_end}. Les notes pour la sous-section "
 "continuent d'être incluses dans le calcul des notes. "
 
-#: cms/templates/course_outline.html:251
+#: cms/templates/course_outline.html:239
 msgid "Learn more about content visibility settings"
 msgstr "Apprenez-en plus sur les paramètres de visibilité de contenu"
 
@@ -25619,9 +25709,17 @@ msgstr "Vérification d'identité"
 msgid "In-Course Reverification {number}"
 msgstr "Revérification {number} durant le cours"
 
+#: cms/templates/settings.html:186
+msgid "Course Pacing"
+msgstr "Rythme du cours"
+
 #: cms/templates/settings.html:187
 msgid "Set the pacing for this course"
 msgstr "Définir le rythme de ce cours"
+
+#: cms/templates/settings.html:195
+msgid "Instructor-Paced"
+msgstr "Au rythme de l'instructeur"
 
 #: cms/templates/settings.html:196
 msgid ""
@@ -25632,6 +25730,10 @@ msgstr ""
 "Les cours au rythme de l'instructeur progressent selon le rythme déterminé "
 "par l'instructeur. Vous pouvez configurer des dates de disponibilité pour le "
 "contenu du cours et des dates de remise pour les travaux."
+
+#: cms/templates/settings.html:200
+msgid "Self-Paced"
+msgstr "A votre rythme"
 
 #: cms/templates/settings.html:201
 msgid ""
@@ -27941,3 +28043,8 @@ msgid ""
 "If you need help, please contact us by email at {support_email}."
 msgstr ""
 "Si vous avez besoin d'aide, veuillez nous contacter par courriel au {support_email}."
+
+#: lms/templates/logout.html:10
+#, python-format
+msgid "If you are not redirected within 5 seconds, <a href=\"https://test-cours.edulib.org/\">click here to go to the home page</a>."
+msgstr "Si vous n'êtes pas redirigé d'ici 5 secondes, <a href=\"https://test-cours.edulib.org/\">cliquer ici pour aller à la page d'accueil</a>."
