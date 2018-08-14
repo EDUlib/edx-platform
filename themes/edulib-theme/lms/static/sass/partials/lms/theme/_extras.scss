@@ -79,6 +79,10 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
     color: #fff;
 }
 
+.xmodule_display.xmodule_CapaModule .problem .capa_inputtype.textline input, .xmodule_display.xmodule_CapaModule .problem .inputtype.formulaequationinput input {
+    min-width: inherit !important;
+}
+
 
 
 
