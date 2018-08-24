@@ -5327,7 +5327,7 @@ msgstr "Ce cours est archivé, ce qui signifie que vous pouvez consulter le cont
 #: lms/djangoapps/courseware/date_summary.py:303
 #, python-brace-format
 msgid "This course is ending in {time_remaining_string} on {course_end_date}."
-msgstr "Le course termine dans {time_remaining_string} le {course_end_date}."
+msgstr "Le cours se termine dans {time_remaining_string} le {course_end_date}."
 
 #: lms/djangoapps/courseware/date_summary.py:312
 #, python-brace-format
