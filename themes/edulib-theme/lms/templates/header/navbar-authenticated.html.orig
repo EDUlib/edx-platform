@@ -60,11 +60,6 @@ from openedx.core.djangoapps.site_configuration import helpers as configuration_
           </a>
         </div>
       % endif
-      % if settings.FEATURES.get('ENABLE_SYSADMIN_DASHBOARD','') and user.is_staff:
-        <div class="mobile-nav-item hidden-mobile nav-item">
-          <a href="${reverse('sysadmin')}">${_("Sysadmin")}</a>
-        </div>
-      % endif
     % endif
 
   </div>
