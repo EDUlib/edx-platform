@@ -347,7 +347,7 @@ msgstr "Modérateur de groupe"
 
 #: common/djangoapps/django_comment_common/models.py:23
 msgid "Community TA"
-msgstr "Communauté des assistants d'enseignement"
+msgstr "Assistant d'enseignement de la communauté"
 
 #: common/djangoapps/django_comment_common/models.py:24
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:44
@@ -4601,7 +4601,7 @@ msgstr "Carrière"
 #: lms/djangoapps/branding/api.py:225 lms/djangoapps/branding/api.py:279
 #: lms/djangoapps/certificates/views/webview.py:175
 msgid "Terms of Service & Honor Code"
-msgstr "Conditions générales du service & code sur l'honneur"
+msgstr "Conditions d'utilisation & code d'honneur"
 
 #. Translators: A 'Privacy Policy' is a legal document/statement describing a
 #. website's use of personal information
