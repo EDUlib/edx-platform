@@ -7939,7 +7939,7 @@ msgstr "Réduire"
 
 #: lms/templates/shoppingcart/shopping_cart.html:123
 msgid "Remove"
-msgstr "Enlever"
+msgstr "Supprimer"
 
 #: lms/templates/shoppingcart/shopping_cart.html:137
 msgid "Discount or activation code"

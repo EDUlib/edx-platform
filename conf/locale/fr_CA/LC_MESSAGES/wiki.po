@@ -1357,7 +1357,7 @@ msgstr "Voir la source"
 
 #: wiki/templates/wiki/includes/article_menu.html:49
 msgid "View"
-msgstr "Consulter"
+msgstr "Voir"
 
 #: wiki/templates/wiki/includes/breadcrumbs.html:16
 #: wiki/templates/wiki/includes/breadcrumbs.html:42
