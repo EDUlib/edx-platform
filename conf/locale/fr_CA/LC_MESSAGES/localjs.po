@@ -28,3 +28,19 @@ msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les 
 #: common/static/common/templates/discussion/topic.underscore:6
 msgid "Add your post to a relevant topic to help others find it."
 msgstr "Ajoutez votre message à un sujet pertinent afin d'aider les autres à le trouver."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Enter and confirm your new password."
+msgstr "Entrez et confirmez votre nouveau mot de passe." 
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Confirm Password"
+msgstr "Confirmez votre mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Reset My Password"
+msgstr "Réinitalisez mon mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
