@@ -2462,7 +2462,7 @@ msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:22
 msgid "Sign in"
-msgstr "Connexion"
+msgstr "Se connecter"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:31
 msgid "Create an {platform} account"
