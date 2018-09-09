@@ -2950,13 +2950,8 @@ msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:22
 #: lms/templates/student_account/hinted_login.underscore:4
 #: lms/templates/student_account/login.underscore:43
-#, fuzzy
 msgid "Sign in"
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Connexion\n"
-"#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#\n"
-"Se connecter"
+msgstr "Se connecter"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:31
 msgid "Create an {platform} account"
@@ -11727,15 +11722,15 @@ msgstr "Ajoutez votre message à un sujet pertinent afin d'aider les autres à l
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
 msgid "Enter and confirm your new password."
-msgstr "Entrez et confirmez votre nouveau mot de passe."
+msgstr "Entrer et confirmer votre nouveau mot de passe."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
 msgid "Confirm Password"
-msgstr "Confirmez votre mot de passe"
+msgstr "Confirmer votre mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
 msgid "Reset My Password"
-msgstr "Réinitalisez mon mot de passe"
+msgstr "Réinitaliser mon mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
 msgid "Passwords do not match."

@@ -735,13 +735,8 @@ msgstr "Modérateur de groupe"
 
 #: common/djangoapps/django_comment_common/models.py:23
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:250
-#, fuzzy
 msgid "Community TA"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Communauté des assistants d'enseignement\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Assistant d'enseignement de la communauté"
+msgstr "Assistant d'enseignement de la communauté"
 
 #: common/djangoapps/django_comment_common/models.py:24
 #: lms/djangoapps/instructor/paidcourse_enrollment_report.py:44
@@ -5780,13 +5775,8 @@ msgstr "Carrière"
 #: lms/djangoapps/branding/api.py:225 lms/djangoapps/branding/api.py:279
 #: lms/djangoapps/certificates/views/webview.py:175
 #: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html:12
-#, fuzzy
 msgid "Terms of Service & Honor Code"
-msgstr ""
-"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
-"Conditions générales du service & code sur l'honneur\n"
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Conditions d'utilisation & code d'honneur"
+msgstr "Conditions d'utilisation & code d'honneur"
 
 #. #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: A 'Privacy Policy' is a legal document/statement describing a
@@ -13756,13 +13746,8 @@ msgstr "Détails"
 #: cms/templates/studio_xblock_wrapper.html:146
 #: lms/templates/wiki/includes/article_menu.html:13
 #: wiki/templates/wiki/includes/article_menu.html:49
-#, fuzzy
 msgid "View"
-msgstr ""
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Voir\n"
-"#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#\n"
-"Consulter"
+msgstr "Voir"
 
 #: cms/templates/maintenance/_force_publish_course.html:27
 #: lms/templates/problem.html:57
@@ -22008,13 +21993,8 @@ msgstr "Réduire"
 
 #: lms/templates/shoppingcart/shopping_cart.html:123
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:36
-#, fuzzy
 msgid "Remove"
-msgstr ""
-"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
-"Enlever\n"
-"#-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#\n"
-"Supprimer"
+msgstr "Supprimer"
 
 #: lms/templates/shoppingcart/shopping_cart.html:137
 msgid "Discount or activation code"
