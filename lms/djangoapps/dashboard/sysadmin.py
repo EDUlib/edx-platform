@@ -340,13 +340,20 @@ class Courses(SysadminDashboardView):
         """This pulls out some git info like the last commit"""
 
         cmd = ''
-        gdir = settings.DATA_DIR / cdir
+        #####gdir = settings.DATA_DIR / cdir
+        asciistring = settings.DATA_DIR + "/" + cdir
+        gdir = asciistring.encode("ascii")
         info = ['', '', '']
 
         # Try the data dir, then try to find it in the git import dir
-        if not gdir.exists():
-            gdir = path(git_import.DEFAULT_GIT_REPO_DIR) / cdir
-            if not gdir.exists():
+        #####if not gdir.exists():
+        if not path(gdir).exists():
+            git_repo_dir = getattr(settings, 'GIT_REPO_DIR', git_import.DEFAULT_GIT_REPO_DIR)
+            #####gdir = path(git_repo_dir) / cdir
+            asciistring = path(git_repo_dir) + "/" + cdir
+            gdir = asciistring.encode("ascii")
+            #####if not gdir.exists():
+            if not path(gdir).exists():
                 return info
 
         cmd = ['git', 'log', '-1',
