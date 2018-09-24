@@ -17173,7 +17173,7 @@ msgid "Enrollment is Closed"
 msgstr "Les inscriptions sont fermées"
 
 #: lms/templates/courseware/course_about.html:167
-msgid "Add {course_name} to Cart <span>({price} USD)</span>"
+msgid "Add {course_name} to Cart <span>({price} CAD)</span>"
 msgstr "Ajoutez {course_name} au panier <span>({price} CAD)</span>"
 
 #: lms/templates/courseware/course_about.html:183
@@ -17501,8 +17501,8 @@ msgid "{number_of_courses} courses in program"
 msgstr "{number_of_courses} cours dans le programme"
 
 #: lms/templates/courseware/program_marketing.html:249
-msgid "Price (USD)"
-msgstr "Prix (USD)"
+msgid "Price (CAD)"
+msgstr "Prix (CAD)"
 
 #: lms/templates/courseware/program_marketing.html:260
 msgid "${newPrice}{htmlEnd} for entire program"
