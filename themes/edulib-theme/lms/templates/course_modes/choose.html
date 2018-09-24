@@ -136,12 +136,12 @@ from openedx.features.portfolio_project import INCLUDE_PORTFOLIO_UPSELL_MODAL
                                       <input type="hidden" name="contribution" value="${min_price}" />
                                       <!-- The class verified_mode should be added to this selector if the experiment is implemented-->
                                       <div class="upgradev1">
-                                        <input type="submit" name="verified_mode" value="Upgrade to a Certificate ($${min_price} USD)" />
+                                        <input type="submit" name="verified_mode" value="Upgrade to a Certificate ($${min_price} CAD)" />
                                       </div>
                                       <div class="upgradev2 hidden">
-                                          <button type="submit" name="verified_mode">Upgrade to a Certificate (<del>$${min_price} USD</del>)</button>
+                                          <button type="submit" name="verified_mode">Upgrade to a Certificate (<del>$${min_price} CAD</del>)</button>
                                           <br>
-                                          <div class="savings-message">Save 5% if you upgrade now! ($${int(min_price * .95)} USD)</div>
+                                          <div class="savings-message">Save 5% if you upgrade now! ($${int(min_price * .95)} CAD)</div>
                                       </div>
                                     </li>
                                   </ul>
@@ -169,7 +169,7 @@ from openedx.features.portfolio_project import INCLUDE_PORTFOLIO_UPSELL_MODAL
                                                     <ul class="list-actions">
                                                         <li class="action action-select">
                                                             <input type="hidden" name="contribution" value="${min_price}" />
-                                                            <input type="submit" name="verified_mode" value="${_('Pursue a Verified Certificate')} ($${min_price} USD)" />
+                                                            <input type="submit" name="verified_mode" value="${_('Pursue a Verified Certificate')} ($${min_price} CAD)" />
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -196,7 +196,7 @@ from openedx.features.portfolio_project import INCLUDE_PORTFOLIO_UPSELL_MODAL
                                                     <ul class="list-actions">
                                                         <li class="action action-select">
                                                             <input type="hidden" name="contribution" value="${min_price}" />
-                                                            <input type="submit" name="verified_mode" value="${_('Pursue a Verified Certificate')} ($${min_price} USD)" />
+                                                            <input type="submit" name="verified_mode" value="${_('Pursue a Verified Certificate')} ($${min_price} CAD)" />
                                                         </li>
                                                     </ul>
                                                 </div>
