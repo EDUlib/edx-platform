@@ -5544,7 +5544,7 @@ msgstr "S'il vous plaît contacter votre équipe de cours si vous avez des quest
 
 #: lms/djangoapps/courseware/views/views.py:160
 msgid "Congratulations, you qualified for a certificate!"
-msgstr "Félicitations, vous vous qualifier pour une attestation!"
+msgstr "Félicitations, vous vous qualifiez pour une attestation!"
 
 #: lms/djangoapps/courseware/views/views.py:161
 #: lms/djangoapps/courseware/views/views.py:182
