@@ -31,7 +31,7 @@ class StudentAccountDeletionConfirmationModal extends React.Component {
     this.props.onClose();
 
     removeLoggedInCookies();
-    window.location.href = 'https://www.edulib.org';
+    window.location.href = 'https://cours.edulib.org';
   }
 
   deleteAccount() {
