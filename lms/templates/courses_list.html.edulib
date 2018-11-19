@@ -1,0 +1,26 @@
+<%page expression_filter="h"/>
+<%namespace name='static' file='static_content.html'/>
+<%! from django.utils.translation import ugettext as _ %>
+
+<%! from openedx.core.djangolib.markup import HTML, Text %>
+<%! from xmodule.modulestore.django import modulestore %>
+
+<section class="courses-container">
+  <section class="highlighted-courses">
+
+    % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+      <section class="courses">
+          <ul class="courses-listing">
+          %for course in sorted(modulestore().get_courses(), key=lambda x: x.start, reverse=True):
+               %if ((course.has_started() and not course.has_ended()) or (not course.has_started())) and course.catalog_visibility=="both":
+                   <li class="courses-listing-item">
+                       <%include file="course-edulib.html" args="course=course" />
+                   </li>
+               %endif
+          %endfor
+          </ul>
+      </section>
+    % endif
+
+  </section>
+</section>
