@@ -165,6 +165,7 @@ class ProctoringFields(object):
 @XBlock.wants('completion')
 @XBlock.needs('user')
 @XBlock.needs('bookmarks')
+@XBlock.needs('i18n')
 class SequenceModule(SequenceFields, ProctoringFields, XModule):
     """
     Layout module which lays out content in a temporal sequence
@@ -305,6 +306,7 @@ class SequenceModule(SequenceFields, ProctoringFields, XModule):
         sequential.  If banner_text is given, it is added to the
         content.
         """
+        _ = self.runtime.service(self, "i18n").ugettext
         display_items = self.get_display_items()
         self._update_position(context, len(display_items))
         prereq_met = True
