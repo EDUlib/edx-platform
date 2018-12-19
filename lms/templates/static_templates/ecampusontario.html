@@ -1,0 +1,144 @@
+<%page expression_filter="h"/>    
+    
+<%! from xmodule.modulestore.django import modulestore %>
+<%! from django.utils.translation import ugettext as _ %>
+<%! from django.core.urlresolvers import reverse %>
+
+<%inherit file="../main.html" />
+<%namespace name='static' file='../static_content.html'/>
+
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">eCampusOntario</%block>
+    
+<%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
+
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
+default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
+
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
+logo_alt_text = "EDUlib Logo"
+%>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        
+        <h1><img src="/static/images/edulib-theme/institutions/ecampusontario.png" alt="eCampusOntario" width="600" height="200" /></h1>
+        
+        <div lang="fr">
+            <p>eCampusOntario est un organisme sans but lucratif financé par le gouvernement d’Ontario comme Centre d’excellence en apprentissage en ligne et assisté par la technologie pour les universités et établissements d’enseignement supérieur publics de l’Ontario.</p>
+
+            <p><a href="https://www.ecampusontario.ca/fr/" onclick="window.open(this.href);return false;">https://www.ecampusontario.ca/fr/</a></p>
+        </div>
+
+        <div lang="en">
+            <p>eCampusOntario, a not-for-profit corporation, is funded by the Government of Ontario to be a centre of excellence in online and technology-enabled learning for all publicly-funded colleges and universities in Ontario.</p>
+
+            <p><a href="https://www.ecampusontario.ca" onclick="window.open(this.href);return false;">https://www.ecampusontario.ca</a></p>
+        </div>
+        
+        
+        
+    <section class="home">
+        %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+        %endif
+
+        <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                   if not course.has_started() and course.org.lower() == "ecampusontario" and course.catalog_visibility == "both" :
+                      counter += 1
+        %>
+
+        %if counter !=0 :
+            <h1>${_("Coming Soon")}</h1>
+        %endif
+
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                %if not course.has_started() and course.org.lower() == "ecampusontario" and not course.has_ended() and course.catalog_visibility == "both" :
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
+
+            %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+                <% counter = 0 %>
+            %endif
+
+            <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
+                   if course.has_started() and not course.has_ended() and course.org.lower() == "ecampusontario" and course.catalog_visibility == "both" :
+                      counter += 1
+            %>
+
+            %if counter !=0 :
+                <h1>${_("In Progress")}</h1>
+            %endif
+
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="ecampusontario" and course.catalog_visibility=="both":
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                           %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
+                                % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="ecampusontario" and course.catalog_visibility=="both":
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
+
+            %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+                <% counter  = 0  %>
+            %endif
+
+            <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                   if course.has_ended() and course.org.lower() == "ecampusontario" and course.catalog_visibility == "both" :
+                      counter += 1
+            %>
+
+            %if counter !=0 :
+                <h1>${_("Completed")}</h1>
+            %endif
+
+            <section class="courses-container">
+                <section class="highlighted-courses">
+                    <section class="courses">
+                       <ul class="courses-listing">
+                           %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
+                                %if course.has_ended() and course.org.lower() == "ecampusontario" and course.catalog_visibility == "both" :
+                                    <li class="courses-listing-item">
+                                        <%include file="../course-edulib.html" args="course=course" />
+                                    </li>
+                                %endif
+                           %endfor
+                       </ul>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+    </section>
+</main>
