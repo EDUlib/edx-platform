@@ -18543,7 +18543,7 @@ msgid ""
 "able to log back into your account until you have activated it."
 msgstr ""
 "Vous y êtes presque! Utilisez le lien pour activer votre compte et accéder à "
-"des cours attrayants et d haute qualité sur {platform_name}. Notez que vous "
+"des cours attrayants et de haute qualité sur {platform_name}. Notez que vous "
 "ne pourrez pas vous reconnecter à votre compte avant de l'avoir activé."
 
 #: lms/templates/emails/activation_email.txt:12
