@@ -6662,7 +6662,7 @@ msgid ""
 msgstr ""
 "Vous êtes encore admissible à une mise à jour à une attestation! Obtenez-la "
 "pour mettre en évidence les connaissances et les compétences que vous aurez "
-"obtenu dans ce cours."
+"obtenues dans ce cours."
 
 #. Translators: This describes the time by which the user
 #. should upgrade to the verified track. 'date' will be
