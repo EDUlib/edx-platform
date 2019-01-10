@@ -22,11 +22,6 @@
 }
 
 // ----------------------------
-// #CONFIG
-// ----------------------------
-$static-theme-path: '..';
-
-// ----------------------------
 // #COLORS
 // ----------------------------
 
@@ -52,7 +47,7 @@ $gray-2: rgb(200, 200, 200);
 // ----------------------------
 
 // homepage, onboarding, and course discovery
-$homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
+$homepage-bg-image: url('../images/edulib-theme/nuages.jpg');
 
 
 
@@ -67,10 +62,43 @@ $homepage-bg-image: url('#{$static-theme-path}/images/edulib-theme/nuages.jpg');
 //  Correctifs
 //-----------------
 
+div.btn-brand.btn-login {
+    background: none !important;
+    margin-bottom: 1em;
+}
 
+#footer-edx-v3 .container {
+    background: none !important;
+}
 
+.login .form-actions.form-third-party-auth button[type="submit"], .register .form-actions.form-third-party-auth button[type="submit"], .passwordreset .form-actions.form-third-party-auth button[type="submit"], #forgot-password-modal #password-reset .form-actions.form-third-party-auth button[type="submit"] {
+
+    margin-right: 0 !important;
+    margin-bottom: 5px !important;
+}
 
 div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date, .course-updates .all-updates .updates-article .date {display: none !important;}
+
+
+.find-courses, .university-profile {
+    background: none !important;
+}
+
+
+
+
+
+@media screen  and (min-width: 980px) {
+    .find-courses .courses-container .courses:not(.no-course-discovery), .university-profile .courses-container .courses:not(.no-course-discovery) {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    
+    .find-courses .courses-container .courses:not(.no-course-discovery) .courses-listing .courses-listing-item, .university-profile .courses-container .courses:not(.no-course-discovery) .courses-listing .courses-listing-item {
+        width: 30% !important;
+    }
+}
+
 
 
 .mobile-nav-link a.btn, .mobile-nav-link a.btn:visited {
@@ -91,9 +119,7 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
     text-align: right;
 }
 
-.find-courses, .university-profile {
-    background: none !important;
-}
+
 
 
 //-----------------
@@ -241,6 +267,28 @@ div.info-wrapper section.updates article h2:first-child, div.info-wrapper sectio
 
 section.about h3, section.about h4, section.course-staff h3, section.course-staff h4 {
     margin: 2em 0 1em 0 !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta > a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+    
+    background-image: linear-gradient(to bottom,rgba(0, 117, 180, 0.5) 0%,rgba(0, 67, 147, 0.5) 50%,rgba(0, 42, 132, 0.5) 50%,rgba(0, 47, 134, 0.5) 100%) !important;
+    
+    border-color: rgba(0, 6, 99, 1);
+    border-bottom-color: rgba(0, 0, 58, 1);
+    
+    /*
+    animation-name: inscription;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    */
+    
+}
+
+
+@keyframes inscription {
+    0%   {background-color: #0075b4; border-color: rgba(0, 6, 99, 1); border-bottom-color: rgba(0, 0, 58, 1);}
+    50%  {background-color: #ffffff; border-color: rgba(0, 6, 99, 0.1); border-bottom-color: rgba(0, 0, 58, 0.1);}
+    100% {background-color: #0075b4; border-color: rgba(0, 6, 99, 1); border-bottom-color: rgba(0, 0, 58, 1);}
 }
 
 
