@@ -312,6 +312,7 @@ def update_account_settings(requesting_user, update, username=None):
                 user_message=text_type(err)
             )
 
+
 @helpers.intercept_errors(errors.UserAPIInternalError, ignore_errors=[errors.UserAPIRequestError])
 @transaction.atomic
 def create_account(username, password, email):
