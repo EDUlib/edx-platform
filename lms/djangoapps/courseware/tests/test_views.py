@@ -1402,19 +1402,11 @@ class ProgressPageTests(ProgressPageBaseTests):
             certificates[0]['is_active'] = False
             self.store.update_item(self.course, self.user.id)
 
-<<<<<<< HEAD
                 resp = self._get_progress_page()
                 self.assertNotContains(resp, u"View Your Certificate")
                 self.assertNotContains(resp, u"You can now view your certificate")
                 self.assertContains(resp, "Your certificate is available")
                 self.assertContains(resp, "earned a certificate for this course.")
-=======
-            resp = self._get_progress_page()
-            self.assertNotContains(resp, u"View Your Certificate")
-            self.assertNotContains(resp, u"You can now view your certificate")
-            self.assertContains(resp, "working on it...")
-            self.assertContains(resp, "creating your certificate")
->>>>>>> Reverse change of commit 25130ae3c8333e5353ab88860c76619ebb9098f9
 
     @patch('lms.djangoapps.certificates.api.get_active_web_certificate', PropertyMock(return_value=True))
     @patch.dict('django.conf.settings.FEATURES', {'CERTIFICATES_HTML_VIEW': False})
@@ -1707,7 +1699,6 @@ class ProgressPageTests(ProgressPageBaseTests):
         self.assertNotContains(response, bannerText, html=True)
 
     @patch('courseware.views.views.is_course_passed', PropertyMock(return_value=True))
-<<<<<<< HEAD
     @patch('lms.djangoapps.certificates.api.get_active_web_certificate', PropertyMock(return_value=True))
     def test_message_for_honor_mode(self):
         """ Verify that message appears on progress page, if learner is enrolled
@@ -1729,8 +1720,6 @@ class ProgressPageTests(ProgressPageBaseTests):
                 u'You are enrolled in the honor track for this course. The honor track does not include a certificate.'
             )
 
-=======
->>>>>>> Reverse change of commit 25130ae3c8333e5353ab88860c76619ebb9098f9
     def test_invalidated_cert_data(self):
         """
         Verify that invalidated cert data is returned if cert is invalidated.
