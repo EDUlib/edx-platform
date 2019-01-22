@@ -446,10 +446,6 @@ def send_mail_to_student(student, param_dict, language=None):
     """
 
     # Add some helpers and microconfig subsitutions
-    # For EDUlib
-    #####language = 'fr'
-    # For EDUlib
-
     if 'display_name' in param_dict:
         param_dict['course_name'] = param_dict['display_name']
     elif 'course' in param_dict:
