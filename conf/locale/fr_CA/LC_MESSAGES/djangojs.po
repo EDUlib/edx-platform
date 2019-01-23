@@ -1,6 +1,6 @@
 # #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2018 EdX
+# Copyright (C) 2019 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -26,13 +26,14 @@
 # Linda B.A <siria242@gmail.com>, 2016
 # Manjari <mringuet@gmail.com>, 2014
 # Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
+# Muhammad Ayub khan <ayubkhan@edx.org>, 2018
 # natg94 <bgenson@voo.be>, 2015
 # Olivier Lebon <oliv.lebon@wanadoo.fr>, 2015
 # Olivier Marquez <oliviermarquez@gmail.com>, 2013,2015
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2019
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Régis Behmo <transifex.stuff@behmo.com>, 2016
@@ -54,7 +55,7 @@
 # d6910e756eb8532754192e6021dc9f83, 2015
 # #-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2018 EdX
+# Copyright (C) 2019 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -86,7 +87,7 @@
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2019
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Régis Behmo <transifex.stuff@behmo.com>, 2016
@@ -108,7 +109,7 @@
 # d6910e756eb8532754192e6021dc9f83, 2015
 # #-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2018 edX
+# Copyright (C) 2019 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -165,7 +166,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2019
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -192,7 +193,7 @@
 # Андрей Поляков <polyakov.andrey@gmail.com>, 2016
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2018 edX
+# Copyright (C) 2019 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
@@ -249,7 +250,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2019
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -280,8 +281,8 @@ msgstr ""
 "#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
-"PO-Revision-Date: 2018-08-08 21:35+0000\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
+"PO-Revision-Date: 2019-01-09 22:33+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
@@ -293,10 +294,9 @@ msgstr ""
 "#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
-"PO-Revision-Date: 2018-08-05 20:44+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx."
-"org>\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
+"PO-Revision-Date: 2019-01-03 17:16+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -307,8 +307,8 @@ msgstr ""
 "#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
-"PO-Revision-Date: 2018-08-06 02:04+0000\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
+"PO-Revision-Date: 2019-01-03 17:02+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
@@ -321,8 +321,8 @@ msgstr ""
 "#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#\n"
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
-"PO-Revision-Date: 2018-07-10 19:32+0000\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
+"PO-Revision-Date: 2019-01-16 22:31+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-"
 "platform/language/fr_CA/)\n"
@@ -341,7 +341,7 @@ msgstr ""
 #: cms/static/js/views/course_info_update.js:172
 #: cms/static/js/views/edit_textbook.js:63
 #: cms/static/js/views/list_item_editor.js:38
-#: cms/static/js/views/modals/edit_xblock.js:166 cms/static/js/views/tabs.js:85
+#: cms/static/js/views/modals/edit_xblock.js:174 cms/static/js/views/tabs.js:85
 #: cms/static/js/views/tabs.js:117
 #: cms/static/js/views/utils/xblock_utils.js:204
 #: cms/static/js/views/utils/xblock_utils.js:219
@@ -361,8 +361,8 @@ msgstr "Sauvegarde en cours"
 #: cms/templates/js/content-group-editor.underscore:37
 #: cms/templates/js/content-group-editor.underscore:41
 #: cms/templates/js/course-instructor-details.underscore:41
-#: cms/templates/js/course-outline.underscore:154
-#: cms/templates/js/course-outline.underscore:156
+#: cms/templates/js/course-outline.underscore:160
+#: cms/templates/js/course-outline.underscore:162
 #: cms/templates/js/course-settings-learning-fields.underscore:4
 #: cms/templates/js/course_grade_policy.underscore:33
 #: cms/templates/js/course_info_update.underscore:27
@@ -411,9 +411,9 @@ msgstr "Supprimer"
 #: cms/templates/js/signatory-actions.underscore:4
 #: cms/templates/js/xblock-string-field-editor.underscore:14
 #: common/static/common/templates/discussion/new-post.underscore:6
-#: common/static/common/templates/discussion/new-post.underscore:72
+#: common/static/common/templates/discussion/new-post.underscore:73
 #: common/static/common/templates/discussion/response-comment-edit.underscore:8
-#: common/static/common/templates/discussion/thread-edit.underscore:18
+#: common/static/common/templates/discussion/thread-edit.underscore:19
 #: common/static/common/templates/discussion/thread-response-edit.underscore:8
 #: lms/djangoapps/support/static/support/templates/enrollment-modal.underscore:25
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:55
@@ -433,7 +433,7 @@ msgstr "Téléversement en cours"
 #. browser when a user needs to edit HTML
 #. */
 #: cms/static/js/views/active_video_upload.js:45
-#: cms/static/js/views/modals/edit_xblock.js:115
+#: cms/static/js/views/modals/edit_xblock.js:119
 #: cms/static/js/views/video_transcripts.js:324
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:321
 #: lms/static/js/student_account/tos_modal.js:48
@@ -569,8 +569,8 @@ msgid "Your changes have been saved."
 msgstr "Vos modifications ont été sauvegardées."
 
 #: cms/static/js/views/xblock_validation.js:52
-#: common/static/common/js/discussion/utils.js:201
-#: common/static/common/js/discussion/utils.js:238
+#: common/static/common/js/discussion/utils.js:204
+#: common/static/common/js/discussion/utils.js:241
 #: common/static/common/js/discussion/views/discussion_inline_view.js:194
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:324
 #: common/static/common/js/discussion/views/discussion_thread_view.js:220
@@ -2236,7 +2236,7 @@ msgstr ""
 msgid "Explanation"
 msgstr "Explication"
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:322
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:328
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -2244,7 +2244,7 @@ msgstr ""
 "Erreur de séquence! Impossible de se rendre à %(tab_name)s dans le module "
 "SequenceModule en cours. Veuillez contacter les responsables du cours."
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:436
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:442
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
 msgid "Bookmarked"
 msgstr "Ajouté aux favoris"
@@ -2517,27 +2517,27 @@ msgstr "Affiche {firstIndex} sur {numItems} au total"
 msgid "Showing {firstIndex}-{lastIndex} out of {numItems} total"
 msgstr "Affiche {firstIndex}-{lastIndex} sur {numItems} au total"
 
-#: common/static/common/js/discussion/utils.js:145
+#: common/static/common/js/discussion/utils.js:148
 msgid "Loading content"
 msgstr "Chargement du contenu"
 
-#: common/static/common/js/discussion/utils.js:202
+#: common/static/common/js/discussion/utils.js:205
 msgid "Your request could not be processed. Refresh the page and try again."
 msgstr ""
 "Votre demande n'a pas pu être traitée. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/utils.js:472
-#: common/static/common/js/discussion/utils.js:496
+#: common/static/common/js/discussion/utils.js:475
+#: common/static/common/js/discussion/utils.js:498
 #: common/static/common/templates/discussion/pagination.underscore:10
 #: common/static/common/templates/discussion/pagination.underscore:22
 msgid "…"
 msgstr "…"
 
-#: common/static/common/js/discussion/utils.js:509
+#: common/static/common/js/discussion/utils.js:511
 msgid "Some images in this post have been omitted"
 msgstr "Quelques images dans ce message ont été omises"
 
-#: common/static/common/js/discussion/utils.js:515
+#: common/static/common/js/discussion/utils.js:517
 msgid "image omitted"
 msgstr "image omise"
 
@@ -2729,7 +2729,7 @@ msgstr "Afficher toutes les réponses"
 msgid "Load next {numResponses} responses"
 msgstr "Télécharger les {numResponses} réponses suivantes"
 
-#: common/static/common/js/discussion/views/discussion_thread_view.js:452
+#: common/static/common/js/discussion/views/discussion_thread_view.js:456
 msgid "Are you sure you want to delete this post?"
 msgstr "Voulez-vous vraiment supprimer ce message ?"
 
@@ -2752,7 +2752,7 @@ msgid "This comment could not be deleted. Refresh the page and try again."
 msgstr ""
 "Ce commentaire n'a pas pu être supprimé. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/views/thread_response_view.js:229
+#: common/static/common/js/discussion/views/thread_response_view.js:230
 msgid "Are you sure you want to delete this response?"
 msgstr "Voulez-vous vraiment supprimer cette réponse ?"
 
@@ -2936,7 +2936,7 @@ msgid "Details"
 msgstr "Détails"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:96
-#: common/static/common/templates/discussion/new-post.underscore:71
+#: common/static/common/templates/discussion/new-post.underscore:72
 #: common/static/common/templates/discussion/thread-response.underscore:18
 #: common/static/common/templates/discussion/thread.underscore:32
 #: lms/templates/verify_student/incourse_reverify.underscore:47
@@ -2950,8 +2950,13 @@ msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:22
 #: lms/templates/student_account/hinted_login.underscore:4
 #: lms/templates/student_account/login.underscore:43
+#, fuzzy
 msgid "Sign in"
-msgstr "Se connecter"
+msgstr ""
+"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
+"Connexion\n"
+"#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#\n"
+"Se connecter"
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:31
 msgid "Create an {platform} account"
@@ -3044,7 +3049,7 @@ msgstr ""
 "caractères)."
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js:59
-#: lms/static/js/student_account/views/account_settings_factory.js:162
+#: lms/static/js/student_account/views/account_settings_factory.js:172
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:145
 msgid "Language"
 msgstr "Langue"
@@ -3716,7 +3721,7 @@ msgid "HTML preview of post"
 msgstr "Aperçu HTML du message"
 
 #: lms/static/js/customwmd.js:200
-#: common/static/common/templates/discussion/new-post.underscore:47
+#: common/static/common/templates/discussion/new-post.underscore:48
 msgid "Your question or idea (required)"
 msgstr "Votre question ou idée (requis)"
 
@@ -3947,7 +3952,7 @@ msgid "Unable to submit application"
 msgstr "Incapable de soumettre votre demande"
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:103
-#: lms/static/js/student_account/views/LoginView.js:181
+#: lms/static/js/student_account/views/LoginView.js:201
 msgid "An error has occurred. Check your Internet connection and try again."
 msgstr ""
 "Une erreur est survenue. Vérifiez votre connexion internet et réessayez de "
@@ -4246,7 +4251,7 @@ msgstr "Marquer le code d'inscription comme non utilisé"
 
 #: lms/static/js/instructor_dashboard/membership.js:111
 #: lms/static/js/instructor_dashboard/membership.js:116
-#: lms/static/js/student_account/views/account_settings_factory.js:136
+#: lms/static/js/student_account/views/account_settings_factory.js:146
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:98
 #: cms/templates/js/transcript-organization-credentials.underscore:33
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:9
@@ -4540,20 +4545,33 @@ msgstr ""
 msgid "Send to:"
 msgstr "Envoyez à : "
 
-#: lms/static/js/instructor_dashboard/student_admin.js:78
-#: lms/static/js/instructor_dashboard/student_admin.js:108
-#: lms/static/js/instructor_dashboard/student_admin.js:149
-#: lms/static/js/instructor_dashboard/student_admin.js:201
-#: lms/static/js/instructor_dashboard/student_admin.js:236
-#: lms/static/js/instructor_dashboard/student_admin.js:308
-#: lms/static/js/instructor_dashboard/student_admin.js:453
-#: lms/static/js/instructor_dashboard/student_admin.js:502
-#: lms/static/js/instructor_dashboard/student_admin.js:553
+#: lms/static/js/instructor_dashboard/student_admin.js:83
+#: lms/static/js/instructor_dashboard/student_admin.js:114
+#: lms/static/js/instructor_dashboard/student_admin.js:144
+#: lms/static/js/instructor_dashboard/student_admin.js:185
+#: lms/static/js/instructor_dashboard/student_admin.js:237
+#: lms/static/js/instructor_dashboard/student_admin.js:272
+#: lms/static/js/instructor_dashboard/student_admin.js:344
+#: lms/static/js/instructor_dashboard/student_admin.js:489
+#: lms/static/js/instructor_dashboard/student_admin.js:538
+#: lms/static/js/instructor_dashboard/student_admin.js:589
 msgid "Please enter a student email address or username."
 msgstr ""
 "Merci d’entrer le nom d’utilisateur ou l’adresse courriel d’un étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:81
+#: lms/static/js/instructor_dashboard/student_admin.js:86
+msgid ""
+"Error getting enrollment status for '<%- student_id %>'. Make sure that the "
+"student identifier is spelled correctly."
+msgstr ""
+"Erreur lors de l'obtention du statut d'inscription pour '<%- student_id %>'. "
+"Assurez-vous que l'identifiant de l'étudiant est orthographié correctement."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:90
+msgid "Retrieving enrollment status..."
+msgstr "Récupération du statut d'inscription..."
+
+#: lms/static/js/instructor_dashboard/student_admin.js:117
 msgid ""
 "Error getting student progress url for '<%- student_id %>'. Make sure that "
 "the student identifier is spelled correctly."
@@ -4562,43 +4580,43 @@ msgstr ""
 "student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans l'identifiant de "
 "l'étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:112
-#: lms/static/js/instructor_dashboard/student_admin.js:154
-#: lms/static/js/instructor_dashboard/student_admin.js:206
-#: lms/static/js/instructor_dashboard/student_admin.js:373
-#: lms/static/js/instructor_dashboard/student_admin.js:425
-#: lms/static/js/instructor_dashboard/student_admin.js:458
-#: lms/static/js/instructor_dashboard/student_admin.js:507
-#: lms/static/js/instructor_dashboard/student_admin.js:592
+#: lms/static/js/instructor_dashboard/student_admin.js:148
+#: lms/static/js/instructor_dashboard/student_admin.js:190
+#: lms/static/js/instructor_dashboard/student_admin.js:242
+#: lms/static/js/instructor_dashboard/student_admin.js:409
+#: lms/static/js/instructor_dashboard/student_admin.js:461
+#: lms/static/js/instructor_dashboard/student_admin.js:494
+#: lms/static/js/instructor_dashboard/student_admin.js:543
+#: lms/static/js/instructor_dashboard/student_admin.js:628
 msgid "Please enter a problem location."
 msgstr "Merci d'introduire la localisation d'un problème."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:119
+#: lms/static/js/instructor_dashboard/student_admin.js:155
 msgid ""
 "Success! Problem attempts reset for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'."
 msgstr ""
 "Action effectuée avec succès ! Réinitialisation des tentatives pour le "
-"problème '<%= problem_id %>' de l'étudiant '<%= student_id %>'."
+"problème '<%- problem_id %>' de l'étudiant '<%- student_id %>'."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:120
+#: lms/static/js/instructor_dashboard/student_admin.js:156
 msgid ""
 "Error resetting problem attempts for problem '<%= problem_id %>' and student "
 "'<%- student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
 msgstr ""
 "Erreur dans la réinitialisation des essais pour le problème '<%= problem_id "
-"%>' et l'étudiant '<%= student_id %>'. Vérifiez qu'il n'y ait pas d'erreur "
+"%>' et l'étudiant '<%- student_id %>'. Vérifiez qu'il n'y ait pas d'erreur "
 "dans les identifiants du problème et de l'étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:157
+#: lms/static/js/instructor_dashboard/student_admin.js:193
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
 msgstr ""
 "Supprimer l'état de l'étudiant '<%= student_id %>' pour le problème '<%= "
 "problem_id %>'?"
 
-#: lms/static/js/instructor_dashboard/student_admin.js:168
+#: lms/static/js/instructor_dashboard/student_admin.js:204
 msgid ""
 "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id "
 "%>'. Make sure that the problem and student identifiers are complete and "
@@ -4608,11 +4626,11 @@ msgstr ""
 "pour le problème '<%= problem_id %>'. Vérifiez qu'il n'y ait pas d'erreur "
 "dans les identifiants du problème et de l'étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:179
+#: lms/static/js/instructor_dashboard/student_admin.js:215
 msgid "Module state successfully deleted."
 msgstr "Etat du module supprimé avec succès."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:213
+#: lms/static/js/instructor_dashboard/student_admin.js:249
 msgid ""
 "Error getting task history for problem '<%- problem_id %>' and student '<%- "
 "student_id %>'. Make sure that the problem and student identifiers are "
@@ -4622,12 +4640,12 @@ msgstr ""
 "pour l'étudiant '<%= student_id %>'. Vérifiez qu'il n'y ait pas d'erreur "
 "dans les identifiants du problème et de l'étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:250
+#: lms/static/js/instructor_dashboard/student_admin.js:286
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
 msgstr ""
 "Le nombre d'examens d'entrée est réinitialisé pour l'étudiant '{student_id}'."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:258
+#: lms/static/js/instructor_dashboard/student_admin.js:294
 msgid ""
 "Error resetting entrance exam attempts for student '{student_id}'. Make sure "
 "student identifier is correct."
@@ -4636,17 +4654,17 @@ msgstr ""
 "l'étudiant '{student_id}'. Assurez-vous que l'identifiant étudiant est "
 "correct."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:276
-#: lms/static/js/instructor_dashboard/student_admin.js:343
+#: lms/static/js/instructor_dashboard/student_admin.js:312
+#: lms/static/js/instructor_dashboard/student_admin.js:379
 msgid "Enter a student's username or email address."
 msgstr "Entrez un nom d'utilisateur et une adresse courriel."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:278
+#: lms/static/js/instructor_dashboard/student_admin.js:314
 msgid ""
 "Do you want to allow this student ('{student_id}') to skip the entrance exam?"
 msgstr "Voulez-vous dispenser l'étudiant ('{student_id}') d'examen d'entrée?"
 
-#: lms/static/js/instructor_dashboard/student_admin.js:296
+#: lms/static/js/instructor_dashboard/student_admin.js:332
 msgid ""
 "An error occurred. Make sure that the student's username or email address is "
 "correct and try again."
@@ -4654,12 +4672,12 @@ msgstr ""
 "Une erreur est survenue. Assurez-vous que l'identifiant et le courriel de "
 "l'étudiant sont corrects et essayez de nouveau."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:322
+#: lms/static/js/instructor_dashboard/student_admin.js:358
 msgid "Entrance exam state is being deleted for student '{student_id}'."
 msgstr ""
 "Effacement du status de l'examen d'entrée pour l'étudiant '{student_id}'."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:330
+#: lms/static/js/instructor_dashboard/student_admin.js:366
 msgid ""
 "Error deleting entrance exam state for student '{student_id}'. Make sure "
 "student identifier is correct."
@@ -4667,7 +4685,7 @@ msgstr ""
 "Erreur de suppression du status d'examen d'entrée pour l'étudiant "
 "'{student_id}'. Assurez-vous que l'identifiant étudiant est correct."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:359
+#: lms/static/js/instructor_dashboard/student_admin.js:395
 msgid ""
 "Error getting entrance exam task history for student '{student_id}'. Make "
 "sure student identifier is correct."
@@ -4675,13 +4693,13 @@ msgstr ""
 "Erreur d'obtention de l'historique d'examen d'entrée pour l'étudiant "
 "'{student_id}'. Assurez-vous que l'identifiant étudiant est correct."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:376
+#: lms/static/js/instructor_dashboard/student_admin.js:412
 msgid "Reset attempts for all students on problem '<%- problem_id %>'?"
 msgstr ""
-"Réinitialiser les tentatives de tous les étudiants pour le problème '<%= "
+"Réinitialiser les tentatives de tous les étudiants pour le problème '<%- "
 "problem_id %>'?"
 
-#: lms/static/js/instructor_dashboard/student_admin.js:385
+#: lms/static/js/instructor_dashboard/student_admin.js:421
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'. "
 "Click the 'Show Task Status' button to see the status of the task."
@@ -4690,7 +4708,7 @@ msgstr ""
 "problème '<%= problem_id %>' effectué avec succès. Cliquez sur le bouton "
 "'Montrer l'état de la tâche' pour voir l'état de la tâche."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:389
+#: lms/static/js/instructor_dashboard/student_admin.js:425
 msgid ""
 "Error starting a task to reset attempts for all students on problem '<%- "
 "problem_id %>'. Make sure that the problem identifier is complete and "
@@ -4700,13 +4718,13 @@ msgstr ""
 "problème '<%= problem_id %>'. Vérifiez que l'identifiant du problème est "
 "complet et correct."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:438
+#: lms/static/js/instructor_dashboard/student_admin.js:474
 msgid "Error listing task history for this student and problem."
 msgstr ""
 "Erreur lors de l'affichage de l'historique des tâches pour cet étudiant et "
 "ce problème."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:466
+#: lms/static/js/instructor_dashboard/student_admin.js:502
 msgid ""
 "Started rescore problem task for problem '<%- problem_id %>' and student '<"
 "%- student_id %>'. Click the 'Show Task Status' button to see the status of "
@@ -4716,7 +4734,7 @@ msgstr ""
 "student_id %>' a commencé. Cliquez sur le bouton 'Montrer l'état de la "
 "tâche' pour voir l'état de la tâche."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:471
+#: lms/static/js/instructor_dashboard/student_admin.js:507
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>' for student '<"
 "%- student_id %>'. Make sure that the the problem and student identifiers "
@@ -4726,11 +4744,11 @@ msgstr ""
 "l'étudiant '<%- student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les "
 "identifiants du problème et de l'étudiant."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:512
+#: lms/static/js/instructor_dashboard/student_admin.js:548
 msgid "Please enter a score."
 msgstr "Veuillez entre une note."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:520
+#: lms/static/js/instructor_dashboard/student_admin.js:556
 msgid ""
 "Started task to override the score for problem '<%- problem_id %>' and "
 "student '<%- student_id %>'. Click the 'Show Task Status' button to see the "
@@ -4740,7 +4758,7 @@ msgstr ""
 "l'étudiant '<%- student_id %>'. Cliquez sur le bouton 'Montrer l'état de la "
 "tâche' pour voir l'état de la tâche."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:525
+#: lms/static/js/instructor_dashboard/student_admin.js:561
 msgid ""
 "Error starting a task to override score for problem '<%- problem_id %>' for "
 "student '<%- student_id %>'. Make sure that the the score and the problem "
@@ -4750,7 +4768,7 @@ msgstr ""
 "l'étudiant '<%- student_id %>'. Assurez-vous que la note ainsi que les "
 "identifiants du problème et de l'étudiant sont complets et corrects."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:567
+#: lms/static/js/instructor_dashboard/student_admin.js:603
 msgid ""
 "Started entrance exam rescore task for student '{student_id}'. Click the "
 "'Show Task Status' button to see the status of the task."
@@ -4759,7 +4777,7 @@ msgstr ""
 "commencé. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir "
 "l'état de la tâche."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:575
+#: lms/static/js/instructor_dashboard/student_admin.js:611
 msgid ""
 "Error starting a task to rescore entrance exam for student '{student_id}'. "
 "Make sure that entrance exam has problems in it and student identifier is "
@@ -4769,12 +4787,12 @@ msgstr ""
 "d'entrée pour l'étudiant  '{student_id}'. Assurez-vous que l'examen d'entrée "
 "comporte des problèmes et que l'identifiant de l'étudiant est correct."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:595
+#: lms/static/js/instructor_dashboard/student_admin.js:631
 msgid "Rescore problem '<%- problem_id %>' for all students?"
 msgstr ""
 "Recalculer le score du problème '<%= problem_id %>' pour tous les étudiants?"
 
-#: lms/static/js/instructor_dashboard/student_admin.js:605
+#: lms/static/js/instructor_dashboard/student_admin.js:641
 msgid ""
 "Successfully started task to rescore problem '<%- problem_id %>' for all "
 "students. Click the 'Show Task Status' button to see the status of the task."
@@ -4784,7 +4802,7 @@ msgstr ""
 "Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la "
 "tâche."
 
-#: lms/static/js/instructor_dashboard/student_admin.js:609
+#: lms/static/js/instructor_dashboard/student_admin.js:645
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that "
 "the problem identifier is complete and correct."
@@ -5009,12 +5027,12 @@ msgstr ""
 "Êtes-vous certain de vouloir vous désinscrire de {courseName} "
 "({courseNumber})? Le montant payé vous sera remboursé."
 
-#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:40
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:52
 msgid "{type} Progress"
 msgstr "{type} Progression"
 
-#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:43
-#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:61
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:55
+#: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:73
 msgid "Earned Certificates"
 msgstr "Certificats obtenus"
 
@@ -5022,47 +5040,47 @@ msgstr "Certificats obtenus"
 msgid "Enrolled"
 msgstr "Inscrit"
 
-#: lms/static/js/staff_debug_actions.js:79
+#: lms/static/js/staff_debug_actions.js:80
 msgid "Successfully reset the attempts for user {user}"
 msgstr "Réinitialisation des essais réussie pour l'utilisateur {user}"
 
-#: lms/static/js/staff_debug_actions.js:80
+#: lms/static/js/staff_debug_actions.js:81
 msgid "Failed to reset attempts for user."
 msgstr "Impossible de réinitialiser les tentatives pour l'utilisateur."
 
-#: lms/static/js/staff_debug_actions.js:90
+#: lms/static/js/staff_debug_actions.js:91
 msgid "Successfully deleted student state for user {user}"
 msgstr "Suppression réussie de l'état de l'étudiant pour l'utilisateur {user}"
 
-#: lms/static/js/staff_debug_actions.js:91
+#: lms/static/js/staff_debug_actions.js:92
 msgid "Failed to delete student state for user."
 msgstr "Impossible de supprimer l'état de l'étudiant pour l'utilisateur."
 
-#: lms/static/js/staff_debug_actions.js:101
+#: lms/static/js/staff_debug_actions.js:102
 msgid "Successfully rescored problem for user {user}"
 msgstr "Réévaluation réussie du score du problème pour l'utilisateur {user}"
 
-#: lms/static/js/staff_debug_actions.js:102
+#: lms/static/js/staff_debug_actions.js:103
 msgid "Failed to rescore problem for user."
 msgstr "Échec lors de la réévaluation du problème pour l'utilisateur."
 
-#: lms/static/js/staff_debug_actions.js:112
+#: lms/static/js/staff_debug_actions.js:113
 msgid "Successfully rescored problem to improve score for user {user}"
 msgstr ""
 "Réévaluation réussie du score du problème pour l'utilisateur {user} afin "
 "d'améliorer son score"
 
-#: lms/static/js/staff_debug_actions.js:113
+#: lms/static/js/staff_debug_actions.js:114
 msgid "Failed to rescore problem to improve score for user."
 msgstr ""
 "Échec lors de la réévaluation du problème pour l'utilisateur afin "
 "d'améliorer son score."
 
-#: lms/static/js/staff_debug_actions.js:123
+#: lms/static/js/staff_debug_actions.js:124
 msgid "Successfully overrode problem score for {user}"
 msgstr "Changement réussi de la note du problème pour l'utilisateur {user}"
 
-#: lms/static/js/staff_debug_actions.js:124
+#: lms/static/js/staff_debug_actions.js:125
 msgid "Could not override problem score for {user}."
 msgstr "Impossible de changer la note du problème pour l'utilisateur {user}."
 
@@ -5100,11 +5118,30 @@ msgstr ""
 msgid "Before proceeding, please {htmlStart}activate your account{htmlEnd}."
 msgstr "Avant de continuer, veuillez {htmlStart}activer votre compte{htmlEnd}."
 
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:69
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:68
+msgid ""
+"{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
+msgstr ""
+"{htmlStart} Vous souhaitez modifier votre adresse courriel, votre nom ou "
+"votre mot de passe?{htmlEnd}"
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:76
+msgid ""
+"{strongStart}Warning: Account deletion is permanent.{strongEnd} Please read "
+"the above carefully before proceeding. This is an irreversible action, and "
+"{strongStart}you will no longer be able to use the same email on edX."
+"{strongEnd}"
+msgstr ""
+"{strongStart}Avertissement : la suppression du compte est permanente. "
+"{strongEnd} Veuillez lire attentivement les informations ci-dessus avant de "
+"poursuivre. Ceci est une action irréversible et {strongStart}vous ne pourrez "
+"plus utiliser la même adresse courriel sur EDUlib.{StrongEnd}"
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:85
 msgid "We’re sorry to see you go!"
 msgstr "Nous sommes désolés de vous voir quitter!"
 
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:71
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:87
 msgid ""
 "Once your account is deleted, you cannot use it to take courses on the edX "
 "app, edx.org, or any other site hosted by edX. This includes access to edx."
@@ -5118,8 +5155,8 @@ msgstr ""
 "votre employeur ou de votre université et l'accès à des sites privés offerts "
 "par MIT Open Learning, Wharton Executive Education et Harvard Medical School."
 
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:81
-#: lms/static/js/student_account/views/account_settings_factory.js:297
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:104
+#: lms/static/js/student_account/views/account_settings_factory.js:331
 msgid "Delete My Account"
 msgstr "Supprimer mon compte"
 
@@ -5214,21 +5251,21 @@ msgstr "Une erreur est survenue."
 msgid "(optional)"
 msgstr "(optionnel)"
 
-#: lms/static/js/student_account/views/LoginView.js:36
+#: lms/static/js/student_account/views/LoginView.js:37
 msgid "We couldn't sign you in."
 msgstr "Nous n'avons pas pu vous connecter."
 
-#: lms/static/js/student_account/views/LoginView.js:93
+#: lms/static/js/student_account/views/LoginView.js:101
 #, javascript-format
 msgid "An error occurred when signing you in to %s."
 msgstr "Une erreur est survenue lors de votre connexion avec %s."
 
-#: lms/static/js/student_account/views/LoginView.js:133
+#: lms/static/js/student_account/views/LoginView.js:153
 #: lms/templates/verify_student/intro_step.underscore:38
 msgid "Check Your Email"
 msgstr "Vérifiez votre courriel"
 
-#: lms/static/js/student_account/views/LoginView.js:135
+#: lms/static/js/student_account/views/LoginView.js:155
 msgid ""
 "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
 "address is associated with your {platform_name} account, we will send a "
@@ -5247,7 +5284,7 @@ msgstr ""
 "{paragraphEnd}{paragraphStart}Si vous avez besoin d'aide, {anchorStart}"
 "contacter le support technique{anchorEnd}.{paragraphEnd}"
 
-#: lms/static/js/student_account/views/LoginView.js:183
+#: lms/static/js/student_account/views/LoginView.js:203
 msgid ""
 "An error has occurred. Try refreshing the page, or check your Internet "
 "connection."
@@ -5255,7 +5292,7 @@ msgstr ""
 "Une erreur est survenue. Essayer de rafraîchir la page, ou vérifier votre "
 "connexion Internet."
 
-#: lms/static/js/student_account/views/LoginView.js:215
+#: lms/static/js/student_account/views/LoginView.js:235
 msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account. "
@@ -5275,15 +5312,15 @@ msgstr "Nous n'avons pas pu créer votre compte."
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: lms/static/js/student_account/views/RegisterView.js:310
+#: lms/static/js/student_account/views/RegisterView.js:312
 msgid "(required)"
 msgstr "(requis)"
 
-#: lms/static/js/student_account/views/RegisterView.js:475
+#: lms/static/js/student_account/views/RegisterView.js:477
 msgid "You've successfully signed into %(currentProvider)s."
 msgstr "Vous êtes connectés avec succès avec %(currentProvider)s."
 
-#: lms/static/js/student_account/views/RegisterView.js:477
+#: lms/static/js/student_account/views/RegisterView.js:479
 msgid ""
 "We just need a little more information before you start learning with "
 "%(platformName)s."
@@ -5291,7 +5328,7 @@ msgstr ""
 "Nous avons juste besoin d'un peu plus d'informations avant que vous "
 "commenciez votre apprentissage avec %(platformName)s."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:50
+#: lms/static/js/student_account/views/account_settings_factory.js:52
 msgid ""
 "Your profile settings are managed by {enterprise_name}. Contact your "
 "administrator or {link_start}edX Support{link_end} for help."
@@ -5300,23 +5337,33 @@ msgstr ""
 "votre administrateur ou le {link_start}Support edX{link_end} pour de "
 "l'assistance."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:67
+#: lms/static/js/student_account/views/account_settings_factory.js:69
 msgid "Email Address (Sign In)"
 msgstr "Adresse courriel (Se connecter)"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:70
+#: lms/static/js/student_account/views/account_settings_factory.js:72
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr ""
 "Vous recevrez des messages de {platform_name} et des équipes pédagogiques à "
 "cette adresse."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:87
+#: lms/static/js/student_account/views/account_settings_factory.js:89
+msgid "Secondary Email Address"
+msgstr "Adresse courriel secondaire"
+
+#: lms/static/js/student_account/views/account_settings_factory.js:91
+msgid "You may access your account when single-sign on is not available."
+msgstr ""
+"Vous pouvez accéder à votre compte lorsque la connexion unique n'est pas "
+"disponible."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:97
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:105
 msgid "Full Name"
 msgstr "Nom complet"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:89
+#: lms/static/js/student_account/views/account_settings_factory.js:99
 msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
@@ -5324,24 +5371,24 @@ msgstr ""
 "Le nom que vous avez utilisé pour la vérification d'identité et qui apparaît "
 "sur vos attestations."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:105
+#: lms/static/js/student_account/views/account_settings_factory.js:115
 msgid "Country or Region of Residence"
 msgstr "Pays ou région de résidence"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:109
+#: lms/static/js/student_account/views/account_settings_factory.js:119
 msgid "The country or region where you live."
 msgstr "Le pays ou la région où vous résidez."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:126
-#: lms/static/js/student_account/views/account_settings_factory.js:313
+#: lms/static/js/student_account/views/account_settings_factory.js:136
+#: lms/static/js/student_account/views/account_settings_factory.js:347
 msgid "Basic Account Information"
 msgstr "Informations générales du compte"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:127
+#: lms/static/js/student_account/views/account_settings_factory.js:137
 msgid "These settings include basic information about your account."
 msgstr "Ces paramètres incluent les informations de base sur votre compte."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:139
+#: lms/static/js/student_account/views/account_settings_factory.js:149
 msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
@@ -5349,23 +5396,23 @@ msgstr ""
 "Le nom qui vous identifie sur {platform_name}. Vous ne pouvez pas changer "
 "votre nom d'utilisateur."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:149
+#: lms/static/js/student_account/views/account_settings_factory.js:159
 #: lms/templates/student_account/account.underscore:6
 msgid "Password"
 msgstr "Mot de passe"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:150
-#: lms/static/js/student_account/views/account_settings_factory.js:154
+#: lms/static/js/student_account/views/account_settings_factory.js:160
+#: lms/static/js/student_account/views/account_settings_factory.js:164
 msgid "Reset Your Password"
 msgstr "Réinitialiser votre mot de passe"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:156
+#: lms/static/js/student_account/views/account_settings_factory.js:166
 msgid "Check your email account for instructions to reset your password."
 msgstr ""
 "Vérifiez vos courriels pour les instructions sur comment réinitialiser votre "
 "mot de passe."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:167
+#: lms/static/js/student_account/views/account_settings_factory.js:177
 msgid ""
 "The language used throughout this site. This site is currently available in "
 "a limited number of languages. Changing the value of this field will cause "
@@ -5375,11 +5422,11 @@ msgstr ""
 "nombre restreint de langues. En changeant la valeur de ce champ, vous "
 "rafraîchirez la page."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:179
+#: lms/static/js/student_account/views/account_settings_factory.js:190
 msgid "Time Zone"
 msgstr "Fuseau Horaire"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:181
+#: lms/static/js/student_account/views/account_settings_factory.js:192
 msgid ""
 "Select the time zone for displaying course dates. If you do not specify a "
 "time zone, course dates, including assignment deadlines, will be displayed "
@@ -5390,40 +5437,49 @@ msgstr ""
 "pour les devoirs, seront affichées selon le fuseau horaire local de votre "
 "navigateur."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:183
+#: lms/static/js/student_account/views/account_settings_factory.js:194
 msgid "All Time Zones"
 msgstr "Tous les fuseaux horaires"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:185
+#: lms/static/js/student_account/views/account_settings_factory.js:196
 msgid "Default (Local Time Zone)"
 msgstr "Par défaut (Fuseau horaire local)"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:193
+#: lms/static/js/student_account/views/account_settings_factory.js:204
 msgid "Additional Information"
 msgstr "Information additionnelle"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:198
+#: lms/static/js/student_account/views/account_settings_factory.js:209
 msgid "Education Completed"
 msgstr "Niveau de formation"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:207
+#: lms/static/js/student_account/views/account_settings_factory.js:218
 msgid "Gender"
 msgstr "Genre"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:216
+#: lms/static/js/student_account/views/account_settings_factory.js:227
 msgid "Year of Birth"
 msgstr "Année de naissance"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:225
+#: lms/static/js/student_account/views/account_settings_factory.js:236
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:148
 msgid "Preferred Language"
 msgstr "Langue préférée"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:268
+#: lms/static/js/student_account/views/account_settings_factory.js:254
+msgid ""
+"We've sent a confirmation message to {new_secondary_email_address}. Click "
+"the link in the message to update your secondary email address."
+msgstr ""
+"Un message de confirmation a été envoyé à {new_secondary_email_address}. "
+"Cliquer le lien dans le message afin de mettre à jour votre adresse courriel "
+"secondaire."
+
+#: lms/static/js/student_account/views/account_settings_factory.js:302
 msgid "Social Media Links"
 msgstr "Liens des médias sociaux"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:269
+#: lms/static/js/student_account/views/account_settings_factory.js:303
 msgid ""
 "Optionally, link your personal accounts to the social media icons on your "
 "edX profile."
@@ -5431,20 +5487,20 @@ msgstr ""
 "Si désiré, liez vos comptes personnels aux icônes des médias sociaux sur "
 "votre profil EDUlib."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:279
+#: lms/static/js/student_account/views/account_settings_factory.js:313
 msgid " Link"
 msgstr "Lien"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:282
+#: lms/static/js/student_account/views/account_settings_factory.js:316
 msgid "Enter your "
 msgstr "Entrez votre"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:321
+#: lms/static/js/student_account/views/account_settings_factory.js:355
 #: lms/static/js/student_account/views/account_settings_view.js:29
 msgid "Linked Accounts"
 msgstr "Comptes liés"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:323
+#: lms/static/js/student_account/views/account_settings_factory.js:357
 msgid ""
 "You can link your social media accounts to simplify signing in to "
 "{platform_name}."
@@ -5452,27 +5508,27 @@ msgstr ""
 "Vous pouvez lier vos comptes de médias sociaux afin de simplifier la "
 "connexion à {platform_name}."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:345
+#: lms/static/js/student_account/views/account_settings_factory.js:379
 msgid "ORDER NAME"
 msgstr "NOM DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:346
+#: lms/static/js/student_account/views/account_settings_factory.js:380
 msgid "ORDER PLACED"
 msgstr "COMMANDES ENREGISTRÉES"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:347
+#: lms/static/js/student_account/views/account_settings_factory.js:381
 msgid "TOTAL"
 msgstr "TOTAL"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:348
+#: lms/static/js/student_account/views/account_settings_factory.js:382
 msgid "ORDER NUMBER"
 msgstr "NUMÉRO DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:354
+#: lms/static/js/student_account/views/account_settings_factory.js:388
 msgid "My Orders"
 msgstr "Mes Commandes"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:356
+#: lms/static/js/student_account/views/account_settings_factory.js:390
 msgid ""
 "This page contains information about orders that you have placed with "
 "{platform_name}."
@@ -5566,12 +5622,12 @@ msgid "Please verify that you have uploaded a valid image (PNG and JPEG)."
 msgstr "Veuillez vérifier la validité de l'image téléchargée (PNG et JPEG)."
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js:83
-#: lms/static/js/verify_student/views/review_photos_step_view.js:71
+#: lms/static/js/verify_student/views/review_photos_step_view.js:72
 msgid "An error has occurred. Please try again later."
 msgstr "Une erreur est survenue. Merci de réessayer plus tard."
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js:93
-#: lms/static/js/verify_student/views/review_photos_step_view.js:81
+#: lms/static/js/verify_student/views/review_photos_step_view.js:82
 msgid "Could not submit photos"
 msgstr "Envoi de photos impossible"
 
@@ -5932,10 +5988,6 @@ msgstr ""
 msgid "This link will open in a modal window"
 msgstr "Ce lien s'ouvrira dans une nouvelle fenêtre contextuelle"
 
-#: cms/static/js/certificates/collections/certificates.js:37
-msgid "Could not parse certificate JSON. %(message)s"
-msgstr "Le JSON de l'attestation n'a pu être analysé. %(message)s"
-
 #: cms/static/js/certificates/models/certificate.js:77
 msgid "Certificate name is required."
 msgstr "Le nom de l'attestation est requis."
@@ -6061,7 +6113,7 @@ msgid "Show Deprecated Settings"
 msgstr "Afficher les paramètres obsolètes"
 
 #: cms/static/js/factories/textbooks.js:19
-#: cms/static/js/views/pages/group_configurations.js:83
+#: cms/static/js/views/pages/group_configurations.js:82
 msgid "You have unsaved changes. Do you really want to leave this page?"
 msgstr ""
 "Il reste des modifications non sauvegardées. Voulez-vous vraiment quitter "
@@ -6174,19 +6226,19 @@ msgstr "Groupe A"
 msgid "Group B"
 msgstr "Groupe B"
 
-#: cms/static/js/models/group_configuration.js:88
+#: cms/static/js/models/group_configuration.js:90
 msgid "Group Configuration name is required."
 msgstr "Le nom de la configuration de groupe est requis."
 
-#: cms/static/js/models/group_configuration.js:95
+#: cms/static/js/models/group_configuration.js:97
 msgid "There must be at least one group."
 msgstr "il doit y avoir au moins un groupe."
 
-#: cms/static/js/models/group_configuration.js:112
+#: cms/static/js/models/group_configuration.js:114
 msgid "All groups must have a name."
 msgstr "Tous les groupes doivent avoir un nom."
 
-#: cms/static/js/models/group_configuration.js:120
+#: cms/static/js/models/group_configuration.js:122
 msgid "All groups must have a unique name."
 msgstr "Tous les groupes doivent avoir un nom unique."
 
@@ -6257,11 +6309,11 @@ msgstr ""
 "Impossible de déposer plus de <%= types %> qu'il n'est possible d'en "
 "assigner."
 
-#: cms/static/js/models/settings/course_grading_policy.js:67
+#: cms/static/js/models/settings/course_grading_policy.js:68
 msgid "Grace period must be specified in HH:MM format."
 msgstr "Le délai doit être au format HH:MM."
 
-#: cms/static/js/models/settings/course_grading_policy.js:77
+#: cms/static/js/models/settings/course_grading_policy.js:78
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr ""
 "Pas en mesure de fixer la note de passage à moins de %(minimum_grade_cutoff)s"
@@ -6661,7 +6713,7 @@ msgstr ""
 
 #: cms/static/js/views/license.js:42
 msgid "Share Alike"
-msgstr "Share Alike"
+msgstr "Partage à l'identique"
 
 #: cms/static/js/views/license.js:45
 msgid ""
@@ -6743,8 +6795,8 @@ msgid "Publish all unpublished changes for this {item}?"
 msgstr "Publier toutes les modifications non publiées pour cet {item}?"
 
 #: cms/static/js/views/modals/course_outline_modals.js:212
-#: cms/templates/js/course-outline.underscore:130
-#: cms/templates/js/course-outline.underscore:132
+#: cms/templates/js/course-outline.underscore:136
+#: cms/templates/js/course-outline.underscore:138
 #: cms/templates/js/publish-xblock.underscore:121
 msgid "Publish"
 msgstr "Publier"
@@ -6778,16 +6830,20 @@ msgid "Visibility"
 msgstr "Visibilité"
 
 #: cms/static/js/views/modals/edit_xblock.js:22
-msgid "Editing: %(title)s"
-msgstr "Modifier : %(title)s"
+msgid "Editing: {title}"
+msgstr "Modifier: {title}"
 
-#: cms/static/js/views/modals/edit_xblock.js:123
+#: cms/static/js/views/modals/edit_xblock.js:92
+msgid "Plugins"
+msgstr "Plugins"
+
+#: cms/static/js/views/modals/edit_xblock.js:127
 #: lms/templates/ccx/schedule.underscore:13
 #: lms/templates/ccx/schedule.underscore:83
 msgid "Unit"
 msgstr "Unité"
 
-#: cms/static/js/views/modals/edit_xblock.js:125
+#: cms/static/js/views/modals/edit_xblock.js:129
 msgid "Component"
 msgstr "Composante"
 
@@ -6846,7 +6902,7 @@ msgstr "Cette {parentCategory} n'a pas de {childCategory}"
 msgid "Course Outline"
 msgstr "Plan de cours"
 
-#: cms/static/js/views/paged_container.js:254
+#: cms/static/js/views/paged_container.js:260
 msgid "Date added"
 msgstr "Date ajoutée"
 
@@ -7388,11 +7444,11 @@ msgstr ""
 "Si vous supprimez cette transcription, celle-ci deviendra indisponible pour "
 "n'importe quel composante utilisant cette vidéo."
 
-#: cms/static/js/views/xblock_editor.js:42
+#: cms/static/js/views/xblock_editor.js:49
 msgid "Editor"
 msgstr "Editeur"
 
-#: cms/static/js/views/xblock_editor.js:43
+#: cms/static/js/views/xblock_editor.js:50
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:6
 msgid "Settings"
 msgstr "Paramètres"
@@ -7415,7 +7471,7 @@ msgstr "Mise à jour des étiquettes"
 msgid "Actions"
 msgstr "Actions"
 
-#: cms/templates/js/course-outline.underscore:193
+#: cms/templates/js/course-outline.underscore:199
 #: cms/templates/js/publish-xblock.underscore:72
 #: lms/templates/ccx/schedule.underscore:93
 #: lms/templates/ccx/schedule.underscore:103
@@ -7577,23 +7633,23 @@ msgstr ""
 msgid "All Groups"
 msgstr "Tous les groupes"
 
-#: common/static/common/templates/discussion/new-post.underscore:38
-#: common/static/common/templates/discussion/thread-edit.underscore:8
+#: common/static/common/templates/discussion/new-post.underscore:39
+#: common/static/common/templates/discussion/thread-edit.underscore:9
 msgid ""
 "Add a clear and descriptive title to encourage participation. (Required)"
 msgstr ""
 "Ajouter un titre clair et descriptif afin d'encourager la participation. "
 "(Requis)"
 
-#: common/static/common/templates/discussion/new-post.underscore:54
+#: common/static/common/templates/discussion/new-post.underscore:55
 msgid "follow this post"
 msgstr "suivre ce message"
 
-#: common/static/common/templates/discussion/new-post.underscore:60
+#: common/static/common/templates/discussion/new-post.underscore:61
 msgid "post anonymously"
 msgstr "poster anonymement"
 
-#: common/static/common/templates/discussion/new-post.underscore:66
+#: common/static/common/templates/discussion/new-post.underscore:67
 msgid "post anonymously to classmates"
 msgstr "poster anonymement à des camarades de classe"
 
@@ -7637,11 +7693,11 @@ msgstr "Reporté"
 msgid "Editing post"
 msgstr "Editer le message"
 
-#: common/static/common/templates/discussion/thread-edit.underscore:14
+#: common/static/common/templates/discussion/thread-edit.underscore:15
 msgid "Edit your post below."
 msgstr "Modifiez votre post ci-dessous."
 
-#: common/static/common/templates/discussion/thread-edit.underscore:17
+#: common/static/common/templates/discussion/thread-edit.underscore:18
 msgid "Update post"
 msgstr "Mettre à jour le message"
 
@@ -7812,8 +7868,8 @@ msgid "Use the All Topics menu to find specific topics."
 msgstr "Utilisez le menu Tous les sujets pour trouver des sujets spécifiques."
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:25
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:1
-#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:7
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
+#: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
 msgid "Search all posts"
 msgstr "Chercher dans toutes les discussions"
 
@@ -8008,8 +8064,8 @@ msgid "Password Status"
 msgstr "Statut du mot de passe"
 
 #: lms/djangoapps/support/static/support/templates/manage_user.underscore:35
-msgid "Disable Account"
-msgstr "Désactiver le compte"
+msgid "Toggle Account Password (Usable/Unusable)"
+msgstr "Basculer le mot de passe du compte (utilisable / inutilisable)"
 
 #: lms/djangoapps/teams/static/teams/templates/edit-team.underscore:7
 msgid "Your team could not be created."
@@ -8277,11 +8333,11 @@ msgstr "Vérifier Maintenant"
 msgid "Mark Exam As Completed"
 msgstr "Marquer l'examen comme complété"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:10
+#: lms/templates/courseware/proctored-exam-status.underscore:11
 msgid "timed"
 msgstr "chronométré"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:11
+#: lms/templates/courseware/proctored-exam-status.underscore:12
 msgid ""
 "To receive credit for problems, you must select \"Submit\" for each problem "
 "before you select \"End My Exam\"."
@@ -8290,11 +8346,11 @@ msgstr ""
 "\"Soumettre\" pour chaque problème avant de sélectionner \"Terminer mon "
 "examen\"."
 
-#: lms/templates/courseware/proctored-exam-status.underscore:17
+#: lms/templates/courseware/proctored-exam-status.underscore:18
 msgid "End My Exam"
 msgstr "Terminer mon examen"
 
-#: lms/templates/courseware/proctored-exam-status.underscore:27
+#: lms/templates/courseware/proctored-exam-status.underscore:28
 msgid "Hide Timer"
 msgstr "Cacher le compteur"
 
@@ -8345,7 +8401,7 @@ msgstr "Effacer les résultats de la recherche"
 
 #: lms/templates/fields/field_dropdown.underscore:38
 #: lms/templates/fields/field_dropdown_account.underscore:41
-#: lms/templates/fields/field_textarea.underscore:33
+#: lms/templates/fields/field_textarea.underscore:35
 msgid "Click to edit"
 msgstr "Cliquer pour modifier"
 
@@ -8375,7 +8431,7 @@ msgstr "pour"
 msgid "Product Name"
 msgstr "Nom du produit"
 
-#: lms/templates/fields/field_textarea.underscore:50
+#: lms/templates/fields/field_textarea.underscore:52
 msgid ""
 "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of "
 "{maxCharacters}"
@@ -8925,11 +8981,11 @@ msgid "Open the certificate you earned for the %(title)s program."
 msgstr ""
 "Consultez l'attestation que vous avez obtenu pour le programme %(title)s."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:13
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
 msgid "Program Record"
 msgstr "Dossier du programme"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:16
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
 msgid ""
 "Once you complete one of the program requirements you have a program record. "
 "This record is marked complete once you meet all program requirements. A "
@@ -8942,17 +8998,22 @@ msgstr ""
 "être utilisé pour poursuivre votre parcours d'apprentissage et démontrer "
 "votre apprentissage aux autres."
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:20
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
 msgid "View Program Record"
 msgstr "Voir le dossier du programme"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
-msgid "Additional Learning Opportunities"
-msgstr "Possibilités d'apprentissage supplémentaires"
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:26
+msgid "Additional Credit Opportunities"
+msgstr "Opportunités de crédit supplémentaires"
 
-#: lms/templates/learner_dashboard/program_details_sidebar.underscore:41
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:40
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:66
 msgid "Learn More"
 msgstr "En savoir plus"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:52
+msgid "Additional Professional Opportunities"
+msgstr "Opportunités professionnelles supplémentaires"
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:6
 msgid "Congratulations!"
@@ -9029,6 +9090,23 @@ msgstr "Changer mon adresse courriel"
 #: lms/templates/student_account/account.underscore:16
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
+
+#: lms/templates/student_account/account_recovery.underscore:4
+msgid "Account Recovery"
+msgstr "Récupération de compte"
+
+#: lms/templates/student_account/account_recovery.underscore:8
+msgid ""
+"Please enter your secondary email address below and we will send you "
+"instructions for recovering your account and setting a new password."
+msgstr ""
+"Veuillez entrer votre adresse courriel secondaire ci-dessous et nous vous "
+"enverrons des instructions pour récupérer votre compte et définir un nouveau "
+"mot de passe."
+
+#: lms/templates/student_account/account_recovery.underscore:12
+msgid "Recover my account"
+msgstr "Récupérer mon compte"
 
 #: lms/templates/student_account/account_settings.underscore:4
 msgid "Account Settings"
@@ -10392,66 +10470,71 @@ msgstr "Réduire/Agrandir ce %(xblock_type)s"
 msgid "Display Name"
 msgstr "Nom d'affichage"
 
-#: cms/templates/js/course-outline.underscore:138
-#: cms/templates/js/course-outline.underscore:140
+#: cms/templates/js/course-outline.underscore:129
+#: cms/templates/js/course-outline.underscore:130
+msgid "Proctoring Settings"
+msgstr "Paramètres de surveillance"
+
+#: cms/templates/js/course-outline.underscore:144
+#: cms/templates/js/course-outline.underscore:146
 msgid "Configure"
 msgstr "Configurer"
 
-#: cms/templates/js/course-outline.underscore:146
-#: cms/templates/js/course-outline.underscore:148
+#: cms/templates/js/course-outline.underscore:152
+#: cms/templates/js/course-outline.underscore:154
 msgid "Duplicate"
 msgstr "Dupliquer"
 
-#: cms/templates/js/course-outline.underscore:162
-#: cms/templates/js/course-outline.underscore:164
+#: cms/templates/js/course-outline.underscore:168
+#: cms/templates/js/course-outline.underscore:170
 msgid "Drag to reorder"
 msgstr "Glissez pour modifier l'ordre"
 
-#: cms/templates/js/course-outline.underscore:182
+#: cms/templates/js/course-outline.underscore:188
 msgid "Release Status:"
 msgstr "Statut de la diffusion : "
 
-#: cms/templates/js/course-outline.underscore:187
+#: cms/templates/js/course-outline.underscore:193
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
 msgstr "Diffusé : "
 
-#: cms/templates/js/course-outline.underscore:190
+#: cms/templates/js/course-outline.underscore:196
 #: cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
 msgstr "Programmé : "
 
-#: cms/templates/js/course-outline.underscore:208
+#: cms/templates/js/course-outline.underscore:214
 #: cms/templates/js/highlights-editor.underscore:2
 msgid "Section Highlights"
 msgstr "Faits saillants de la section"
 
-#: cms/templates/js/course-outline.underscore:215
-#: cms/templates/js/course-outline.underscore:229
+#: cms/templates/js/course-outline.underscore:221
+#: cms/templates/js/course-outline.underscore:235
 msgid "Graded as:"
 msgstr "Noté comme : "
 
-#: cms/templates/js/course-outline.underscore:222
-#: cms/templates/js/course-outline.underscore:233
+#: cms/templates/js/course-outline.underscore:228
+#: cms/templates/js/course-outline.underscore:239
 msgid "Due:"
 msgstr "Date d'échéance : "
 
-#: cms/templates/js/course-outline.underscore:244
+#: cms/templates/js/course-outline.underscore:250
 msgid "Subsection is hidden after course end date"
 msgstr "Sous-section cachée après la date d'échéance du cours"
 
-#: cms/templates/js/course-outline.underscore:246
+#: cms/templates/js/course-outline.underscore:252
 msgid "Subsection is hidden after due date"
 msgstr "Sous-section cachée après la date d'échéance"
 
-#: cms/templates/js/course-outline.underscore:268
+#: cms/templates/js/course-outline.underscore:274
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "Vous n'avez pas encore ajouté de contenu à ce cours."
 
-#: cms/templates/js/course-outline.underscore:272
-#: cms/templates/js/course-outline.underscore:293
+#: cms/templates/js/course-outline.underscore:278
+#: cms/templates/js/course-outline.underscore:299
 #: cms/templates/js/xblock-outline.underscore:61
 #: cms/templates/js/xblock-outline.underscore:77
 #, python-format
@@ -11139,6 +11222,10 @@ msgstr ""
 "toujours leur score lorsqu'ils soumettent leurs réponses lors des "
 "évaluations."
 
+#: cms/templates/js/show-textbook.underscore:12
+msgid "PDF Chapters"
+msgstr "Chapitres PDF"
+
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
 msgstr "Aperçu temps réel"
@@ -11747,6 +11834,60 @@ msgstr "Si vous continuez, vous ne pourrez plus utiliser ce compte pour suivre d
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:
 msgid "Yes, Delete"
 msgstr "Oui, supprimer"
+# #-#-#-#-#  djangojs.po (edx-ora2)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# anaseha <anaselhadjamor@gmail.com>, 2014
+# ASSYASS Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
+# Axel Billot <axelbillot@gmail.com>, 2015
+# bekairi tahar <tahar48omar@gmail.com>, 2014
+# Bertrand Marron <bertrand.marron@gmail.com>, 2014
+# Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
+# Daniel Le Berre, 2014-2015
+# Dosto92 <hakim.poubelle@gmail.com>, 2014
+# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# Eric Fortin, 2014,2016
+# Françoise Docq, 2014
+# Hélène Tindon <helene.tindon@gmail.com>, 2015
+# INARES <contact@inares.org>, 2015
+# jmc <jmc@edx.org>, 2014
+# Julien Colmonts <julien.colmonts@student.uclouvain.be>, 2014
+# Julien Rolland <julien.rolland33@gmail.com>, 2013
+# Keivan Farzaneh <keivan.farzaneh@edulib.org>, 2017
+# Kévin SEVERIN <kevin.severin@laposte.net>, 2015
+# laurentFUN <laurent.at.fun@gmail.com>, 2014,2016
+# Linda B.A <siria242@gmail.com>, 2016
+# Manjari <mringuet@gmail.com>, 2014
+# Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
+# natg94 <bgenson@voo.be>, 2015
+# Olivier Lebon <oliv.lebon@wanadoo.fr>, 2015
+# Olivier Marquez <oliviermarquez@gmail.com>, 2013,2015
+# pacha <patrick.chau@wanadoo.fr>, 2015
+# Philippe Chiu <philippe.chiu@gmail.com>, 2013
+# Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018
+# Pierre Roland Bonvin <pierre@bonvin.name>, 2016
+# qcappart <quentin.c@swing.be>, 2014
+# Régis Behmo <transifex.stuff@behmo.com>, 2016
+# Régis Millet <regmillet@ct2c.fr>, 2015
+# Richard Moch <richard.moch@gmail.com>, 2015
+# SALHI Aissam <ais.salhy@gmail.com>, 2014
+# samuel <samuelecin@gmail.com>, 2014
+# Sarina Canelake <sarina@edx.org>, 2014
+# Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
+# Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
+# Serge Bibauw <sbibauw@gmail.com>, 2016
+# SLOG90 <slog90@gmail.com>, 2014
+# Steven BERNARD <steven.bernard@u-paris2.fr>, 2014
+# Tahar <taharbrahmi@hotmail.fr>, 2015
+# Tala Aoun <talaaoun@gmail.com>, 2016
+# Toreador <torrent_lover@hotmail.com>, 2014
+# Xavier Antoviaque <xavier@antoviaque.org>, 2014
+# Xynn <xynn.anhnguyen@gmail.com>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
 
 #: openassessment/xblock/static/js/openassessment-lms.min.js:1
 #: openassessment/xblock/static/js/openassessment-studio.min.js:1

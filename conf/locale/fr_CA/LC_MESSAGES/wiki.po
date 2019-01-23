@@ -1,5 +1,5 @@
 # edX translation file
-# Copyright (C) 2018 edX
+# Copyright (C) 2019 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -66,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
 "PO-Revision-Date: 2018-07-24 22:14+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
@@ -1357,7 +1357,7 @@ msgstr "Voir la source"
 
 #: wiki/templates/wiki/includes/article_menu.html:49
 msgid "View"
-msgstr "Voir"
+msgstr "Consulter"
 
 #: wiki/templates/wiki/includes/breadcrumbs.html:16
 #: wiki/templates/wiki/includes/breadcrumbs.html:42

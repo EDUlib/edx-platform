@@ -1,5 +1,5 @@
 # edX translation file
-# Copyright (C) 2018 edX
+# Copyright (C) 2019 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
@@ -56,7 +56,7 @@
 # PETIT Yannick <yannick.petit@gmail.com>, 2013
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
 # Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016,2018-2019
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
@@ -85,8 +85,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2018-08-12 20:42+0000\n"
-"PO-Revision-Date: 2018-07-10 19:32+0000\n"
+"POT-Creation-Date: 2019-01-20 20:42+0000\n"
+"PO-Revision-Date: 2019-01-16 22:31+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -604,72 +604,77 @@ msgstr "Réduire/Agrandir ce %(xblock_type)s"
 msgid "Display Name"
 msgstr "Nom d'affichage"
 
+#: cms/templates/js/course-outline.underscore:129
 #: cms/templates/js/course-outline.underscore:130
-#: cms/templates/js/course-outline.underscore:132
+msgid "Proctoring Settings"
+msgstr "Paramètres de surveillance"
+
+#: cms/templates/js/course-outline.underscore:136
+#: cms/templates/js/course-outline.underscore:138
 #: cms/templates/js/publish-xblock.underscore:121
 msgid "Publish"
 msgstr "Publier"
 
-#: cms/templates/js/course-outline.underscore:138
-#: cms/templates/js/course-outline.underscore:140
+#: cms/templates/js/course-outline.underscore:144
+#: cms/templates/js/course-outline.underscore:146
 msgid "Configure"
 msgstr "Configurer"
 
-#: cms/templates/js/course-outline.underscore:146
-#: cms/templates/js/course-outline.underscore:148
+#: cms/templates/js/course-outline.underscore:152
+#: cms/templates/js/course-outline.underscore:154
 msgid "Duplicate"
 msgstr "Dupliquer"
 
-#: cms/templates/js/course-outline.underscore:162
-#: cms/templates/js/course-outline.underscore:164
+#: cms/templates/js/course-outline.underscore:168
+#: cms/templates/js/course-outline.underscore:170
 msgid "Drag to reorder"
 msgstr "Glissez pour modifier l'ordre"
 
-#: cms/templates/js/course-outline.underscore:182
+#: cms/templates/js/course-outline.underscore:188
 msgid "Release Status:"
 msgstr "Statut de la diffusion : "
 
-#: cms/templates/js/course-outline.underscore:187
+#: cms/templates/js/course-outline.underscore:193
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
 msgstr "Diffusé : "
 
-#: cms/templates/js/course-outline.underscore:190
+#: cms/templates/js/course-outline.underscore:196
 #: cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
 msgstr "Programmé : "
 
-#: cms/templates/js/course-outline.underscore:208
+#: cms/templates/js/course-outline.underscore:214
 #: cms/templates/js/highlights-editor.underscore:2
 msgid "Section Highlights"
 msgstr "Faits saillants de la section"
 
-#: cms/templates/js/course-outline.underscore:215
-#: cms/templates/js/course-outline.underscore:229
+#: cms/templates/js/course-outline.underscore:221
+#: cms/templates/js/course-outline.underscore:235
 msgid "Graded as:"
 msgstr "Noté comme : "
 
-#: cms/templates/js/course-outline.underscore:222
-#: cms/templates/js/course-outline.underscore:233
+#: cms/templates/js/course-outline.underscore:228
+#: cms/templates/js/course-outline.underscore:239
 msgid "Due:"
 msgstr "Date d'échéance : "
 
-#: cms/templates/js/course-outline.underscore:244
+#: cms/templates/js/course-outline.underscore:250
 msgid "Subsection is hidden after course end date"
 msgstr "Sous-section cachée après la date d'échéance du cours"
 
-#: cms/templates/js/course-outline.underscore:246
+#: cms/templates/js/course-outline.underscore:252
 msgid "Subsection is hidden after due date"
 msgstr "Sous-section cachée après la date d'échéance"
 
-#: cms/templates/js/course-outline.underscore:268
+#: cms/templates/js/course-outline.underscore:274
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "Vous n'avez pas encore ajouté de contenu à ce cours."
 
-#: cms/templates/js/course-outline.underscore:272
-#: cms/templates/js/course-outline.underscore:293
+#: cms/templates/js/course-outline.underscore:278
+#: cms/templates/js/course-outline.underscore:299
 #: cms/templates/js/xblock-outline.underscore:61
 #: cms/templates/js/xblock-outline.underscore:77
 #, python-format
@@ -1335,6 +1340,10 @@ msgid ""
 "If the subsection does not have a due date, learners always see their scores"
 " when they submit answers to assessments."
 msgstr "Si la sous-section ne dispose pas de date de fin, les apprenants voient toujours leur score lorsqu'ils soumettent leurs réponses lors des évaluations."
+
+#: cms/templates/js/show-textbook.underscore:12
+msgid "PDF Chapters"
+msgstr "Chapitres PDF"
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
