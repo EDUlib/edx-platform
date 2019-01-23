@@ -1402,11 +1402,11 @@ class ProgressPageTests(ProgressPageBaseTests):
             certificates[0]['is_active'] = False
             self.store.update_item(self.course, self.user.id)
 
-                resp = self._get_progress_page()
-                self.assertNotContains(resp, u"View Your Certificate")
-                self.assertNotContains(resp, u"You can now view your certificate")
-                self.assertContains(resp, "Your certificate is available")
-                self.assertContains(resp, "earned a certificate for this course.")
+            resp = self._get_progress_page()
+            self.assertNotContains(resp, u"View Your Certificate")
+            self.assertNotContains(resp, u"You can now view your certificate")
+            self.assertContains(resp, "Your certificate is available")
+            self.assertContains(resp, "earned a certificate for this course.")
 
     @patch('lms.djangoapps.certificates.api.get_active_web_certificate', PropertyMock(return_value=True))
     @patch.dict('django.conf.settings.FEATURES', {'CERTIFICATES_HTML_VIEW': False})
