@@ -84,23 +84,75 @@
 #####          </ul>
 #####        </div>
 ##### IRONWOOD #####
+    <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
+      <ul class="courses-listing">
+	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
+            % if course.catalog_visibility=="both":
+            <li class="courses-listing-item">
+              <%include file="../course.html" args="course=course" />
+            </li>
+            % endif
+        %endfor
+      </ul>
+    </div>
 
-        <section class="highlighted-courses">
-          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-            <section class="courses">
-                <ul class="courses-listing">
-                %for course in sorted(modulestore().get_courses(), key=lambda x: x.start, reverse=True):
-                     %if ((course.has_started() and not course.has_ended()) or (not course.has_started())) and course.catalog_visibility=="both":
-                         <li class="courses-listing-item">
-                             <%include file="../course-edulib.html" args="course=course" />
-                         </li>
-                     %endif
-                %endfor
-                </ul>
-            </section>
-          % endif
+    #####<div id="filter-bar" class="filters hide-phone is-collapsed">
+    #####</div>
+    #####% endif
+
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+    <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+           if not course.has_started() and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+    %if counter !=0 :
+        <h1>&Agrave; venir</h1>
+    %endif
+
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if not course.has_started() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
         </section>
+    </section>
 
+
+    %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
+        <% counter = 0 %>
+    %endif
+    <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+           if course.has_started() and not course.has_ended() and course.catalog_visibility == "both" :
+              counter += 1
+    %>
+    %if counter !=0 :
+        <h1>En cours</h1>
+    %endif
+
+
+    <section class="highlighted-courses">
+        <section class="courses">
+           <ul class="courses-listing">
+               %for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=False):
+                    %if course.has_started() and not course.has_ended() and course.catalog_visibility == "both" :
+                        <li class="courses-listing-item">
+                            <%include file="../course.html" args="course=course" />
+                        </li>
+                    %endif
+               %endfor
+           </ul>
+        </section>
+    </section>
 
         % if course_discovery_enabled:
         <aside aria-label="${_('Refine Your Search')}" class="search-facets phone-menu">
