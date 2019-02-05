@@ -3,6 +3,7 @@ define(['backbone', 'jquery', 'jquery.ui'], function(Backbone, $) {
     var CourseUpdate = Backbone.Model.extend({
         defaults: {
             date: $.datepicker.formatDate('MM d, yy', new Date()),
+            // EDULIB date: $.datepicker.formatDate('d MM yy', new Date()), 
             content: '',
             push_notification_enabled: false,
             push_notification_selected: false

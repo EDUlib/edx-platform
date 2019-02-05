@@ -116,10 +116,9 @@ from six import string_types
       <section class="intro">
         <div class="heading-group">
           <h1>
-            ${course.display_name_with_default_escaped}
+            <span>${course.display_org_with_default | h}</span><br />
+            <strong>${course.display_name_with_default_escaped}</strong>
           </h1>
-          <br />
-          <span>${course.display_org_with_default | h}</span>
         </div>
 
         <div class="main-cta">
@@ -164,7 +163,7 @@ from six import string_types
               reg_element_id = ""
           %>
           <a href="${reg_href}" class="add-to-cart" id="${reg_element_id}">
-            ${_("Add {course_name} to Cart <span>({price} USD)</span>")\
+            ${_("Add {course_name} to Cart <span>({price} CAD)</span>")\
               .format(course_name=course.display_number_with_default, price=course_price)}
           </a>
           <div id="register_error"></div>
@@ -230,6 +229,7 @@ from six import string_types
         <%block name="course_about_important_dates">
         <ol class="important-dates">
           <li class="important-dates-item"><span class="icon fa fa-info-circle" aria-hidden="true"></span><p class="important-dates-item-title">${_("Course Number")}</p><span class="important-dates-item-text course-number">${course.display_number_with_default | h}</span></li>
+          <li class="important-dates-item"><span class="icon fa fa-university" aria-hidden="true"></span><p class="important-dates-item-title">${_("Institution")}</p><span class="important-dates-item-text course-number">${course.display_organization | h}</span></li>
           % if not course.start_date_is_still_default:
               <%
                   course_start_date = course.advertised_start or course.start
@@ -241,9 +241,9 @@ from six import string_types
                   <span class="important-dates-item-text start-date">${course_start_date}</span>
               % else:
                   <%
-                     course_date_string = course_start_date.strftime('%Y-%m-%dT%H:%M:%S%z')
+                     course_date_string = course_start_date.strftime('%Y-%m-%d')
                   %>
-                  <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span>
+                  <span class="important-dates-item-text start-date localized_datetime" data-format="shortDate">${course_date_string}</span>
               % endif
             </li>
           % endif
@@ -261,9 +261,9 @@ from six import string_types
                       <span class="important-dates-item-text final-date">${course_end_date}</span>
                   % else:
                     <%
-                        course_date_string = course_end_date.strftime('%Y-%m-%dT%H:%M:%S%z')
+                        course_date_string = course_end_date.strftime('%Y-%m-%d')
                     %>
-                    <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate" data-datetime="${course_date_string}"></span>
+                    <span class="important-dates-item-text final-date localized_datetime" data-format="shortDate">${course_date_string}</span>
                   % endif
             </li>
             % endif

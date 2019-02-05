@@ -1,0 +1,372 @@
+// Theme overrides for edx.org
+//
+// The _extras.scss file is imported after all other rules by
+// the LMS Sass. For your own theme, you can override this file
+// to add any custom rules that you need. You can also import
+// partials directly into this file so that you can break your
+// rules into modular pieces.
+
+@import 'certificates';
+
+// Ensure the header matches the edx.org marketing site header
+.header-logo a {
+  @include media-breakpoint-down(md) {
+    margin-left: calc(50% - 30px) !important;
+
+    .logo {
+        margin-left: 0 !important;
+        width: $header-logo-width;
+        height: auto !important;
+    }
+  }
+}
+
+// ----------------------------
+// #COLORS
+// ----------------------------
+
+$edx-blue: rgb(0, 117, 180);
+
+$blue: rgb(18, 85, 139) !default;
+// $blue-1: rgb(18, 85, 139);
+// $blue-2: rgb(89, 187, 240);
+
+$blue-1: rgb(230, 242, 248);
+$blue-2: rgb(153, 201, 228);
+
+
+$brand-primary: $blue;
+
+$gray-1: rgb(248, 248, 248);
+$gray-2: rgb(200, 200, 200);
+
+
+
+// ----------------------------
+// #APPLICATIONS
+// ----------------------------
+
+// homepage, onboarding, and course discovery
+$homepage-bg-image: url('../images/edulib-theme/nuages.jpg');
+
+
+
+
+//
+// ----------------------------
+// #MODIFICATIONS EDULIB
+// ----------------------------
+//
+
+//-----------------
+//  Correctifs
+//-----------------
+
+div.btn-brand.btn-login {
+    background: none !important;
+    margin-bottom: 1em;
+}
+
+#footer-edx-v3 .container {
+    background: none !important;
+}
+
+.login .form-actions.form-third-party-auth button[type="submit"], .register .form-actions.form-third-party-auth button[type="submit"], .passwordreset .form-actions.form-third-party-auth button[type="submit"], #forgot-password-modal #password-reset .form-actions.form-third-party-auth button[type="submit"] {
+
+    margin-right: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+div.info-wrapper section.updates article h2:first-child, div.info-wrapper section.updates article .date, .course-updates .all-updates .updates-article .date {display: none !important;}
+
+
+.find-courses, .university-profile {
+    background: none !important;
+}
+
+
+
+
+
+@media screen  and (min-width: 980px) {
+    .find-courses .courses-container .courses:not(.no-course-discovery), .university-profile .courses-container .courses:not(.no-course-discovery) {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    
+    .find-courses .courses-container .courses:not(.no-course-discovery) .courses-listing .courses-listing-item, .university-profile .courses-container .courses:not(.no-course-discovery) .courses-listing .courses-listing-item {
+        width: 30% !important;
+    }
+}
+
+
+
+.mobile-nav-link a.btn, .mobile-nav-link a.btn:visited {
+    color: $edx-blue;
+}
+
+.mobile-nav-link a.btn:hover, .mobile-nav-link a.btn:focus, .mobile-nav-link a.btn:visited:hover, .mobile-nav-link a.btn:visited:focus {
+    color: #fff;
+}
+
+.xmodule_display.xmodule_CapaModule .problem .capa_inputtype.textline input, .xmodule_display.xmodule_CapaModule .problem .inputtype.formulaequationinput input {
+    min-width: inherit !important;
+}
+
+
+.course-info .course-sidebar .important-dates li .important-dates-item-text {
+    width: 50%;
+    text-align: right;
+}
+
+
+
+
+//-----------------
+//  Cookie
+//-----------------
+
+.cc-revoke, .cc-window {
+    font-family: inherit;
+}
+
+.cc-theme-classic .cc-btn:last-child, .cc-theme-classic .cc-btn:last-child:visited {
+    color: $edx-blue;
+    background-color: #fff;
+    border: 1px solid $edx-blue;
+}
+
+.cc-theme-classic .cc-btn:last-child:hover, .cc-theme-classic .cc-btn:last-child:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: $edx-blue;
+    border-color: #fff;
+}
+
+
+
+
+
+
+
+//-----------------
+//  Entête
+//-----------------
+
+@media screen  and (min-width: 992px) {
+    .settings-language-form {
+        padding: 0 !important;
+        margin-top: 20px !important;
+        margin-right: 15px;
+        margin-bottom: 0 !important;
+    }
+}
+
+/* https://getbootstrap.com/docs/4.0/components/forms/#custom-forms */
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    line-height: 1.5;
+    color: #fff !important;
+    vertical-align: middle;
+    background: $edx-blue url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center;
+    background-size: auto auto;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.global-header .nav-links .secondary a.btn {
+    transition: all 0.1s linear 0s;
+}
+
+
+.global-header .header-logo .course-header {
+    font-size: 1rem;
+}
+
+.global-header .header-logo .course-header .provider {
+    display: block;
+    margin-bottom: 0.25rem;
+    text-align: left;
+}
+
+.global-header .header-logo .course-header .course-name {
+    display: inline;
+}
+
+
+
+
+
+// ----------------------------
+// Pied de page
+// ----------------------------
+
+
+//-----------------
+//  Page d'accueil
+//-----------------
+
+.home > header {
+    background-image: $homepage-bg-image;
+}
+
+//-----------------
+//  Boîtes de cours
+//-----------------
+
+.courses-container .courses .course .course-image .cover-image {
+    text-align: center;
+}
+
+/* 
+.courses-container .courses .course .course-image .cover-image img {
+    height: 100%;
+    width: auto;
+}
+*/
+
+.courses-container .courses .course .course-info .course-organization, .courses-container .courses .course .course-info .course-title {
+    overflow: hidden;
+}
+
+.courses-container .courses .course .course-info .course-organization {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+//-----------------
+//  Pages À propos
+//-----------------
+
+.course-info header.course-profile {
+    background: $edx-blue;
+    background-image: $homepage-bg-image;
+    height: auto;
+    padding: 25px 0;
+}
+
+.course-info header.course-profile .intro-inner-wrapper {
+    background: rgba(255,255,255,0.85);
+    width: 95%;
+    max-width: inherit;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.course-info .course-sidebar .important-dates li .icon {
+    margin-top: 0px !important;
+}
+
+section.about h3, section.about h4, section.course-staff h3, section.course-staff h4 {
+    margin: 2em 0 1em 0 !important;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta > a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart {
+    
+    background-image: linear-gradient(to bottom,rgba(0, 117, 180, 0.5) 0%,rgba(0, 67, 147, 0.5) 50%,rgba(0, 42, 132, 0.5) 50%,rgba(0, 47, 134, 0.5) 100%) !important;
+    
+    border-color: rgba(0, 6, 99, 1);
+    border-bottom-color: rgba(0, 0, 58, 1);
+    
+    /*
+    animation-name: inscription;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    */
+    
+}
+
+
+@keyframes inscription {
+    0%   {background-color: #0075b4; border-color: rgba(0, 6, 99, 1); border-bottom-color: rgba(0, 0, 58, 1);}
+    50%  {background-color: #ffffff; border-color: rgba(0, 6, 99, 0.1); border-bottom-color: rgba(0, 0, 58, 0.1);}
+    100% {background-color: #0075b4; border-color: rgba(0, 6, 99, 1); border-bottom-color: rgba(0, 0, 58, 1);}
+}
+
+
+//-----------------
+//  Pages d'information
+//-----------------
+
+body.lang_en section.about div:lang(fr) {display: none;}
+body.lang_fr section.about div:lang(en) {display: none;}
+
+section.about p, section.about ul li, section.about ol li {
+    font: normal 1em/1.6em Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+section.about h1 {margin-top: 1em;}
+
+section.about h3, section.about h4 {
+    margin: 2em 0 1em 0;
+    font-weight: bold;
+}
+
+section.about ul, section.about ol {margin-top: 0.25em;}
+
+section.about ul {list-style-type: disc;}
+section.about ol {list-style-type: decimal;}
+section.about ol ul {list-style-type: circle;}
+
+//-----------------
+//  Pages Institutions
+//-----------------
+
+section.about ul.member-list {
+	text-align: center;
+    padding: 0;
+}
+
+section.about ul.member-list li, section.about ul.member-list a {
+    display: inline-block;
+    width: 300px;
+}
+
+section.about ul.member-list li {margin: 10px;}
+
+section.about ul.member-list a {
+    background-color: $gray-1;
+    border: 1px solid $gray-2;
+}
+
+section.about ul.member-list a:hover {
+    background-color: $blue-1;
+    border-color: $blue-2;
+}
+
+section.about ul.founder a {height: 200px;}
+
+section.about ul.founder a img {
+    width: 85%;
+    margin-top: 55px;
+}
+
+section.about ul.associate a {height: 135px;}
+
+section.about ul.associate a img {
+    width: 60%;
+    margin-top: 40px;
+}
+
+//-----------------
+//  Pages Contacts
+//-----------------
+
+section.about p.member-list a.institution {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+section.about p.member-list span {
+    display: inline-block;
+}

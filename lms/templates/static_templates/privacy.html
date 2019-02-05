@@ -10,8 +10,19 @@
         <h1>
             <%block name="pageheader">${page_header or _("Privacy Policy")}</%block>
         </h1>
-        <p>
-            <%block name="pagecontent">${page_content or _("This page left intentionally blank. Feel free to add your own content.")}</%block>
-        </p>
+        
+        <div lang="fr">
+            <h3 style="text-align:center;"><a href="/tos#confidentialite">Cliquez ici pour accéder à la politique de confidentialité</a></h3>
+        </div>
+
+        <div lang="en">
+            <h3 style="text-align:center;"><a href="/tos#privacy">Click this link to access our privacy policy</a></h3>
+        </div>
+        
+        
+    
+    <script type="text/javascript">
+        window.location.href = '/tos#confidentialite';
+    </script>
     </section>
 </main>
