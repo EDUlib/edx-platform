@@ -322,6 +322,15 @@ HEARTBEAT_CELERY_TIMEOUT = ENV_TOKENS.get('HEARTBEAT_CELERY_TIMEOUT', HEARTBEAT_
 
 LOGIN_REDIRECT_WHITELIST = [reverse_lazy('home')]
 
+# Login using the LMS as the identity provider.
+# Turning the flag to True means that the LMS will NOT be used as the Identity Provider (idp)
+if FEATURES.get('DISABLE_STUDIO_SSO_OVER_LMS', False):
+    LOGIN_URL = reverse_lazy('login')
+    FRONTEND_LOGIN_URL = LOGIN_URL
+    FRONTEND_LOGOUT_URL = reverse_lazy('logout')
+
+LOGIN_REDIRECT_WHITELIST = [reverse_lazy('home')]
+
 # Specific setting for the File Upload Service to store media in a bucket.
 FILE_UPLOAD_STORAGE_BUCKET_NAME = ENV_TOKENS.get('FILE_UPLOAD_STORAGE_BUCKET_NAME', FILE_UPLOAD_STORAGE_BUCKET_NAME)
 FILE_UPLOAD_STORAGE_PREFIX = ENV_TOKENS.get('FILE_UPLOAD_STORAGE_PREFIX', FILE_UPLOAD_STORAGE_PREFIX)
