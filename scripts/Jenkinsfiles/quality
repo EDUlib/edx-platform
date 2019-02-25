@@ -41,7 +41,7 @@ def qualityTestCleanup() {
 }
 
 pipeline {
-    agent { label "jenkins-worker" }
+    agent { label "ironwood-jenkins-worker" }
     options {
         sendSplunkConsoleLog()
         timestamps()
@@ -74,7 +74,7 @@ pipeline {
         stage('Run Tests') {
             parallel {
                 stage("commonlib pylint") {
-                    agent { label "jenkins-worker" }
+                    agent { label "ironwood-jenkins-worker" }
                     environment {
                         TEST_SUITE = "quality"
                         SHARD = 1
@@ -93,7 +93,7 @@ pipeline {
                     }
                 }
                 stage("lms pylint") {
-                    agent { label "jenkins-worker" }
+                    agent { label "ironwood-jenkins-worker" }
                     environment {
                         TEST_SUITE = "quality"
                         SHARD = 2
@@ -112,7 +112,7 @@ pipeline {
                     }
                 }
                 stage("cms/openedx/pavelib pylint") {
-                    agent { label "jenkins-worker" }
+                    agent { label "ironwood-jenkins-worker" }
                     environment {
                         TEST_SUITE = "quality"
                         SHARD = 3
@@ -131,7 +131,7 @@ pipeline {
                     }
                 }
                 stage("Other quality checks") {
-                    agent { label "jenkins-worker" }
+                    agent { label "ironwood-jenkins-worker" }
                     environment {
                         TEST_SUITE = "quality"
                         SHARD = 4
