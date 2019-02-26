@@ -31,7 +31,8 @@ def plugin_settings(settings):
         # Show a section in the membership tab of the instructor dashboard
         # to allow an upload of a CSV file that contains a list of new accounts to create
         # and register for course.
-        'ALLOW_AUTOMATED_SIGNUPS': False,
+        #####'ALLOW_AUTOMATED_SIGNUPS': False,
+        'ALLOW_AUTOMATED_SIGNUPS': True,
 
         # Batch-Generated Certificates from Instructor Dashboard
         'CERTIFICATES_INSTRUCTOR_GENERATION': False,

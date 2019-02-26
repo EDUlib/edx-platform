@@ -77,7 +77,7 @@ class CourseMode(models.Model):
     min_price = models.IntegerField(default=0, verbose_name=_("Price"))
 
     # the currency these prices are in, using lower case ISO currency codes
-    currency = models.CharField(default="usd", max_length=8)
+    currency = models.CharField(default="cad", max_length=8)
 
     # The datetime at which the course mode will expire.
     # This is used to implement "upgrade" deadlines.
@@ -181,7 +181,7 @@ class CourseMode(models.Model):
     # "honor" to "audit", we still need to have the shoppingcart
     # use "honor"
     DEFAULT_SHOPPINGCART_MODE_SLUG = HONOR
-    DEFAULT_SHOPPINGCART_MODE = Mode(HONOR, _('Honor'), 0, '', 'usd', None, None, None, None)
+    DEFAULT_SHOPPINGCART_MODE = Mode(HONOR, _('Honor'), 0, '', 'cad', None, None, None, None)
 
     CACHE_NAMESPACE = u"course_modes.CourseMode.cache."
 
@@ -687,16 +687,13 @@ class CourseMode(models.Model):
     def is_eligible_for_certificate(cls, mode_slug):
         """
         Returns whether or not the given mode_slug is eligible for a
-        certificate. Currently all modes other than 'audit' and `honor`
-        grant a certificate. Note that audit enrollments which existed
-        prior to December 2015 *were* given certificates, so there will
-        be GeneratedCertificate records with mode='audit' which are
+        certificate. Currently all modes other than 'audit' grant a
+        certificate. Note that audit enrollments which existed prior
+        to December 2015 *were* given certificates, so there will be
+        GeneratedCertificate records with mode='audit' which are
         eligible.
         """
-        if mode_slug == cls.AUDIT or mode_slug == cls.HONOR:
-            return False
-
-        return True
+        return mode_slug != cls.AUDIT
 
     def to_tuple(self):
         """
@@ -819,7 +816,7 @@ class CourseModesArchive(models.Model):
                                         validators=[validate_comma_separated_integer_list])
 
     # the currency these prices are in, using lower case ISO currency codes
-    currency = models.CharField(default="usd", max_length=8)
+    currency = models.CharField(default="cad", max_length=8)
 
     # turn this mode off after the given expiration date
     expiration_date = models.DateField(default=None, null=True, blank=True)
