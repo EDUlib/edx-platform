@@ -122,6 +122,7 @@ def fire_ungenerated_certificate_task(user, course_key, expected_verification_st
 
     allowed_enrollment_modes_list = [
         CourseMode.VERIFIED,
+        CourseMode.HONOR,
         CourseMode.CREDIT_MODE,
         CourseMode.PROFESSIONAL,
         CourseMode.NO_ID_PROFESSIONAL_MODE,
