@@ -261,6 +261,16 @@ def _footer_connect_links(language=settings.LANGUAGE_CODE):
             "url": link_url,
         }
         for link_name, (link_url, link_title) in links
+##### Code EDUlib #####
+#        for link_name, link_url, link_title in [
+#            #####("blog", marketing_link("BLOG"), _("Blog")),
+#            #####("contact", _build_support_form_url(), _("Contact Us")),
+#            ("contact", marketing_link("CONTACT"), _("Contact Us")),
+#            ("help-center", settings.SUPPORT_SITE_LINK, _("Help Center")),
+#            ("media_kit", marketing_link("MEDIA_KIT"), _("Media Kit")),
+#            #####("donate", marketing_link("DONATE"), _("Donate")),
+#        ]
+##### Code EDUlib #####
         if link_url and link_url != "#"
     ]
 
@@ -299,6 +309,20 @@ def _footer_navigation_links(language=settings.LANGUAGE_CODE):
             "url": link_url,
         }
         for link_name, (link_url, link_title) in links
+##### Code EDUlib #####
+#        for link_name, link_url, link_title in [
+#            ("about", marketing_link("ABOUT"), _("About")),
+#            ("enterprise", marketing_link("ENTERPRISE"),
+#             _("{platform_name} for Business").format(platform_name=platform_name)),
+#            #####("blog", marketing_link("BLOG"), _("Blog")),
+#            ("news", marketing_link("NEWS"), _("News")),
+#            ("help-center", settings.SUPPORT_SITE_LINK, _("Help Center")),
+#            ("contact", reverse("support:contact_us"), _("Contact")),
+#            ("careers", marketing_link("CAREERS"), _("Careers")),
+#            #####("donate", marketing_link("DONATE"), _("Donate")),
+#            ("sitemap", marketing_link("SITE_MAP"), _("Sitemap")),
+#        ]
+##### Code EDUlib #####
         if link_url and link_url != "#"
     ]
 
@@ -372,6 +396,17 @@ def _footer_business_links(language=settings.LANGUAGE_CODE):
             "url": link_url,
         }
         for link_name, (link_url, link_title) in links
+##### Code EDUlib ######
+#        for link_name, link_url, link_title in [
+#            ("about", marketing_link("ABOUT"), _("About")),
+#            ("enterprise", marketing_link("ENTERPRISE"),
+#             _("{platform_name} for Business").format(platform_name=platform_name)),
+#            ("affiliates", marketing_link("AFFILIATES"), _("Affiliates")),
+#            ("careers", marketing_link("CAREERS"), _("Careers")),
+#            ("news", marketing_link("NEWS"), _("News")),
+#            ("openedx", _footer_openedx_link()["url"], _("Open edX")),
+#        ]
+##### Code EDUlib ######
         if link_url and link_url != "#"
     ]
 
