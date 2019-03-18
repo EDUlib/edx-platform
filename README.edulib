@@ -1,0 +1,4 @@
+Mpdifications nécessaires pour faire fonctionner les attestations sur l'honneur avec ironwood
+	lms/djangoapps/certificates/models.py
+	lms/djangoapps/courseware/views/views.py
+	lms/djangoapps/certificates/signals.py
