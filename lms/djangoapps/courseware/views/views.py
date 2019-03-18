@@ -21,7 +21,7 @@ from django.urls import reverse
 from django.utils.decorators import method_decorator
 from django.utils.http import urlquote_plus
 from django.utils.text import slugify
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 from django.views.decorators.cache import cache_control
 from django.views.decorators.clickjacking import xframe_options_exempt
 from django.views.decorators.csrf import ensure_csrf_cookie
@@ -1008,8 +1008,11 @@ def _progress(request, course_key, student_id):
         'credit_course_requirements': _credit_course_requirements(course_key, student),
         'course_expiration_fragment': course_expiration_fragment,
     }
-    if certs_api.get_active_web_certificate(course):
-        context['certificate_data'] = _get_cert_data(student, course, enrollment_mode, course_grade)
+    ##### falsely assumed that all certificates are web certificates - modif by EDUlib
+    #####if certs_api.get_active_web_certificate(course):
+    #####    context['certificate_data'] = _get_cert_data(student, course, enrollment_mode, course_grade)
+    ##### falsely assumed that all certificates are web certificates - modif by EDUlib
+    context['certificate_data'] = _get_cert_data(student, course, enrollment_mode, course_grade)
     context.update(
         get_experiment_user_metadata_context(
             course,
@@ -1075,7 +1078,7 @@ def _get_cert_data(student, course, enrollment_mode, course_grade=None):
         returns dict if course certificate is available else None.
     """
     if not CourseMode.is_eligible_for_certificate(enrollment_mode):
-        return AUDIT_PASSING_CERT_DATA if enrollment_mode == CourseMode.AUDIT else HONOR_PASSING_CERT_DATA
+        return AUDIT_PASSING_CERT_DATA
 
     certificates_enabled_for_course = certs_api.cert_generation_enabled(course.id)
     if course_grade is None:

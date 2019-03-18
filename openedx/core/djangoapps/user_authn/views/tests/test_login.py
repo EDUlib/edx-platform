@@ -208,7 +208,7 @@ class LoginTest(CacheIsolationTestCase):
         logout_url = reverse('logout')
         with patch('student.models.AUDIT_LOG') as mock_audit_log:
             response = self.client.post(logout_url)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 302)
         self._assert_audit_log(mock_audit_log, 'info', [u'Logout', u'test'])
 
     def test_login_user_info_cookie(self):
@@ -256,10 +256,7 @@ class LoginTest(CacheIsolationTestCase):
         self._assert_response(response, success=True)
 
         response = self.client.post(reverse('logout'))
-        expected = {
-            'target': '/',
-        }
-        self.assertDictContainsSubset(expected, response.context_data)
+        self.assertRedirects(response, "/")
 
     @patch.dict("django.conf.settings.FEATURES", {'SQUELCH_PII_IN_LOGS': True})
     def test_logout_logging_no_pii(self):
@@ -268,7 +265,7 @@ class LoginTest(CacheIsolationTestCase):
         logout_url = reverse('logout')
         with patch('student.models.AUDIT_LOG') as mock_audit_log:
             response = self.client.post(logout_url)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 302)
         self._assert_audit_log(mock_audit_log, 'info', [u'Logout'])
         self._assert_not_in_audit_log(mock_audit_log, 'info', [u'test'])
 
@@ -401,7 +398,7 @@ class LoginTest(CacheIsolationTestCase):
         url = reverse('logout')
 
         response = client1.get(url)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 302)
 
     def test_change_enrollment_400(self):
         """
