@@ -632,6 +632,7 @@ if FEATURES.get('ENABLE_THIRD_PARTY_AUTH'):
         'social_core.backends.azuread.AzureADOAuth2',
         'common.djangoapps.third_party_auth.appleid.AppleIdAuth',  # vendored 'social_core.backends.apple.AppleIdAuth'
         'common.djangoapps.third_party_auth.identityserver3.IdentityServer3',
+        'social_core.backends.twitter.TwitterOAuth',
         'common.djangoapps.third_party_auth.saml.SAMLAuthBackend',
         'common.djangoapps.third_party_auth.lti.LTIAuthBackend',
     ])
