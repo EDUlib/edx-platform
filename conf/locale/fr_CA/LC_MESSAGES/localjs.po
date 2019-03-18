@@ -1,0 +1,58 @@
+
+#. Start of local translations for EDUlib
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Use the Discussion Topics menu to find specific topics."
+msgstr "Utiliser le menu des sujets de discussions pour trouver des sujets spécifiques."
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "By: Staff"
+msgstr "Par : Équipe pédagogique"
+
+#: common/static/common/templates/discussion/new-post.underscore:36
+#: common/static/common/templates/discussion/thread-edit.underscore:8
+msgid ""
+"Add a clear and descriptive title to encourage participation."
+msgstr "Ajouter un titre clair et descriptif afin d'encourager la participation."
+
+#: common/static/common/templates/discussion/new-post.underscore:45
+msgid "Your question or idea"
+msgstr "Votre question ou idée"
+
+#: common/static/common/templates/discussion/thread-type.underscore:8
+msgid ""
+"Questions raise issues that need answers. Discussions share ideas and start "
+"conversations."
+msgstr "Les questions soulèvent des problèmes auxquels il faut répondre. Les discussions partagent des idées et démarrent des conversations."
+
+#: common/static/common/templates/discussion/topic.underscore:6
+msgid "Add your post to a relevant topic to help others find it."
+msgstr "Ajoutez votre message à un sujet pertinent afin d'aider les autres à le trouver."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Enter and confirm your new password."
+msgstr "Entrer et confirmer votre nouveau mot de passe." 
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Confirm Password"
+msgstr "Confirmer votre mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Reset My Password"
+msgstr "Réinitaliser mon mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:
+msgid "Please note: Deletion of your account and personal data is permanent and cannot be undone. EdX will not be able to recover your account or the data that is deleted."
+msgstr "Remarque: la suppression de votre compte et de vos données personnelles est permanente et ne peut pas être annulée. EDUlib ne pourra pas récupérer votre compte ni les données supprimées."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:
+msgid "If you proceed, you will be unable to use this account to take courses on the edX app, edx.org, or any other site hosted by edX. This includes access to edx.org from your employer’s or university’s system and access to private sites offered by MIT Open Learning, Wharton Executive Education, and Harvard Medical School."
+msgstr "Si vous continuez, vous ne pourrez plus utiliser ce compte pour suivre des cours sur l'application EDUlib, edulib.org ou sur tout autre site hébergé par EDUlib. Cela inclut l'accès à edulib.org depuis le système de votre employeur ou de votre université et l'accès à des sites privés offerts par MIT Open Learning, Wharton Executive Education et Harvard Medical School."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:
+msgid "Yes, Delete"
+msgstr "Oui, supprimer"
