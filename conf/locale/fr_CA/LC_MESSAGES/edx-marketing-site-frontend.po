@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Keivan Farzaneh <keivan.farzaneh@edulib.org>, 2017
 # Pierre Mailhot <pierre.mailhot@gmail.com>, 2017
