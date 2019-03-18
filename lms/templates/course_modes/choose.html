@@ -165,7 +165,18 @@ from openedx.core.djangolib.markup import HTML, Text
                                                 </div>
                                                 <div class="copy-inline list-actions">
                                                     <ul class="list-actions">
+<<<<<<< HEAD
                                                         <%include file='_upgrade_button.html' args='content_gating_enabled=content_gating_enabled, course_duration_limit_enabled=course_duration_limit_enabled, min_price=min_price, price_before_discount=price_before_discount' />
+=======
+                                                        <li class="action action-select">
+                                                            <input type="hidden" name="contribution" value="${min_price}" />
+                                                            % if content_gating_enabled or course_duration_limit_enabled:
+                                                                <input type="submit" name="verified_mode" value="${_('Pursue the Verified Track')} ($${min_price} CAD)" />
+                                                            % else:
+                                                                <input type="submit" name="verified_mode" value="${_('Pursue a Verified Certificate')} ($${min_price} CAD)" />
+                                                            % endif
+                                                        </li>
+>>>>>>> one commit edulib-ironwood.1rc4
                                                     </ul>
                                                 </div>
                                             </div>

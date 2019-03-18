@@ -1,0 +1,28 @@
+<%page expression_filter="h"/>
+<%! from django.utils.translation import ugettext as _ %>
+
+<%inherit file="../main.html" />
+
+<%block name="pagetitle">${_("In the Press")}</%block>
+
+<main id="main" aria-label="Content" tabindex="-1">
+    <section class="container about">
+        <div lang="fr">
+            <h1>Les attestations d&rsquo;EDU<em>lib</em></h1>
+    
+            <h3 style="text-align:center;"><a href="/tos#attestations">Cliquez ici pour accéder à la politique sur l&rsquo;attribution des attestations</a></h3>
+        </div>
+
+        <div lang="en">
+            <h1>EDU<em>lib</em> Certifications</h1>
+    
+            <h3 style="text-align:center;"><a href="/tos#certificates">Click here to access our policy on certificate attribution</a></h3>
+        </div>
+        
+        
+
+        <script type="text/javascript">
+            window.location.href = '/tos#attestations';
+        </script>
+    </section>
+</main>

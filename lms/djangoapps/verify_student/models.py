@@ -652,7 +652,8 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
             aes_key = aes_key_str.decode("hex")
 
         path = self._get_path("face")
-        buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        #####buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        buff = ContentFile(img_data)
         self._storage.save(path, buff)
 
     @status_before_must_be("created")
@@ -683,7 +684,8 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
 
         # Save this to the storage backend
         path = self._get_path("photo_id")
-        buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        #####buff = ContentFile(encrypt_and_encode(img_data, aes_key))
+        buff = ContentFile(img_data)
         self._storage.save(path, buff)
 
         # Update our record fields

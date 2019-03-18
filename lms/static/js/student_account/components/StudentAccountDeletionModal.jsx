@@ -31,7 +31,8 @@ class StudentAccountDeletionConfirmationModal extends React.Component {
     this.props.onClose();
 
     removeLoggedInCookies();
-    window.location.href = this.props.mktgRootLink;
+/*    window.location.href = this.props.mktgRootLink; */
+    window.location.href = 'https://cours.edulib.org';
   }
 
   deleteAccount() {
@@ -176,7 +177,7 @@ class StudentAccountDeletionConfirmationModal extends React.Component {
               <p className="next-steps">{ gettext('If you still wish to continue and delete your account, please enter your account password:') }</p>
               <InputText
                 name="confirm-password"
-                label="Password"
+                label={gettext('Password')}
                 type="password"
                 className={['confirm-password-input']}
                 onBlur={this.passwordFieldValidation}
