@@ -28,6 +28,10 @@ from student.models import CourseEnrollment
 
 from .context_processor import user_timezone_locale_prefs
 
+##### EDUlib code #####
+from util.date_utils import strftime_localized
+import pytz
+##### EDUlib code #####
 
 class DateSummary(object):
     """Base class for all date summary blocks."""
@@ -120,10 +124,21 @@ class DateSummary(object):
         # 'absolute'. For example, 'absolute' might be "Jan 01, 2020",
         # and if today were December 5th, 2020, 'relative' would be "1
         # month".
-        date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
+        ##### Hawthorn code #####
+        ##### date_format = _(u"{relative} ago - {absolute}") if date_has_passed else _(u"in {relative} - {absolute}")
+        ##### Hawthorn code #####
+        ###### EDUlib code #####
+        date_format = _(u"{relative} ago - {absolute} UTC") if date_has_passed else _(u"in {relative} - {absolute} UTC")
+        localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
+        ###### EDUlib code #####
         return date_format.format(
             relative=relative_date,
-            absolute='{date}',
+            ##### Hawthorn code #####
+            ##### absolute='{date}',
+            ##### Hawthorn code #####
+            ##### EDUlib code #####
+            absolute=localized,
+            ##### EDUlib code #####
         )
 
     @property
@@ -218,8 +233,14 @@ class TodaysDate(DateSummary):
 
     @property
     def title(self):
-        return 'current_datetime'
-
+        ##### HAWTHORN code #####
+        ##### return 'current_datetime' #####
+        ##### HAWTHORN code #####
+        ##### EDUlib   code #####
+        localized = strftime_localized(self.date.astimezone(pytz.UTC), "DATE_TIME")
+        return _(u'Today is {date} UTC').format(date=localized)
+        ##### EDUlib   code #####
+      
 
 class CourseStartDate(DateSummary):
     """

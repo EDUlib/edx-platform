@@ -104,7 +104,7 @@ FEATURES = {
 
     'ENABLE_MASQUERADE': True,  # allow course staff to change to student view of courseware
 
-    'ENABLE_SYSADMIN_DASHBOARD': False,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
+    'ENABLE_SYSADMIN_DASHBOARD': True,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
 
     'DISABLE_LOGIN_BUTTON': False,  # used in systems where login is automatic, eg MIT SSL
 
@@ -282,13 +282,13 @@ FEATURES = {
     'ENABLE_EDXNOTES': False,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Organizations application flag
     'ORGANIZATIONS_APP': False,
 
     # Prerequisite courses feature flag
-    'ENABLE_PREREQUISITE_COURSES': False,
+    'ENABLE_PREREQUISITE_COURSES': True,
 
     # For easily adding modes to courses during acceptance testing
     'MODE_CREATION_FOR_TESTING': False,
@@ -370,7 +370,7 @@ FEATURES = {
 
     # Enable footer banner for cookie consent.
     # See https://cookieconsent.insites.com/ for more.
-    'ENABLE_COOKIE_CONSENT': False,
+    'ENABLE_COOKIE_CONSENT': True,
 
     # Whether or not the dynamic EnrollmentTrackUserPartition should be registered.
     'ENABLE_ENROLLMENT_TRACK_USER_PARTITION': True,
@@ -979,7 +979,7 @@ MEDIA_URL = '/media/'
 
 # Locale/Internationalization
 TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'fr'  # http://www.i18nguy.com/unicode/language-identifiers.html
 # these languages display right to left
 LANGUAGES_BIDI = ("he", "ar", "fa", "ur", "fa-ir", "rtl")
 
@@ -1022,6 +1022,7 @@ LANGUAGES = [
     ('fi-fi', u'Suomi (Suomi)'),  # Finnish (Finland)
     ('fil', u'Filipino'),  # Filipino
     ('fr', u'Français'),  # French
+    ('fr-ca', u'Français Canada'),  # French (Canada)
     ('gl', u'Galego'),  # Galician
     ('gu', u'ગુજરાતી'),  # Gujarati
     ('he', u'עברית'),  # Hebrew
@@ -1156,7 +1157,7 @@ CC_PROCESSOR = {
 }
 
 # Setting for PAID_COURSE_REGISTRATION, DOES NOT AFFECT VERIFIED STUDENTS
-PAID_COURSE_REGISTRATION_CURRENCY = ['usd', '$']
+PAID_COURSE_REGISTRATION_CURRENCY = ['cad', '$']
 
 # Members of this group are allowed to generate payment reports
 PAYMENT_REPORT_GENERATOR_GROUP = 'shoppingcart_report_access'
@@ -2333,8 +2334,8 @@ MKTG_URL_LINK_MAP = {
     'HONOR': 'honor',  # If your site does not have an honor code, simply delete this line.
     'PRIVACY': 'privacy',
     'PRESS': 'press',
-    'BLOG': 'blog',
-    'DONATE': 'donate',
+    #####'BLOG': 'blog',
+    #####'DONATE': 'donate',
     'SITEMAP.XML': 'sitemap_xml',
 
     # Verified Certificates
@@ -2373,10 +2374,7 @@ SOCIAL_SHARING_SETTINGS = {
 SOCIAL_MEDIA_FOOTER_NAMES = [
     "facebook",
     "twitter",
-    "youtube",
-    "linkedin",
-    "google_plus",
-    "reddit",
+    "google_plus"
 ]
 
 # The footer URLs dictionary maps social footer names
@@ -2523,10 +2521,13 @@ REGISTRATION_EXTRA_FIELDS = {
     'year_of_birth': 'optional',
     'mailing_address': 'optional',
     'goals': 'optional',
-    'honor_code': 'required',
-    'terms_of_service': 'hidden',
+    'honor_code': 'hidden',
+    'terms_of_service': 'required',
     'city': 'hidden',
     'country': 'hidden',
+#### EDULIB
+####    'consent': 'hidden',
+#### EDULIB
 }
 
 REGISTRATION_FIELD_ORDER = [
@@ -2556,8 +2557,10 @@ REGISTRATION_FIELD_ORDER = [
 REGISTRATION_EMAIL_PATTERNS_ALLOWED = None
 
 ########################## CERTIFICATE NAME ########################
-CERT_NAME_SHORT = "Certificate"
-CERT_NAME_LONG = "Certificate of Achievement"
+#CERT_NAME_SHORT = "Certificate"
+CERT_NAME_SHORT = "attestation"
+#CERT_NAME_LONG = "Certificate of Achievement"
+CERT_NAME_LONG = "attestation de reussite"
 
 #################### OpenBadges Settings #######################
 
@@ -2926,11 +2929,15 @@ COUNTRIES_OVERRIDE = {
 
 # which access.py permission name to check in order to determine if a course is visible in
 # the course catalog. We default this to the legacy permission 'see_exists'.
-COURSE_CATALOG_VISIBILITY_PERMISSION = 'see_exists'
+#COURSE_CATALOG_VISIBILITY_PERMISSION = 'see_exists'
+####
+COURSE_CATALOG_VISIBILITY_PERMISSION = 'see_in_catalog'
 
 # which access.py permission name to check in order to determine if a course about page is
 # visible. We default this to the legacy permission 'see_exists'.
-COURSE_ABOUT_VISIBILITY_PERMISSION = 'see_exists'
+#COURSE_ABOUT_VISIBILITY_PERMISSION = 'see_exists'
+####
+COURSE_ABOUT_VISIBILITY_PERMISSION = 'see_about_page'
 
 DEFAULT_COURSE_VISIBILITY_IN_CATALOG = "both"
 DEFAULT_MOBILE_AVAILABLE = True

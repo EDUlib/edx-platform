@@ -10,6 +10,7 @@ import logging
 
 from ccx_keys.locator import CCXLocator
 from courseware.courses import get_course_by_id
+from xmodule.modulestore.django import SignalHandler
 
 log = logging.getLogger(__name__)
 
