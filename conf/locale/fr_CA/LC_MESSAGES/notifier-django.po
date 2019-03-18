@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexandre Armougom <aav974@hotmail.fr>, 2016
+# anaseha <anaselhadjamor@gmail.com>, 2014
+# ASSYASS Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
+# Axel Billot <axelbillot@gmail.com>, 2015
+# bekairi tahar <tahar48omar@gmail.com>, 2014
+# Bertrand Marron <bertrand.marron@gmail.com>, 2014
+# Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
+# ClaudeCoulombe <claude.coulombe@gmail.com>, 2014
+# Daniel Le Berre, 2014-2015
+# Delattre <mdelattre78@laposte.net>, 2015
+# derthy <derthiamj@gmail.com>, 2014
+# Dosto92 <hakim.poubelle@gmail.com>, 2014
+# eddy01 <ngwa.edwin@yahoo.com>, 2014
+# Emmanuel Olégine <olegine@gmail.com>, 2015
+# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# Eric Fortin, 2014,2016
+# fgerber <gerber.francois@gmail.com>, 2015
+# francoisedocq, 2014
+# Françoise Docq, 2014
+# ec8fd933aa5d2ad0772d64892951aef0, 2015
+# Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
+# Gilles Langevin <langevin.net@gmail.com>, 2013
+# Hélène Tindon <helene.tindon@gmail.com>, 2015
+# INARES <contact@inares.org>, 2015
+# Isabelle Gonon <isabelle.gonon@cnam.fr>, 2013
+# Jeremie Sicsic <jsicsic@gmail.com>, 2013
+# jmc <jmc@edx.org>, 2014
+# jsa_edx <jsa@edx.org>, 2014
+# Julien Colmonts <julien.colmonts@student.uclouvain.be>, 2014
+# Julien Rolland <julien.rolland33@gmail.com>, 2013
+# Justine Seran, 2015
+# Kévin SEVERIN <kevin.severin@laposte.net>, 2015
+# Laetitia Pfaender <l.pfaender@learning-tribes.com>, 2016
+# laurentFUN <laurent.at.fun@gmail.com>, 2014,2016
+# Leslie Bordonné <inactive+lbordonne@transifex.com>, 2015
+# Linda B.A <siria242@gmail.com>, 2016
+# madmarsu <madmarsu@gmail.com>, 2014
+# Maghjina <Maghjina@gmail.com>, 2014
+# mamby, 2014
+# Manjari <mringuet@gmail.com>, 2014
+# Marco Morales, 2014
+# Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
+# moocit-france <contact@moocit.fr>, 2015
+# natg94 <bgenson@voo.be>, 2015
+# Nikolaos Maris, 2013
+# Olivier Lebon <oliv.lebon@wanadoo.fr>, 2015
+# Olivier Marquez <oliviermarquez@gmail.com>, 2013,2015
+# pacha <patrick.chau@wanadoo.fr>, 2015
+# Pedro Guimarães Martins <pedrogmartins7@gmail.com>, 2014
+# PETIT Yannick <yannick.petit@gmail.com>, 2013
+# Philippe Chiu <philippe.chiu@gmail.com>, 2013
+# Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016
+# Pierre Roland Bonvin <pierre@bonvin.name>, 2016
+# qcappart <quentin.c@swing.be>, 2014
+# Ramarohetra Malalatiana <mtiana8@gmail.com>, 2014
+# Régis Behmo <transifex.stuff@behmo.com>, 2016
+# Régis Millet <regmillet@ct2c.fr>, 2015
+# Richard Moch <richard.moch@gmail.com>, 2014-2016
+# SALHI Aissam <ais.salhy@gmail.com>, 2014
+# samuel <samuelecin@gmail.com>, 2014
+# Sarina Canelake <sarina@edx.org>, 2014
+# Sébastien Viallemonteil <sebastien.viallemonteil@educagri.fr>, 2015
+# Sébastien Vigneau <sebastien.vigneau@gmail.com>, 2015
+# Serge Bibauw <sbibauw@gmail.com>, 2016
+# SLOG90 <slog90@gmail.com>, 2014
+# Steven BERNARD <steven.bernard@u-paris2.fr>, 2013-2014
+# Tahar <taharbrahmi@hotmail.fr>, 2015
+# Tala Aoun <talaaoun@gmail.com>, 2016
+# Thomas Fradet <t.fradet8@gmail.com>, 2015
+# Thomas Sihapanya <sihapanya.thomas@gmail.com>, 2015
+# Toreador <torrent_lover@hotmail.com>, 2014
+# Xavier Antoviaque <xavier@antoviaque.org>, 2014
+# Xynn <xynn.anhnguyen@gmail.com>, 2015
+# d6910e756eb8532754192e6021dc9f83, 2015
+# ytabaa <ytabaa@uae.ac.ma>, 2014
+# Андрей Поляков <polyakov.andrey@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-12 13:42-0500\n"
+"PO-Revision-Date: 2017-09-23 21:24+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
+"Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Translators: This string separates two items in a pair (e.g.
+#. "Foo and Bar"); note that this includes any necessary whitespace to
+#. accommodate languages that do not use whitespace in such a pair construct.
+#: notifier/digest.py:89
+msgid " and "
+msgstr "et"
+
+#. Translators: This string separates items in a list (e.g.
+#. "Foo, Bar, Baz, and Quux"); note that this includes any necessary
+#. whitespace to accommodate languages that do not use whitespace in
+#. such a list construct.
+#: notifier/digest.py:94
+msgid ", "
+msgstr ","
+
+#. Translators: This string separates the final two items in a list (e.g.
+#. "Foo, Bar and Baz"); note that this includes any necessary whitespace to
+#. accommodate languages that do not use whitespace in such a list construct.
+#: notifier/digest.py:98
+msgid ", and "
+msgstr ", et"
+
+#: notifier/templates/digest-email.html:72
+#: notifier/templates/digest-email.txt:8
+#, python-format
+msgid "Hi %(name)s,"
+msgstr "Bonjour %(name)s,"
+
+#: notifier/templates/digest-email.html:74
+#: notifier/templates/digest-email.txt:10
+#, python-format
+msgid ""
+"You have %(thread_count)s discussion thread with updates in "
+"%(course_names)s. The most recent highlights are shown below. As a reminder,"
+" you can turn off all discussion digests from any course's Discussion Home "
+"page."
+msgid_plural ""
+"You have %(thread_count)s discussion threads with updates in "
+"%(course_names)s. The most recent highlights are shown below. As a reminder,"
+" you can turn off all discussion digests from any course's Discussion Home "
+"page."
+msgstr[0] "Vous avez %(thread_count)s fils de discussions avec des mises à jour dans %(course_names)s. Les faits saillants les plus récents sont affichés ci-dessous. Pour rappel, vous pouvez désactiver tous les résumés de discussion à partir de la Page d'accueil de discussion de n'importe quel cours."
+msgstr[1] "Vous avez %(thread_count)s fils de discussions avec des mises à jour dans %(course_names)s. Les faits saillants les plus récents sont affichés ci-dessous. Pour rappel, vous pouvez désactiver tous les résumés de discussion à partir de la Page d'accueil de discussion de n'importe quel cours."
+
+#: notifier/templates/digest-email.html:103
+#, python-format
+msgid ""
+"<span %(author_span_attrs)s>%(author)s: </span><span "
+"%(datetime_span_attrs)s>on %(datetime)s UTC</span>"
+msgstr "<span %(author_span_attrs)s>%(author)s : </span><span %(datetime_span_attrs)s>à %(datetime)s UTC</span>"
+
+#: notifier/templates/digest-email.html:119
+#, python-format
+msgid ""
+"If you would like to stop receiving these updates, you can turn off all "
+"Course Discussion digests from any course's Discussion Home page. You can "
+"also <a %(a_attrs)s>quickly turn off these notifications from this "
+"email.</a>"
+msgstr "Si vous souhaitez cesser de recevoir ces mises à jour, vous pouvez désactiver tous les résumés de discussion du cours à partir de la Page d'accueil de discussion de tout cours. Vous pouvez aussi <a %(a_attrs)s>rapidement désactiver ces avertissement à partir de ce courriel.</a>"
+
+#: notifier/templates/digest-email.txt:20
+#, python-format
+msgid "%(author)s: on %(datetime)s UTC"
+msgstr "%(author)s : à %(datetime)s UTC"
+
+#: notifier/templates/digest-email.txt:28
+#, python-format
+msgid ""
+"If you would like to stop receiving these updates, you can turn off all "
+"Course Discussion digests from any course's Discussion Home page. You can "
+"also quickly turn off these notifications by going to %(unsubscribe_url)s."
+msgstr "Si vous souhaitez cesser de recevoir ces mises à jour, vous pouvez désactiver tous les résumés de discussion du cours à partir de la Page d'accueil de discussion de tout cours. Vous pouvez aussi rapidement désactiver ces notifications en allant à%(unsubscribe_url)s."
