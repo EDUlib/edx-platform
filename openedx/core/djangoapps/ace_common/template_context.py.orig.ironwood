@@ -8,10 +8,6 @@ from django.urls import reverse
 from edxmako.shortcuts import marketing_link
 from openedx.core.djangoapps.theming.helpers import get_config_value_from_site_or_settings
 
-from logging import getLogger
-
-logger = getLogger(__name__)  # pylint: disable=invalid-name
-
 
 def get_base_template_context(site):
     """
@@ -24,14 +20,12 @@ def get_base_template_context(site):
     except NoReverseMatch:
         dashboard_url = reverse('home')
 
-    logger.info("PIERRE PIERRE PIERRE")
-    logger.info("get_base_template_context has CONTACT_MAILING_ADDRESS as %s", get_config_value_from_site_or_settings('CONTACT_MAILING_ADDRESS', site=site, site_config_name='contact_mailing_address'))
-    logger.info("PIERRE PIERRE PIERRE")
-
     return {
         # Platform information
-        'homepage_url': 'https://cours-virginie.edulib.org/',
-        'dashboard_url': 'https://cours-virginie.edulib.org/dashboard/',
+        #####'homepage_url': marketing_link('ROOT'),
+        #####'dashboard_url': dashboard_url,
+        'homepage_url': 'https://cours.edulib.org/',
+        'dashboard_url': 'https://cours.edulib.org/dashboard/',
         'template_revision': getattr(settings, 'EDX_PLATFORM_REVISION', None),
         'platform_name': get_config_value_from_site_or_settings(
             'PLATFORM_NAME',
