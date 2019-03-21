@@ -369,12 +369,18 @@ def get_config_value_from_site_or_settings(name, site=None, site_config_name=Non
     site_configuration = None
     if site is not None:
         try:
+            logger.info("Three we are in the function with site_config_name %s and site %s and name %s", site_config_name, site, name)
             site_configuration = getattr(site, "configuration", None)
         except SiteConfiguration.DoesNotExist:
+            logger.info("CANNOT FIND SITE CONFIG")
             pass
 
     value_from_settings = getattr(settings, name, None)
+    logger.info("Four we are in the function with %s and %s", site_config_name, site)
     if site_configuration is not None:
+        logger.info("site_configuration is not None")
+        logger.info("this is it %s", site_configuration.get_value(site_config_name, default=value_from_settings))
         return site_configuration.get_value(site_config_name, default=value_from_settings)
     else:
+        logger.info("site_configuration is None")
         return value_from_settings

@@ -61,7 +61,7 @@
                     <tr>
                         <td width="70">
                             <a href="{% with_link_tracking homepage_url %}"><img
-                                    src="https://cours-virginie.edulib.org/static/edulib-theme/images/logo.png" width="93"
+                                    src="https://cours.edulib.org/static/edulib-theme/images/logo.png" width="93"
                                     height="47" alt="{% blocktrans %}Go to {{ platform_name }} Home Page{% endblocktrans %}"/></a>
                         </td>
                         <td align="right" style="text-align: {{ LANGUAGE_BIDI|yesno:"left,right" }};">
