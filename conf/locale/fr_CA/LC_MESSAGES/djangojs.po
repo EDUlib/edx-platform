@@ -11355,7 +11355,7 @@ msgstr "Ajouter l'accès du {role}"
 
 #: cms/templates/js/team-member.underscore:35
 msgid "Remove {role} Access"
-msgstr "Retirer l'accès du {role}"
+msgstr "Retirer l'accès {role}"
 
 #: cms/templates/js/team-member.underscore:44
 msgid "Delete the user, {username}"
