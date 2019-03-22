@@ -1492,7 +1492,7 @@
     "Remove this team member?": "Retirer ce membre de l'\u00e9quipe ?", 
     "Remove this video": "Supprimer ce vid\u00e9o", 
     "Remove unit %(unitName)s": "Supprimer l'unit\u00e9 %(unitName)s", 
-    "Remove {role} Access": "Retirer l'acc\u00e8s du {role}", 
+    "Remove {role} Access": "Retirer l'acc\u00e8s {role}", 
     "Remove {video_name} video": "Supprimer le vid\u00e9o {video_name} ", 
     "Removing": "Suppression en cours", 
     "Removing a video from this list does not affect course content. Any content that uses a previously uploaded video ID continues to display in the course.": "La suppression d'une vid\u00e9o de cette liste n'affecte pas le contenu du cours. Tout contenu qui utilise un ID vid\u00e9o pr\u00e9c\u00e9demment t\u00e9l\u00e9charg\u00e9 continue \u00e0 s'afficher dans le cours.", 
