@@ -669,7 +669,7 @@ msgstr "Utilisez le menu Tous les sujets pour trouver des sujets spécifiques."
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:6
 #: lms/djangoapps/discussion/static/discussion/templates/search.underscore:8
 msgid "Search all posts"
-msgstr "Chercher dans toutes les discussions"
+msgstr "Recherche"
 
 #: lms/djangoapps/discussion/static/discussion/templates/discussion-home.underscore:29
 msgid "Filter and sort topics"
