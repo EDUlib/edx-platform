@@ -1551,7 +1551,7 @@
     "Scope": "Cadre", 
     "Search": "Recherche", 
     "Search Results": "R\u00e9sultats de la recherche", 
-    "Search all posts": "Chercher dans toutes les discussions", 
+    "Search all posts": "Recherche", 
     "Search teams": "Rechercher des \u00e9quipes", 
     "Second Review Required": "Deuxi\u00e8me examen requis", 
     "Secondary Email Address": "Adresse courriel secondaire", 
