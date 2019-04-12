@@ -459,8 +459,23 @@ div.problem {
       &::before {
         @extend %t-strong;
 
+        // display: inline;
+        // content: "Réponse: ";
+
+        // cloche
+        // display: inline;
+        // font: normal normal normal 14px/1 FontAwesome;
+        // content: "\f0f3";
+
+        // doigt
         display: inline;
-        content: "Réponse: ";
+        font: normal normal normal 14px/1 FontAwesome;
+        content: "\f0a4 ";
+
+        // exclamation
+        // display: inline;
+        // font: normal normal normal 14px/1 FontAwesome;
+        // content: "\f06a";
 
       }
 
