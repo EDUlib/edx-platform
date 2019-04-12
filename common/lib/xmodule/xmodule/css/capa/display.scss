@@ -470,7 +470,9 @@ div.problem {
         // doigt
         display: inline;
         font: normal normal normal 14px/1 FontAwesome;
-        content: "\f0a4 ";
+        content: "\f0a4    ";
+        //content: “\f0a4\0000A0”;
+        //content: "\f0a4\8239";
 
         // exclamation
         // display: inline;
