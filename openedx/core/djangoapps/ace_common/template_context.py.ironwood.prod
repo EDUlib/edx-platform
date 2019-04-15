@@ -1,8 +1,6 @@
 """
 Context dictionary for templates that use the ace_common base template.
 """
-from __future__ import absolute_import
-
 from django.conf import settings
 from django.core.urlresolvers import NoReverseMatch
 from django.urls import reverse
@@ -32,8 +30,8 @@ def get_base_template_context(site):
 
     return {
         # Platform information
-        'homepage_url': 'https://test-cours.edulib.org/',
-        'dashboard_url': 'https://test-cours.edulib.org/dashboard/',
+        'homepage_url': 'https://cours.edulib.org/',
+        'dashboard_url': 'https://cours.edulib.org/dashboard/',
         'template_revision': getattr(settings, 'EDX_PLATFORM_REVISION', None),
         'platform_name': get_config_value_from_site_or_settings(
             'PLATFORM_NAME',
