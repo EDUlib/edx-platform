@@ -269,6 +269,7 @@ def _footer_business_links():
             ("careers", marketing_link("CAREERS"), _("Careers")),
             ("news", marketing_link("NEWS"), _("News")),
             ("openedx", _footer_openedx_link()["url"], _("Open edX")),
+            ("FAQ", marketing_link("FAQ"), _("FAQ")),
         ]
         if link_url and link_url != "#"
     ]
