@@ -2361,8 +2361,7 @@ SOCIAL_SHARING_SETTINGS = {
 # links in the footer.
 SOCIAL_MEDIA_FOOTER_NAMES = [
     "facebook",
-    "twitter",
-    "google_plus"
+    "twitter"
 ]
 
 # The footer URLs dictionary maps social footer names
