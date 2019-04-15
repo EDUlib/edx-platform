@@ -91,46 +91,20 @@
                             <!-- SOCIAL -->
                             <table role="presentation" align="{{ LANGUAGE_BIDI|yesno:"right,left" }}" border="0" border="0" cellpadding="0" cellspacing="0" width="210">
                                 <tr>
-                                    {% if social_media_urls.linkedin %}
                                         <td height="32" width="42">
-                                            <a href="{{ social_media_urls.linkedin|safe }}">
-                                                <img src="https://media.sailthru.com/595/1k1/8/o/599f354ec70cb.png"
-                                                     width="32" height="32" alt="{% blocktrans %}{{ platform_name }} on LinkedIn{% endblocktrans %}"/>
-                                            </a>
-                                        </td>
-                                    {% endif %}
-                                    {% if social_media_urls.twitter %}
-                                        <td height="32" width="42">
-                                            <a href="{{ social_media_urls.twitter|safe }}">
+                                            <a href="https://twitter.com/EDUlib_ORG">
                                                 <img src="https://media.sailthru.com/595/1k1/8/o/599f354d9c26e.png"
-                                                     width="32" height="32" alt="{% blocktrans %}{{ platform_name }} on Twitter{% endblocktrans %}"/>
+                                                     width="32" height="32" alt="{% blocktrans %}EDUlib on Twitter{% endblocktrans %}"/>
                                             </a>
                                         </td>
-                                    {% endif %}
-                                    {% if social_media_urls.facebook %}
                                         <td height="32" width="42">
-                                            <a href="{{ social_media_urls.facebook|safe }}">
+                                            <a href="https://www.facebook.com/EDUlib.org">
                                                 <img src="https://media.sailthru.com/595/1k1/8/o/599f355052c8e.png"
-                                                     width="32" height="32" alt="{% blocktrans %}{{ platform_name }} on Facebook{% endblocktrans %}"/>
+                                                     width="32" height="32" alt="{% blocktrans %}EDUlib on Facebook{% endblocktrans %}"/>
                                             </a>
                                         </td>
-                                    {% endif %}
-                                    {% if social_media_urls.google_plus %}
                                         <td height="32" width="42">
-                                            <a href="{{ social_media_urls.google_plus|safe }}">
-                                                <img src="https://media.sailthru.com/595/1k1/8/o/599f354fc554a.png"
-                                                     width="32" height="32" alt="{% blocktrans %}{{ platform_name }} on Google Plus{% endblocktrans %}"/>
-                                            </a>
                                         </td>
-                                    {% endif %}
-                                    {% if social_media_urls.reddit %}
-                                        <td height="32" width="42">
-                                            <a href="{{ social_media_urls.reddit|safe }}">
-                                                <img src="https://media.sailthru.com/595/1k1/8/o/599f354e326b9.png"
-                                                     width="32" height="32" alt="{% blocktrans %}{{ platform_name }} on Reddit{% endblocktrans %}"/>
-                                            </a>
-                                        </td>
-                                    {% endif %}
                                 </tr>
                             </table>
                         </td>
@@ -169,10 +143,10 @@
                     <tr>
                         <!-- COPYRIGHT -->
                         <td>
-                            &copy; {% now "Y" %} {{ platform_name }}, {% trans "All rights reserved" %}.<br/>
+                            &copy; {% now "Y" %} {% trans "EDUlib" %}, {% trans "All rights reserved" %}.<br/>
                             <br/>
                             {% trans "Our mailing address is" %}:<br/>
-                            {{ contact_mailing_address }}
+                            {% trans "EDUlib, 3535, chemin Queen-Mary, Montréal, QC, Canada, H3V 1H8" %}
                         </td>
                     </tr>
                 </table>
