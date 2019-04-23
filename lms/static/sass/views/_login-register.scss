@@ -577,6 +577,27 @@
       }
     }
 
+    &.button-oa2-twitter {
+      color: white;
+      border-color: $twitter-blue;
+      background-color: $twitter-blue;
+
+      .icon {
+        background: transparent;
+
+        .icon-image {
+          margin-left: 2px;
+        }
+      }
+
+      &:hover,
+      &:focus {
+        background-color: $twitter-blue;
+        border: 1px solid $twitter-blue;
+        color: $white;
+      }
+    }
+
     &.button-oa2-facebook {
       color: white;
       border-color: $facebook-blue;
@@ -599,17 +620,19 @@
     }
 
     &.button-oa2-linkedin-oauth2 {
-      color: $linkedin-blue;
+      color: white;
+      border-color: $linkedin-blue;
+      background-color: $linkedin-blue;
 
       .icon {
-        background: $linkedin-blue;
+        background: transparent;
       }
 
       &:hover,
       &:focus {
         background-color: $linkedin-blue;
-        border: 1px solid #06527d;
-        color: $white;
+        border: 1px solid $linkedin-blue;
+        color: white;
       }
     }
 
