@@ -603,22 +603,22 @@
 
       &.button-oa2-facebook:hover,
       &.button-oa2-facebook:focus {
-        background-color: $google-focus-blue;
-        border: 1px solid $google-focus-blue;
+        background-color: $facebook-focus-blue;
+        border: 1px solid $facebook-focus-blue;
       }
 
       &.button-oa2-facebook:hover {
-        box-shadow: 0 2px 1px 0 $google-focus-blue;
+        box-shadow: 0 2px 1px 0 $facebook-focus-blue;
       }
 
       &.button-oa2-linkedin-oauth2:hover,
       &.button-oa2-linkedin-oauth2:focus {
         background-color: $linkedin-blue;
-        border: 1px solid #06527d;
+        border: 1px solid $linkedin-blue;
       }
 
       &.button-oa2-linkedin-oauth2:hover {
-        box-shadow: 0 2px 1px 0 #005d8e;
+        box-shadow: 0 2px 1px 0 $linkedin-blue;
       }
     }
   }
