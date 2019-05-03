@@ -1308,7 +1308,9 @@ MIDDLEWARE_CLASSES = [
 ]
 
 # Clickjacking protection can be enabled by setting this to 'DENY'
-X_FRAME_OPTIONS = 'DENY'
+#X_FRAME_OPTIONS = 'DENY'
+# NEEDED TO UPLOAD IMAGES IN ECAMPUS ONTARIO EXTEND COURSE
+X_FRAME_OPTIONS = 'ALLOW'
 
 # Platform for Privacy Preferences header
 P3P_HEADER = 'CP="Open EdX does not have a P3P policy."'
