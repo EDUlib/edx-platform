@@ -11295,7 +11295,7 @@ msgid ""
 msgstr ""
 "Ne ratez pas votre chance de mettre en valeur vos connaissances et vos "
 "compétences en obtenant une attestation vérifiée. Effectuez une mise à "
-"niveau d'ici le%(user_schedule_upgrade_deadline_time)s."
+"niveau d'ici le %(user_schedule_upgrade_deadline_time)s."
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.html:24
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/upsell_cta.txt:9
@@ -11968,7 +11968,7 @@ msgid ""
 "spend time with the course each week. Your focused attention will pay off in "
 "the end!"
 msgstr ""
-"Avec les cours à votre rythme, vous apprenez à votre rythme. Nous vous "
+"Avec des cours à votre rythme, vous apprenez selon votre horaire. Nous vous "
 "encourageons à passer du temps dans le cours à chaque semaine. Vos efforts "
 "seront récompensés à la fin!"
 
@@ -12048,7 +12048,7 @@ msgid ""
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours "
 "%(course_name)s, et à d'autres cours sur %(platform_name)s? De notre côté, "
-"on s'en souvient, et on est content de vous avoir! Venez voir ce que les "
+"on s'en souvient, et nous sommes heureux de vous accueillir! Venez voir ce que les "
 "autres apprennent."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:11
@@ -12060,7 +12060,7 @@ msgid ""
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours "
 "%(course_name)s sur %(platform_name)s? De notre côté, on s'en souvient, et "
-"on est content de vous avoir! Venez voir ce que les autres apprennent."
+"et nous sommes heureux de vous accueillir! Venez voir ce que les autres apprennent."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:22
 msgid "Keep learning today"
@@ -12075,7 +12075,7 @@ msgid ""
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours <strong>"
 "%(course_name)s</strong>, et à d'autres cours sur %(platform_name)s? De "
-"notre côté, on s'en souvient, et on est content de vous avoir! Venez voir ce "
+"notre côté, on s'en souvient, et nous sommes heureux de vous accueillir! Venez voir ce "
 "que les autres apprennent."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
@@ -12087,7 +12087,7 @@ msgid ""
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours <strong>"
 "%(course_name)s</strong> sur %(platform_name)s? De notre côté, on s'en "
-"souvient, et on est content de vous avoir! Venez voir ce que les autres "
+"souvient, et nous sommes heureux de vous accueillir! Venez voir ce que les autres "
 "apprennent."
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:38
@@ -13182,7 +13182,7 @@ msgid ""
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours "
 "%(course_name)s ainsi qu'à d'autres cours sur edX.org? De notre côté, on "
-"s'en souvient, et on est content de vous avoir! Venez voir ce que les autres "
+"s'en souvient, et nous sommes heureux de vous accueillir! Venez voir ce que les autres "
 "apprennent."
 
 #: themes/red-theme/lms/templates/schedules/edx_ace/recurringnudge_day3/email/body.txt:13
@@ -13192,8 +13192,8 @@ msgid ""
 "glad to have you! Come see what everyone is learning."
 msgstr ""
 "Vous souvenez-vous du moment où vous vous êtes inscrit au cours "
-"%(course_name)s sur edX.org? De notre côté, on s'en souvient, et on est "
-"content de vous avoir! Venez voir ce que les autres apprennent."
+"%(course_name)s sur edX.org? De notre côté, on s'en souvient, et "
+"nous sommes heureux de vous accueillir! Venez voir ce que les autres apprennent."
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:44
 msgid "Course team user does not exist"
