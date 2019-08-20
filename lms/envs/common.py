@@ -2563,6 +2563,8 @@ INSTALLED_APPS = [
     # Management of per-user schedules
     'openedx.core.djangoapps.schedules',
     'rest_framework_jwt',
+    # google colab
+    #####'colab_xblock',
 ]
 
 ######################### CSRF #########################################
