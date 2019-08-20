@@ -2505,6 +2505,9 @@ INSTALLED_APPS = [
 
     # so sample_task is available to celery workers
     'openedx.core.djangoapps.heartbeat',
+
+    # google colab
+    'colab_xblock',
 ]
 
 ######################### CSRF #########################################
