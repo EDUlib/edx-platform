@@ -9,7 +9,10 @@ from django_countries import countries
 from student.models import UserProfile
 from datetime import date
 import calendar
+from openedx.core.djangolib.markup import HTML, Text
+from openedx.core.djangolib.js_utils import js_escaped_string
 %>
+
 
 <section id="signup-modal" class="modal signup-modal">
   <div class="inner-wrapper">
@@ -133,9 +136,9 @@ import calendar
         <div class="input-group">
           <label data-field="terms_of_service" class="terms-of-service" for="signup_tos">
             <input id="signup_tos" name="terms_of_service" type="checkbox" value="true">
-            ${_('I agree to the {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}').format(
-              link_start='<a href="{url}" class="new-vp">'.format(url=marketing_link('TOS')),
-              link_end='</a>', link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>') + ' *'}
+              ${Text(_('I agree to the {link_start}Terms of Service{link_end} and {link_start2}Honor Code{link_end2}')).format(
+                link_start=HTML('<a href="{url}" rel="noopener" target="_blank">').format(url=marketing_link('TOS')),
+                link_end=HTML('</a>', link_start2='<a href="{url}" class="new-vp">'.format(url=marketing_link('HONOR')), link_end2='</a>'))} *
           </label>
 
           % if settings.REGISTRATION_EXTRA_FIELDS['honor_code'] != 'hidden':
