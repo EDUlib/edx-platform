@@ -11999,7 +11999,7 @@ msgid ""
 "participating in the discussion forums. What do you want to do to keep "
 "learning?"
 msgstr ""
-"Plusieurs apprenants de %(platform_name)s complètent plus de problèmes à "
+"Plusieurs apprenants d'%(platform_name)s complètent plus de problèmes à "
 "chaque semaine et participent dans les forums de discussion. Que voulez-vous "
 "faire pour continuer à apprendre?"
 
@@ -12011,7 +12011,7 @@ msgid ""
 "problems every week, and participating in the discussion forums. What do you "
 "want to do to keep learning?"
 msgstr ""
-"Plusieurs apprenants de %(platform_name)s dans le cours %(course_name)s "
+"Plusieurs apprenants d'%(platform_name)s dans le cours %(course_name)s "
 "complètent plus de problèmes à chaque semaine et participent dans les forums "
 "de discussion. Que voulez-vous faire pour continuer à apprendre?"
 
@@ -12027,7 +12027,7 @@ msgid ""
 "completing more problems every week, and participating in the discussion "
 "forums. What do you want to do to keep learning?"
 msgstr ""
-"Plusieurs apprenants de %(platform_name)s dans le cours  <strong>"
+"Plusieurs apprenants d'%(platform_name)s dans le cours  <strong>"
 "%(course_name)s</strong> complètent plus de problèmes à chaque semaine et "
 "participent dans les forums de discussion. Que voulez-vous faire pour "
 "continuer à apprendre?"
@@ -30406,3 +30406,11 @@ msgstr "Le numéro associé au tableau de classement des étudiants est invalide
 #: openassessment/xblock/validation.py:376
 msgid "The submission format is invalid."
 msgstr "Le format de la réponse est invalide."
+
+#: lms/templates/index.html
+msgid "Visit the EDUlib catalog"
+msgstr "Visitez le catalogue EDUlib"
+
+#: lms/templates/index.html
+msgid "en"
+msgstr "fr"

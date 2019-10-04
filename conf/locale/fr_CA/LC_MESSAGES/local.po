@@ -90,3 +90,11 @@ msgid ""
 "If you need help, please contact us by email at {support_email}."
 msgstr ""
 "Si vous avez besoin d'aide, veuillez nous contacter par courriel au {support_email}."
+
+#: lms/templates/index.html
+msgid "Visit the EDUlib catalog"
+msgstr "Visitez le catalogue EDUlib"
+
+#: lms/templates/index.html
+msgid "en"
+msgstr "fr"
