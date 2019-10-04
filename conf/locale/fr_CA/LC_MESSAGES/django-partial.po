@@ -9860,7 +9860,7 @@ msgid ""
 "Many %(platform_name)s learners are completing more problems every week, and"
 " participating in the discussion forums. What do you want to do to keep "
 "learning?"
-msgstr "Plusieurs apprenants de %(platform_name)s complètent plus de problèmes à chaque semaine et participent dans les forums de discussion. Que voulez-vous faire pour continuer à apprendre?"
+msgstr "Plusieurs apprenants d'%(platform_name)s complètent plus de problèmes à chaque semaine et participent dans les forums de discussion. Que voulez-vous faire pour continuer à apprendre?"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:11
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.txt:11
@@ -9869,7 +9869,7 @@ msgid ""
 "Many %(platform_name)s learners in %(course_name)s are completing more "
 "problems every week, and participating in the discussion forums. What do you"
 " want to do to keep learning?"
-msgstr "Plusieurs apprenants de %(platform_name)s dans le cours %(course_name)s complètent plus de problèmes à chaque semaine et participent dans les forums de discussion. Que voulez-vous faire pour continuer à apprendre?"
+msgstr "Plusieurs apprenants d'%(platform_name)s dans le cours %(course_name)s complètent plus de problèmes à chaque semaine et participent dans les forums de discussion. Que voulez-vous faire pour continuer à apprendre?"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/body.html:22
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day10/email/subject.txt:3
