@@ -22,7 +22,13 @@ from xmodule.modulestore.django import modulestore
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
-                <h1>Notre expertise, vos compétences.</h1>
+                <h1>La liberté d'apprendre</h1>
+                <h2>Des formations en ligne offertes à tous</h2>
+                <div lang="fr">
+                     <form action="https://test-catalogue.edulib.org/${_("en")}">
+                          <input type="submit" value="${_("Visit the EDUlib catalog")}">
+                     </form>
+                </div>
                 <!-- HAWTHORN <%include file="index_overlay.html" /> -->
               % endif
             </div>
@@ -47,23 +53,6 @@ from xmodule.modulestore.django import modulestore
       </header>
 <!--      <%include file="${courses_list}" /> -->
 
-      <section class="courses-container">
-        <section class="highlighted-courses">
-          % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-            <section class="courses">
-                <ul class="courses-listing">
-                %for course in sorted(modulestore().get_courses(), key=lambda x: x.start, reverse=True):
-                     %if ((course.has_started() and not course.has_ended()) or (not course.has_started())) and course.catalog_visibility=="both":
-                         <li class="courses-listing-item">
-                             <%include file="course-edulib.html" args="course=course" />
-                         </li>
-                     %endif
-                %endfor
-                </ul>
-            </section>
-          % endif
-        </section>
-      </section>
     </section>
 </main>
 
