@@ -22,9 +22,10 @@ from xmodule.modulestore.django import modulestore
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
-                <h1>Notre expertise, vos compétences.</h1>
+                <h1>La liberté d'apprendre</h1>
+                <h2>Des formations en ligne offertes à tous</h2>
                 <div lang="fr">
-                     <form action="http://test-catalogue.edulib.org/${_("en")}">
+                     <form action="https://test-catalogue.edulib.org/${_("en")}">
                           <input type="submit" value="${_("Visit the EDUlib catalog")}">
                      </form>
                 </div>
