@@ -29,14 +29,8 @@ class LogoutView(TemplateView):
 
     # Keep track of the page to which the user should ultimately be redirected.
     default_target = '/'
-
-    def post(self, request, *args, **kwargs):
-        """
-        Proxy to the GET handler.
-
-        TODO: remove GET as an allowed method, and update all callers to use POST.
-        """
-        return self.get(request, *args, **kwargs)
+    #default_target = reverse_lazy('cas-logout') if settings.FEATURES.get('AUTH_USE_CAS') else '/'
+    #default_target = reverse_lazy('cas-logout') if settings.FEATURES.get('AUTH_USE_CAS') else 'https://test-catalogue.edulib.org/'
 
     def post(self, request, *args, **kwargs):
         """
