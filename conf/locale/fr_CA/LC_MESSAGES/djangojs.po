@@ -9619,7 +9619,7 @@ msgid ""
 "account and to prevent fraud."
 msgstr ""
 "Nous vous demandons d'activer votre compte pour nous assurer que c'est bien "
-"vous qui créer le compte et afin de prévenir la fraude."
+"vous qui créez le compte et afin de prévenir la fraude."
 
 #: lms/templates/verify_student/make_payment_step.underscore:53
 msgid ""
