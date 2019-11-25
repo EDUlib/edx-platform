@@ -2164,7 +2164,7 @@
     "Want to confirm your identity later?": "Voulez-vous confirmer votre identit\u00e9 plus tard?", 
     "Warning": "Attention", 
     "Warnings": "Avertissements", 
-    "We ask you to activate your account to ensure it is really you creating the account and to prevent fraud.": "Nous vous demandons d'activer votre compte pour nous assurer que c'est bien vous qui cr\u00e9er le compte et afin de pr\u00e9venir la fraude.", 
+    "We ask you to activate your account to ensure it is really you creating the account and to prevent fraud.": "Nous vous demandons d'activer votre compte pour nous assurer que c'est bien vous qui cr\u00e9ez le compte et afin de pr\u00e9venir la fraude.", 
     "We couldn't create your account.": "Nous n'avons pas pu cr\u00e9er votre compte.", 
     "We couldn't find any results for \"%s\".": "Nous ne trouvons pas de r\u00e9sultat pour \"%s\".", 
     "We couldn't sign you in.": "Nous n'avons pas pu vous connecter.", 
