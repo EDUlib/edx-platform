@@ -7,17 +7,12 @@
 <%inherit file="../main.html" />
 <%namespace name='static' file='../static_content.html'/>
 
-<%! from microsite_configuration import microsite %>
-
 <%block name="pagetitle">HEC Montr&eacute;al</%block>
     
 <%
-platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
 
-course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
 default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
-logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
 logo_alt_text = "EDUlib Logo"
 %>
 
