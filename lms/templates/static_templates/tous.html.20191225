@@ -3,9 +3,9 @@
 <%!
   import json
   from django.utils.translation import ugettext as _
-  from openedx.core.lib.js_utils import escape_json_dumps
   from xmodule.modulestore.django import modulestore
-  from xmodule.contentstore.django import contentstore
+  from django.core.urlresolvers import reverse
+  from microsite_configuration import microsite
 %>
 <%inherit file="../main.html" />
     
@@ -19,16 +19,19 @@
     
 ##### insertion du code de EDUlib
 <%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
 
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
 default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
 logo_alt_text = "EDUlib Logo"
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="home">
         %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
-        <% counter = 0 %>
+            <% counter = 0 %>
         %endif
 
         <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
