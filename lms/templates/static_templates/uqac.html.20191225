@@ -7,33 +7,38 @@
 <%inherit file="../main.html" />
 <%namespace name='static' file='../static_content.html'/>
 
-<%block name="pagetitle">Polytechnique Montr&eacute;al</%block>
+<%! from microsite_configuration import microsite %>
+
+<%block name="pagetitle">Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi</%block>
     
 <%
+platform_name = microsite.get_value('platform_name', settings.PLATFORM_NAME)
 
+course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
 default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
+logo_file = microsite.get_value('course_index_overlay_logo_file', default_image_url)
 logo_alt_text = "EDUlib Logo"
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="container about">
-    
-        <h1><img src="/static/images/edulib-theme/institutions/polymtl.png" alt="Polytechnique Montr&eacute;al" width="600" height="200" /></h1>
+        
+        <h1><img src="/static/images/edulib-theme/institutions/uqac.png" alt="Universit&eacute; du Qu&eacute;bec &agrave; Chicoutimi" width="600" height="200" /></h1>
         
         <div lang="fr">
-            <p>Fondée en 1873, Polytechnique Montréal est l&#8217;un des plus importants établissements d&#8217;enseignement et de recherche en génie au Canada. Polytechnique occupe le premier rang au Québec pour le nombre de ses étudiants et l&#8217;ampleur de ses activités de recherche. Avec plus de <span style="white-space: nowrap;">44 300</span> diplômés, Polytechnique Montréal a formé près du quart des membres actuels de l&#8217;Ordre des ingénieurs du Québec. L&#8217;institution offre plus de 120 programmes. Polytechnique compte 255 professeurs et plus de <span style="white-space: nowrap;">8 000</span> étudiants. Son budget annuel de fonctionnement s&#8217;élève à plus de 200 millions de dollars, dont un budget de recherche de plus de 70 millions de dollars.</p>
+             <p>Créée en 1969, l&rsquo;Université du Québec à Chicoutimi compte au sein de sa grande famille de diplômés plus de 53 000 personnes. Chaque année, elle accueille, sur son campus principal et dans ses centres d&rsquo;études, 7 000 étudiants dont 1 000 sont issus d&rsquo;une cinquantaine de pays à travers le monde. La compétence et l&rsquo;expertise de ses professeurs, combinées à l&rsquo;engagement de ses étudiants, permettent à l&rsquo;UQAC d&rsquo;assurer le développement de ses créneaux de recherche et de rayonner à travers le monde.</p>
     
-            <p><a href="http://www.polymtl.ca" onclick="window.open(this.href);return false;">http://www.polymtl.ca</a></p>
+            <p><a href="http://www.uqac.ca/" onclick="window.open(this.href);return false;">http://www.uqac.ca/</a></p>
         </div>
 
         <div lang="en">
-            <p>Established in 1873, Polytechnique Montr&eacute;al is one of the most important engineering faculties and research institutions in Canada. Polytechnique ranks first in Quebec in terms of student body and the scope of its research activities. With more than <span style="white-space: nowrap;">44,300</span> graduates, Polytechnique Montr&eacute;al has educated nearly a quarter of the current members of the Quebec Order of Engineers. The institution offers more than 120 programs to some <span style="white-space: nowrap;">8,000</span> students taught by 255 professors. Its annual operating budget is over $200 million, including dedicated research resources of more than $70 million.</p>
+            <p>Founded in 1969, Université du Québec à Chicoutimi is part of the largest university network in Canada, that of Université du Québec. It is located in the heart of the Saguenay-Lac-Saint-Jean, a French region renowned for the beauty of its fjord, and has four university centres and a digital school. Building on the success of its 53,000 graduates, UQAC annually welcomes 7000 students, of which 1000 are from some fifty countries worldwide.</p>
     
-            <p><a href="http://www.polymtl.ca/en" onclick="window.open(this.href);return false;">http://www.polymtl.ca/en</a></p>
+            <p><a href="http://www.uqac.ca/traduction/index.php?langue=english" onclick="window.open(this.href);return false;">http://www.uqac.ca/traduction/index.php?langue=english</a></p>
         </div>
         
-        
+       
         
     <section class="home">
         %if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
@@ -41,7 +46,7 @@ logo_alt_text = "EDUlib Logo"
         %endif
 
         <% for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                   if not course.has_started() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
+                   if not course.has_started() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
                       counter += 1
         %>
 
@@ -54,7 +59,7 @@ logo_alt_text = "EDUlib Logo"
                     <section class="courses">
                        <ul class="courses-listing">
                            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                                %if not course.has_started() and course.org.lower() == "polymtl" and not course.has_ended() and course.catalog_visibility == "both" :
+                                %if not course.has_started() and course.org.lower() == "uqac" and not course.has_ended() and course.catalog_visibility == "both" :
                                     <li class="courses-listing-item">
                                         <%include file="../course-edulib.html" args="course=course" />
                                     </li>
@@ -71,7 +76,7 @@ logo_alt_text = "EDUlib Logo"
             %endif
 
             <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.start is None, x.start), reverse=True):
-                   if course.has_started() and not course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
+                   if course.has_started() and not course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
                       counter += 1
             %>
 
@@ -85,14 +90,14 @@ logo_alt_text = "EDUlib Logo"
                        <ul class="courses-listing">
 
                            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                                % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
+                                % if course.has_started() and not course.has_ended() and (course.end is not None) and course.org.lower()=="uqac" and course.catalog_visibility=="both":
                                     <li class="courses-listing-item">
                                         <%include file="../course-edulib.html" args="course=course" />
                                     </li>
                                 %endif
                            %endfor
                            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=True):
-                                % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="polymtl" and course.catalog_visibility=="both":
+                                % if course.has_started() and not course.has_ended() and not (course.end is not None) and course.org.lower()=="uqac" and course.catalog_visibility=="both":
                                     <li class="courses-listing-item">
                                         <%include file="../course-edulib.html" args="course=course" />
                                     </li>
@@ -110,7 +115,7 @@ logo_alt_text = "EDUlib Logo"
             %endif
 
             <% for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                   if course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
+                   if course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
                       counter += 1
             %>
 
@@ -123,7 +128,7 @@ logo_alt_text = "EDUlib Logo"
                     <section class="courses">
                        <ul class="courses-listing">
                            %for course in sorted(modulestore().get_courses(),key=lambda x: (x.end is None, x.end), reverse=True):
-                                %if course.has_ended() and course.org.lower() == "polymtl" and course.catalog_visibility == "both" :
+                                %if course.has_ended() and course.org.lower() == "uqac" and course.catalog_visibility == "both" :
                                     <li class="courses-listing-item">
                                         <%include file="../course-edulib.html" args="course=course" />
                                     </li>
