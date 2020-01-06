@@ -21442,7 +21442,7 @@ msgstr "Afficher le statut d'inscription"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:44
 msgid "View a specific learner's grades and progress"
-msgstr "Vous les notes et la progression d'un apprenant spécifique"
+msgstr "Voir les notes et la progression d'un apprenant spécifique"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:47
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:66
