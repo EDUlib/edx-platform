@@ -2601,9 +2601,9 @@ SOCIAL_MEDIA_FOOTER_NAMES = [
     "facebook",
     "twitter",
     # "youtube", see PROD-816 for more details
-    "linkedin",
-    "google_plus",
-    "reddit",
+    #"linkedin",
+    #"google_plus",
+    #"reddit",
 ]
 
 # The footer URLs dictionary maps social footer names
