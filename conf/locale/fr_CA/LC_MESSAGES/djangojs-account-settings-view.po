@@ -1,0 +1,45 @@
+# edX translation file.
+# Copyright (C) 2020 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2020.
+# 
+# Translators:
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2019
+# David Truong <david.truong@edulib.org>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-01-19 20:42+0000\n"
+"PO-Revision-Date: 2019-02-26 13:12+0000\n"
+"Last-Translator: David Truong <david.truong@edulib.org>, 2019\n"
+"Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: lms/static/js/student_account/views/account_settings_view.js:34
+msgid "Account Information"
+msgstr "Information du compte"
+
+#: lms/static/js/student_account/views/account_settings_view.js:53
+msgid "Order History"
+msgstr "Historique des commandes"
+
+#: lms/static/js/student_account/views/account_settings_view.js:62
+msgid ""
+"You have set your language to {beta_language}, which is currently not fully "
+"translated. You can help us translate this language fully by joining the "
+"Transifex community and adding translations from English for learners that "
+"speak {beta_language}."
+msgstr ""
+"Vous avez réglé votre langue au {beta_language}, qui n'est pas entièrement "
+"traduite. Vous pouvez nous aider à traduire cette langue en rejoignant la "
+"communauté Transifex pour traduire de l'anglais au {beta_language}."
+
+#: lms/static/js/student_account/views/account_settings_view.js:68
+msgid "Help Translate into {beta_language}"
+msgstr "Aidez nous à traduire en {beta_language}"
