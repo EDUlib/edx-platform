@@ -1,10 +1,10 @@
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
 # anaseha <anaselhadjamor@gmail.com>, 2014
-# ASSYASS Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
+# ASSYASS Mahmoud <mahmoud.assyass@gmail.com>, 2015
 # Axel Billot <axelbillot@gmail.com>, 2015
 # bekairi tahar <tahar48omar@gmail.com>, 2014
 # Bertrand Marron <bertrand.marron@gmail.com>, 2014
@@ -20,7 +20,7 @@
 # Julien Colmonts <julien.colmonts@student.uclouvain.be>, 2014
 # Julien Rolland <julien.rolland33@gmail.com>, 2013
 # Keivan Farzaneh <keivan.farzaneh@edulib.org>, 2017-2018
-# Kévin SEVERIN <kevin.severin@laposte.net>, 2015
+# c3424d9a1a39134ef6c845e87726a328, 2015
 # laurentFUN <laurent.at.fun@gmail.com>, 2014,2016
 # Linda B.A <siria242@gmail.com>, 2016
 # Manjari <mringuet@gmail.com>, 2014
@@ -31,8 +31,8 @@
 # Olivier Marquez <oliviermarquez@gmail.com>, 2013,2015
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
-# Pierre-Emmanuel Colas <pecolas44@gmail.com>, 2015
-# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2019
+# Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
 # qcappart <quentin.c@swing.be>, 2014
 # Régis Behmo <transifex.stuff@behmo.com>, 2016
@@ -56,8 +56,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2019-01-20 20:42+0000\n"
-"PO-Revision-Date: 2019-01-09 22:33+0000\n"
+"POT-Creation-Date: 2020-01-19 20:42+0000\n"
+"PO-Revision-Date: 2020-01-12 22:53+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -71,10 +71,10 @@ msgstr ""
 #: cms/static/js/models/section.js:27 cms/static/js/utils/drag_and_drop.js:292
 #: cms/static/js/views/asset.js:82 cms/static/js/views/container.js:48
 #: cms/static/js/views/course_info_handout.js:62
-#: cms/static/js/views/course_info_update.js:172
-#: cms/static/js/views/edit_textbook.js:63
+#: cms/static/js/views/course_info_update.js:169
+#: cms/static/js/views/edit_textbook.js:62
 #: cms/static/js/views/list_item_editor.js:38
-#: cms/static/js/views/modals/edit_xblock.js:174
+#: cms/static/js/views/modals/edit_xblock.js:178
 #: cms/static/js/views/tabs.js:85 cms/static/js/views/tabs.js:117
 #: cms/static/js/views/utils/xblock_utils.js:204
 #: cms/static/js/views/utils/xblock_utils.js:219
@@ -85,30 +85,31 @@ msgstr "Sauvegarde en cours"
 #: cms/static/js/certificates/views/signatory_editor.js:139
 #: cms/static/js/views/asset.js:54 cms/static/js/views/list_item.js:59
 #: cms/static/js/views/manage_users_and_roles.js:31
-#: cms/static/js/views/show_textbook.js:38
-#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:35
+#: cms/static/js/views/show_textbook.js:39
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
 msgid "Delete"
 msgstr "Supprimer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/certificates/views/signatory_editor.js:161
 #: cms/static/js/views/asset.js:70
-#: cms/static/js/views/course_info_update.js:270
+#: cms/static/js/views/course_info_update.js:266
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:32
-#: cms/static/js/views/modals/base_modal.js:134
-#: cms/static/js/views/modals/course_outline_modals.js:213
-#: cms/static/js/views/modals/course_outline_modals.js:254
-#: cms/static/js/views/show_textbook.js:52 cms/static/js/views/tabs.js:187
+#: cms/static/js/views/modals/base_modal.js:136
+#: cms/static/js/views/modals/course_outline_modals.js:216
+#: cms/static/js/views/modals/course_outline_modals.js:257
+#: cms/static/js/views/show_textbook.js:53 cms/static/js/views/tabs.js:187
 #: cms/static/js/views/validation.js:126
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:271
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:275
 #: common/static/common/js/components/utils/view_utils.js:68
 #: lms/static/js/Markdown.Editor.js:1089
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:191
 msgid "Cancel"
 msgstr "Annuler"
 
+#. Translators: This is the status of an active video upload
 #: cms/static/js/models/active_video_upload.js:11
 #: cms/static/js/views/assets.js:237 cms/static/js/views/video_thumbnail.js:57
 #: lms/static/js/views/image_field.js:19
@@ -117,20 +118,18 @@ msgstr "Téléversement en cours"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/views/active_video_upload.js:45
-#: cms/static/js/views/modals/edit_xblock.js:119
+#: cms/static/js/views/modals/edit_xblock.js:124
 #: cms/static/js/views/video_transcripts.js:324
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:321
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:325
 #: lms/static/js/student_account/tos_modal.js:48
 msgid "Close"
 msgstr "Fermer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/views/assets.js:110
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:791
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:795
 msgid "Name"
 msgstr "Nom"
 
@@ -140,19 +139,17 @@ msgstr "Choisir le fichier"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: cms/static/js/views/course_info_update.js:244
+#: cms/static/js/views/course_info_update.js:240
 #: cms/static/js/views/tabs.js:163
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:836
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:840
 #: lms/static/js/Markdown.Editor.js:1088
 msgid "OK"
 msgstr "OK"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/views/course_video_settings.js:263
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:821
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:825
 msgid "None"
 msgstr "Aucun"
 
@@ -160,16 +157,15 @@ msgstr "Aucun"
 #: cms/static/js/views/metadata.js:328
 #: cms/static/js/views/previous_video_upload.js:70
 #: cms/static/js/views/video_transcripts.js:269
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:85
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
 #: lms/static/js/views/image_field.js:17
 msgid "Remove"
 msgstr "Supprimer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/views/manage_users_and_roles.js:10
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:831
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:835
 msgid "Ok"
 msgstr "Ok"
 
@@ -179,7 +175,7 @@ msgid "Unknown"
 msgstr "Inconnu"
 
 #: cms/static/js/views/manage_users_and_roles.js:29
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:107
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:131
 msgid "Are you sure?"
 msgstr "Êtes-vous certain ?"
 
@@ -189,18 +185,16 @@ msgstr "Téléverser un fichier"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #: cms/static/js/views/modals/base_modal.js:45
-#: cms/static/js/views/modals/course_outline_modals.js:253
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:991
+#: cms/static/js/views/modals/course_outline_modals.js:256
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:995
 msgid "Save"
 msgstr "Sauvegarder"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: cms/static/js/views/modals/course_outline_modals.js:1049
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:181
+#: cms/static/js/views/modals/course_outline_modals.js:1041
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:185
 msgid "Advanced"
 msgstr "Avancé"
 
@@ -218,10 +212,21 @@ msgstr "Suppression en cours"
 msgid "Your changes have been saved."
 msgstr "Vos modifications ont été sauvegardées."
 
+#. Translators: This message will be added to the front of messages of type
+#. warning,
+#. e.g. "Warning: this component has not been configured yet".
+#: cms/static/js/views/xblock_validation.js:48
+#: common/static/common/js/discussion/views/discussion_inline_view.js:200
+msgid "Warning"
+msgstr "Avertissement"
+
+#. Translators: This message will be added to the front of messages of type
+#. error,
+#. e.g. "Error: required field is missing".
 #: cms/static/js/views/xblock_validation.js:52
 #: common/static/common/js/discussion/utils.js:204
 #: common/static/common/js/discussion/utils.js:241
-#: common/static/common/js/discussion/views/discussion_inline_view.js:194
+#: common/static/common/js/discussion/views/discussion_inline_view.js:208
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:324
 #: common/static/common/js/discussion/views/discussion_thread_view.js:220
 #: common/static/common/js/discussion/views/discussion_thread_view.js:225
@@ -284,41 +289,57 @@ msgstr "Commentaires"
 msgid "Reply to Annotation"
 msgstr "Répondre à l'annotation"
 
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:234
-msgid "%(num_points)s point possible (graded, results hidden)"
-msgid_plural "%(num_points)s points possible (graded, results hidden)"
-msgstr[0] "%(num_points)s point possible (noté, résultat caché)"
-msgstr[1] "%(num_points)s points possibles (noté, résultats cachés)"
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] "{num_points} point possible (noté, résultat caché)"
+msgstr[1] "{num_points} points possibles (noté, résultats cachés)"
 
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:241
-msgid "%(num_points)s point possible (ungraded, results hidden)"
-msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
-msgstr[0] "%(num_points)s point possible (pas noté, résultat caché)"
-msgstr[1] "%(num_points)s points possibles (pas noté, résultats cachés)"
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] "{num_points} point possible (pas noté, résultat caché)"
+msgstr[1] "{num_points} points possible (pas noté, résultats cachés)"
 
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:252
-msgid "%(num_points)s point possible (graded)"
-msgid_plural "%(num_points)s points possible (graded)"
-msgstr[0] "%(num_points)s point possible (noté)"
-msgstr[1] "%(num_points)s points possibles (noté)"
+msgid "{num_points} point possible (graded)"
+msgid_plural "{num_points} points possible (graded)"
+msgstr[0] "{num_points} point possible (noté)"
+msgstr[1] "{num_points} points possibles (noté)"
 
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:258
-msgid "%(num_points)s point possible (ungraded)"
-msgid_plural "%(num_points)s points possible (ungraded)"
-msgstr[0] "%(num_points)s point possible (pas noté)"
-msgstr[1] "%(num_points)s points possibles (pas noté)"
+msgid "{num_points} point possible (ungraded)"
+msgid_plural "{num_points} points possible (ungraded)"
+msgstr[0] "{num_points} point possible (pas noté)"
+msgstr[1] "{num_points} points possibles (pas noté)"
 
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:268
-msgid "%(earned)s/%(possible)s point (graded)"
-msgid_plural "%(earned)s/%(possible)s points (graded)"
-msgstr[0] "%(earned)s/%(possible)s point (noté)"
-msgstr[1] "%(earned)s/%(possible)s points (noté)"
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{earned}/{possible} point (noté)"
+msgstr[1] "{earned}/{possible} points (noté)"
 
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:275
-msgid "%(earned)s/%(possible)s point (ungraded)"
-msgid_plural "%(earned)s/%(possible)s points (ungraded)"
-msgstr[0] "%(earned)s/%(possible)s point (pas noté)"
-msgstr[1] "%(earned)s/%(possible)s points (pas noté)"
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] "{earned}/{possible} point (pas noté)"
+msgstr[1] "{earned}/{possible} points (pas noté)"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js:347
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -343,948 +364,824 @@ msgstr "Vous avez soumis {filename}; seuls les fichiers {allowedFiles} sont perm
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "Votre fichier {filename} est trop lourd (taille maximale: {maxSize} Mo)."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:572
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:573
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Vous n'avez pas soumis les fichiers requis: {requiredFiles}."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:582
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:583
 msgid "You did not select any files to submit."
 msgstr "Vous n'avez sélectionné aucun fichier à soumettre."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:665
+#. Translators: This is only translated to allow for reordering of label and
+#. associated status.;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:669
 msgid "{label}: {status}"
 msgstr "{label} : {status}"
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:696
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:700
 msgid "This problem has been reset."
 msgstr "Ce problème a été réinitialisé."
 
-#: common/lib/xmodule/xmodule/js/src/capa/display.js:998
+#: common/lib/xmodule/xmodule/js/src/capa/display.js:1003
 msgid "unsubmitted"
 msgstr "non soumis"
 
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:141
+msgid ""
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
+msgstr "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
+
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:139
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:846
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:143
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:850
 msgid "Paragraph"
 msgstr "Paragraphe"
 
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:140
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:144
 msgid "Preformatted"
 msgstr "Préformaté"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:141
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:596
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:145
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:600
 msgid "Heading 3"
 msgstr "Titre 3"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:142
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:601
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:146
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:605
 msgid "Heading 4"
 msgstr "Titre 4"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:143
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:606
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:147
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:610
 msgid "Heading 5"
 msgstr "Titre 5"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:144
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:611
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:148
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:615
 msgid "Heading 6"
 msgstr "Titre 6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:176
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:180
 msgid "Add to Dictionary"
 msgstr "Ajouter au dictionnaire"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:186
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:190
 msgid "Align center"
 msgstr "Aligner au centre"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:191
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:195
 msgid "Align left"
 msgstr "Aligner à gauche"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:196
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:200
 msgid "Align right"
 msgstr "Aligner à droite"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:201
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:205
 msgid "Alignment"
 msgstr "Alignement"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:206
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:210
 msgid "Alternative source"
 msgstr "Source alternative"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:211
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:215
 msgid "Anchor"
 msgstr "Ancre"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:216
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:220
 msgid "Anchors"
 msgstr "Ancres"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:221
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:225
 msgid "Author"
 msgstr "Auteur"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:226
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:230
 msgid "Background color"
 msgstr "Couleur du fond"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:231
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:235
 #: lms/static/js/Markdown.Editor.js:1840
 msgid "Blockquote"
 msgstr "Citation"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:236
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:240
 msgid "Blocks"
 msgstr "Blocs"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:241
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:245
 msgid "Body"
 msgstr "Corps"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:246
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:250
 msgid "Bold"
 msgstr "Gras"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:251
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:255
 msgid "Border color"
 msgstr "Couleur de bordure"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:256
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:260
 msgid "Border"
 msgstr "Bordure"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:261
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:265
 msgid "Bottom"
 msgstr "Bas"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:266
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:270
 msgid "Bullet list"
 msgstr "Liste à puces"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:276
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:280
 msgid "Caption"
 msgstr "Légende"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:281
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:285
 msgid "Cell padding"
 msgstr "Remplissage des cellules"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:286
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:290
 msgid "Cell properties"
 msgstr "Propriétés des cellules"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:291
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:295
 msgid "Cell spacing"
 msgstr "Espacement des cellules"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:296
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:300
 msgid "Cell type"
 msgstr "Type de cellule"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:301
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:305
 msgid "Cell"
 msgstr "Cellule"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:306
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:310
 msgid "Center"
 msgstr "Centrer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:311
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:315
 msgid "Circle"
 msgstr "Cercle"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:316
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:320
 msgid "Clear formatting"
 msgstr "Effacer le formatage"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
 #. Translators: this is a toolbar button tooltip from the raw HTML editor
 #. displayed in the browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:326
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1202
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:330
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1206
 msgid "Code block"
 msgstr "Bloc du code"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:331
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:335
 msgid "Code"
 msgstr "Code"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:336
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:340
 msgid "Color"
 msgstr "Couleur"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:341
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:345
 msgid "Cols"
 msgstr "Colonnes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:346
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:350
 msgid "Column group"
 msgstr "Groupe de colonnes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:351
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:355
 msgid "Column"
 msgstr "Colonne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:356
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:360
 msgid "Constrain proportions"
 msgstr "Contraindre les dimensions"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:361
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:365
 msgid "Copy row"
 msgstr "Copier la ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:366
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:370
 msgid "Copy"
 msgstr "Copier"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:371
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:375
 msgid "Could not find the specified string."
 msgstr "Impossible de trouver la chaîne de caractères indiquée."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:376
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:380
 msgid "Custom color"
 msgstr "Couleur personnalisée"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:381
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:385
 msgid "Custom..."
 msgstr "Personnaliser..."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:386
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:390
 msgid "Cut row"
 msgstr "Couper la ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:391
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:395
 msgid "Cut"
 msgstr "Couper"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:396
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:400
 msgid "Decrease indent"
 msgstr "Réduire l'indentation"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:401
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:405
 msgid "Default"
 msgstr "Défaut"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:406
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:410
 msgid "Delete column"
 msgstr "Supprimer la colonne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:411
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:415
 msgid "Delete row"
 msgstr "Supprimer la ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:416
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:420
 msgid "Delete table"
 msgstr "Supprimer le tableau"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:421
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:425
 msgid "Description"
 msgstr "Description"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:426
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:430
 msgid "Dimensions"
 msgstr "Dimensions"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:431
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:435
 msgid "Disc"
 msgstr "Disque"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:436
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:440
 msgid "Div"
 msgstr "Div"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:441
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:445
 msgid "Document properties"
 msgstr "Propriétés du document"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:446
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:450
 msgid "Edit HTML"
 msgstr "Editer le code HTML"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:451
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:455
 msgid "Edit"
 msgstr "Éditer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:456
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:460
 msgid "Embed"
 msgstr "Intégrer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:461
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:465
 msgid "Emoticons"
 msgstr "Émoticones"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:466
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:470
 msgid "Encoding"
 msgstr "Encodage"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:471
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:475
 msgid "File"
 msgstr "Fichier"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:476
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:480
 msgid "Find and replace"
 msgstr "Trouver et remplacer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:481
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:485
 msgid "Find next"
 msgstr "Trouver le suivant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:486
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:490
 msgid "Find previous"
 msgstr "Trouver le précédent"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:491
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:495
 msgid "Find"
 msgstr "Trouver"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:496
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:500
 msgid "Finish"
 msgstr "Terminer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:501
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:505
 msgid "Font Family"
 msgstr "Famille de la fonte"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:506
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:510
 msgid "Font Sizes"
 msgstr "Tailles des fontes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:511
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:515
 msgid "Footer"
 msgstr "Pied de page"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:516
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:520
 msgid "Format"
 msgstr "Formater"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:521
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:525
 msgid "Formats"
 msgstr "Formats"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:526
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:530
 msgid "Fullscreen"
 msgstr "Plein écran"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:531
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:535
 msgid "General"
 msgstr "Général"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:536
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:540
 msgid "H Align"
 msgstr "Aligner Horiz."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:541
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:545
 msgid "Header 1"
 msgstr "En-tête 1"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:546
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:550
 msgid "Header 2"
 msgstr "En-tête 2"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:551
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:555
 msgid "Header 3"
 msgstr "En-tête 3"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:556
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:560
 msgid "Header 4"
 msgstr "En-tête 4"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:561
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:565
 msgid "Header 5"
 msgstr "En-tête 5"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:566
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:570
 msgid "Header 6"
 msgstr "En-tête 6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:571
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:575
 msgid "Header cell"
 msgstr "En-tête de la cellule"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:576
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:580
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js:49
 msgid "Header"
 msgstr "En-tête"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:581
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:585
 msgid "Headers"
 msgstr "En-têtes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:586
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:590
 msgid "Heading 1"
 msgstr "Entête 1"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:591
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:595
 msgid "Heading 2"
 msgstr "Entête 2"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:616
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:620
 msgid "Headings"
 msgstr "Titres"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:621
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:625
 msgid "Height"
 msgstr "Hauteur"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:626
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:630
 msgid "Horizontal line"
 msgstr "Ligne horizontale"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:631
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:635
 msgid "Horizontal space"
 msgstr "Espace horizontal"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:636
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:640
 msgid "HTML source code"
 msgstr "Code source HTML"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:641
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:645
 msgid "Ignore all"
 msgstr "Ignorer tout"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:646
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:650
 msgid "Ignore"
 msgstr "Ignorer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:651
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:655
 msgid "Image description"
 msgstr "Description de l'image"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:656
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:660
 msgid "Increase indent"
 msgstr "Accroître l'indentation"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:661
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:665
 msgid "Inline"
 msgstr "Intégré"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:666
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:670
 msgid "Insert column after"
 msgstr "Insérer une colonne après"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:671
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:675
 msgid "Insert column before"
 msgstr "Insérer une colonne avant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:676
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:680
 msgid "Insert date/time"
 msgstr "Insérer date/heure"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:681
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:685
 msgid "Insert image"
 msgstr "Insérer une image"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:686
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:690
 msgid "Insert link"
 msgstr "Insérer un lien"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:691
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:695
 msgid "Insert row after"
 msgstr "Insérer une ligne après"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:696
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:700
 msgid "Insert row before"
 msgstr "Insérer une ligne avant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:701
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:705
 msgid "Insert table"
 msgstr "Insérer un tableau"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:706
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:710
 msgid "Insert template"
 msgstr "Insérer un modèle"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:711
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:715
 msgid "Insert video"
 msgstr "Insérer une vidéo"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:716
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:720
 msgid "Insert"
 msgstr "Insérer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:721
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:725
 msgid "Insert/edit image"
 msgstr "Insérer/Éditer une image"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:726
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:730
 msgid "Insert/edit link"
 msgstr "Insérer/Éditer un lien"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:731
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:735
 msgid "Insert/edit video"
 msgstr "Insérer/Éditer une vidéo"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:736
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:740
 msgid "Italic"
 msgstr "Italique"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:741
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:745
 msgid "Justify"
 msgstr "Justifier"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:746
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:750
 msgid "Keywords"
 msgstr "Mots-clé"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:751
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:755
 msgid "Left to right"
 msgstr "Gauche à droite"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:756
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:760
 msgid "Left"
 msgstr "Gauche"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:761
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:765
 msgid "Lower Alpha"
 msgstr "Minuscule alphanumérique"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:766
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:770
 msgid "Lower Greek"
 msgstr "Minuscule Grecque"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:771
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:775
 msgid "Lower Roman"
 msgstr "Minuscule Romain"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:776
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:780
 msgid "Match case"
 msgstr "Ajuster la casse"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:781
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:785
 msgid "Merge cells"
 msgstr "Fusionner les cellules"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:786
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:790
 msgid "Middle"
 msgstr "Milieu"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:796
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:800
 msgid "New document"
 msgstr "Nouveau document"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:801
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:805
 msgid "New window"
 msgstr "Nouvelle fenêtre"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:806
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:810
 msgid "Next"
 msgstr "Suivant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:811
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:815
 msgid "No color"
 msgstr "Pas de couleur"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:816
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:820
 msgid "Nonbreaking space"
 msgstr "Espace insécable"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:826
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:830
 msgid "Numbered list"
 msgstr "Liste numérotée"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:841
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:845
 msgid "Page break"
 msgstr "Saut de page"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:851
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:855
 msgid "Paste as text"
 msgstr "Coller comme un texte"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:856
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:860
 msgid ""
 "Paste is now in plain text mode. Contents will now be pasted as plain text "
 "until you toggle this option off."
@@ -1292,116 +1189,100 @@ msgstr "Coller se fait maintenant en mode texte brut. Les contenus seront mainte
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:861
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:865
 msgid "Paste row after"
 msgstr "Coller la ligne après"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:866
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:870
 msgid "Paste row before"
 msgstr "Coller la ligne avant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:871
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:875
 msgid "Paste your embed code below:"
 msgstr "Collez votre code intégré ci-dessous : "
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:876
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:880
 msgid "Paste"
 msgstr "Coller"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:881
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:885
 msgid "Poster"
 msgstr "Affiche"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:886
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:890
 msgid "Pre"
 msgstr "Pré"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:891
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:895
 msgid "Prev"
 msgstr "Prévisualisation"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:896
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:900
 #: lms/static/js/customwmd.js:190
 msgid "Preview"
 msgstr "Aperçu"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:901
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:905
 msgid "Print"
 msgstr "Imprimer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:906
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:910
 msgid "Redo"
 msgstr "Refaire"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:911
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:915
 msgid "Remove link"
 msgstr "Supprimer le lien"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:916
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:921
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:920
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:925
 msgid "Replace all"
 msgstr "Remplacer tout"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:926
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:930
 msgid "Replace with"
 msgstr "Remplacer avec"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:931
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:936
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:935
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:940
 msgid "Replace"
 msgstr "Remplacer"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:941
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:945
 msgid "Restore last draft"
 msgstr "Restaurer le dernier brouillon"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:946
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:950
 msgid ""
 "Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
 "ALT-0 for help"
@@ -1409,211 +1290,181 @@ msgstr "Zone de texte riche. Appuyez sur ALT + F9 pour afficher le menu. Appuyez
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:951
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:955
 msgid "Right to left"
 msgstr "Droite à gauche"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:956
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:960
 msgid "Right"
 msgstr "Droite"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:961
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:965
 msgid "Robots"
 msgstr "Robots"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:966
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:970
 msgid "Row group"
 msgstr "Groupe de lignes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:971
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:975
 msgid "Row properties"
 msgstr "Propriétés d'une ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:976
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:980
 msgid "Row type"
 msgstr "Type de ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:981
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:985
 msgid "Row"
 msgstr "Ligne"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:986
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:990
 msgid "Rows"
 msgstr "Lignes"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:996
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1000
 msgid "Scope"
 msgstr "Cadre"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1001
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1005
 msgid "Select all"
 msgstr "Tout sélectionner"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1006
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1010
 msgid "Show blocks"
 msgstr "Afficher les blocs"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1011
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1015
 msgid "Show invisible characters"
 msgstr "Afficher les caractères invisibles"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1016
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1020
 msgid "Source code"
 msgstr "Code source"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1021
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1025
 msgid "Source"
 msgstr "Source"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1026
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1030
 msgid "Special character"
 msgstr "Caractère spécial"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1031
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1035
 msgid "Spellcheck"
 msgstr "vérification de l'orthographe"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1036
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1040
 msgid "Split cell"
 msgstr "Scinder la cellule"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1041
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1045
 msgid "Square"
 msgstr "Carré"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1046
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1050
 msgid "Start search"
 msgstr "Démarrer la recherche"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1051
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1055
 msgid "Strikethrough"
 msgstr "Barré"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1056
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1060
 msgid "Style"
 msgstr "Style"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1061
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1065
 msgid "Subscript"
 msgstr "Indice"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1066
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1070
 msgid "Superscript"
 msgstr "Exposant"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1071
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1075
 msgid "Table properties"
 msgstr "Propriétés du tableau"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1076
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1080
 msgid "Table"
 msgstr "Tableau"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1081
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1085
 msgid "Target"
 msgstr "Cible"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1086
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1090
 msgid "Templates"
 msgstr "Modèles"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1091
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1095
 msgid "Text color"
 msgstr "Couleur du texte"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1096
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1100
 msgid "Text to display"
 msgstr "Texte à afficher"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1101
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1105
 msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
@@ -1621,8 +1472,7 @@ msgstr "L'URL que vous avez entrée semble être une adresse courriel. Voulez-vo
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1106
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1110
 msgid ""
 "The URL you entered seems to be an external link. Do you want to add the "
 "required http:// prefix?"
@@ -1630,120 +1480,103 @@ msgstr "L'URL que vous avez entrée semble être un lien externe. Voulez-vous aj
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1111
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1115
 msgid "Title"
 msgstr "Titre"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1116
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1120
 msgid "Tools"
 msgstr "Outils"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1121
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1125
 msgid "Top"
 msgstr "Haut"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1126
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1130
 msgid "Underline"
 msgstr "Souligner"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1131
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1135
 msgid "Undo"
 msgstr "Annule"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1136
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1140
 msgid "Upper Alpha"
 msgstr "Capitales alphanumériques"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1141
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1145
 msgid "Upper Roman"
 msgstr "Capitale Romain"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1146
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1150
 msgid "Url"
 msgstr "Url"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1151
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1155
 msgid "V Align"
 msgstr "Alignement Vertical"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1156
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1160
 msgid "Vertical space"
 msgstr "Espace Vertical"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1161
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1165
 msgid "View"
 msgstr "Consulter"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1166
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1170
 msgid "Visual aids"
 msgstr "Aide Visuelle"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1171
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1175
 msgid "Whole words"
 msgstr "Mots entiers"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1176
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1180
 msgid "Width"
 msgstr "Largeur"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1181
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1185
 msgid "Words: {0}"
 msgstr "Mots : {0}"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1186
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1190
 msgid "You have unsaved changes are you sure you want to navigate away?"
 msgstr "Vous avez des modifications non enregistrées, êtes-vous sûr de vouloir quitter cette page ?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1191
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1195
 msgid ""
 "Your browser doesn't support direct access to the clipboard. Please use the "
 "Ctrl+X/C/V keyboard shortcuts instead."
@@ -1751,8 +1584,7 @@ msgstr "Votre navigateur ne supporte pas l'accès direct au presse-papier. Veuil
 
 #. Translators: this is a toolbar button tooltip from the raw HTML editor
 #. displayed in the browser when a user needs to edit HTML
-#. */
-#: common/lib/xmodule/xmodule/js/src/html/edit.js:1213
+#: common/lib/xmodule/xmodule/js/src/html/edit.js:1217
 msgid "Insert/Edit Image"
 msgstr "Insérer/Éditer une image"
 
@@ -1797,24 +1629,24 @@ msgstr "réponse"
 msgid "Short explanation"
 msgstr "Brève explication"
 
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js:130
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:119
 msgid ""
 "If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
 "\n"
 "Proceed to the Advanced Editor and convert this problem to XML?"
 msgstr "Si vous utilisez l'éditeur avancé, ce problème sera converti en XML et vous ne serez plus en mesure de revenir à l'interface d'édition simple.\nPasser à l'éditeur avancé et convertir ce problème en XML?"
 
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js:725
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js:722
 msgid "Explanation"
 msgstr "Explication"
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:328
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:331
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
 msgstr "Erreur de séquence! Impossible de se rendre à %(tab_name)s dans le module SequenceModule en cours. Veuillez contacter les responsables du cours."
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:442
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:446
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
 msgid "Bookmarked"
 msgstr "Ajouté aux favoris"
@@ -1840,13 +1672,14 @@ msgid "Unmute"
 msgstr "Remettre le son"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:18
-#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:159
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:161
 msgid "Exit full browser"
 msgstr "Quitter le mode plein écran du navigateur"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:19
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:6
-#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:137
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:8
+#: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js:139
 msgid "Fill browser"
 msgstr "Remplir le navigateur"
 
@@ -1861,34 +1694,41 @@ msgid "Auto-advance"
 msgstr "Avancement automatique"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:22
-#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:69
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:71
 msgid "Volume"
 msgstr "Volume"
 
+#. Translators: Volume level equals 0%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:24
 msgid "Muted"
 msgstr "Son coupé"
 
+#. Translators: Volume level in range ]0,20]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:26
 msgid "Very low"
 msgstr "Très faible"
 
+#. Translators: Volume level in range ]20,40]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:28
 msgid "Low"
 msgstr "Faible"
 
+#. Translators: Volume level in range ]40,60]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:30
 msgid "Average"
 msgstr "Moyen"
 
+#. Translators: Volume level in range ]60,80]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:32
 msgid "Loud"
 msgstr "Fort"
 
+#. Translators: Volume level in range ]80,99]%
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:34
 msgid "Very loud"
 msgstr "Très fort"
 
+#. Translators: Volume level equals 100%.
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js:36
 msgid "Maximum"
 msgstr "Maximum"
@@ -1945,13 +1785,13 @@ msgid_plural "%(value)s seconds"
 msgstr[0] "%(value)s seconde"
 msgstr[1] "%(value)s secondes"
 
-#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:67
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:69
 msgid ""
 "Click on this button to mute or unmute this video or press UP or DOWN "
 "buttons to increase or decrease volume level."
 msgstr "Cliquer sur ce button pour activer ou désactiver le son de ce vidéo ou appuyer sur les boutons UP ou DOWN pour augmenter ou diminuer le niveau de volume."
 
-#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:68
+#: common/lib/xmodule/xmodule/js/src/video/07_video_volume_control.js:70
 msgid "Adjust video volume"
 msgstr "Ajuster le volume audio du vidéo"
 
@@ -1966,7 +1806,7 @@ msgstr "Appuyer sur UP pour accéder au menu de la vitesse, puis utilisez les fl
 msgid "Adjust video speed"
 msgstr "Ajuster la vitesse du vidéo"
 
-#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:268
+#: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js:269
 msgid "Video speed: "
 msgstr "Vitesse vidéo : "
 
@@ -2015,29 +1855,41 @@ msgid ""
 "language."
 msgstr "Appuyer sur UP pour accéder au menu des langues, puis utilisez les flèches HAUT et BAS pour naviguer dans les différentes options de langues. Appuyez sur ENTER pour passer à la langue sélectionnée."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1192
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1183
 msgid "Hide closed captions"
 msgstr "Masquer les sous-titres"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1199
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1201
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Les sous-titres s'afficheront quand vous commencerez à lire la vidéo)"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1214
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1208
 msgid "Turn on closed captioning"
 msgstr "Activer le sous-titrage"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1262
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1266
 msgid "Turn on transcripts"
 msgstr "Activer la transcription"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1274
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1279
 msgid "Turn off transcripts"
 msgstr "Désactiver la transcription"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:10
 msgid "View child items"
 msgstr "Voir les éléments enfants"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:17
+msgid "Navigate up"
+msgstr "Naviguer vers le haut"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:82
+msgid "Browsing"
+msgstr "Parcourir"
+
+#: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:89
+msgid "Select"
+msgstr "Sélectionnez"
 
 #: common/static/common/js/components/utils/view_utils.js:215
 msgid "Required field."
@@ -2166,18 +2018,18 @@ msgstr "Ce message n'a pas pu être verrouillé. Rechargez la page pour réessay
 msgid "This post could not be reopened. Refresh the page and try again."
 msgstr "Ce message n'a pas pu être déverrouillé. Rechargez la page pour réessayer."
 
-#: common/static/common/js/discussion/views/discussion_inline_view.js:186
-#: common/static/common/js/discussion/views/discussion_inline_view.js:224
+#: common/static/common/js/discussion/views/discussion_inline_view.js:182
+msgid "Show Discussion"
+msgstr "Afficher la discussion"
+
+#: common/static/common/js/discussion/views/discussion_inline_view.js:192
+#: common/static/common/js/discussion/views/discussion_inline_view.js:232
 msgid "Hide Discussion"
 msgstr "Masquer la discussion"
 
-#: common/static/common/js/discussion/views/discussion_inline_view.js:195
+#: common/static/common/js/discussion/views/discussion_inline_view.js:209
 msgid "This discussion could not be loaded. Refresh the page and try again."
 msgstr "Cette discussion n'a pas pu être chargée. Rechargez la page pour réessayer."
-
-#: common/static/common/js/discussion/views/discussion_inline_view.js:206
-msgid "Show Discussion"
-msgstr "Afficher la discussion"
 
 #: common/static/common/js/discussion/views/discussion_thread_list_view.js:228
 msgid "There are no posts in this topic yet."
@@ -2316,11 +2168,13 @@ msgstr "curseur pour le dépôt"
 msgid "dropped on target"
 msgstr "déposé sur la cible"
 
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js:3
 #, javascript-format
 msgid "%s ago"
 msgstr "il y a %s "
 
+#. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js:5
 #, javascript-format
 msgid "%s from now"
@@ -2428,7 +2282,7 @@ msgid ""
 msgstr "Les fichiers que vous téléchargez doivent être des fichiers PDF ou des fichiers image au format .gif, .jpg, .jpeg ou .png."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:108
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:86
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:97
 msgid "Something went wrong. Please try again later."
 msgstr "Quelque chose s'est mal passé. Veuillez réessayer plus tard."
 
@@ -2440,20 +2294,95 @@ msgstr "Ajouter une pièce jointe"
 msgid "(Optional)"
 msgstr "(Optionnel)"
 
+#: lms/djangoapps/support/static/support/jsx/file_upload.jsx:153
+msgid "Remove file"
+msgstr "Supprimer le fichier"
+
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:14
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:29
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:32
 msgid "Course Name"
 msgstr "Nom du cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:18
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:16
+msgid ""
+"For inquiries regarding assignments, grades, or structure of a specific "
+"course, please post in the discussion forums for that course directly."
+msgstr "Pour toute question relative aux devoirs, aux notes ou à la structure d'un cours spécifique, veuillez poster directement sur les forums de discussion de ce cours."
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:21
 msgid "Not specific to a course"
 msgstr "Pas spécifique à un cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:70
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:39
+#: lms/static/js/instructor_dashboard/util.js:199
+msgid "Subject"
+msgstr "Sujet"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:42
+msgid "Account Settings"
+msgstr "Paramètres du compte"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:43
+msgid "Billing/Payment Options"
+msgstr "Options de facturation / paiement"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:44
+msgid "Certificates"
+msgstr "Attestations"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:45
+msgid "Course Content"
+msgstr "Contenu de cours"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:46
+msgid "Deadlines"
+msgstr "Dates d'échéances"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:47
+msgid "Errors/Technical Issues"
+msgstr "Erreurs / problèmes techniques"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:48
+msgid "Financial Aid"
+msgstr "Aide financière"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:49
+msgid "Masters"
+msgstr "Maîtrise"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
+msgid "MicroBachelors"
+msgstr "MicroBaccalauréats"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:51
+msgid "Photo Verification"
+msgstr "Vérification d'identité"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:52
+msgid "Proctoring"
+msgstr "Surveillance"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
+msgid "Security"
+msgstr "Sécurité"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:54
+msgid "Other"
+msgstr "Autre"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:67
+msgid "What can we help you with, {username}?"
+msgstr "En quoi pouvons-nous vous aider, {username} ?"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:93
 msgid "Details"
 msgstr "Détails"
 
 #: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:96
+msgid "The more you tell us, the more quickly and helpfully we can respond!"
+msgstr "Plus vous nous en dites, plus vite et utilement nous pouvons répondre!"
+
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:119
 msgid "Submit"
 msgstr "Soumettre"
 
@@ -2461,13 +2390,10 @@ msgstr "Soumettre"
 msgid "Sign in to {platform} so we can help you better."
 msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 
-#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:22
-msgid "Sign in"
-msgstr "Connexion"
-
-#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:31
-msgid "Create an {platform} account"
-msgstr "Créer un compte {platform}"
+#: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:37
+msgid ""
+"If you are unable to access your account contact us via email using {email}."
+msgstr "Si vous ne parvenez pas à accéder à votre compte, contactez-nous par courrier électronique en utilisant {email}."
 
 #: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:63
 msgid ""
@@ -2475,17 +2401,26 @@ msgid ""
 "request."
 msgstr "Sélectionnez un cours ou sélectionnez \"Non spécifique à un cours\" pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:98
-msgid "Enter a subject for your support request."
-msgstr "Entrez un sujet pour votre demande d'assistance."
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:77
+msgid "Select a subject for your support request."
+msgstr "Sélectionnez un sujet pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:102
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:109
 msgid "Enter some details for your support request."
 msgstr "Entrez quelques détails pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:157
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:154
+#: lms/djangoapps/support/static/support/jsx/success.jsx:25
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:164
 msgid "Find answers to the top questions asked by learners."
 msgstr "Trouvez des réponses aux principales questions posées par les apprenants."
+
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:175
+msgid "Search the {platform} Help Center"
+msgstr "Rechercher dans le centre d'aide {platform} "
 
 #: lms/djangoapps/support/static/support/jsx/success.jsx:13
 msgid "Go to my Dashboard"
@@ -2495,9 +2430,14 @@ msgstr "Aller à mon tableau de bord"
 msgid "Go to {platform} Home"
 msgstr "Aller à l'accueil {platform}"
 
-#: lms/djangoapps/support/static/support/jsx/success.jsx:25
-msgid "Contact Us"
-msgstr "Nous contacter"
+#: lms/djangoapps/support/static/support/jsx/success.jsx:31
+msgid ""
+"Thank you for submitting a request! We will contact you within 24 hours."
+msgstr "Merci d'avoir soumis une demande! Nous vous contacterons dans les 24 heures."
+
+#: lms/djangoapps/support/static/support/jsx/upload_progress.jsx:24
+msgid "Cancel upload"
+msgstr "Annuler le téléchargement"
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js:35
 msgid "last activity"
@@ -2511,111 +2451,117 @@ msgstr "places ouvertes"
 msgid "name"
 msgstr "nom"
 
+#. Translators: This refers to the number of teams (a count of how many teams
+#. there are)
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js:27
 msgid "team count"
 msgstr "total équipe"
 
 #: lms/djangoapps/teams/static/teams/js/teams_tab_factory.js:9
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:135
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:161
 msgid "Teams"
 msgstr "Équipes"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:33
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:34
 msgid "Create"
 msgstr "Créer"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:38
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:39
 msgid "Update"
 msgstr "Mettre à jour"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:43
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:44
 msgid "Team Name (Required) *"
 msgstr "Nom de l'équipe (obligatoire) *"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:45
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:46
 msgid "A name that identifies your team (maximum 255 characters)."
 msgstr "Un nom qui désigne votre équipe (maximum 255 caractères)"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:50
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:51
 msgid "Team Description (Required) *"
 msgstr "Description de l'équipe (obligatoire) *"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:54
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:56
 msgid ""
 "A short description of the team to help other learners understand the goals "
 "or direction of the team (maximum 300 characters)."
 msgstr "Une courte description de l'équipe pour aider les autres étudiants à comprendre les buts ou l'idée directrice de l'équipe (maximum 300 caractères)."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:59
-#: lms/static/js/student_account/views/account_settings_factory.js:172
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:145
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:62
+#: lms/static/js/student_account/views/account_settings_factory.js:175
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:140
 msgid "Language"
 msgstr "Langue"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:65
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:69
 msgid ""
 "The language that team members primarily use to communicate with each other."
 msgstr "La langue utilisée par les membres de l'équipe pour communiquer entre eux."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:70
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:133
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:74
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:128
 msgid "Country"
 msgstr "Pays"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:76
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:80
 msgid "The country that team members primarily identify with."
 msgstr "Le pays avec lequel les membres de l'équipe sont le plus proche."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:143
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:150
 #: lms/static/js/views/fields.js:68
 msgid "An error occurred. Please try again."
 msgstr "Une erreur est survenue. Veuillez réessayer."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:153
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:160
 msgid "Check the highlighted fields below and try again."
 msgstr "Vérifiez les champs en surbrillance ci-dessous et réessayez."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:163
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:170
 msgid "Enter team name."
 msgstr "Saisir le nom de l'équipe."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:169
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:176
 msgid "Team name cannot have more than 255 characters."
 msgstr "Le nom de l'équipe ne peut pas dépasser 255 caractères."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:177
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:184
 msgid "Enter team description."
 msgstr "Saisir la description de l'équipe. "
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:183
+#: lms/djangoapps/teams/static/teams/js/views/edit_team.js:190
 msgid "Team description cannot have more than 300 characters."
 msgstr "La description de l'équipe ne peut pas dépasser 300 caractères."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:18
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:19
 msgid "An error occurred while removing the member from the team. Try again."
 msgstr "Une erreur est survenue lors de la suppression du membre de l'équipe. Réessayez."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:38
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:41
 msgid "This team does not have any members."
 msgstr "Cette équipe n'a pas de membres."
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:53
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:59
 msgid "Joined %(date)s"
 msgstr "Inscrit %(date)s"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:60
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: https://github.com/rmm5t/jquery-timeago)
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:69
 msgid "Last Activity %(date)s"
 msgstr "Dernière activité %(date)s"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:83
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:93
 msgid "Remove this team member?"
 msgstr "Retirer ce membre de l'équipe ?"
 
-#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:84
+#: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:94
 msgid ""
-"This learner will be removed from the team, allowing another learner to take"
-" the available spot."
-msgstr "Cet apprenant sera supprimé de l'équipe, permettant à un nouvel apprenant de prendre la place vacante."
+"This learner will be removed from the team,allowing another learner to take "
+"the available spot."
+msgstr "Cet apprenant sera retiré de l'équipe, permettant à un autre apprenant de prendre la place vacante."
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:33
 msgid "Delete this team?"
@@ -2623,63 +2569,76 @@ msgstr "Supprimer cette équipe ?"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:34
 msgid ""
-"Deleting a team is permanent and cannot be undone. All members are removed "
+"Deleting a team is permanent and cannot be undone.All members are removed "
 "from the team, and team discussions can no longer be accessed."
-msgstr "Supprimer une équipe est une action à effet permanent et ne peut pas être annulée. Tous les membres seront retirés de l'équipe et les discussions d'équipe ne seront plus accessibles."
+msgstr "Supprimer une équipe est une action à effet permanent et ne peut pas être annulée. Tous les membres seront retirés de l'équipe et les discussions de l'équipe ne seront plus accessibles."
 
-#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:58
+#: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:59
 msgid "Team \"{team}\" successfully deleted."
 msgstr "Equipe \"{team}\" supprimée avec succès."
+
+#: lms/djangoapps/teams/static/teams/js/views/manage.js:16
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:154
+msgid "Manage"
+msgstr "Gérer"
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js:16
 msgid "You are not currently a member of any team."
 msgstr "Actuellement, vous n'êtes membre d'aucune équipe."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_card.js:49
+#. Translators: "and others" refers to fact that additional
+#. * members of a team exist that are not displayed.
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:55
 msgid "and others"
 msgstr "et autres"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_card.js:88
-msgid "Last activity %(date)s"
-msgstr "Dernière activité %(date)s"
+#. Translators: 'date' is a placeholder for a fuzzy,
+#. * relative timestamp (see: http://momentjs.com/)
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:101
+msgid "Last activity {date}"
+msgstr "Dernière activité {date}"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_card.js:123
-msgid "View %(span_start)s %(team_name)s %(span_end)s"
-msgstr "Voir %(span_start)s %(team_name)s %(span_end)s"
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:137
+msgid "View {span_start} {team_name} {span_end}"
+msgstr "Voir {span_start} {team_name} {span_end}"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js:21
-#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:13
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:14
 msgid "An error occurred. Try again."
 msgstr "Une erreur est survenue. Réessayez."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:92
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:98
 msgid "Leave this team?"
 msgstr "Quitter cette équipe ?"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:93
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:99
 msgid ""
-"If you leave, you can no longer post in this team's discussions. Your place "
+"If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
-msgstr "Si vous partez, vous ne pourrez plus poster dans les discussions de l'équipe. Votre place sera libérée pour un autre apprenant."
+msgstr "Si vous quittez, vous ne pouvez plus poster dans les discussions de cette équipe. Votre place sera disponible pour un autre apprenant."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:94
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:101
 #: lms/static/js/verify_student/views/reverify_view.js:50
 msgid "Confirm"
 msgstr "Confirmer"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:14
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:15
 msgid "You already belong to another team."
 msgstr "Vous appartenez déjà à une autre équipe."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:15
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:16
 msgid "This team is full."
 msgstr "Cette équipe est pleine."
 
+#: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:17
+msgid "Cannot join instructor managed team"
+msgstr "Impossible de rejoindre l'équipe dirigée par un instructeur"
+
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js:26
-msgid "%(memberCount)s / %(maxMemberCount)s Member"
-msgid_plural "%(memberCount)s / %(maxMemberCount)s Members"
-msgstr[0] "%(memberCount)s / %(maxMemberCount)s membre"
-msgstr[1] "%(memberCount)s / %(maxMemberCount)s membres"
+msgid "{memberCount} / {maxMemberCount} Member"
+msgid_plural "{memberCount} / {maxMemberCount} Members"
+msgstr[0] "{memberCount} / {maxMemberCount} membre"
+msgstr[1] "{memberCount} / {maxMemberCount} membres"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js:15
 msgid "All teams"
@@ -2689,108 +2648,108 @@ msgstr "Toutes les équipes"
 msgid "Teams Pagination"
 msgstr "Pagination des équipes"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:36
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:38
 msgid "Topics"
 msgstr "Sujets"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:136
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:144
+msgid "My Team"
+msgstr "Mon équipe"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:148
+msgid "Browse"
+msgstr "Parcourir"
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:163
 msgid ""
 "See all teams in your course, organized by topic. Join a team to collaborate"
 " with other learners who are interested in the same topic as you are."
 msgstr "Voir les équipes de cours organisées par sujets. Rejoindre une équipe pour collaborer avec d'autres apprenants intéressés par les mêmes sujets que vous."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:139
-msgid "My Team"
-msgstr "Mon équipe"
-
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:143
-msgid "Browse"
-msgstr "Parcourir"
-
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:175
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:197
 msgid "Your request could not be completed. Reload the page and try again."
 msgstr "Votre demande n'a pas pu être réalisée. Rafraîchissez la page et réessayez."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:179
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:201
 msgid ""
 "Your request could not be completed due to a server problem. Reload the page"
 " and try again. If the issue persists, click the Help tab to report the "
 "problem."
 msgstr "Votre requête n'a pu être complétée en raison d'un problème de serveur. Recharger la page et essayez de nouveau. Si le problème persiste, cliquer sur l'onglet Aide afin de signaler le problème."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:216
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:238
 msgid "Team Search"
 msgstr "Recherche d'équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:218
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:240
 msgid "Showing results for \"{searchString}\""
 msgstr "Affichage des résultats pour \"{searchString}\""
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:237
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:259
 msgid "Create a New Team"
 msgstr "Créer une nouvelle équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:238
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:261
 msgid ""
 "Create a new team if you can't find an existing team to join, or if you "
 "would like to learn with friends you know."
 msgstr "Créez une nouvelle équipe si vous ne trouvez pas une équipe existante à rejoindre, ou si vous désirez apprendre avec des amis que vous connaissez déjà."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:271
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:296
 msgid "Edit Team"
 msgstr "Modifier l'équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:272
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:298
 msgid ""
 "If you make significant changes, make sure you notify members of the team "
 "before making these changes."
 msgstr "Si vous réalisez d'importants changements, prévenez les membres de l'équipe avant de les faire."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:300
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:328
 msgid "Membership"
 msgstr "Inscription"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:301
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:330
 msgid ""
 "You can remove members from this team, especially if they have not "
 "participated in the team's activity."
 msgstr "Vous pouvez retirer des membres de cette équipe, en particulier s'ils n'ont pas participé à l'activité de l'équipe."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:360
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:391
 msgid "Search teams"
 msgstr "Rechercher des équipes"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:456
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:513
 msgid "All Topics"
 msgstr "Tous les sujets"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:587
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:644
 msgid "The page \"{route}\" could not be found."
 msgstr "Page \"{route}\" non trouvée."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:596
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:653
 msgid "The topic \"{topic}\" could not be found."
 msgstr "Sujet \"{topic}\" non trouvé."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:605
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:662
 msgid "The team \"{team}\" could not be found."
 msgstr "L'équipe \"{team}\" n'a pu être trouvée."
 
-#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:19
-msgid "%(team_count)s Team"
-msgid_plural "%(team_count)s Teams"
-msgstr[0] "%(team_count)s Equipe"
-msgstr[1] "%(team_count)s Équipes"
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:27
+msgid "{team_count} Team"
+msgid_plural "{team_count} Teams"
+msgstr[0] "{team_count} Équipe"
+msgstr[1] "{team_count} Équipes"
 
-#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:39
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:49
 msgid "Topic"
 msgstr "Sujet"
 
-#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:46
-msgid "View Teams in the %(topic_name)s Topic"
-msgstr "Voir les équipes du sujet %(topic_name)s"
+#: lms/djangoapps/teams/static/teams/js/views/topic_card.js:56
+msgid "View Teams in the {topic_name} Topic"
+msgstr "Voir les Équipes du sujet {topic_name}"
 
-#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:47
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:55
 msgid ""
 "{browse_span_start}Browse teams in other topics{span_end} or "
 "{search_span_start}search teams{span_end} in this topic. If you still can't "
@@ -2798,7 +2757,7 @@ msgid ""
 "topic{span_end}."
 msgstr "{browse_span_start}Parcourir les équipes dans d'autres sujets{span_end} ou {search_span_start}rechercher des équipes{span_end} dans ce sujet. Si vous ne parvenez pas à trouver une équipe, {create_span_start}créez une nouvelle équipe dans ce sujet {span_end}."
 
-#: lms/djangoapps/teams/static/teams/js/views/topics.js:15
+#: lms/djangoapps/teams/static/teams/js/views/topics.js:16
 msgid "All topics"
 msgstr "Tous les sujets"
 
@@ -2870,6 +2829,7 @@ msgstr "URL"
 msgid "Please provide a valid URL."
 msgstr "Veuillez fournir un URL valide."
 
+#. Translators: 'errorCount' is the number of errors found in the form.
 #: lms/static/js/Markdown.Editor.js:1059
 msgid "%(errorCount)s error found in form."
 msgid_plural "%(errorCount)s errors found in form."
@@ -3142,44 +3102,43 @@ msgstr "Veuillez entrer un montant de don valide."
 msgid "Your donation could not be submitted."
 msgstr "Votre don n'a pas pu être soumis"
 
-#: lms/static/js/dashboard/legacy.js:96 lms/static/js/dashboard/legacy.js:108
+#: lms/static/js/dashboard/legacy.js:93 lms/static/js/dashboard/legacy.js:105
 msgid "You will be refunded the amount you paid."
 msgstr "Le montant payé vous sera remboursé."
 
-#: lms/static/js/dashboard/legacy.js:98
+#: lms/static/js/dashboard/legacy.js:95
 msgid "You will not be refunded the amount you paid."
 msgstr "Le montant payé ne vous sera pas remboursé."
 
-#: lms/static/js/dashboard/legacy.js:100
+#: lms/static/js/dashboard/legacy.js:97
 msgid ""
-"Are you sure you want to unenroll from the purchased course %(courseName)s "
-"(%(courseNumber)s)?"
-msgstr "Êtes-vous certain que vous voulez vous désinscrire du cours acheté %(courseName)s (%(courseNumber)s)?"
+"Are you sure you want to unenroll from the purchased course {courseName} "
+"({courseNumber})?"
+msgstr "Êtes-vous sûr de vouloir vous désinscrire du cours acheté {courseName} ({courseNumber})?"
+
+#: lms/static/js/dashboard/legacy.js:100
+msgid "Are you sure you want to unenroll from {courseName} ({courseNumber})?"
+msgstr "Êtes-vous sûr de vouloir vous désinscrire de {courseName} ({courseNumber})?"
 
 #: lms/static/js/dashboard/legacy.js:103
 msgid ""
-"Are you sure you want to unenroll from %(courseName)s (%(courseNumber)s)?"
-msgstr "Êtes-vous certain de vouloir vous désinscrire de %(courseName)s (%(courseNumber)s)?"
+"Are you sure you want to unenroll from the verified {certNameLong}  track of"
+" {courseName}  ({courseNumber})?"
+msgstr "Voulez-vous vraiment vous désinscrire de la piste {certNameLong} de {courseName} ({courseNumber})?"
 
-#: lms/static/js/dashboard/legacy.js:106
+#: lms/static/js/dashboard/legacy.js:107
 msgid ""
-"Are you sure you want to unenroll from the verified %(certNameLong)s  track "
-"of %(courseName)s  (%(courseNumber)s)?"
-msgstr "Êtes-vous certain de vouloir vous désinscrire de cette %(certNameLong)s  pour %(courseName)s  (%(courseNumber)s)?"
+"Are you sure you want to unenroll from the verified {certNameLong} track of "
+"{courseName} ({courseNumber})?"
+msgstr "Voulez-vous vraiment vous désinscrire de la piste {certNameLong} de {courseName} ({courseNumber})?"
 
-#: lms/static/js/dashboard/legacy.js:110
-msgid ""
-"Are you sure you want to unenroll from the verified %(certNameLong)s track "
-"of %(courseName)s (%(courseNumber)s)?"
-msgstr "Êtes-vous certain de vouloir vous désinscrire de cette %(certNameLong)s pour %(courseName)s (%(courseNumber)s)?"
-
-#: lms/static/js/dashboard/legacy.js:112
+#: lms/static/js/dashboard/legacy.js:109
 msgid ""
 "The refund deadline for this course has passed,so you will not receive a "
 "refund."
 msgstr "La date limite de remboursement pour ce cours est passée, donc vous ne recevrez pas de remboursement."
 
-#: lms/static/js/dashboard/legacy.js:175 lms/static/js/dashboard/legacy.js:185
+#: lms/static/js/dashboard/legacy.js:187 lms/static/js/dashboard/legacy.js:197
 #: lms/static/js/learner_dashboard/views/unenroll_view.js:81
 msgid ""
 "Unable to determine whether we should give you a refund because of System "
@@ -3310,10 +3269,21 @@ msgstr "Aucun résultat pour \"%(query_string)s\". Veuillez renouveler votre rec
 msgid "Search Results"
 msgstr "Résultats de la recherche"
 
+#. Translators: this is a title shown before all Notes that have no associated
+#. tags. It is put within
+#. brackets to differentiate it from user-defined tags, but it should still be
+#. translated.
 #: lms/static/js/edxnotes/views/tabs/tags.js:38
 msgid "[no tags]"
 msgstr "[aucun tag]"
 
+#. Translators: 'Tags' is the name of the view (noun) within the Student Notes
+#. page that shows all
+#. notes organized by the tags the student has associated with them (if any).
+#. When defining a
+#. note in the courseware, the student can choose to associate 1 or more tags
+#. with the note
+#. in order to group similar notes together and help with search.
 #: lms/static/js/edxnotes/views/tabs/tags.js:127
 msgid "Tags"
 msgstr "Balises"
@@ -3323,7 +3293,7 @@ msgid "Unable to submit application"
 msgstr "Incapable de soumettre votre demande"
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:103
-#: lms/static/js/student_account/views/LoginView.js:201
+#: lms/static/js/student_account/views/LoginView.js:195
 msgid "An error has occurred. Check your Internet connection and try again."
 msgstr "Une erreur est survenue. Vérifiez votre connexion internet et réessayez de nouveau."
 
@@ -3579,8 +3549,8 @@ msgstr "Marquer le code d'inscription comme non utilisé"
 
 #: lms/static/js/instructor_dashboard/membership.js:111
 #: lms/static/js/instructor_dashboard/membership.js:116
-#: lms/static/js/student_account/views/account_settings_factory.js:146
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:98
+#: lms/static/js/student_account/views/account_settings_factory.js:149
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:93
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
@@ -3661,6 +3631,7 @@ msgstr "Tous les comptes ont été créés avec succès."
 msgid "Error adding/removing users as beta testers."
 msgstr "Erreur lors de l'ajout/suppression d'utilisateurs en que tant que bêta-testeurs."
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:527
 msgid "These users were successfully added as beta testers:"
 msgstr "Ces utilisateurs ont été ajoutés comme bêta-testeurs avec succès : "
@@ -3671,14 +3642,17 @@ msgid ""
 "not yet activated:"
 msgstr "Ces utilisateurs n'ont pas pu être ajoutés en tant que beta testeurs parce que leurs comptes ne sont pas encore activés :"
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:538
 msgid "These users were successfully removed as beta testers:"
 msgstr "Ces utilisateurs ont été supprimés des bêta-testeurs avec succès : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:550
 msgid "These users were not added as beta testers:"
 msgstr "Ces utilisateurs n'ont pas été ajoutés comme bêta-testeurs : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:562
 msgid "These users were not removed as beta testers:"
 msgstr "Ces utilisateurs n'ont pas pu être supprimés en tant que bêta-testeurs : "
@@ -3713,36 +3687,43 @@ msgstr "Les adresses courriels et/ou noms d'utilisateurs suivants sont invalides
 msgid "Successfully enrolled and sent email to the following users:"
 msgstr "Inscriptions et envoi de courriels réussis pour les utilisateurs suivants : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:761
 msgid "Successfully enrolled the following users:"
 msgstr "Inscription réussie pour les utilisateurs suivants : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:773
 msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "allowed to enroll once they register:"
 msgstr "Envoi de courriels d'inscription réussi pour les utilisateurs suivants. Ils seront autorisés à s'inscrire au cours une fois qu'ils se seront enregistrés sur la plateforme : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:785
 msgid "These users will be allowed to enroll once they register:"
 msgstr "Ces étudiants seront autorisés à s'inscrire une fois qu'il se seront enregistrés  sur la plateforme : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:797
 msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "enrolled once they register:"
 msgstr "Courriels d'inscription envoyés avec succès aux utilisateurs suivants. Ils seront inscrits dès qu'ils se seront enregistrés sur la plateforme : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:809
 msgid "These users will be enrolled once they register:"
 msgstr "Les utilisateurs suivants seront inscrits dès leur enregistrement sur la plate-forme : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:821
 msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
 msgstr "Les courriels ont été envoyés avec succès. Les utilisateurs suivants ont été désinscrits du cours : "
 
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:833
 msgid "The following users are no longer enrolled in the course:"
 msgstr "Les utilisateurs suivants ont été désinscrits du cours : "
@@ -3884,14 +3865,14 @@ msgstr "Erreur dans la réinitialisation des essais pour le problème '<%= probl
 #: lms/static/js/instructor_dashboard/student_admin.js:193
 msgid ""
 "Delete student '<%- student_id %>'s state on problem '<%- problem_id %>'?"
-msgstr "Supprimer l'état de l'étudiant '<%= student_id %>' pour le problème '<%= problem_id %>'?"
+msgstr "Supprimer l'état de l'étudiant '<%- student_id %>' pour le problème '<%- problem_id %>'?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:204
 msgid ""
 "Error deleting student '<%- student_id %>'s state on problem '<%- problem_id"
 " %>'. Make sure that the problem and student identifiers are complete and "
 "correct."
-msgstr "Erreur lors de la suppression de l'état de l'étudiant '<%= student_id %>' pour le problème '<%= problem_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
+msgstr "Erreur lors de la suppression de l'état de l'étudiant '<%- student_id %>' pour le problème '<%- problem_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:215
 msgid "Module state successfully deleted."
@@ -3902,7 +3883,7 @@ msgid ""
 "Error getting task history for problem '<%- problem_id %>' and student '<%- "
 "student_id %>'. Make sure that the problem and student identifiers are "
 "complete and correct."
-msgstr "Erreur dans la récupération de l'historique du problème '<%= problem_id %>' pour l'étudiant '<%= student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
+msgstr "Erreur dans la récupération de l'historique du problème '<%- problem_id %>' pour l'étudiant '<%- student_id %>'. Vérifiez qu'il n'y ait pas d'erreur dans les identifiants du problème et de l'étudiant."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:286
 msgid "Entrance exam attempts is being reset for student '{student_id}'."
@@ -3955,14 +3936,14 @@ msgstr "Réinitialiser les tentatives de tous les étudiants pour le problème '
 msgid ""
 "Successfully started task to reset attempts for problem '<%- problem_id %>'."
 " Click the 'Show Task Status' button to see the status of the task."
-msgstr "Démarrage de la tâche consistant à réinitialiser les tentatives pour le problème '<%= problem_id %>' effectué avec succès. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
+msgstr "Démarrage de la tâche consistant à réinitialiser les tentatives pour le problème '<%- problem_id %>' effectué avec succès. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:425
 msgid ""
 "Error starting a task to reset attempts for all students on problem '<%- "
 "problem_id %>'. Make sure that the problem identifier is complete and "
 "correct."
-msgstr "Erreur dans la réinitialisation des essais de tous les étudiants pour le problème '<%= problem_id %>'. Vérifiez que l'identifiant du problème est complet et correct."
+msgstr "Erreur dans la réinitialisation des essais de tous les étudiants pour le problème '<%- problem_id %>'. Vérifiez que l'identifiant du problème est complet et correct."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:474
 msgid "Error listing task history for this student and problem."
@@ -3973,7 +3954,7 @@ msgid ""
 "Started rescore problem task for problem '<%- problem_id %>' and student "
 "'<%- student_id %>'. Click the 'Show Task Status' button to see the status "
 "of the task."
-msgstr "Le recalcul du score du problème '<%= problem_id %>' de l'étudiant '<%= student_id %>' a commencé. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
+msgstr "Le recalcul du score du problème '<%- problem_id %>' de l'étudiant '<%- student_id %>' a commencé. Cliquez sur le bouton 'Montrer l'état de la tâche' pour voir l'état de la tâche."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:507
 msgid ""
@@ -4015,7 +3996,7 @@ msgstr "Erreur dans le démarrage de la tâche de recalcul du score de l'examen 
 
 #: lms/static/js/instructor_dashboard/student_admin.js:631
 msgid "Rescore problem '<%- problem_id %>' for all students?"
-msgstr "Recalculer le score du problème '<%= problem_id %>' pour tous les étudiants?"
+msgstr "Recalculer le score du problème '<%- problem_id %>' pour tous les étudiants?"
 
 #: lms/static/js/instructor_dashboard/student_admin.js:641
 msgid ""
@@ -4031,63 +4012,54 @@ msgstr "Erreur dans le recalcul des scores du problème '<%- problem_id %>'. Vé
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:63
 msgid "Task Type"
 msgstr "Type de tâche"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:72
 msgid "Task inputs"
 msgstr "Données d'entrées de la tâche"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:81
 msgid "Task ID"
 msgstr "Id de la tâche"
 
 #. Translators: a "Requester" is a username that requested a task such as
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:90
 msgid "Requester"
 msgstr "Demandeur"
 
 #. Translators: A timestamp of when a task (eg, sending email) was submitted
 #. appears after this
-#. */
 #: lms/static/js/instructor_dashboard/util.js:99
 msgid "Submitted"
 msgstr "Soumis"
 
 #. Translators: The length of a task (eg, sending email) in seconds appears
 #. this
-#. */
 #: lms/static/js/instructor_dashboard/util.js:108
 msgid "Duration (sec)"
 msgstr "Durée (sec)"
 
 #. Translators: The state (eg, "In progress") of a task (eg, sending email)
 #. appears after this.
-#. */
 #: lms/static/js/instructor_dashboard/util.js:117
 msgid "State"
 msgstr "État"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:126
 msgid "Task Status"
 msgstr "État de la tâche"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
-#. */
 #: lms/static/js/instructor_dashboard/util.js:135
 msgid "Task Progress"
 msgstr "Progression de la tâche"
@@ -4097,10 +4069,6 @@ msgid ""
 "An error occurred retrieving your email. Please try again later, and contact"
 " technical support if the problem persists."
 msgstr "Une erreur est survenue lors de la récupération de votre courriel. S'il vous plaît réessayez plus tard, et contactez le support technique si le problème persiste."
-
-#: lms/static/js/instructor_dashboard/util.js:199
-msgid "Subject"
-msgstr "Sujet"
 
 #: lms/static/js/instructor_dashboard/util.js:206
 msgid "Sent By"
@@ -4142,45 +4110,45 @@ msgstr "Envoyé à : "
 msgid "Message:"
 msgstr "Message : "
 
-#: lms/static/js/instructor_dashboard/util.js:388
+#: lms/static/js/instructor_dashboard/util.js:398
 msgid "No tasks currently running."
 msgstr "Aucune tâche active en ce moment"
 
-#: lms/static/js/instructor_dashboard/util.js:484
+#: lms/static/js/instructor_dashboard/util.js:500
 msgid "File Name"
 msgstr "Nom du fichier"
 
-#: lms/static/js/instructor_dashboard/util.js:485
+#: lms/static/js/instructor_dashboard/util.js:501
 msgid ""
 "Links are generated on demand and expire within 5 minutes due to the "
 "sensitive nature of student information."
 msgstr "Les liens sont générés sur demande et expirent dans les 5 minutes à cause de la nature sensible des informations concernant l'étudiant."
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:166
+#: lms/static/js/learner_dashboard/models/course_card_model.js:174
 msgid "(Self-paced) Starts {start}"
 msgstr "(À votre rythme) Commence {start}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:167
+#: lms/static/js/learner_dashboard/models/course_card_model.js:175
 msgid "(Self-paced) Started {start}"
 msgstr "(À votre rythme) Commencé {start}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:169
+#: lms/static/js/learner_dashboard/models/course_card_model.js:177
 msgid "(Self-paced) Ends {end}"
 msgstr "(À votre rythme) Termine {end}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:171
+#: lms/static/js/learner_dashboard/models/course_card_model.js:179
 msgid "(Self-paced) Ended {end}"
 msgstr "(À votre rythme) Terminé {end}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:177
+#: lms/static/js/learner_dashboard/models/course_card_model.js:185
 msgid "Starts {start}"
 msgstr "Commence {start}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:178
+#: lms/static/js/learner_dashboard/models/course_card_model.js:186
 msgid "Started {start}"
 msgstr "Commencé {start}"
 
-#: lms/static/js/learner_dashboard/models/course_card_model.js:180
+#: lms/static/js/learner_dashboard/models/course_card_model.js:188
 msgid "Ends {end}"
 msgstr "Termine {end}"
 
@@ -4285,9 +4253,31 @@ msgstr "Changement réussi de la note du problème pour l'utilisateur {user}"
 msgid "Could not override problem score for {user}."
 msgstr "Impossible de changer la note du problème pour l'utilisateur {user}."
 
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
+msgid "Enter and confirm your new password."
+msgstr "Saisir et confirmer votre nouveau mot de passe."
+
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
 msgid "New Password"
 msgstr "Nouveau mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
+msgid "Reset My Password"
+msgstr "Réinitialiser mon mot de passe"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
+#: lms/static/js/student_account/views/account_settings_factory.js:163
+#: lms/static/js/student_account/views/account_settings_factory.js:167
+msgid "Reset Your Password"
+msgstr "Réinitialiser votre mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetInput.jsx:15
 msgid "Error: "
@@ -4322,24 +4312,35 @@ msgid ""
 "{strongStart}Warning: Account deletion is permanent.{strongEnd} Please read "
 "the above carefully before proceeding. This is an irreversible action, and "
 "{strongStart}you will no longer be able to use the same email on "
-"edX.{strongEnd}"
-msgstr "{strongStart}Avertissement : la suppression du compte est permanente. {strongEnd} Veuillez lire attentivement les informations ci-dessus avant de poursuivre. Ceci est une action irréversible et {strongStart}vous ne pourrez plus utiliser la même adresse courriel sur EDUlib.{StrongEnd}"
+"{platformName}.{strongEnd}"
+msgstr "{strongStart}Avertissement : la suppression du compte est permanente. {strongEnd} Veuillez lire attentivement les informations ci-dessus avant de poursuivre. Ceci est une action irréversible et {strongStart}vous ne pourrez plus utiliser la même adresse courriel sur {platformName}.{StrongEnd}"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:85
+msgid ""
+"Please note: Deletion of your account and personal data is permanent and "
+"cannot be undone. {platformName} will not be able to recover your account or"
+" the data that is deleted."
+msgstr "Veuillez noter: La suppression de votre compte et de vos données personnelles est permanente et ne peut être annulée. {platformName} ne pourra pas récupérer votre compte ou les données supprimées."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:92
+msgid ""
+"Once your account is deleted, you cannot use it to take courses on the "
+"{platformName} app, {siteName}, or any other site hosted by {platformName}."
+msgstr "Une fois votre compte supprimé, vous ne pouvez plus l'utiliser pour suivre des cours sur l'application {platformName}, {siteName} ou sur tout autre site hébergé par {platformName}."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:100
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:120
+msgid ""
+"This includes access to {siteName} from your employer’s or university’s "
+"system{additionalSiteSpecificDeletionText}."
+msgstr "Cela inclut l’accès à {siteName} à partir du système de votre employeur ou de votre université {additionalSiteSpecificDeletionText}."
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:109
 msgid "We’re sorry to see you go!"
 msgstr "Nous sommes désolés de vous voir quitter!"
 
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:87
-msgid ""
-"Once your account is deleted, you cannot use it to take courses on the edX "
-"app, edx.org, or any other site hosted by edX. This includes access to "
-"edx.org from your employer’s or university’s system and access to private "
-"sites offered by MIT Open Learning, Wharton Executive Education, and Harvard"
-" Medical School."
-msgstr "Une fois votre compte supprimé, vous ne pouvez pas l'utiliser pour suivre des cours sur l'application EDUlib, edulib.org ou sur tout autre site hébergé par EDUlib. Cela inclut l'accès à edulib.org depuis le système de votre employeur ou de votre université et l'accès à des sites privés offerts par MIT Open Learning, Wharton Executive Education et Harvard Medical School."
-
-#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:104
-#: lms/static/js/student_account/views/account_settings_factory.js:331
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:131
+#: lms/static/js/student_account/views/account_settings_factory.js:334
 msgid "Delete My Account"
 msgstr "Supprimer mon compte"
 
@@ -4365,24 +4366,35 @@ msgstr "Désolé, une erreur s'est produite lors du traitement de votre demande.
 msgid "A Password is required"
 msgstr "Un mot de passe est requis"
 
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:140
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:105
 msgid ""
 "You have selected “Delete my account.” Deletion of your account and personal"
-" data is permanent and cannot be undone. EdX will not be able to recover "
-"your account or the data that is deleted."
-msgstr "Vous avez sélectionné “Supprimer mon compte.” La suppression de votre compte et de vos données personnelles est permanente et ne peut pas être annulée. EDUlib ne pourra pas récupérer votre compte ou les données supprimées."
+" data is permanent and cannot be undone. {platformName} will not be able to "
+"recover your account or the data that is deleted."
+msgstr "Vous avez sélectionné “Supprimer mon compte.” La suppression de votre compte et de vos données personnelles est permanente et ne peut pas être annulée. {platformName} ne pourra pas récupérer votre compte ou les données supprimées."
 
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:149
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:112
+msgid ""
+"If you proceed, you will be unable to use this account to take courses on "
+"the {platformName} app, {siteName}, or any other site hosted by "
+"{platformName}."
+msgstr "Si vous continuez, vous ne pourrez plus utiliser ce compte pour suivre des cours sur l'application {platformName}, {siteName} ou sur tout autre site hébergé par {platformName}."
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:176
 msgid ""
 "If you still wish to continue and delete your account, please enter your "
 "account password:"
 msgstr "Si vous souhaitez continuer et supprimer votre compte, veuillez entrer le mot de passe de votre compte :"
 
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:181
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:194
+msgid "Yes, Delete"
+msgstr "Oui, supprimer"
+
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:208
 msgid "We're sorry to see you go! Your account will be deleted shortly."
 msgstr "Nous sommes désolés de vous voir quitter! Votre compte sera bientôt supprimé."
 
-#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:183
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:210
 msgid ""
 "Account deletion, including removal from email lists, may take a few weeks "
 "to fully process through our system. If you want to opt-out of emails before"
@@ -4417,12 +4429,11 @@ msgstr "Une erreur est survenue."
 #. Translators: This string is appended to optional field labels on the
 #. student login, registration, and
 #. profile forms.
-#. */
 #: lms/static/js/student_account/views/FormView.js:32
 msgid "(optional)"
 msgstr "(optionnel)"
 
-#: lms/static/js/student_account/views/LoginView.js:37
+#: lms/static/js/student_account/views/LoginView.js:36
 msgid "We couldn't sign you in."
 msgstr "Nous n'avons pas pu vous connecter."
 
@@ -4431,28 +4442,32 @@ msgstr "Nous n'avons pas pu vous connecter."
 msgid "An error occurred when signing you in to %s."
 msgstr "Une erreur est survenue lors de votre connexion avec %s."
 
-#: lms/static/js/student_account/views/LoginView.js:153
+#: lms/static/js/student_account/views/LoginView.js:146
 msgid "Check Your Email"
 msgstr "Vérifiez votre courriel"
 
-#: lms/static/js/student_account/views/LoginView.js:155
+#: lms/static/js/student_account/views/LoginView.js:148
 msgid ""
 "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
 "address is associated with your {platform_name} account, we will send a "
-"message with password reset instructions to this email "
+"message with password recovery instructions to this email "
 "address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
-" message, verify that you entered the correct email address, or check your "
-"spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
-"{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
-msgstr "{paragraphStart}Vous avez entré {boldStart}{email}{boldEnd}. Si cette adresse courriel est associée à votre compte {platform_name}, nous vous enverrons un message avec les instructions pour réinitialiser votre mot de passe à cette même adresse courriel.{paragraphEnd}{paragraphStart}Si vous ne recevez pas un courriel de réinitialisation, vérifiez que vous avez entré votre adresse courriel correctement ou vérifiez votre dossier de pourriel.{paragraphEnd}{paragraphStart}Si vous avez besoin d'aide, {anchorStart}contacter le support technique{anchorEnd}.{paragraphEnd}"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr "{paragraphStart}Vous avez entré {boldStart}{email}{boldEnd}. Si cette adresse courriel est associée à votre compte {platform_name}, nous vous enverrons un message avec les instructions pour réinitialiser votre mot de passe à cette adresse courriel.{paragraphEnd} {paragraphStart}Si vous ne recevez pas un courriel de réinitialisation après 1 minute, vérifiez que vous avez entré votre adresse courriel correctement ou vérifiez votre dossier de pourriel. {paragraphEnd}{paragraphStart}Si vous avez besoin d'aide, {anchorStart}contacter le support technique{anchorEnd}.{paragraphEnd}"
 
-#: lms/static/js/student_account/views/LoginView.js:203
+#: lms/static/js/student_account/views/LoginView.js:197
 msgid ""
 "An error has occurred. Try refreshing the page, or check your Internet "
 "connection."
 msgstr "Une erreur est survenue. Essayer de rafraîchir la page, ou vérifier votre connexion Internet."
 
-#: lms/static/js/student_account/views/LoginView.js:235
+#: lms/static/js/student_account/views/LoginView.js:202
+msgid "An unexpected error has occurred."
+msgstr "Une erreur inattendue s'est produite."
+
+#: lms/static/js/student_account/views/LoginView.js:230
 msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account."
@@ -4467,193 +4482,190 @@ msgstr "Nous n'avons pas pu créer votre compte."
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: lms/static/js/student_account/views/RegisterView.js:312
+#: lms/static/js/student_account/views/RegisterView.js:313
 msgid "(required)"
 msgstr "(requis)"
 
-#: lms/static/js/student_account/views/RegisterView.js:477
+#: lms/static/js/student_account/views/RegisterView.js:478
 msgid "You've successfully signed into %(currentProvider)s."
 msgstr "Vous êtes connectés avec succès avec %(currentProvider)s."
 
-#: lms/static/js/student_account/views/RegisterView.js:479
+#: lms/static/js/student_account/views/RegisterView.js:480
 msgid ""
 "We just need a little more information before you start learning with "
 "%(platformName)s."
 msgstr "Nous avons juste besoin d'un peu plus d'informations avant que vous commenciez votre apprentissage avec %(platformName)s."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:52
+#: lms/static/js/student_account/views/account_settings_factory.js:55
 msgid ""
 "Your profile settings are managed by {enterprise_name}. Contact your "
 "administrator or {link_start}edX Support{link_end} for help."
 msgstr "Les paramètres de votre profil sont gérés par {enterprise_name}. Contactez votre administrateur ou le {link_start}Support edX{link_end} pour de l'assistance."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:69
+#: lms/static/js/student_account/views/account_settings_factory.js:72
 msgid "Email Address (Sign In)"
 msgstr "Adresse courriel (Se connecter)"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:72
+#: lms/static/js/student_account/views/account_settings_factory.js:75
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr "Vous recevrez des messages de {platform_name} et des équipes pédagogiques à cette adresse."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:89
-msgid "Secondary Email Address"
-msgstr "Adresse courriel secondaire"
+#: lms/static/js/student_account/views/account_settings_factory.js:92
+msgid "Recovery Email Address"
+msgstr "Adresse courriel de récupération"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:91
-msgid "You may access your account when single-sign on is not available."
-msgstr "Vous pouvez accéder à votre compte lorsque la connexion unique n'est pas disponible."
+#: lms/static/js/student_account/views/account_settings_factory.js:94
+msgid ""
+"You may access your account with this address if single-sign on or access to"
+" your primary email is not available."
+msgstr "Vous pouvez accéder à votre compte avec cette adresse si la connexion unique ou l'accès à votre courrier électronique principal n'est pas disponible."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:97
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:105
+#: lms/static/js/student_account/views/account_settings_factory.js:100
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:100
 msgid "Full Name"
 msgstr "Nom complet"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:99
+#: lms/static/js/student_account/views/account_settings_factory.js:102
 msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
 msgstr "Le nom que vous avez utilisé pour la vérification d'identité et qui apparaît sur vos attestations."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:115
+#: lms/static/js/student_account/views/account_settings_factory.js:118
 msgid "Country or Region of Residence"
 msgstr "Pays ou région de résidence"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:119
+#: lms/static/js/student_account/views/account_settings_factory.js:122
 msgid "The country or region where you live."
 msgstr "Le pays ou la région où vous résidez."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:136
-#: lms/static/js/student_account/views/account_settings_factory.js:347
+#: lms/static/js/student_account/views/account_settings_factory.js:139
+#: lms/static/js/student_account/views/account_settings_factory.js:350
 msgid "Basic Account Information"
 msgstr "Informations générales du compte"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:137
+#: lms/static/js/student_account/views/account_settings_factory.js:140
 msgid "These settings include basic information about your account."
 msgstr "Ces paramètres incluent les informations de base sur votre compte."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:149
+#: lms/static/js/student_account/views/account_settings_factory.js:152
 msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr "Le nom qui vous identifie sur {platform_name}. Vous ne pouvez pas changer votre nom d'utilisateur."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:159
+#: lms/static/js/student_account/views/account_settings_factory.js:162
 msgid "Password"
 msgstr "Mot de passe"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:160
-#: lms/static/js/student_account/views/account_settings_factory.js:164
-msgid "Reset Your Password"
-msgstr "Réinitialiser votre mot de passe"
-
-#: lms/static/js/student_account/views/account_settings_factory.js:166
+#: lms/static/js/student_account/views/account_settings_factory.js:169
 msgid "Check your email account for instructions to reset your password."
 msgstr "Vérifiez vos courriels pour les instructions sur comment réinitialiser votre mot de passe."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:177
+#: lms/static/js/student_account/views/account_settings_factory.js:180
 msgid ""
 "The language used throughout this site. This site is currently available in "
 "a limited number of languages. Changing the value of this field will cause "
 "the page to refresh."
 msgstr "La langue utilisée sur le site. Ce site est actuellement disponible dans un nombre restreint de langues. En changeant la valeur de ce champ, vous rafraîchirez la page."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:190
+#: lms/static/js/student_account/views/account_settings_factory.js:193
 msgid "Time Zone"
 msgstr "Fuseau Horaire"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:192
+#: lms/static/js/student_account/views/account_settings_factory.js:195
 msgid ""
 "Select the time zone for displaying course dates. If you do not specify a "
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr "Choisissez le fuseau horaire pour afficher les dates des cours. Si vous n'indiquez aucun fuseau horaire, les dates des cours, incluant les délais pour les devoirs, seront affichées selon le fuseau horaire local de votre navigateur."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:194
+#: lms/static/js/student_account/views/account_settings_factory.js:197
 msgid "All Time Zones"
 msgstr "Tous les fuseaux horaires"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:196
+#: lms/static/js/student_account/views/account_settings_factory.js:199
 msgid "Default (Local Time Zone)"
 msgstr "Par défaut (Fuseau horaire local)"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:204
+#: lms/static/js/student_account/views/account_settings_factory.js:207
 msgid "Additional Information"
 msgstr "Information additionnelle"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:209
+#: lms/static/js/student_account/views/account_settings_factory.js:212
 msgid "Education Completed"
 msgstr "Niveau de formation"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:218
+#: lms/static/js/student_account/views/account_settings_factory.js:221
 msgid "Gender"
 msgstr "Genre"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:227
+#: lms/static/js/student_account/views/account_settings_factory.js:230
 msgid "Year of Birth"
 msgstr "Année de naissance"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:236
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:148
+#: lms/static/js/student_account/views/account_settings_factory.js:239
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:143
 msgid "Preferred Language"
 msgstr "Langue préférée"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:254
+#: lms/static/js/student_account/views/account_settings_factory.js:257
 msgid ""
 "We've sent a confirmation message to {new_secondary_email_address}. Click "
 "the link in the message to update your secondary email address."
 msgstr "Un message de confirmation a été envoyé à {new_secondary_email_address}. Cliquer le lien dans le message afin de mettre à jour votre adresse courriel secondaire."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:302
+#: lms/static/js/student_account/views/account_settings_factory.js:305
 msgid "Social Media Links"
 msgstr "Liens des médias sociaux"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:303
+#: lms/static/js/student_account/views/account_settings_factory.js:306
 msgid ""
 "Optionally, link your personal accounts to the social media icons on your "
 "edX profile."
 msgstr "Si désiré, liez vos comptes personnels aux icônes des médias sociaux sur votre profil EDUlib."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:313
+#: lms/static/js/student_account/views/account_settings_factory.js:316
 msgid " Link"
 msgstr "Lien"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:316
+#: lms/static/js/student_account/views/account_settings_factory.js:319
 msgid "Enter your "
 msgstr "Entrez votre"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:355
-#: lms/static/js/student_account/views/account_settings_view.js:29
+#: lms/static/js/student_account/views/account_settings_factory.js:358
+#: lms/static/js/student_account/views/account_settings_view.js:43
 msgid "Linked Accounts"
 msgstr "Comptes liés"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:357
+#: lms/static/js/student_account/views/account_settings_factory.js:360
 msgid ""
 "You can link your social media accounts to simplify signing in to "
 "{platform_name}."
 msgstr "Vous pouvez lier vos comptes de médias sociaux afin de simplifier la connexion à {platform_name}."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:379
+#: lms/static/js/student_account/views/account_settings_factory.js:382
 msgid "ORDER NAME"
 msgstr "NOM DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:380
+#: lms/static/js/student_account/views/account_settings_factory.js:383
 msgid "ORDER PLACED"
 msgstr "COMMANDES ENREGISTRÉES"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:381
+#: lms/static/js/student_account/views/account_settings_factory.js:384
 msgid "TOTAL"
 msgstr "TOTAL"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:382
+#: lms/static/js/student_account/views/account_settings_factory.js:385
 msgid "ORDER NUMBER"
 msgstr "NUMÉRO DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:388
+#: lms/static/js/student_account/views/account_settings_factory.js:391
 msgid "My Orders"
 msgstr "Mes Commandes"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:390
+#: lms/static/js/student_account/views/account_settings_factory.js:393
 msgid ""
 "This page contains information about orders that you have placed with "
 "{platform_name}."
@@ -4665,65 +4677,57 @@ msgid ""
 "the message to update your email address."
 msgstr "Un message de confirmation a été envoyé à {new_email_address}. Cliquer le lien dans le message afin de mettre à jour votre adresse courriel."
 
-#: lms/static/js/student_account/views/account_settings_fields.js:72
+#: lms/static/js/student_account/views/account_settings_fields.js:88
 msgid ""
 "You must sign out and sign back in before your language changes take effect."
 msgstr "Vous devez vous déconnecter puis vous connecter à nouveau afin que les paramètres de langue prennent effet."
 
-#: lms/static/js/student_account/views/account_settings_fields.js:193
+#: lms/static/js/student_account/views/account_settings_fields.js:209
 msgid ""
 "We've sent a message to {email}. Click the link in the message to reset your"
 " password. Didn't receive the message? Contact {anchorStart}technical "
 "support{anchorEnd}."
 msgstr "Nous avons envoyé un message à {email}. Cliquez sur le lien dans le message pour réinitialiser votre mot de passe. Vous n'avez pas reçu le message? Contactez le {anchorStart}support technique{anchorEnd}."
 
-#: lms/static/js/student_account/views/account_settings_fields.js:332
+#: lms/static/js/student_account/views/account_settings_fields.js:348
 msgid "Link your {accountName} account"
 msgstr "Liez votre compte {accountName}"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:336
+#: lms/static/js/student_account/views/account_settings_fields.js:352
 msgid "Unlink This Account"
 msgstr "Dissocier votre compte"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:339
+#: lms/static/js/student_account/views/account_settings_fields.js:355
 msgid ""
 "You can use your {accountName} account to sign in to your {platformName} "
 "account."
 msgstr "Vous pouvez utiliser votre compte {accountName} afin de vous connecter à votre compte {platformName}."
 
-#: lms/static/js/student_account/views/account_settings_fields.js:343
+#: lms/static/js/student_account/views/account_settings_fields.js:359
 msgid "Unlink your {accountName} account"
 msgstr "Dissociez votre compte {accountName}"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:347
+#: lms/static/js/student_account/views/account_settings_fields.js:363
 msgid "Link Your Account"
 msgstr "Liez votre compte"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:350
+#: lms/static/js/student_account/views/account_settings_fields.js:366
 msgid ""
 "Link your {accountName} account to your {platformName} account and use "
 "{accountName} to sign in to {platformName}."
 msgstr "Liez votre compte {accountName} à votre compte {platformName} et utilisez {accountName} pour vous connecter à {platformName}."
 
-#: lms/static/js/student_account/views/account_settings_fields.js:407
+#: lms/static/js/student_account/views/account_settings_fields.js:423
 msgid "Unlinking"
 msgstr "Dissocier"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:407
+#: lms/static/js/student_account/views/account_settings_fields.js:423
 msgid "Linking"
 msgstr "Lier"
 
-#: lms/static/js/student_account/views/account_settings_fields.js:411
+#: lms/static/js/student_account/views/account_settings_fields.js:427
 msgid "Successfully unlinked."
 msgstr "Lien dissocié."
-
-#: lms/static/js/student_account/views/account_settings_view.js:20
-msgid "Account Information"
-msgstr "Information du compte"
-
-#: lms/static/js/student_account/views/account_settings_view.js:37
-msgid "Order History"
-msgstr "Historique des commandes"
 
 #: lms/static/js/verify_student/views/image_input_view.js:91
 msgid "Image Upload Error"
@@ -4767,6 +4771,8 @@ msgstr "Payer"
 msgid "Checkout with PayPal"
 msgstr "Payer avec PayPal"
 
+#. Translators: 'processor' is the name of a third-party payment processing
+#. vendor (example: "PayPal")
 #: lms/static/js/verify_student/views/make_payment_step_view.js:70
 msgid "Checkout with {processor}"
 msgstr "Payer avec {processor}"
@@ -4805,37 +4811,37 @@ msgstr "Vérifiez vos informations"
 msgid "An error has occurred. Please try reloading the page."
 msgstr "Une erreur est survenue. Essayez de rafraîchir la page."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:103
+#: lms/static/js/verify_student/views/webcam_photo_view.js:108
 msgid "Video Capture Error"
 msgstr "Erreur de capture vidéo."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:104
+#: lms/static/js/verify_student/views/webcam_photo_view.js:109
 msgid ""
 "Please verify that your webcam is connected and that you have allowed your "
 "browser to access it."
 msgstr "Vérifiez que votre caméra est bien connectée et que votre navigateur est autorisé à l'accéder."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:196
+#: lms/static/js/verify_student/views/webcam_photo_view.js:187
 msgid "No Webcam Detected"
 msgstr "Aucune caméra détectée"
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:197
+#: lms/static/js/verify_student/views/webcam_photo_view.js:188
 msgid "You don't seem to have a webcam connected."
 msgstr "Il semblerait que votre caméra n'est pas connectée."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:198
+#: lms/static/js/verify_student/views/webcam_photo_view.js:189
 msgid "Double-check that your webcam is connected and working to continue."
 msgstr "Vérifiez que votre caméra est bien connectée avant de continuer."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:346
+#: lms/static/js/verify_student/views/webcam_photo_view.js:337
 msgid "Photo Captured successfully."
 msgstr "Photo prise avec succès."
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:387
+#: lms/static/js/verify_student/views/webcam_photo_view.js:378
 msgid "No Flash Detected"
 msgstr "Aucun Flash détecté"
 
-#: lms/static/js/verify_student/views/webcam_photo_view.js:388
+#: lms/static/js/verify_student/views/webcam_photo_view.js:379
 msgid ""
 "You don't seem to have Flash installed. Get Flash to continue your "
 "verification."
@@ -4945,7 +4951,7 @@ msgstr[1] "%(num_questions)s questions"
 msgid "Number of Students"
 msgstr "Nombre d'étudiants"
 
-#: lms/templates/courseware/progress_graph.js:290
+#: lms/templates/courseware/progress_graph.js:292
 msgid "Overall Score"
 msgstr "Note globale"
 
@@ -4965,49 +4971,57 @@ msgstr "Vous avez bien mis à jour votre objectif."
 msgid "There was an error updating your goal."
 msgstr "Une erreur est survenue en mettant à jour votre objectif."
 
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:86
+msgid "Expand All"
+msgstr "Tout développer"
+
+#: openedx/features/course_experience/static/course_experience/js/CourseOutline.js:91
+msgid "Collapse All"
+msgstr "Tout replier"
+
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:67
 msgid "{total_results} result"
 msgid_plural "{total_results} results"
 msgstr[0] "{total_results} résultat"
 msgstr[1] "{total_results} résultats"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:74
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:69
 msgid "Profile Visibility:"
 msgstr "Visibilité du profil :"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:77
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:72
 msgid "Limited Profile"
 msgstr "Profil restreint"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:78
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:73
 msgid "Full Profile"
 msgstr "Profil complet"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:118
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:113
 msgid "Joined"
 msgstr "S'est inscrit"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:121
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:116
 msgid "Joined Date"
 msgstr "Date d'inscription"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:130
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:125
 msgid "Location"
 msgstr "Adresse"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:137
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:132
 msgid "Add Country"
 msgstr "Ajouter un Pays"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:152
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:147
 msgid "Add language"
 msgstr "Ajouter une langue"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:165
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:160
 msgid "About me"
 msgstr "À propos de moi"
 
-#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:167
+#: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:162
 msgid ""
 "Tell other learners a little about yourself: where you live, what your "
 "interests are, why you're taking courses, or what you hope to learn."
