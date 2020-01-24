@@ -2507,7 +2507,7 @@ INSTALLED_APPS = [
     'openedx.core.djangoapps.heartbeat',
 
     # google colab
-    'colab_xblock',
+    #'colab_xblock',
 ]
 
 ######################### CSRF #########################################
