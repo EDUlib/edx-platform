@@ -1123,7 +1123,7 @@ ACCOUNT_MICROFRONTEND_URL = ENV_TOKENS.get('ACCOUNT_MICROFRONTEND_URL', ACCOUNT_
 SYSTEM_WIDE_ROLE_CLASSES = ENV_TOKENS.get('SYSTEM_WIDE_ROLE_CLASSES') or SYSTEM_WIDE_ROLE_CLASSES
 
 ############## Settings for Free Text Response XBlock ##############
-INSTALLED_APPS.append('freetextresponse')
+#####INSTALLED_APPS.append('freetextresponse')
 
 ############################### Plugin Settings ###############################
 
