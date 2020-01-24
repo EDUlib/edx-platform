@@ -934,7 +934,7 @@ MAINTENANCE_BANNER_TEXT = ENV_TOKENS.get('MAINTENANCE_BANNER_TEXT', None)
 DASHBOARD_COURSE_LIMIT = ENV_TOKENS.get('DASHBOARD_COURSE_LIMIT', None)
 
 ############## Settings for Free Text Response XBlock ##############
-INSTALLED_APPS.append('freetextresponse')
+#####INSTALLED_APPS.append('freetextresponse')
 
 ############################### Plugin Settings ###############################
 
