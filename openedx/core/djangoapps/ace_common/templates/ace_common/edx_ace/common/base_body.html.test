@@ -93,6 +93,7 @@
                             <!-- SOCIAL -->
                             <table role="presentation" align="{{ LANGUAGE_BIDI|yesno:"right,left" }}" border="0" border="0" cellpadding="0" cellspacing="0" width="210">
                                 <tr>
+                                    {% if social_media_urls.linkedin %}
                                         <td height="32" width="42">
                                             <a href="{{ social_media_urls.linkedin|safe }}">
                                                 <img src="https://media.sailthru.com/595/1k1/8/o/599f354ec70cb.png"
@@ -107,12 +108,16 @@
                                                      width="32" height="32" alt="{% filter force_escape %}{% blocktrans %}{{ platform_name }} on Twitter{% endblocktrans %}{% endfilter %}"/>
                                             </a>
                                         </td>
+                                    {% endif %}
+                                    {% if social_media_urls.facebook %}
                                         <td height="32" width="42">
-                                            <a href="https://www.facebook.com/EDUlib.org">
+                                            <a href="{{ social_media_urls.facebook|safe }}">
                                                 <img src="https://media.sailthru.com/595/1k1/8/o/599f355052c8e.png"
                                                      width="32" height="32" alt="{% filter force_escape %}{% blocktrans %}{{ platform_name }} on Facebook{% endblocktrans %}{% endfilter %}"/>
                                             </a>
                                         </td>
+                                    {% endif %}
+                                    {% if social_media_urls.google_plus %}
                                         <td height="32" width="42">
                                             <a href="{{ social_media_urls.google_plus|safe }}">
                                                 <img src="https://media.sailthru.com/595/1k1/8/o/599f354fc554a.png"
@@ -127,6 +132,7 @@
                                                      width="32" height="32" alt="{% filter force_escape %}{% blocktrans %}{{ platform_name }} on Reddit{% endblocktrans %}{% endfilter %}"/>
                                             </a>
                                         </td>
+                                    {% endif %}
                                 </tr>
                             </table>
                         </td>
