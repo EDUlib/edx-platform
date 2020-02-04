@@ -268,3 +268,13 @@ msgstr "Nombre de mots invalide. {word_count_message}"
 
 #~ msgid "Please enter your response within this text area"
 #~ msgstr "Veuillez entrer votre réponse dans cette zone de texte"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html:48
+#, python-format, python-brace-format
+msgid "If you need help, please use our email {start_anchor_email}%(support_email)s{end_anchor}."
+msgstr "Si vous avez besoin d'aide, veuillez utiliser notre adresse courriel {start_anchor_email}%(support_email)s{end_anchor}."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt:8
+#, python-format
+msgid "If you need help, please use our email %(support_email)s."
+msgstr "Si vous avez besoin d'aide, veuillez utiliser notre adresse courriel %(support_email)s."
