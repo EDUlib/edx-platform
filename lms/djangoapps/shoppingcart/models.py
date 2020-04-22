@@ -319,7 +319,7 @@ class Order(models.Model):
             registration_codes = CourseRegistrationCode.objects.filter(course_id=course_id, order=self)
             course_names.append(course.display_name)
             for registration_code in registration_codes:
-                #####redemption_url = reverse('register_code_redemption', args=[registration_code.code])
+                redemption_url = reverse('register_code_redemption', args=[registration_code.code])
                 url = '{base_url}{redemption_url}'.format(base_url=site_name, redemption_url=redemption_url)
                 csv_writer.writerow([six.text_type(course.display_name).encode("utf-8"), registration_code.code, url])
 
@@ -1211,12 +1211,6 @@ class CourseRegistrationCode(models.Model):
         """
         return cls.objects.filter(invoice__isnull=False, course_id=course_id)
 
-    # For backwards compatibility, we maintain the FK to "invoice"
-    # In the future, we will remove this in favor of the FK
-    # to "invoice_item" (which can be used to look up the invoice).
-    invoice = models.ForeignKey(Invoice, null=True)
-    invoice_item = models.ForeignKey(CourseRegistrationCodeInvoiceItem, null=True)
-
 
 class RegistrationCodeRedemption(models.Model):
     """
@@ -1876,9 +1870,9 @@ class CertificateItem(OrderItem):
         order_number = target_cert.order_id
         # send billing an email so they can handle refunding
         subject = _("[Refund] User-Requested Refund")
-        message = _(u"User {user} ({user_email}) has requested a refund on Order #{order_number}.").format(user=course_enrollment.user,
-                                                                                                       user_email=course_enrollment.user.email,
-                                                                                                       order_number=order_number)
+        message = u"User {user} ({user_email}) has requested a refund on Order #{order_number}.".format(user=course_enrollment.user,
+                                                                                                        user_email=course_enrollment.user.email,
+                                                                                                        order_number=order_number)
         to_email = [settings.PAYMENT_SUPPORT_EMAIL]
         from_email = configuration_helpers.get_value('payment_support_email', settings.PAYMENT_SUPPORT_EMAIL)
         try:
