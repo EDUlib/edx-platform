@@ -1,0 +1,715 @@
+GITIGNORE
+M	.gitignore
+	nous avons ajouté les fichiers cms/static/js/i18n/ et lms/static/js/i18n/
+
+AWS CONFIGURATION
+A	cms/envs/aws.py.20191021
+	n'existe pas chez edX, gone
+A	cms/envs/aws.py.caliper
+	n'existe pas chez edX, gone
+A	cms/envs/aws.py.ironwood.edulib
+	n'existe pas chez edX, gone
+
+CMS CONFIGURATION
+M	cms/envs/common.py
+	9 différences
+	'DISABLE_COURSE_CREATION': True,
+	'USE_DJANGO_PIPELINE': True,
+	'MILESTONES_APP': True,
+	'ENABLE_PREREQUISITE_COURSES': True,
+	'ENTRANCE_EXAMS': True,
+	'ENABLE_COURSEWARE_INDEX': True,
+	'ENABLE_SPECIAL_EXAMS': True,
+	IDA_LOGOUT_URI_LIST = [] ***** pourrait être enlevé *****
+	CELERY_TIMEZONE, TIME_ZONE and LANGUAGE_CODE
+	DEFAULT_COURSE_LANGUAGE = "fr"
+	serait-il possible de mettre certaines features  dans /edx/etc/lms.yml par exemple?
+M	cms/envs/production.py
+	code superflu à retirer de notre côté, corrigé
+A	cms/envs/production.py.20191021
+	fichier à retirer chez nous, gone
+A	cms/envs/production.py.caliper
+	fichier à retirer chez nousm gone
+
+LOGOS POUR STUDIO
+M	cms/static/images/studio-logo.png
+	version EDUlib
+A	cms/static/images/studio-logo.png.edX
+	version edX
+
+FICHIERS DE LANGUES
+A	cms/static/js/i18n/fr-ca
+	lien symbolique de fr-ca vers fr
+M	cms/static/js/i18n/fr/djangojs.js
+	fichier créé à partir de nos fichiers de traductions
+
+PATCH DE SECURITE
+M	cms/static/js/models/uploads.js
+	patch de sécurité
+A	cms/static/js/models/uploads.js.20200426
+	copie du fichier non patché
+
+M	cms/static/js/views/settings/main.js
+	ajout de institution de notre côté
+
+CURRENCY
+M	common/djangoapps/course_modes/models.py
+	usd devient cad à 3 endroits
+M	common/djangoapps/course_modes/views.py
+	usd devient cad à 1 endroit
+
+XMODULE
+M	common/lib/xmodule/xmodule/capa_base.py
+	2 modifications pour i18n
+M	common/lib/xmodule/xmodule/css/capa/display.scss
+	4 modifications pour l'espacement entre les réponses? ***** voir avec Cédric *****
+A	common/lib/xmodule/xmodule/template_module.py.20190822
+	fichier à retirer de notre côté, gone
+M	common/lib/xmodule/xmodule/templates/problem/circuitschematic.yaml
+	Explanation devient Explication à 2 endroits
+M	common/lib/xmodule/xmodule/templates/problem/customgrader.yaml
+	Explanation devient Explication à 2 endroits
+M	common/lib/xmodule/xmodule/templates/problem/imageresponse.yaml
+	Explanation devient Explication à 1 endroit
+M	common/lib/xmodule/xmodule/templates/problem/latex_problem.yaml
+	Explanation devient Explication à 6 endroits
+
+A	common/static/js/vendor/edxnotes/annotator-full.min.js.20191031
+	fichier à retirer de notre côté, gone
+
+FICHIERS DE LANGUE (À REVOIR)
+D	conf/locale/ar/LC_MESSAGES/django.mo
+	fichier n'existe pas chez nous
+M	conf/locale/ar/LC_MESSAGES/django.po
+	fichier existant chez nous, mais on va le retirer, gone
+D	conf/locale/ar/LC_MESSAGES/djangojs.mo
+	fichier n'existe pas chez nous
+D	conf/locale/ar/LC_MESSAGES/djangojs.po
+	fichier n'existe pas chez nous
+M	conf/locale/config.yaml
+	langues non utilisées chez nous mises en commentaires
+A	conf/locale/fr
+	lien symbolique vers fr_CA
+D	conf/locale/fr/LC_MESSAGES/django.mo
+	fichier n'existe pas chez nous car dans fr_CA
+D	conf/locale/fr/LC_MESSAGES/django.po
+	fichier n'existe pas chez nous car dans fr_CA
+D	conf/locale/fr/LC_MESSAGES/djangojs.mo
+	fichier n'existe pas chez nous car dans fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/analytics-dashboard-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/analytics-dashboard-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/analytics-dashboard.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/analytics-dashboard.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/course_discovery-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/course_discovery-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/course_discovery.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/course_discovery.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/credentials-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/credentials-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/credentials.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/credentials.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django-partial.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django-partial.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django-studio.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django-studio.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/django.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-account-settings-view.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-account-settings-view.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-partial.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-partial.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-studio.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs-studio.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/djangojs.mo
+	fichier ajouté par nous pour fr_CA
+R051	conf/locale/fr/LC_MESSAGES/djangojs.po	conf/locale/fr_CA/LC_MESSAGES/djangojs.po
+	confusion au niveau du lien symbolique, mais ça pointe au bon endroit
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/ecommerce-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/ecommerce-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/ecommerce.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/ecommerce.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-marketing-site-frontend.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-marketing-site-frontend.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-proctoring-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-proctoring-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-proctoring.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx-proctoring.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx_proctoring_proctortrack.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/edx_proctoring_proctortrack.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/local.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/local.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/localjs.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/localjs.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/mako-studio.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/mako-studio.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/mako.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/mako.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/notifier-django.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/notifier-django.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/openassessment-js.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/openassessment-js.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/openassessment.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/openassessment.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/support-messaging.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/support-messaging.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/underscore-studio.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/underscore-studio.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/underscore.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/underscore.po
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/wiki.mo
+	fichier ajouté par nous pour fr_CA
+A	conf/locale/fr_CA/LC_MESSAGES/wiki.po
+	fichier ajouté par nous pour fr_CA
+
+BRANDING
+M	lms/djangoapps/branding/api.py
+	code EDUlib en commentaires qu'on pourrait retirer, done
+	code EDUlib en commentaires qu'on pourrait retirer, done
+	code EDUlib en commentaires qu'on pourrait retirer, done
+
+BULK EMAIL
+M	lms/djangoapps/bulk_email/tasks.py
+	modification from_addr de nos courriels de masse
+
+CERTIFICATES
+M	lms/djangoapps/certificates/queue.py
+	self.use_https à true ou false selon les besoins
+	obtenir le cours du modulestore
+	afficher le nom de cours
+
+DATES
+M	lms/djangoapps/courseware/date_summary.py
+	code EDUlib pour importer strftime_localized et pytz
+	vieux code à nettoyer datant de Hawthorn, done
+	affiche la date en UTC
+A	lms/djangoapps/courseware/date_summary.py.hawthorn
+	fichier à retirer de notre côté, gone
+A	lms/djangoapps/courseware/tests/test_views.py.ironwood
+	fichier à retirer de notre côté, gone
+
+DASHBOARD
+M	lms/djangoapps/dashboard/git_import.py
+	force IP de la base de données vers 10.0.1.165 au lieu de localhost
+M	lms/djangoapps/dashboard/sysadmin.py *****
+	modifications pour utilser git repo, est-ce nécessaire ou juste historique?
+	on le laisse ainsi pour le moment
+
+DISCUSSIONS
+M	lms/djangoapps/discussion/static/discussion/js/views/discussion_board_view.js ***** TRAD *****
+	un problème de traduction 
+M	lms/djangoapps/instructor/settings/common.py
+	ALLOW_AUTOMATED_SIGNUPS à True pour permettre import via CSV
+	est-ce aussi ailleurs? non semble-t-il
+
+LTI PROVIDER
+A	lms/djangoapps/lti_provider/outcomes.py.edulib
+	fichier à retirer de notre côté, gone
+A	lms/djangoapps/lti_provider/outcomes.py.orig.juniper
+	fichier à retirer de notre côté, gone
+
+OLD SHOPPING CART
+M	lms/djangoapps/shoppingcart/models.py
+	usd vs cad à 8 endroits
+M	lms/djangoapps/shoppingcart/processors/CyberSource2.py
+	changement de callback_url
+	changement de langue
+	changement de usd vs cad
+M	lms/djangoapps/shoppingcart/reports.py
+	usd vs cad à un endroit
+M	lms/djangoapps/shoppingcart/views.py
+	code EDUlib pour import de strftime_localized et opaque_keys
+	utilisation de strftime_localized pour order_purchase_date
+
+VERIFY STUDENT
+M	lms/djangoapps/verify_student/models.py
+	changement EDUlib pour ne pas encrypter les photos à valider
+M	lms/djangoapps/verify_student/views.py
+	certaines traces pourraient être nettoyées, done
+A	lms/djangoapps/verify_student/views.py.juniper.orig
+	fichier à retirer de notre côté, gone
+
+AWS CONFIGURATION
+A	lms/envs/aws.py.20191021
+	fichier à retirer de notre côté, gone
+A	lms/envs/aws.py.caliper
+	fichier à retirer de notre côté, gone
+A	lms/envs/aws.py.ironwood.edulib
+	fichier à retirer de notre côté, gone
+
+LMS CONFIGURATION
+M	lms/envs/common.py
+	15 GROSSES DIFFERENCES
+        'ENABLE_SYSADMIN_DASHBOARD': True,
+	'MILESTONES_APP': True,
+	'ENABLE_PREREQUISITE_COURSES': True,
+	'ENABLE_COOKIE_CONSENT': True,
+	CELERY_TIMEZONE, TIME_ZONE, LANGUAGE_CODE
+	('fr-ca', u'Français Canada'),  # French (Canada)
+	PAID_COURSE_REGISTRATION_CURRENCY = ['cad', '$']
+	#####'colab_xblock',
+	#####'BLOG': 'blog', #####'DONATE': 'donate',
+	# "youtube", # "linkedin", # "instagram", # "reddit",
+	'honor_code': 'hidden', 'terms_of_service': 'required',
+	####    'consent': 'hidden',
+	CERT_NAME_SHORT = "attestation", CERT_NAME_LONG = "attestation de reussite"
+	COURSE_CATALOG_VISIBILITY_PERMISSION = 'see_in_catalog'
+	COURSE_ABOUT_VISIBILITY_PERMISSION = 'see_about_page'
+
+M	lms/envs/production.py
+	import de openedx.core.djangoapps.plugins
+	ajout de Twitter pour social auth
+	ajout de freetextresponse comme INSTALLED_APPS
+A	lms/envs/production.py.20191021
+	fichier à retirer de notre côté, gone
+A	lms/envs/production.py.caliper
+	fichier à retirer de notre côté, gone
+
+BULK EMAIL
+A	lms/static/images/bulk_email/edulib_entete.gif
+	fichier ajouté de notre côté 
+A	lms/static/images/bulk_email/edulib_entete.jpg
+	fichier ajouté de notre côté 
+A	lms/static/images/bulk_email/gear.gif
+	fichier ajouté de notre côté 
+
+IMAGES EDULIB THEME
+A	lms/static/images/edulib-theme/edx-background-banner-account.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/edx-logo-77x36.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/ecampusontario.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/hec.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/polymtl.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/umontreal.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/uqac.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/institutions/usherbrooke.png
+	fichier ajouté de notre côté 
+A	lms/static/images/edulib-theme/nuages.jpg
+	fichier ajouté de notre côté 
+
+IMAGES EDULIB vs IMAGES EDX
+M	lms/static/images/favicon.ico
+	version EDUlib
+A	lms/static/images/favicon.ico.edX
+	version edX
+M	lms/static/images/logo-large.png
+	version EDUlib
+A	lms/static/images/logo-large.png.edX
+	version edX
+M	lms/static/images/logo.png
+	version EDUlib
+A	lms/static/images/logo.png.edX
+	version edX
+
+FICHIERS DE LANGUES
+A	lms/static/js/i18n/fr-ca
+	lien symbolique vers fr
+M	lms/static/js/i18n/fr/djangojs.js
+	fichier généré à partir de nos fichiers de traductions
+
+STUDENT ACCOUNT REGISTER
+M	lms/static/js/spec/student_account/register_spec.js
+	placeholder pour le consentement
+A	lms/static/js/spec/student_account/register_spec.js.edulib
+	fichier pouvant être retiré de notre côté, gone
+A	lms/static/js/spec/student_account/register_spec.js.orig.juniper
+	fichier pouvant être retiré de notre côté, gone
+
+VERIFY STUDENT PAYMENT
+M	lms/static/js/spec/verify_student/make_payment_step_view_ab_testing_spec.js
+	usd vs cad à 1 endroit
+M	lms/static/js/spec/verify_student/make_payment_step_view_spec.js
+	usd vs cad à 1 endroit
+M	lms/static/js/student_account/components/StudentAccountDeletionModal.jsx ***** TRAD *****
+	un truc pour les cookies
+	un problème de traduction
+M	lms/static/js/verify_student/views/make_payment_step_view.js
+	usd vs cad à 1 endroit
+
+SCSS
+M	lms/static/sass/multicourse/_account.scss ***** vérifier avec Cédric *****
+	2 changements pour la couleur de LinkedIn
+M	lms/static/sass/partials/lms/theme/_variables-v1.scss ***** vérifier avec Cédric *****
+	1 changement pour la couleur de Twitter
+
+LOGIN REGISTER
+M	lms/static/sass/views/_login-register.scss
+	ajout de Twitter
+	changement pour LinkedIn
+
+RECU PAIEMENT
+M	lms/templates/commerce/receipt.underscore
+	ajout de notre facture avec taxes à l'écran
+
+ORDRE DE COURS EDULIB
+A	lms/templates/course-edulib.html
+	fichier ajouté de notre côté pour fiche de cours pré-catalogue
+M	lms/templates/course.html
+	import de course_image_url pour fiche de cours pré-catalogue
+
+COURSE MODES
+M	lms/templates/course_modes/choose.html
+	ajout verified mode et verified track en CAD?
+	comme il y a une référence de CAD, je préfère le laisser ici pour le moment
+
+PAGE ABOUT EDULIB
+M	lms/templates/courseware/course_about.html *****
+	9 GROSSES DIFFERENCES
+	changements de format de date
+	ajout institutions
+A	lms/templates/courseware/course_about.html.orig.edulib
+	page à retirer de notre côté, gone
+A	lms/templates/courseware/course_about.html.orig.ironwood
+	page à retirer de notre côté, gone
+A	lms/templates/courseware/course_about.html.orig.juniper
+	page à retirer de notre côté, gone
+
+ORDRE DE COURS EDULIB
+M	lms/templates/courseware/courses.html
+	import modulestore and contentstore
+	code modifié pour le tri EDUlib et utilisation de course-edulib.html
+A	lms/templates/courseware/courses.html.20191225
+	fichier à retirer de notre côté, gone
+A	lms/templates/courseware/courses.html.ironwood
+	fichier à retirer de notre côté, gone
+M	lms/templates/courseware/program_marketing.html
+	USD vs CAD à un endroit
+
+DASHBOARD CREDIT
+M	lms/templates/dashboard/_dashboard_credit_info.html
+	code placé différemment, corrigé
+
+ACTIVATION COURRIEL
+A	lms/templates/emails/activation_email.txt
+	n'existe que sur EDUlib
+	on le laisse ici pour le moment, mais est-il vraiment utilisé?
+
+TEMPLATES DE HEADER?
+A	lms/templates/header.html.juniper.edulib
+	n'existe que sur EDUlib, gone
+A	lms/templates/header/header.html.juniper.edulib
+	n'existe que sur EDUlib, gone
+
+INDEX EDULIB ET REDIRECTION VERS CATALOGUE
+M	lms/templates/index.html
+	import de modulestore
+	remplacement <%include file="index_overlay.html" />
+	ajout bouton de redirection vers le catalogue
+        remplacement <%include file="${courses_list}" />
+A	lms/templates/index.html.20190929
+	n'existe que sur EDUlib, gone
+A	lms/templates/index.html.alb
+	n'existe que sur EDUlib, gone
+A	lms/templates/index.html.juniper.edulib
+	n'existe que sur EDUlib, gone
+A	lms/templates/index.html.orig.juniper
+	n'existe que sur EDUlib, gone
+
+TEMPLATES INSTRUCTOR
+A	lms/templates/instructor/edx_ace/enrollenrolled/email/body.html.orig.ironwood
+	n'existe que sur EDUlib, gone
+M	lms/templates/instructor/instructor_dashboard_2/certificate-white-list-editor.underscore ***** TRAD *****
+	probleme indentation, traduction?
+M	lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+	<legend>Certificate exceptions group selection</legend> pas chez EDUlib
+
+TEMPLATE SIGNUP
+M	lms/templates/signup_modal.html ***** à verifier avec Cédric *****
+	2 from ajoutés pour je ne sais quelle raison
+	1 ligne blanche
+        modifications TOS et Honor Code *****
+
+STATIC TEMPLATES ***** à verifier avec Cédric *****
+M	lms/templates/static_templates/404.html
+	0 différence
+M	lms/templates/static_templates/about.html
+	support bilingue pour fr et en
+M	lms/templates/static_templates/blog.html
+	0 différence
+M	lms/templates/static_templates/contact.html
+	support bilingue pour fr et en
+A	lms/templates/static_templates/courses.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/courses.html.20191225
+	vieille version qui pourrait disparaître, gone
+M	lms/templates/static_templates/donate.html
+	0 différence
+A	lms/templates/static_templates/ecampusontario.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/ecampusontario.html.20191225
+	vieille version qui pourrait disparaître, gone
+M	lms/templates/static_templates/embargo.html
+	0 différence
+M	lms/templates/static_templates/faq.html
+	support bilingue pour fr et en
+A	lms/templates/static_templates/hec.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/hec.html.20191225
+	vieille version qui pourrait disparaître, gone
+M	lms/templates/static_templates/help.html
+	0 différence
+M	lms/templates/static_templates/honor.html
+	support bilingue pour fr et en
+A	lms/templates/static_templates/institutions.html
+	fichier uniquement de notre côté
+M	lms/templates/static_templates/jobs.html
+	0 différence
+M	lms/templates/static_templates/media-kit.html
+	0 différence
+M	lms/templates/static_templates/news.html
+	support bilingue pour fr et en
+	redirection vers notre blogspot
+A	lms/templates/static_templates/polymtl.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/polymtl.html.20191225
+	vieille version qui pourrait disparaître, gone
+M	lms/templates/static_templates/press.html
+	0 différence
+M	lms/templates/static_templates/privacy.html
+	support bilingue pour fr et en
+M	lms/templates/static_templates/server-down.html
+	0 difference
+M	lms/templates/static_templates/server-error.html
+	remplacement de la page par notre page
+M	lms/templates/static_templates/server-overloaded.html
+	0 difference
+M	lms/templates/static_templates/sitemap.xml
+	0 difference
+M	lms/templates/static_templates/tos.html
+	support bilingue pour fr et en
+A	lms/templates/static_templates/tous.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/tous.html.20191225
+	vieille version qui pourrait disparaître, gone
+A	lms/templates/static_templates/umontreal.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/umontreal.html.20191225
+	vieille version qui pourrait disparaître, gone
+A	lms/templates/static_templates/uqac.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/uqac.html.20191225
+	vieille version qui pourrait disparaître, gone
+A	lms/templates/static_templates/usherbrooke.html
+	fichier uniquement de notre côté
+A	lms/templates/static_templates/usherbrooke.html.20191225
+	vieille version qui pourrait disparaître, gone
+A	lms/templates/static_templates/what_is_verified_cert.html
+	fichier uniquement de notre côté, liens dans vieilles attestations
+
+LOGIN
+M	lms/templates/student_account/login.underscore ***** TRAD *****
+	Sign in vs Sign In
+
+VERIFY STUDENT
+M	lms/templates/verify_student/make_payment_step.underscore
+	USD vs CAD à 1 endroit
+M	lms/templates/verify_student/make_payment_step_ab_testing.underscore
+	USD vs CAD à 1 endroit
+M	lms/templates/verify_student/payment_confirmation_step.underscore
+	ajout de nos taxes
+
+COOKIE CONSENT
+M	lms/templates/widgets/cookie-consent.html
+	changement de href pour EDUlib
+
+TEMPLATES COURRIELS
+A	openedx/core/djangoapps/ace_common/template_context.py.ironwood.prod
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/template_context.py.ironwood.test
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/template_context.py.orig.ironwood
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/template_context.py.orig.juniper
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/template_context.pyc.orig.ironwood
+	fichier uniquement de notre côté, gone
+M	openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
+	changements forcés vers notre site et notre adresse postale
+A	openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html.orig.juniper
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html.prod
+	gabarit selon le contexte de l'environnement
+A	openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html.test
+	gabarit selon le contexte de l'environnement
+
+THEMING
+M	openedx/core/djangoapps/theming/helpers.py
+	traces à retirer? done
+
+SERIALIZERS
+A	openedx/core/djangoapps/user_api/accounts/serializers.py.20190818
+	fichier à retirer de notre côté, gone
+
+USER AUTHENTICATION COOKIES?
+M	openedx/core/djangoapps/user_authn/cookies.py
+	test modifié chez nous, remis comme edX, done
+	code Ironwood à retirer, done
+	code uniquement de notre côté, inutile car on a remis comme edX, done
+M	openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
+	modification locale EDUlib
+M	openedx/core/djangoapps/user_authn/tests/test_cookies.py
+	code différent de notre côté, on remet comme edX? done
+	surtout que c'est dans les tests
+
+NOUVEAU LOGOUT VERS CATALOGUE
+M	openedx/core/djangoapps/user_authn/views/logout.py
+	redirection vers le catalogue?
+	retire du code Ironwood, done
+	remet comme edX, done
+A	openedx/core/djangoapps/user_authn/views/logout.py.20190926
+	fichier à retirer de notre côté, gone
+A	openedx/core/djangoapps/user_authn/views/logout.py.alb
+	fichier à retirer de notre côté, gone
+M	openedx/core/djangoapps/user_authn/views/tests/test_login.py
+	code différent de notre côté, on remet comme edX? done
+        surtout que c'est dans les tests
+A	openedx/core/djangoapps/user_authn/views/tests/test_login_registration_forms.py
+	fichier qui n'existe que de notre côté, gone
+M	openedx/core/djangoapps/user_authn/views/tests/test_logout.py
+	code en commentaire de notre côté, on remet comme edX? done
+
+RELEASE
+M	openedx/core/release.py
+	master devient juniper
+
+FEATURES
+M	openedx/features/course_search/static/course_search/js/views/search_results_view.js ***** TRAD ****
+	result devient résultat et results devient résultats (traduction issue)
+M	openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
+	je ne vois pas la différence, mais elle est là...
+
+CALIPER
+A	requirements/edx/base.in.20191021
+	fichier à enlever, gone
+A	requirements/edx/base.in.caliper
+	fichier à enlever, gone
+A	requirements/edx/base.txt.20191021
+	fichier à enlever, gone
+A	requirements/edx/base.txt.caliper
+	fichier à enlever, gone
+
+JENKINS FILES
+M	scripts/Jenkinsfiles/bokchoy
+	deux références à ironwood à enlever de notre côté
+A	scripts/Jenkinsfiles/lettuce
+	fichier à enlever, gone
+M	scripts/Jenkinsfiles/python
+	quatre références à ironwood à enlever de notre côté
+M	scripts/Jenkinsfiles/quality
+	quatre références à ironwood à enlever de notre côté
+
+THÈME EDULIB ***** À REVOIR AVEC CÉDRIC *****
+A	themes/edulib-theme/cms/static/images/studio-logo.png
+A	themes/edulib-theme/cms/static/sass/partials/cms/theme/_variables.scss
+A	themes/edulib-theme/cms/templates/widgets/sock.html
+A	themes/edulib-theme/lms/static/course_experience/images/home_message_author.png
+A	themes/edulib-theme/lms/static/images/certificates/honor.png
+A	themes/edulib-theme/lms/static/images/certificates/micromasters-program.png
+A	themes/edulib-theme/lms/static/images/certificates/professional-program.png
+A	themes/edulib-theme/lms/static/images/certificates/professional.png
+A	themes/edulib-theme/lms/static/images/certificates/verified.png
+A	themes/edulib-theme/lms/static/images/edx-favicon.ico
+A	themes/edulib-theme/lms/static/images/edx-logo-footer.png
+A	themes/edulib-theme/lms/static/images/edx-logo-large.png
+A	themes/edulib-theme/lms/static/images/edx-logo.png
+A	themes/edulib-theme/lms/static/images/favicon.ico
+A	themes/edulib-theme/lms/static/images/logo-footer.png
+A	themes/edulib-theme/lms/static/images/logo-large.png
+A	themes/edulib-theme/lms/static/images/logo.png
+A	themes/edulib-theme/lms/static/images/nuages.jpg
+A	themes/edulib-theme/lms/static/images/profiles/default_120.png
+A	themes/edulib-theme/lms/static/images/profiles/default_30.png
+A	themes/edulib-theme/lms/static/images/profiles/default_50.png
+A	themes/edulib-theme/lms/static/images/profiles/default_500.png
+A	themes/edulib-theme/lms/static/sass/partials/lms/theme/_certificates.scss
+A	themes/edulib-theme/lms/static/sass/partials/lms/theme/_extras.scss
+A	themes/edulib-theme/lms/static/sass/partials/lms/theme/_variables.scss
+A	themes/edulib-theme/lms/templates/certificates/_about-accomplishments.html
+A	themes/edulib-theme/lms/templates/certificates/_about-edx.html
+A	themes/edulib-theme/lms/templates/certificates/_accomplishment-banner.html
+A	themes/edulib-theme/lms/templates/certificates/_accomplishment-footer.html
+A	themes/edulib-theme/lms/templates/course_modes/choose.html
+A	themes/edulib-theme/lms/templates/course_modes/choose.html.20191225
+A	themes/edulib-theme/lms/templates/dashboard.html
+A	themes/edulib-theme/lms/templates/dashboard.html.20191225
+A	themes/edulib-theme/lms/templates/dashboard/_dashboard_entitlement_unenrollment_modal.html
+A	themes/edulib-theme/lms/templates/footer.html
+A	themes/edulib-theme/lms/templates/header.html
+A	themes/edulib-theme/lms/templates/header.html.orig.edulib
+A	themes/edulib-theme/lms/templates/header.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/brand.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/header.html
+A	themes/edulib-theme/lms/templates/header/header.html.orig.edulib
+A	themes/edulib-theme/lms/templates/header/header.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/navbar-authenticated.html
+A	themes/edulib-theme/lms/templates/header/navbar-authenticated.html.orig.edulib
+A	themes/edulib-theme/lms/templates/header/navbar-authenticated.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/navbar-logo-header.html
+A	themes/edulib-theme/lms/templates/header/navbar-logo-header.html.orig.edulib
+A	themes/edulib-theme/lms/templates/header/navbar-logo-header.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/navbar-not-authenticated.html
+A	themes/edulib-theme/lms/templates/header/navbar-not-authenticated.html.orig.edulib
+A	themes/edulib-theme/lms/templates/header/navbar-not-authenticated.html.orig.juniper
+A	themes/edulib-theme/lms/templates/header/user_dropdown.html.orig.juniper
