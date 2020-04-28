@@ -287,7 +287,7 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
         logout_url = reverse('logout')
         with patch('student.models.AUDIT_LOG') as mock_audit_log:
             response = self.client.post(logout_url)
-        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 200)
         self._assert_audit_log(mock_audit_log, 'info', [u'Logout', u'test'])
 
     def test_login_user_info_cookie(self):
@@ -335,7 +335,10 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
         self._assert_response(response, success=True)
 
         response = self.client.post(reverse('logout'))
-        self.assertRedirects(response, "/")
+        expected = {
+            'target': '/',
+        }
+        self.assertDictContainsSubset(expected, response.context_data)
 
     @patch.dict("django.conf.settings.FEATURES", {'SQUELCH_PII_IN_LOGS': True})
     def test_logout_logging_no_pii(self):
@@ -344,7 +347,7 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
         logout_url = reverse('logout')
         with patch('student.models.AUDIT_LOG') as mock_audit_log:
             response = self.client.post(logout_url)
-        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 200)
         self._assert_audit_log(mock_audit_log, 'info', [u'Logout'])
         self._assert_not_in_audit_log(mock_audit_log, 'info', [u'test'])
 
@@ -415,7 +418,7 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
             url = reverse('upload_transcripts')
         response = client1.get(url)
         # client1 will be logged out
-        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 200)
 
     @patch.dict("django.conf.settings.FEATURES", {'PREVENT_CONCURRENT_LOGINS': True})
     def test_single_session_with_no_user_profile(self):
