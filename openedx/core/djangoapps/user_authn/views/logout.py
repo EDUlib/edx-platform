@@ -37,16 +37,6 @@ class LogoutView(TemplateView):
         TODO: remove GET as an allowed method, and update all callers to use POST.
         """
         return self.get(request, *args, **kwargs)
-    #default_target = reverse_lazy('cas-logout') if settings.FEATURES.get('AUTH_USE_CAS') else '/'
-    #default_target = reverse_lazy('cas-logout') if settings.FEATURES.get('AUTH_USE_CAS') else 'https://test-catalogue.edulib.org/'
-
-    def post(self, request, *args, **kwargs):
-        """
-        Proxy to the GET handler.
-
-        TODO: remove GET as an allowed method, and update all callers to use POST.
-        """
-        return self.get(request, *args, **kwargs)
 
     @property
     def target(self):
@@ -87,13 +77,6 @@ class LogoutView(TemplateView):
         logout(request)
 
         response = super(LogoutView, self).dispatch(request, *args, **kwargs)
-##### Code Ironwood #####
-#        # If we are using studio logout directly and there is not OIDC logouts we can just redirect the user
-#        if settings.FEATURES.get('DISABLE_STUDIO_SSO_OVER_LMS', False) and not self.oauth_client_ids:
-#            response = redirect(self.target)
-#        else:
-#            response = super(LogoutView, self).dispatch(request, *args, **kwargs)
-##### Code Ironwood #####
 
         # Clear the cookie used by the edx.org marketing site
         delete_logged_in_cookies(response)
