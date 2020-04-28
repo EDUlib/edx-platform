@@ -298,7 +298,6 @@ class PayAndVerifyView(View):
             )
             raise Http404
 
-        #####log.info("TRACE PIERRE ----> JUSTE AVANT TRYING TO PAY")
         # If the user is trying to *pay* and the upgrade deadline has passed,
         # then they shouldn't be able to enter the flow.
         #
@@ -314,7 +313,6 @@ class PayAndVerifyView(View):
                 log.info(u"Upgrade deadline for '%s' has passed.", course.id)
                 return response
 
-        #####log.info("TRACE PIERRE ----> JUSTE AVANT ALREADY VERIFIED")
         # Check whether the user has verified, paid, and enrolled.
         # A user is considered "paid" if he or she has an enrollment
         # with a paid course mode (such as "verified").
@@ -328,7 +326,6 @@ class PayAndVerifyView(View):
         )
         already_paid, is_enrolled = self._check_enrollment(request.user, course_key)
 
-        #####log.info("TRACE PIERRE ----> JUSTE AVANT PURCHASE WORKFLOW")
         # Redirect the user to a more appropriate page if the
         # messaging won't make sense based on the user's
         # enrollment / payment / verification status.
@@ -429,7 +426,6 @@ class PayAndVerifyView(View):
             'is_ab_testing': 'begin-flow' in request.path,
         }
 
-        #####log.info("TRACE PIERRE ----> JUSTE AVANT LE RENDERING")
         return render_to_response("verify_student/pay_and_verify.html", context)
 
     def add_utm_params_to_url(self, url):
