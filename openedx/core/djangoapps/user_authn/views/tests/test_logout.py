@@ -12,10 +12,6 @@ from django.conf import settings
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.urls import reverse
-####from mock import patch
-####from edx_oauth2_provider.constants import AUTHORIZED_CLIENTS_SESSION_KEY
-####from edx_oauth2_provider.tests.factories import ClientFactory, TrustedClientFactory
-####from mock import patch
 
 from openedx.core.djangoapps.oauth_dispatch.tests.factories import ApplicationFactory
 from common.djangoapps.student.tests.factories import UserFactory
