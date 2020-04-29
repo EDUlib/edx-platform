@@ -245,8 +245,7 @@ def _footer_connect_links(language=settings.LANGUAGE_CODE):
     """Return the connect links to display in the footer. """
     links = [
         ("blog", (marketing_link("BLOG"), _("Blog"))),
-        #("contact", (_build_support_form_url(full_path=True), _("Contact Us"))),
-        ("contact", (marketing_link("CONTACT"), _("Contact Us"))),
+        ("contact", (_build_support_form_url(full_path=True), _("Contact Us"))),
         ("help-center", (_build_help_center_url(language), _("Help Center"))),
     ]
 
@@ -496,7 +495,7 @@ def _absolute_url(is_secure, url_path):
     """
     site_name = configuration_helpers.get_value('SITE_NAME', settings.SITE_NAME)
     parts = ("https" if is_secure else "http", site_name, url_path, '', '', '')
-    return six.moves.urllib.parse.urlunparse(parts)
+    return six.moves.urllib.parse.urlunparse(parts)  # pylint: disable=too-many-function-args
 
 
 def _absolute_url_staticfile(is_secure, name):
