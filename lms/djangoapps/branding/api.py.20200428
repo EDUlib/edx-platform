@@ -245,8 +245,7 @@ def _footer_connect_links(language=settings.LANGUAGE_CODE):
     """Return the connect links to display in the footer. """
     links = [
         ("blog", (marketing_link("BLOG"), _("Blog"))),
-        #("contact", (_build_support_form_url(full_path=True), _("Contact Us"))),
-        ("contact", (marketing_link("CONTACT"), _("Contact Us"))),
+        ("contact", (_build_support_form_url(full_path=True), _("Contact Us"))),
         ("help-center", (_build_help_center_url(language), _("Help Center"))),
     ]
 
