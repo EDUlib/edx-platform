@@ -172,17 +172,13 @@ def sign_and_send_replace_result(assignment, xml):
     )
 
     headers = {'content-type': 'application/xml'}
-    request = requests.Request(
-        'POST',
+    response = requests.post(
         assignment.outcome_service.lis_outcome_service_url,
         data=xml,
         auth=oauth,
         headers=headers
-    ).prepare()
-    print(request.headers)
-    if b'Content-Length'  in request.headers and 'Content-Length' in request.headers:
-        del request.headers[b'Content-Length']
-    response = requests.Session().send(request)
+    )
+
     return response
 
 
