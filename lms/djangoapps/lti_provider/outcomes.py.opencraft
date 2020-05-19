@@ -168,18 +168,21 @@ def sign_and_send_replace_result(assignment, xml):
         consumer_key,
         consumer_secret,
         signature_method='HMAC-SHA1',
-        force_include_body=True,
-        decoding=None,
+        force_include_body=True
     )
 
     headers = {'content-type': 'application/xml'}
-    response = requests.post(
+    request = requests.Request(
+        'POST',
         assignment.outcome_service.lis_outcome_service_url,
         data=xml,
         auth=oauth,
         headers=headers
-    )
-
+    ).prepare()
+    print(request.headers)
+    if b'Content-Length'  in request.headers and 'Content-Length' in request.headers:
+        del request.headers[b'Content-Length']
+    response = requests.Session().send(request)
     return response
 
 
