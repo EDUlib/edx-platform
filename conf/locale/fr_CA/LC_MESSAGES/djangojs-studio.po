@@ -10,6 +10,7 @@
 # Bertrand Marron <bertrand.marron@gmail.com>, 2014
 # Christopher Castermane <christopher.castermane@student.uclouvain.be>, 2014
 # Daniel Le Berre, 2014-2015
+# David Truong <david.truong@edulib.org>, 2020
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
 # Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
 # Eric Fortin, 2014,2016
@@ -55,8 +56,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-01-19 20:42+0000\n"
-"PO-Revision-Date: 2020-01-15 19:13+0000\n"
+"POT-Creation-Date: 2020-05-17 20:42+0000\n"
+"PO-Revision-Date: 2020-05-12 20:36+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +68,7 @@ msgstr ""
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:35
-#: cms/static/js/views/video_transcripts.js:32
+#: cms/static/js/views/video_transcripts.js:33
 msgid ""
 "This may be happening because of an error with our server or your internet "
 "connection. Try refreshing the page or making sure you are online."
@@ -431,9 +432,9 @@ msgstr "Tous vos chapitres doivent avoir un nom et un asset"
 
 #: cms/static/js/models/uploads.js:17
 msgid ""
-"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
-"<%= fileExtensions %> to upload."
-msgstr "Seuls les fichiers de type <%= fileTypes %> peuvent être envoyés. Merci de sélectionner un fichier se terminant par <%= fileExtensions %> pour l'envoyer."
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
+msgstr "Seul les fichiers <%- fileTypes %>  peuvent être téléversés. Veuillez choisir un fichier finissant par <%- (fileExtensions) %> pour le téléversement."
 
 #: cms/static/js/models/uploads.js:63
 msgid "or"
@@ -603,8 +604,8 @@ msgid "{selectedProvider} credentials saved"
 msgstr "{selectedProvider} identifiants sauvegardés"
 
 #: cms/static/js/views/edit_chapter.js:62
-msgid "Upload a new PDF to “<%= name %>”"
-msgstr "Téléverser un nouveau PDF appelé \"<%= name %>”"
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr "Téléverser un nouveau PDF vers “<%- name %>”"
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -1063,11 +1064,11 @@ msgstr "Ajouter votre premier groupe de contenu"
 msgid "You have not created any content groups yet."
 msgstr "Vous n'avez pas encore créé de groupes de contenu."
 
-#: cms/static/js/views/previous_video_upload.js:68
+#: cms/static/js/views/previous_video_upload.js:76
 msgid "Are you sure you want to remove this video from the list?"
 msgstr "Êtes-vous certain de vouloir supprimer ce vidéo de la liste?"
 
-#: cms/static/js/views/previous_video_upload.js:69
+#: cms/static/js/views/previous_video_upload.js:77
 msgid ""
 "Removing a video from this list does not affect course content. Any content "
 "that uses a previously uploaded video ID continues to display in the course."
@@ -1291,7 +1292,7 @@ msgid ""
 msgstr "Désolé, une erreur s'est produite lors de l'analyse des sous-titres. Vérifiez le format et réessayez."
 
 #: cms/static/js/views/video/translations_editor.js:168
-#: cms/static/js/views/video_transcripts.js:267
+#: cms/static/js/views/video_transcripts.js:268
 msgid "Are you sure you want to remove this transcript?"
 msgstr "Êtes-vous sûr de vouloir supprimer cette transcription?"
 
@@ -1420,29 +1421,29 @@ msgstr "Impossible de téléverser le fichier image de la vidéo"
 msgid "Image upload failed. "
 msgstr "Échec du téléversement de l'image."
 
-#: cms/static/js/views/video_transcripts.js:31
+#: cms/static/js/views/video_transcripts.js:32
 msgid "The file could not be uploaded."
 msgstr "Le fichier n'a pu être téléchargé."
 
-#: cms/static/js/views/video_transcripts.js:129
+#: cms/static/js/views/video_transcripts.js:130
 msgid "Hide transcripts ({transcriptCount})"
 msgstr "Cacher les transcriptions ({transcriptCount})"
 
-#: cms/static/js/views/video_transcripts.js:148
+#: cms/static/js/views/video_transcripts.js:149
 msgid "Show transcripts ({transcriptCount})"
 msgstr "Afficher les transcriptions ({transcriptCount})"
 
-#: cms/static/js/views/video_transcripts.js:166
+#: cms/static/js/views/video_transcripts.js:167
 msgid ""
 "This file type is not supported. Supported file type is "
 "{supportedFileFormat}."
 msgstr "Ce type de fichier n'est pas supporté. Le format de fichier supporté est {supportedFileFormat}."
 
-#: cms/static/js/views/video_transcripts.js:227
+#: cms/static/js/views/video_transcripts.js:228
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
-#: cms/static/js/views/video_transcripts.js:268
+#: cms/static/js/views/video_transcripts.js:269
 msgid ""
 "If you remove this transcript, the transcript will not be available for any "
 "components that use this video."
