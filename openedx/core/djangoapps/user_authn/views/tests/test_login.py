@@ -418,7 +418,7 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
             url = reverse('upload_transcripts')
         response = client1.get(url)
         # client1 will be logged out
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 302)
 
     @patch.dict("django.conf.settings.FEATURES", {'PREVENT_CONCURRENT_LOGINS': True})
     def test_single_session_with_no_user_profile(self):
@@ -486,7 +486,7 @@ class LoginTest(SiteMixin, CacheIsolationTestCase):
         url = reverse('logout')
 
         response = client1.get(url)
-        self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 200)
 
     @override_settings(PASSWORD_POLICY_COMPLIANCE_ROLLOUT_CONFIG={'ENFORCE_COMPLIANCE_ON_LOGIN': True})
     def test_check_password_policy_compliance(self):
