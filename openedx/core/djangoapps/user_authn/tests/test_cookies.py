@@ -115,6 +115,7 @@ class CookieTests(TestCase):
         self._assert_consistent_expires(response, num_of_unique_expires=2)
         self._assert_recreate_jwt_from_cookies(response, can_recreate=True)
 
+    @patch.dict("django.conf.settings.FEATURES", {"DISABLE_SET_JWT_COOKIES_FOR_TESTS": False})
     def test_delete_and_are_logged_in_cookies_set(self):
         setup_login_oauth_client()
         response = cookies_api.set_logged_in_cookies(self.request, HttpResponse(), self.user)
