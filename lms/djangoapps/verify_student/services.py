@@ -208,12 +208,11 @@ class IDVerificationService(object):
                 user_status['verification_expiry'] = attempt.expiration_datetime.date().strftime("%m/%d/%Y")
             user_status['status_date'] = attempt.status_changed
 
-        elif attempt.status in ["ready", 'submitted', 'approved', 'must_retry']:
+        elif attempt.status in ['submitted', 'approved', 'must_retry']:
             # user_has_valid_or_pending does include 'approved', but if we are
             # here, we know that the attempt is still pending
             user_status['status'] = 'pending'
 
-        log.info("user_status is %s", user_status['status'])
         return user_status
 
     @classmethod
