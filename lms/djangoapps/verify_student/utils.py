@@ -21,16 +21,23 @@ def submit_request_to_ss(user_verification, copy_id_photo_from):
 
     Submits the task to software secure and If the task creation fails,
     set the verification status to "must_retry".
+
+    Because EDUlib does not call Software Secure, we intercept the call.
+    We then force the verificaiton status to "submitted" so that our manual
+    verification scripts would still work.
+
+    Uncertain if this would work for the validation after one year. TBD.
     """
-    try:
-        send_request_to_ss_for_user.delay(
-            user_verification_id=user_verification.id, copy_id_photo_from=copy_id_photo_from
-        )
-    except Exception as error:
-        log.error(
-            "Software Secure submit request %r failed, result: %s", user_verification.user.username, text_type(error)
-        )
-        user_verification.mark_must_retry()
+    #try:
+    #    send_request_to_ss_for_user.delay(
+    #        user_verification_id=user_verification.id, copy_id_photo_from=copy_id_photo_from
+    #    )
+    #except Exception as error:
+    #    log.error(
+    #        "Software Secure submit request %r failed, result: %s", user_verification.user.username, text_type(error)
+    #    )
+    #    user_verification.mark_must_retry()
+    user_verification.mark_submit()
 
 
 def is_verification_expiring_soon(expiration_datetime):
