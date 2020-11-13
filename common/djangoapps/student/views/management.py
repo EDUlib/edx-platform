@@ -193,11 +193,6 @@ def compose_activation_email(root_url, user, user_registration=None, route_enabl
         user_context=message_context,
     )
 
-    #####thisuserpreflang = preferences_api.get_user_preference(user, LANGUAGE_KEY)
-    #####log.info("TRACE PIERRE: USER NAME is %s", user.username)
-    #####log.info("TRACE PIERRE: LANGUAGE_KEY is %s", LANGUAGE_KEY)
-    #####log.info("TRACE PIERRE: LANGUAGE PREF is %s", thisuserpreflang)
-
     return msg
 
 
