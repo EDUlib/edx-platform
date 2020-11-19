@@ -12,7 +12,7 @@
 # Daniel Le Berre, 2014-2015
 # David Truong <david.truong@edulib.org>, 2020
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # Françoise Docq, 2014
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -32,6 +32,7 @@
 # Olivier Marquez <oliviermarquez@gmail.com>, 2013,2015
 # pacha <patrick.chau@wanadoo.fr>, 2015
 # Philippe Chiu <philippe.chiu@gmail.com>, 2013
+# Pierre-André Mudry <pmudry@gmail.com>, 2020
 # Pierre-Emmanuel Colas <transiflex@atnock.fr>, 2015
 # Pierre Mailhot <pierre.mailhot@gmail.com>, 2016-2020
 # Pierre Roland Bonvin <pierre@bonvin.name>, 2016
@@ -57,8 +58,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-17 20:42+0000\n"
-"PO-Revision-Date: 2020-05-23 03:10+0000\n"
+"POT-Creation-Date: 2020-11-15 20:43+0000\n"
+"PO-Revision-Date: 2020-11-04 22:35+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -67,24 +68,34 @@ msgstr ""
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: cms/static/cms/js/main.js:38
+#: cms/static/js/views/active_video_upload_list.js:35
+#: cms/static/js/views/video_transcripts.js:33
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:40
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr "Cet incident vous affecte à cause d'une erreur sur notre serveur ou d'un problème de votre connexion internet. Essayez de rafraîchir la page ou vérifiez que votre connexion est bien active."
+
 #: cms/static/cms/js/xblock/cms.runtime.v1.js:113
-#: cms/static/js/certificates/views/signatory_details.js:70
+#: cms/static/js/certificates/views/signatory_details.js:71
 #: cms/static/js/models/section.js:27 cms/static/js/utils/drag_and_drop.js:292
-#: cms/static/js/views/asset.js:82 cms/static/js/views/container.js:48
-#: cms/static/js/views/course_info_handout.js:62
+#: cms/static/js/views/asset.js:83 cms/static/js/views/container.js:48
+#: cms/static/js/views/course_info_handout.js:57
 #: cms/static/js/views/course_info_update.js:169
 #: cms/static/js/views/edit_textbook.js:62
-#: cms/static/js/views/list_item_editor.js:38
+#: cms/static/js/views/list_item_editor.js:41
 #: cms/static/js/views/modals/edit_xblock.js:178
 #: cms/static/js/views/tabs.js:85 cms/static/js/views/tabs.js:117
 #: cms/static/js/views/utils/xblock_utils.js:204
 #: cms/static/js/views/utils/xblock_utils.js:219
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:26
 #: lms/static/js/ccx/schedule.js:252 lms/static/js/views/fields.js:70
 msgid "Saving"
 msgstr "Sauvegarde en cours"
 
 #: cms/static/js/certificates/views/signatory_editor.js:139
-#: cms/static/js/views/asset.js:54 cms/static/js/views/list_item.js:59
+#: cms/static/js/views/asset.js:55 cms/static/js/views/list_item.js:60
 #: cms/static/js/views/manage_users_and_roles.js:31
 #: cms/static/js/views/show_textbook.js:39
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js:36
@@ -94,7 +105,7 @@ msgstr "Supprimer"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/certificates/views/signatory_editor.js:161
-#: cms/static/js/views/asset.js:70
+#: cms/static/js/views/asset.js:71
 #: cms/static/js/views/course_info_update.js:266
 #: cms/static/js/views/export.js:360
 #: cms/static/js/views/manage_users_and_roles.js:32
@@ -113,7 +124,7 @@ msgstr "Annuler"
 #. Translators: This is the status of an active video upload
 #: cms/static/js/models/active_video_upload.js:11
 #: cms/static/js/views/assets.js:237 cms/static/js/views/video_thumbnail.js:57
-#: lms/static/js/views/image_field.js:19
+#: lms/static/js/views/image_field.js:20
 msgid "Uploading"
 msgstr "Téléversement en cours"
 
@@ -123,6 +134,7 @@ msgstr "Téléversement en cours"
 #: cms/static/js/views/modals/edit_xblock.js:124
 #: cms/static/js/views/video_transcripts.js:325
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:325
+#: lms/static/js/demographics_collection/Wizard.jsx:74
 #: lms/static/js/student_account/tos_modal.js:48
 msgid "Close"
 msgstr "Fermer"
@@ -155,11 +167,11 @@ msgid "None"
 msgstr "Aucun"
 
 #: cms/static/js/views/course_video_settings.js:471
-#: cms/static/js/views/metadata.js:328
+#: cms/static/js/views/metadata.js:332
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
-#: lms/static/js/views/image_field.js:17
+#: lms/static/js/views/image_field.js:18
 msgid "Remove"
 msgstr "Supprimer"
 
@@ -180,7 +192,7 @@ msgstr "Inconnu"
 msgid "Are you sure?"
 msgstr "Êtes-vous certain ?"
 
-#: cms/static/js/views/metadata.js:575 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:584 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "Téléverser un fichier"
 
@@ -194,15 +206,15 @@ msgstr "Sauvegarder"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
-#: cms/static/js/views/modals/course_outline_modals.js:1041
+#: cms/static/js/views/modals/course_outline_modals.js:1056
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:185
 msgid "Advanced"
 msgstr "Avancé"
 
 #: cms/static/js/views/previous_video_upload.js:81
-#: cms/static/js/views/video/translations_editor.js:173
+#: cms/static/js/views/video/translations_editor.js:176
 #: cms/static/js/views/video_transcripts.js:273
-#: lms/static/js/views/image_field.js:20
+#: lms/static/js/views/image_field.js:21
 msgid "Removing"
 msgstr "Suppression en cours"
 
@@ -216,7 +228,7 @@ msgstr "Vos modifications ont été sauvegardées."
 #. Translators: This message will be added to the front of messages of type
 #. warning,
 #. e.g. "Warning: this component has not been configured yet".
-#: cms/static/js/views/xblock_validation.js:48
+#: cms/static/js/views/xblock_validation.js:50
 #: common/static/common/js/discussion/views/discussion_inline_view.js:200
 msgid "Warning"
 msgstr "Avertissement"
@@ -224,7 +236,7 @@ msgstr "Avertissement"
 #. Translators: This message will be added to the front of messages of type
 #. error,
 #. e.g. "Error: required field is missing".
-#: cms/static/js/views/xblock_validation.js:52
+#: cms/static/js/views/xblock_validation.js:54
 #: common/static/common/js/discussion/utils.js:204
 #: common/static/common/js/discussion/utils.js:241
 #: common/static/common/js/discussion/views/discussion_inline_view.js:208
@@ -233,8 +245,8 @@ msgstr "Avertissement"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:225
 #: common/static/common/js/discussion/views/discussion_thread_view.js:230
 #: common/static/common/js/discussion/views/response_comment_view.js:119
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:28
 #: lms/static/js/student_account/views/FinishAuthView.js:80
-#: lms/static/js/verify_student/views/payment_confirmation_step_view.js:63
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:41
 msgid "Error"
@@ -244,6 +256,19 @@ msgstr "Erreur"
 #: common/lib/xmodule/xmodule/js/public/js/library_content_edit.js:18
 msgid "Updating with latest library content"
 msgstr "Mise à jour des derniers ajouts à la bibliothèque"
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:175
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:189
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx:193
+msgid "Selected blocks"
+msgstr "Blocs sélectionnés"
+
+#: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js:50
+msgid "Unable to update settings"
+msgstr "Impossible de mettre à jour les paramètres"
 
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js:12
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js:12
@@ -1147,6 +1172,7 @@ msgstr "Nouvelle fenêtre"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js:810
+#: lms/static/js/demographics_collection/Wizard.jsx:114
 msgid "Next"
 msgstr "Suivant"
 
@@ -1647,7 +1673,7 @@ msgid ""
 "SequenceModule. Please contact the course staff."
 msgstr "Erreur de séquence! Impossible de se rendre à %(tab_name)s dans le module SequenceModule en cours. Veuillez contacter les responsables du cours."
 
-#: common/lib/xmodule/xmodule/js/src/sequence/display.js:446
+#: common/lib/xmodule/xmodule/js/src/sequence/display.js:445
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
 msgid "Bookmarked"
 msgstr "Ajouté aux favoris"
@@ -1831,48 +1857,48 @@ msgstr "Ouvrir le menu des langues"
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Les transcriptions seront affichées quand vous commencerez à lire la vidéo "
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:803
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:805
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr "Activer un lien dans ce groupe va sauter au point correspondant dans la vidéo."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:806
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:808
 msgid "Video transcript"
 msgstr "Transcription vidéo"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:809
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:811
 msgid "Start of transcript. Skip to the end."
 msgstr "Début de la transcription. Sauter à la fin."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:813
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:815
 msgid "End of transcript. Skip to the start."
 msgstr "Fin de la transcription. Sauter au début."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:817
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:819
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
 "language."
 msgstr "Appuyer sur UP pour accéder au menu des langues, puis utilisez les flèches HAUT et BAS pour naviguer dans les différentes options de langues. Appuyez sur ENTER pour passer à la langue sélectionnée."
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1186
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1171
 msgid "Hide closed captions"
 msgstr "Masquer les sous-titres"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1204
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1189
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Les sous-titres s'afficheront quand vous commencerez à lire la vidéo)"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1211
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1196
 msgid "Turn on closed captioning"
 msgstr "Activer le sous-titrage"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1294
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1302
 msgid "Turn on transcripts"
 msgstr "Activer la transcription"
 
-#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1307
+#: common/lib/xmodule/xmodule/js/src/video/09_video_caption.js:1315
 msgid "Turn off transcripts"
 msgstr "Désactiver la transcription"
 
@@ -2240,9 +2266,41 @@ msgid_plural "%d years"
 msgstr[0] "%d an"
 msgstr[1] "%d ans"
 
-#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:30
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:38
 msgid "Select a section or problem"
 msgstr "Sélectionnez une section ou un problème"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/Main/Main.jsx:77
+msgid "Create a report of problem responses"
+msgstr "Créer un rapport des réponses aux problèmes"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:10
+msgid "Your report is being generated..."
+msgstr "Votre rapport est en cours de génération..."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:17
+msgid "Your report has been successfully generated."
+msgstr "Votre rapport a été généré avec succès."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:21
+msgid "View Report"
+msgstr "Afficher le rapport"
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:64
+msgid "There was an error generating the report link."
+msgstr "Une erreur est survenue lors de la génération du lien du rapport."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:67
+msgid "There was an error generating your report."
+msgstr "Une erreur est survenue lors de la génération de votre rapport."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:70
+msgid "Unable to get report generation status."
+msgstr "Impossible d'obtenir l'état de la génération de rapport."
+
+#: lms/djangoapps/instructor/static/instructor/ProblemBrowser/data/actions/problemResponses.js:90
+msgid "Unable to submit request to generate report."
+msgstr "Impossible de soumettre la requête de génération de rapport."
 
 #: lms/djangoapps/support/static/support/js/views/certificates.js:51
 msgid "An unexpected error occurred.  Please try again."
@@ -2260,15 +2318,15 @@ msgstr "Apprenant Faché"
 msgid "Teaching Assistant"
 msgstr "Assistant de cours"
 
-#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:51
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:52
 msgid "Please specify a reason."
 msgstr "Veuillez indiquer une raison."
 
-#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:61
+#: lms/djangoapps/support/static/support/js/views/enrollment_modal.js:62
 msgid "Something went wrong changing this enrollment. Please try again."
 msgstr "Un problème est survenu lors du changement de cette inscription. Veuillez réessayer."
 
-#: lms/djangoapps/support/static/support/jsx/errors_list.jsx:15
+#: lms/djangoapps/support/static/support/jsx/errors_list.jsx:12
 msgid "Please fix the following errors:"
 msgstr "S'il vous plait, corrigez les erreurs suivantes :"
 
@@ -2283,7 +2341,7 @@ msgid ""
 msgstr "Les fichiers que vous téléchargez doivent être des fichiers PDF ou des fichiers image au format .gif, .jpg, .jpeg ou .png."
 
 #: lms/djangoapps/support/static/support/jsx/file_upload.jsx:108
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:129
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:46
 msgid "Something went wrong. Please try again later."
 msgstr "Quelque chose s'est mal passé. Veuillez réessayer plus tard."
 
@@ -2299,87 +2357,87 @@ msgstr "(Optionnel)"
 msgid "Remove file"
 msgstr "Supprimer le fichier"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:15
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:37
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:14
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:36
 msgid "Course Name"
 msgstr "Nom du cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:17
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:16
 msgid ""
 "For inquiries regarding assignments, grades, or structure of a specific "
 "course, please post in the discussion forums for that course directly."
 msgstr "Pour toute question relative aux devoirs, aux notes ou à la structure d'un cours spécifique, veuillez poster directement sur les forums de discussion de ce cours."
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:26
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:25
 msgid "Not specific to a course"
 msgstr "Pas spécifique à un cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:42
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:41
 #: lms/static/js/instructor_dashboard/util.js:199
 msgid "Subject"
 msgstr "Sujet"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:45
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:44
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:46
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:45
 msgid "Billing/Payment Options"
 msgstr "Options de facturation / paiement"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:47
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:46
 msgid "Certificates"
 msgstr "Attestations"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:48
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:47
 msgid "Course Content"
 msgstr "Contenu de cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:49
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:48
 msgid "Deadlines"
 msgstr "Dates d'échéances"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:49
 msgid "Errors/Technical Issues"
 msgstr "Erreurs / problèmes techniques"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:51
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:50
 msgid "Financial Aid"
 msgstr "Aide financière"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:52
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:51
 msgid "Masters"
 msgstr "Maîtrise"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:52
 msgid "MicroMasters"
 msgstr "MicroMaîtrise"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:54
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:53
 msgid "MicroBachelors"
 msgstr "MicroBaccalauréats"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:55
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:54
 msgid "Photo Verification"
 msgstr "Vérification d'identité"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:55
 msgid "Proctoring"
 msgstr "Surveillance"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:57
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:56
 msgid "Security"
 msgstr "Sécurité"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:58
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:57
 msgid "Other"
 msgstr "Autre"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:68
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:67
 msgid "Course Discussion Forum"
 msgstr "Forum de discussions du cours"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:85
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:84
 msgid ""
 "While our support team is happy to assist with the edX platform, the course "
 "staff has the expertise for specific assignment questions, grading or the "
@@ -2387,11 +2445,11 @@ msgid ""
 "within the Discussion Forum where the Course Staff can directly respond."
 msgstr "Bien que notre équipe de support soit heureuse de vous aider avec la plateforme EDUlib, l'équipe du cours est celle qui peut répondre à vos questions concernant les activités d'un cours, sa notation ainsi que ses procédures spéciales. Veuillez écrire toutes vos questions spécifiques à un cours dans le forum de discussion de ce dernier afin que l'équipe du cours puisse y répondre directement."
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:101
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:100
 msgid "Details"
 msgstr "Détails"
 
-#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:102
+#: lms/djangoapps/support/static/support/jsx/logged_in_user.jsx:101
 msgid "the more quickly and helpfully we can respond!"
 msgstr "le plus rapidement et efficacement que nous pouvons répondre !"
 
@@ -2411,21 +2469,21 @@ msgstr "Connectez-vous à {platform} afin que nous puissions mieux vous aider."
 msgid "Need help logging in?"
 msgstr "Besoin d'aide pour vous connecter ?"
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:97
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:43
 msgid ""
 "Select a course or select \"Not specific to a course\" for your support "
 "request."
 msgstr "Sélectionnez un cours ou sélectionnez \"Non spécifique à un cours\" pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:109
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:44
 msgid "Select a subject for your support request."
 msgstr "Sélectionnez un sujet pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:141
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:45
 msgid "Enter some details for your support request."
 msgstr "Entrez quelques détails pour votre demande d'assistance."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:189
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:212
 msgid ""
 "Due to the recent increase in interest in online education and edX, we are "
 "currently experiencing an unusually high volume of support requests. We "
@@ -2433,20 +2491,20 @@ msgid ""
 " "
 msgstr "À cause de l'augmentation récente de l'intérêt dans l'éducation en ligne et notre plateforme, nous recevons une quantité de demandes de support anormalement élévés. Nous apprécions votre patience pendant que nous examinons chaque demande. Veuillez regarder le"
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:189
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:212
 msgid " as many questions may have already been answered."
 msgstr "parce que plusieurs questions ont probablement été déjà répondues."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:194
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:217
 #: lms/djangoapps/support/static/support/jsx/success.jsx:25
 msgid "Contact Us"
 msgstr "Nous contacter"
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:204
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:226
 msgid "Find answers to the top questions asked by learners."
 msgstr "Trouvez des réponses aux principales questions posées par les apprenants."
 
-#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:215
+#: lms/djangoapps/support/static/support/jsx/single_support_form.jsx:237
 msgid "Search the {platform} Help Center"
 msgstr "Rechercher dans le centre d'aide {platform} "
 
@@ -2611,7 +2669,7 @@ msgstr "Equipe \"{team}\" supprimée avec succès."
 msgid "Manage"
 msgstr "Gérer"
 
-#: lms/djangoapps/teams/static/teams/js/views/my_teams.js:22
+#: lms/djangoapps/teams/static/teams/js/views/my_teams.js:28
 msgid "You are not currently a member of any team."
 msgstr "Actuellement, vous n'êtes membre d'aucune équipe."
 
@@ -2627,26 +2685,30 @@ msgstr "et autres"
 msgid "Last activity {date}"
 msgstr "Dernière activité {date}"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_card.js:151
+#: lms/djangoapps/teams/static/teams/js/views/team_card.js:157
 msgid "View {span_start} {team_name} {span_end}"
 msgstr "Voir {span_start} {team_name} {span_end}"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:21
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:22
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js:14
 msgid "An error occurred. Try again."
 msgstr "Une erreur est survenue. Réessayez."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:99
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:104
+msgid "No assignments for team"
+msgstr "Aucune affectation pour l'équipe"
+
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:142
 msgid "Leave this team?"
 msgstr "Quitter cette équipe ?"
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:100
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:143
 msgid ""
 "If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
 msgstr "Si vous quittez, vous ne pouvez plus poster dans les discussions de cette équipe. Votre place sera disponible pour un autre apprenant."
 
-#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:102
+#: lms/djangoapps/teams/static/teams/js/views/team_profile.js:145
 #: lms/static/js/verify_student/views/reverify_view.js:50
 msgid "Confirm"
 msgstr "Confirmer"
@@ -2704,74 +2766,74 @@ msgstr "Votre requête n'a pu être complétée en raison d'un problème de serv
 msgid "Team Search"
 msgstr "Recherche d'équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:242
-msgid "Showing results for \"{searchString}\""
-msgstr "Affichage des résultats pour \"{searchString}\""
-
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:261
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:258
 msgid "Create a New Team"
 msgstr "Créer une nouvelle équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:263
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:260
 msgid ""
 "Create a new team if you can't find an existing team to join, or if you "
 "would like to learn with friends you know."
 msgstr "Créez une nouvelle équipe si vous ne trouvez pas une équipe existante à rejoindre, ou si vous désirez apprendre avec des amis que vous connaissez déjà."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:298
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:295
 msgid "Edit Team"
 msgstr "Modifier l'équipe"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:300
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:297
 msgid ""
 "If you make significant changes, make sure you notify members of the team "
 "before making these changes."
 msgstr "Si vous réalisez d'importants changements, prévenez les membres de l'équipe avant de les faire."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:330
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:327
 msgid "Membership"
 msgstr "Inscription"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:332
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:329
 msgid ""
 "You can remove members from this team, especially if they have not "
 "participated in the team's activity."
 msgstr "Vous pouvez retirer des membres de cette équipe, en particulier s'ils n'ont pas participé à l'activité de l'équipe."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:393
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:382
+msgid "Showing results for \"{searchString}\""
+msgstr "Affichage des résultats pour \"{searchString}\""
+
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:400
 msgid "Search teams"
 msgstr "Rechercher des équipes"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:511
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:531
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr "Voir toutes les équipes auxquelles vous appartenez et toutes les équipes publiques de votre cours, organisé par sujet. Joignez vous à une équipe publique ouverte pour collaborer avec d'autres apprenants qui sont intéressés dans le même sujet que vous."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:518
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:538
 msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
 msgstr "Voir toutes les équipes auxquelles vous appartenez et toutes les équipes publiques du cours, organisé par sujet."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:522
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:542
 msgid "See all teams you belong to."
 msgstr "Voir toutes les équipes auxquelles vous appartenez."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:528
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:548
 msgid "All Topics"
 msgstr "Tous les sujets"
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:659
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:679
 msgid "The page \"{route}\" could not be found."
 msgstr "Page \"{route}\" non trouvée."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:668
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:688
 msgid "The topic \"{topic}\" could not be found."
 msgstr "Sujet \"{topic}\" non trouvé."
 
-#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:677
+#: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:697
 msgid "The team \"{team}\" could not be found."
 msgstr "L'équipe \"{team}\" n'a pu être trouvée."
 
@@ -2789,13 +2851,18 @@ msgstr "Sujet"
 msgid "View Teams in the {topic_name} Topic"
 msgstr "Voir les Équipes du sujet {topic_name}"
 
-#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:55
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:24
 msgid ""
 "{browse_span_start}Browse teams in other topics{span_end} or "
 "{search_span_start}search teams{span_end} in this topic. If you still can't "
 "find a team to join, {create_span_start}create a new team in this "
 "topic{span_end}."
 msgstr "{browse_span_start}Parcourir les équipes dans d'autres sujets{span_end} ou {search_span_start}rechercher des équipes{span_end} dans ce sujet. Si vous ne parvenez pas à trouver une équipe, {create_span_start}créez une nouvelle équipe dans ce sujet {span_end}."
+
+#: lms/djangoapps/teams/static/teams/js/views/topic_teams.js:38
+msgid ""
+"An error occurred while looking up team membership. Try refreshing the page."
+msgstr "Une erreur s'est produite lors de la recherche des membres de l'équipe. Essayez d'actualiser la page."
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js:16
 msgid "All topics"
@@ -3179,11 +3246,97 @@ msgid ""
 msgstr "La date limite de remboursement pour ce cours est passée, donc vous ne recevrez pas de remboursement."
 
 #: lms/static/js/dashboard/legacy.js:187 lms/static/js/dashboard/legacy.js:197
-#: lms/static/js/learner_dashboard/views/unenroll_view.js:81
+#: lms/static/js/learner_dashboard/views/unenroll_view.js:83
 msgid ""
 "Unable to determine whether we should give you a refund because of System "
 "Error. Please try again later."
 msgstr "Impossible de déterminer si nous devons vous rembourser ou non à cause d'une erreur système. Veuillez réessayer plus tard."
+
+#: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx:65
+msgid "Want to make edX better for everyone?"
+msgstr "Souhaitez-vous rendre EDUlib meilleur pour tout le monde ?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionBanner.jsx:69
+msgid "Get started"
+msgstr "Commencez"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:269
+msgid "Help make edX better for everyone!"
+msgstr "Aidez-nous à rendre EDUlib meilleur pour tout le monde !"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:278
+msgid "Why does edX collect this information?"
+msgstr "Pourquoi est-ce qu'EDUlib collecte ces informations ?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:281
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:495
+msgid ""
+"An error occurred while attempting to retrieve or save the information "
+"below. Please try again later."
+msgstr "Une erreur s'est produite lors de la tentative de récupération ou d'enregistrement des informations ci-dessous. Veuillez réessayer plus tard."
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:331
+msgid ""
+"What was the total combined income, during the last 12 months, of all "
+"members of your family? "
+msgstr "Quel a été le revenu total combiné, au cours des 12 derniers mois, de tous les membres de votre famille?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:355
+msgid ""
+"Have you ever served on active duty in the U.S. Armed Forces, Reserves, or "
+"National Guard?"
+msgstr "Avez-vous déjà servi en service actif dans les forces armées, les réserves ou la garde nationale?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:381
+msgid "What is the highest level of education that you have achieved so far?"
+msgstr "Quel est le niveau d'éducation le plus élevé que vous ayez atteint jusqu'à présent?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:402
+msgid ""
+"What is the highest level of education that any of your parents or guardians"
+" have achieved?"
+msgstr "Quel est le niveau de scolarité le plus élevé que l'un de vos parents ou tuteurs ait atteint?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:432
+msgid "Select employment status"
+msgstr "Sélectionnez le statut d'emploi"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:447
+msgid "What industry do you currently work in?"
+msgstr "Dans quel secteur travaillez-vous actuellement?"
+
+#: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx:466
+msgid "What industry do you want to work in?"
+msgstr "Dans quel secteur souhaitez-vous travailler?"
+
+#: lms/static/js/demographics_collection/MultiselectDropdown.jsx:97
+msgid "Clear all"
+msgstr "Tout effacer"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:69
+#: lms/static/js/demographics_collection/Wizard.jsx:107
+msgid "demographics questionnaire"
+msgstr "questionnaire démographique"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:74
+msgid "close questionnaire"
+msgstr "fermer le questionnaire"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "finish later"
+msgstr "terminer plus tard"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "Return to my dashboard"
+msgstr "Retourner à mon tableau de bord"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:113
+msgid "Finish later"
+msgstr "Terminer plus tard"
+
+#: lms/static/js/demographics_collection/Wizard.jsx:114
+msgid "next page"
+msgstr "page suivante"
 
 #: lms/static/js/discovery/views/search_form.js:47
 #, javascript-format
@@ -3333,7 +3486,7 @@ msgid "Unable to submit application"
 msgstr "Incapable de soumettre votre demande"
 
 #: lms/static/js/financial-assistance/views/financial_assistance_form_view.js:103
-#: lms/static/js/student_account/views/LoginView.js:195
+#: lms/static/js/student_account/views/LoginView.js:212
 msgid "An error has occurred. Check your Internet connection and try again."
 msgstr "Une erreur est survenue. Vérifiez votre connexion internet et réessayez de nouveau."
 
@@ -3516,22 +3669,27 @@ msgid "Error while regenerating certificates. Please try again."
 msgstr "Erreur lors de la regénération des attestations. Essayez de nouveau."
 
 #: lms/static/js/instructor_dashboard/data_download.js:30
+#: lms/static/js/instructor_dashboard/data_download_2.js:136
 msgid "Loading data..."
 msgstr "Chargement des données..."
 
 #: lms/static/js/instructor_dashboard/data_download.js:37
+#: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error getting issued certificates list."
 msgstr "Erreur lors de la récupération de la liste des certificats délivrés."
 
 #: lms/static/js/instructor_dashboard/data_download.js:125
+#: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating proctored exam results. Please try again."
 msgstr "Erreur lors de la génération des résultats d'examens supervisés. Merci d'essayer à nouveau."
 
 #: lms/static/js/instructor_dashboard/data_download.js:151
+#: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating survey results. Please try again."
 msgstr "Erreur lors de la génération des résultats d'enquête. Merci d'essayer à nouveau."
 
 #: lms/static/js/instructor_dashboard/data_download.js:177
+#: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating student profile information. Please try again."
 msgstr "Erreur lors de la création des informations du profil étudiant. Merci d’essayer à nouveau."
 
@@ -3545,6 +3703,7 @@ msgid "Error getting student list."
 msgstr "Erreur lors de la récupération de la liste des étudiants."
 
 #: lms/static/js/instructor_dashboard/data_download.js:277
+#: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr "Erreur lors de la génération de la liste des étudiants pouvant s'inscrire. Merci d'essayer de nouveau."
 
@@ -3553,14 +3712,17 @@ msgid "Error retrieving grading configuration."
 msgstr "Erreur lors de la récupération de la configuration de la notation."
 
 #: lms/static/js/instructor_dashboard/data_download.js:334
+#: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr "Erreur lors de la génération des notes. Merci d’essayer à nouveau."
 
 #: lms/static/js/instructor_dashboard/data_download.js:336
+#: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating problem grade report. Please try again."
 msgstr "Erreur lors de la génération du rapport des notes. Merci d’essayer à nouveau."
 
 #: lms/static/js/instructor_dashboard/data_download.js:338
+#: lms/static/js/instructor_dashboard/data_download_2.js:44
 msgid "Error generating ORA data report. Please try again."
 msgstr "Erreur lors de la génération du rapport de données ORA. Merci d’essayer à nouveau."
 
@@ -4192,40 +4354,40 @@ msgstr "Commencé {start}"
 msgid "Ends {end}"
 msgstr "Termine {end}"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:205
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:206
 msgid "You must select a session to access the course."
 msgstr "Vous devez choisir une session pour accéder au cours."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:232
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:233
 msgid "There was an error. Please reload the page and try again."
 msgstr "Une erreur est survenue. Veuillez rafraîchir la page et essayer de nouveau."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Change Session"
 msgstr "Changer la session"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:269
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:270
 msgid "Select Session"
 msgstr "Choisir la session"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:271
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:272
 msgid "Leave Current Session"
 msgstr "Quitter la session actuelle"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:306
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
 msgid "Are you sure you want to select this session?"
 msgstr "Êtes-vous certain de vouloir choisir cette session?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:307
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:308
 msgid "Are you sure you want to change to a different session?"
 msgstr "Êtes-vous certain de vouloir changer de session?"
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:309
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:310
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:313
 msgid "Any course progress or grades from your current session will be lost."
 msgstr "Tout le progrès et toutes les notes obtenus dans la session actuelle seront perdus."
 
-#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:311
+#: lms/static/js/learner_dashboard/views/course_entitlement_view.js:312
 msgid "Are you sure that you want to leave this session?"
 msgstr "Êtes vous certain de vouloir quitter cette session?"
 
@@ -4249,7 +4411,7 @@ msgstr "{type} Progression"
 msgid "Earned Certificates"
 msgstr "Certificats obtenus"
 
-#: lms/static/js/learner_dashboard/views/program_details_view.js:105
+#: lms/static/js/learner_dashboard/views/program_details_view.js:113
 msgid "Enrolled"
 msgstr "Inscrit"
 
@@ -4380,7 +4542,7 @@ msgid "We’re sorry to see you go!"
 msgstr "Nous sommes désolés de vous voir quitter!"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:131
-#: lms/static/js/student_account/views/account_settings_factory.js:334
+#: lms/static/js/student_account/views/account_settings_factory.js:337
 msgid "Delete My Account"
 msgstr "Supprimer mon compte"
 
@@ -4473,20 +4635,20 @@ msgstr "Une erreur est survenue."
 msgid "(optional)"
 msgstr "(optionnel)"
 
-#: lms/static/js/student_account/views/LoginView.js:36
+#: lms/static/js/student_account/views/LoginView.js:38
 msgid "We couldn't sign you in."
 msgstr "Nous n'avons pas pu vous connecter."
 
-#: lms/static/js/student_account/views/LoginView.js:101
+#: lms/static/js/student_account/views/LoginView.js:104
 #, javascript-format
 msgid "An error occurred when signing you in to %s."
 msgstr "Une erreur est survenue lors de votre connexion avec %s."
 
-#: lms/static/js/student_account/views/LoginView.js:146
+#: lms/static/js/student_account/views/LoginView.js:163
 msgid "Check Your Email"
 msgstr "Vérifiez votre courriel"
 
-#: lms/static/js/student_account/views/LoginView.js:148
+#: lms/static/js/student_account/views/LoginView.js:165
 msgid ""
 "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
 "address is associated with your {platform_name} account, we will send a "
@@ -4497,17 +4659,26 @@ msgid ""
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr "{paragraphStart}Vous avez entré {boldStart}{email}{boldEnd}. Si cette adresse courriel est associée à votre compte {platform_name}, nous vous enverrons un message avec les instructions pour réinitialiser votre mot de passe à cette adresse courriel.{paragraphEnd} {paragraphStart}Si vous ne recevez pas un courriel de réinitialisation après 1 minute, vérifiez que vous avez entré votre adresse courriel correctement ou vérifiez votre dossier de pourriel. {paragraphEnd}{paragraphStart}Si vous avez besoin d'aide, {anchorStart}contacter le support technique{anchorEnd}.{paragraphEnd}"
 
-#: lms/static/js/student_account/views/LoginView.js:197
+#: lms/static/js/student_account/views/LoginView.js:214
 msgid ""
 "An error has occurred. Try refreshing the page, or check your Internet "
 "connection."
 msgstr "Une erreur est survenue. Essayer de rafraîchir la page, ou vérifier votre connexion Internet."
 
-#: lms/static/js/student_account/views/LoginView.js:202
+#: lms/static/js/student_account/views/LoginView.js:217
+msgid ""
+"In order to sign in, you need to activate your "
+"account.{line_break}{line_break}We just sent an activation link to "
+"{strong_start} {email} {strong_end}. If  you do not receive an email, check "
+"your spam folders or  {anchorStart}contact {platform_name} "
+"Support{anchorEnd}."
+msgstr "Pour vous connecter, vous devez activer votre compte.{line_break} {line_break}Nous venons d'envoyer un lien d'activation à {strong_start} {email} {strong_end}. Si vous ne recevez pas un courriel, vérifiez vos dossiers de courrier indésirable ou {anchorStart}contacter le Support {platform_name}{anchorEnd}."
+
+#: lms/static/js/student_account/views/LoginView.js:242
 msgid "An unexpected error has occurred."
 msgstr "Une erreur inattendue s'est produite."
 
-#: lms/static/js/student_account/views/LoginView.js:230
+#: lms/static/js/student_account/views/LoginView.js:270
 msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account."
@@ -4581,7 +4752,7 @@ msgid "The country or region where you live."
 msgstr "Le pays ou la région où vous résidez."
 
 #: lms/static/js/student_account/views/account_settings_factory.js:139
-#: lms/static/js/student_account/views/account_settings_factory.js:350
+#: lms/static/js/student_account/views/account_settings_factory.js:353
 msgid "Basic Account Information"
 msgstr "Informations générales du compte"
 
@@ -4666,46 +4837,48 @@ msgid ""
 "edX profile."
 msgstr "Si désiré, liez vos comptes personnels aux icônes des médias sociaux sur votre profil EDUlib."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:316
-msgid " Link"
-msgstr "Lien"
+#: lms/static/js/student_account/views/account_settings_factory.js:317
+msgid "{platform_display_name} Link"
+msgstr "Lien {platform_display_name}"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:319
-msgid "Enter your "
-msgstr "Entrez votre"
+#: lms/static/js/student_account/views/account_settings_factory.js:322
+msgid ""
+"Enter your {platform_display_name} username or the URL to your "
+"{platform_display_name} page. Delete the URL to remove the link."
+msgstr "Entrez votre nom d'utilisateur {platform_display_name} ou le URL de la page {platform_display_name}. Supprimez l'URL pour supprimer le lien."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:358
+#: lms/static/js/student_account/views/account_settings_factory.js:361
 #: lms/static/js/student_account/views/account_settings_view.js:43
 msgid "Linked Accounts"
 msgstr "Comptes liés"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:360
+#: lms/static/js/student_account/views/account_settings_factory.js:363
 msgid ""
 "You can link your social media accounts to simplify signing in to "
 "{platform_name}."
 msgstr "Vous pouvez lier vos comptes de médias sociaux afin de simplifier la connexion à {platform_name}."
 
-#: lms/static/js/student_account/views/account_settings_factory.js:382
+#: lms/static/js/student_account/views/account_settings_factory.js:385
 msgid "ORDER NAME"
 msgstr "NOM DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:383
+#: lms/static/js/student_account/views/account_settings_factory.js:386
 msgid "ORDER PLACED"
 msgstr "COMMANDES ENREGISTRÉES"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:384
+#: lms/static/js/student_account/views/account_settings_factory.js:387
 msgid "TOTAL"
 msgstr "TOTAL"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:385
+#: lms/static/js/student_account/views/account_settings_factory.js:388
 msgid "ORDER NUMBER"
 msgstr "NUMÉRO DE LA COMMANDE"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:391
+#: lms/static/js/student_account/views/account_settings_factory.js:394
 msgid "My Orders"
 msgstr "Mes Commandes"
 
-#: lms/static/js/student_account/views/account_settings_factory.js:393
+#: lms/static/js/student_account/views/account_settings_factory.js:396
 msgid ""
 "This page contains information about orders that you have placed with "
 "{platform_name}."
@@ -4825,19 +4998,15 @@ msgstr "Toutes les options de paiement sont présentement indisponibles."
 msgid "Try the transaction again in a few minutes."
 msgstr "Essayer de nouveau la transaction dans quelques minutes."
 
-#: lms/static/js/verify_student/views/make_payment_step_view.js:213
+#: lms/static/js/verify_student/views/make_payment_step_view.js:212
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:7
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:22
 msgid "An error has occurred. Please try again."
 msgstr "Une erreur est survenue. Merci de réessayer de nouveau."
 
-#: lms/static/js/verify_student/views/make_payment_step_view.js:220
+#: lms/static/js/verify_student/views/make_payment_step_view.js:219
 msgid "Could not submit order"
 msgstr "La commande n'a pas pu être soumise"
-
-#: lms/static/js/verify_student/views/payment_confirmation_step_view.js:64
-msgid "Could not retrieve payment information"
-msgstr "Impossible de récupérer les informations de paiement"
 
 #: lms/static/js/verify_student/views/reverify_view.js:48
 msgid "Take a photo of your ID"
@@ -4911,51 +5080,51 @@ msgstr "Chargement de '{file}' réussi."
 msgid "Your upload of '{file}' failed."
 msgstr "Le chargement de '{file}' a échoué."
 
-#: lms/static/js/views/image_field.js:15
+#: lms/static/js/views/image_field.js:16
 msgid "Upload an image"
 msgstr "Téléverser une image"
 
-#: lms/static/js/views/image_field.js:16
+#: lms/static/js/views/image_field.js:17
 msgid "Change image"
 msgstr "Modifier l'image"
 
-#: lms/static/js/views/image_field.js:23
+#: lms/static/js/views/image_field.js:24
 msgid "Image"
 msgstr "Image"
 
-#: lms/static/js/views/image_field.js:29
+#: lms/static/js/views/image_field.js:30
 msgid "An error has occurred. Refresh the page, and then try again."
 msgstr "Une erreur a eu lieu. Rafraîchissez la page et réessayez."
 
-#: lms/static/js/views/image_field.js:169
+#: lms/static/js/views/image_field.js:171
 msgid "The file must be at least {size} in size."
 msgstr "Le fichier doit avoir une taille supérieure à {size}."
 
-#: lms/static/js/views/image_field.js:177
+#: lms/static/js/views/image_field.js:179
 msgid "The file must be smaller than {size} in size."
 msgstr "Le fichier doit avoir une taille inférieure à {size}."
 
-#: lms/static/js/views/image_field.js:212
+#: lms/static/js/views/image_field.js:214
 msgid ""
 "Upload is in progress. To avoid errors, stay on this page until the process "
 "is complete."
 msgstr "Téléversement en cours. Pour éviter toute erreur, restez sur cette page jusqu'à la fin du traitement."
 
-#: lms/static/js/views/image_field.js:214
+#: lms/static/js/views/image_field.js:216
 msgid ""
 "Removal is in progress. To avoid errors, stay on this page until the process"
 " is complete."
 msgstr "Suppression en cours. Pour éviter toute erreur, restez sur cette page jusqu'à la fin du traitement."
 
-#: lms/static/js/views/image_field.js:219
+#: lms/static/js/views/image_field.js:221
 msgid "bytes"
 msgstr "bytes"
 
-#: lms/static/js/views/image_field.js:219
+#: lms/static/js/views/image_field.js:221
 msgid "KB"
 msgstr "KB"
 
-#: lms/static/js/views/image_field.js:219
+#: lms/static/js/views/image_field.js:221
 msgid "MB"
 msgstr "MB"
 
@@ -5005,11 +5174,11 @@ msgstr "Afficher plus"
 msgid "Show Less"
 msgstr "Afficher moins"
 
-#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:67
-msgid "{total_results} result"
-msgid_plural "{total_results} results"
-msgstr[0] "{total_results} résultat"
-msgstr[1] "{total_results} résultats"
+#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
+msgid "{total_results} result found for \"{search_term}\""
+msgid_plural "{total_results} results found for \"{search_term}\""
+msgstr[0] "{total_results} résultat trouvé pour \"{search_term}\""
+msgstr[1] "{total_results} résultats trouvés pour \"{search_term}\""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:69
 msgid "Profile Visibility:"

@@ -12,7 +12,7 @@
 # Daniel Le Berre, 2014-2015
 # David Truong <david.truong@edulib.org>, 2020
 # Dosto92 <hakim.poubelle@gmail.com>, 2014
-# Encolpe Degoute <inactive+encolpe@transifex.com>, 2013
+# b37bd6faa8631249767025c90cffb237_c33f832 <d0bf341d6cab6374cbc873fbbf166cb5_105987>, 2013
 # Eric Fortin, 2014,2016
 # Françoise Docq, 2014
 # Hélène Tindon <helene.tindon@gmail.com>, 2015
@@ -56,8 +56,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2020-05-17 20:42+0000\n"
-"PO-Revision-Date: 2020-05-12 20:36+0000\n"
+"POT-Creation-Date: 2020-11-15 20:43+0000\n"
+"PO-Revision-Date: 2020-11-04 22:22+0000\n"
 "Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>\n"
 "Language-Team: French (Canada) (http://www.transifex.com/open-edx/edx-platform/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -65,14 +65,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: cms/static/cms/js/main.js:38
-#: cms/static/js/views/active_video_upload_list.js:35
-#: cms/static/js/views/video_transcripts.js:33
-msgid ""
-"This may be happening because of an error with our server or your internet "
-"connection. Try refreshing the page or making sure you are online."
-msgstr "Cet incident vous affecte à cause d'une erreur sur notre serveur ou d'un problème de votre connexion internet. Essayez de rafraichir la page ou vérifiez que votre connexion est bien active."
 
 #: cms/static/cms/js/main.js:47
 msgid "Studio's having trouble saving your work"
@@ -119,6 +111,10 @@ msgstr "Oui, permettre l'édition de l'attestation active"
 msgid "certificate"
 msgstr "attestation"
 
+#: cms/static/js/certificates/views/certificate_preview.js:41
+msgid "Deactivating"
+msgstr "Désactiver"
+
 #: cms/static/js/certificates/views/certificates_list.js:18
 msgid "Set up your certificate"
 msgstr "Configurer votre attestation"
@@ -130,8 +126,8 @@ msgid "You have not created any certificates yet."
 msgstr "Vous n'avez pas encore créé d'attestation."
 
 #: cms/static/js/certificates/views/signatory_editor.js:133
-msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
-msgstr "Supprimer \"<%= signatoryName %>\" de la liste de signataires."
+msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
+msgstr "Supprimer \"<%- signatoryName %>\" de la liste des signataires?"
 
 #: cms/static/js/certificates/views/signatory_editor.js:136
 #: cms/static/js/views/course_info_update.js:237
@@ -140,17 +136,17 @@ msgstr "Cette action ne peut pas être annulée."
 
 #: cms/static/js/certificates/views/signatory_editor.js:142
 #: cms/static/js/views/course_info_update.js:248
-#: cms/static/js/views/list_item.js:62 cms/static/js/views/show_textbook.js:43
+#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
 #: cms/static/js/views/tabs.js:173
 #: cms/static/js/views/utils/xblock_utils.js:133
 msgid "Deleting"
 msgstr "Suppression en cours"
 
-#: cms/static/js/certificates/views/signatory_editor.js:174
+#: cms/static/js/certificates/views/signatory_editor.js:176
 msgid "Upload signature image."
 msgstr "Téléversez l'image de signature."
 
-#: cms/static/js/certificates/views/signatory_editor.js:175
+#: cms/static/js/certificates/views/signatory_editor.js:177
 msgid "Image must be in PNG format."
 msgstr "L'image doit être en format PNG."
 
@@ -285,7 +281,7 @@ msgstr "Relancer le cours"
 msgid "View Live"
 msgstr "Aperçu temps réel"
 
-#: cms/static/js/maintenance/force_publish_course.js:71
+#: cms/static/js/maintenance/force_publish_course.js:75
 msgid "Internal Server Error."
 msgstr "Erreur interne du serveur."
 
@@ -354,35 +350,35 @@ msgstr "Tous les groupes doivent avoir un nom."
 msgid "All groups must have a unique name."
 msgstr "Tous les groupes doivent avoir un nom unique."
 
-#: cms/static/js/models/settings/course_details.js:48
+#: cms/static/js/models/settings/course_details.js:51
 msgid "The course must have an assigned start date."
 msgstr "Le Cours doit avoir une date de départ renseignée."
 
-#: cms/static/js/models/settings/course_details.js:52
+#: cms/static/js/models/settings/course_details.js:55
 msgid "The course end date must be later than the course start date."
 msgstr "La date de fin du cours doit être postérieure à la date de début du cours."
 
-#: cms/static/js/models/settings/course_details.js:55
+#: cms/static/js/models/settings/course_details.js:60
 msgid "The course start date must be later than the enrollment start date."
 msgstr "La date de début du cours doit être plus tard que la date de début des inscriptions."
 
-#: cms/static/js/models/settings/course_details.js:58
+#: cms/static/js/models/settings/course_details.js:66
 msgid "The enrollment start date cannot be after the enrollment end date."
 msgstr " La date de début des inscriptions ne peut pas être postérieure à la date de fin des inscriptions."
 
-#: cms/static/js/models/settings/course_details.js:61
+#: cms/static/js/models/settings/course_details.js:70
 msgid "The enrollment end date cannot be after the course end date."
 msgstr "La date de fin des inscriptions ne peut pas être postérieure à la date de fin du cours."
 
-#: cms/static/js/models/settings/course_details.js:66
+#: cms/static/js/models/settings/course_details.js:75
 msgid "The certificate available date must be later than the course end date."
 msgstr "La date de disponibilité de l'attestation doit être postérieure à la date de fin des inscriptions."
 
-#: cms/static/js/models/settings/course_details.js:71
+#: cms/static/js/models/settings/course_details.js:80
 msgid "Key should only contain letters, numbers, _, or -"
 msgstr "Le code peut uniquement contenir des lettres, nombres, signes _ ou -"
 
-#: cms/static/js/models/settings/course_details.js:81
+#: cms/static/js/models/settings/course_details.js:91
 msgid "Please enter an integer between %(min)s and %(max)s."
 msgstr "S'il vous plaît entrer un entier entre %(min)s et %(max)s."
 
@@ -410,11 +406,11 @@ msgstr "Veuillez entrer un entier non négatif."
 msgid "Cannot drop more <%= types %> assignments than are assigned."
 msgstr "Impossible de déposer plus de <%= types %> qu'il n'est possible d'en assigner."
 
-#: cms/static/js/models/settings/course_grading_policy.js:68
+#: cms/static/js/models/settings/course_grading_policy.js:76
 msgid "Grace period must be specified in HH:MM format."
 msgstr "Le délai doit être au format HH:MM."
 
-#: cms/static/js/models/settings/course_grading_policy.js:78
+#: cms/static/js/models/settings/course_grading_policy.js:87
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr "Pas en mesure de fixer la note de passage à moins de %(minimum_grade_cutoff)s%."
 
@@ -500,18 +496,18 @@ msgstr ": téléversement vidéo terminé."
 msgid "Previous Uploads table has been updated."
 msgstr "Le tableau des téléchargements précédents a été mis à jour."
 
-#: cms/static/js/views/asset.js:50
+#: cms/static/js/views/asset.js:51
 msgid "Delete File Confirmation"
 msgstr "Confirmation de la suppression du fichier"
 
-#: cms/static/js/views/asset.js:51
+#: cms/static/js/views/asset.js:52
 msgid ""
 "Are you sure you wish to delete this item. It cannot be reversed!\n"
 "\n"
 "Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
 msgstr "Êtes vous sûr de vouloir supprimer cet élément ? L'opération est irréversible !\n\nTout contenu associé ne fonctionnera plus (par exemple : images et/ou liens cassés)"
 
-#: cms/static/js/views/asset.js:61
+#: cms/static/js/views/asset.js:62
 msgid "Your file has been deleted."
 msgstr "Votre fichier a été supprimé."
 
@@ -545,20 +541,24 @@ msgstr "Téléverser un nouveau fichier"
 msgid "Load Another File"
 msgstr "Envoyer un autre fichier"
 
-#: cms/static/js/views/components/add_xblock.js:66
+#: cms/static/js/views/components/add_xblock.js:70
 #: cms/static/js/views/utils/xblock_utils.js:51
 msgid "Adding"
 msgstr "Ajout"
+
+#: cms/static/js/views/container.js:146
+msgid "{startTag}{requestToken}{endTag}{selector}"
+msgstr "{startTag}{requestToken}{endTag}{selector}"
 
 #: cms/static/js/views/course_info_update.js:236
 msgid "Are you sure you want to delete this update?"
 msgstr "Êtes vous sur de vouloir supprimer cette mise à jour ?"
 
-#: cms/static/js/views/course_rerun.js:47
+#: cms/static/js/views/course_rerun.js:52
 msgid "Create Re-run"
 msgstr "Créer une relance"
 
-#: cms/static/js/views/course_rerun.js:53
+#: cms/static/js/views/course_rerun.js:59
 msgid "Processing Re-run Request"
 msgstr "Traitement de la demande de relance"
 
@@ -699,11 +699,11 @@ msgstr "Ajouter votre première configuration de groupe"
 msgid "You have not created any group configurations yet."
 msgstr "Vous n'avez pas encore créé de configuration de groupe."
 
-#: cms/static/js/views/instructor_info.js:74
+#: cms/static/js/views/instructor_info.js:77
 msgid "Upload instructor image."
 msgstr "Téléversez l'image de l'enseignant."
 
-#: cms/static/js/views/instructor_info.js:75
+#: cms/static/js/views/instructor_info.js:78
 #: cms/static/js/views/settings/main.js:445
 msgid "Files must be in JPEG or PNG format."
 msgstr "Les fichiers doivent être au format JPEG ou PNG."
@@ -772,12 +772,12 @@ msgid ""
 msgstr "Permettre à d'autres de distribuer des oeuvres dérivées sous un contrat identique à la licence qui régit votre oeuvre. Cette option est incompatible avec \"Pas  de dérivés\"."
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
-#: cms/static/js/views/list_item.js:50
+#: cms/static/js/views/list_item.js:51
 msgid "Delete this %(item_display_name)s?"
 msgstr "Supprimer ce %(item_display_name)s?"
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
-#: cms/static/js/views/list_item.js:55
+#: cms/static/js/views/list_item.js:56
 msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
 msgstr "Supprimer ce %(item_display_name)s est permanent et ne peut être annulé."
 
@@ -855,15 +855,15 @@ msgstr "Activer"
 msgid "Not yet"
 msgstr "Pas encore"
 
-#: cms/static/js/views/modals/course_outline_modals.js:744
+#: cms/static/js/views/modals/course_outline_modals.js:759
 msgid "All Learners and Staff"
 msgstr "Tous les apprenants et membres de l'équipe pédagogique"
 
-#: cms/static/js/views/modals/course_outline_modals.js:1050
+#: cms/static/js/views/modals/course_outline_modals.js:1065
 msgid "Basic"
 msgstr "Basique"
 
-#: cms/static/js/views/modals/course_outline_modals.js:1055
+#: cms/static/js/views/modals/course_outline_modals.js:1070
 msgid "Visibility"
 msgstr "Visibilité"
 
@@ -1074,17 +1074,17 @@ msgid ""
 "that uses a previously uploaded video ID continues to display in the course."
 msgstr "La suppression d'une vidéo de cette liste n'affecte pas le contenu du cours. Tout contenu qui utilise un ID vidéo précédemment téléchargé continue à s'afficher dans le cours."
 
-#: cms/static/js/views/settings/advanced.js:68
+#: cms/static/js/views/settings/advanced.js:69
 msgid ""
 "Your changes will not take effect until you save your progress. Take care "
 "with key and value formatting, as validation is not implemented."
 msgstr "Vos modifications ne prendront pas effet tant que vous n'aurez pas enregistré. La validation n'ayant pas été implémentée, faites attention au formatage des clés et des valeurs."
 
-#: cms/static/js/views/settings/advanced.js:117
+#: cms/static/js/views/settings/advanced.js:140
 msgid "Your policy changes have been saved."
 msgstr "Les changements de règles ont été enregistrés."
 
-#: cms/static/js/views/settings/advanced.js:118
+#: cms/static/js/views/settings/advanced.js:141
 msgid ""
 "No validation is performed on policy keys or value pairs. If you are having "
 "difficulties, check your formatting."
@@ -1142,25 +1142,25 @@ msgid ""
 "Are you sure you want to delete this page? This action cannot be undone."
 msgstr "Êtes-vous sûr de vouloir supprimer cette page ? Cette action ne peut pas être annulée."
 
-#: cms/static/js/views/uploads.js:27
+#: cms/static/js/views/uploads.js:29
 msgid "Upload"
 msgstr "Téléversez"
 
-#: cms/static/js/views/uploads.js:119
+#: cms/static/js/views/uploads.js:121
 msgid "We're sorry, there was an error"
 msgstr "Désolé, il y a eu une erreur"
 
 #: cms/static/js/views/utils/create_course_utils.js:8
 msgid ""
 "The combined length of the organization, course number, and course run "
-"fields cannot be more than <%=limit%> characters."
-msgstr "La longueur combinée des champs organisation, numéro de cours et session ne peut être plus grande que <%=limit%> caractères."
+"fields cannot be more than <%- limit %> characters."
+msgstr "La longueur combinée des champs organisation, numéro de cours et session ne peut être plus grande que <%- limit %> caractères."
 
 #: cms/static/js/views/utils/create_library_utils.js:8
 msgid ""
 "The combined length of the organization and library code fields cannot be "
-"more than <%=limit%> characters."
-msgstr "La longueur totale des champs organisation et codes de bibliothèque ne doit pas dépasser <%=limit%> caractères."
+"more than <%- limit %> characters."
+msgstr "La longueur combinée des champs organisation et codes de bibliothèque ne doit pas dépasser <%- limit %> caractères."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:32
 msgid "Success! \"{displayName}\" has been moved."
@@ -1248,24 +1248,24 @@ msgstr "Corrigez en premier les erreurs de cette page, puis sauvegardez."
 msgid "Save Changes"
 msgstr "Enregistrer les modifications"
 
-#: cms/static/js/views/video/transcripts/file_uploader.js:113
+#: cms/static/js/views/video/transcripts/file_uploader.js:114
 msgid "Please select a file in .srt format."
 msgstr "Sélectionner un fichier au format .srt."
 
-#: cms/static/js/views/video/transcripts/file_uploader.js:191
+#: cms/static/js/views/video/transcripts/file_uploader.js:193
 msgid "Error: Uploading failed."
 msgstr "Erreur : Le téléversement a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:146
+#: cms/static/js/views/video/transcripts/message_manager.js:141
 msgid "Error: Import failed."
 msgstr "Erreur : L'import a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:160
+#: cms/static/js/views/video/transcripts/message_manager.js:155
 msgid "Error: Replacing failed."
 msgstr "Erreur : Le remplacement a échoué."
 
-#: cms/static/js/views/video/transcripts/message_manager.js:176
-#: cms/static/js/views/video/transcripts/message_manager.js:190
+#: cms/static/js/views/video/transcripts/message_manager.js:171
+#: cms/static/js/views/video/transcripts/message_manager.js:185
 msgid "Error: Choosing failed."
 msgstr "Erreur : La sélection a échoué."
 
@@ -1291,22 +1291,22 @@ msgid ""
 "check the format and try again."
 msgstr "Désolé, une erreur s'est produite lors de l'analyse des sous-titres. Vérifiez le format et réessayez."
 
-#: cms/static/js/views/video/translations_editor.js:168
+#: cms/static/js/views/video/translations_editor.js:171
 #: cms/static/js/views/video_transcripts.js:268
 msgid "Are you sure you want to remove this transcript?"
 msgstr "Êtes-vous sûr de vouloir supprimer cette transcription?"
 
-#: cms/static/js/views/video/translations_editor.js:169
+#: cms/static/js/views/video/translations_editor.js:172
 msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
 msgstr "Si vous supprimez cette transcription, cette transcription ne sera plus disponible pour ce composant."
 
-#: cms/static/js/views/video/translations_editor.js:170
+#: cms/static/js/views/video/translations_editor.js:173
 msgid "Remove Transcript"
 msgstr "Supprimer la transcription"
 
-#: cms/static/js/views/video/translations_editor.js:221
+#: cms/static/js/views/video/translations_editor.js:224
 msgid "Upload translation"
 msgstr "Téléversez une traduction"
 
