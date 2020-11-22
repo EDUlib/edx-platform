@@ -12263,3 +12263,72 @@ msgstr ""
 "par EDUlib. Cela inclut l'accès à edulib.org depuis le système de votre "
 "employeur ou de votre université et l'accès à des sites privés offerts par "
 "MIT Open Learning, Wharton Executive Education et Harvard Medical School."
+
+#: lms/templates/commerce/provider.underscore:4
+#, python-format
+msgid ""
+"You still need to visit the %(display_name)s website to complete the credit "
+"process."
+msgstr "Vous devez encore visiter le site web de %(display_name)s afinn de compléter le processus de crédit."
+
+#: lms/templates/commerce/provider.underscore:10
+#, python-format
+msgid ""
+"To finalize course credit, %(display_name)s requires %(platform_name)s "
+"learners to submit a credit request."
+msgstr "Pour finaliser l'obtention de crédit de cours, %(display_name)s demande aux apprenants de %(platform_name)s de soumettre une demande de crédit."
+
+#: lms/templates/commerce/provider.underscore:25
+msgid "Get Credit"
+msgstr "Obtenir un crédit"
+
+#: lms/templates/commerce/receipt.underscore:5
+#, python-format
+msgid ""
+"Thank you %(full_name)s! We have received your payment for %(course_name)s."
+msgstr "Merci %(full_name)s! Nous avons reçu votre paiement pour %(course_name)s."
+
+#: lms/templates/commerce/receipt.underscore:15
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr "Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous recevrez également un courriel avec les mêmes informations."
+
+#: lms/templates/commerce/receipt.underscore:22
+msgid "Order No."
+msgstr "Commande N°"
+
+#: lms/templates/commerce/receipt.underscore:25
+msgid "Amount"
+msgstr "Montant"
+
+#: lms/templates/commerce/receipt.underscore:61
+msgid "Please Note"
+msgstr "Veuillez noter"
+
+#: lms/templates/commerce/receipt.underscore:63
+msgid "Crossed out items have been refunded."
+msgstr "Les éléments barrés ont été remboursés."
+
+#: lms/templates/commerce/receipt.underscore:71
+msgid "Billed to"
+msgstr "Facturé à"
+
+#: lms/templates/commerce/receipt.underscore:87
+msgid "No receipt available"
+msgstr "Pas de reçu disponible"
+
+#: lms/templates/commerce/receipt.underscore:94
+msgid ""
+"If you don't verify your identity now, you can still explore your course "
+"from your dashboard. You will receive periodic reminders from {platformName}"
+" to verify your identity."
+msgstr "Si vous ne vérifiez pas votre identité maintenant, vous pouvez toujours parcourir votre cours depuis votre tableau de bord. Vous recevrez des rappels régulier de {platformName} afin de vérifier votre identité."
+
+#: lms/templates/commerce/receipt.underscore:95
+msgid "Want to confirm your identity later?"
+msgstr "Voulez-vous confirmer votre identité plus tard?"
+
+#: lms/templates/commerce/receipt.underscore:102
+msgid "Verify Now"
+msgstr "Vérifier Maintenant"
