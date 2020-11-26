@@ -5,14 +5,7 @@
   var django = globals.django || (globals.django = {});
 
   
-  django.pluralidx = function(n) {
-    var v=(n > 1);
-    if (typeof(v) == 'boolean') {
-      return v ? 1 : 0;
-    } else {
-      return v;
-    }
-  };
+  django.pluralidx = function(count) { return (count == 1) ? 0 : 1; };
   
 
   /* gettext library */
@@ -531,6 +524,7 @@
     "Components": "Composants",
     "Configure": "Configurer",
     "Confirm": "Confirmer",
+    "Confirm Password": "Confirmer le mot de passe",
     "Confirm Timed Transcript": "Confirmer la transcription synchronis\u00e9e",
     "Congratulations!": "F\u00e9licitations!",
     "Congratulations! You are now verified on %(platformName)s!": "F\u00e9licitations! Votre identit\u00e9 est maintenant v\u00e9rifi\u00e9 sur %(platformName)s!",
@@ -774,6 +768,7 @@
     "Enter Start Date and Time": "Entrez la date et heure de d\u00e9but",
     "Enter a student's username or email address.": "Entrez un nom d'utilisateur et une adresse courriel.",
     "Enter a username or email.": "Entrez un nom d'utilisateur ou un courriel",
+    "Enter and confirm your new password.": "Saisir et confirmer votre nouveau mot de passe.",
     "Enter email addresses and/or usernames, separated by new lines or commas, for the learners you want to add. *": "Entrez les adresses \u00e9lectroniques et / ou les noms d'utilisateurs , s\u00e9par\u00e9s par des retours \u00e0 la ligne ou des virgules, pour les apprenants que vous voulez ajouter. *",
     "Enter information to describe your team. You cannot change these details after you create the team.": "Entrez l'information afin de d\u00e9crire votre \u00e9quipe. Vous ne pouvez pas changer ces d\u00e9tails apr\u00e8s la cr\u00e9ation de l'\u00e9quipe.",
     "Enter some details for your support request.": "Entrez quelques d\u00e9tails pour votre demande d'assistance.",
@@ -921,6 +916,9 @@
     "Grace period must be specified in HH:MM format.": "Le d\u00e9lai doit \u00eatre au format HH:MM.",
     "Grade": "Note",
     "Grade as:": "Noter comme : ",
+    "Grade must be a number.": "La note doit \u00eatre un nombre.",
+    "Grade must be an integer.": "La note doit \u00eatre un entier.",
+    "Grade must be positive.": "La note doit \u00eatre positive.",
     "Graded as:": "Not\u00e9 comme\u00a0: ",
     "Grading": "\u00c9valuation",
     "Group": "Groupe",
@@ -1171,6 +1169,7 @@
     "Max file size exceeded": "Taille maximale de fichier d\u00e9pass\u00e9e",
     "Maximum": "Maximum",
     "Maximum file size: {maxFileSize} GB": "Taille maximum du fichier : {maxFileSize} Go",
+    "Maximum score is %(max_score)s": "Le r\u00e9sultat maximum est %(max_score)s",
     "May": "Mai",
     "Membership": "Inscription",
     "Merge cells": "Fusionner les cellules",
@@ -1229,6 +1228,7 @@
     "No color": "Pas de couleur",
     "No content-specific discussion topics exist.": "Aucun contenu sp\u00e9cifique des sujets de discussion n'existe.",
     "No description available": "Aucune description disponible",
+    "No grade to remove.": "Aucune note \u00e0 supprimer.",
     "No posts matched your query.": "Aucun message ne correspond \u00e0 votre requ\u00eate.",
     "No prerequisite": "Pas de pr\u00e9-requis",
     "No receipt available": "Pas de re\u00e7u disponible",
@@ -1513,6 +1513,7 @@
     "Required": "Requis",
     "Required field.": "Champ requis.",
     "Rescore problem '<%- problem_id %>' for all students?": "Recalculer le score du probl\u00e8me '<%- problem_id %>' pour tous les \u00e9tudiants?",
+    "Reset My Password": "R\u00e9initialiser mon mot de passe",
     "Reset Password": "R\u00e9initialiser le mot de passe",
     "Reset Your Password": "R\u00e9initialiser votre mot de passe",
     "Reset attempts for all students on problem '<%- problem_id %>'?": "R\u00e9initialiser les tentatives de tous les \u00e9tudiants pour le probl\u00e8me '<%- problem_id %>'?",
@@ -1816,6 +1817,7 @@
     "The file could not be uploaded.": "Le fichier n'a pu \u00eatre t\u00e9l\u00e9charg\u00e9.",
     "The file must be at least {size} in size.": "Le fichier doit avoir une taille sup\u00e9rieure \u00e0 {size}.",
     "The file must be smaller than {size} in size.": "Le fichier doit avoir une taille inf\u00e9rieure \u00e0 {size}.",
+    "The file you are trying to upload is too large.": "Le fichier que vous essayez de t\u00e9l\u00e9charger est trop gros.",
     "The following email addresses and/or usernames are invalid:": "Les adresses courriels et/ou noms d'utilisateurs suivants sont invalides : ",
     "The following errors were generated:": "Les erreurs suivantes ont \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es : ",
     "The following file types are not allowed: ": "Les formats de fichiers suivants ne sont pas permis : ",
@@ -1874,6 +1876,7 @@
     "There was an error obtaining email task history for this course.": "Une erreur est survenue lors de l'obtention de l'historique des t\u00e2ches de courriel pour ce cours.",
     "There was an error retrieving preview results for this catalog. Please check that your query is correct and try again.": "Il y a eu une erreur lors de la r\u00e9cup\u00e9ration de l'aper\u00e7u des r\u00e9sultats pour ce catalogue. Veuillez v\u00e9rifier que votre requ\u00eate est correcte et essayer de nouveau.",
     "There was an error updating your goal.": "Une erreur est survenue en mettant \u00e0 jour votre objectif.",
+    "There was an error uploading your file.": "Une erreur s'est produite lors du t\u00e9l\u00e9chargement de votre fichier.",
     "There was an error when trying to add learners:": [
       "Un probl\u00e8me est survenu en tentant d'ajouter les apprenants :",
       "{numErrors} apprenants n'ont pas pu \u00eatre ajout\u00e9s \u00e0 cette cohorte :"
@@ -2078,6 +2081,7 @@
     "Upgrade to Verified": "Demander une attestation",
     "Upgrade to a Verified Certificate for {courseName}": "Mettre \u00e0 jour \u00e0 une attestation v\u00e9rifi\u00e9e pour {courseName}",
     "Upload": "T\u00e9l\u00e9versez",
+    "Upload %(file_name)s": "T\u00e9l\u00e9charger %(file_name)s",
     "Upload File": "T\u00e9l\u00e9verser un fichier",
     "Upload File and Assign Students": "T\u00e9l\u00e9verser le fichier et associer les \u00e9tudiants",
     "Upload Memberships": "T\u00e9l\u00e9charger les inscriptions",
@@ -2107,6 +2111,8 @@
     "Upload your video thumbnail image.": "T\u00e9l\u00e9versez votre image de vignette vid\u00e9o.",
     "Uploaded file issues. Click on \"+\" to view.": "Liste des fichiers envoy\u00e9s. Cliquez sur \"+\" pour voir.",
     "Uploading": "T\u00e9l\u00e9versement en cours",
+    "Uploading...": "T\u00e9l\u00e9chargement...",
+    "Uploading... %(percent)s %": "T\u00e9l\u00e9chargement... %(percent)s %",
     "Upper Alpha": "Capitales alphanum\u00e9riques",
     "Upper Roman": "Capitale Romain",
     "Upset Learner": "Apprenant Fach\u00e9",
