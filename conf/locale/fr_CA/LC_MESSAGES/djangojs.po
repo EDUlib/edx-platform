@@ -5326,13 +5326,8 @@ msgstr "Impossible de changer la note du problème pour l'utilisateur {user}."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:93
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
-#, fuzzy
 msgid "Enter and confirm your new password."
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Saisir et confirmer votre nouveau mot de passe.\n"
-"#-#-#-#-#  localjs.po (0.1a)  #-#-#-#-#\n"
-"Entrer et confirmer votre nouveau mot de passe."
+msgstr "Saisir et confirmer votre nouveau mot de passe."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:99
 msgid "New Password"
@@ -5340,13 +5335,8 @@ msgstr "Nouveau mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:108
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
-#, fuzzy
 msgid "Confirm Password"
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Confirmer le mot de passe\n"
-"#-#-#-#-#  localjs.po (0.1a)  #-#-#-#-#\n"
-"Confirmer votre mot de passe"
+msgstr "Confirmer le mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:111
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
@@ -5355,13 +5345,8 @@ msgstr "Les mots de passe ne correspondent pas."
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:142
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:
-#, fuzzy
 msgid "Reset My Password"
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Réinitialiser mon mot de passe\n"
-"#-#-#-#-#  localjs.po (0.1a)  #-#-#-#-#\n"
-"Réinitaliser mon mot de passe"
+msgstr "Réinitialiser mon mot de passe"
 
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx:143
 #: lms/static/js/student_account/views/account_settings_factory.js:163
