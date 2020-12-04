@@ -2699,7 +2699,7 @@ msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:54
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:120
 msgid "Notify users by email"
-msgstr "Avertir les utilisateurs par courriels"
+msgstr "Avertir les utilisateurs par courriel"
 
 #: lms/templates/ccx/enrollment.html:48
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:58
