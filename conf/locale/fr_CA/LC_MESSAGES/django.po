@@ -20334,7 +20334,7 @@ msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
 msgstr ""
-"Pour le problème spécifié, supprimer indéfiniment et complètement les "
+"Pour le problème spécifié, supprimer définitivement et complètement les "
 "réponses et les points de l'apprenant de la base de données."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:125
@@ -20405,7 +20405,7 @@ msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
 msgstr ""
-"Pour la totalité de l'examen d'entrée, supprimer indéfiniment et "
+"Pour la totalité de l'examen d'entrée, supprimer définitivement et "
 "complètement les réponses et les points de l'apprenant de la base de données."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:183
