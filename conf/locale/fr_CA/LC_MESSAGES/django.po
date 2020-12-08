@@ -17047,7 +17047,7 @@ msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:54
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:120
 msgid "Notify users by email"
-msgstr "Avertir les utilisateurs par courriels"
+msgstr "Avertir les utilisateurs par courriel"
 
 #: lms/templates/ccx/enrollment.html:48
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:58
@@ -21527,7 +21527,7 @@ msgid ""
 "For the specified problem, permanently and completely delete the learner's "
 "answers and scores from the database."
 msgstr ""
-"Pour le problème spécifié, supprimer indéfiniment et complètement les "
+"Pour le problème spécifié, supprimer définitivement et complètement les "
 "réponses et les points de l'apprenant de la base de données."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:125
@@ -21598,7 +21598,7 @@ msgid ""
 "For the entire entrance exam, permanently and completely delete the "
 "learner's answers and scores from the database."
 msgstr ""
-"Pour la totalité de l'examen d'entrée, supprimer indéfiniment et "
+"Pour la totalité de l'examen d'entrée, supprimer définitivement et "
 "complètement les réponses et les points de l'apprenant de la base de données."
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:183
