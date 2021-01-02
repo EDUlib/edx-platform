@@ -5824,7 +5824,7 @@ msgid ""
 "at:"
 msgstr ""
 "Ce message confirme que vous avez modifié l'adresse courriel associée avec "
-"%(platform_name)sdepuis %(old_email)svers %(new_email)s. Si vous n'avez pas "
+"%(platform_name)s depuis %(old_email)s vers %(new_email)s. Si vous n'avez pas "
 "demandé ce changement, merci de nous contacter immédiatement. Les "
 "informations de contact se trouvent sur : "
 
